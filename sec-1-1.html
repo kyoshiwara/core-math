@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Halves and Quarters</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Core Mathematics">
+<meta property="book:author" content="Me">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Core Mathematics</span></a></h1>
+<p class="byline">Me</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="ch1.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch1.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-1-2.html" title="Next">Next</a></span>
+</div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch1.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch1.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-1-2.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="dedication-1.html" data-scroll="dedication-1" class="internal">Dedication</a></li>
+<li><a href="acknowledgement-1.html" data-scroll="acknowledgement-1" class="internal">Acknowledgements</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+<li><a href="preface-2.html" data-scroll="preface-2" class="internal">Not just that..</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Chapter 1 Preliminary Ideas</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="active">Halves and Quarters</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Tenths and Hundredths</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Whole Numbers</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Angles and Triangles</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Perimeter and Area</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Chapter 2 Numbers and Variables</span></a><ul><li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Decimal Numbers</a></li></ul>
+</li>
+<li class="link backmatter"><a href="meta_backmatter.html" data-scroll="meta_backmatter" class="internal"><span class="title">Backmatter</span></a></li>
+<li class="link"><a href="solutions-1.html" data-scroll="solutions-1" class="internal"><span class="codenumber">A</span> <span class="title">Selected Hints</span></a></li>
+<li class="link"><a href="solutions-2.html" data-scroll="solutions-2" class="internal"><span class="codenumber">B</span> <span class="title">Selected Solutions</span></a></li>
+<li class="link"><a href="appendix-1.html" data-scroll="appendix-1" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></li>
+<li class="link"><a href="index-1.html" data-scroll="index-1" class="internal"><span class="title">Index</span></a></li>
+<li class="link"><a href="colophon-2.html" data-scroll="colophon-2" class="internal"><span class="title">Colophon</span></a></li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-1-1"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.1</span> <span class="title">Halves and Quarters</span>
+</h2>
+<section class="subsection" id="subsection-1"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.1</span> <span class="title">One-Half</span>
+</h3>
+<p id="p-6">The most familiar fraction is <span class="process-math">\(\large{\blert{\text{one-half}}}~~~\text{,}\)</span> or <span class="process-math">\(\large{\blert{\dfrac{1}{2}}}.\)</span></p>
+<div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/half.png" class="contained"></div>
+<p id="p-7">To find one-half of something, we divide it into <span class="process-math">\(\large{\blert{2}}~\blert{\text{equal}}~~\)</span> pieces and take <span class="process-math">\(\large{\blert{1}}\)</span> of them.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\large{\dfrac{1}{2}}~~~~~~ \text{means}~~~~~~ \dfrac{\text{take}~~~ \large{1}~~ \text{piece}}{\text{from} ~~~ \large{2}~~ \text{equal pieces}}
+\end{equation*}
+</div>
+<p id="p-8">If we have a group of objects, we separate them into <span class="process-math">\(\large{\blert{2}}~~\blert{\text{equal}}~~\)</span> groups and take <span class="process-math">\(\large{\blert{1}}\)</span> group.  Each group is a part of the whole.  We write this as a fraction like this:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\frac{\text{number of objects in the}~\blert{\text{part}}}{\text{number of objects in the}~\blert{\text{whole}}},~~~~\text{or just}~~~~\frac{\large{\blert{\text{part}}}}{\large{\blert{\text{whole}}}}
+\end{equation*}
+</div>
+<article class="example example-like" id="example-1"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span>
+</h4>
+<ol id="p-9" class="lower-alpha">
+<li id="li-1">
+<p id="p-10"><span class="process-math">\({\dfrac{1}{2}}\)</span> of a dozen eggs (12 eggs) <span class="process-math">\(=\)</span> 6 eggs</p>
+<div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/eggs.png" class="contained" alt="eggs"></div>
+<span class="process-math">\(~~~~~~~~~~~~~~~~~~\blert{\text{A whole dozen is 12 eggs.}~~~~~~~~~~~~\text{Our part is 6 eggs:} ~~\dfrac{6}{12}}\)</span><div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\frac{\text{part}}{\text{whole}} = \large{\dfrac{6}{12}} = \large{\dfrac{1}{2}}~~~~~~~~~~~~~~~
+\end{equation*}
+</div>
+</li>
+<li id="li-2">
+<p id="p-11"><span class="process-math">\({\dfrac{1}{2}}\)</span> of an hour (60 minutes) <span class="process-math">\(=\)</span> 30 minutes</p>
+<div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/clocks.png" class="contained" alt="clocks"></div>
+<span class="process-math">\(~~~~~~~~~~~~~~~~~~\blert{\text{A whole hour is 60 minutes.}~~~~~~~~~~\text{Our part is 30 minutes:} ~~\dfrac{30}{60}}\)</span><div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\frac{\text{part}}{\text{whole}} = \large{\dfrac{30}{60}} = \large{\dfrac{1}{2}}~~~~~~~~~~~~~~~
+\end{equation*}
+</div>
+</li>
+</ol></article></section><section class="subsection" id="subsection-2"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.2</span> <span class="title">Other Ways to Write One-Half</span>
+</h3>
+<p id="p-12">From the Example above, we see that <span class="process-math">\({\dfrac{6}{12}}\)</span> and <span class="process-math">\({\dfrac{30}{60}}\)</span> are different ways to write <span class="process-math">\({\dfrac{1}{2}}\text{.}\)</span>  Here are some more ways: <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/halves.png" class="contained" alt="eggs"></div></p>
+<span class="process-math">\(~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\blert{\dfrac{2}{4}~~~~~~~~~~~~~~~~~~~~~~~~~~~~\dfrac{3}{6}~~~~~~~~~~~~~~~~~~~~~~~~~~~~\dfrac{4}{8}}\)</span><article class="exercise exercise-like" id="exercise-1"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span>
+</h4>
+<p id="p-13">Write fractions that are equal to <span class="process-math">\({\dfrac{1}{2}}\text{.}\)</span></p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\large{\dfrac{1}{2}}:~~~~~~~~\large{\dfrac{?}{16}}~~~~~~~~\large{\dfrac{?}{24}}~~~~~~~~\large{\dfrac{9}{?}}~~~~~~~~\large{\dfrac{25}{?}}~~~~~~~~\large{\dfrac{?}{72}}~~~~~~~~\large{\dfrac{50}{?}}
+\end{equation*}
+</div>
+<p id="p-14">Did you notice: To find the "part" of each fraction, we <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> the "whole" by <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>.</p></article><p id="p-15">Now that you know some different ways to represent <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> we can compare other fractions to <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span></p>
+<article class="activity project-like" id="activity-1"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span>
+</h4>
+<p id="p-16">Write a fraction for each story, then decide whether the fraction is:</p>
+<ol class="lower-alpha">
+<li id="li-3"><p id="p-derived-li-3">equal to one-half,</p></li>
+<li id="li-4"><p id="p-derived-li-4">less than one-half, or</p></li>
+<li id="li-5"><p id="p-derived-li-5">more than one-half.</p></li>
+</ol>
+<ol id="p-17" class="decimal">
+<li id="li-6">
+<p id="p-18">Greta used a yardstick to measure a picture frame that is 20 inches wide. What fraction of a yard is that? (A yard is 36 inches.) <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Whole</td>
+<td class="c m b1 r1 l0 t1 lines">Part</td>
+<td class="c m b1 r1 l0 t1 lines">Fraction Described in the Story</td>
+<td class="c m b1 r1 l0 t1 lines">Fraction for One-Half</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></div></div></p>
+<p id="p-19">The fraction described in the story is <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> one-half.</p>
+</li>
+<li id="li-7">
+<p id="p-20">Josh is taking an 18-day course of antibiotics.  What fraction of a month (30 days) is that? <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Whole</td>
+<td class="c m b1 r1 l0 t1 lines">Part</td>
+<td class="c m b1 r1 l0 t1 lines">Fraction Described in the Story</td>
+<td class="c m b1 r1 l0 t1 lines">Fraction for One-Half</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></div></div></p>
+<p id="p-21">The fraction described in the story is <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> one-half.</p>
+</li>
+<li id="li-8">
+<p id="p-22">Carol swam 660 yards today. What fraction of a mile is that? (A mile is 1760 yards.) <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Whole</td>
+<td class="c m b1 r1 l0 t1 lines">Part</td>
+<td class="c m b1 r1 l0 t1 lines">Fraction Described in the Story</td>
+<td class="c m b1 r1 l0 t1 lines">Fraction for One-Half</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></div></div></p>
+<p id="p-23">The fraction described in the story is <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> one-half.</p>
+</li>
+<li id="li-9">
+<p id="p-24">Noah's paycheck was $256. He deposited $128 in his savings account. What fraction of his paycheck was that? <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Whole</td>
+<td class="c m b1 r1 l0 t1 lines">Part</td>
+<td class="c m b1 r1 l0 t1 lines">Fraction Described in the Story</td>
+<td class="c m b1 r1 l0 t1 lines">Fraction for One-Half</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></div></div></p>
+<p id="p-25">The fraction described in the story is <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> one-half.</p>
+</li>
+</ol></article></section><section class="subsection" id="subsection-3"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.3</span> <span class="title">Fourths</span>
+</h3>
+<p id="p-26">If we divide one whole into four parts, each part is <span class="process-math">\(\large{\blert{\text{one-fourth}}}~~~\)</span> of the whole.</p>
+<article class="example example-like" id="example-2"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span>
+</h4>
+<p id="p-27">If you take one-half of half a pizza, what fraction of the pizza do you have? <div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/fourth.png" class="contained"></div></p>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-1" id="solution-1"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-1"><div class="solution solution-like"><p id="p-28">You have one-fourth of the pizza, or <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> because your piece is <span class="process-math">\(1\)</span> of <span class="process-math">\(4\)</span> equal pieces that make up the whole pizza.  Because there are <span class="process-math">\(4\)</span> fourths in a whole pizza, after you take your piece, there are <span class="process-math">\(3\)</span> fourths, or <span class="process-math">\(\dfrac{3}{4}\)</span> of a pizza left.</p></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-2"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span>
+</h4>
+<ol id="p-29" class="lower-alpha">
+<li id="li-10"><p id="p-30">Explain how you know that one-fourth of the grid is shaded. <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/gridfourth.png" class="contained"></div></p></li>
+<li id="li-11">
+<p id="p-31">How many squares are in the whole grid?</p>
+<p id="p-32">How many squares are in one-fourth of the grid?</p>
+<p id="p-33">How many squares are in three-fourths of the grid?</p>
+</li>
+</ol></article><article class="note remark-like" id="note-1"><h4 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="period">.</span>
+</h4>
+<p id="p-34">One-fourth is also called <span class="process-math">\(\large{\blert{\text{one quarter}}}~~~~\text{.}\)</span>  (How many quarters are there in one dollar?) <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/dollar.png" class="contained"></div></p></article><article class="activity project-like" id="activity-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span>
+</h4>
+<p id="p-35">Show your work for each calculation.</p>
+<ol class="lower-alpha">
+<li id="li-12"><p id="p-derived-li-12">Find one-fourth of the amount by taking one-half of one-half.</p></li>
+<li id="li-13"><p id="p-derived-li-13">Find three-fourths of the amount by subtracting one-fourth from the whole.</p></li>
+<li id="li-14"><p id="p-derived-li-14">Find three-fourths of the amount by multiplying one-fourth by three. Are your answers to parts (b) and (c) the same?</p></li>
+</ol>
+<ol id="p-36" class="decimal">
+<li id="li-15">
+<p id="p-37">Norman's monthly salary is $3600. He deposits one-fourth of his salary in his savings account, and the rest in his checking account.</p>
+<ol id="p-38" class="lower-alpha">
+<li id="li-16"><p id="p-39"></p></li>
+<li id="li-17"><p id="p-40"></p></li>
+<li id="li-18"><p id="p-41"></p></li>
+</ol>
+</li>
+<li id="li-19">
+<p id="p-42">Jaycee owns a ranch of 3000 acres.  She plans to grow corn on one-fourth of her land and raise cattle on the rest.</p>
+<ol id="p-43" class="lower-alpha">
+<li id="li-20"><p id="p-44"></p></li>
+<li id="li-21"><p id="p-45"></p></li>
+<li id="li-22"><p id="p-46"></p></li>
+</ol>
+</li>
+<li id="li-23">
+<p id="p-47">Rich is on a diet that allows 2100 calories per day. He consumes one-quarter of his calories at breakfast, and the rest throughout the day.</p>
+<ol id="p-48" class="lower-alpha">
+<li id="li-24"><p id="p-49"></p></li>
+<li id="li-25"><p id="p-50"></p></li>
+<li id="li-26"><p id="p-51"></p></li>
+</ol>
+</li>
+<li id="li-27">
+<p id="p-52">Caroline drove one-quarter of a 900-mile trip today. How far did she drive, and how far does she have left to go?</p>
+<ol id="p-53" class="lower-alpha">
+<li id="li-28"><p id="p-54"></p></li>
+<li id="li-29"><p id="p-55"></p></li>
+<li id="li-30"><p id="p-56"></p></li>
+</ol>
+</li>
+</ol></article></section><section class="subsection" id="subsection-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.4</span> <span class="title">Other Ways to Write Fourths</span>
+</h3>
+<p id="p-57">Earlier we saw that we can write one-half in many different ways. For example,</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\large{\blert{\dfrac{1}{2}=\dfrac{3}{6}=\dfrac{4}{8}}}
+\end{equation*}
+</div>
+<p class="continuation">We can also write one-fourth and three-fourths in different ways.</p>
+<article class="example example-like" id="example-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="period">.</span>
+</h4>
+<ol id="p-58" class="lower-alpha">
+<li id="li-31">
+<p id="p-59"><span class="process-math">\(\dfrac{1}{2}\)</span> of a dozen eggs (12 eggs) <span class="process-math">\(=\)</span> 3 eggs</p>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/three-eggs.png" class="contained" alt="clocks"></div>
+<span class="process-math">\(~~~~~~~~~~~~~~~~~~~~\blert{\text{A whole dozen is 12 eggs.}~~~~~~~~\text{Our part is 3 eggs:} ~~\dfrac{3}{12}}\)</span>
+</li>
+<li id="li-32">
+<p id="p-60"><span class="process-math">\({\dfrac{3}{4}}\)</span> of an hour (60 minutes) <span class="process-math">\(=\)</span> 45 minutes</p>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/clocks2.png" class="contained" alt="clocks"></div>
+<span class="process-math">\(~~~~~~~~~~~~~~~~~~~~\blert{\text{A whole hour is 60 minutes.}~~~~~~~~\text{Our part is 45 minutes:} ~~\dfrac{45}{60}}\)</span><div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\frac{\text{part}}{\text{whole}} = \large{\dfrac{45}{60}} = \large{\dfrac{3}{4}}~~~~~~~~~~~~~~~
+\end{equation*}
+</div>
+</li>
+</ol></article><p id="p-61">When we write a fraction, the number that gives the "part" (the top) is called the <dfn class="terminology">numerator</dfn>, and the number that gives the "whole" (the bottom) is called the <dfn class="terminology">denominator</dfn>. For example, in the fraction <span class="process-math">\(\dfrac{15}{60}\text{,}\)</span> the numerator is 15 and the denominator is 60.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\frac{\text{part}}{\text{whole}} = \large{\dfrac{15}{60}} = \large{\alert{\dfrac{\text{numerator}}{\text{denominator}}}}
+\end{equation*}
+</div>
+<article class="assemblage assemblage-like" id="assemblage-1"><h4 class="heading"><span class="title">Definition.</span></h4>
+<p id="p-62">The <dfn class="terminology">denominator</dfn> of a fraction (the bottom) tells us how many pieces are in one whole. The <dfn class="terminology">numerator</dfn> (the top) tells us how many pieces are in the part.</p></article><article class="note remark-like" id="note-2"><h4 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">1.1.7</span><span class="period">.</span>
+</h4>
+<p id="p-63">Although it has a different numerator and denominator, the fraction <span class="process-math">\(\dfrac{15}{60}\)</span> is the same as <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span>  because 15 pieces are one-fourth of 60 pieces. Both fractions give the same portion of one whole. <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/gridsixty.png" class="contained" alt="grid-fourth"></div></p></article><article class="exercise exercise-like" id="exercise-3"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="period">.</span>
+</h4>
+<p id="p-64">Shade one-fourth of the grid. Then write <span class="process-math">\(\dfrac{1}{4}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> with the denominator for the whole grid.</p>
+<ol id="p-65" class="lower-alpha cols2">
+<li id="li-33"><p id="p-66"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/grid4by6.png" class="contained" alt="4by6 grid"></div><span class="process-math">\(~~~~~~\dfrac{1}{4}=~~~~~~\)</span> and <span class="process-math">\(~~~~~~\dfrac{3}{4}=\)</span></p></li>
+<li id="li-34"><p id="p-67"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/grid8by2.png" class="contained" alt="8by2 grid"></div><span class="process-math">\(~~~~~~\dfrac{1}{4}=~~~~~~\)</span> and <span class="process-math">\(~~~~~~\dfrac{3}{4}=\)</span></p></li>
+<li id="li-35"><p id="p-68"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/grid5by4.png" class="contained" alt="5by4 grid"></div><span class="process-math">\(~~~~~~\dfrac{1}{4}=~~~~~~\)</span> and <span class="process-math">\(~~~~~~\dfrac{3}{4}=\)</span></p></li>
+<li id="li-36"><p id="p-69"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/grid8by6.png" class="contained" alt="8by6 grid"></div><span class="process-math">\(~~~~~~\dfrac{1}{4}=~~~~~~\)</span> and <span class="process-math">\(~~~~~~\dfrac{3}{4}=\)</span></p></li>
+</ol></article></section><section class="subsection" id="subsection-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.5</span> <span class="title">Fractions on a Number Line</span>
+</h3>
+<p id="p-70">In the previous exercise we used grids to illustrate fractions. We can also show fractions of a distance on a <dfn class="terminology">number line</dfn>.</p>
+<article class="example example-like" id="example-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.9</span><span class="period">.</span>
+</h4>
+<p id="p-71">Mark the fractions <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of 12 on the number line below. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/numberline12.png" class="contained" alt="number line"></div></p>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-2" id="solution-2"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-2"><div class="solution solution-like">
+<p id="p-72">To find <span class="process-math">\(\dfrac{1}{2}\)</span> of 12, we divide by 2:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{1}{2}~ \text{of}~ 12 = 12 \div 2 = \alert{6}
+\end{equation*}
+</div>
+<p id="p-73">To find <span class="process-math">\(\dfrac{1}{4}\)</span> of 12, we divide by 4:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{1}{4}~ \text{of}~ 12 = 12 \div 4 = \alert{3}
+\end{equation*}
+</div>
+<p id="p-74">To find <span class="process-math">\(\dfrac{3}{4}\)</span> of 12, we multiply <span class="process-math">\(\dfrac{1}{4}\)</span> of 12 by 3:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{3}{4}~ \text{of}~ 12 = 3 \times 3 = \alert{9}
+\end{equation*}
+</div>
+<p id="p-75">Here is a number line showing the results: <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/fourthsnumberline.png" class="contained" alt="number line"></div></p>
+</div></div>
+</div></article><article class="note remark-like" id="note-3"><h4 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">1.1.10</span><span class="period">.</span>
+</h4>
+<p id="p-76">From the previous Example, we see that</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{1}{4}=\dfrac{3}{12},~~~~  \dfrac{1}{2}=\dfrac{6}{12},~~~~ \text{and} ~~~~  \dfrac{3}{4}=\dfrac{9}{12}
+\end{equation*}
+</div>
+<p class="continuation">A number line can help us visualize familiar fractions written with different denominators.  Here is the number line from that Example, showing the fractions written with denominator 12. <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/twelfthsnumberline.png" class="contained" alt="number line"></div></p></article><article class="exercise exercise-like" id="exercise-4"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span>
+</h4>
+<p id="p-77">Mark the fractions <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of the distance on each number line, and write the fractions with the new denominator.</p>
+<ol class="lower-alpha">
+<li id="li-37"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/numberline8.png" class="contained" alt="number line"></div></li>
+<li id="li-38"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/numberline16.png" class="contained" alt="number line"></div></li>
+<li id="li-39"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/numberline20.png" class="contained" alt="number line"></div></li>
+<li id="li-40"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/numberline24.png" class="contained" alt="number line"></div></li>
+</ol></article></section><section class="subsection" id="subsection-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.6</span> <span class="title">Benchmark Fractions</span>
+</h3>
+<p id="p-78">The fractions <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> are called <dfn class="terminology">benchmark fractions</dfn> because we have a good intuitive feel for their size. We can estimate other fractions by comparing them to the benchmarks.</p>
+<article class="example example-like" id="example-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.12</span><span class="period">.</span>
+</h4>
+<p id="p-79">Of the 32 students in Ethan's math class, 9 are from out-of-state.</p>
+<ol class="lower-alpha">
+<li id="li-41"><p id="p-80">What fraction of Ethan's class is from out-of-state?</p></li>
+<li id="li-42"><p id="p-81">Is that fraction closer to <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> or to <span class="process-math">\(\dfrac{3}{4}\)</span> of the class?</p></li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-3" id="solution-3"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-3"><div class="solution solution-like"><ol class="lower-alpha">
+<li id="li-43">
+<p id="p-82">We write the fraction as</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{\text{part}}{\text{whole}} = \dfrac{9~~ \text{out-of-state students}}{32~~ \text{total students}}
+\end{equation*}
+</div>
+<p class="continuation">Out-of-state students make up <span class="process-math">\(\dfrac{9}{32}\)</span> of Ethan's class.</p>
+</li>
+<li id="li-44">
+<p id="p-83">Let's compute the benchmark fractions with denominator 32.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{1}{4}~~\text{of}~~32 = 8,~~~~~~~~~~\text{so}~~\dfrac{1}{4}=\dfrac{8}{32}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{1}{2}~~\text{of}~~32 = 16,~~~~~~~~~~\text{so}~~\dfrac{1}{2}=\dfrac{16}{32}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{3}{4}~~\text{of}~~32 = 3 \times 8 = 24,~~~~\text{so}~~\dfrac{3}{4}=\dfrac{24}{32}
+\end{equation*}
+</div>
+<p id="p-84">Now that we have written the benchmark fractions with the appropriate denominator, we can compare our fraction from part (a). We see that the fraction <span class="process-math">\(\dfrac{9}{32}\)</span> is slightly more than <span class="process-math">\(\dfrac{1}{4}\)</span> of the class.</p>
+</li>
+</ol></div></div>
+</div></article><article class="note remark-like" id="note-4"><h4 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">1.1.13</span><span class="period">.</span>
+</h4>
+<p id="p-85">In part (b) of the previous Example, do you see why</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{3}{4}~~\text{of}~~~~~32 = 3 \times 8 ?
+\end{equation*}
+</div></article><p id="p-86">We can use a number line to compare fractions. Here are the fractions from the previous Example shown on a number line. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/comparenumberline.png" class="contained" alt="number line"></div></p>
+<article class="exercise exercise-like" id="exercise-5"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.14</span><span class="period">.</span>
+</h4>
+<p id="p-87">One yard is equal to 36 inches.</p>
+<ol class="lower-alpha">
+<li id="li-45">
+<p id="p-88">Compute the benchmark fractions with denominator 36.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{1}{4}=~~~~~~~~~~ \dfrac{1}{2}=~~~~~~~~~~ \dfrac{3}{4}=~~~~~~~~~~
+\end{equation*}
+</div>
+</li>
+<li id="li-46"><p id="p-89">Draw a number line showing the benchmark fractions from part (a). <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div></p></li>
+<li id="li-47"><p id="p-90">Connie needs ribbons of length 10 inches and 25 inches. What fractions of a yard are those lengths? Plot the fractions on your number line.</p></li>
+</ol></article><article class="activity project-like" id="activity-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span>
+</h4>
+<ol id="p-91" class="decimal">
+<li id="li-48"><p id="p-92">This number line is 6 units long. Label the number of units at <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of its length. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div></p></li>
+<li id="li-49"><p id="p-93">This number line is 10 units long. Label the number of units at <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of its length. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div></p></li>
+<li id="li-50">
+<p id="p-94">This number line is 100 units long. Label the number of units at <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of its length. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div></p>
+<p id="p-95">For Problems 4-6, label the number line with the benchmark fractions, then mark the location of the fraction described.</p>
+</li>
+<li id="li-51"><p id="p-96">One complete revolution consists of 360°. A volume knob is labeled from 1 to 10, and the volume is set at 4. What fraction of  the loudest volume is that? <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div></p></li>
+<li id="li-52"><p id="p-97">Heidi's high school needs $50,000 for new band instruments.  They have raised $35,000.  What fraction of their goal is that? <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div></p></li>
+<li id="li-53"><p id="p-98">One mile is 1760 yards.  The longest ocean pier in California is the Santa Cruz Municipal Wharf, at 905 yards.  What fraction of a mile is that? <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div></p></li>
+<li id="li-54"><ol id="p-99" class="lower-alpha">
+<li id="li-55"><p id="p-100">When it is eight o'clock in the evening, what fraction of the distance around the clock has the hour hand traveled since noon? <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/eightoclock.png" class="contained" alt="clock"></div></p></li>
+<li id="li-56"><p id="p-101">Locate that fraction on the number line below. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div></p></li>
+</ol></li>
+<li id="li-57"><ol id="p-102" class="lower-alpha">
+<li id="li-58"><p id="p-103">When it is 10 minutes before one o'clock in the afternoon, what fraction of the distance around the clock has the hour hand traveled since noon? <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/ten-before-one.png" class="contained" alt="clock"></div></p></li>
+<li id="li-59"><p id="p-104">Locate that fraction on the number line below. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div></p></li>
+</ol></li>
+</ol></article></section><section class="exercises" id="prac-1-1"><h3 class="heading hide-type">
+<span class="type">Exercises</span> <span class="codenumber">1.1.7</span> <span class="title">Practice 1.1</span>
+</h3>
+<article class="exercise exercise-like" id="exercise-6"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<ol id="p-105" class="lower-alpha">
+<li id="li-60"><p id="p-106">What does the denominator of a fraction tell us?</p></li>
+<li id="li-61"><p id="p-107">What does the numerator of a fraction tell us?</p></li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1" id="answer-1"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1"><div class="answer solution-like"><ol id="p-108" class="lower-alpha">
+<li id="li-62"><p id="p-109">How many things are in the whole.</p></li>
+<li id="li-63"><p id="p-110">How many things are in the part.</p></li>
+</ol></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-7"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<ol id="p-111" class="lower-alpha">
+<li id="li-64"><p id="p-112">How can you use your calculator to find <span class="process-math">\(\dfrac{1}{2}\)</span> of any number?</p></li>
+<li id="li-65"><p id="p-113">Multiplying a number by <span class="process-math">\(\dfrac{1}{2}\)</span> is the same as dividing by <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>.</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-8"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<ol id="p-114" class="lower-alpha">
+<li id="li-66"><p id="p-115">Explain why 50 cents is half of one dollar.</p></li>
+<li id="li-67"><p id="p-116">Explain why 0.5 is the same as <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span></p></li>
+<li id="li-68"><p id="p-117">Explain why 50% is the same as <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span></p></li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-2" id="answer-2"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-2"><div class="answer solution-like"><ol id="p-118" class="lower-alpha">
+<li id="li-69"><p id="p-119">There are 100 cents in a dollar.</p></li>
+<li id="li-70"><p id="p-120">0.5 means <span class="process-math">\(\dfrac{5}{10}.\)</span></p></li>
+<li id="li-71"><p id="p-121">50% is half of 100%.</p></li>
+</ol></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-9"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<ol id="p-122" class="lower-alpha">
+<li id="li-72"><p id="p-123">Explain why 25 cents is one-quarter of a dollar.</p></li>
+<li id="li-73"><p id="p-124">Explain why 0.25 is the same as <span class="process-math">\(\dfrac{1}{4}\text{.}\)</span></p></li>
+<li id="li-74"><p id="p-125">Explain why 25% is the same as <span class="process-math">\(\dfrac{1}{4}\text{.}\)</span></p></li>
+</ol></article><p id="p-126">For Problems 5-8,</p>
+<ol class="lower-alpha">
+<li id="li-75"><p id="p-127">Find one-half of the amount.</p></li>
+<li id="li-76"><p id="p-128">Find one-fourth of the amount.</p></li>
+<li id="li-77"><p id="p-129">Find three-fourths of the amount.</p></li>
+</ol>
+<article class="exercise exercise-like" id="exercise-10"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<p id="p-130">A doorway is 88 inches tall.</p>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-3" id="answer-3"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-3"><div class="answer solution-like"><ol id="p-131" class="lower-alpha">
+<li id="li-78"><p id="p-132">44 inches</p></li>
+<li id="li-79"><p id="p-133">22 inches</p></li>
+<li id="li-80"><p id="p-134">66 inches</p></li>
+</ol></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-11"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<p id="p-135">A fossil is 50,000 years old.</p></article><article class="exercise exercise-like" id="exercise-12"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<p id="p-136">A jug contains 64 fluid ounces of laundry detergent.</p>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-4" id="answer-4"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-4"><div class="answer solution-like"><ol id="p-137" class="lower-alpha">
+<li id="li-81"><p id="p-138">32 fluid ounces</p></li>
+<li id="li-82"><p id="p-139">16 fluid ounces</p></li>
+<li id="li-83"><p id="p-140">48 fluid ounces</p></li>
+</ol></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-13"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<p id="p-141">A 20 million dollar budget was approved by the city council.</p></article><div class="exercisegroup" id="exercisegroup-1">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-2"><p id="p-142">For Problems 9-12, draw a line to show one-half of the figure.</p></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-14"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
+<p id="p-143"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-1-9.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-15"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
+<p id="p-144"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-1-10.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-16"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
+<p id="p-145"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-1-11.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-17"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
+<p id="p-146"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/hp-1-1-12.png" class="contained"></div></p></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-2">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-3"><p id="p-147">For Problems 13-16, draw two lines to show one-fourth of the figure.</p></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-18"><h5 class="heading"><span class="codenumber">13<span class="period">.</span></span></h5>
+<p id="p-148"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-1-13.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-19"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
+<p id="p-149"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-1-14.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-20"><h5 class="heading"><span class="codenumber">15<span class="period">.</span></span></h5>
+<p id="p-150"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-1-15.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-21"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
+<p id="p-151"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/hp-1-1-16.png" class="contained"></div></p></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-3">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-4"><p id="p-152">For Problems 17-20, show the calculation you used to find the answer.</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-22"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
+<p id="p-153">Sharelle gave her daughter 225 milliliters of cough medicine, which is half the adult dosage. What is the adult dosage?</p>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-5" id="answer-5"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-5"><div class="answer solution-like"><p id="p-154">450 ml</p></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-23"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
+<p id="p-155">Claudia's alpaca weighs 76 kilograms, which is about half the weight of an adult llama. How much does a llama weigh?</p></article><article class="exercise exercise-like" id="exercise-24"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
+<p id="p-156">Elsie read 48 pages of a novel this afternoon, which was one-fourth of her assignment. How many pages was she assigned to read?</p>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-6" id="answer-6"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-6"><div class="answer solution-like"><p id="p-157">192 pages</p></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-25"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
+<p id="p-158">Mike spent a quarter of his paycheck on a new phone that cost $194.50. How much was his paycheck?</p></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-4">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-5"><p id="p-159">For Problems 21-24, show how you found the answer.</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-26"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
+<ol id="p-160" class="lower-alpha">
+<li id="li-84"><p id="p-161">What is <span class="process-math">\(\dfrac{1}{4}\)</span> of 2 cups of flour?</p></li>
+<li id="li-85"><p id="p-162">What is <span class="process-math">\(\dfrac{3}{4}\)</span> of 2 cups of flour?</p></li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-7" id="answer-7"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-7"><div class="answer solution-like"><ol id="p-163" class="lower-alpha">
+<li id="li-86"><p id="p-164"><span class="process-math">\(0.5\)</span> cup</p></li>
+<li id="li-87"><p id="p-165"><span class="process-math">\(1.5\)</span> cups</p></li>
+</ol></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-27"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
+<ol id="p-166" class="lower-alpha">
+<li id="li-88"><p id="p-167">What is <span class="process-math">\(\dfrac{1}{4}\)</span> of 6 gallons of water?</p></li>
+<li id="li-89"><p id="p-168">What is <span class="process-math">\(\dfrac{3}{4}\)</span> of 6 gallons of water?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-28"><h5 class="heading"><span class="codenumber">23<span class="period">.</span></span></h5>
+<ol id="p-169" class="lower-alpha">
+<li id="li-90"><p id="p-170">How far is <span class="process-math">\(\dfrac{1}{4}\)</span> of 90 miles?</p></li>
+<li id="li-91"><p id="p-171">How far is <span class="process-math">\(\dfrac{3}{4}\)</span> of 90 miles?</p></li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-8" id="answer-8"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-8"><div class="answer solution-like"><ol id="p-172" class="lower-alpha">
+<li id="li-92"><p id="p-173"><span class="process-math">\(22.5\)</span> miles</p></li>
+<li id="li-93"><p id="p-174"><span class="process-math">\(67.5\)</span> miles</p></li>
+</ol></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-29"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
+<ol id="p-175" class="lower-alpha">
+<li id="li-94"><p id="p-176">How much is <span class="process-math">\(\dfrac{1}{4}\)</span> of $247?</p></li>
+<li id="li-95"><p id="p-177">How much is <span class="process-math">\(\dfrac{3}{4}\)</span> of $247?</p></li>
+</ol></article>
+</div>
+</div>
+<p id="p-178">For Problems 25-30, complete the table with the missing quantites. (Hint: If you know <span class="process-math">\(\dfrac{1}{4}\)</span> of a number, how can you find <span class="process-math">\(\dfrac{3}{4}\)</span> of the number?</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\dfrac{1}{4}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\dfrac{3}{4}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\dfrac{4}{4}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">25.</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(8\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">26.</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(9\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">27.</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(12\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">28.</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(12\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">29.</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(18\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">30.</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(36\)</span></td>
+</tr>
+</table></div>
+<p id="p-179">For Problems 31-36, complete the table with the missing quantites. (Hint: If you know <span class="process-math">\(\dfrac{1}{2}\)</span> of a number, how can you find <span class="process-math">\(\dfrac{1}{4}\)</span> of the number?</p>
+<p id="p-180"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\dfrac{1}{4}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\dfrac{3}{4}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\dfrac{4}{4}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">31.</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(14\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">32.</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(12\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">33.</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(20\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">34.</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(30\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">35.</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(36\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">36.</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(64\)</span></td>
+</tr>
+</table></div></p>
+<article class="exercise exercise-like" id="exercise-30"><h4 class="heading"><span class="codenumber">37<span class="period">.</span></span></h4>
+<ol id="p-181" class="lower-alpha">
+<li id="li-96"><p id="p-182">If you know one-half of a number and one-quarter of a number, how can you find three-quarters of the number?</p></li>
+<li id="li-97"><p id="p-183">If you know one-half of a number, how can you find three-quarters of the number?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-31"><h4 class="heading"><span class="codenumber">38<span class="period">.</span></span></h4>
+<ol id="p-184" class="lower-alpha">
+<li id="li-98"><p id="p-185">If you know three-quarters of a number, how can you find one-quarter of the number?</p></li>
+<li id="li-99"><p id="p-186">If you know three-quarters of a number, how can you find one-half of the number?</p></li>
+</ol></article><p id="p-187">For Problems 39-44, complete the table below about the fraction described in the problem. In the last column, enter less than (<span class="process-math">\(\lt\)</span>), equal to (<span class="process-math">\(=\)</span>), or greater than (<span class="process-math">\(\gt\)</span>) one-fourth. Explain how you made your decision.</p>
+<p id="p-188"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"></td>
+<td class="c m b1 r1 l0 t1 lines">Whole</td>
+<td class="c m b1 r1 l0 t1 lines">Part</td>
+<td class="c m b1 r1 l0 t1 lines">Fraction</td>
+<td class="c m b1 r1 l0 t1 lines">Compare to <span class="process-math">\(\dfrac{1}{4}\)</span>
+</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">39.</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">40.</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">41.</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">42.</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">43.</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">44.</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+<article class="exercise exercise-like" id="exercise-32"><h4 class="heading"><span class="codenumber">39<span class="period">.</span></span></h4>
+<p id="p-189">Cyrus cut 10 inches from a yard of wire. (Hint: How many inches are in a yard?)</p></article><article class="exercise exercise-like" id="exercise-33"><h4 class="heading"><span class="codenumber">40<span class="period">.</span></span></h4>
+<p id="p-190">Paula poured an 8-oz glass from a quart bottle. (Hint: How many ounces are in a quart?)</p></article><article class="exercise exercise-like" id="exercise-34"><h4 class="heading"><span class="codenumber">41<span class="period">.</span></span></h4>
+<p id="p-191">There were 8 snow days in November. (Hint: How many days are there in November?)</p></article><article class="exercise exercise-like" id="exercise-35"><h4 class="heading"><span class="codenumber">42<span class="period">.</span></span></h4>
+<p id="p-192">Jason is 40 minutes into a 2-hour test. (Hint: How many minutes are there in 2 hours?)</p></article><article class="exercise exercise-like" id="exercise-36"><h4 class="heading"><span class="codenumber">43<span class="period">.</span></span></h4>
+<p id="p-193">3 out of 10 voters favor the proposal.</p></article><article class="exercise exercise-like" id="exercise-37"><h4 class="heading"><span class="codenumber">44<span class="period">.</span></span></h4>
+<p id="p-194">Danny swims 2 days a week. (Hint: How many days are there in a week?)</p></article><div class="exercisegroup" id="exercisegroup-5">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-6"><p id="p-195">For Problems 45-48, show the calculation you used to find the answer.</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-38"><h5 class="heading"><span class="codenumber">45<span class="period">.</span></span></h5>
+<p id="p-196">Pedro's dog weighs 31 pounds and his cat weighs 14 pounds. Does his cat weigh more or less than half his dog's weight?</p></article><article class="exercise exercise-like" id="exercise-39"><h5 class="heading"><span class="codenumber">46<span class="period">.</span></span></h5>
+<p id="p-197">Alicia's parents live 328 miles away. She has driven 170 miles. Is that more or less than half the distance?</p></article><article class="exercise exercise-like" id="exercise-40"><h5 class="heading"><span class="codenumber">47<span class="period">.</span></span></h5>
+<p id="p-198">A deck of playing cards has 52 cards divided evenly into 4 suits. Each suit has 3 face cards. Are the face cards more or less than one-fourth of the deck?</p></article><article class="exercise exercise-like" id="exercise-41"><h5 class="heading"><span class="codenumber">48<span class="period">.</span></span></h5>
+<p id="p-199">A right angle is 90°. Is 60° more or less than three-quarters of a right angle?</p></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-6">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-7"><p id="p-200">For Problems 49-52, decide which fraction of one whole is larger. Explain how you know your answer is correct. (Hint:  Compare each fraction to <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span>)</p></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-42"><h5 class="heading"><span class="codenumber">49<span class="period">.</span></span></h5>
+<p id="p-201"><span class="process-math">\(\dfrac{5}{8}\)</span> or <span class="process-math">\(\dfrac{7}{16}\)</span></p></article><article class="exercise exercise-like" id="exercise-43"><h5 class="heading"><span class="codenumber">50<span class="period">.</span></span></h5>
+<p id="p-202"><span class="process-math">\(\dfrac{5}{9}\)</span> or <span class="process-math">\(\dfrac{5}{11}\)</span></p></article><article class="exercise exercise-like" id="exercise-44"><h5 class="heading"><span class="codenumber">51<span class="period">.</span></span></h5>
+<p id="p-203"><span class="process-math">\(\dfrac{3}{7}\)</span> or <span class="process-math">\(\dfrac{5}{9}\)</span></p></article><article class="exercise exercise-like" id="exercise-45"><h5 class="heading"><span class="codenumber">52<span class="period">.</span></span></h5>
+<p id="p-204"><span class="process-math">\(\dfrac{3}{4}\)</span> or <span class="process-math">\(\dfrac{4}{9}\)</span></p></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-7">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-8"><p id="p-205">For Problems 53-56, decide which fraction of one whole is larger. Explain how you know your answer is correct. (Hint:  Compare each fraction to <span class="process-math">\(\dfrac{1}{4}\text{.}\)</span>)</p></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-46"><h5 class="heading"><span class="codenumber">53<span class="period">.</span></span></h5>
+<p id="p-206"><span class="process-math">\(\dfrac{3}{8}\)</span> or <span class="process-math">\(\dfrac{3}{16}\)</span></p></article><article class="exercise exercise-like" id="exercise-47"><h5 class="heading"><span class="codenumber">54<span class="period">.</span></span></h5>
+<p id="p-207"><span class="process-math">\(\dfrac{2}{7}\)</span> or <span class="process-math">\(\dfrac{3}{16}\)</span></p></article><article class="exercise exercise-like" id="exercise-48"><h5 class="heading"><span class="codenumber">55<span class="period">.</span></span></h5>
+<p id="p-208"><span class="process-math">\(\dfrac{2}{9}\)</span> or <span class="process-math">\(\dfrac{3}{8}\)</span></p></article><article class="exercise exercise-like" id="exercise-49"><h5 class="heading"><span class="codenumber">56<span class="period">.</span></span></h5>
+<p id="p-209"><span class="process-math">\(\dfrac{5}{18}\)</span> or <span class="process-math">\(\dfrac{6}{25}\)</span></p></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-8">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-9">
+<p id="p-210">For Problems 57-60, write fractions that are:</p>
+<ol class="lower-alpha">
+<li id="li-100"><p id="p-211">Less than <span class="process-math">\(\dfrac{1}{4}\)</span></p></li>
+<li id="li-101"><p id="p-212">Between <span class="process-math">\(\dfrac{1}{4}\)</span> and <span class="process-math">\(\dfrac{1}{2}\)</span></p></li>
+<li id="li-102"><p id="p-213">Between <span class="process-math">\(\dfrac{1}{2}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span></p></li>
+<li id="li-103"><p id="p-214">Greater than <span class="process-math">\(\dfrac{3}{4}\)</span></p></li>
+</ol>
+<p class="continuation">Label the number line with the benchmark fractions, and locate your fractions on the line.</p>
+</div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-50"><h5 class="heading"><span class="codenumber">57<span class="period">.</span></span></h5>
+<p id="p-215">There are 32 fluid ounces in a quart. Choose fractions with denominator 32. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div></p></article><article class="exercise exercise-like" id="exercise-51"><h5 class="heading"><span class="codenumber">58<span class="period">.</span></span></h5>
+<p id="p-216">One mile of swimming is 72 laps. Choose fractions with denominator 72. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div></p></article><article class="exercise exercise-like" id="exercise-52"><h5 class="heading"><span class="codenumber">59<span class="period">.</span></span></h5>
+<p id="p-217">There are 360° in one complete revolution. Choose fractions with denominator 360. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div></p></article><article class="exercise exercise-like" id="exercise-53"><h5 class="heading"><span class="codenumber">60<span class="period">.</span></span></h5>
+<p id="p-218">One day is 1440 minutes. Choose fractions with denominator 1440. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div></p></article>
+</div>
+</div>
+<article class="exercise exercise-like" id="exercise-54"><h4 class="heading"><span class="codenumber">61<span class="period">.</span></span></h4>
+<p id="p-219">If you increase the numerator of a fraction, is the new fraction a larger or smaller part than the original?</p></article><article class="exercise exercise-like" id="exercise-55"><h4 class="heading"><span class="codenumber">62<span class="period">.</span></span></h4>
+<p id="p-220">If you increase the denominator of a fraction, is the new fraction a larger or smaller part than the original?</p></article><article class="exercise exercise-like" id="exercise-56"><h4 class="heading"><span class="codenumber">63<span class="period">.</span></span></h4>
+<p id="p-221">Shari pays exactly one quarter of her monthly salary in rent. If she gets a raise but her rent stays the same, will she be paying more or less than a quarter of her salary for rent?</p></article><article class="exercise exercise-like" id="exercise-57"><h4 class="heading"><span class="codenumber">64<span class="period">.</span></span></h4>
+<p id="p-222">Jarel scored 45 points on his essay. He thought the essay was worth 60 points, but it was actually worth 50 points. Is his grade higher or lower than he originally thought?</p></article></section></section></div></main>
+</div>
+</body>
+</html>

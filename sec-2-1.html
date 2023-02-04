@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Decimal Numbers</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Core Mathematics">
+<meta property="book:author" content="Me">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Core Mathematics</span></a></h1>
+<p class="byline">Me</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="ch2.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch2.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="meta_backmatter.html" title="Next">Next</a></span>
+</div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch2.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch2.html" title="Up">Up</a><a class="next-button button toolbar-item" href="meta_backmatter.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="dedication-1.html" data-scroll="dedication-1" class="internal">Dedication</a></li>
+<li><a href="acknowledgement-1.html" data-scroll="acknowledgement-1" class="internal">Acknowledgements</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+<li><a href="preface-2.html" data-scroll="preface-2" class="internal">Not just that..</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Chapter 1 Preliminary Ideas</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Halves and Quarters</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Tenths and Hundredths</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Whole Numbers</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Angles and Triangles</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Perimeter and Area</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Chapter 2 Numbers and Variables</span></a><ul><li><a href="sec-2-1.html" data-scroll="sec-2-1" class="active">Decimal Numbers</a></li></ul>
+</li>
+<li class="link backmatter"><a href="meta_backmatter.html" data-scroll="meta_backmatter" class="internal"><span class="title">Backmatter</span></a></li>
+<li class="link"><a href="solutions-1.html" data-scroll="solutions-1" class="internal"><span class="codenumber">A</span> <span class="title">Selected Hints</span></a></li>
+<li class="link"><a href="solutions-2.html" data-scroll="solutions-2" class="internal"><span class="codenumber">B</span> <span class="title">Selected Solutions</span></a></li>
+<li class="link"><a href="appendix-1.html" data-scroll="appendix-1" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></li>
+<li class="link"><a href="index-1.html" data-scroll="index-1" class="internal"><span class="title">Index</span></a></li>
+<li class="link"><a href="colophon-2.html" data-scroll="colophon-2" class="internal"><span class="title">Colophon</span></a></li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-2-1"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">2.1</span> <span class="title">Decimal Numbers</span>
+</h2>
+<section class="subsection" id="subsection-23"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">2.1.1</span> <span class="title"></span>
+</h3>
+<p id="p-822">Let's compare the imperial (everyday, American) system of units with the metric system.</p>
+<p id="p-823"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Imperial System</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Metric System</th>
+</tr>
+<tr><td class="c m b1 r1 l1 t0 lines" colspan="2"><span class="process-math">\(\blert{\text{Length}}\)</span></td></tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1 mile = 1760 yards</td>
+<td class="c m b1 r1 l0 t0 lines">1 kilometer = 1000 meters</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1 yard = 3 feet</td>
+<td class="c m b1 r1 l0 t0 lines">1 meter = 100 centimeters</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1 foot = 12 inches</td>
+<td class="c m b1 r1 l0 t0 lines">1 centimeter = 10 millimeters</td>
+</tr>
+<tr><td class="c m b1 r1 l1 t0 lines" colspan="2"><span class="process-math">\(\blert{\text{Weight}}\)</span></td></tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1 ton = 2000 pounds</td>
+<td class="c m b1 r1 l0 t0 lines">1 kilogram = 1000 grams</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1 pound = 16 ounces</td>
+<td class="c m b1 r1 l0 t0 lines">1 gram = 100 centigrams</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1 ounce = 437.5 grams</td>
+<td class="c m b1 r1 l0 t0 lines">1 centigram = 10 milligrams</td>
+</tr>
+<tr><td class="c m b1 r1 l1 t0 lines" colspan="2"><span class="process-math">\(\blert{\text{Volume}}\)</span></td></tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1 gallon = 4 quarts</td>
+<td class="c m b1 r1 l0 t0 lines">1 liter = 100 centiliters</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1 quart = 2 pints</td>
+<td class="c m b1 r1 l0 t0 lines">1 centiliter = 100 milliliters</td>
+</tr>
+</table></div></p>
+<article class="note remark-like" id="note-19"><h4 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">2.1.1</span><span class="period">.</span>
+</h4>
+<p id="p-824">Notice two properties of the metric system:</p>
+<ul id="p-825" class="disc">
+<li id="li-322"><p id="p-826">Each larger unit is 10, 100 or 1000 times a smaller one.</p></li>
+<li id="li-323"><p id="p-827">The names of related units all use "kilo," "centi," or "milli."</p></li>
+</ul></article><p id="p-828">For example, the basic unit of length in the metric system is the meter. Smaller units of length are always one-tenth as long as the previous one.</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-7">
+\begin{align*}
+1 ~\text{decimeter} \amp = 0.1 ~\text{meter}\\
+1 ~\text{centimeter} \amp = 0.1 ~\text{decimeter} = 0.01 ~\text{meter}\\
+1 ~\text{millimeter} \amp = 0.1 ~\text{centimeter} = 0.01 ~\text{decimeter} = 0.001 ~\text{meter}
+\end{align*}
+</div>
+<p id="p-830">The picture below shows a portion of a meter stick. <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/meterstick.png" class="contained"></div></p>
+<p id="p-831">The metric system is easy to use because it fits with our base-10 number system. In the same way, decimal fractions are easy to use.</p></section><section class="subsection" id="subsection-24"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">2.1.2</span> <span class="title">Place Value</span>
+</h3>
+<p id="p-832">Remember the place values in our base-10 number system. For example, <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/placevalue.png" class="contained"></div></p>
+<p id="p-833">The places after the decimal point represent fractions of a whole number. The position of the digit tells us the denominator of the fraction.</p>
+<article class="activity project-like" id="activity-13"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.1.1</span><span class="period">.</span>
+</h4>
+<p id="p-834">Complete the table.</p>
+<p id="p-835"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Decimal Fraction</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Common Fraction</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Words</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0.04\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\dfrac{4}{100}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">four hundredths</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0.8\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\dfrac{7}{1000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">one thousandth</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\dfrac{9}{10}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0.002\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">eight hundredths</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\dfrac{5}{100}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0.03\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p></article><article class="note remark-like" id="note-20"><h4 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">2.1.2</span><span class="period">.</span>
+</h4>
+<p id="p-836">Be careful when reading decimal fractions! Remember that the position or place value of a digit tells us the denominator of the fraction.</p></article><p id="p-837"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines">0.4</td>
+<td class="c m b0 r0 l0 t0 lines">is</td>
+<td class="c m b0 r0 l0 t0 lines">four-tenths</td>
+<td class="c m b0 r0 l0 t0 lines">or</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\dfrac{4}{10}\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">0.04</td>
+<td class="c m b0 r0 l0 t0 lines">is</td>
+<td class="c m b0 r0 l0 t0 lines">four-hundredths</td>
+<td class="c m b0 r0 l0 t0 lines">or</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\dfrac{4}{100}\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">0.004</td>
+<td class="c m b0 r0 l0 t0 lines">is</td>
+<td class="c m b0 r0 l0 t0 lines">four-thousandths</td>
+<td class="c m b0 r0 l0 t0 lines">or</td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\dfrac{4}{1000}\)</span></td>
+</tr>
+</table></div></p>
+<p id="p-838">In the same way, 4 and 40 and 400 are very different numbers.</p>
+<p id="p-839">Here is a way to think of decimal fractions. Imagine that the 10 by 10 by 10 block shown below represents one whole. <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/block.png" class="contained"></div></p>
+<p id="p-840">Then one horizontal slice of the block (a "flat") represents one tenth of one whole. One row of the flat (a "stick") represents one hundredth, and one small cube represents one thousandth. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/flatsandsticks.png" class="contained"></div></p>
+<p id="p-841">There are ten flats in a whole, ten sticks in a flat, and ten cubes in a stick. Or, in other words, a flat is one tenth of a whole, a stick is one tenth of a flat, and a cube is one tenth of a stick.</p>
+<p id="p-842">Each decimal place is one tenth of the preceding place.</p>
+<article class="example example-like" id="example-26"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.3</span><span class="period">.</span>
+</h4>
+<p id="p-843">Represent the decimal fraction  0.253  as part of one whole.</p>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-19" id="solution-19"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-19"><div class="solution solution-like">
+<p id="p-844">We read the fraction as "two hundred fifty-three thousandths." (Note that the last digit, 3, is in the thousandths place.) We can analyze the fraction as follows:</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-8">
+\begin{align*}
+0.253~~~~ =~~~~ 0.2 ~~~~ \amp + ~~~~ 0.05 ~~~~ + ~~~~ 0.003\\
+\text{two-tenths} \amp + \text{five-hundredths + three-thousandths}
+\end{align*}
+</div>
+<p class="continuation">Here is the picture of the fraction.</p>
+<div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/dec-253.png" class="contained"></div>
+<p id="p-845">You can check that there are 253 small cubes (thousandths) total.</p>
+</div></div>
+</div></article><article class="exercise exercise-like" id="exercise-262"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.1.4</span><span class="period">.</span>
+</h4>
+<p id="p-846">What decimal fraction does this picture represent? <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/dec-636.png" class="contained"></div></p></article></section><section class="subsection" id="subsection-25"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">2.1.3</span> <span class="title">Comparing Decimal Fractions</span>
+</h3>
+<p id="p-847">A study published in the Journal of the American Medical Association found that "calculation and decimal point errors accounted for approximately 15% of all prescribing errors in a tertiary care teaching hospital" and "for almost 70% of all detected medication prescribing errors among children."</p>
+<p id="p-848">Everyone should understand how decimal fractions represent portions of a whole.</p>
+<article class="example example-like" id="example-27"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.5</span><span class="period">.</span>
+</h4>
+<p id="p-849">Write these decimal fractions in order of size, from smallest to largest.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+~~~~0.4,~~~~~~0.36,~~~~~~0.325,~~~~~~0.058
+\end{equation*}
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-20" id="solution-20"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-20"><div class="solution solution-like">
+<p id="p-850">We'll look at the place values in each fraction.</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-9">
+\begin{align*}
+0.4~~~~\amp 4~ \text{tenths}\\
+0.36~~~~\amp 3~ \text{tenths} + 6~ \text{hundredths}\\
+0.325~~~~\amp 3~ \text{tenths}+ 2~ \text{hundredths} + 5~ \text{thousandths}\\
+0.058~~~~\amp 0~ \text{tenths}+ 5~ \text{hundredths} + 8~ \text{thousandths}
+\end{align*}
+</div>
+<p class="continuation">It might be helpful to picture each fraction using blocks, as demonstrated in Example 1.</p>
+<p id="p-851">We first look at the tenths place; a fraction with more tenths is larger than a fraction with fewer tenths. Thus, 0.4 is the largest fraction in this group, and 0.058 is the smallest.</p>
+<p id="p-852">Next we consider the hundredths place to see that 0.36 is larger than 0.325, because 6 hundredths is larger than 2 hundredths. Thus, the correct order from smallest to largest is</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+~~~~0.058,~~~~~~0.325,~~~~~~0.36,~~~~~~0.04
+\end{equation*}
+</div>
+<p class="continuation">Here are the four fractions shown on a number line.</p>
+<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/decorder.png" class="contained"></div>
+</div></div>
+</div></article><article class="note remark-like" id="note-21"><h4 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">2.1.6</span><span class="period">.</span>
+</h4>
+<p id="p-853">Do not make the ERROR of thinking that 0.325 is larger than 0.36 because 325 is larger than 36! Remember to compare decimal fractions one decimal place at a time:  tenths, then hundredths, etc.</p></article><article class="exercise exercise-like" id="exercise-263"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.1.7</span><span class="period">.</span>
+</h4>
+<p id="p-854">Plot the fractions on the number line.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+~~~~0.68,~~~~~~0.800,~~~~~~0.92,~~~~~~0.356,~~~~~~0.608
+\end{equation*}
+</div>
+<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/zerotoone.png" class="contained"></div></article><article class="note remark-like" id="note-22"><h4 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">2.1.8</span><span class="period">.</span>
+</h4>
+<p id="p-855">Another common ERROR  is to think that 0.058 is larger than 0.4, because "zero doesn't count." But in this case the zero tells us that</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+0.\alert{0}58~~~~~~\text{has}~~~~~~\alert{0}~\text{tenths}
+\end{equation*}
+</div>
+<p class="continuation">while</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+0.\alert{4}~~~~~~\text{has}~~~~~~\alert{4}~\text{tenths}
+\end{equation*}
+</div>
+<p class="continuation">Once again, we compare decimal fractions by comparing each place value in order.</p></article><article class="assemblage assemblage-like" id="assemblage-21"><h4 class="heading"><span class="title">A Quick Fractions Refresher.</span></h4>
+<p id="p-856">There is more than one way to write any particular fraction. For example, the following fractions are all equivalent to <span class="process-math">\(\dfrac{1}{2}\text{:}\)</span></p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{2}{4},~~~~~~\dfrac{3}{2},~~~~~~\dfrac{5}{10},~~~~~~\dfrac{25}{50}
+\end{equation*}
+</div>
+<p class="continuation">because each reduces to <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span></p>
+<p id="p-857"><span class="process-math">\(\blert{\text{Exercise:}}\)</span>   Write three fractions equivalent to <span class="process-math">\(\dfrac{2}{3}\text{.}\)</span></p></article><p id="p-858">Similarly, there is more than one way to write any particular decimal fraction. The following decimal fractions are equivalent: <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/seventenths.png" class="contained"></div> and so on. Each of these fractions reduces to <span class="process-math">\(\dfrac{7}{10}\text{,}\)</span> or 0.7. Note that the denominator of each decimal fraction is given by the place value of the last digit after the decimal point.</p>
+<article class="example example-like" id="example-28"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.9</span><span class="period">.</span>
+</h4>
+<ol id="p-859" class="lower-alpha">
+<li id="li-324">
+<p id="p-860">Write each decimal fraction as a common fraction.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+~~~~0.30,~~~~~~0.03,~~~~~~0.030,~~~~~~0.300,~~~~~~0.003
+\end{equation*}
+</div>
+</li>
+<li id="li-325"><p id="p-861">Which fractions are equal?</p></li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-21" id="solution-21"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-21"><div class="solution solution-like"><ol id="p-862" class="lower-alpha"><li id="li-326">
+<p id="p-863">The denominator of each fraction is given by the place value of the last digit after the decimal point.</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-10">
+\begin{align*}
+0.30 = \dfrac{30}{100}~~~~~~\amp \text{reduces to}~~\dfrac{3}{10}
+\end{align*}
+</div>
+</li></ol></div></div>
+</div></article></section></section></div></main>
+</div>
+</body>
+</html>
