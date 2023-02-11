@@ -1,3 +1,15 @@
 INFO    : PreTeXt project found in `C:\Users\kyosh\pretext\core-math`.
-INFO    : Preparing to deploy from active `main` git branch.
-INFO    : 
+WARNING : Assets like latex-images will not be regenerated for this build
+WARNING : (previously generated assets will be used if they exist).
+WARNING : To generate these assets before building, run `pretext build -g`.
+ERROR   : XInclude Error caused build to fail:
+ERROR   : file:/C:/Users/kyosh/pretext/core-math/source/prac-1-1.ptx:335:13:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: exercisegroup line 238 and exercises
+file:/C:/Users/kyosh/pretext/core-math/source/prac-1-1.ptx:335:13:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag statement line 182
+file:/C:/Users/kyosh/pretext/core-math/source/main.ptx:385:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load file:/C:/Users/kyosh/pretext/core-math/source/prac-1-1.ptx, and no fallback was found
+file:/C:/Users/kyosh/pretext/core-math/source/prac-1-2.ptx:213:65:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: p line 213 and answer
+file:/C:/Users/kyosh/pretext/core-math/source/prac-1-2.ptx:213:76:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: answer line 213 and exercise
+file:/C:/Users/kyosh/pretext/core-math/source/prac-1-2.ptx:404:13:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: exercise line 212 and exercises
+file:/C:/Users/kyosh/pretext/core-math/source/prac-1-2.ptx:407:1:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag exercises line 3
+file:/C:/Users/kyosh/pretext/core-math/source/main.ptx:242:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load file:/C:/Users/kyosh/pretext/core-math/source/prac-1-2.ptx, and no fallback was found
+INFO    : While running pretext, the following errors occured:
+
