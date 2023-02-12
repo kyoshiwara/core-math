@@ -202,12 +202,51 @@ Here are the four fractions shown on a number line.</p>
 <note><p> Do not make the <m>\alert{\text{ERROR}}</m> of thinking that 0.325 is larger than 0.36 because 325 is larger than 36! Remember to compare decimal fractions one decimal place at a time:  tenths, then hundredths, etc.</p></note>
 
 <exercise><statement><p>Plot the fractions on the number line.
-
+  
   <me>~~~~0.68,~~~~~~0.800,~~~~~~0.92,~~~~~~0.356,~~~~~~0.608</me></p>
-
-<image source="zerotoone.png" width="80%"></image>
-
-<answer></answer></statement></exercise>
+  
+  <!-- <image source="zerotoone.png" width="80%"></image> -->
+  <image xml:id="zerotoone" width="80%"><description>From 0 to 1 by hundredths</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [scale=1]
+    \draw[black,thick] (0,0)--(10,0);
+    \draw[black] (0,0) --++(0,-.8)node[below] {$0$};
+    \draw[black] (10,0) --++(0,-.8)node[below] {$1$};
+    \foreach \x in  {.1,.2,..., 9.9} {
+      \draw[black] (\x,0) --++(0,-.25);
+      }
+    \foreach \x in  {.5,1,..., 9.5} {
+      \draw[black] (\x,0) --++(0,-.4);
+      }
+    \foreach \x in  {1,...,9} {
+      \draw[black] (\x,0) --++(0,-.6);
+      }
+  \end{tikzpicture}]]>
+  </latex-image></image>
+  <answer>
+  <image xml:id="zerotoone-with-decimals" width="80%" margins="0% 20%"><description>From 0 to 1 by hundredths</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [scale=1]
+    \draw[black,thick] (0,0)--(10,0);
+    \draw[black] (0,0) --++(0,-.8)node[below] {$0$};
+    \draw[black] (10,0) --++(0,-.8)node[below] {$1$};
+    \foreach \x in  {.1,.2,..., 9.9} {
+      \draw[black] (\x,0) --++(0,-.25);
+      }
+    \foreach \x in  {.5,1,..., 9.5} {
+      \draw[black] (\x,0) --++(0,-.4);
+      }
+    \foreach \x in  {1,...,9} {
+      \draw[black] (\x,0) --++(0,-.6);
+      }
+    \draw[blue, <-,>=stealth'] (6.8,0) --++(0,.3)node[above] {$0.68$};
+  \draw[blue, <-,>=stealth'] (8,0) --++(0,.6)node[above] {$0.800$};
+  \draw[blue, <-,>=stealth'] (9.2,0) --++(0,.6)node[above] {$0.92$};
+  \draw[blue, <-,>=stealth'] (3.56,0) --++(0,.6)node[above] {$0.356$};
+  \draw[blue, <-,>=stealth'] (6.08,0) --++(0,.6)node[above] {$0.608$};
+  \end{tikzpicture}]]>
+  </latex-image></image>
+  </answer></statement></exercise>
 
 <note><p> Another common <m>\alert{\text{ERROR}}</m> is to think that 0.058 is larger than 0.4, because "zero doesn't count." But in this case the zero tells us that
   <me>0.\alert{0}58~~~~~~\text{has}~~~~~~\alert{0}~\text{tenths}</me>
@@ -363,9 +402,45 @@ We denote these <term>repeating decimals</term> with a bar over the digits that 
 <p>We can round a number to any place-value we like. In the next Exercise, we round to the hundredths place.</p>
 
 <exercise><statement><p>Round 0.258 to hundredths. (Is 0.258 closer to 0.25 or to 0.26?) Illustrate on the number line.</p>
-    <image source="roundhund.png" width="90%"></image></statement>
+  <!-- <image source="roundhund.png" width="90%"></image> -->
+  <image xml:id="roundhund" width="85%"><description>From 0.25 to 0.26</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [scale=1]
+    \draw[black,thick] (0,0)--(10,0);
+    \draw[black] (0,0) --++(0,-.8)node[below] {$0.25$};
+    \draw[black] (5,0) --++(0,-.8)node[below] {$0.255$};
+    \draw[black] (10,0) --++(0,-.8)node[below] {$0.26$};
+    \foreach \x in  {.1,.2,..., 9.9} {
+      \draw[black] (\x,0) --++(0,-.25);
+      }
+    \foreach \x in  {.5,1,..., 9.5} {
+      \draw[black] (\x,0) --++(0,-.4);
+      }
+    \foreach \x in  {1,...,9} {
+      \draw[black] (\x,0) --++(0,-.6);
+      }
+  \end{tikzpicture}]]>
+  </latex-image></image></statement>
 
-<answer><p><m>0.26</m></p></answer></exercise>
+<answer><p><m>0.26</m></p><image xml:id="pttwofive-to-pttwosix-with-decimals" width="85%" margins="0% 15%"><description>From 0.25 to 0.26 by 0.0001</description><latex-image>
+  <![CDATA[
+  \begin{tikzpicture} [scale=1]
+  \draw[black,thick] (0,0)--(10,0);
+  \draw[black] (0,0) --++(0,-.8)node[below] {$0.25$};
+  \draw[black] (5,0) --++(0,-.8)node[below] {$0.255$};
+  \draw[black] (10,0) --++(0,-.8)node[below] {$0.26$};
+  \foreach \x in  {.1,.2,..., 9.9} {
+    \draw[black] (\x,0) --++(0,-.25);
+    }
+  \foreach \x in  {.5,1,..., 9.5} {
+    \draw[black] (\x,0) --++(0,-.4);
+    }
+  \foreach \x in  {1,...,9} {
+    \draw[black] (\x,0) --++(0,-.6);
+    }
+  \draw[blue, <-,>=stealth'] (8,0) --++(0,.6)node[above] {$0.258$};
+\end{tikzpicture}]]>
+</latex-image></image></answer></exercise>
 
 <activity><title>Rounding</title>
   <p>Fill in the blanks.</p>
