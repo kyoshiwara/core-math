@@ -177,7 +177,7 @@
         <cell></cell>
         <cell></cell>
         <cell><m>36</m></cell></row>
-    </tabular>
+    </tabular></statement></exercise>
 
 <exercise number="26"><statement><p>Complete the table with the missing quantites. (Hint: If you know <m>\dfrac{1}{2}</m> of a number, how can you find <m>\dfrac{1}{4}</m> of the number?</p>
 
@@ -221,7 +221,7 @@
         <cell></cell>
         <cell></cell>
         <cell><m>64</m></cell></row>
-    </tabular></p>
+    </tabular></p></statement></exercise>
 
 <exercise number="27"><statement><p><ol marker="a">
     <li><p>If you know one-half of a number and one-quarter of a number, how can you find three-quarters of the number?</p></li>
@@ -256,6 +256,7 @@
 <answer><m>10, ~3, ~\dfrac{3}{10}, ~\gt</m></answer></exercise>
 
 <exercise number="34"><statement><p>Danny swims 2 days a week. (Hint: How many days are there in a week?)</p></statement></exercise>
+</exercisegroup>
 
 <exercisegroup>
     <introduction><p>For Problems 35-38, show the calculation you used to find the answer.</p></introduction>

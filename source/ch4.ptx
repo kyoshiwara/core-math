@@ -1,10 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <chapter xml:id="ch4" xmlns:xi="http://www.w3.org/2001/XInclude">
 
-	  <title>Chapter 4 Calculation</title>
-  <introduction>
-    <p>Changed</p>
-  </introduction>
+	  <title>Calculation</title>
+  
 
   
   <xi:include href="./sec-4-1.ptx" />

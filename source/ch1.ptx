@@ -5,12 +5,10 @@
 <chapter xml:id="ch1" xmlns:xi="http://www.w3.org/2001/XInclude">
 
 <!-- Change title when you have one: -->
-  <title>Chapter 1 Preliminary Ideas</title>
+  <title>Preliminary Ideas</title>
   <!-- If the chapter has sections, there may be an introduction -->
   <!-- before those sections. Note the <p> tags around content.  -->
-  <introduction>
-    <p>Changed</p>
-  </introduction>
+  
 
   <!-- Sections can be written directly here, but it might help  -->
   <!-- with organization to include them as separate files.      -->

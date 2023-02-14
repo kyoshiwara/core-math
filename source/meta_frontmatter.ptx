@@ -53,20 +53,17 @@
   </acknowledgement>
 
   <preface xml:id="meta_frontmatter-preface">
-    <!-- You should be a little careful about what you put here -->
-    <!-- Avoid elements that should have a number, for example  -->
-    <p>
-      About this book:
-    </p>
-  </preface>
 
-  <!-- You can have more than one preface. -->
-  <preface>
-    <title>Not just that..</title>
-    <p>
-      I still have more to say!
-    </p>
-  </preface>
+<p>This book is meant for anyone who wants to refresh his or her basic math skills. Or for anyone who would like to increase their understanding of the principles behind those skills and why they work. The book can be used as a textbook for college students or other adults, or it can be used for individual study. The sections are largely independent, so a reader can pick and choose topics of interest.</p>
+
+<p>The exposition proceeds at a leisurely pace so that the reader can feel comfortable with the material. In fact, you may find that some parts seem very elementary. That is fine; you can relax and congratulate yourself on your existing knowledge. Learning proceeds best when we examine a topic from various angles, and ideas are sealed in memory by revisiting them in different settings.
+We think you will find something new to think about in most sections.</p>
+
+<p>Each Example in the text is followed by a similar Checkpoint for you to try yourself. There are also Activities that can be used in a classroom setting. If you are reading the book on your own, we hope you will try at least some of the Practice problems <emdash/> keep pencil and paper handy to jot down your thoughts and calculations. Once again, learning occurs most efficiently, especially in mathematics, if you engage actively with the material.</p> 
+
+<p>But most of all, we hope you will find the material useful, and enjoy learning more about mathematics.</p>
+    
+</preface>
 
 </frontmatter>
 
