@@ -334,9 +334,37 @@ means the same as
 
 <exercise><statement><p>Graph the numbers <m>-2\dfrac{3}{4}</m>,  0.2,  and  1.6 on the number line below.</p>
 
-    <image source="neg3to3.png" width="80%"></image></statement>
-
-<answer></answer></exercise>
+  <!-- <image source="neg3to3.png" width="80%"></image> -->
+  <image xml:id="numberlineNeg3to3" width="80%"><description>Number line from -3 to 3</description><latex-image>
+  <![CDATA[
+  \begin{tikzpicture} [scale=1.4]
+  \draw[black,thick, ->, >=stealth'] (-3.50,0)--(3.6,0);
+  \foreach \x  in  {-3,...,3} { 
+    \draw[black] (\x,.15) --++(0,-.15) node[below]{$\x$};
+  }
+      \foreach \x [evaluate=\x as \xi using ( 1/2+ \x )] in  {-3,...,2}{ 
+    \draw[black] (\xi,.075) --++(0,-.075);
+    }
+  \end{tikzpicture}]]>
+  </latex-image></image>
+</statement>
+<answer>
+  <image xml:id="numberlineNeg3to3with3points" width="80%"><description>Number line from -3 to 3 with -11/4, 0.2, and 1.6 plotted</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [scale=1.4]
+    \draw[black,thick, ->, >=stealth'] (-3.50,0)--(3.6,0);
+    \foreach \x  in  {-3,...,3} { 
+      \draw[black] (\x,.15) --++(0,-.15) node[below]{$\x$};
+    }
+        \foreach \x [evaluate=\x as \xi using ( 1/2+ \x )] in  {-3,...,2}{ 
+      \draw[black] (\xi,.075) --++(0,-.075);
+      }
+    \filldraw[red] (-11/4,0) circle (.5mm) node[above, yshift=3]{$-2\dfrac{3}{4}$};
+    \filldraw[red] (0.2,0) circle (.5mm) node[above, yshift=3]{$0.2$};
+    \filldraw[red] (1.6,0) circle (.5mm) node[above, yshift=3]{$1.6$};
+    \end{tikzpicture}]]>
+    </latex-image></image>
+</answer></exercise>
 
 <note><p>The opposite of a negative number is a positive number. For example, the opposite of <m>-6</m> is 6. We write the opposite of <m>-6</m> as <m>-(-6)</m>,  so  
   <me> -(-6) = 6</me>
@@ -353,10 +381,35 @@ Can you use a number line to explain why this makes sense?</p></note>
 <solution><sidebyside widths="50% 20%"><p>Start at 6° on the thermometer, as shown at right. Then count down 10° from there. This brings us to <m>-4 \degree</m>. The temperature in the morning was <m>-4 \degree</m>.</p>
       <image source="down10.png"></image></sidebyside></solution></example>
 
-<exercise><statement><sidebyside widths="50% 15%"><p>The temperature was 5° in the evening yesterday and changed by <m>-11\degree</m> overnight. What was the temperature this morning? Illustrate your calculation on the thermometer at right.</p>  
-  <image source="thermom.png"></image></sidebyside></statement>
+<exercise><statement><sidebyside widths="50% 20%" margins="0% 10%"><p>The temperature was 5° in the evening yesterday and changed by <m>-11\degree</m> overnight. What was the temperature this morning? Illustrate your calculation on the thermometer at right.</p>  
+  <!-- <image source="thermom.png"></image> -->
+  <image source="Thermometer"></image>
+</sidebyside></statement>
 
-<answer><m>-6 \degree</m></answer></exercise>
+<answer><sidebyside widths="5% 28%" margins="0% 55%"><p><m>-6 \degree</m></p>
+  <image xml:id="Thermometer5toMinus6"><description>Thermometer drops 11 deg from 5 deg</description><latex-image>
+  <![CDATA[
+  \begin{tikzpicture} [scale=.15]
+  \def\r{1.2};
+  \def\R{1.5};
+  \def\w{1.8};
+  \def\t{1};
+  \def\W{2};
+  \draw[blue] (\r,-15) --++(0,26)  arc(0:180:\r) --++(0,-26) arc({180-acos(\r/\R}:400:{\R})--cycle;
+  \foreach \x in  {-14,..., 10} {
+    \draw[black] (\w,\x) --++(\t,0);
+    \draw[black] (-\w,\x) --++(-\t,0);
+    }
+    \foreach \x in  {-10,-5,..., 10} {
+    \draw[black] (\w,\x) --++(\W,0) node[right]{$\x$};
+    \draw[black] (-\w,\x) --++(-\W,0) node[left]{\small$\x$};
+  }
+  \filldraw[magenta] (0,-16) circle (1);
+  \filldraw[magenta] (-.7,-16) rectangle (.7,5);
+  \draw[black,->,>=stealth'] (7,5)--++(3,0)--++(0,-11) node[midway,right, align=center]{Down\\ $11^\circ$}--++(-6,0);
+  \end{tikzpicture}]]>
+  </latex-image></image></sidebyside>
+</answer></exercise>
 
 <p>An increase or decrease is called a <term>net change</term>.</p>
 
@@ -372,22 +425,45 @@ Can you use a number line to explain why this makes sense?</p></note>
 <p>Illustrate the change on the diagram or number line, then answer the question.</p>
 
 <p><ol>
-  <li><p><ol marker="a" cols="2">
-    <li><p>The temperature was <m>-3\degree ~~</m> at 6 am and changed by <m>-10\degree ~~</m> over the next six hours. What was the temperature at noon?</p>
-       <image source="thermom.png" width="40%"></image></li>
-    <li><p>The temperature was <m>9\degree</m> yesterday afternoon and changed by <m>-9\degree</m> overnight. What was the temperature this morning?</p>
-       <image source="thermom.png" width="40%"></image></li>
-    </ol></p></li>
-  <li><p><ol marker="a">
-    <li><p>On Wednesday Brendan's checking account balance was $250. On Thursday he wrote a check for $400. What was his new balance?</p></li>
-    <li><p>On Friday Brendan deposited his paycheck of $600. What was his account balance then?</p>
-        <image source="neg500to500.png" width="90%"></image></li>
+<li><p><ol marker="a" cols="2">
+  <li><p>The temperature was <m>-3\degree ~~</m> at 6 am and changed by <m>-10\degree ~~</m> over the next six hours. What was the temperature at noon?</p>
+   <image source="Thermometer" width="48%"></image></li>
+  <li><p>The temperature was <m>9\degree</m> yesterday afternoon and changed by <m>-9\degree</m> overnight. What was the temperature this morning?</p>
+   <image source="Thermometer" width="48%"></image></li>
   </ol></p></li>
-  <li><p><ol marker="a">
-    <li><p>At noon the Yellow Submarine was cruising at <m>-80</m> feet (that's a depth of 80 feet below seal level.)  After lunch they dove another 60 feet deeper. What was their new elevation?</p></li>
-    <li><p> Before dinner they rose 120 feet.  What was their elevation then?</p>
-        <image source="neg160to0.png" width="80%"></image></li>
-  </ol></p></li>
+<li><p><ol marker="a">
+  <li><p>On Wednesday Brendan's checking account balance was $250. On Thursday he wrote a check for $400. What was his new balance?</p></li>
+  <li><p>On Friday Brendan deposited his paycheck of $600. What was his account balance then?</p>
+    <!-- <image source="neg500to500.png" width="90%"></image> -->
+    <image xml:id="neg500to500" width="90%"><description>From -500 to 500</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [scale=.95]
+    \draw[black,thick, ->,>=stealth'] (-5.3,0)--(5.6,0);
+    \foreach \x [evaluate=\x as \xi using int( 100* \x )]in  {-5,..., 5} {
+    \draw[black] (\x,.3) --++(0,-.3) node[below, yshift=-1] {$\xi$};
+    }
+    \end{tikzpicture}]]>
+    </latex-image></image>
+  </li>
+</ol></p></li>
+<li><p><ol marker="a">
+  <li><p>At noon the Yellow Submarine was cruising at <m>-80</m> feet (that's a depth of 80 feet below seal level.)  After lunch they dove another 60 feet deeper. What was their new elevation?</p></li>
+  <li><p> Before dinner they rose 120 feet.  What was their elevation then?</p>
+    <!-- <image source="neg160to0.png" width="80%"></image> -->
+    <image xml:id="neg160to0" width="80%"><description>From -190 to 0</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [scale=.8]
+    \draw[black,thick, ->,>=stealth'] (-9.4,0)--(1.7,0);
+    \foreach \x in  {-9,..., 1} {
+    \draw[black] (\x,.3) --++(0,-.3);
+    }
+    \foreach \x [evaluate=\x as \xi using int( 20* \x )]in  {-8,-6,..., 0} {
+      \draw[black] (\x,.3) --++(0,-.3) node[below, yshift=-2] {$\xi$};
+      }
+      \end{tikzpicture}]]>
+    </latex-image></image>
+  </li>
+</ol></p></li>
 </ol></p></activity>
 
 </subsection>
