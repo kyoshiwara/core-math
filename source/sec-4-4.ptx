@@ -43,29 +43,140 @@
   <li><p>Five degrees below zero is also called <term>negative</term> five degrees, and is written 5°.</p></li> 
   <li><p>Temperatures below 0° are represented by <term>negative</term> numbers. Temperatures above zero degrees are called <term>positive</term>.</p></li>
 </ul></p>
-     <image source="neg5deg.png"></image></sidebyside> 
+<!-- <image source="neg5deg.png"></image> -->
+<image xml:id="ThermometerMinus5"><description>Thermometer -5 deg</description><latex-image>
+  <![CDATA[
+  \begin{tikzpicture} [scale=.15]
+  \def\r{1.2};
+  \def\R{1.5};
+  \def\w{1.8};
+  \def\t{1};
+  \def\W{2};
+  \draw[blue] (\r,-15) --++(0,26)  arc(0:180:\r) --++(0,-26) arc({180-acos(\r/\R}:400:{\R})--cycle;
+  \foreach \x in  {-14,..., 10} {
+    \draw[black] (\w,\x) --++(\t,0);
+    \draw[black] (-\w,\x) --++(-\t,0);
+    }
+    \foreach \x in  {-10,-5,..., 10} {
+    \draw[black] (\w,\x) --++(\W,0) node[right]{$\x$};
+    \draw[black] (-\w,\x) --++(-\W,0) node[left]{\small$\x$};
+  }
+  \filldraw[magenta] (0,-16) circle (1);
+  \filldraw[magenta] (-.7,-16) rectangle (.7,-5);
+  \end{tikzpicture}]]>
+</latex-image></image>
+</sidebyside> 
 
 <assemblage><title>Definition</title>
 <p> A <term>negative number</term> is a number less than zero. The symbol <m>\large -</m> in front of a number means negative or opposite of.</p></assemblage> 
 
 <example><statement><p>Sketch thermometers that show these temperatures.</p>
-<p><ol marker="a" cols="2">
-  <li><p><m>14 \degree</m></p></li>
-  <li><p><m>-8  \degree</m></p></li>
-</ol></p></statement>
+  <p><ol marker="a" cols="2">
+    <li><p><m>14 \degree</m></p></li>
+    <li><p><m>-8  \degree</m></p></li>
+  </ol></p></statement>
+  
+  <solution><p><ol marker="a" cols="2">
+    <li>
+    <!-- <p><image source="pos14deg.png" width="42%"></image></p> -->
+    <image xml:id="Thermometerpos5" width="30%" margins="0% 70%"><description>Thermometer-5 deg</description><latex-image>
+      <![CDATA[
+      \begin{tikzpicture} [scale=.3]
+      \def\r{1.2};
+      \def\R{1.5};
+      \def\w{1.8};
+      \def\t{1};
+      \def\W{2};
+      \draw[blue] (\r,-10) --++(0,26)  arc(0:180:\r) --++(0,-26) arc({180-acos(\r/\R}:400:{\R})--cycle;
+      \foreach \x in  {-9,..., 15} {
+        \draw[black] (\w,\x) --++(\t,0);
+        \draw[black] (-\w,\x) --++(-\t,0);
+        }
+        \foreach \x in  {-5,0,..., 15} {
+        \draw[black] (\w,\x) --++(\W,0) node[right]{$\x$};
+        \draw[black] (-\w,\x) --++(-\W,0) node[left]{\small$\x$};
+      }
+      \filldraw[magenta] (0,-11) circle (1);
+      \filldraw[magenta] (-.7,-11) rectangle (.7,14);
+      \end{tikzpicture}]]>
+    </latex-image></image>
+    </li>
+    <li>
+    <!-- <p><image source="neg8deg.png" width="45%"></image></p> -->
+    <image xml:id="ThermometerNeg8" width="30%" margins="0% 70%"><description>Thermometer -8 deg</description><latex-image>
+      <![CDATA[
+      \begin{tikzpicture} [scale=.3]
+      \def\r{1.2};
+      \def\R{1.5};
+      \def\w{1.8};
+      \def\t{1};
+      \def\W{2};
+      \draw[blue] (\r,-15) --++(0,26)  arc(0:180:\r) --++(0,-26) arc({180-acos(\r/\R}:400:{\R})--cycle;
+      \foreach \x in  {-14,..., 10} {
+        \draw[black] (\w,\x) --++(\t,0);
+        \draw[black] (-\w,\x) --++(-\t,0);
+        }
+        \foreach \x in  {-10,-5,..., 10} {
+        \draw[black] (\w,\x) --++(\W,0) node[right]{$\x$};
+        \draw[black] (-\w,\x) --++(-\W,0) node[left]{\small$\x$};
+      }
+      \filldraw[magenta] (0,-16) circle (1);
+      \filldraw[magenta] (-.7,-16) rectangle (.7,-8);
+      \end{tikzpicture}]]>
+    </latex-image></image>      
+    </li>
+  </ol></p>
+  <p>In part (a), the red line stops at 14 degrees above zero. In part (b), the red line stops at 8 degrees below zero.</p></solution>
+</example>
 
-<solution><p><ol marker="a" cols="2">
-  <li><p><image source="pos14deg.png" width="42%"></image></p></li>
-  <li><p><image source="neg8deg.png" width="45%"></image></p></li>
-</ol></p>
-<p>In part (a), the red line stops at 14 degrees above zero. In part (b), the red line stops at 8 degrees below zero.</p></solution></example>
-
-<exercise><statement><sidebyside widths="40% 17%"><stack><p>Fill in the thermometer at
+<exercise><statement><sidebyside widths="40% 20%"><stack><p>Fill in the thermometer at
 right to show a temperature of <m>-4  \degree</m>.</p>
-   <image source="snowman.png"></image></stack>
-   <image source="thermom.png"></image></sidebyside></statement>
+  <image source="snowman.png"></image></stack>
+  <!-- <image source="thermom.png"></image> -->
+  <image xml:id="Thermometer"><description>Thermometer</description><latex-image>
+  <![CDATA[
+  \begin{tikzpicture} [scale=.15]
+  \def\r{1.2};
+  \def\R{1.5};
+  \def\w{1.8};
+  \def\t{1};
+  \def\W{2};
+  \draw[blue] (\r,-15) --++(0,26)  arc(0:180:\r) --++(0,-26) arc({180-acos(\r/\R}:400:{\R})--cycle;
+  \foreach \x in  {-14,..., 10} {
+    \draw[black] (\w,\x) --++(\t,0);
+    \draw[black] (-\w,\x) --++(-\t,0);
+    }
+  \foreach \x in  {-10,-5,..., 10} {
+    \draw[black] (\w,\x) --++(\W,0) node[right]{$\x$};
+    \draw[black] (-\w,\x) --++(-\W,0) node[left]{\small$\x$};
+  }
+    \end{tikzpicture}]]>
+</latex-image></image>
+</sidebyside></statement>
 
-   <answer></answer></exercise>
+  <answer><image xml:id="ThermometerMinus4" width="20%" margins="0% 80%"><description>Thermometer at -4</description><latex-image>
+  <![CDATA[
+  \begin{tikzpicture} [scale=.15]
+  \def\r{1.2};
+  \def\R{1.5};
+  \def\w{1.8};
+  \def\t{1};
+  \def\W{2};
+  \draw[blue] (\r,-15) --++(0,26)  arc(0:180:\r) --++(0,-26) arc({180-acos(\r/\R}:400:{\R})--cycle;
+  \foreach \x in  {-14,..., 10} {
+    \draw[black] (\w,\x) --++(\t,0);
+    \draw[black] (-\w,\x) --++(-\t,0);
+    }
+    \foreach \x in  {-10,-5,..., 10} {
+    \draw[black] (\w,\x) --++(\W,0) node[right]{$\x$};
+    \draw[black] (-\w,\x) --++(-\W,0) node[left]{\small$\x$};
+  }
+  \filldraw[magenta] (0,-16) circle (1);
+  \filldraw[magenta] (-.7,-16) rectangle (.7,-4);
+  \end{tikzpicture}]]>
+</latex-image></image>
+</answer></exercise>
+
 
 <p>Here are some more examples of how negative numbers are used:</p>
 <p><ul> 

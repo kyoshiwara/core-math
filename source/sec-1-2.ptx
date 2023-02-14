@@ -89,14 +89,60 @@
 <p>Perhaps you have noticed that <m>\dfrac{2}{10}~</m>, <m>\dfrac{4}{10}~</m>, <m>\dfrac{6}{10}~</m>, and <m>\dfrac{8}{10}~</m> can all be written with denominator 5.</p>
 
 <exercise><statement><p><ol marker="a">
+  <li><p> On the figure below, draw lines at <m>\dfrac{1}{2}~</m>, <m>\dfrac{1}{4}~</m>, and <m>\dfrac{3}{4}~</m> and label them.</p>
+    <!-- <image source="boxgridtenths.png" width="90%"></image> -->
+    <image xml:id="numberlinetenths" width="70%" margins="0% 30%"><description>From 0 to 1 by tenths</description><latex-image>
+      <![CDATA[
+      \begin{tikzpicture} [scale=.75]
+      \draw[black,thick] (0,0)--(10,0);
+  \draw[black] (10,.2) --++(0,-.4)node[below] {$1.0$};
+  \foreach \x in  {0,..., 9} {
+    \draw[black] (\x,.2) --++(0,-.4) node[below] {$0.\x$};
+    }
+      \end{tikzpicture}]]>
+      </latex-image></image></li>
+  <li><p> Which is larger, <m>\dfrac{1}{4}~</m> or <m>\dfrac{3}{10}~</m>?</p></li>
+  <li><p> Which is larger, <m>\dfrac{3}{4}~</m> or <m>\dfrac{6}{10}~</m>?</p></li></ol></p></statement>
+      
+  <answer><p><ol marker="a">
+    <li><image xml:id="numberlinetenths-with-fourths" width="70%" margins="0% 30%"><description>From 0 to 1 by tenths</description><latex-image>
+      <![CDATA[
+      \begin{tikzpicture} [scale=.75]
+      \draw[black,thick] (0,0)--(10,0);
+      \draw[black] (10,.2) --++(0,-.4)node[below] {$1.0$};
+      \foreach \x in  {0,..., 9} {
+        \draw[black] (\x,.2) --++(0,-.4) node[below] {$0.\x$};
+        }
+      \draw[blue, thick] (5,-0.1) --++(0,.6)node[above] {$\dfrac{1}{2}$};
+      \draw[blue, thick] (2.5,-0.1) --++(0,.6)node[above] {$\dfrac{1}{4}$};
+      \draw[blue, thick] (7.5,-0.1) --++(0,.6)node[above] {$\dfrac{3}{4}$};
+      \end{tikzpicture}]]>
+      </latex-image></image></li>
+    <li><p><m>\dfrac{3}{10}</m></p></li>
+    <li><p><m>\dfrac{3}{4}</m></p></li>
+    </ol></p></answer></exercise>
+    
+<exercise><statement><p><ol marker="a">
   <li><p>On the figure below, draw lines at <m>\dfrac{1}{5}~</m>, <m>\dfrac{2}{5}~</m>, <m>\dfrac{3}{5}~</m> and <m>\dfrac{4}{5}~</m> and label them.</p>
-    <image source="boxgridtenths.png" width="90%"></image></li>
-  <li><p><m>\dfrac{2}{10}~=<fillin characters="6"/>, ~~\dfrac{4}{10}~=<fillin characters="6"/>, ~~\dfrac{6}{10}~=<fillin characters="6"/>, ~~\dfrac{8}{10}~=<fillin characters="6"/> ~~</m></p></li></ol></p></statement>
-
-<answer><p><ol marker="a">
-  <li><p></p></li>
+    <image source="numberlinetenths" width="70%"></image></li>
+  <li><p><m>\dfrac{2}{10}~=<fillin characters="3"/>, ~~\dfrac{4}{10}~=<fillin characters="3"/>, ~~\dfrac{6}{10}~=<fillin characters="3"/>, ~~\dfrac{8}{10}~=<fillin characters="3"/> ~~</m></p></li></ol></p></statement> 
+  <answer><p><ol marker="a">
+  <li><image xml:id="numberlinetenths-with-fifths" width="70%" margins="0% 30%"><description>From 0 to 1 by tenths</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [scale=.75]
+    \draw[black,thick] (0,0)--(10,0);
+    \draw[black] (10,.2) --++(0,-.4)node[below] {$1.0$};
+    \foreach \x in  {0,..., 9} {
+      \draw[black] (\x,.2) --++(0,-.4) node[below] {$0.\x$};
+      }
+    \draw[blue, thick] (2,-0.1) --++(0,.6)node[above] {$\dfrac{1}{5}$};
+    \draw[blue, thick] (4,-0.1) --++(0,.6)node[above] {$\dfrac{2}{5}$};
+    \draw[blue, thick] (6,-0.1) --++(0,.6)node[above] {$\dfrac{3}{5}$};
+    \draw[blue, thick] (8,-0.1) --++(0,.6)node[above] {$\dfrac{4}{5}$};
+    \end{tikzpicture}]]>
+    </latex-image></image></li>
   <li><p><m>\dfrac{1}{5},~ \dfrac{2}{5},~ \dfrac{3}{5},~ \dfrac{4}{5}</m></p></li>
-</ol></p></answer></exercise>
+  </ol></p></answer></exercise>
 
 <p> When we rewrite a fraction with a smaller denominator (but so that the size of the fraction stays the same), we say that we have <term>reduced</term> the fraction.</p>
 

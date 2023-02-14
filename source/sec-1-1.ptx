@@ -237,11 +237,36 @@
       <li><p><image source="grid8by6.png" width="60%"><description>8by6 grid</description></image><m>~~~~~~\dfrac{1}{4}=~~~~~~</m> and <m>~~~~~~\dfrac{3}{4}=</m></p></li>
     </ol></p>
     <answer><p><ol marker="a" cols="2">
-      <li><p><m>\dfrac{6}{24},~\dfrac{18}{24}</m></p></li>
-      <li><p><m>\dfrac{2}{8},~\dfrac{6}{8}</m></p></li>
-      <li><p><m>\dfrac{4}{20},~\dfrac{15}{20}</m></p></li>
-      <li><p><m>\dfrac{12}{48},~\dfrac{36}{48}</m></p></li>
-    </ol></p></answer></exercise>
+    <li><image xml:id="grid-6-24ths" width="25%" margins="0% 75%"><description>6 by 4 grid with 6 shaded boxes</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture}
+    \filldraw[blue] (0,0) rectangle (1,6);
+    \draw[black,thick] (0,0) grid (4,6);  
+    \end{tikzpicture}]]>
+    </latex-image></image><p><m>\dfrac{1}{4}=\dfrac{6}{24},~\dfrac{3}{4}=\dfrac{18}{24}</m></p></li>
+    <li><image xml:id="grid-4-16ths" width="50%" margins="0% 50%"><description>2 by 8 grid with 4 shaded boxes</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [xscale=.8]
+    \filldraw[blue] (0,0) rectangle (2,2);
+    \draw[black,thick] (0,0) grid (8,2);  
+    \end{tikzpicture}]]>
+    </latex-image></image><p><m>\dfrac{1}{4}=\dfrac{4}{16},~\dfrac{3}{4}=\dfrac{12}{16}</m></p></li>
+    <li><image xml:id="grid-5-20ths" width="30%" margins="0% 70%"><description>4 by 5 grid with 5 shaded boxes</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [xscale=.8]
+    \filldraw[blue] (0,3) rectangle (5,4);
+    \draw[black,thick] (0,0) grid (5,4);  
+    \end{tikzpicture}]]>
+    </latex-image></image><p><m>\dfrac{1}{4}=\dfrac{5}{20},~\dfrac{3}{4}=\dfrac{15}{20}</m></p></li>
+    <li><image xml:id="grid-12-48ths" width="40%" margins="0% 60%"><description>6 by 8 grid with 12 shaded boxes</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [xscale=.8]
+    \filldraw[blue] (0,0) rectangle (2,6);
+    \draw[black,thick] (0,0) grid (8,6);  
+    \end{tikzpicture}]]>
+    </latex-image></image><p><m>\dfrac{1}{4}=\dfrac{12}{48},~\dfrac{3}{4}=\dfrac{36}{48}</m></p></li>
+  </ol></p>
+</answer></exercise>
 </subsection>
 
 <subsection><title>Fractions on a Number Line</title>
@@ -278,12 +303,68 @@ A number line can help us visualize familiar fractions written with different de
   <li><image source="numberline20.png" width="70%"><description>number line</description></image></li>
   <li><image source="numberline24.png" width="70%"><description>number line</description></image></li>
 </ol></p>
-<answer><p><ol marker="a" cols="2">
-  <li><p><m>\dfrac{4}{8},~ \dfrac{2}{8},~ \dfrac{6}{8}</m></p></li>
-  <li><p><m>\dfrac{8}{16},~ \dfrac{4}{16},~ \dfrac{12}{16}</m></p></li>
-  <li><p><m>\dfrac{10}{20},~ \dfrac{5}{20},~ \dfrac{15}{20}</m></p></li>
-  <li><p><m>\dfrac{12}{24},~ \dfrac{6}{24},~ \dfrac{18}{24}</m></p></li>
-</ol></p></answer></exercise>
+<answer><p><ol marker="a" cols="1">
+  <li><image xml:id="numberline8-frac" width="60%" margins="0% 40%"><description>fractions of 8</description><latex-image>
+  <![CDATA[
+  \begin{tikzpicture} [scale=1]
+  \draw[black,thick] (0,0)--(8,0);
+  \draw[black] (0,.2) --++(0,-.4);
+  \foreach \x in  {1,..., 8} {
+  \draw[black] (\x,.2) --++(0,-.4) node[below] {$\dfrac{\x}{8}$};
+  }
+  \filldraw[red] (2,0) circle (1mm) node[above, yshift=3]{$\dfrac{1}{4}$};
+  \filldraw[red] (4,0) circle (1mm) node[above, yshift=3]{$\dfrac{1}{2}$};
+  \filldraw[red] (6,0) circle (1mm) node[above, yshift=3]{$\dfrac{3}{4}$};
+  \end{tikzpicture}]]>
+  </latex-image></image>
+  <p><m>\dfrac{1}{2}=\dfrac{4}{8}</m>, <m>~ \dfrac{1}{4}=\dfrac{2}{8}</m>, <m>~ \dfrac{3}{4}=\dfrac{6}{8}</m></p></li>
+  <li><image xml:id="numberline16-frac" width="80%" margins="0% 20%"><description>fractions of 16</description><latex-image>
+  <![CDATA[
+  \begin{tikzpicture} [scale=.6]
+  \draw[black,thick] (0,0)--(16,0);
+  \draw[black] (0,.2) --++(0,-.4);
+  \foreach \x in  {1,..., 16} {
+  \draw[black] (\x,.2) --++(0,-.4) node[below] {$\dfrac{\x}{16}$};
+  }
+  \filldraw[red] (4,0) circle (1.5mm) node[above, yshift=3]{$\dfrac{1}{4}$};
+  \filldraw[red] (8,0) circle (1.5mm) node[above, yshift=3]{$\dfrac{1}{2}$};
+  \filldraw[red] (12,0) circle (1.5mm) node[above, yshift=3]{$\dfrac{3}{4}$};
+  \end{tikzpicture}]]>
+  </latex-image></image><p><m>\dfrac{1}{2}=\dfrac{8}{16}</m>, <m>~ \dfrac{1}{4}=\dfrac{4}{16}</m>, <m>~ \dfrac{3}{4}=\dfrac{12}{16}</m></p></li>
+  <li><image xml:id="numberline20-frac" width="90%" margins="0% 10%"><description>fractions of 20</description><latex-image>
+  <![CDATA[
+  \begin{tikzpicture} [scale=.55]
+  \draw[black,thick] (0,0)--(20,0);
+  \draw[black] (0,.2) --++(0,-.4);
+  \foreach \x [evaluate=\x as \xi using int( 2* \x )]in  {1,..., 10} {
+    \draw[black] (\xi,.2) --++(0,-.4) node[below] {$\dfrac{\xi}{20}$};
+    }
+  \foreach \x in  {1,..., 20} {
+  \draw[black] (\x,.2) --++(0,-.4);
+  }
+  \filldraw[red] (5,0) circle (1.6mm) node[above, yshift=3]{$\dfrac{1}{4}$};
+  \filldraw[red] (10,0) circle (1.6mm) node[above, yshift=3]{$\dfrac{1}{2}$};
+  \filldraw[red] (15,0) circle (1.6mm) node[above, yshift=3]{$\dfrac{3}{4}$};
+  \end{tikzpicture}]]>
+  </latex-image></image><p><m>\dfrac{1}{2}=\dfrac{10}{20}</m>, <m>~ \dfrac{1}{4}=\dfrac{5}{20}</m>, <m>~ \dfrac{3}{4}=\dfrac{15}{20}</m></p></li>
+  <li><image xml:id="numberline24-frac" width="90%" margins="0% 10%"><description>fractions of 24</description><latex-image>
+  <![CDATA[
+  \begin{tikzpicture} [scale=.5]
+  \draw[black,thick] (0,0)--(24,0);
+  \draw[black] (0,.2) --++(0,-.4);
+  \foreach \x [evaluate=\x as \xi using int( 2* \x )]in  {1,..., 12} {
+    \draw[black] (\xi,.2) --++(0,-.4) node[below] {$\dfrac{\xi}{24}$};
+    }
+  \foreach \x in  {1,..., 24} {
+  \draw[black] (\x,.2) --++(0,-.4);
+  }
+  \filldraw[red] (6,0) circle (1.7mm) node[above, yshift=3]{$\dfrac{1}{4}$};
+  \filldraw[red] (12,0) circle (1.7mm) node[above, yshift=3]{$\dfrac{1}{2}$};
+  \filldraw[red] (18,0) circle (1.7mm) node[above, yshift=3]{$\dfrac{3}{4}$};
+  \end{tikzpicture}]]>
+  </latex-image></image><p><m>\dfrac{1}{2}=\dfrac{12}{24}</m>, <m>~ \dfrac{1}{4}=\dfrac{6}{24}</m>, <m>~ \dfrac{3}{4}=\dfrac{18}{24}</m></p></li>
+  </ol></p>
+</answer></exercise>
 </subsection>
 
 <subsection><title>Benchmark Fractions</title>
@@ -316,22 +397,52 @@ A number line can help us visualize familiar fractions written with different de
     <image source="comparenumberline.png" width="70%"><description>number line</description></image></p>
 
   <exercise><p>One yard is equal to 36 inches. <ol marker="a">
-    <li><p>Compute the benchmark fractions with denominator 36.
+      <li><p>Compute the benchmark fractions with denominator 36.
+        
+        <me>\dfrac{1}{4}=~~~~~~~~~~ \dfrac{1}{2}=~~~~~~~~~~ \dfrac{3}{4}=~~~~~~~~~~</me></p></li>
       
-      <me>\dfrac{1}{4}=~~~~~~~~~~ \dfrac{1}{2}=~~~~~~~~~~ \dfrac{3}{4}=~~~~~~~~~~</me></p></li>
-    
-    <li><p>Draw a number line showing the benchmark fractions from part (a).
+      <li><p>Draw a number line showing the benchmark fractions from part (a).
         
         <image source="emptyfourths.png" width="70%"><description>number line</description></image></p></li>
-
-    <li><p>Connie needs ribbons of length 10 inches and 25 inches. What fractions 
+    
+      <li><p>Connie needs ribbons of length 10 inches and 25 inches. What fractions 
         of a yard are those lengths? Plot the fractions on your number line.</p></li>
-  </ol></p>
-  <answer><p><ol marker="a">
-    <li><p><m>\dfrac{9}{36},~ \dfrac{18}{36},~ \dfrac{27}{36}</m></p></li>
-    <li><p></p></li>
-    <li><p><m>\dfrac{10}{36},~ \dfrac{25}{36}</m></p></li>
-  </ol></p></answer></exercise>
+      </ol></p>
+      <answer><p><ol marker="a">
+      <li><p><m>\dfrac{9}{36},~ \dfrac{18}{36},~ \dfrac{27}{36}</m></p></li>
+      <li><image xml:id="numberline36-frac" width="70%" margins="0% 30%"><description>fractions of 36</description><latex-image>
+        <![CDATA[
+        \begin{tikzpicture} [scale=.22]
+        \draw[black,thick] (0,0)--(36,0);
+        \draw[black] (0,.7) --++(0,-1.4);
+        \foreach \x [evaluate=\x as \xi using int( 3* \x )]in  {3,6,9, 12} {
+          \draw[black] (\xi,.7) --++(0,-1.4) node[below] {$\dfrac{\xi}{36}$};
+          }
+        \foreach \x in  {1,..., 36} {
+        \draw[black] (\x,.3) --++(0,-.6);
+        }
+        \filldraw[red] (9,0) circle (3.5mm) node[above, yshift=3]{$\dfrac{1}{4}$};
+        \filldraw[red] (18,0) circle (3.5mm) node[above, yshift=3]{$\dfrac{1}{2}$};
+        \filldraw[red] (27,0) circle (3.5mm) node[above, yshift=3]{$\dfrac{3}{4}$};
+        \end{tikzpicture}]]>
+        </latex-image></image></li>
+      <li><p><m>\dfrac{10}{36},~ \dfrac{25}{36}</m></p>
+        <image xml:id="numberline36-in" width="70%" margins="0% 30%"><description>fractions of 36</description><latex-image>
+          <![CDATA[
+          \begin{tikzpicture} [scale=.22]
+          \draw[black,thick] (0,0)--(36,0);
+          \draw[black] (0,.7) --++(0,-1.4);
+          \foreach \x [evaluate=\x as \xi using int( 3* \x )]in  {9,18,27,36} {
+            \draw[black] (\x,.7) --++(0,-1.4) node[below] {$\dfrac{\x}{36}$};
+            }
+          \foreach \x in  {1,..., 36} {
+          \draw[black] (\x,.3) --++(0,-.6);
+          }
+          \filldraw[red] (10,0) circle (3.5mm) node[above, yshift=3]{$\dfrac{10}{36}$};
+          \filldraw[red] (25,0) circle (3.5mm) node[above, yshift=3]{$\dfrac{25}{36}$};
+          \end{tikzpicture}]]>
+          </latex-image></image></li>
+      </ol></p></answer></exercise>
 
 <activity><title>Number Lines</title>
   <p><ol marker="1">
