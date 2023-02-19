@@ -82,7 +82,46 @@ by 4.  Illustrate with a picture of <m>\dfrac{1}{4} \times 8</m>.</p></statement
 <exercise number="22"><statement><p>Write a calculation to find seven-sixteenths of three-quarters.</p></statement></exercise>
 
 <exercise number="23"><statement><p>Explain why dividing a number by <m>\dfrac{1}{5}</m> is the same as multiplying the number by 5. Illustrate with a picture of <m>4 \div \dfrac{1}{5}</m>.</p></statement>
-<answer><p>There are five fifths in each whole.</p></answer></exercise>
+  <answer><p>There are five fifths in each whole.</p>
+    <image xml:id="FourdivbyFifth" width="80%" margins="0% 20%"><description>How many fifths in 4</description><latex-image>
+        <![CDATA[
+        \begin{tikzpicture} [scale=.6]
+        \def\r{1};
+        \coordinate (O) at (0,0);
+        \filldraw[green] (O) circle (\r); 
+        \draw[black] (O) circle (\r); 
+        \draw[black] (O) --++(90:\r); 
+        \draw[black] (O) --++(162:\r);  
+        \draw[black] (O) --++(234:\r);  
+        \draw[black] (O) --++(306:\r);  
+        \draw[black] (O) --++(18:\r);  
+        \coordinate (O) at (2.5,0);
+        \filldraw[green] (O) circle (\r); 
+        \draw[black] (O) circle (\r); 
+        \draw[black] (O) --++(90:\r); 
+        \draw[black] (O) --++(162:\r);  
+        \draw[black] (O) --++(234:\r);  
+        \draw[black] (O) --++(306:\r);  
+        \draw[black] (O) --++(18:\r);  
+        \coordinate (O) at (5,0);
+        \filldraw[green] (O) circle (\r); 
+        \draw[black] (O) circle (\r); 
+        \draw[black] (O) --++(90:\r); 
+        \draw[black] (O) --++(162:\r);  
+        \draw[black] (O) --++(234:\r);  
+        \draw[black] (O) --++(306:\r);  
+        \draw[black] (O) --++(18:\r);  
+        \coordinate (O) at (7.5,0);
+        \filldraw[green] (O) circle (\r); 
+        \draw[black] (O) circle (\r); 
+        \draw[black] (O) --++(90:\r); 
+        \draw[black] (O) --++(162:\r);  
+        \draw[black] (O) --++(234:\r);  
+        \draw[black] (O) --++(306:\r);  
+        \draw[black] (O) --++(18:\r);  
+        \end{tikzpicture}]]>
+      </latex-image></image>
+</answer></exercise>
 
 <exercise number="24"><statement><p>Explain why dividing a number by <m>\dfrac{3}{4}</m> is the same as multiplying the number by <m>\dfrac{4}{3}</m>. Illustrate with a picture of <m>3 \div \dfrac{3}{4}</m>.</p></statement></exercise>
 
