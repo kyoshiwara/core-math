@@ -284,13 +284,27 @@
 <exercisegroup><introduction><p>For Problems 47-50, use centimeter grid paper.</p></introduction>
 
 <exercise number="47"><statement><p><ol marker="a">
-  <li><p>Draw a right triangle with sides 3 cm, 4 cm, and 5 cm.</p></li>
-  <li><p>Draw a square on each side of your triangle, and compute the area of each square.</p></li>
-</ol></p></statement>
-<answer><p><ol marker="a">
-  <li><p></p></li>
-  <li><p>9 sq cm, 16 sq cm, 25 sq cm</p></li>
-</ol></p></answer></exercise>
+    <li><p>Draw a right triangle with sides 3 cm, 4 cm, and 5 cm.</p></li>
+    <li><p>Draw a square on each side of your triangle, and compute the area of each square.</p></li>
+  </ol></p></statement>
+  <answer><p><ol marker="a">
+    <li>
+        <image xml:id="triangle-3-4-5" width="50%" margins="0% 50%"><description>3-4-5 triangle with square on each side</description><latex-image>
+            <![CDATA[
+            \begin{tikzpicture}[scale=.6]
+            \draw[cyan] (-3,-4) grid (7,7);
+            \draw[very thick] (0,0) -- (4,0) -- (0,3) --cycle;
+            \draw[magenta,thick] (0,0) rectangle (-3,3);
+            \draw[magenta,thick] (0,0) rectangle (4,-4);
+            \draw[magenta,thick] (4,0) --++ ({atan(4/3)}:5)--++({90+atan(4/3)}:5)--++({180+atan(4/3)}:5)--cycle;
+            \node[text width=1cm, text=blue] at (2.4,-.5){4};
+            \node[text width=1cm, text=blue] at (.25,1.45){3};
+            \node[text width=1cm, text=blue] at (2.75,2){5};
+            \end{tikzpicture}]]>
+        </latex-image></image>
+    </li>
+    <li><p>9 sq cm, 16 sq cm, 25 sq cm</p></li>
+  </ol></p></answer></exercise>
 
 <exercise number="48"><statement><p><ol marker="a">
   <li><p>Draw a right triangle with sides 4.5 cm, 6 cm, and 7.5 cm.</p></li>
@@ -298,13 +312,27 @@
 </ol></p></statement></exercise>
 
 <exercise number="49"><statement><p><ol marker="a">
-  <li><p>Draw a right triangle with sides 8 cm, 15 cm, and 17 cm.</p></li>
-  <li><p>Check that your triangle satisfies the Pythagorean theorem.</p></li>
-</ol></p></statement>
-<answer><p><ol marker="a">
-  <li><p></p></li>
-  <li><p><m>8^2 + 15^2 = 64 + 225 = 289 = 17^2</m></p></li>
-</ol></p></answer></exercise>
+    <li><p>Draw a right triangle with sides 8 cm, 15 cm, and 17 cm.</p></li>
+    <li><p>Check that your triangle satisfies the Pythagorean theorem.</p></li>
+  </ol></p></statement>
+  <answer><p><ol marker="a">
+    <li>
+        <image xml:id="triangle-8-15-17" width="60%" margins="0% 40%"><description>8-15-17 triangle with square on each side</description><latex-image>
+            <![CDATA[
+            \begin{tikzpicture}[scale=.2]
+            \draw[cyan] (-8,-15) grid (23,23);
+            \draw[very thick] (0,0) -- (15,0) -- (0,8) --cycle;
+            \draw[magenta,thick] (0,0) rectangle (-8,8);
+            \draw[magenta,thick] (0,0) rectangle (15,-15);
+            \draw[magenta,thick] (15,0) --++ ({atan(15/8)}:17)--++({90+atan(15/8)}:17)--++({180+atan(15/8)}:17)--cycle;
+            \node[text width=.7cm, text=blue] at (7.5,-1){15};
+            \node[text width=.7cm, text=blue] at (0,4){8};
+            \node[text width=.7cm, text=blue] at (8.3,5.3){17};
+            \end{tikzpicture}]]>
+        </latex-image></image>
+    </li>
+    <li><p><m>8^2 + 15^2 = 64 + 225 = 289 = 17^2</m></p></li>
+  </ol></p></answer></exercise>
 
 <exercise number="50"><statement><p><ol marker="a">
   <li><p>Draw a right triangle with sides 12 cm, 16 cm, and 20 cm.</p></li>
