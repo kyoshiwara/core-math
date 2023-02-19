@@ -1,0 +1,1609 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Variables</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Core Mathematics">
+<meta property="book:author" content="Me">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Core Mathematics</span></a></h1>
+<p class="byline">Me</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec-2-2.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch2.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-2-4.html" title="Next">Next</a></span>
+</div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec-2-2.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch2.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-2-4.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="dedication-1.html" data-scroll="dedication-1" class="internal">Dedication</a></li>
+<li><a href="acknowledgement-1.html" data-scroll="acknowledgement-1" class="internal">Acknowledgements</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Preliminary Ideas</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Halves and Quarters</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Tenths and Hundredths</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Whole Numbers</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Angles and Triangles</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Perimeter and Area</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Numbers and Variables</span></a><ul>
+<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Decimal Numbers</a></li>
+<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">More Fractions and Percents</a></li>
+<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="active">Variables</a></li>
+<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Algebraic Expressions</a></li>
+<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Measurement</span></a><ul>
+<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Volume and Surface Area</a></li>
+<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Exponents</a></li>
+<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Units of Measure</a></li>
+<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Circles and Spheres</a></li>
+<li><a href="sec-3-5.html" data-scroll="sec-3-5" class="internal">Large Numbers</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Calculation</span></a><ul>
+<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Adding and Subtracting Fractions</a></li>
+<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">Multiplying and Dividing Fractions</a></li>
+<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Roots and Radicals</a></li>
+<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Negative Numbers</a></li>
+<li><a href="sec-4-5.html" data-scroll="sec-4-5" class="internal">Order of Operations</a></li>
+</ul>
+</li>
+<li class="link backmatter"><a href="meta_backmatter.html" data-scroll="meta_backmatter" class="internal"><span class="title">Backmatter</span></a></li>
+<li class="link"><a href="solutions-1.html" data-scroll="solutions-1" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Selected Exercises and Homework Problems</span></a></li>
+<li class="link"><a href="appendix-1.html" data-scroll="appendix-1" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></li>
+<li class="link"><a href="index-1.html" data-scroll="index-1" class="internal"><span class="title">Index</span></a></li>
+<li class="link"><a href="colophon-2.html" data-scroll="colophon-2" class="internal"><span class="title">Colophon</span></a></li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-2-3"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">2.3</span> <span class="title">Variables</span>
+</h2>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:3.75%;margin-right:3.75%;">
+<div class="sbspanel top" style="width:54.0540540540541%;"><ul id="p-2023" class="disc">
+<li id="li-917"><p id="p-2024">What is a Variable</p></li>
+<li id="li-918"><p id="p-2025">Bar Graphs</p></li>
+<li id="li-919"><p id="p-2026">Using Letters for Variables</p></li>
+</ul></div>
+<div class="sbspanel top" style="width:37.8378378378378%;"><img src="external/earth.png" class="contained"></div>
+</div></div>
+<section class="subsection" id="subsection-41"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">2.3.1</span> <span class="title">What is a Variable?</span>
+</h3>
+<p id="p-2027">We live in a world of change. The numbers we use to measure our world change, too. The temperature and humidity of the environment change day-by-day, as do prices on the stock market. We monitor our blood pressure and cholesterol count to detect changes in our health. The connections between variable quantities help us understand the forces that shape our world.</p>
+<article class="example example-like" id="example-43"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.1</span><span class="period">.</span>
+</h4>
+<ol id="p-2028" class="lower-alpha">
+<li id="li-920">
+<p id="p-2029">Consider the table below. Do you see a pattern that relates Delbert's age to Francine's age?</p>
+<p id="p-2030"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Francine's age</td>
+<td class="c m b1 r1 l0 t1 lines">Delbert's age</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">16</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">13</td>
+<td class="c m b1 r1 l0 t0 lines">19</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">17</td>
+<td class="c m b1 r1 l0 t0 lines">23</td>
+</tr>
+</table></div></p>
+<p id="p-2031">Yes: Delbert's age is always six more than Francine's age.</p>
+</li>
+<li id="li-921">
+<p id="p-2032">Write a mathematical sentence that expresses Delbert's age in terms of Francine's age.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\text{Delbert's age} = \blert{\text{Francine's age} + 6}
+\end{equation*}
+</div>
+</li>
+</ol></article><p id="p-2033">In the example above, Francine's age and Delbert's age are <dfn class="terminology">variables</dfn>.</p>
+<article class="assemblage assemblage-like" id="assemblage-31"><h4 class="heading"><span class="title">Definition.</span></h4>
+<p id="p-2034">A <dfn class="terminology">variable</dfn> is a numerical quantity that can take on different values at different times or in different situations.</p></article><article class="note remark-like" id="note-31"><h4 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">2.3.2</span><span class="period">.</span>
+</h4>
+<p id="p-2035">Quantities that do not change, such as the six-year age difference between Delbert and Francine, are called <dfn class="terminology">constants</dfn>.</p></article><article class="exercise exercise-like" id="exercise-477"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.3.3</span><span class="period">.</span>
+</h4>
+<p id="p-2036">The table shows the regular price, in dollars, of several items at a sporting goods store, and the discount price with a coupon.</p>
+<p id="p-2037"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Regular Price ($)</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Discount Price ($)</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">9.99</td>
+<td class="c m b1 r1 l0 t0 lines">7.99</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">10.99</td>
+<td class="c m b1 r1 l0 t0 lines">8.99</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">11.49</td>
+<td class="c m b1 r1 l0 t0 lines">9.49</td>
+</tr>
+</table></div></p>
+<ol id="p-2038" class="lower-alpha">
+<li id="li-922"><p id="p-2039">Is there a pattern that relates the discount price to the regular price?</p></li>
+<li id="li-923">
+<p id="p-2040">Write a mathematical sentence that expresses the discount price in terms of the regular price.</p>
+<p id="p-2041">Discount price =</p>
+</li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-259" id="answer-259"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-259"><div class="answer solution-like"><ol id="p-2042" class="lower-alpha">
+<li id="li-924"><p id="p-2043">Yes, the discount price is $2 less than the regular price.</p></li>
+<li id="li-925"><p id="p-2044">Discount price =  Regular price <span class="process-math">\(-\)</span> $2</p></li>
+</ol></div></div>
+</div></article><article class="assemblage assemblage-like" id="assemblage-32"><p id="p-2045">Did you see the pattern relating the Discount price to the Regular price in Exercise 1? When we look for a pattern we can check several possibilities:</p>
+<ul id="p-2046" class="disc">
+<li id="li-926"><p id="p-2047">Is there a constant number we can add to or subtract from the first variable to get the second variable?</p></li>
+<li id="li-927"><p id="p-2048">Can we multiply or divide the first variable by a constant to get the second variable?</p></li>
+<li id="li-928"><p id="p-2049">Is the sum or the product of the two variables a constant?</p></li>
+</ul></article><article class="example example-like" id="example-44"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.4</span><span class="period">.</span>
+</h4>
+<ol id="p-2050" class="lower-alpha">
+<li id="li-929">
+<p id="p-2051">In the table below, do you see a pattern that relates the total utility bill to your share?</p>
+<p id="p-2052"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Utility Bill ($)</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Your Share ($)</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">28</td>
+<td class="c m b1 r1 l0 t0 lines">7</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">36</td>
+<td class="c m b1 r1 l0 t0 lines">9</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">42</td>
+<td class="c m b1 r1 l0 t0 lines">10.50</td>
+</tr>
+</table></div></p>
+<p id="p-2053">Yes:  Your share is one fourth of the total bill, so you can divide the total bill by 4 to find your share.</p>
+</li>
+<li id="li-930">
+<p id="p-2054">Write a mathematical sentence that expresses your share of the bill in terms of the total bill.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\text{Your share} = \blert{\text{utility bill} \div 4}
+\end{equation*}
+</div>
+</li>
+</ol></article><p id="p-2055">In the Example above, Your Share and Utility Bill are variables, because they can change from month to month.</p>
+<article class="exercise exercise-like" id="exercise-478"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.3.5</span><span class="period">.</span>
+</h4>
+<p id="p-2056">The table shows the weight of a salad and the price charged by the cafeteria.</p>
+<p id="p-2057"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Weight (oz)</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Price ($)</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">0.40</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines">0.60</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">0.80</td>
+</tr>
+</table></div></p>
+<ol id="p-2058" class="lower-alpha">
+<li id="li-931"><p id="p-2059">Is there a pattern that relates the price of the salad to its weight?</p></li>
+<li id="li-932">
+<p id="p-2060">Write a mathematical sentence that expresses the price of the salad in terms of its weight.</p>
+<p id="p-2061">Price =</p>
+</li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-260" id="answer-260"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-260"><div class="answer solution-like"><ol id="p-2062" class="lower-alpha">
+<li id="li-933"><p id="p-2063">Yes, the price is 0.10 times the weight in ounces.</p></li>
+<li id="li-934"><p id="p-2064">Price = 0.10 <span class="process-math">\(\times\)</span> Weight</p></li>
+</ol></div></div>
+</div></article><article class="activity project-like" id="activity-20"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Find the Rule.</span>
+</h4>
+<div class="introduction" id="introduction-61"><p id="p-2065">Complete each table, then write a mathematical sentence relating the variables.</p></div>
+<ol id="p-2066" class="decimal cols2">
+<li id="li-935">
+<p id="p-2067"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Revenue ($)</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Profit ($)</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1000</td>
+<td class="c m b1 r1 l0 t0 lines">800</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">850</td>
+<td class="c m b1 r1 l0 t0 lines">650</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">500</td>
+<td class="c m b1 r1 l0 t0 lines">300</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">400</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+<p id="p-2068">Profit =</p>
+</li>
+<li id="li-936">
+<p id="p-2069"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Price ($)</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Tax ($)</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">100</td>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">150</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">175</td>
+<td class="c m b1 r1 l0 t0 lines">14</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">200</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+<p id="p-2070">Tax =</p>
+</li>
+<li id="li-937">
+<p id="p-2071"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Gas Used (gal)</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Gas Left (gal)</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1.5</td>
+<td class="c m b1 r1 l0 t0 lines">18.5</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4.2</td>
+<td class="c m b1 r1 l0 t0 lines">15.8</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">12.5</td>
+<td class="c m b1 r1 l0 t0 lines">7.5</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">15.6</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+<p id="p-2072">Gas Left =</p>
+</li>
+<li id="li-938">
+<p id="p-2073"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Length(in)</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Width (in)</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">9</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+<p id="p-2074">Width =</p>
+</li>
+</ol></article></section><section class="subsection" id="subsection-42"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">2.3.2</span> <span class="title">Bar Graphs</span>
+</h3>
+<p id="p-2075">We can use a <dfn class="terminology">bar graph</dfn> to display the values of a variable. The height of the bar illustrates the value at each time or in each situation.</p>
+<article class="example example-like" id="example-45"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.6</span><span class="period">.</span>
+</h4>
+<p id="p-2076">The bar graph shows the number of new homes sold each month in Columbus County last year.</p>
+<div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/bargraph1.png" class="contained"></div>
+<ol id="p-2077" class="lower-alpha">
+<li id="li-939">
+<p id="p-2078">What variable is shown in this graph?</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\blert{\text{Number of new homes}}
+\end{equation*}
+</div>
+</li>
+<li id="li-940">
+<p id="p-2079">How many houses were sold in March?</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\blert{\text{Twenty houses were sold in March.}}
+\end{equation*}
+</div>
+</li>
+<li id="li-941">
+<p id="p-2080">In which month(s) were 35 houses sold?</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\blert{\text{Thirty-five houses were sold in July and in October.}}
+\end{equation*}
+</div>
+</li>
+<li id="li-942">
+<p id="p-2081">In which month were the most houses sold, and how many houses were sold that month?</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\blert{\text{The most houses were sold in June;  40 houses were sold that month.}}
+\end{equation*}
+</div>
+</li>
+<li id="li-943">
+<p id="p-2082">How much did housing sales decline from October to November?</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\blert{\text{Housing sales declined by 25 (from 35 to 10).}}
+\end{equation*}
+</div>
+</li>
+</ol></article><article class="exercise exercise-like" id="exercise-479"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.3.7</span><span class="period">.</span>
+</h4>
+<p id="p-2083">Refer to the bar graph in the Example above, which shows new home sales in Columbus County.</p>
+<ol id="p-2084" class="lower-alpha">
+<li id="li-944"><p id="p-2085">How many houses were sold in February?</p></li>
+<li id="li-945"><p id="p-2086">In which month(s) were 20 houses sold?</p></li>
+<li id="li-946"><p id="p-2087">In which month were the fewest houses sold, and how many houses were sold that month?</p></li>
+<li id="li-947">
+<p id="p-2088">Fill in the table showing the number of new homes sold each month.</p>
+<p id="p-2089"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Month</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Houses Sold</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Month</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Houses Sold</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">January</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">July</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">February</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">August</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">March</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">September</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">April</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">October</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">May</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">November</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">June</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">December</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original has-tabular" data-refid="hk-answer-261" id="answer-261"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-261"><div class="answer solution-like"><ol id="p-2090" class="lower-alpha">
+<li id="li-948"><p id="p-2091">15</p></li>
+<li id="li-949"><p id="p-2092">March, April, and September</p></li>
+<li id="li-950"><p id="p-2093">December, 5</p></li>
+<li id="li-951">
+<p id="p-2094">Fill in the table showing the number of new homes sold each month.</p>
+<p id="p-2095"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Month</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Houses Sold</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Month</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Houses Sold</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">January</td>
+<td class="c m b1 r1 l0 t0 lines">25</td>
+<td class="c m b1 r1 l0 t0 lines">July</td>
+<td class="c m b1 r1 l0 t0 lines">35</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">February</td>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">August</td>
+<td class="c m b1 r1 l0 t0 lines">30</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">March</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">September</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">April</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">October</td>
+<td class="c m b1 r1 l0 t0 lines">35</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">May</td>
+<td class="c m b1 r1 l0 t0 lines">30</td>
+<td class="c m b1 r1 l0 t0 lines">November</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">June</td>
+<td class="c m b1 r1 l0 t0 lines">40</td>
+<td class="c m b1 r1 l0 t0 lines">December</td>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+</tr>
+</table></div></p>
+</li>
+</ol></div></div>
+</div></article><p id="p-2096">Here is a bar graph that shows the values of two variables.</p>
+<article class="example example-like" id="example-46"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.8</span><span class="period">.</span>
+</h4>
+<p id="p-2097"><div class="sidebyside"><div class="sbsrow" style="margin-left:3.75%;margin-right:3.75%;">
+<div class="sbspanel top" style="width:54.0540540540541%;"><p id="p-2098">In the 1990's, when cell phones first became available, Motorola and Nokia were competing phone companies. The bar graph shows the portion of the market captured by each company from 1994 to 2000.</p></div>
+<div class="sbspanel top" style="width:37.8378378378378%;"><img src="external/oldphone.png" class="contained"></div>
+</div></div></p>
+<div class="image-box" style="width: 85%; margin-left: 7.5%; margin-right: 7.5%;"><img src="external/bargraph2.png" class="contained"></div>
+<ol id="p-2099" class="lower-alpha">
+<li id="li-952"><p id="p-2100">What was Motorola's share of the market in 2000?   <span class="process-math">\(~~~~~~\blert{15\%}\)</span></p></li>
+<li id="li-953"><p id="p-2101">In which year shown did Motorola have a 24% market share?   <span class="process-math">\(~~~~~~\blert{\text{1997}}\)</span></p></li>
+<li id="li-954">
+<p id="p-2102">In which of the years shown did Motorola have its largest market share?  What was that share?</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\blert{\text{In 1994 Motorola had 33% of the market.}}
+\end{equation*}
+</div>
+</li>
+<li id="li-955">
+<p id="p-2103">By how much did Motorola's market share exceed Nokia's in 1995?</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\blert{\text{8 percentage points}}
+\end{equation*}
+</div>
+</li>
+<li id="li-956">
+<p id="p-2104">In which of the years shown did Motorola have its largest lead over Nokia in market share?  What was that lead?</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\blert{\text{In 1994 Motorola had a 12% lead in market share.}}
+\end{equation*}
+</div>
+</li>
+</ol></article><article class="exercise exercise-like" id="exercise-480"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.3.9</span><span class="period">.</span>
+</h4>
+<p id="p-2105">Refer to the bar graph in the previous Example.</p>
+<ol id="p-2106" class="decimal">
+<li id="li-957"><p id="p-2107">What was Nokia's share of the market in 2000?</p></li>
+<li id="li-958"><p id="p-2108">In which of the years shown did Nokia have its lowest market share?  What was that share?</p></li>
+<li id="li-959"><p id="p-2109">In which of the years shown did Nokia have its largest lead over Motorola in market share? What was that lead?</p></li>
+<li id="li-960"><p id="p-2110">In which year did Nokia overtake Motorola in market share?</p></li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-262" id="answer-262"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-262"><div class="answer solution-like"><ol id="p-2111" class="decimal">
+<li id="li-961"><p id="p-2112">31%</p></li>
+<li id="li-962"><p id="p-2113">1997, 19%</p></li>
+<li id="li-963"><p id="p-2114">2000, 16%</p></li>
+<li id="li-964"><p id="p-2115">1998</p></li>
+</ol></div></div>
+</div></article><article class="activity project-like" id="activity-21"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">Making a Bar Graph.</span>
+</h4>
+<div class="introduction" id="introduction-62"><p id="p-2116">The table shows the age distribution of the U.S. population in 1900 and in 2015.</p></div>
+<p id="p-2117"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Age Group</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">% of Population<br>in 1900</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">% of Population<br>in 2015</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Under 14</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">15 t0 24</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">21</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">25 to 44</td>
+<td class="c m b1 r1 l0 t0 lines">28</td>
+<td class="c m b1 r1 l0 t0 lines">26</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">45 to 54</td>
+<td class="c m b1 r1 l0 t0 lines">14</td>
+<td class="c m b1 r1 l0 t0 lines">26</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5 and over</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+</tr>
+</table></div></p>
+<ol id="p-2118" class="lower-alpha">
+<li id="li-965"><p id="p-2119">Which was the largest age group in 1900?  In 2015?</p></li>
+<li id="li-966"><p id="p-2120">What percent of the population was under 25 in 1900?  In 2015?</p></li>
+<li id="li-967"><p id="p-2121">What percent of the population was over 44 in 1900?  In 2015?</p></li>
+<li id="li-968"><p id="p-2122">Make a double bar graph displaying the information in the table. <div class="image-box" style="width: 85%; margin-left: 7.5%; margin-right: 7.5%;"><img src="external/bargraph3.png" class="contained"></div></p></li>
+<li id="li-969"><p id="p-2123">In your opinion, what is the most striking change in the age distribution of the U. S. population form 1900 to 2015?  How is that change illustrated by the bar graph?</p></li>
+</ol></article></section><section class="subsection" id="subsection-43"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">2.3.3</span> <span class="title">Using Letters for Variables</span>
+</h3>
+<p id="p-2124">We often use a single letter to represent a variable quantity. In the next Example, the variables are Jayson's age and Shawna's age.</p>
+<article class="example example-like" id="example-47"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.10</span><span class="period">.</span>
+</h4>
+<p id="p-2125">Shawna was 22 years old when her son Jayson was born.</p>
+<ol id="p-2126" class="lower-alpha">
+<li id="li-970">
+<p id="p-2127">Fill in the table.</p>
+<p id="p-2128"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Jayson's age</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+<td class="c m b1 r1 l0 t1 lines">12</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">(Calculation)</td>
+<td class="c m b1 r1 l0 t0 lines">1+22</td>
+<td class="c m b1 r1 l0 t0 lines">4+22</td>
+<td class="c m b1 r1 l0 t0 lines">7+22</td>
+<td class="c m b1 r1 l0 t0 lines">12+22</td>
+<td class="c m b1 r1 l0 t0 lines">18+22</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Shawna's age</td>
+<td class="c m b1 r1 l0 t0 lines">23</td>
+<td class="c m b1 r1 l0 t0 lines">26</td>
+<td class="c m b1 r1 l0 t0 lines">29</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+<td class="c m b1 r1 l0 t0 lines">40</td>
+</tr>
+</table></div></p>
+</li>
+<li id="li-971">
+<p id="p-2129">Explain how to find Shawna's age if you know Jayson's age.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\blert{\text{Add 22 to Jayson's age.}}
+\end{equation*}
+</div>
+</li>
+<li id="li-972">
+<p id="p-2130">Write a mathematical sentence for Francine's age.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\text{Shawna's age} = \blert{\text{Jayson's age} +  22}
+\end{equation*}
+</div>
+</li>
+<li id="li-973">
+<p id="p-2131">Let <span class="process-math">\(\alert{a}\)</span> stand for Jayson's age, and write an expression for Shawna's age in terms of <span class="process-math">\(\alert{a}\text{.}\)</span></p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\text{Shawna's age} = \blert{a +  22}
+\end{equation*}
+</div>
+</li>
+<li id="li-974">
+<p id="p-2132">Check that your expression for Shawna's age gives the correct values when we replace Jayson's age by <span class="process-math">\(\alert{a}\)</span> in the table in part (a).</p>
+<p id="p-2133"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(\blert{a}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+<td class="c m b1 r1 l0 t1 lines">12</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(\blert{a+22}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">23</td>
+<td class="c m b1 r1 l0 t0 lines">26</td>
+<td class="c m b1 r1 l0 t0 lines">29</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+<td class="c m b1 r1 l0 t0 lines">40</td>
+</tr>
+</table></div></p>
+</li>
+</ol></article><article class="note remark-like" id="note-32"><h4 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">2.3.11</span><span class="period">.</span>
+</h4>
+<p id="p-2134">A letter used as a variable must always stand for a number. In the previous Example, the variable <span class="process-math">\(\alert{a}\)</span> stands for Jayson's age, which is a number. We cannot let a variable stand for, say, "Jayson," or for any other person or object.</p></article><article class="exercise exercise-like" id="exercise-481"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.3.12</span><span class="period">.</span>
+</h4>
+<p id="p-2135">A belt should be 3 inches longer than the maximum waist size it can fit.</p>
+<ol id="p-2136" class="lower-alpha">
+<li id="li-975">
+<p id="p-2137">Fill in the table below.</p>
+<p id="p-2138"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Waist size (inches)</td>
+<td class="c m b1 r1 l0 t1 lines">24</td>
+<td class="c m b1 r1 l0 t1 lines">28</td>
+<td class="c m b1 r1 l0 t1 lines">32</td>
+<td class="c m b1 r1 l0 t1 lines">36</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">(Calculation)</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Belt length (inches)</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+<li id="li-976"><p id="p-2139">Explain how to find the belt length if you know the waist size.</p></li>
+<li id="li-977">
+<p id="p-2140">Write a mathematical sentence for the belt length.</p>
+<p id="p-2141">Belt length =</p>
+</li>
+<li id="li-978"><p id="p-2142">Let <span class="process-math">\(\alert{w}\)</span> stand for the waist size in inches, and write an expression for the belt length in terms of <span class="process-math">\(\alert{w}\text{.}\)</span></p></li>
+<li id="li-979">
+<p id="p-2143">Put your expression for the belt length into the table, and check that it gives the same values as those in the table in part (a).</p>
+<p id="p-2144"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(\blert{w} \hphantom{000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">24</td>
+<td class="c m b1 r1 l0 t1 lines">28</td>
+<td class="c m b1 r1 l0 t1 lines">32</td>
+<td class="c m b1 r1 l0 t1 lines">36</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(\vphantom{w}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+</ol>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref answer-knowl original has-tabular" data-refid="hk-answer-263" id="answer-263"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-263"><div class="answer solution-like"><ol id="p-2145" class="lower-alpha">
+<li id="li-980">
+<p id="p-2146">Fill in the table below.</p>
+<p id="p-2147"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Waist size (inches)</td>
+<td class="c m b1 r1 l0 t1 lines">24</td>
+<td class="c m b1 r1 l0 t1 lines">28</td>
+<td class="c m b1 r1 l0 t1 lines">32</td>
+<td class="c m b1 r1 l0 t1 lines">36</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">(Calculation)</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(24 + 3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(28 + 3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(32 + 3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(36 + 3\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Belt length (inches)</td>
+<td class="c m b1 r1 l0 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines">31</td>
+<td class="c m b1 r1 l0 t0 lines">35</td>
+<td class="c m b1 r1 l0 t0 lines">39</td>
+</tr>
+</table></div></p>
+</li>
+<li id="li-981"><p id="p-2148">Add 3 inches to the waist size.</p></li>
+<li id="li-982"><p id="p-2149">Belt length = Waist size + 3</p></li>
+<li id="li-983"><p id="p-2150"><span class="process-math">\(\displaystyle w + 3\)</span></p></li>
+<li id="li-984">
+<p id="p-2151">Put your expression for the belt length into the table, and check that it gives the same values as those in the table in part (a).</p>
+<p id="p-2152"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(\blert{w} \hphantom{000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">24</td>
+<td class="c m b1 r1 l0 t1 lines">28</td>
+<td class="c m b1 r1 l0 t1 lines">32</td>
+<td class="c m b1 r1 l0 t1 lines">36</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(w + 3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines">31</td>
+<td class="c m b1 r1 l0 t0 lines">35</td>
+<td class="c m b1 r1 l0 t0 lines">39</td>
+</tr>
+</table></div></p>
+</li>
+</ol></div></div>
+</div></article><article class="activity project-like" id="activity-22"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.3.3</span><span class="period">.</span><span class="space"> </span><span class="title">Using Letters for Varuables.</span>
+</h4>
+<ol id="p-2153" class="decimal">
+<li id="li-985">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:55.5555555555556%;"><p id="p-2154">Uncle Herb is on a diet. He can have 1200 calories per day.</p></div>
+<div class="sbspanel top" style="width:33.3333333333333%;"><img src="external/salad.png" class="contained"></div>
+</div></div>
+<ol id="p-2155" class="lower-alpha">
+<li id="li-986"><p id="p-2156">If Uncle Herb has 700 calories for lunch, how many calories can he have for dinner?</p></li>
+<li id="li-987"><p id="p-2157">Explain how to find the number of calories Uncle Herb can have for dinner if he consumes <span class="process-math">\(c\)</span> calories for lunch.</p></li>
+<li id="li-988">
+<p id="p-2158">Fill in the table for the given values of <span class="process-math">\(c\text{.}\)</span></p>
+<p id="p-2159"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(c \hphantom{000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">200</td>
+<td class="c m b1 r1 l0 t1 lines">350</td>
+<td class="c m b1 r1 l0 t1 lines">425</td>
+<td class="c m b1 r1 l0 t1 lines">640</td>
+<td class="c m b1 r1 l0 t1 lines">870</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(1200-c\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+</ol>
+</li>
+<li id="li-989">
+<p id="p-2160">Quentin has to drive 600 miles. He plans to drive at a constant average speed.</p>
+<ol id="p-2161" class="lower-alpha">
+<li id="li-990"><p id="p-2162">How long will the journey take if he drives at 60 miles per hour?</p></li>
+<li id="li-991"><p id="p-2163">Explain how to find how long the journey will take at <span class="process-math">\(r\)</span> miles per hour.</p></li>
+<li id="li-992">
+<p id="p-2164">Fill in the table for the given values of <span class="process-math">\(r\text{.}\)</span></p>
+<p id="p-2165"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(r \hphantom{000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">40</td>
+<td class="c m b1 r1 l0 t1 lines">45</td>
+<td class="c m b1 r1 l0 t1 lines">50</td>
+<td class="c m b1 r1 l0 t1 lines">80</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(\dfrac{600}{r}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+</ol>
+</li>
+</ol></article><article class="assemblage assemblage-like" id="assemblage-33"><h4 class="heading"><span class="title">A Quick Fractions Refresher.</span></h4>
+<ul id="p-2166" class="disc">
+<li id="li-993">
+<p id="p-2167">To find <span class="process-math">\(\dfrac{1}{3}\)</span> of a number, we divide the number by 3:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{1}{3}~ \text{of}~ 36 = 36 \div 3 = 12
+\end{equation*}
+</div>
+</li>
+<li id="li-994">
+<p id="p-2168">To find <span class="process-math">\(\dfrac{2}{3}\)</span> of a number, we first find <span class="process-math">\(\dfrac{1}{3}\)</span> of the number (divide by 3), then multiply the result by 2:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{2}{3}~ \text{of}~ 36 = 2 \times 12 = 24
+\end{equation*}
+</div>
+<p id="p-2169">Exercise</p>
+<ol id="p-2170" class="lower-alpha">
+<li id="li-995"><p id="p-2171">Find <span class="process-math">\(\dfrac{1}{4}\)</span> of 120.</p></li>
+<li id="li-996"><p id="p-2172">Find <span class="process-math">\(\dfrac{3}{4}\)</span> of 120.</p></li>
+</ol>
+</li>
+<li id="li-997">
+<p id="p-2173">To find 5% of a number, we multiply the number by 0.05:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+5\% ~ \text{of}~ 80 = 0.05 \times 80 = 4
+\end{equation*}
+</div>
+</li>
+<li id="li-998">
+<p id="p-2174">If a number is increased by 5%, we multiply the number by 1.05:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+80~ \text{increased by}~ 5\% ~\text{is}~  1.05 \times 80 = 84
+\end{equation*}
+</div>
+<p id="p-2175">Exercise</p>
+<ol id="p-2176" class="lower-alpha">
+<li id="li-999"><p id="p-2177">Find 15% of 60.</p></li>
+<li id="li-1000"><p id="p-2178">Increase 60 by 15%.</p></li>
+</ol>
+</li>
+</ul></article></section><section class="subsection" id="subsection-44"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">2.3.4</span> <span class="title">Vocabuary</span>
+</h3>
+<ul id="p-2179" class="disc cols2">
+<li id="li-1001"><p id="p-2180">variable</p></li>
+<li id="li-1002"><p id="p-2181">constant</p></li>
+<li id="li-1003"><p id="p-2182">bar graph</p></li>
+</ul></section><section class="exercises" id="prac-2-3"><h3 class="heading hide-type">
+<span class="type">Exercises</span> <span class="codenumber">2.3.5</span> <span class="title">Practice 2.3</span>
+</h3>
+<div class="exercisegroup" id="exercisegroup-59">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-63"><p id="p-2183">For Problems 1-8, write mathematical sentences relating the variables.</p></div>
+<div class="exercisegroup-exercises cols2">
+<article class="exercise exercise-like" id="exercise-482"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<p id="p-2184">Write a mathematical sentence thatexpresses the number of laps Shirleyhas swum in terms of the number oflaps Janet has swum.</p>
+<p id="p-2185"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Janet's laps</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Shirley's laps</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">22</td>
+<td class="c m b1 r1 l0 t0 lines">14</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">30</td>
+<td class="c m b1 r1 l0 t0 lines">22</td>
+</tr>
+</table></div></p>
+<p id="p-2186">Shirley's laps =</p></article><article class="exercise exercise-like" id="exercise-483"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<p id="p-2188">Write a mathematical sentence that expresses the number of miles Cara has bicycled in terms of the number of miles Jamil has bicycled.</p>
+<p id="p-2189"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Jamil's miles</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Cara's miles</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines">9</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+</tr>
+</table></div></p>
+<p id="p-2190">Cara's miles =</p></article><article class="exercise exercise-like" id="exercise-484"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<p id="p-2191">Write a mathematical sentence thatgives the number of batteries in terms of the number of packages.</p>
+<p id="p-2192"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Packages</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Batteries</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">30</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">48</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">72</td>
+</tr>
+</table></div></p>
+<p id="p-2193">Number of batteries =</p></article><article class="exercise exercise-like" id="exercise-485"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<p id="p-2195">Write a mathematical sentence that gives the number of study groups in terms of the number of students.</p>
+<p id="p-2196"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Students</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Study Groups</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">28</td>
+<td class="c m b1 r1 l0 t0 lines">7</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">40</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+</tr>
+</table></div></p>
+<p id="p-2197">Number of study groups =</p></article><article class="exercise exercise-like" id="exercise-486"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
+<p id="p-2198">Write a mathematical sentence that tells how many pages you have left to read out of a  200-page assignment.</p>
+<p id="p-2199"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Pages read</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Pages left</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">30</td>
+<td class="c m b1 r1 l0 t0 lines">170</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">85</td>
+<td class="c m b1 r1 l0 t0 lines">115</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">160</td>
+<td class="c m b1 r1 l0 t0 lines">40</td>
+</tr>
+</table></div></p>
+<p id="p-2200">Number of pages left =</p></article><article class="exercise exercise-like" id="exercise-487"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
+<p id="p-2202">Write a mathematical sentence that tells tells how many minutes are left in a two-hour (120-minute) game.</p>
+<p id="p-2203"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Minutes played</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Minutes left</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">105</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">40</td>
+<td class="c m b1 r1 l0 t0 lines">80</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">97</td>
+<td class="c m b1 r1 l0 t0 lines">23</td>
+</tr>
+</table></div></p>
+<p id="p-2204">Number of minutes left =</p></article><article class="exercise exercise-like" id="exercise-488"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
+<p id="p-2205">Write a mathematical sentence that tells expresses the amount of your wages in terms of the number of hours you worked.</p>
+<p id="p-2206"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Hours worked</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Wages</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">35</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">84</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">140</td>
+</tr>
+</table></div></p>
+<p id="p-2207">Wages =</p></article><article class="exercise exercise-like" id="exercise-489"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<p id="p-2209">Write a mathematical sentence that tells expresses your weekly study hours in terms of the number of units you are enrolled in.</p>
+<p id="p-2210"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Units</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Study hours</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines">18</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">36</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">18</td>
+<td class="c m b1 r1 l0 t0 lines">54</td>
+</tr>
+</table></div></p>
+<p id="p-2211">Number of study hours =</p></article>
+</div>
+</div>
+<article class="exercise exercise-like" id="exercise-490"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<p id="p-2212">The bar graph shows the percent of children born outside of marriage in various European countries.</p>
+<div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-2-3-9.png" class="contained"></div>
+<ol id="p-2213" class="lower-alpha">
+<li id="li-1004"><p id="p-2214">What variable is displayed in this graph?</p></li>
+<li id="li-1005"><p id="p-2215">What percent of children are born outside of marriage in Germany?</p></li>
+<li id="li-1006"><p id="p-2216">In which country are 18% of children born outside of marriage?</p></li>
+<li id="li-1007"><p id="p-2217">In which country is the largest percent of children born outside of marriage?</p></li>
+<li id="li-1008"><p id="p-2218">In which country is the smallest percent of children born outside of marriage?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-491"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<p id="p-2225">The bar graph shows the percent of the original rain forest that remains in several areas that are undergoing heavy deforestation.</p>
+<div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-2-3-10.png" class="contained"></div>
+<ol id="p-2226" class="lower-alpha">
+<li id="li-1014"><p id="p-2227">What variable is displayed in this graph?</p></li>
+<li id="li-1015"><p id="p-2228">What percent of the Central American rain forest remains?</p></li>
+<li id="li-1016"><p id="p-2229">In what region does only 3% of the rain forest remain?</p></li>
+<li id="li-1017"><p id="p-2230">In what region is the largest percent of the original rain forest left?</p></li>
+<li id="li-1018"><p id="p-2231">In what region is the smallest percent of the original rain forest left?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-492"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
+<p id="p-2232">The bar graph shows the average temperature in Chicago during each month of the year.</p>
+<div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-2-3-11.png" class="contained"></div>
+<ol id="p-2233" class="lower-alpha">
+<li id="li-1019"><p id="p-2234">What variable is displayed in this graph?</p></li>
+<li id="li-1020"><p id="p-2235">What is the average temperature during October?</p></li>
+<li id="li-1021"><p id="p-2236">In what month is the average temperature 59<span class="process-math">\(\degree\text{?}\)</span></p></li>
+<li id="li-1022"><p id="p-2237">Which month experiences the greatest temperature increase over the previous month?</p></li>
+<li id="li-1023"><p id="p-2238">Which month experiences the greatest temperature decrease over the previous month?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-493"><h4 class="heading"><span class="codenumber">12<span class="period">.</span></span></h4>
+<p id="p-2245">The bar graph shows the average precipitation (in inches) each month in Tampa, Florida.</p>
+<div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-2-3-12.png" class="contained"></div>
+<ol id="p-2246" class="lower-alpha">
+<li id="li-1029"><p id="p-2247">What variable is displayed in this graph?</p></li>
+<li id="li-1030"><p id="p-2248">In which month does Tampa receive the most precipitation?</p></li>
+<li id="li-1031"><p id="p-2249">In which month does Tampa receive the least precipitation?</p></li>
+<li id="li-1032"><p id="p-2250">What is the increase in precipitation from April to May?</p></li>
+<li id="li-1033"><p id="p-2251">What is the decrease in precipitation from September to October?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-494"><h4 class="heading"><span class="codenumber">13<span class="period">.</span></span></h4>
+<p id="p-2252">The bar graph shows the leading causes of accidental deaths for children under five years of age. (Note that in this bar graph, the bars are horizontal instead of vertical.)</p>
+<div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-2-3-13.png" class="contained"></div>
+<ol id="p-2253" class="lower-alpha">
+<li id="li-1034"><p id="p-2254">Make a table showing the number of deaths for each cause.</p></li>
+<li id="li-1035"><p id="p-2255">What caused the most deaths for children under age 5?</p></li>
+<li id="li-1036"><p id="p-2256">About 3400 accidental deaths of children under age 5 were recorded. What fraction of those deaths were caused by drowning? (Round your answer to the nearest thousandth.)</p></li>
+<li id="li-1037"><p id="p-2257">How many accidental deaths were due to causes other than those shown in the bar graph?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-495"><h4 class="heading"><span class="codenumber">14<span class="period">.</span></span></h4>
+<p id="p-2263">The bar graph shows the number of annual paid vacation days received by workers in ten industrial nations.</p>
+<div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-2-3-14.png" class="contained"></div>
+<ol id="p-2264" class="lower-alpha">
+<li id="li-1042"><p id="p-2265">In which nation do workers receive the most vacation days? In which nation do they receive the fewest?</p></li>
+<li id="li-1043"><p id="p-2266">Make a table showing the number of vacation days in each country. List the countries in order from most vacation days to fewest.</p></li>
+<li id="li-1044"><p id="p-2267">How many more vacation days would you get in France than in Australia?</p></li>
+<li id="li-1045"><p id="p-2268">Which countries get at least double the amount of vacation we get in the United States? Do any countries get double the amount of vacation Canadians get?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-496"><h4 class="heading"><span class="codenumber">15<span class="period">.</span></span></h4>
+<p id="p-2269">The bar graph shows the average life expectancy in various countries in 1900 and now. (Life expectancy is the average age to which people can expect to live.)</p>
+<div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-2-3-15.png" class="contained"></div>
+<ol id="p-2270" class="lower-alpha">
+<li id="li-1046"><p id="p-2271">Which country had the highest life expectancy in 1900? Which had the lowest?</p></li>
+<li id="li-1047"><p id="p-2272">Which country has the highest life expectancy now? Which has the lowest?</p></li>
+<li id="li-1048"><p id="p-2273">Which country experienced the greatest increase in life expectancy over the last century? By how many years?</p></li>
+<li id="li-1049"><p id="p-2274">How much has the gap in life expectancy among the countries listed decreased over the last century?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-497"><h4 class="heading"><span class="codenumber">16<span class="period">.</span></span></h4>
+<p id="p-2280">The bar graph shows the average weekly working hours in various countries in 1900 and now.</p>
+<div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-2-3-16.png" class="contained"></div>
+<ol id="p-2281" class="lower-alpha">
+<li id="li-1054"><p id="p-2282">Which country had the longest average work week in 1900? Which had the shortest?</p></li>
+<li id="li-1055"><p id="p-2283">Which country has the longest average work week now? Which has the shortest?</p></li>
+<li id="li-1056"><p id="p-2284">In which country did the number of working hours decrease the most over the last century? By how many hours?</p></li>
+<li id="li-1057"><p id="p-2285">How much has the gap in working hours among the countries listed increased over the last century?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-498"><h4 class="heading"><span class="codenumber">17<span class="period">.</span></span></h4>
+<p id="p-2286">What is the difference between a variable and a constant?</p></article><article class="exercise exercise-like" id="exercise-499"><h4 class="heading"><span class="codenumber">18<span class="period">.</span></span></h4>
+<p id="p-2288">How does a bar graph display the values of a variable?</p></article><div class="exercisegroup" id="exercisegroup-60">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-64"><p id="p-2289">For Problems 19-24, use letters to represent the variable quantities.</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-500"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
+<p id="p-2290">Yasmin needs <span class="process-math">\(9 \dfrac{1}{2}\)</span> hours per week to study for her math class.</p>
+<ol id="p-2291" class="lower-alpha">
+<li id="li-1058"><p id="p-2292">If Yasmin has 15 study hours per week, how many hours does she have for her other classes?</p></li>
+<li id="li-1059"><p id="p-2293">Explain how to find the number of study hours Yasmin has for her other classes if she has <span class="process-math">\(t\)</span> hours of weekly study time.</p></li>
+<li id="li-1060">
+<p id="p-2294">Fill in the table for the given values of <span class="process-math">\(t\text{.}\)</span> (Hint:  First subtract 9 from the value of <span class="process-math">\(t\text{,}\)</span> then subtract <span class="process-math">\(\dfrac{1}{2}\)</span> from the result.)</p>
+<p id="p-2295"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(t \hphantom{000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">16\hphantom{000}</td>
+<td class="c m b1 r1 l0 t1 lines">20\hphantom{000}</td>
+<td class="c m b1 r1 l0 t1 lines">25\hphantom{000}</td>
+<td class="c m b1 r1 l0 t1 lines">31\hphantom{000}</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(t - 9\dfrac{1}{2}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+</ol></article><article class="exercise exercise-like" id="exercise-501"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
+<p id="p-2300">Rose and her two sisters, Iris and Violet, plan to sell the family farm and move to Florida.  They will divide the money from the sale equally.</p>
+<ol id="p-2301" class="lower-alpha">
+<li id="li-1064"><p id="p-2302">How much will Rose get if they make $30,000 on the sale?</p></li>
+<li id="li-1065"><p id="p-2303">Explain how to find Rose's share if they make <span class="process-math">\(s\)</span> dollars.</p></li>
+<li id="li-1066">
+<p id="p-2304">Fill in the table for the given values of <span class="process-math">\(s\text{.}\)</span></p>
+<p id="p-2305"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(s \hphantom{000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">36,000</td>
+<td class="c m b1 r1 l0 t1 lines">45,000</td>
+<td class="c m b1 r1 l0 t1 lines">51,000</td>
+<td class="c m b1 r1 l0 t1 lines">114,000</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(\dfrac{s}{3}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+</ol></article><article class="exercise exercise-like" id="exercise-502"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
+<p id="p-2306">Kranberry Kooler is 10% cranberry juice.</p>
+<ol id="p-2307" class="lower-alpha">
+<li id="li-1067"><p id="p-2308">How much cranberry juice is in 15 quarts of Kranberry Kooler?</p></li>
+<li id="li-1068"><p id="p-2309">Explain how to find the number of quarts of cranberry juice needed for <span class="process-math">\(q\)</span> quarts of Kranberry Kooler.</p></li>
+<li id="li-1069">
+<p id="p-2310">Fill in the table for the given values of <span class="process-math">\(q\text{.}\)</span></p>
+<p id="p-2311"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(q \hphantom{000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+<td class="c m b1 r1 l0 t1 lines">45</td>
+<td class="c m b1 r1 l0 t1 lines">260</td>
+<td class="c m b1 r1 l0 t1 lines">1250</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0.10 \times q\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+</ol></article><article class="exercise exercise-like" id="exercise-503"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
+<p id="p-2316">The registrar at City College predicts a 4% enrollment increase for all departments next year.</p>
+<ol id="p-2317" class="lower-alpha">
+<li id="li-1073"><p id="p-2318">If the English department has 5200 students enrolled this year, how many should they expect next year?</p></li>
+<li id="li-1074"><p id="p-2319">Explain how a department with <span class="process-math">\(p\)</span> students this year can predict next year's enrollment.</p></li>
+<li id="li-1075">
+<p id="p-2320">Fill in the table for the given values of <span class="process-math">\(p\text{.}\)</span></p>
+<p id="p-2321"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(p \hphantom{000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">600</td>
+<td class="c m b1 r1 l0 t1 lines">1300</td>
+<td class="c m b1 r1 l0 t1 lines">2200</td>
+<td class="c m b1 r1 l0 t1 lines">3500</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(1.04 \times p\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+</ol></article><article class="exercise exercise-like" id="exercise-504"><h5 class="heading"><span class="codenumber">23<span class="period">.</span></span></h5>
+<p id="p-2322">Human hair grows approximately 0.085 centimeters per day. Sinead shaved her head this morning.</p>
+<ol id="p-2323" class="lower-alpha">
+<li id="li-1076"><p id="p-2324">How long will Sinead's hair be after 30 days?</p></li>
+<li id="li-1077"><p id="p-2325">Explain how to find the length of Sinead's hair after <span class="process-math">\(t\)</span> days.</p></li>
+<li id="li-1078">
+<p id="p-2326">Fill in the table for the given values of <span class="process-math">\(t\text{.}\)</span></p>
+<p id="p-2327"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(t \hphantom{000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+<td class="c m b1 r1 l0 t1 lines">60</td>
+<td class="c m b1 r1 l0 t1 lines">200</td>
+<td class="c m b1 r1 l0 t1 lines">360</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0.085\times t\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+</ol></article><article class="exercise exercise-like" id="exercise-505"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
+<p id="p-2332">Camilla wants to deposit her savings of $2000 into a one-year T-bill.</p>
+<ol id="p-2333" class="lower-alpha">
+<li id="li-1082"><p id="p-2334">How much will Camilla's savings earn if the T-bill earns 7% interest?</p></li>
+<li id="li-1083"><p id="p-2335">Explain how to compute Camilla's interest if the T-bill pays an interest rate of <span class="process-math">\(r\text{.}\)</span></p></li>
+<li id="li-1084">
+<p id="p-2336">Fill in the table for the given values of <span class="process-math">\(r\text{.}\)</span></p>
+<p id="p-2337"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(r \hphantom{000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">6%</td>
+<td class="c m b1 r1 l0 t1 lines">6.5%</td>
+<td class="c m b1 r1 l0 t1 lines">8%</td>
+<td class="c m b1 r1 l0 t1 lines">10%</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(2000\times r\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+</ol></article>
+</div>
+</div>
+<div class="exercisegroup" id="exercisegroup-61">
+<h4 class="heading"><span class="title">Exercise Group.</span></h4>
+<div class="introduction" id="introduction-65"><p id="p-2338">For Problems 25-30, you may skip parts (b) and (c) if you can answer part (d) without them!</p></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exercise-506"><h5 class="heading"><span class="codenumber">25<span class="period">.</span></span></h5>
+<p id="p-2339">Mariel is driving 400 miles to her sister's house.</p>
+<ol id="p-2340" class="lower-alpha">
+<li id="li-1085">
+<p id="p-2341">Fill in the table below.</p>
+<p id="p-2342"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Miles driven</td>
+<td class="c m b1 r1 l0 t1 lines">80</td>
+<td class="c m b1 r1 l0 t1 lines">150</td>
+<td class="c m b1 r1 l0 t1 lines">225</td>
+<td class="c m b1 r1 l0 t1 lines">310</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Miles left</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+<li id="li-1086"><p id="p-2343">Explain how to find the number of miles Mariel has left to drive if you know how many miles she has driven.</p></li>
+<li id="li-1087">
+<p id="p-2344">Write a mathematical sentence for the number of miles left to drive:</p>
+<p id="p-2345">Miles left  =</p>
+</li>
+<li id="li-1088">
+<p id="p-2346">Let <span class="process-math">\(d\)</span> stand for the number of miles Mariel has driven, and write an expression for the number of miles she has left in terms of <span class="process-math">\(d\text{.}\)</span></p>
+<p id="p-2347">Miles left =</p>
+</li>
+</ol></article><article class="exercise exercise-like" id="exercise-507"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
+<p id="p-2353">Delbert has a coupon for $12 off at Video World.</p>
+<ol id="p-2354" class="lower-alpha">
+<li id="li-1093">
+<p id="p-2355">Fill in the table below.</p>
+<p id="p-2356"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Regular price</td>
+<td class="c m b1 r1 l0 t1 lines">18</td>
+<td class="c m b1 r1 l0 t1 lines">25</td>
+<td class="c m b1 r1 l0 t1 lines">76</td>
+<td class="c m b1 r1 l0 t1 lines">130</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Delbert's price</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+<li id="li-1094"><p id="p-2357">Explain how to find Delbert's price if you know the regular price.</p></li>
+<li id="li-1095">
+<p id="p-2358">Write a mathematical sentence for what Delbert pays:</p>
+<p id="p-2359">Delbert's price  =</p>
+</li>
+<li id="li-1096">
+<p id="p-2360">Let <span class="process-math">\(p\)</span> stand for the regular price, and write an expression for Delbert's price in terms of <span class="process-math">\(p\text{.}\)</span></p>
+<p id="p-2361">Delbert's price =</p>
+</li>
+</ol></article><article class="exercise exercise-like" id="exercise-508"><h5 class="heading"><span class="codenumber">27<span class="period">.</span></span></h5>
+<p id="p-2362">Adria's diet allows one-fifth of her total daily calories to come from fat.</p>
+<ol id="p-2363" class="lower-alpha">
+<li id="li-1097">
+<p id="p-2364">Fill in the table below.</p>
+<p id="p-2365"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Total calories</td>
+<td class="c m b1 r1 l0 t1 lines">1200</td>
+<td class="c m b1 r1 l0 t1 lines">1225</td>
+<td class="c m b1 r1 l0 t1 lines">1500</td>
+<td class="c m b1 r1 l0 t1 lines">1800</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Calories from fat</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+<li id="li-1098"><p id="p-2366">Explain how to find the number of calories from fat allowed if you know how many calories Adria plans to eat.</p></li>
+<li id="li-1099">
+<p id="p-2367">Write a mathematical sentence for the number of calories from fat:</p>
+<p id="p-2368">Calories from fat  =</p>
+</li>
+<li id="li-1100">
+<p id="p-2369">Let <span class="process-math">\(c\)</span> stand for the regular price, and write an expression for the number of calories from fat allowed in terms of <span class="process-math">\(c\text{.}\)</span></p>
+<p id="p-2370">Calories from fat =</p>
+</li>
+</ol></article><article class="exercise exercise-like" id="exercise-509"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
+<p id="p-2376">Marvin goes to a restaurant with three friends and agrees to split the bill equally.</p>
+<ol id="p-2377" class="lower-alpha">
+<li id="li-1105">
+<p id="p-2378">Fill in the table below.</p>
+<p id="p-2379"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Total bill ($)</td>
+<td class="c m b1 r1 l0 t1 lines">36</td>
+<td class="c m b1 r1 l0 t1 lines">44</td>
+<td class="c m b1 r1 l0 t1 lines">56</td>
+<td class="c m b1 r1 l0 t1 lines">72</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Marvin's share ($)</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+<li id="li-1106"><p id="p-2380">Explain how to find Marvin's share of the bill.</p></li>
+<li id="li-1107">
+<p id="p-2381">Write a mathematical sentence for Marvin's share of the bill:</p>
+<p id="p-2382">Marvin's share =</p>
+</li>
+<li id="li-1108">
+<p id="p-2383">Let <span class="process-math">\(B\)</span> stand for the regular price, and write an expression for Marvin's share in terms of <span class="process-math">\(B\text{.}\)</span></p>
+<p id="p-2384">Marvin's share =</p>
+</li>
+</ol></article><article class="exercise exercise-like" id="exercise-510"><h5 class="heading"><span class="codenumber">29<span class="period">.</span></span></h5>
+<p id="p-2385">Marvin and his friends from Problem 28 agree to tip 15% of the total bill.</p>
+<ol id="p-2386" class="lower-alpha">
+<li id="li-1109">
+<p id="p-2387">Fill in the table below.</p>
+<p id="p-2388"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Total bill ($)</td>
+<td class="c m b1 r1 l0 t1 lines">32</td>
+<td class="c m b1 r1 l0 t1 lines">48</td>
+<td class="c m b1 r1 l0 t1 lines">52</td>
+<td class="c m b1 r1 l0 t1 lines">60</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Tip ($)</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+<li id="li-1110"><p id="p-2389">Explain how to find the tip.</p></li>
+<li id="li-1111">
+<p id="p-2390">Write a mathematical sentence for Marvin's share of the bill:</p>
+<p id="p-2391">Tip =</p>
+</li>
+<li id="li-1112">
+<p id="p-2392">Let <span class="process-math">\(B\)</span> stand for the total bill, and write an expression for the tip in terms of <span class="process-math">\(B\text{.}\)</span></p>
+<p id="p-2393">Tip =</p>
+</li>
+</ol></article><article class="exercise exercise-like" id="exercise-511"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
+<p id="p-2399">Rae has been collecting quarters to take to the bank.</p>
+<ol id="p-2400" class="lower-alpha">
+<li id="li-1117">
+<p id="p-2401">Fill in the table below.</p>
+<p id="p-2402"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Number of quarters</td>
+<td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">32</td>
+<td class="c m b1 r1 l0 t1 lines">68</td>
+<td class="c m b1 r1 l0 t1 lines">100</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Value of quarters ($)</td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></p>
+</li>
+<li id="li-1118"><p id="p-2403">Explain how to find the value of the quarters if you know how many quarters Rae has.</p></li>
+<li id="li-1119">
+<p id="p-2404">Write a mathematical sentence for the value of the quarters, in dollars:</p>
+<p id="p-2405">Value of quarters =</p>
+</li>
+<li id="li-1120">
+<p id="p-2406">Let <span class="process-math">\(Q\)</span> stand for the total bill, and write an expression for the value of the quarters in terms of <span class="process-math">\(Q\text{.}\)</span></p>
+<p id="p-2407">Value of quarters =</p>
+</li>
+</ol></article>
+</div>
+</div>
+<article class="exercise exercise-like" id="exercise-512"><h4 class="heading"><span class="codenumber">31<span class="period">.</span></span></h4>
+<p id="p-2408">Francine is saving up to buy a car, and deposits <span class="process-math">\(\dfrac{1}{5}\)</span> of her spending money each month into a savings account.</p>
+<ol id="p-2409" class="lower-alpha">
+<li id="li-1121">
+<p id="p-2410">If <span class="process-math">\(m\)</span> stands for Francine's spending money, write an expression for the amount she saves.</p>
+<p id="p-2411">Amount Francine saves =</p>
+</li>
+<li id="li-1122"><p id="p-2412">If Francine has $120 spending money, how much will she deposit into the savings account?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-513"><h4 class="heading"><span class="codenumber">32<span class="period">.</span></span></h4>
+<p id="p-2416">The Pep Club donates <span class="process-math">\(\dfrac{1}{6}\)</span> of the money it raises to charity.</p>
+<ol id="p-2417" class="lower-alpha">
+<li id="li-1125">
+<p id="p-2418">If <span class="process-math">\(R\)</span> stands for the amount of money the Pep Club raised, write an expression for the amount they donated to charity.</p>
+<p id="p-2419">Amount donated =</p>
+</li>
+<li id="li-1126"><p id="p-2420">If the Pep Club raised $240 how much will did they donate to charity?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-514"><h4 class="heading"><span class="codenumber">33<span class="period">.</span></span></h4>
+<p id="p-2421">Delbert wants to enlarge his class photograph. Its height is <span class="process-math">\(\dfrac{1}{4}\)</span> of its width. The enlarged photo should have the same shape as the original.</p>
+<ol id="p-2422" class="lower-alpha">
+<li id="li-1127">
+<p id="p-2423">If <span class="process-math">\(W\)</span> stands for the width of the enlargement, write an expression for its height.</p>
+<p id="p-2424">Height =</p>
+</li>
+<li id="li-1128"><p id="p-2425">If the width of the photo is 10 inches, what if its height?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-515"><h4 class="heading"><span class="codenumber">34<span class="period">.</span></span></h4>
+<p id="p-2429">The amount of soy flour in Lucy's protein bread is <span class="process-math">\(\dfrac{1}{8}\)</span> of the amount of wheat flour.</p>
+<ol id="p-2430" class="lower-alpha">
+<li id="li-1131">
+<p id="p-2431">If <span class="process-math">\(w\)</span> stands for the amount of wheat flour, write an expression for the amount of soy flour.</p>
+<p id="p-2432">Amount of soy flour =</p>
+</li>
+<li id="li-1132"><p id="p-2433">If Lucy uses 6 cups of wheat flour, how much soy flour will she need?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-516"><h4 class="heading"><span class="codenumber">35<span class="period">.</span></span></h4>
+<p id="p-2434">If the governor vetoes a bill passed by the State Assembly, <span class="process-math">\(\dfrac{2}{3}\)</span> of the members present must vote for the bill in order to overturn the veto.</p>
+<ol id="p-2435" class="lower-alpha">
+<li id="li-1133">
+<p id="p-2436">If <span class="process-math">\(p\)</span> stands for the number of Assembly members present, write an expression for the number of votes needed to overturn a veto.</p>
+<p id="p-2437">Votes needed =</p>
+</li>
+<li id="li-1134"><p id="p-2438">If 147 members are present, how many votes are needed to overturn a veto?</p></li>
+</ol></article><article class="exercise exercise-like" id="exercise-517"><h4 class="heading"><span class="codenumber">36<span class="period">.</span></span></h4>
+<p id="p-2442">The case for a Blu Ray disk is <span class="process-math">\(\dfrac{3}{8}\)</span> inch thick. You keep your disks lined up side-by-side on a bookshelf.</p>
+<ol id="p-2443" class="lower-alpha">
+<li id="li-1137">
+<p id="p-2444">If you own <span class="process-math">\(n\)</span> disks, write an expression for the length of shelf space you will need.</p>
+<p id="p-2445">Length of shelf space =</p>
+</li>
+<li id="li-1138"><p id="p-2446">If you own 32 disks, how much shelf space will you need?</p></li>
+</ol></article></section></section></div></main>
+</div>
+</body>
+</html>
