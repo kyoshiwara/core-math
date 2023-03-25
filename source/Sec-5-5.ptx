@@ -141,7 +141,30 @@
         <image source="exer5-5-3.png" width="50%"></image></li>
 </ol></p></statement>
 
-<answer> </answer></exercise>
+<answer>
+  <image xml:id="exer5-5-3ans" width="50%">
+    <description>Line through plotted points</description>
+    <latex-image>
+    <![CDATA[
+    \begin{tikzpicture}[scale=.5]
+    \draw[cyan] (0,0) grid (10,10);
+    \draw[black,thick,->,>=stealth'] (0,0)--(10.6,0) node[right]{$x$};
+    \draw[black,thick,->,>=stealth'] (0,0)--(0,10.9) node[left, xshift=2]{$y$};
+    \draw[magenta!80!black,very thick] (0,8) -- (10,3);
+    \foreach \x [evaluate=\x as \xi using int( 5* \x )]  in {2,4,...,10} {
+      \draw[black,thick] (\x,.1)--++(0,-.2) node[below]{$\xi$};
+    }
+    \foreach \y [evaluate=\y as \yi using int( 100* \y )]  in {5,10} {
+      \draw[black,thick] (.1,\y)--++(-.2,0) node[left]{$\yi$};
+    }        
+    \filldraw[black] (0,8) circle (3pt);
+    \filldraw[black] (2,7) circle (3pt);
+    \filldraw[black] (6,5) circle (3pt);
+    \filldraw[black] (10,3) circle (3pt);    
+    \end{tikzpicture}]]>
+</latex-image>
+</image>
+</answer></exercise>
 </subsection>
 
 <subsection><title>Graphing an Equation</title>
