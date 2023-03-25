@@ -287,7 +287,9 @@
 
   <li><p>What operation did you use to find the change in miles of railroad for each country?</p></li>
   <li><p>How did you decide whether the change was positive or negative?</p></li>
-</ol></p></statement>
+</ol></p>
+            <image source="traintracks.png" width="65%"></image>
+</statement>
 <answer><p><ol marker="a">
   <li><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">                        
         <row header="yes">
@@ -366,6 +368,11 @@
 
   <li><p>What operation did you use to find the change in airfare for each city?</p></li>
   <li><p>How did you decide whether the change was positive or negative?</p></li>
-</ol></p></statement></exercise>
+</ol></p>
+        
+        <image source="airplane.png" width="65%"></image>
+
+</statement></exercise>
+
 
 </exercises>

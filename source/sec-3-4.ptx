@@ -212,7 +212,9 @@ Use your calculator to find that  is approximately 150.15 yards. Because the rad
 <li><p>Finally, use your answers to Step 4 to write a formula for the area of the rectangle -- and the circle. Your formula should be written in terms of the radius of the circle.</p>
 
     <me>\blert{\text{Area of circle } = <fillin></fillin>}</me></li>  
-</ol></p></activity>                     
+</ol></p></activity> 
+
+  <image source="spirographs.png" width="80%"></image>                  
 
 <p>Here is our formula for the area of a circle.</p>
 
