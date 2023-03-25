@@ -13,12 +13,8 @@
    <chapter xml:id="testchap"  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Testing</title>
 
-    <section xml:id="stuff"><title>stuff</title>
 
-    
-  </section>
-
-<xi:include href="./sec-1-1.ptx" /> 
+    <xi:include href="./sec-5-5.ptx" /> 
 
 </chapter>
 

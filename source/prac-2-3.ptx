@@ -204,7 +204,9 @@
   <li><p>In what region does only 3% of the rain forest remain?</p></li>
   <li><p>In what region is the largest percent of the original rain forest left?</p></li>
   <li><p>In what region is the smallest percent of the original rain forest left?</p></li>
-</ol></p></statement></exercise>
+</ol></p>
+    <image source="rainforest.png" width="50%"></image>
+</statement></exercise>
 
 <exercise number="11"><statement><p>The bar graph shows the average temperature in Chicago during each month of the year.</p>
       <image source="hp-2-3-11.png" width="70%"></image>                
@@ -264,7 +266,9 @@
   <li><p>Which country has the highest life expectancy now? Which has the lowest?</p></li>
   <li><p>Which country experienced the greatest increase in life expectancy over the last century? By how many years?</p></li>
   <li><p>How much has the gap in life expectancy among the countries listed decreased over the last century?</p></li>
-</ol></p></statement>
+</ol></p>
+    <image source="lifeexp.png" width="30%"></image>
+</statement>
 <answer><p><ol marker="a">
   <li><p>US, Mexico</p></li>
   <li><p>Japan, Mexico</p></li>
@@ -300,10 +304,10 @@
                 <col halign="center"/>
     <row>
       <cell><m>t \hphantom{000}</m></cell>
-      <cell>16\hphantom{000}</cell>
-      <cell>20\hphantom{000}</cell>
-      <cell>25\hphantom{000}</cell>
-      <cell>31\hphantom{000}</cell></row>
+      <cell>16 <m>\hphantom{000}</m></cell>
+      <cell>20 <m>\hphantom{000}</m></cell>
+      <cell>25 <m>\hphantom{000}</m></cell>
+      <cell>31 <m>\hphantom{000}</m></cell></row>
     <row>
       <cell><m>t - 9\dfrac{1}{2}</m></cell>
       <cell></cell>
@@ -431,19 +435,18 @@
 </ol></p></statement></exercise>
 
 <exercise number="23"><statement><p>Human hair grows approximately 0.085 centimeters per day. Sinead shaved her head this morning. </p>
-<p><ol marker="a">  
+<sidebyside  widths="70% 20%" valign="middle middle"><p><ol marker="a">  
   <li><p>How long will Sinead's hair be after 30 days?</p></li>
   <li><p>Explain how to find the length of Sinead's hair after <m>t</m> days.</p></li>
   <li><p>Fill in the table for the given values of <m>t</m>.</p>
-
-  <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+    <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <col halign="center"/>
                 <col halign="center"/>
                 <col halign="center"/>
     <row>
       <cell><m>t \hphantom{000}</m></cell>
-      <cell>7</cell>
-      <cell>60</cell>
+      <cell><m>\hphantom{0}</m>7<m>\hphantom{0}</m></cell>
+      <cell>60<m>\hphantom{0}</m></cell>
       <cell>200</cell>
       <cell>360</cell></row>
     <row>
@@ -453,7 +456,8 @@
       <cell></cell>
       <cell></cell></row>
     </tabular></p></li>
-</ol></p></statement>
+</ol></p>
+    <image source="sinead.png" width="25%"></image></sidebyside></statement>
 <answer><p><ol marker="a">  
   <li><p>2.45 in</p></li>
   <li><p>Multiply <m>t</m> by 0.085</p></li>
@@ -654,7 +658,9 @@
         <p>Marvin's share = </p></li>                                                               
   <li><p>Let <m>B</m> stand for the regular price, and write an expression for Marvin's share in terms of <m>B</m>.</p>
         <p>Marvin's share = </p></li>
-  </ol></p></statement></exercise>
+  </ol></p>
+      <image source="restaurant.png" width="40%"></image>
+</statement></exercise>
 
 <exercise number="29"><statement><p>  Marvin and his friends from Problem 28 agree to tip 15% of the total bill.</p>
 <p><ol marker="a">  
@@ -767,14 +773,18 @@
   <li><p>If <m>w</m> stands for the amount of wheat flour, write an expression for the amount of soy flour.</p>
       <p>Amount of soy flour = </p></li>
   <li><p>If Lucy uses 6 cups of wheat flour, how much soy flour will she need?</p></li>
-</ol></p></statement></exercise>
+</ol></p>
+    <image source="flour.png" width="40%"></image>
+</statement></exercise>
 
 <exercise number="35"><statement><p>If the governor vetoes a bill passed by the State Assembly, <m>\dfrac{2}{3}</m> of the members present must vote for the bill in order to overturn the veto. </p>
  <p><ol marker="a">  
   <li><p>If <m>p</m> stands for the number of Assembly members present, write an expression for the number of votes needed to overturn a veto.</p>
       <p>Votes needed = </p></li>
   <li><p>If 147 members are present, how many votes are needed to overturn a veto?</p></li>
-</ol></p></statement>
+</ol></p>
+      <image source="assembly.png" width="40%"></image>
+</statement>
 <answer><p><ol marker="a">  
   <li><p>\dfrac{2}{3} \times p</p></li>
   <li><p>98</p></li>
