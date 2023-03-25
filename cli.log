@@ -1,3 +1,9 @@
-INFO    : PreTeXt project found in `C:\Users\kyosh\pretext\core-math`.
-INFO    : Preparing to deploy from active `main` git branch.
-INFO    : 
+INFO    : PreTeXt project found in `/home/byoshiwara/core-math`.
+WARNING : Assets like latex-images will not be regenerated for this build
+WARNING : (previously generated assets will be used if they exist).
+WARNING : To generate these assets before building, run `pretext build -g`.
+ERROR   : XInclude Error caused build to fail:
+ERROR   : <string>:0:0:WARNING:IO:IO_LOAD_ERROR: failed to load external entity "/home/byoshiwara/core-math/source/sec-5-5.ptx"
+/home/byoshiwara/core-math/source/test-section.ptx:17:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load /home/byoshiwara/core-math/source/sec-5-5.ptx, and no fallback was found
+INFO    : While running pretext, the following errors occurred:
+
