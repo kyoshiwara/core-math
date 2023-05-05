@@ -38,7 +38,7 @@
 </statement>
 
 <answer><p><ol marker = "a">
-  <li><p>  </p></li>
+  <li><p><image source="exer-5-5-1.png"></image></p></li>
   <li><p>1997</p></li></ol></p></answer></exercise>
 
 <p>We often use line graphs to illustrate trends in data over time.</p>
@@ -69,7 +69,7 @@
 </ol></p></statement>
 
 <answer><p><ol marker="a">
-  <li><p> </p></li> 
+  <li><p><image source="exer-5-5-2.png" width="80%"></image></p></li> 
   <li><p>About 14.5 billion dollars</p></li>
   <li><p>1992, 1998, and 1999</p></li>
   <li><p>1995</p></li>
@@ -91,13 +91,13 @@
 
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
-            <cell><p>Karen's age, <m>K</m></p></cell>
+            <cell>Karen's age, <m>K</m></cell>
             <cell>0</cell>
             <cell>2</cell>
             <cell>5</cell>
             <cell>9</cell></row>
         <row bottom="minor">
-            <cell><p>Peter's age, <m>P</m></p></cell>
+            <cell>Peter's age, <m>P</m></cell>
             <cell>4</cell>
             <cell>6</cell>
             <cell>9</cell>
@@ -142,7 +142,7 @@
 </ol></p></statement>
 
 <answer>
-  <image xml:id="exer5-5-3ans" width="50%">
+  <image xml:id="exer5-5-3ans" width="40%">
     <description>Line through plotted points</description>
     <latex-image>
     <![CDATA[
@@ -322,6 +322,7 @@ where <m>d</m> is the length of the skid marks, in feet.</p>
             <cell><m>\hphantom{000}</m></cell>
             <cell><m>\hphantom{000}</m></cell>
             <cell><m>\hphantom{000}</m></cell>
+            <cell><m>\hphantom{000}</m></cell>
             <cell><m>\hphantom{000}</m></cell></row>
         </tabular></li>
 <li><p>Plot the points from your table, and connect them with a smooth curve.</p>
@@ -329,7 +330,7 @@ where <m>d</m> is the length of the skid marks, in feet.</p>
 
 <li><p>If a car leaves skid marks 800 feet long, how fast was it going when it braked?</p>  
 
-    <p><m>\blert{\text{Evaluate} ~v~  \text{for} ~ 800.~~~~ v = }</m></p></li>    
+    <p><m>\blert{\text{Evaluate} ~v~  \text{for 800.}~~~~ v = }</m></p></li>    
 
 <li><p>Verify your answer on the graph.</p>
 
