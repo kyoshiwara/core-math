@@ -435,7 +435,7 @@
 </ol></p></statement></exercise>
 
 <exercise number="23"><statement><p>Human hair grows approximately 0.085 centimeters per day. Sinead shaved her head this morning. </p>
-<sidebyside  widths="70% 20%" valign="middle middle"><p><ol marker="a">  
+<sidebyside  widths="70% 20%" valigns="middle middle"><p><ol marker="a">  
   <li><p>How long will Sinead's hair be after 30 days?</p></li>
   <li><p>Explain how to find the length of Sinead's hair after <m>t</m> days.</p></li>
   <li><p>Fill in the table for the given values of <m>t</m>.</p>
