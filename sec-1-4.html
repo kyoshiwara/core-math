@@ -13,7 +13,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
 <meta property="book:title" content="Core Mathematics">
-<meta property="book:author" content="Me">
+<meta property="book:author" content="Katherine Yoshiwara">
 <script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
   tex: {
@@ -21,18 +21,18 @@ window.MathJax = {
     tags: "none",
     tagSide: "right",
     tagIndent: ".8em",
-    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
   },
   options: {
     ignoreHtmlClass: "tex2jax_ignore|ignore-math",
     processHtmlClass: "process-math",
   },
   chtml: {
-    scale: 0.88,
+    scale: 0.98,
     mtextInheritFont: true
   },
   loader: {
-    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
     paths: {pretext: "https://pretextbook.org/js/lib"},
   },
   startup: {
@@ -42,22 +42,144 @@ window.MathJax = {
       rsMathReady();
       }
     )}
-},
+  },
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/style_oscarlevin.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
 </head>
-<body class="pretext-book ignore-math has-toc has-sidebar-left">
-<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N}
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Core Mathematics</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+<div id="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+</h2>
+<div id="searchempty"><span>No results.</span></div>
+<ol id="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec-1-3.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch1.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec-1-5.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
 \newcommand{\R}{\mathbb R}
@@ -75,486 +197,833 @@ window.MathJax = {
 \definecolor{fillinmathshade}{gray}{0.9}
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
-<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
-<a id="logo-link" href=""></a><div class="title-container">
-<h1 class="heading"><a href="my-great-book.html"><span class="title">Core Mathematics</span></a></h1>
-<p class="byline">Me</p>
-</div>
-</div></div>
-<nav id="primary-navbar" class="navbar"><div class="container">
-<div class="navbar-top-buttons">
-<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
-<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec-1-3.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch1.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-1-5.html" title="Next">Next</a></span>
-</div>
-</div>
-<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
-<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec-1-3.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch1.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-1-5.html" title="Next">Next</a>
-</div>
-</div></nav></header><div class="page">
-<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
-<nav id="toc"><ul>
-<li class="link frontmatter">
-<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
-<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
-<li><a href="dedication-1.html" data-scroll="dedication-1" class="internal">Dedication</a></li>
-<li><a href="acknowledgement-1.html" data-scroll="acknowledgement-1" class="internal">Acknowledgements</a></li>
-<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+<div class="ptx-page">
+<div id="ptx-sidebar"><nav id="ptx-toc" class="depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="meta_frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="dedication-1.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li><div class="toc-item"><a href="acknowledgement-1.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li><div class="toc-item"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Preliminary Ideas</span></a><ul>
-<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Halves and Quarters</a></li>
-<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Tenths and Hundredths</a></li>
-<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Whole Numbers</a></li>
-<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="active">Angles and Triangles</a></li>
-<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Perimeter and Area</a></li>
+<li>
+<div class="toc-item"><a href="ch1.html" class="internal"><span class="codenumber">1</span> <span class="title">Preliminary Ideas</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-1-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Halves and Quarters</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-1" class="internal"><span class="codenumber">1.1.1</span> <span class="title">One-Half</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-2" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Other Ways to Write One-Half</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-3" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Fourths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-4" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Other Ways to Write Fourths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-5" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Fractions on a Number Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-6" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Benchmark Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-7" class="internal"><span class="codenumber">1.1.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#prac-1-1" class="internal"><span class="codenumber">1.1.8</span> <span class="title">Practice 1.1</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Numbers and Variables</span></a><ul>
-<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Decimal Numbers</a></li>
-<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">More Fractions and Percents</a></li>
-<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Variables</a></li>
-<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Algebraic Expressions</a></li>
-<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Equations</a></li>
+<li>
+<div class="toc-item"><a href="sec-1-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tenths and Hundredths</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-8" class="internal"><span class="codenumber">1.2.1</span> <span class="title">One-Tenth</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-9" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Fractions in Tenths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-10" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Tenths and Fifths, Reducing Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-11" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Hundredths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-12" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Decimal Form</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-13" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#prac-1-2" class="internal"><span class="codenumber">1.2.7</span> <span class="title">Practice 1.2</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Measurement</span></a><ul>
-<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Volume and Surface Area</a></li>
-<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Exponents</a></li>
-<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Units of Measure</a></li>
-<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Circles and Spheres</a></li>
-<li><a href="sec-3-5.html" data-scroll="sec-3-5" class="internal">Large Numbers</a></li>
+<li>
+<div class="toc-item"><a href="sec-1-3.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Whole Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-14" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Factors</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-15" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Primes and Composites</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-16" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Greatest Common Factor</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-17" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Lowest Common Multiple</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-18" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#prac-1-3" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Practice 1.3</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Calculation</span></a><ul>
-<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Adding and Subtracting Fractions</a></li>
-<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">Multiplying and Dividing Fractions</a></li>
-<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Roots and Radicals</a></li>
-<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Negative Numbers</a></li>
-<li><a href="sec-4-5.html" data-scroll="sec-4-5" class="internal">Order of Operations</a></li>
+<li class="active">
+<div class="toc-item"><a href="sec-1-4.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Angles and Triangles</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-19" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Angles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-20" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Measuring Angles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-21" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Using a Protractor</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-22" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-23" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Sides and Angles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-24" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#prac-1-4" class="internal"><span class="codenumber">1.4.7</span> <span class="title">Practice 1.4</span></a></div></li>
 </ul>
 </li>
-<li class="link backmatter"><a href="meta_backmatter.html" data-scroll="meta_backmatter" class="internal"><span class="title">Backmatter</span></a></li>
-<li class="link"><a href="solutions-1.html" data-scroll="solutions-1" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Selected Exercises and Homework Problems</span></a></li>
-<li class="link"><a href="appendix-1.html" data-scroll="appendix-1" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></li>
-<li class="link"><a href="index-1.html" data-scroll="index-1" class="internal"><span class="title">Index</span></a></li>
-<li class="link"><a href="colophon-2.html" data-scroll="colophon-2" class="internal"><span class="title">Colophon</span></a></li>
-</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
-</div></div>
-<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-1-4"><h2 class="heading hide-type">
+<li>
+<div class="toc-item"><a href="sec-1-5.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Perimeter and Area</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-5.html#subsection-25" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Perimeter</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-5.html#subsection-26" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Area</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-5.html#subsection-27" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Estimating Area</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-5.html#subsection-28" class="internal"><span class="codenumber">1.5.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-5.html#prac-1-5" class="internal"><span class="codenumber">1.5.5</span> <span class="title">Practice 1.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch2.html" class="internal"><span class="codenumber">2</span> <span class="title">Numbers and Variables</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-2-1.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Decimal Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-29" class="internal"><span class="codenumber">2.1.1</span> <span class="title">The Metric System</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-30" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Place Value</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-31" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Comparing Decimal Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-32" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Fractions to Decimals</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-33" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Rounding and Estimating</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-34" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#prac-2-1" class="internal"><span class="codenumber">2.1.7</span> <span class="title">Practice 2.1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-2-2.html" class="internal"><span class="codenumber">2.2</span> <span class="title">More Fractions and Percents</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-35" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Percents</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-36" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Calculating Percents</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-37" class="internal"><span class="codenumber">2.2.3</span> <span class="title">What Percent Is It?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-38" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Eighths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-39" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Thirds</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-40" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Decimal Form of One-Third</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#prac-2-2" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Practice 2.2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-2-3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Variables</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-41" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What is a Variable?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-42" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Bar Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-43" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Using Letters for Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-44" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Vocabuary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#prac-2-3" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Practice 2.3</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-2-4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Algebraic Expressions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-45" class="internal"><span class="codenumber">2.4.1</span> <span class="title">What is an Algebraic Expression?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-46" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Sums and Products</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-47" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Differences and Quotients</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-48" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Using Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-49" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-50" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-51" class="internal"><span class="codenumber">2.4.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#prac-2-4" class="internal"><span class="codenumber">2.4.8</span> <span class="title">Practice 2.4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-2-5.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Equations</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-52" class="internal"><span class="codenumber">2.5.1</span> <span class="title">What Is an Equation?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-53" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Solution of an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-54" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Finding Solutions: Opposite Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-55" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Isolating the Variable</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-56" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#prac-2-5" class="internal"><span class="codenumber">2.5.6</span> <span class="title">Practice 2.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch3.html" class="internal"><span class="codenumber">3</span> <span class="title">Measurement</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-3-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Volume and Surface Area</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-57" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Surface Area</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-58" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Boxes and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-59" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-60" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#prac-3-1" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Practice 3.1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-3-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Exponents</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-61" class="internal"><span class="codenumber">3.2.1</span> <span class="title">A New Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-62" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Squares and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-63" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Products and Powers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-64" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-65" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#prac-3-2" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Practice 3.2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-3-3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Units of Measure</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-66" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Length</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-67" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Metric Units</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-68" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Area and Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-69" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Liquid Measure</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-70" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#prac-3-3" class="internal"><span class="codenumber">3.3.6</span> <span class="title">Practice 3.3</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-3-4.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Circles and Spheres</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-71" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Perimeter</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-72" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Circumference of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-73" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-74" class="internal"><span class="codenumber">3.4.4</span> <span class="title">A Formula for the Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-75" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Volume of a Sphere</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-76" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#prac-3-4" class="internal"><span class="codenumber">3.4.7</span> <span class="title">Practice 3.4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-3-5.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Large Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-77" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Millions and Billions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-78" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Multiplying by Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-79" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Using Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-80" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Scientific Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-81" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-82" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#prac-3-5" class="internal"><span class="codenumber">3.5.7</span> <span class="title">Practice 3.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch4.html" class="internal"><span class="codenumber">4</span> <span class="title">Calculation</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-4-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Adding and Subtracting Fractions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-83" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Like Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-84" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Smaller Pieces</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-85" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Adding Unlike Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-86" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Lowest Common Denominator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-87" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Three Steps for Adding Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-88" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#prac-4-1" class="internal"><span class="codenumber">4.1.7</span> <span class="title">Practice 4.1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-4-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Multiplying and Dividing Fractions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-89" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Take Part</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-90" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Multiplying by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-91" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Dividing by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-92" class="internal"><span class="codenumber">4.2.4</span> <span class="title">More Dividing by Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-93" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#prac-4-2" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Practice 4.2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-4-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Roots and Radicals</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-94" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What Is a Square Root?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-95" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Approximating Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-96" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Squares and Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-97" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-98" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#prac-4-3" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Practice 4.3</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Negative Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-99" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Opposites</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-100" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-101" class="internal"><span class="codenumber">4.4.3</span> <span class="title">The Integers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-102" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Graphing on a Number Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-103" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Indicating Change with Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-104" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#prac-4-4" class="internal"><span class="codenumber">4.4.7</span> <span class="title">Practice 4.4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Order of Operations</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-105" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Which Operations Come First</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-106" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Combined Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-107" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Parentheses</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-108" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Fraction Bars</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-109" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-110" class="internal"><span class="codenumber">4.5.6</span> <span class="title">Exponents and Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-111" class="internal"><span class="codenumber">4.5.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#prac-4-5" class="internal"><span class="codenumber">4.5.8</span> <span class="title">Practice 4.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch5.html" class="internal"><span class="codenumber">5</span> <span class="title">Using Variables</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-5-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Working with Variables</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-112" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Like Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-113" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Equivalent Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-114" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Constant Multiples of Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-115" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Terms with Exponents</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-116" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Multiplying Variable Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-117" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-118" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#prac-5-1" class="internal"><span class="codenumber">5.1.8</span> <span class="title">Practice 5.1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-5-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">More Algebraic Expressions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-119" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-120" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-121" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#prac-5-2" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Practice 5.2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-5-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Problem Solving</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-122" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Using Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-123" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Writing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-124" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Modeling a Problem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#prac-5-3" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Practice 5.3</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-5-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">More Equations</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-125" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Equations with Two Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-126" class="internal"><span class="codenumber">5.4.2</span> <span class="title">A Strategy for Solving Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-127" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-128" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Problem Solving</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-129" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Using Algebra to Solve Problems</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#prac-5-4" class="internal"><span class="codenumber">5.4.6</span> <span class="title">Practice 5.4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-5-5.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Graphs</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-130" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Line Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-131" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Plotting Points</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-132" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Graphing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-133" class="internal"><span class="codenumber">5.5.4</span> <span class="title">Reading a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#prac-5-5" class="internal"><span class="codenumber">5.5.5</span> <span class="title">Practice 5.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch6.html" class="internal"><span class="codenumber">6</span> <span class="title">Core Concepts</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-6-1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Ratios</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-134" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Quantities</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-135" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-136" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Decimal Form for Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-137" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Rates</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#prac-6-1" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Practice 6-1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-6-2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Proportion</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-138" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-139" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Problem Solving</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-140" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Graphing Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#prac-6-2" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Practice 6-2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-6-3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Slope</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-141" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Equations Relating Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-142" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Steepness of the Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-143" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Rate of Growth</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-144" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Visulaizing Growth Rate on a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-145" class="internal"><span class="codenumber">6.3.5</span> <span class="title">Slope of a Line</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-6-3.html#subsection-146" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Decreasing Graphs</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-6-3.html#prac-6-3" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Practice 6-3</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-6-4.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Similarity</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-147" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-148" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Scale Factors</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-149" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Ratio and Proportion</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-150" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Conditions for Similarity</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-151" class="internal"><span class="codenumber">6.4.5</span> <span class="title">Similar Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#prac-6-4" class="internal"><span class="codenumber">6.4.6</span> <span class="title">Practice 6-4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-6-5.html" class="internal"><span class="codenumber">6.5</span> <span class="title">More About Similarity</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-152" class="internal"><span class="codenumber">6.5.1</span> <span class="title">Areas of Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-153" class="internal"><span class="codenumber">6.5.2</span> <span class="title">Volumes of Proportional Solids</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#prac-6-5" class="internal"><span class="codenumber">6.5.3</span> <span class="title">Practice 6-5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="solutions-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Selected Exercises and Homework Problems</span></a></div></li>
+<li><div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></div></li>
+<li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-1-4"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">1.4</span> <span class="title">Angles and Triangles</span>
 </h2>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
-<div class="sbspanel top" style="width:50%;"><ul id="p-865" class="disc">
-<li id="li-401"><p id="p-866">Angles</p></li>
-<li id="li-402"><p id="p-867">Measuring Angles</p></li>
-<li id="li-403"><p id="p-868">Using a Protractor</p></li>
-<li id="li-404"><p id="p-869">Triangles</p></li>
-<li id="li-405"><p id="p-870">Sides and Angles</p></li>
-</ul></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="p-865"><ul class="disc">
+<li id="li-401"><div class="para" id="p-866">Angles</div></li>
+<li id="li-402"><div class="para" id="p-867">Measuring Angles</div></li>
+<li id="li-403"><div class="para" id="p-868">Using a Protractor</div></li>
+<li id="li-404"><div class="para" id="p-869">Triangles</div></li>
+<li id="li-405"><div class="para" id="p-870">Sides and Angles</div></li>
+</ul></div></div>
 <div class="sbspanel top" style="width:50%;"><img src="external/geodesic%20dome.png" class="contained"></div>
 </div></div>
 <section class="subsection" id="subsection-19"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.4.1</span> <span class="title">Angles</span>
 </h3>
-<p id="p-871">When two line segments meet at a point, they form an <dfn class="terminology">angle</dfn>. The point where the two sides meet is called the <dfn class="terminology">vertex</dfn>. Here are some angles. <div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/angles.png" class="contained"></div></p>
-<p id="p-872">You are probably familiar with a <dfn class="terminology">right angle</dfn>, such as the corner of a square. Each of the corners of the tabletop below is a right angle. The two arms of a plus sign form four right angles. We say that the sides of a right angle are <dfn class="terminology">perpendicular</dfn>. <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/rightangles.png" class="contained"></div> <span class="process-math">\(~~~~~~~~~~~~~~~~~~~~\blert{\text{Right angles: a square table}}~~~~~~~~~~\blert{\text{Perpendicular lines make a plus sign}}\)</span></p>
-<p id="p-873">Now imagine slowly opening a laptop computer until the two sides lie flat on the table. The two sides form an angle that gradually opens until the two covers form a straight line. We give different names to angles, depending on how open they are.</p>
-<p id="p-874"><span class="process-math">\(~~~~~~~~~~~~~~~\blert{\text{Partially open}}~~~~~~~~~~\blert{\text{More than half-way open}}~~~~~~~~~~~~~\blert{\text{All the way open}}\)</span> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/computerangles.png" class="contained"></div> <span class="process-math">\(~~~~~~~~~~~~~~~\blert{\text{An acute angle}}~~~~~~~~~~~~~~~~\blert{\text{An obtuse angle}}~~~~~~~~~~~~~~~~~~~~~~\blert{\text{A straight angle}}\)</span></p>
+<div class="para" id="p-871">When two line segments meet at a point, they form an <dfn class="terminology">angle</dfn>. The point where the two sides meet is called the <dfn class="terminology">vertex</dfn>. Here are some angles. <div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/angles.png" class="contained"></div>
+</div>
+<div class="para" id="p-872">You are probably familiar with a <dfn class="terminology">right angle</dfn>, such as the corner of a square. Each of the corners of the tabletop below is a right angle. The two arms of a plus sign form four right angles. We say that the sides of a right angle are <dfn class="terminology">perpendicular</dfn>. <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/rightangles.png" class="contained"></div> <span class="process-math">\(~~~~~~~~~~~~~~~~~~~~\blert{\text{Right angles: a square table}}~~~~~~~~~~\blert{\text{Perpendicular lines make a plus sign}}\)</span>
+</div>
+<div class="para" id="p-873">Now imagine slowly opening a laptop computer until the two sides lie flat on the table. The two sides form an angle that gradually opens until the two covers form a straight line. We give different names to angles, depending on how open they are.</div>
+<div class="para" id="p-874">
+<span class="process-math">\(~~~~~~~~~~~~~~~\blert{\text{Partially open}}~~~~~~~~~~\blert{\text{More than half-way open}}~~~~~~~~~~~~~\blert{\text{All the way open}}\)</span> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/computerangles.png" class="contained"></div> <span class="process-math">\(~~~~~~~~~~~~~~~\blert{\text{An acute angle}}~~~~~~~~~~~~~~~~\blert{\text{An obtuse angle}}~~~~~~~~~~~~~~~~~~~~~~\blert{\text{A straight angle}}\)</span>
+</div>
 <article class="assemblage assemblage-like" id="assemblage-10"><h4 class="heading"><span class="title">Kinds of Angles.</span></h4>
-<ul id="p-875" class="disc">
-<li id="li-406"><p id="p-876">If the sides are less open than a right angle, we call the angle <dfn class="terminology">acute</dfn>.</p></li>
-<li id="li-407"><p id="p-877">If the sides are more open than a right angle, we call the angle <dfn class="terminology">obtuse</dfn>.</p></li>
-<li id="li-408"><p id="p-878">If the two sides are totally open to form a straight line, we call the angle a <dfn class="terminology">straight angle</dfn>.</p></li>
-</ul></article><p id="p-879"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/kindsofangles.png" class="contained"></div></p>
+<div class="para logical" id="p-875"><ul class="disc">
+<li id="li-406"><div class="para" id="p-876">If the sides are less open than a right angle, we call the angle <dfn class="terminology">acute</dfn>.</div></li>
+<li id="li-407"><div class="para" id="p-877">If the sides are more open than a right angle, we call the angle <dfn class="terminology">obtuse</dfn>.</div></li>
+<li id="li-408"><div class="para" id="p-878">If the two sides are totally open to form a straight line, we call the angle a <dfn class="terminology">straight angle</dfn>.</div></li>
+</ul></div></article><div class="para" id="p-879"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/kindsofangles.png" class="contained"></div></div>
 <article class="example example-like" id="example-18"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.1</span><span class="period">.</span>
 </h4>
-<p id="p-880">In the pictures below, the handles of the hedge clipper form an acute angle. The hands of the clock form an obtuse angle. <div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/clipperandclock.png" class="contained"></div></p>
-<p id="p-881"><span class="process-math">\(~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\blert{\text{An acute angle}}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\blert{\text{An obtuse angle}}\)</span></p></article><article class="exercise exercise-like" id="exercise-215"><h4 class="heading">
+<div class="para" id="p-880">In the pictures below, the handles of the hedge clipper form an acute angle. The hands of the clock form an obtuse angle. <div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/clipperandclock.png" class="contained"></div>
+</div> <div class="para" id="p-881"><span class="process-math">\(~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\blert{\text{An acute angle}}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\blert{\text{An obtuse angle}}\)</span></div></article><article class="exercise exercise-like" id="exercise-215"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.4.2</span><span class="period">.</span>
 </h4>
-<p id="p-882">Acute, right, or obtuse? Choose the best answer for each angle in the photograph. <div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/ballet.png" class="contained"></div></p>
-<ol id="p-883" class="lower-alpha">
-<li id="li-409"><p id="p-884">The ballerina's arms form a(n) <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> angle.</p></li>
-<li id="li-410"><p id="p-885">The ballerina's legs form a(n) <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> angle.</p></li>
-<li id="li-411"><p id="p-886">The male dancer's legs form a(n)<span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> angle.</p></li>
-</ol>
+<div class="para" id="p-882">Acute, right, or obtuse? Choose the best answer for each angle in the photograph. <div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/ballet.png" class="contained"></div>
+</div> <div class="para logical" id="p-883"><ol class="lower-alpha">
+<li id="li-409"><div class="para" id="p-884">The ballerina's arms form a(n) <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> angle.</div></li>
+<li id="li-410"><div class="para" id="p-885">The ballerina's legs form a(n) <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> angle.</div></li>
+<li id="li-411"><div class="para" id="p-886">The male dancer's legs form a(n)<span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> angle.</div></li>
+</ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-116" id="answer-116"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-116"><div class="answer solution-like"><ol id="p-887" class="lower-alpha">
-<li id="li-412"><p id="p-888">obtuse</p></li>
-<li id="li-413"><p id="p-889">right</p></li>
-<li id="li-414"><p id="p-890">acute</p></li>
-</ol></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-116" id="answer-116"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-116"><div class="answer solution-like"><div class="para logical" id="p-887"><ol class="lower-alpha">
+<li id="li-412"><div class="para" id="p-888">obtuse</div></li>
+<li id="li-413"><div class="para" id="p-889">right</div></li>
+<li id="li-414"><div class="para" id="p-890">acute</div></li>
+</ol></div></div></div>
 </div></article></section><section class="subsection" id="subsection-20"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.4.2</span> <span class="title">Measuring Angles</span>
 </h3>
-<p id="p-891">We use <dfn class="terminology">degrees</dfn> to measure how open an angle is. The symbol for a degree is <span class="process-math">\(\degree\text{.}\)</span>  A right angle is 90<span class="process-math">\(\degree\text{,}\)</span> and a straight angle is 180<span class="process-math">\(\degree\text{.}\)</span> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/rightstraight.png" class="contained"></div></p>
-<p id="p-892">The degree measure of an acute angle is less than 90<span class="process-math">\(\degree\text{,}\)</span> and the degree measure of an obtuse angle is between 90<span class="process-math">\(\degree\)</span> and 180<span class="process-math">\(\degree\text{.}\)</span> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/acuteobtuse.png" class="contained"></div></p>
+<div class="para" id="p-891">We use <dfn class="terminology">degrees</dfn> to measure how open an angle is. The symbol for a degree is <span class="process-math">\(\degree\text{.}\)</span>  A right angle is 90<span class="process-math">\(\degree\text{,}\)</span> and a straight angle is 180<span class="process-math">\(\degree\text{.}\)</span> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/rightstraight.png" class="contained"></div>
+</div>
+<div class="para" id="p-892">The degree measure of an acute angle is less than 90<span class="process-math">\(\degree\text{,}\)</span> and the degree measure of an obtuse angle is between 90<span class="process-math">\(\degree\)</span> and 180<span class="process-math">\(\degree\text{.}\)</span> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/acuteobtuse.png" class="contained"></div>
+</div>
 <article class="assemblage assemblage-like" id="assemblage-11"><h4 class="heading"><span class="title">Question.</span></h4>
-<p id="p-893">What do you think an angle of 0<span class="process-math">\(\degree\)</span> looks like?</p></article><article class="note remark-like" id="note-12"><h4 class="heading">
+<div class="para" id="p-893">What do you think an angle of 0<span class="process-math">\(\degree\)</span> looks like?</div></article><article class="note remark-like" id="note-12"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">1.4.3</span><span class="period">.</span>
 </h4>
-<p id="p-894">The measure of an angle does not depend on the orientation of the angle, or on how long the sides are, or whether the angle is combined with other angles. It only depends on how open the sides are. Here are some pictures of 30<span class="process-math">\(\degree\)</span> angles. <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/thirtydeg.png" class="contained"></div></p></article><p id="p-895">We use the symbol <span class="process-math">\(\angle\)</span> to stand for "angle."</p>
+<div class="para" id="p-894">The measure of an angle does not depend on the orientation of the angle, or on how long the sides are, or whether the angle is combined with other angles. It only depends on how open the sides are. Here are some pictures of 30<span class="process-math">\(\degree\)</span> angles. <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/thirtydeg.png" class="contained"></div>
+</div></article><div class="para" id="p-895">We use the symbol <span class="process-math">\(\angle\)</span> to stand for "angle."</div>
 <article class="example example-like" id="example-19"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.4</span><span class="period">.</span>
 </h4>
-<p id="p-896">The picture shows two angles that together make a right angle. If the measure of <span class="process-math">\(\angle~A\)</span> is 25<span class="process-math">\(\degree\text{,}\)</span> what is the measure of <span class="process-math">\(\angle~B\text{?}\)</span> <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/anglesAandB.png" class="contained"></div></p>
+<div class="para" id="p-896">The picture shows two angles that together make a right angle. If the measure of <span class="process-math">\(\angle~A\)</span> is 25<span class="process-math">\(\degree\text{,}\)</span> what is the measure of <span class="process-math">\(\angle~B\text{?}\)</span> <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/anglesAandB.png" class="contained"></div>
+</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-15" id="solution-15"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-15"><div class="solution solution-like">
-<p id="p-897">A right angle measures 90<span class="process-math">\(\degree\text{,}\)</span> so the sum of <span class="process-math">\(\angle~A\)</span> plus <span class="process-math">\(\angle~B\)</span> must be 90<span class="process-math">\(\degree\text{.}\)</span>  Therefore,</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-15" id="solution-15"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-15"><div class="solution solution-like"><div class="para logical" id="p-897">
+<div class="para">A right angle measures 90<span class="process-math">\(\degree\text{,}\)</span> so the sum of <span class="process-math">\(\angle~A\)</span> plus <span class="process-math">\(\angle~B\)</span> must be 90<span class="process-math">\(\degree\text{.}\)</span>  Therefore,</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \angle~B = 90\degree - \angle~A = 90\degree - 25\degree = 65\degree
 \end{equation*}
 </div>
-<p class="continuation">The measure of <span class="process-math">\(\angle~B\)</span> is 65<span class="process-math">\(\degree\text{,}\)</span> or <span class="process-math">\(\angle~B = 65\degree\text{.}\)</span></p>
-</div></div>
+<div class="para">The measure of <span class="process-math">\(\angle~B\)</span> is 65<span class="process-math">\(\degree\text{,}\)</span> or <span class="process-math">\(\angle~B = 65\degree\text{.}\)</span>
+</div>
+</div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-216"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.4.5</span><span class="period">.</span>
 </h4>
-<p id="p-898">Find the measure of the unknown angle. Parts (a) and (b) show right angles.</p>
+<div class="para logical" id="p-898">
+<div class="para">Find the measure of the unknown angle. Parts (a) and (b) show right angles.</div>
 <ol class="lower-alpha cols2">
 <li id="li-415">
-<p id="p-899"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/findangle-a.png" class="contained"></div></p>
-<p id="p-900"><span class="process-math">\(\angle~A = 38\degree, ~~ \angle~B =~?\)</span></p>
+<div class="para" id="p-899"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/findangle-a.png" class="contained"></div></div>
+<div class="para" id="p-900"><span class="process-math">\(\angle~A = 38\degree, ~~ \angle~B =~?\)</span></div>
 </li>
 <li id="li-416">
-<p id="p-901"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/findangle-b.png" class="contained"></div></p>
-<p id="p-902"><span class="process-math">\(\angle~A = 20\degree, ~~ \angle~B = \angle~C =~?\)</span></p>
+<div class="para" id="p-901"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/findangle-b.png" class="contained"></div></div>
+<div class="para" id="p-902"><span class="process-math">\(\angle~A = 20\degree, ~~ \angle~B = \angle~C =~?\)</span></div>
 </li>
 <li id="li-417">
-<p id="p-903"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/findangle-c.png" class="contained"></div></p>
-<p id="p-904"><span class="process-math">\(\angle~A =~?, ~~ \angle~B = 85\degree\)</span></p>
+<div class="para" id="p-903"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/findangle-c.png" class="contained"></div></div>
+<div class="para" id="p-904"><span class="process-math">\(\angle~A =~?, ~~ \angle~B = 85\degree\)</span></div>
 </li>
 <li id="li-418">
-<p id="p-905"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/findangle-d.png" class="contained"></div></p>
-<p id="p-906"><span class="process-math">\(\angle~B = 27\degree, ~~ \angle~A =~?, ~~ \angle~C =~?\)</span></p>
+<div class="para" id="p-905"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/findangle-d.png" class="contained"></div></div>
+<div class="para" id="p-906"><span class="process-math">\(\angle~B = 27\degree, ~~ \angle~A =~?, ~~ \angle~C =~?\)</span></div>
 </li>
 </ol>
+</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-117" id="answer-117"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-117"><div class="answer solution-like"><ol id="p-907" class="lower-alpha cols2">
-<li id="li-419"><p id="p-908"><span class="process-math">\(\displaystyle 52 \degree\)</span></p></li>
-<li id="li-420"><p id="p-909"><span class="process-math">\(\displaystyle 35 \degree\)</span></p></li>
-<li id="li-421"><p id="p-910"><span class="process-math">\(\displaystyle 95 \degree\)</span></p></li>
-<li id="li-422"><p id="p-911"><span class="process-math">\(\displaystyle 153 \degree, ~ 153 \degree\)</span></p></li>
-</ol></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-117" id="answer-117"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-117"><div class="answer solution-like"><div class="para logical" id="p-907"><ol class="lower-alpha cols2">
+<li id="li-419"><div class="para" id="p-908"><span class="process-math">\(\displaystyle 52 \degree\)</span></div></li>
+<li id="li-420"><div class="para" id="p-909"><span class="process-math">\(\displaystyle 35 \degree\)</span></div></li>
+<li id="li-421"><div class="para" id="p-910"><span class="process-math">\(\displaystyle 95 \degree\)</span></div></li>
+<li id="li-422"><div class="para" id="p-911"><span class="process-math">\(\displaystyle 153 \degree, ~ 153 \degree\)</span></div></li>
+</ol></div></div></div>
 </div></article></section><section class="subsection" id="subsection-21"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.4.3</span> <span class="title">Using a Protractor</span>
 </h3>
-<p id="p-912">We use a <dfn class="terminology">protractor</dfn> to measure angles. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/protractor.png" class="contained"></div></p>
+<div class="para" id="p-912">We use a <dfn class="terminology">protractor</dfn> to measure angles. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/protractor.png" class="contained"></div>
+</div>
 <article class="assemblage assemblage-like" id="assemblage-12"><h4 class="heading"><span class="title">Using a protractor to measure an angle.</span></h4>
-<ol id="p-913" class="decimal">
-<li id="li-423"><p id="p-914">Place the center dot of the protractor at the vertex of the angle.</p></li>
-<li id="li-424"><p id="p-915">Line up the bottom line of the protractor along one of the sides of the angle.</p></li>
-<li id="li-425"><p id="p-916">Read the number where the other side of the angle meets the scale on the circular edge of the protractor.</p></li>
-</ol></article><article class="note remark-like" id="note-13"><h4 class="heading">
+<div class="para logical" id="p-913"><ol class="decimal">
+<li id="li-423"><div class="para" id="p-914">Place the center dot of the protractor at the vertex of the angle.</div></li>
+<li id="li-424"><div class="para" id="p-915">Line up the bottom line of the protractor along one of the sides of the angle.</div></li>
+<li id="li-425"><div class="para" id="p-916">Read the number where the other side of the angle meets the scale on the circular edge of the protractor.</div></li>
+</ol></div></article><article class="note remark-like" id="note-13"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">1.4.6</span><span class="period">.</span>
 </h4>
-<p id="p-917">Notice that the protractor has one scale that starts at the right edge and increases in the counterclockwise direction, and a second scale that starts on the left edge. That's so you can line up the first side of the angle in either direction from the center.</p></article><article class="example example-like" id="example-20"><h4 class="heading">
+<div class="para" id="p-917">Notice that the protractor has one scale that starts at the right edge and increases in the counterclockwise direction, and a second scale that starts on the left edge. That's so you can line up the first side of the angle in either direction from the center.</div></article><article class="example example-like" id="example-20"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.7</span><span class="period">.</span>
 </h4>
-<p id="p-918">Use a protractor to measure this angle: <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/protractorangle.png" class="contained"></div></p>
+<div class="para" id="p-918">Use a protractor to measure this angle: <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/protractorangle.png" class="contained"></div>
+</div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-16" id="solution-16"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-16"><div class="solution solution-like">
-<p id="p-919">Place the protractor as shown below, with the vertex O in the center and side OB lined up along the bottom of the protractor. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/protractor40.png" class="contained"></div></p>
-<p id="p-920">Now follow the scale that increases from side OB up to side OA. In this case it is the inner scale. We see that side OA meets the inner scale at 40<span class="process-math">\(\degree\text{.}\)</span> The measure of <span class="process-math">\(\angle~AOB\)</span> is 40<span class="process-math">\(\degree\text{.}\)</span></p>
+<div class="para" id="p-919">Place the protractor as shown below, with the vertex O in the center and side OB lined up along the bottom of the protractor. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/protractor40.png" class="contained"></div>
+</div> <div class="para" id="p-920">Now follow the scale that increases from side OB up to side OA. In this case it is the inner scale. We see that side OA meets the inner scale at 40<span class="process-math">\(\degree\text{.}\)</span> The measure of <span class="process-math">\(\angle~AOB\)</span> is 40<span class="process-math">\(\degree\text{.}\)</span>
+</div>
 </div></div>
 </div></article><article class="exercise exercise-like" id="exercise-217"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.4.8</span><span class="period">.</span>
 </h4>
-<p id="p-921">What is the measure of the obtuse angle shown below? <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/protractor135.png" class="contained"></div></p>
+<div class="para" id="p-921">What is the measure of the obtuse angle shown below? <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/protractor135.png" class="contained"></div>
+</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-118" id="answer-118"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-118"><div class="answer solution-like"><p id="p-922"><span class="process-math">\(135 \degree\)</span></p></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-118" id="answer-118"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-118"><div class="answer solution-like"><div class="para" id="p-922"><span class="process-math">\(135 \degree\)</span></div></div></div>
 </div></article><article class="activity project-like" id="activity-11"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.4.1</span><span class="period">.</span><span class="space"> </span><span class="title">Measuring Angles.</span>
-</h4>
-<ol id="p-923" class="decimal">
-<li id="li-426"><p id="p-924">Use your straightedge to draw an acute angle. Use your protractor to find the degree measure of your angle.</p></li>
-<li id="li-427"><p id="p-925">Use your straightedge to draw an obtuse angle. Use your protractor to find the degree measure of your angle.</p></li>
-<li id="li-428"><p id="p-926">Use your protractor to find the degree measure of each angle. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/activityangles.png" class="contained"></div></p></li>
-<li id="li-429"><ol id="p-927" class="lower-alpha">
-<li id="li-430"><p id="p-928">On another sheet of paper, use your straightedge to draw a triangle of any shape you like. Label the angles of your triangle A, B, and C.</p></li>
-<li id="li-431"><p id="p-929">Now cut or tear off the three angles and place the vertex of angle A on the dot below.</p></li>
-<li id="li-432">
-<p id="p-930">Next place the vertex of angle B at the dot so that one of its sides touches one of the sides of angle A. Repeat with angle C.</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+</h4> <div class="para logical" id="p-923"><ol class="decimal">
+<li id="li-426"><div class="para" id="p-924">Use your straightedge to draw an acute angle. Use your protractor to find the degree measure of your angle.</div></li>
+<li id="li-427"><div class="para" id="p-925">Use your straightedge to draw an obtuse angle. Use your protractor to find the degree measure of your angle.</div></li>
+<li id="li-428"><div class="para" id="p-926">Use your protractor to find the degree measure of each angle. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/activityangles.png" class="contained"></div>
+</div></li>
+<li id="li-429"><div class="para logical" id="p-927"><ol class="lower-alpha">
+<li id="li-430"><div class="para" id="p-928">On another sheet of paper, use your straightedge to draw a triangle of any shape you like. Label the angles of your triangle A, B, and C.</div></li>
+<li id="li-431"><div class="para" id="p-929">Now cut or tear off the three angles and place the vertex of angle A on the dot below.</div></li>
+<li id="li-432"><div class="para logical" id="p-930">
+<div class="para">Next place the vertex of angle B at the dot so that one of its sides touches one of the sides of angle A. Repeat with angle C.</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \LARGE{\cdot}
 \end{equation*}
 </div>
-</li>
-<li id="li-433"><p id="p-931">What do you notice about the sum of the three angles? Write it below:</p></li>
-</ol></li>
-</ol></article></section><section class="subsection" id="subsection-22"><h3 class="heading hide-type">
+</div></li>
+<li id="li-433"><div class="para" id="p-931">What do you notice about the sum of the three angles? Write it below:</div></li>
+</ol></div></li>
+</ol></div></article></section><section class="subsection" id="subsection-22"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.4.4</span> <span class="title">Triangles</span>
 </h3>
-<p id="p-932">Triangles come in various shapes, depending on the size of their angles or the lengths of their sides. Here are the names of some triangles classified by the size of their angles.</p>
+<div class="para" id="p-932">Triangles come in various shapes, depending on the size of their angles or the lengths of their sides. Here are the names of some triangles classified by the size of their angles.</div>
 <article class="assemblage assemblage-like" id="assemblage-13"><h4 class="heading"><span class="title">Triangles.</span></h4>
-<ul id="p-933" class="disc">
-<li id="li-434"><p id="p-934">A <dfn class="terminology">right triangle</dfn> has one right angle.</p></li>
-<li id="li-435"><p id="p-935">In an <dfn class="terminology">acute triangle</dfn>, all three angles are acute.</p></li>
-<li id="li-436"><p id="p-936">In an <dfn class="terminology">obtuse triangle</dfn>, one of the angles is obtuse.</p></li>
-</ul></article><article class="example example-like" id="example-21"><h4 class="heading">
+<div class="para logical" id="p-933"><ul class="disc">
+<li id="li-434"><div class="para" id="p-934">A <dfn class="terminology">right triangle</dfn> has one right angle.</div></li>
+<li id="li-435"><div class="para" id="p-935">In an <dfn class="terminology">acute triangle</dfn>, all three angles are acute.</div></li>
+<li id="li-436"><div class="para" id="p-936">In an <dfn class="terminology">obtuse triangle</dfn>, one of the angles is obtuse.</div></li>
+</ul></div></article><article class="example example-like" id="example-21"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.9</span><span class="period">.</span>
 </h4>
-<ol id="p-937" class="lower-alpha">
-<li id="li-437"><p id="p-938">Some right triangles <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/righttris.png" class="contained"></div></p></li>
-<li id="li-438"><p id="p-939">Some acute triangles <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/acutetris.png" class="contained"></div></p></li>
-<li id="li-439"><p id="p-940">Some obtuse triangles <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/obtusetris.png" class="contained"></div></p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-218"><h4 class="heading">
+<div class="para logical" id="p-937"><ol class="lower-alpha">
+<li id="li-437"><div class="para" id="p-938">Some right triangles <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/righttris.png" class="contained"></div>
+</div></li>
+<li id="li-438"><div class="para" id="p-939">Some acute triangles <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/acutetris.png" class="contained"></div>
+</div></li>
+<li id="li-439"><div class="para" id="p-940">Some obtuse triangles <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/obtusetris.png" class="contained"></div>
+</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-218"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.4.10</span><span class="period">.</span>
 </h4>
-<p id="p-941">Identify each triangle as right, acute, or obtuse. The little square indicates that the angle is <span class="process-math">\(90 \degree\text{.}\)</span></p>
-<ol id="p-942" class="lower-alpha cols2">
+<div class="para" id="p-941">Identify each triangle as right, acute, or obtuse. The little square indicates that the angle is <span class="process-math">\(90 \degree\text{.}\)</span>
+</div> <div class="para logical" id="p-942"><ol class="lower-alpha cols2">
 <li id="li-440"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/4atri.png" class="contained"></div></li>
 <li id="li-441"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/4btri.png" class="contained"></div></li>
 <li id="li-442"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/4ctri.png" class="contained"></div></li>
 <li id="li-443"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/4dtri.png" class="contained"></div></li>
 <li id="li-444"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/4etri.png" class="contained"></div></li>
 <li id="li-445"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/4ftri.png" class="contained"></div></li>
-</ol>
+</ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-119" id="answer-119"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-119"><div class="answer solution-like"><ol id="p-943" class="lower-alpha cols2">
-<li id="li-446"><p id="p-944">right</p></li>
-<li id="li-447"><p id="p-945">obtuse</p></li>
-<li id="li-448"><p id="p-946">acute</p></li>
-<li id="li-449"><p id="p-947">right</p></li>
-<li id="li-450"><p id="p-948">obtuse</p></li>
-<li id="li-451"><p id="p-949">acute</p></li>
-</ol></div></div>
-</div></article><p id="p-950">Here are the names of some triangles classified by the lengths of their sides.</p>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-119" id="answer-119"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-119"><div class="answer solution-like"><div class="para logical" id="p-943"><ol class="lower-alpha cols2">
+<li id="li-446"><div class="para" id="p-944">right</div></li>
+<li id="li-447"><div class="para" id="p-945">obtuse</div></li>
+<li id="li-448"><div class="para" id="p-946">acute</div></li>
+<li id="li-449"><div class="para" id="p-947">right</div></li>
+<li id="li-450"><div class="para" id="p-948">obtuse</div></li>
+<li id="li-451"><div class="para" id="p-949">acute</div></li>
+</ol></div></div></div>
+</div></article><div class="para" id="p-950">Here are the names of some triangles classified by the lengths of their sides.</div>
 <article class="assemblage assemblage-like" id="assemblage-14"><h4 class="heading"><span class="title">Triangles.</span></h4>
-<ul id="p-951" class="disc">
-<li id="li-452"><p id="p-952">All three sides of an <dfn class="terminology">equilateral</dfn> triangle are equal in length.</p></li>
-<li id="li-453"><p id="p-953">In an <dfn class="terminology">isosceles triangle</dfn>, two sides are equal in length.</p></li>
-<li id="li-454"><p id="p-954">In a <dfn class="terminology">scalene triangle</dfn>, all three sides have different lengths.</p></li>
-</ul></article><article class="example example-like" id="example-22"><h4 class="heading">
+<div class="para logical" id="p-951"><ul class="disc">
+<li id="li-452"><div class="para" id="p-952">All three sides of an <dfn class="terminology">equilateral</dfn> triangle are equal in length.</div></li>
+<li id="li-453"><div class="para" id="p-953">In an <dfn class="terminology">isosceles triangle</dfn>, two sides are equal in length.</div></li>
+<li id="li-454"><div class="para" id="p-954">In a <dfn class="terminology">scalene triangle</dfn>, all three sides have different lengths.</div></li>
+</ul></div></article><article class="example example-like" id="example-22"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.11</span><span class="period">.</span>
 </h4>
-<ol id="p-955" class="lower-alpha">
-<li id="li-455"><p id="p-956">An equilateral triangle. <div class="image-box" style="width: 20%; margin-left: 40%; margin-right: 40%;"><img src="external/equitri.png" class="contained"></div></p></li>
-<li id="li-456"><p id="p-957">Some isosceles triangles. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/isostri.png" class="contained"></div></p></li>
-<li id="li-457"><p id="p-958">Some scalene triangles. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/scaltri.png" class="contained"></div></p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-219"><h4 class="heading">
+<div class="para logical" id="p-955"><ol class="lower-alpha">
+<li id="li-455"><div class="para" id="p-956">An equilateral triangle. <div class="image-box" style="width: 20%; margin-left: 40%; margin-right: 40%;"><img src="external/equitri.png" class="contained"></div>
+</div></li>
+<li id="li-456"><div class="para" id="p-957">Some isosceles triangles. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/isostri.png" class="contained"></div>
+</div></li>
+<li id="li-457"><div class="para" id="p-958">Some scalene triangles. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/scaltri.png" class="contained"></div>
+</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-219"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.4.12</span><span class="period">.</span>
 </h4>
-<p id="p-959">Identify each triangle as equilateral, isosceles, or scalene. Sides that have the same number of little hatch marks are equal in length.</p>
+<div class="para" id="p-959">Identify each triangle as equilateral, isosceles, or scalene. Sides that have the same number of little hatch marks are equal in length.</div>
 <ol class="lower-alpha cols2">
-<li id="li-458"><p id="p-960"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/atri.png" class="contained"></div></p></li>
-<li id="li-459"><p id="p-961"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/btri.png" class="contained"></div></p></li>
-<li id="li-460"><p id="p-962"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/ctri.png" class="contained"></div></p></li>
-<li id="li-461"><p id="p-963"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/dtri.png" class="contained"></div></p></li>
-<li id="li-462"><p id="p-964"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/etri.png" class="contained"></div></p></li>
-<li id="li-463"><p id="p-965"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/ftri.png" class="contained"></div></p></li>
+<li id="li-458"><div class="para" id="p-960"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/atri.png" class="contained"></div></div></li>
+<li id="li-459"><div class="para" id="p-961"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/btri.png" class="contained"></div></div></li>
+<li id="li-460"><div class="para" id="p-962"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/ctri.png" class="contained"></div></div></li>
+<li id="li-461"><div class="para" id="p-963"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/dtri.png" class="contained"></div></div></li>
+<li id="li-462"><div class="para" id="p-964"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/etri.png" class="contained"></div></div></li>
+<li id="li-463"><div class="para" id="p-965"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/ftri.png" class="contained"></div></div></li>
 </ol>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-120" id="answer-120"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-120"><div class="answer solution-like"><ol id="p-966" class="lower-alpha cols2">
-<li id="li-464"><p id="p-967">isosceles</p></li>
-<li id="li-465"><p id="p-968">scalene</p></li>
-<li id="li-466"><p id="p-969">scalene</p></li>
-<li id="li-467"><p id="p-970">equilateral</p></li>
-<li id="li-468"><p id="p-971">isosceles</p></li>
-<li id="li-469"><p id="p-972">isosceles</p></li>
-</ol></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-120" id="answer-120"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-120"><div class="answer solution-like"><div class="para logical" id="p-966"><ol class="lower-alpha cols2">
+<li id="li-464"><div class="para" id="p-967">isosceles</div></li>
+<li id="li-465"><div class="para" id="p-968">scalene</div></li>
+<li id="li-466"><div class="para" id="p-969">scalene</div></li>
+<li id="li-467"><div class="para" id="p-970">equilateral</div></li>
+<li id="li-468"><div class="para" id="p-971">isosceles</div></li>
+<li id="li-469"><div class="para" id="p-972">isosceles</div></li>
+</ol></div></div></div>
 </div></article></section><section class="subsection" id="subsection-23"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.4.5</span> <span class="title">Sides and Angles</span>
 </h3>
-<p id="p-973">You may have noticed that the longest side in a triangle is always opposite the largest angle.</p>
+<div class="para" id="p-973">You may have noticed that the longest side in a triangle is always opposite the largest angle.</div>
 <article class="example example-like" id="example-23"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.13</span><span class="period">.</span>
 </h4>
-<p id="p-974">In the triangle below, side <span class="process-math">\(c\)</span> is opposite the 120<span class="process-math">\(\degree\)</span> angle, and it is the longest side. Side <span class="process-math">\(b\text{,}\)</span> which is the shortest side, is opposite the 20<span class="process-math">\(\degree\)</span> angle. <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/sidestri.png" class="contained"></div></p>
-<p id="p-975">In fact, because <span class="process-math">\(120\degree \gt  40\degree \gt  20\degree\text{,}\)</span>  we know that <span class="process-math">\(c \gt a \gt b\text{.}\)</span></p></article><article class="note remark-like" id="note-14"><h4 class="heading">
+<div class="para" id="p-974">In the triangle below, side <span class="process-math">\(c\)</span> is opposite the 120<span class="process-math">\(\degree\)</span> angle, and it is the longest side. Side <span class="process-math">\(b\text{,}\)</span> which is the shortest side, is opposite the 20<span class="process-math">\(\degree\)</span> angle. <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/sidestri.png" class="contained"></div>
+</div> <div class="para" id="p-975">In fact, because <span class="process-math">\(120\degree \gt  40\degree \gt  20\degree\text{,}\)</span>  we know that <span class="process-math">\(c \gt a \gt b\text{.}\)</span>
+</div></article><article class="note remark-like" id="note-14"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">1.4.14</span><span class="period">.</span>
 </h4>
-<ul id="p-976" class="disc">
-<li id="li-470"><p id="p-977">The symbol <span class="process-math">\(\blert{\gt}\)</span>  means "is greater than." So, <span class="process-math">\(c \gt a \gt b\)</span> means  "<span class="process-math">\(c\)</span> is greater than <span class="process-math">\(a\text{,}\)</span> which is greater than <span class="process-math">\(b\text{.}\)</span>"</p></li>
-<li id="li-471"><p id="p-978">Similarly, the symbol <span class="process-math">\(\blert{\lt}\)</span>  means "is less than."</p></li>
-<li id="li-472"><p id="p-979">These symbols are called <dfn class="terminology">inequality symbols</dfn> (as opposed to equals signs), and sentences such as <span class="process-math">\(c \gt a \gt b\)</span> are called <dfn class="terminology">inequalities</dfn> (as opposed to equations).</p></li>
-</ul></article><article class="assemblage assemblage-like" id="assemblage-15"><h4 class="heading"><span class="title">Inequality Symbols.</span></h4>
-<p id="p-980"><span class="process-math">\(~~~~~~~~\blert{\gt}~~~~\)</span> means  "is greater than"</p>
-<p id="p-981"><span class="process-math">\(~~~~~~~~\blert{\lt}~~~~\)</span>means  "is less than"</p></article><article class="exercise exercise-like" id="exercise-220"><h4 class="heading">
+<div class="para logical" id="p-976"><ul class="disc">
+<li id="li-470"><div class="para" id="p-977">The symbol <span class="process-math">\(\blert{\gt}\)</span>  means "is greater than." So, <span class="process-math">\(c \gt a \gt b\)</span> means  "<span class="process-math">\(c\)</span> is greater than <span class="process-math">\(a\text{,}\)</span> which is greater than <span class="process-math">\(b\text{.}\)</span>"</div></li>
+<li id="li-471"><div class="para" id="p-978">Similarly, the symbol <span class="process-math">\(\blert{\lt}\)</span>  means "is less than."</div></li>
+<li id="li-472"><div class="para" id="p-979">These symbols are called <dfn class="terminology">inequality symbols</dfn> (as opposed to equals signs), and sentences such as <span class="process-math">\(c \gt a \gt b\)</span> are called <dfn class="terminology">inequalities</dfn> (as opposed to equations).</div></li>
+</ul></div></article><article class="assemblage assemblage-like" id="assemblage-15"><h4 class="heading"><span class="title">Inequality Symbols.</span></h4>
+<div class="para" id="p-980">
+<span class="process-math">\(~~~~~~~~\blert{\gt}~~~~\)</span> means  "is greater than"</div>
+<div class="para" id="p-981">
+<span class="process-math">\(~~~~~~~~\blert{\lt}~~~~\)</span>means  "is less than"</div></article><article class="exercise exercise-like" id="exercise-220"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.4.15</span><span class="period">.</span>
 </h4>
-<p id="p-982">Write an inequality about the angles in the triangle below. <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/ineqtri.png" class="contained"></div></p>
+<div class="para" id="p-982">Write an inequality about the angles in the triangle below. <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/ineqtri.png" class="contained"></div>
+</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-121" id="answer-121"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-121"><div class="answer solution-like"><p id="p-983"><span class="process-math">\(\angle A \gt \angle C \gt \angle B\)</span></p></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-121" id="answer-121"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-121"><div class="answer solution-like"><div class="para" id="p-983"><span class="process-math">\(\angle A \gt \angle C \gt \angle B\)</span></div></div></div>
 </div></article><article class="assemblage assemblage-like" id="assemblage-16"><h4 class="heading"><span class="title">Sides and Angles.</span></h4>
-<p id="p-984">In any triangle, the angle opposite the longest side is the largest angle, and the angle opposite the shortest side is the smallest angle.</p></article><p id="p-985">What about triangles that have equal sides, namely isosceles and equilateral triangles? The angles opposite equal sides must also be equal.</p>
+<div class="para" id="p-984">In any triangle, the angle opposite the longest side is the largest angle, and the angle opposite the shortest side is the smallest angle.</div></article><div class="para" id="p-985">What about triangles that have equal sides, namely isosceles and equilateral triangles? The angles opposite equal sides must also be equal.</div>
 <article class="assemblage assemblage-like" id="assemblage-17"><h4 class="heading"><span class="title">Definition.</span></h4>
-<p id="p-986">In an isosceles triangle, the two equal angles (the ones opposite the equal sides) are called the <dfn class="terminology">base angles</dfn>, and the third angle (the one included between the equal sides) is called the <dfn class="terminology">vertex angle</dfn>. <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/vertexangle.png" class="contained"></div></p></article><article class="example example-like" id="example-24"><h4 class="heading">
+<div class="para" id="p-986">In an isosceles triangle, the two equal angles (the ones opposite the equal sides) are called the <dfn class="terminology">base angles</dfn>, and the third angle (the one included between the equal sides) is called the <dfn class="terminology">vertex angle</dfn>. <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/vertexangle.png" class="contained"></div>
+</div></article><article class="example example-like" id="example-24"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.16</span><span class="period">.</span>
 </h4>
-<p id="p-987">The triangle below is isosceles. What is the measure of the other base angle, and what is the measure of the vertex angle? <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/tri38deg.png" class="contained"></div></p>
+<div class="para" id="p-987">The triangle below is isosceles. What is the measure of the other base angle, and what is the measure of the vertex angle? <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/tri38deg.png" class="contained"></div>
+</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-17" id="solution-17"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-17"><div class="solution solution-like">
-<p id="p-988">The base angles of an isosceles triangle are equal, so the other base angle is 38<span class="process-math">\(\degree\text{.}\)</span> To find the vertex angle, we recall that the sum of all the angles in a triangle is 180<span class="process-math">\(\degree\text{,}\)</span> so the vertex angle must be</p>
-<div class="displaymath process-math" data-contains-math-knowls="" id="md-5">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-17" id="solution-17"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-17"><div class="solution solution-like"><div class="para logical" id="p-988">
+<div class="para">The base angles of an isosceles triangle are equal, so the other base angle is 38<span class="process-math">\(\degree\text{.}\)</span> To find the vertex angle, we recall that the sum of all the angles in a triangle is 180<span class="process-math">\(\degree\text{,}\)</span> so the vertex angle must be</div>
+<div class="displaymath process-math" id="md-5">
 \begin{align*}
 \text{vertex angle} \amp = 180 \degree - (38 \degree + 38 \degree)\\
 ~~~~~~~~~~\amp =  180 \degree - 76 \degree = 104 \degree 
 \end{align*}
 </div>
-</div></div>
+</div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-221"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.4.17</span><span class="period">.</span>
 </h4>
-<ol id="p-989" class="lower-alpha">
-<li id="li-473"><p id="p-990">The vertex angle of the isosceles triangle below is 120<span class="process-math">\(\degree\text{.}\)</span> What is the measure of each base angle? <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/tri120deg.png" class="contained"></div></p></li>
-<li id="li-474"><p id="p-991">What is the measure of each angle of an equilateral triangle?</p></li>
-</ol>
+<div class="para logical" id="p-989"><ol class="lower-alpha">
+<li id="li-473"><div class="para" id="p-990">The vertex angle of the isosceles triangle below is 120<span class="process-math">\(\degree\text{.}\)</span> What is the measure of each base angle? <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/tri120deg.png" class="contained"></div>
+</div></li>
+<li id="li-474"><div class="para" id="p-991">What is the measure of each angle of an equilateral triangle?</div></li>
+</ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-122" id="answer-122"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-122"><div class="answer solution-like"><ol id="p-992" class="lower-alpha">
-<li id="li-475"><p id="p-993"><span class="process-math">\(\displaystyle 30\degree\)</span></p></li>
-<li id="li-476"><p id="p-994"><span class="process-math">\(\displaystyle 60\degree\)</span></p></li>
-</ol></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-122" id="answer-122"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-122"><div class="answer solution-like"><div class="para logical" id="p-992"><ol class="lower-alpha">
+<li id="li-475"><div class="para" id="p-993"><span class="process-math">\(\displaystyle 30\degree\)</span></div></li>
+<li id="li-476"><div class="para" id="p-994"><span class="process-math">\(\displaystyle 60\degree\)</span></div></li>
+</ol></div></div></div>
 </div></article><article class="assemblage assemblage-like" id="assemblage-18"><h4 class="heading"><span class="title">Angles in Triangles.</span></h4>
-<ul id="p-995" class="disc">
-<li id="li-477"><p id="p-996">The sum of the angles in any triangle is 180<span class="process-math">\(\degree\text{.}\)</span></p></li>
-<li id="li-478"><p id="p-997">The base angles of an isosceles triangle are equal.</p></li>
-<li id="li-479"><p id="p-998">All the angles of an equilateral triangle are equal.</p></li>
-</ul></article></section><section class="subsection" id="subsection-24"><h3 class="heading hide-type">
+<div class="para logical" id="p-995"><ul class="disc">
+<li id="li-477"><div class="para" id="p-996">The sum of the angles in any triangle is 180<span class="process-math">\(\degree\text{.}\)</span>
+</div></li>
+<li id="li-478"><div class="para" id="p-997">The base angles of an isosceles triangle are equal.</div></li>
+<li id="li-479"><div class="para" id="p-998">All the angles of an equilateral triangle are equal.</div></li>
+</ul></div></article></section><section class="subsection" id="subsection-24"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.4.6</span> <span class="title">Vocabulary</span>
 </h3>
-<ul id="p-999" class="disc cols2">
-<li id="li-480"><p id="p-1000">angle</p></li>
-<li id="li-481"><p id="p-1001">vertex</p></li>
-<li id="li-482"><p id="p-1002">right angle</p></li>
-<li id="li-483"><p id="p-1003">perpendicular</p></li>
-<li id="li-484"><p id="p-1004">acute angle</p></li>
-<li id="li-485"><p id="p-1005">obtuse angle</p></li>
-<li id="li-486"><p id="p-1006">straight angle</p></li>
-<li id="li-487"><p id="p-1007">protractor</p></li>
-<li id="li-488"><p id="p-1008">degrees</p></li>
-<li id="li-489"><p id="p-1009">equilateral</p></li>
-<li id="li-490"><p id="p-1010">isosceles</p></li>
-<li id="li-491"><p id="p-1011">scalene</p></li>
-<li id="li-492"><p id="p-1012">inequality symbols</p></li>
-<li id="li-493"><p id="p-1013">base angles</p></li>
-<li id="li-494"><p id="p-1014">vertex angle</p></li>
-</ul></section><section class="exercises" id="prac-1-4"><h3 class="heading hide-type">
+<div class="para logical" id="p-999"><ul class="disc cols2">
+<li id="li-480"><div class="para" id="p-1000">angle</div></li>
+<li id="li-481"><div class="para" id="p-1001">vertex</div></li>
+<li id="li-482"><div class="para" id="p-1002">right angle</div></li>
+<li id="li-483"><div class="para" id="p-1003">perpendicular</div></li>
+<li id="li-484"><div class="para" id="p-1004">acute angle</div></li>
+<li id="li-485"><div class="para" id="p-1005">obtuse angle</div></li>
+<li id="li-486"><div class="para" id="p-1006">straight angle</div></li>
+<li id="li-487"><div class="para" id="p-1007">protractor</div></li>
+<li id="li-488"><div class="para" id="p-1008">degrees</div></li>
+<li id="li-489"><div class="para" id="p-1009">equilateral</div></li>
+<li id="li-490"><div class="para" id="p-1010">isosceles</div></li>
+<li id="li-491"><div class="para" id="p-1011">scalene</div></li>
+<li id="li-492"><div class="para" id="p-1012">inequality symbols</div></li>
+<li id="li-493"><div class="para" id="p-1013">base angles</div></li>
+<li id="li-494"><div class="para" id="p-1014">vertex angle</div></li>
+</ul></div></section><section class="exercises" id="prac-1-4"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber">1.4.7</span> <span class="title">Practice 1.4</span>
 </h3>
 <article class="exercise exercise-like" id="exercise-222"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<p id="p-1015">At what time do the hands of a clock form a 90<span class="process-math">\(\degree\)</span> angle? At what time do they form a straight angle?</p></article><article class="exercise exercise-like" id="exercise-223"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<p id="p-1017">A rectangle has four right angles. What is the sum of the angles in a rectangle?</p></article><article class="exercise exercise-like" id="exercise-224"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<p id="p-1018">Is it possible for a triangle to have more than one obtuse angle? Why or why not?</p></article><article class="exercise exercise-like" id="exercise-225"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<p id="p-1020">What can you say about the sum of the two acute angles in a right triangle?</p></article><article class="exercise exercise-like" id="exercise-226"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
-<p id="p-1021">The word "vertex" has several meanings in mathematics. Describe two ways it is used in this lesson.</p></article><article class="exercise exercise-like" id="exercise-227"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
-<p id="p-1023">Can two acute angles add up to a straight angle? Why or why not?</p></article><div class="exercisegroup" id="exercisegroup-30">
+<div class="para" id="p-1015">At what time do the hands of a clock form a 90<span class="process-math">\(\degree\)</span> angle? At what time do they form a straight angle?</div></article><article class="exercise exercise-like" id="exercise-223"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="p-1017">A rectangle has four right angles. What is the sum of the angles in a rectangle?</div></article><article class="exercise exercise-like" id="exercise-224"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para" id="p-1018">Is it possible for a triangle to have more than one obtuse angle? Why or why not?</div></article><article class="exercise exercise-like" id="exercise-225"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="para" id="p-1020">What can you say about the sum of the two acute angles in a right triangle?</div></article><article class="exercise exercise-like" id="exercise-226"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="para" id="p-1021">The word "vertex" has several meanings in mathematics. Describe two ways it is used in this lesson.</div></article><article class="exercise exercise-like" id="exercise-227"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="para" id="p-1023">Can two acute angles add up to a straight angle? Why or why not?</div></article><div class="exercisegroup" id="exercisegroup-30">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-30"><p id="p-1024">For Problems 7-12, sketch and label a triangle with the given properties.</p></div>
+<div class="introduction" id="introduction-30"><div class="para" id="p-1024">For Problems 7-12, sketch and label a triangle with the given properties.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-228"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
-<p id="p-1025">An isosceles triangle with vertex angle 30<span class="process-math">\(\degree\)</span></p></article><article class="exercise exercise-like" id="exercise-229"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
-<p id="p-1027">A right triangle with one angle 20<span class="process-math">\(\degree\)</span></p></article><article class="exercise exercise-like" id="exercise-230"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
-<p id="p-1028">A scalene triangle with one obtuse angle</p></article><article class="exercise exercise-like" id="exercise-231"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
-<p id="p-1030">An isosceles right triangle</p></article><article class="exercise exercise-like" id="exercise-232"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
-<p id="p-1031">An isosceles triangle with one obtuse angle</p></article><article class="exercise exercise-like" id="exercise-233"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
-<p id="p-1033">An equilateral triangle</p></article>
+<div class="para" id="p-1025">An isosceles triangle with vertex angle 30<span class="process-math">\(\degree\)</span>
+</div></article><article class="exercise exercise-like" id="exercise-229"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<div class="para" id="p-1027">A right triangle with one angle 20<span class="process-math">\(\degree\)</span>
+</div></article><article class="exercise exercise-like" id="exercise-230"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
+<div class="para" id="p-1028">A scalene triangle with one obtuse angle</div></article><article class="exercise exercise-like" id="exercise-231"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
+<div class="para" id="p-1030">An isosceles right triangle</div></article><article class="exercise exercise-like" id="exercise-232"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
+<div class="para" id="p-1031">An isosceles triangle with one obtuse angle</div></article><article class="exercise exercise-like" id="exercise-233"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
+<div class="para" id="p-1033">An equilateral triangle</div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-31">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-31"><p id="p-1034">For Problems 13-14, use a protractor to measure the angles in the triangle. Find the sum of the angles to check your work.</p></div>
+<div class="introduction" id="introduction-31"><div class="para" id="p-1034">For Problems 13-14, use a protractor to measure the angles in the triangle. Find the sum of the angles to check your work.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-234"><h5 class="heading"><span class="codenumber">13<span class="period">.</span></span></h5>
-<p id="p-1035"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/bigtri.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-235"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
-<p id="p-1037"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/bigtri2.png" class="contained"></div></p></article>
+<div class="para" id="p-1035"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/bigtri.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-235"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
+<div class="para" id="p-1037"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/bigtri2.png" class="contained"></div></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-32">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-32"><p id="p-1038">For Problems 15-16, find the angle made by the hands of the clock, without using a protractor.</p></div>
+<div class="introduction" id="introduction-32"><div class="para" id="p-1038">For Problems 15-16, find the angle made by the hands of the clock, without using a protractor.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-236"><h5 class="heading"><span class="codenumber">15<span class="period">.</span></span></h5>
-<p id="p-1039"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/clockangle.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-237"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
-<p id="p-1041"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/clockangle2.png" class="contained"></div></p></article>
+<div class="para" id="p-1039"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/clockangle.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-237"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
+<div class="para" id="p-1041"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/clockangle2.png" class="contained"></div></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-33">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-33"><p id="p-1042">For Problems 17-22, find the measure of the unknown angles. Show your work.</p></div>
+<div class="introduction" id="introduction-33"><div class="para" id="p-1042">For Problems 17-22, find the measure of the unknown angles. Show your work.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-238"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
-<p id="p-1043"><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/hp-1-4-17.png" class="contained"></div></p>
-<p id="p-1044"><span class="process-math">\(~~~~~~~~~\angle A = 38\degree\)</span></p></article><article class="exercise exercise-like" id="exercise-239"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
-<p id="p-1046"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-4-18.png" class="contained"></div></p>
-<p id="p-1047"><span class="process-math">\(~~~~~~~~~\angle A = 74\degree\)</span></p></article><article class="exercise exercise-like" id="exercise-240"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
-<p id="p-1048"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/hp-1-4-19.png" class="contained"></div></p>
-<p id="p-1049"><span class="process-math">\(~~~~~~~~~\angle B = 57\degree\)</span></p></article><article class="exercise exercise-like" id="exercise-241"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
-<p id="p-1051"><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/hp-1-4-20.png" class="contained"></div></p>
-<p id="p-1052"><span class="process-math">\(~~~~~~~~~\angle A = 158\degree\)</span></p></article><article class="exercise exercise-like" id="exercise-242"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
-<p id="p-1053"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-4-21.png" class="contained"></div></p>
-<p id="p-1054"><span class="process-math">\(~~~~~~~~~\angle A = 39\degree\)</span></p></article><article class="exercise exercise-like" id="exercise-243"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
-<p id="p-1056"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-4-22.png" class="contained"></div></p>
-<p id="p-1057"><span class="process-math">\(\angle B = 86\degree\)</span></p></article>
+<div class="para" id="p-1043"><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/hp-1-4-17.png" class="contained"></div></div> <div class="para" id="p-1044"><span class="process-math">\(~~~~~~~~~\angle A = 38\degree\)</span></div></article><article class="exercise exercise-like" id="exercise-239"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
+<div class="para" id="p-1046"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-4-18.png" class="contained"></div></div> <div class="para" id="p-1047"><span class="process-math">\(~~~~~~~~~\angle A = 74\degree\)</span></div></article><article class="exercise exercise-like" id="exercise-240"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
+<div class="para" id="p-1048"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/hp-1-4-19.png" class="contained"></div></div> <div class="para" id="p-1049"><span class="process-math">\(~~~~~~~~~\angle B = 57\degree\)</span></div></article><article class="exercise exercise-like" id="exercise-241"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
+<div class="para" id="p-1051"><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/hp-1-4-20.png" class="contained"></div></div> <div class="para" id="p-1052"><span class="process-math">\(~~~~~~~~~\angle A = 158\degree\)</span></div></article><article class="exercise exercise-like" id="exercise-242"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
+<div class="para" id="p-1053"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-4-21.png" class="contained"></div></div> <div class="para" id="p-1054"><span class="process-math">\(~~~~~~~~~\angle A = 39\degree\)</span></div></article><article class="exercise exercise-like" id="exercise-243"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
+<div class="para" id="p-1056"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-4-22.png" class="contained"></div></div>
+<div class="para" id="p-1057"><span class="process-math">\(\angle B = 86\degree\)</span></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-34">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-34"><p id="p-1058">For Problems 23-24, the angles between consecutive radii are equal. Give the measure of each angle.</p></div>
+<div class="introduction" id="introduction-34"><div class="para" id="p-1058">For Problems 23-24, the angles between consecutive radii are equal. Give the measure of each angle.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-244"><h5 class="heading"><span class="codenumber">23<span class="period">.</span></span></h5>
-<p id="p-1059"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/sixsectors.png" class="contained"></div></p>
-<ol id="p-1060" class="lower-alpha">
-<li id="li-495"><p id="p-derived-li-495"><span class="process-math">\(\displaystyle \angle AOB =\)</span></p></li>
-<li id="li-496"><p id="p-derived-li-496"><span class="process-math">\(\displaystyle \angle AOC =\)</span></p></li>
-<li id="li-497"><p id="p-derived-li-497"><span class="process-math">\(\displaystyle \angle AOD =\)</span></p></li>
-<li id="li-498"><p id="p-derived-li-498"><span class="process-math">\(\displaystyle \angle AOE =\)</span></p></li>
-<li id="li-499"><p id="p-derived-li-499"><span class="process-math">\(\displaystyle \angle AOF =\)</span></p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-245"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
-<p id="p-1062"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/foursectors.png" class="contained"></div></p>
-<ol id="p-1063" class="lower-alpha">
-<li id="li-505"><p id="p-derived-li-505"><span class="process-math">\(\displaystyle \angle AOB =\)</span></p></li>
-<li id="li-506"><p id="p-derived-li-506"><span class="process-math">\(\displaystyle \angle AOC =\)</span></p></li>
-<li id="li-507"><p id="p-derived-li-507"><span class="process-math">\(\displaystyle \angle AOD =\)</span></p></li>
-</ol></article>
+<div class="para" id="p-1059"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/sixsectors.png" class="contained"></div></div> <div class="para logical" id="p-1060"><ol class="lower-alpha">
+<li id="li-495"><div class="para" id="p-derived-li-495"><span class="process-math">\(\displaystyle \angle AOB =\)</span></div></li>
+<li id="li-496"><div class="para" id="p-derived-li-496"><span class="process-math">\(\displaystyle \angle AOC =\)</span></div></li>
+<li id="li-497"><div class="para" id="p-derived-li-497"><span class="process-math">\(\displaystyle \angle AOD =\)</span></div></li>
+<li id="li-498"><div class="para" id="p-derived-li-498"><span class="process-math">\(\displaystyle \angle AOE =\)</span></div></li>
+<li id="li-499"><div class="para" id="p-derived-li-499"><span class="process-math">\(\displaystyle \angle AOF =\)</span></div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-245"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
+<div class="para" id="p-1062"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/foursectors.png" class="contained"></div></div> <div class="para logical" id="p-1063"><ol class="lower-alpha">
+<li id="li-505"><div class="para" id="p-derived-li-505"><span class="process-math">\(\displaystyle \angle AOB =\)</span></div></li>
+<li id="li-506"><div class="para" id="p-derived-li-506"><span class="process-math">\(\displaystyle \angle AOC =\)</span></div></li>
+<li id="li-507"><div class="para" id="p-derived-li-507"><span class="process-math">\(\displaystyle \angle AOD =\)</span></div></li>
+</ol></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-35">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-35"><p id="p-1064">For Problems 25-36, find the measure of the unknown angle. Show your work.</p></div>
+<div class="introduction" id="introduction-35"><div class="para" id="p-1064">For Problems 25-36, find the measure of the unknown angle. Show your work.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-246"><h5 class="heading"><span class="codenumber">25<span class="period">.</span></span></h5>
-<p id="p-1065"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-4-25.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-247"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
-<p id="p-1067"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-26.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-248"><h5 class="heading"><span class="codenumber">27<span class="period">.</span></span></h5>
-<p id="p-1068"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-27.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-249"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
-<p id="p-1070"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-28.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-250"><h5 class="heading"><span class="codenumber">29<span class="period">.</span></span></h5>
-<p id="p-1071"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-29.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-251"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
-<p id="p-1073"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/hp-1-4-30.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-252"><h5 class="heading"><span class="codenumber">31<span class="period">.</span></span></h5>
-<p id="p-1074"><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/hp-1-4-31.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-253"><h5 class="heading"><span class="codenumber">32<span class="period">.</span></span></h5>
-<p id="p-1076"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/hp-1-4-32.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-254"><h5 class="heading"><span class="codenumber">33<span class="period">.</span></span></h5>
-<p id="p-1077"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-33.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-255"><h5 class="heading"><span class="codenumber">34<span class="period">.</span></span></h5>
-<p id="p-1079"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-34.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-256"><h5 class="heading"><span class="codenumber">35<span class="period">.</span></span></h5>
-<p id="p-1080"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-4-35.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-257"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
-<p id="p-1082"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-4-36.png" class="contained"></div></p></article>
+<div class="para" id="p-1065"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-4-25.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-247"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
+<div class="para" id="p-1067"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-26.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-248"><h5 class="heading"><span class="codenumber">27<span class="period">.</span></span></h5>
+<div class="para" id="p-1068"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-27.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-249"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
+<div class="para" id="p-1070"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-28.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-250"><h5 class="heading"><span class="codenumber">29<span class="period">.</span></span></h5>
+<div class="para" id="p-1071"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-29.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-251"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
+<div class="para" id="p-1073"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/hp-1-4-30.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-252"><h5 class="heading"><span class="codenumber">31<span class="period">.</span></span></h5>
+<div class="para" id="p-1074"><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/hp-1-4-31.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-253"><h5 class="heading"><span class="codenumber">32<span class="period">.</span></span></h5>
+<div class="para" id="p-1076"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/hp-1-4-32.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-254"><h5 class="heading"><span class="codenumber">33<span class="period">.</span></span></h5>
+<div class="para" id="p-1077"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-33.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-255"><h5 class="heading"><span class="codenumber">34<span class="period">.</span></span></h5>
+<div class="para" id="p-1079"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-34.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-256"><h5 class="heading"><span class="codenumber">35<span class="period">.</span></span></h5>
+<div class="para" id="p-1080"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-4-35.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-257"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
+<div class="para" id="p-1082"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-4-36.png" class="contained"></div></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-36">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-36"><p id="p-1083">For Problems 37-40, explain why the measurements shown in the figure cannot be accurate.</p></div>
+<div class="introduction" id="introduction-36"><div class="para" id="p-1083">For Problems 37-40, explain why the measurements shown in the figure cannot be accurate.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-258"><h5 class="heading"><span class="codenumber">37<span class="period">.</span></span></h5>
-<p id="p-1084"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/hp-1-4-37.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-259"><h5 class="heading"><span class="codenumber">38<span class="period">.</span></span></h5>
-<p id="p-1086"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-38.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-260"><h5 class="heading"><span class="codenumber">39<span class="period">.</span></span></h5>
-<p id="p-1087"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-39.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-261"><h5 class="heading"><span class="codenumber">40<span class="period">.</span></span></h5>
-<p id="p-1089"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/hp-1-4-40.png" class="contained"></div></p></article>
+<div class="para" id="p-1084"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/hp-1-4-37.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-259"><h5 class="heading"><span class="codenumber">38<span class="period">.</span></span></h5>
+<div class="para" id="p-1086"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-38.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-260"><h5 class="heading"><span class="codenumber">39<span class="period">.</span></span></h5>
+<div class="para" id="p-1087"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-1-4-39.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-261"><h5 class="heading"><span class="codenumber">40<span class="period">.</span></span></h5>
+<div class="para" id="p-1089"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/hp-1-4-40.png" class="contained"></div></div></article>
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-262"><h4 class="heading"><span class="codenumber">41<span class="period">.</span></span></h4>
-<p id="p-1090">What is the measure of each base angle in a right isosceles triangle?</p></article><article class="exercise exercise-like" id="exercise-263"><h4 class="heading"><span class="codenumber">42<span class="period">.</span></span></h4>
-<p id="p-1092">In a particular right triangle, the largest angle is three times the smallest angle.  What are the measures of the three angles?</p></article><article class="exercise exercise-like" id="exercise-264"><h4 class="heading"><span class="codenumber">43<span class="period">.</span></span></h4>
-<p id="p-1093">Why is the longest side in a right triangle always opposite the right angle?</p></article><article class="exercise exercise-like" id="exercise-265"><h4 class="heading"><span class="codenumber">44<span class="period">.</span></span></h4>
-<p id="p-1095">Is it possible for the vertex angle in an isosceles triangle to be obtuse?  Explain your reasoning.</p></article><article class="exercise exercise-like" id="exercise-266"><h4 class="heading"><span class="codenumber">45<span class="period">.</span></span></h4>
-<p id="p-1096">Find the measure of each angle in the octagon.  (There are eight identical isosceles triangles around the center of the octagon.)</p>
-<p id="p-1097"><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/octagon.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-267"><h4 class="heading"><span class="codenumber">46<span class="period">.</span></span></h4>
-<p id="p-1099">Find the measure of each unknown angle.</p>
-<p id="p-1100"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/transversal.png" class="contained"></div></p></article></section></section></div></main>
+<div class="para" id="p-1090">What is the measure of each base angle in a right isosceles triangle?</div></article><article class="exercise exercise-like" id="exercise-263"><h4 class="heading"><span class="codenumber">42<span class="period">.</span></span></h4>
+<div class="para" id="p-1092">In a particular right triangle, the largest angle is three times the smallest angle.  What are the measures of the three angles?</div></article><article class="exercise exercise-like" id="exercise-264"><h4 class="heading"><span class="codenumber">43<span class="period">.</span></span></h4>
+<div class="para" id="p-1093">Why is the longest side in a right triangle always opposite the right angle?</div></article><article class="exercise exercise-like" id="exercise-265"><h4 class="heading"><span class="codenumber">44<span class="period">.</span></span></h4>
+<div class="para" id="p-1095">Is it possible for the vertex angle in an isosceles triangle to be obtuse?  Explain your reasoning.</div></article><article class="exercise exercise-like" id="exercise-266"><h4 class="heading"><span class="codenumber">45<span class="period">.</span></span></h4>
+<div class="para" id="p-1096">Find the measure of each angle in the octagon.  (There are eight identical isosceles triangles around the center of the octagon.)</div>
+<div class="para" id="p-1097"><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/octagon.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-267"><h4 class="heading"><span class="codenumber">46<span class="period">.</span></span></h4>
+<div class="para" id="p-1099">Find the measure of each unknown angle.</div>
+<div class="para" id="p-1100"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/transversal.png" class="contained"></div></div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-1-3.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec-1-5.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
 </div>
 </body>
 </html>

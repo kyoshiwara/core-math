@@ -13,7 +13,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
 <meta property="book:title" content="Core Mathematics">
-<meta property="book:author" content="Me">
+<meta property="book:author" content="Katherine Yoshiwara">
 <script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
   tex: {
@@ -21,18 +21,18 @@ window.MathJax = {
     tags: "none",
     tagSide: "right",
     tagIndent: ".8em",
-    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
   },
   options: {
     ignoreHtmlClass: "tex2jax_ignore|ignore-math",
     processHtmlClass: "process-math",
   },
   chtml: {
-    scale: 0.88,
+    scale: 0.98,
     mtextInheritFont: true
   },
   loader: {
-    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
     paths: {pretext: "https://pretextbook.org/js/lib"},
   },
   startup: {
@@ -42,22 +42,144 @@ window.MathJax = {
       rsMathReady();
       }
     )}
-},
+  },
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/style_oscarlevin.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
 </head>
-<body class="pretext-book ignore-math has-toc has-sidebar-left">
-<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N}
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Core Mathematics</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+<div id="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+</h2>
+<div id="searchempty"><span>No results.</span></div>
+<ol id="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec-3-2.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch3.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec-3-4.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
 \newcommand{\R}{\mathbb R}
@@ -75,401 +197,724 @@ window.MathJax = {
 \definecolor{fillinmathshade}{gray}{0.9}
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
-<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
-<a id="logo-link" href=""></a><div class="title-container">
-<h1 class="heading"><a href="my-great-book.html"><span class="title">Core Mathematics</span></a></h1>
-<p class="byline">Me</p>
-</div>
-</div></div>
-<nav id="primary-navbar" class="navbar"><div class="container">
-<div class="navbar-top-buttons">
-<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
-<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec-3-2.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch3.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-3-4.html" title="Next">Next</a></span>
-</div>
-</div>
-<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
-<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec-3-2.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch3.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-3-4.html" title="Next">Next</a>
-</div>
-</div></nav></header><div class="page">
-<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
-<nav id="toc"><ul>
-<li class="link frontmatter">
-<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
-<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
-<li><a href="dedication-1.html" data-scroll="dedication-1" class="internal">Dedication</a></li>
-<li><a href="acknowledgement-1.html" data-scroll="acknowledgement-1" class="internal">Acknowledgements</a></li>
-<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+<div class="ptx-page">
+<div id="ptx-sidebar"><nav id="ptx-toc" class="depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="meta_frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="dedication-1.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li><div class="toc-item"><a href="acknowledgement-1.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li><div class="toc-item"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Preliminary Ideas</span></a><ul>
-<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Halves and Quarters</a></li>
-<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Tenths and Hundredths</a></li>
-<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Whole Numbers</a></li>
-<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Angles and Triangles</a></li>
-<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Perimeter and Area</a></li>
+<li>
+<div class="toc-item"><a href="ch1.html" class="internal"><span class="codenumber">1</span> <span class="title">Preliminary Ideas</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-1-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Halves and Quarters</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-1" class="internal"><span class="codenumber">1.1.1</span> <span class="title">One-Half</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-2" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Other Ways to Write One-Half</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-3" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Fourths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-4" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Other Ways to Write Fourths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-5" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Fractions on a Number Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-6" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Benchmark Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-7" class="internal"><span class="codenumber">1.1.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#prac-1-1" class="internal"><span class="codenumber">1.1.8</span> <span class="title">Practice 1.1</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Numbers and Variables</span></a><ul>
-<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Decimal Numbers</a></li>
-<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">More Fractions and Percents</a></li>
-<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Variables</a></li>
-<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Algebraic Expressions</a></li>
-<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Equations</a></li>
+<li>
+<div class="toc-item"><a href="sec-1-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tenths and Hundredths</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-8" class="internal"><span class="codenumber">1.2.1</span> <span class="title">One-Tenth</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-9" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Fractions in Tenths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-10" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Tenths and Fifths, Reducing Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-11" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Hundredths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-12" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Decimal Form</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-13" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#prac-1-2" class="internal"><span class="codenumber">1.2.7</span> <span class="title">Practice 1.2</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Measurement</span></a><ul>
-<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Volume and Surface Area</a></li>
-<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Exponents</a></li>
-<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="active">Units of Measure</a></li>
-<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Circles and Spheres</a></li>
-<li><a href="sec-3-5.html" data-scroll="sec-3-5" class="internal">Large Numbers</a></li>
+<li>
+<div class="toc-item"><a href="sec-1-3.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Whole Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-14" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Factors</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-15" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Primes and Composites</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-16" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Greatest Common Factor</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-17" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Lowest Common Multiple</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-18" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#prac-1-3" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Practice 1.3</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Calculation</span></a><ul>
-<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Adding and Subtracting Fractions</a></li>
-<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">Multiplying and Dividing Fractions</a></li>
-<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Roots and Radicals</a></li>
-<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Negative Numbers</a></li>
-<li><a href="sec-4-5.html" data-scroll="sec-4-5" class="internal">Order of Operations</a></li>
+<li>
+<div class="toc-item"><a href="sec-1-4.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Angles and Triangles</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-19" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Angles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-20" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Measuring Angles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-21" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Using a Protractor</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-22" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-23" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Sides and Angles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-24" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#prac-1-4" class="internal"><span class="codenumber">1.4.7</span> <span class="title">Practice 1.4</span></a></div></li>
 </ul>
 </li>
-<li class="link backmatter"><a href="meta_backmatter.html" data-scroll="meta_backmatter" class="internal"><span class="title">Backmatter</span></a></li>
-<li class="link"><a href="solutions-1.html" data-scroll="solutions-1" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Selected Exercises and Homework Problems</span></a></li>
-<li class="link"><a href="appendix-1.html" data-scroll="appendix-1" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></li>
-<li class="link"><a href="index-1.html" data-scroll="index-1" class="internal"><span class="title">Index</span></a></li>
-<li class="link"><a href="colophon-2.html" data-scroll="colophon-2" class="internal"><span class="title">Colophon</span></a></li>
-</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
-</div></div>
-<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-3-3"><h2 class="heading hide-type">
+<li>
+<div class="toc-item"><a href="sec-1-5.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Perimeter and Area</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-5.html#subsection-25" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Perimeter</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-5.html#subsection-26" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Area</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-5.html#subsection-27" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Estimating Area</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-5.html#subsection-28" class="internal"><span class="codenumber">1.5.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-5.html#prac-1-5" class="internal"><span class="codenumber">1.5.5</span> <span class="title">Practice 1.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch2.html" class="internal"><span class="codenumber">2</span> <span class="title">Numbers and Variables</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-2-1.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Decimal Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-29" class="internal"><span class="codenumber">2.1.1</span> <span class="title">The Metric System</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-30" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Place Value</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-31" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Comparing Decimal Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-32" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Fractions to Decimals</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-33" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Rounding and Estimating</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-34" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#prac-2-1" class="internal"><span class="codenumber">2.1.7</span> <span class="title">Practice 2.1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-2-2.html" class="internal"><span class="codenumber">2.2</span> <span class="title">More Fractions and Percents</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-35" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Percents</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-36" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Calculating Percents</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-37" class="internal"><span class="codenumber">2.2.3</span> <span class="title">What Percent Is It?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-38" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Eighths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-39" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Thirds</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-40" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Decimal Form of One-Third</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#prac-2-2" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Practice 2.2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-2-3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Variables</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-41" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What is a Variable?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-42" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Bar Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-43" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Using Letters for Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-44" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Vocabuary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#prac-2-3" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Practice 2.3</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-2-4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Algebraic Expressions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-45" class="internal"><span class="codenumber">2.4.1</span> <span class="title">What is an Algebraic Expression?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-46" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Sums and Products</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-47" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Differences and Quotients</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-48" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Using Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-49" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-50" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-51" class="internal"><span class="codenumber">2.4.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#prac-2-4" class="internal"><span class="codenumber">2.4.8</span> <span class="title">Practice 2.4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-2-5.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Equations</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-52" class="internal"><span class="codenumber">2.5.1</span> <span class="title">What Is an Equation?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-53" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Solution of an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-54" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Finding Solutions: Opposite Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-55" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Isolating the Variable</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-56" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#prac-2-5" class="internal"><span class="codenumber">2.5.6</span> <span class="title">Practice 2.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch3.html" class="internal"><span class="codenumber">3</span> <span class="title">Measurement</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-3-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Volume and Surface Area</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-57" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Surface Area</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-58" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Boxes and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-59" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-60" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#prac-3-1" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Practice 3.1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-3-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Exponents</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-61" class="internal"><span class="codenumber">3.2.1</span> <span class="title">A New Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-62" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Squares and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-63" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Products and Powers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-64" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-65" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#prac-3-2" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Practice 3.2</span></a></div></li>
+</ul>
+</li>
+<li class="active">
+<div class="toc-item"><a href="sec-3-3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Units of Measure</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-66" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Length</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-67" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Metric Units</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-68" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Area and Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-69" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Liquid Measure</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-70" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#prac-3-3" class="internal"><span class="codenumber">3.3.6</span> <span class="title">Practice 3.3</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-3-4.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Circles and Spheres</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-71" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Perimeter</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-72" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Circumference of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-73" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-74" class="internal"><span class="codenumber">3.4.4</span> <span class="title">A Formula for the Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-75" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Volume of a Sphere</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-76" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#prac-3-4" class="internal"><span class="codenumber">3.4.7</span> <span class="title">Practice 3.4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-3-5.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Large Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-77" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Millions and Billions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-78" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Multiplying by Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-79" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Using Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-80" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Scientific Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-81" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-82" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#prac-3-5" class="internal"><span class="codenumber">3.5.7</span> <span class="title">Practice 3.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch4.html" class="internal"><span class="codenumber">4</span> <span class="title">Calculation</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-4-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Adding and Subtracting Fractions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-83" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Like Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-84" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Smaller Pieces</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-85" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Adding Unlike Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-86" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Lowest Common Denominator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-87" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Three Steps for Adding Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-88" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#prac-4-1" class="internal"><span class="codenumber">4.1.7</span> <span class="title">Practice 4.1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-4-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Multiplying and Dividing Fractions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-89" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Take Part</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-90" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Multiplying by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-91" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Dividing by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-92" class="internal"><span class="codenumber">4.2.4</span> <span class="title">More Dividing by Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-93" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#prac-4-2" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Practice 4.2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-4-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Roots and Radicals</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-94" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What Is a Square Root?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-95" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Approximating Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-96" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Squares and Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-97" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-98" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#prac-4-3" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Practice 4.3</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Negative Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-99" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Opposites</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-100" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-101" class="internal"><span class="codenumber">4.4.3</span> <span class="title">The Integers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-102" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Graphing on a Number Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-103" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Indicating Change with Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-104" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#prac-4-4" class="internal"><span class="codenumber">4.4.7</span> <span class="title">Practice 4.4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Order of Operations</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-105" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Which Operations Come First</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-106" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Combined Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-107" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Parentheses</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-108" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Fraction Bars</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-109" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-110" class="internal"><span class="codenumber">4.5.6</span> <span class="title">Exponents and Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-111" class="internal"><span class="codenumber">4.5.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#prac-4-5" class="internal"><span class="codenumber">4.5.8</span> <span class="title">Practice 4.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch5.html" class="internal"><span class="codenumber">5</span> <span class="title">Using Variables</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-5-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Working with Variables</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-112" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Like Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-113" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Equivalent Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-114" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Constant Multiples of Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-115" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Terms with Exponents</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-116" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Multiplying Variable Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-117" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-118" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#prac-5-1" class="internal"><span class="codenumber">5.1.8</span> <span class="title">Practice 5.1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-5-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">More Algebraic Expressions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-119" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-120" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-121" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#prac-5-2" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Practice 5.2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-5-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Problem Solving</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-122" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Using Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-123" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Writing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-124" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Modeling a Problem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#prac-5-3" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Practice 5.3</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-5-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">More Equations</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-125" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Equations with Two Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-126" class="internal"><span class="codenumber">5.4.2</span> <span class="title">A Strategy for Solving Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-127" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-128" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Problem Solving</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-129" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Using Algebra to Solve Problems</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#prac-5-4" class="internal"><span class="codenumber">5.4.6</span> <span class="title">Practice 5.4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-5-5.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Graphs</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-130" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Line Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-131" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Plotting Points</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-132" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Graphing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-133" class="internal"><span class="codenumber">5.5.4</span> <span class="title">Reading a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#prac-5-5" class="internal"><span class="codenumber">5.5.5</span> <span class="title">Practice 5.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch6.html" class="internal"><span class="codenumber">6</span> <span class="title">Core Concepts</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-6-1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Ratios</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-134" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Quantities</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-135" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-136" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Decimal Form for Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-137" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Rates</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#prac-6-1" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Practice 6-1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-6-2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Proportion</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-138" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-139" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Problem Solving</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-140" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Graphing Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#prac-6-2" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Practice 6-2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-6-3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Slope</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-141" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Equations Relating Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-142" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Steepness of the Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-143" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Rate of Growth</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-144" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Visulaizing Growth Rate on a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-145" class="internal"><span class="codenumber">6.3.5</span> <span class="title">Slope of a Line</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-6-3.html#subsection-146" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Decreasing Graphs</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-6-3.html#prac-6-3" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Practice 6-3</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-6-4.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Similarity</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-147" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-148" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Scale Factors</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-149" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Ratio and Proportion</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-150" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Conditions for Similarity</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-151" class="internal"><span class="codenumber">6.4.5</span> <span class="title">Similar Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#prac-6-4" class="internal"><span class="codenumber">6.4.6</span> <span class="title">Practice 6-4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-6-5.html" class="internal"><span class="codenumber">6.5</span> <span class="title">More About Similarity</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-152" class="internal"><span class="codenumber">6.5.1</span> <span class="title">Areas of Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-153" class="internal"><span class="codenumber">6.5.2</span> <span class="title">Volumes of Proportional Solids</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#prac-6-5" class="internal"><span class="codenumber">6.5.3</span> <span class="title">Practice 6-5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="solutions-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Selected Exercises and Homework Problems</span></a></div></li>
+<li><div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></div></li>
+<li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-3-3"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">3.3</span> <span class="title">Units of Measure</span>
 </h2>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
-<div class="sbspanel top" style="width:63.1578947368421%;"><p id="p-3848"><ul id="p-3849" class="disc">
-<li id="li-1780"><p id="p-3850">Length</p></li>
-<li id="li-1781"><p id="p-3851">Metric Units</p></li>
-<li id="li-1782"><p id="p-3852">Area and Volume</p></li>
-<li id="li-1783"><p id="p-3853">Liquid Measure</p></li>
-</ul> <article class="assemblage assemblage-like" id="assemblage-65"><p id="p-3854">I have been struck again and again by how important measurement is to improving the human condition.</p>
-<p id="p-3855">Bill Gates</p></article></p></div>
+<div class="sbspanel top" style="width:63.1578947368421%;"><div class="para" id="p-3848">
+<div class="para logical" id="p-3849"><ul class="disc">
+<li id="li-1780"><div class="para" id="p-3850">Length</div></li>
+<li id="li-1781"><div class="para" id="p-3851">Metric Units</div></li>
+<li id="li-1782"><div class="para" id="p-3852">Area and Volume</div></li>
+<li id="li-1783"><div class="para" id="p-3853">Liquid Measure</div></li>
+</ul></div> <article class="assemblage assemblage-like" id="assemblage-65"><div class="para" id="p-3854">I have been struck again and again by how important measurement is to improving the human condition.</div>
+<div class="para" id="p-3855">Bill Gates</div></article>
+</div></div>
 <div class="sbspanel top" style="width:31.5789473684211%;"><img src="external/tallman.png" class="contained"></div>
 </div></div>
 <section class="subsection" id="subsection-66"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">3.3.1</span> <span class="title">Length</span>
 </h3>
-<p id="p-3856">How tall are you? Most people know their height in feet and inches. The tallest person recorded in the Guinness Book of World Records is Robert Wardlow, who lived from 1918 to 1940. He was 8 feet 11 inches tall.</p>
+<div class="para" id="p-3856">How tall are you? Most people know their height in feet and inches. The tallest person recorded in the Guinness Book of World Records is Robert Wardlow, who lived from 1918 to 1940. He was 8 feet 11 inches tall.</div>
 <article class="assemblage assemblage-like" id="assemblage-66"><h4 class="heading"><span class="title">Units of length.</span></h4>
-<div class="displaymath process-math" data-contains-math-knowls="" id="md-30">
+<div class="para logical" id="p-3857"><div class="displaymath process-math" id="md-30">
 \begin{align*}
 \large\text{1 foot}~~ \amp = \large\text{12 inches}\\
 \large\text{1 yard}~~ \amp = \large\text{3 feet}\\
 \large\text{1 mile}~~ \amp = \large\text{5280 feet}
 \end{align*}
-</div></article><article class="example example-like" id="example-64"><h4 class="heading">
+</div></div></article><article class="example example-like" id="example-64"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.1</span><span class="period">.</span>
 </h4>
-<ol id="p-3858" class="lower-alpha">
-<li id="li-1784"><p id="p-3859">The singer Rihanna is 5 feet 8 inches tall. Express Rihanna's height in inches.</p></li>
-<li id="li-1785"><p id="p-3860">Express Rihanna's height in feet.</p></li>
-</ol>
+<div class="para logical" id="p-3858"><ol class="lower-alpha">
+<li id="li-1784"><div class="para" id="p-3859">The singer Rihanna is 5 feet 8 inches tall. Express Rihanna's height in inches.</div></li>
+<li id="li-1785"><div class="para" id="p-3860">Express Rihanna's height in feet.</div></li>
+</ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-50" id="solution-50"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-50"><div class="solution solution-like"><ol id="p-3861" class="lower-alpha">
-<li id="li-1786">
-<p id="p-3862">There are 12 inches in a foot, so 5 feet is equal to</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-50" id="solution-50"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-50"><div class="solution solution-like"><div class="para logical" id="p-3861"><ol class="lower-alpha">
+<li id="li-1786"><div class="para logical" id="p-3862">
+<div class="para">There are 12 inches in a foot, so 5 feet is equal to</div>
+<div class="displaymath process-math">
 \begin{equation*}
 5 \times 12 = 60~~\text{inches}
 \end{equation*}
 </div>
-<p class="continuation">and 5 feet 8 inches is equal to</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="para">and 5 feet 8 inches is equal to</div>
+<div class="displaymath process-math">
 \begin{equation*}
 60 + 8 = 68~~\text{inches}
 \end{equation*}
 </div>
-<p class="continuation">Rihanna is 68 inches tall.</p>
-</li>
-<li id="li-1787">
-<p id="p-3863">What fraction of a foot is 8 inches?</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="para">Rihanna is 68 inches tall.</div>
+</div></li>
+<li id="li-1787"><div class="para logical" id="p-3863">
+<div class="para">What fraction of a foot is 8 inches?</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \dfrac{8}{12} = \dfrac{2}{3}~~\text{foot}
 \end{equation*}
 </div>
-<p class="continuation">Rihanna is <span class="process-math">\(5 \dfrac{2}{3}\)</span> feet tall.</p>
-</li>
-</ol></div></div>
+<div class="para">Rihanna is <span class="process-math">\(5 \dfrac{2}{3}\)</span> feet tall.</div>
+</div></li>
+</ol></div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-790"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.3.2</span><span class="period">.</span>
 </h4>
-<p id="p-3864">The actor Liam Neeson is 6 feet 6 inches tall.</p>
-<ol id="p-3865" class="lower-alpha">
-<li id="li-1788"><p id="p-3866">Express his height in inches.</p></li>
-<li id="li-1789"><p id="p-3867">Express his height in feet.</p></li>
-</ol>
+<div class="para" id="p-3864">The actor Liam Neeson is 6 feet 6 inches tall.</div> <div class="para logical" id="p-3865"><ol class="lower-alpha">
+<li id="li-1788"><div class="para" id="p-3866">Express his height in inches.</div></li>
+<li id="li-1789"><div class="para" id="p-3867">Express his height in feet.</div></li>
+</ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-426" id="answer-426"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-426"><div class="answer solution-like"><ol id="p-3868" class="lower-alpha cols2">
-<li id="li-1790"><p id="p-3869">78 in</p></li>
-<li id="li-1791"><p id="p-3870">6.5 ft</p></li>
-</ol></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-426" id="answer-426"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-426"><div class="answer solution-like"><div class="para logical" id="p-3868"><ol class="lower-alpha cols2">
+<li id="li-1790"><div class="para" id="p-3869">78 in</div></li>
+<li id="li-1791"><div class="para" id="p-3870">6.5 ft</div></li>
+</ol></div></div></div>
 </div></article><article class="note remark-like" id="note-49"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">3.3.3</span><span class="period">.</span>
 </h4>
-<p id="p-3871">The English units of length evolved from early systems that used body parts as measuring devices. Length was first measured with the forearm, hand, or finger.</p>
-<ul id="p-3872" class="disc">
-<li id="li-1792"><p id="p-3873">An inch was the length of your finger's second joint.</p></li>
-<li id="li-1793"><p id="p-3874">A foot was about the length of a forearm (or foot, if you have big feet.)</p></li>
-<li id="li-1794"><p id="p-3875">According to legend, King Henry I decreed that a yard would be the distance from the tip of his nose to the end of his thumb.</p></li>
-</ul>
-<div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/engunits.png" class="contained"></div></article><p id="p-3876">Many everyday measurements are given in inches, feet, or yards, and it is easy to convert from one unit to another. For example, to convert from feet to inches, we multiply by 12, as we did in the previous Example. To convert from inches to feet, we divide by 12.</p>
-<p id="p-3877">If it's not clear whether we should multiply or divide, we can use a conversion factor to help us decide. A <dfn class="terminology">conversion factor</dfn> is just a fraction that is equal to 1. For example,</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="para" id="p-3871">The English units of length evolved from early systems that used body parts as measuring devices. Length was first measured with the forearm, hand, or finger.</div> <div class="para logical" id="p-3872"><ul class="disc">
+<li id="li-1792"><div class="para" id="p-3873">An inch was the length of your finger's second joint.</div></li>
+<li id="li-1793"><div class="para" id="p-3874">A foot was about the length of a forearm (or foot, if you have big feet.)</div></li>
+<li id="li-1794"><div class="para" id="p-3875">According to legend, King Henry I decreed that a yard would be the distance from the tip of his nose to the end of his thumb.</div></li>
+</ul></div> <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/engunits.png" class="contained"></div></article><div class="para" id="p-3876">Many everyday measurements are given in inches, feet, or yards, and it is easy to convert from one unit to another. For example, to convert from feet to inches, we multiply by 12, as we did in the previous Example. To convert from inches to feet, we divide by 12.</div>
+<div class="para logical" id="p-3877">
+<div class="para">If it's not clear whether we should multiply or divide, we can use a conversion factor to help us decide. A <dfn class="terminology">conversion factor</dfn> is just a fraction that is equal to 1. For example,</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \dfrac{3 \text{ feet}}{1 \text{ yard}}~~~~~~\text{and}~~~~~~\dfrac{1 \text{ yard}}{3 \text{ feet}}
 \end{equation*}
 </div>
-<p class="continuation">are conversion factors.  We choose the factor that "cancels out" the old units and leaves us with the units we want. Such conversion factors are also called <dfn class="terminology">unit fractions</dfn>.</p>
+<div class="para">are conversion factors.  We choose the factor that "cancels out" the old units and leaves us with the units we want. Such conversion factors are also called <dfn class="terminology">unit fractions</dfn>.</div>
+</div>
 <article class="example example-like" id="example-65"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.4</span><span class="period">.</span>
 </h4>
-<p id="p-3878">The basketball player Yao Ming is 90 inches tall. Convert 90 inches to feet.</p>
+<div class="para" id="p-3878">The basketball player Yao Ming is 90 inches tall. Convert 90 inches to feet.</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-51" id="solution-51"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-51"><div class="solution solution-like">
-<p id="p-3879">We'll use a conversion factor. Because 1 foot = 12 inches, the two fractions</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-51" id="solution-51"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-51"><div class="solution solution-like"><div class="para logical" id="p-3879">
+<div class="para">We'll use a conversion factor. Because 1 foot = 12 inches, the two fractions</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \dfrac{12 \text{ inches}}{1 \text{ foot}}~~~~~~\text{and}~~~~~~\dfrac{1 \text{ foot}}{12 \text{ inches}}
 \end{equation*}
 </div>
-<p class="continuation">are both equal to 1. We can multiply 90 inches by either fraction without changing its value. We'd like to eliminate inches and end up with feet, so we choose the second factor.</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="para">are both equal to 1. We can multiply 90 inches by either fraction without changing its value. We'd like to eliminate inches and end up with feet, so we choose the second factor.</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \dfrac{90\cancel{\text{ inches}}}{1} \times \dfrac{1\text{ foot}}{12 \cancel{\text{ inches}}} = \dfrac{90 \times 1}{1 \times 12} \text{ feet}
 \end{equation*}
 </div>
-<p class="continuation">Notice how the "inches" cancel out, leaving us with "feet" as the unit. And we also see that we should divide 90 by 12.</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="para">Notice how the "inches" cancel out, leaving us with "feet" as the unit. And we also see that we should divide 90 by 12.</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \dfrac{90}{12} \text{ feet} = 7.5  \text{ feet}
 \end{equation*}
 </div>
-<p class="continuation">Yao Ming is 7.5 feet, or 7 feet 6 inches, tall.</p>
-</div></div>
+<div class="para">Yao Ming is 7.5 feet, or 7 feet 6 inches, tall.</div>
+</div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-791"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.3.5</span><span class="period">.</span>
 </h4>
-<p id="p-3880">NBA basketball star Andrew Bynum is 7 feet tall. His stride length is approximately 1 yard. How many steps would he take to walk a mile?  (Hint:  1 mile = 5280 feet. Convert feet to yards.)</p>
+<div class="para" id="p-3880">NBA basketball star Andrew Bynum is 7 feet tall. His stride length is approximately 1 yard. How many steps would he take to walk a mile?  (Hint:  1 mile = 5280 feet. Convert feet to yards.)</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-427" id="answer-427"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-427"><div class="answer solution-like"><p id="p-3881">1760</p></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-427" id="answer-427"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-427"><div class="answer solution-like"><div class="para" id="p-3881">1760</div></div></div>
 </div></article></section><section class="subsection" id="subsection-67"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">3.3.2</span> <span class="title">Metric Units</span>
 </h3>
-<p id="p-3882">We can also measure length in the <dfn class="terminology">metric system</dfn>, which is based on a length called a <dfn class="terminology">meter</dfn>. One meter is a little longer than a yard.</p>
+<div class="para" id="p-3882">We can also measure length in the <dfn class="terminology">metric system</dfn>, which is based on a length called a <dfn class="terminology">meter</dfn>. One meter is a little longer than a yard.</div>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/meteryard.png" class="contained"></div>
-<p id="p-3883">In fact,</p>
-<article class="assemblage assemblage-like" id="assemblage-67"><div class="displaymath process-math" data-contains-math-knowls="" id="p-3884">
+<div class="para" id="p-3883">In fact,</div>
+<article class="assemblage assemblage-like" id="assemblage-67"><div class="para logical" id="p-3884"><div class="displaymath process-math">
 \begin{equation*}
 \large\text{1 meter} ~~=  \large\text{1.0963 yards}
 \end{equation*}
-</div></article><article class="example example-like" id="example-66"><h4 class="heading">
+</div></div></article><article class="example example-like" id="example-66"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.6</span><span class="period">.</span>
 </h4>
-<p id="p-3885">Jamaica's Usain Bolt holds the world record in the 100-meter dash, with a time of 9.58 seconds.</p>
-<ol id="p-3886" class="lower-alpha">
-<li id="li-1795"><p id="p-3887">How far is 100 meters in yards? In feet?</p></li>
-<li id="li-1796"><p id="p-3888">What was Usain Bolt's speed, in feet per second?</p></li>
-</ol>
+<div class="para" id="p-3885">Jamaica's Usain Bolt holds the world record in the 100-meter dash, with a time of 9.58 seconds.</div> <div class="para logical" id="p-3886"><ol class="lower-alpha">
+<li id="li-1795"><div class="para" id="p-3887">How far is 100 meters in yards? In feet?</div></li>
+<li id="li-1796"><div class="para" id="p-3888">What was Usain Bolt's speed, in feet per second?</div></li>
+</ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-52" id="solution-52"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-52"><div class="solution solution-like"><ol id="p-3889" class="lower-alpha">
-<li id="li-1797">
-<p id="p-3890">To convert 100 meters to yards, we multiply the length of 1 meter by 100.</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-52" id="solution-52"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-52"><div class="solution solution-like"><div class="para logical" id="p-3889"><ol class="lower-alpha">
+<li id="li-1797"><div class="para logical" id="p-3890">
+<div class="para">To convert 100 meters to yards, we multiply the length of 1 meter by 100.</div>
+<div class="displaymath process-math">
 \begin{equation*}
 100 \text{ meters} = 100 \times 1.0963  \text{ yards} = 109.63 \text{ yards}
 \end{equation*}
 </div>
-<p class="continuation">And because there are 3 feet in a yard,</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="para">And because there are 3 feet in a yard,</div>
+<div class="displaymath process-math">
 \begin{equation*}
 100 \text{ meters} =  109.63 \cancel{\text{ yard}} \times \dfrac{3 \text{ feet}}{1 \cancel{\text{ yard}}} = 328.89 \text{ feet}
 \end{equation*}
 </div>
-</li>
-<li id="li-1798">
-<p id="p-3891">Usain Bolt's speed was</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+</div></li>
+<li id="li-1798"><div class="para logical" id="p-3891">
+<div class="para">Usain Bolt's speed was</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \dfrac{328.89 \text{ feet}}{9.58 \text{ seconds}} = 34.33 \text{ feet per second}
 \end{equation*}
 </div>
-</li>
-</ol></div></div>
+</div></li>
+</ol></div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-792"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.3.7</span><span class="period">.</span>
 </h4>
-<p id="p-3892">One mile is equal to 1760 yards. How many meters are in one mile?</p>
+<div class="para" id="p-3892">One mile is equal to 1760 yards. How many meters are in one mile?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-428" id="answer-428"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-428"><div class="answer solution-like"><p id="p-3893">Approximately 1605.4 meters.</p></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-428" id="answer-428"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-428"><div class="answer solution-like"><div class="para" id="p-3893">Approximately 1605.4 meters.</div></div></div>
 </div></article><article class="note remark-like" id="note-50"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">3.3.8</span><span class="period">.</span>
 </h4>
-<p id="p-3894">The only countries in the world that have not officially adopted the metric system of measurement are the Unites States, Liberia, and Myanmar.</p></article><p id="p-3895">In the metric system, a meter serves the same purpose as a yard. For smaller lengths, we use <dfn class="terminology">centimeters (cm)</dfn>.  There are one hundred centimeters in 1 meter. Here is a picture of a ruler marked in both centimeters and inches. Notice that each centimeter is divided into 10 smaller units called <dfn class="terminology">millimeters (mm)</dfn>.</p>
+<div class="para" id="p-3894">The only countries in the world that have not officially adopted the metric system of measurement are the Unites States, Liberia, and Myanmar.</div></article><div class="para" id="p-3895">In the metric system, a meter serves the same purpose as a yard. For smaller lengths, we use <dfn class="terminology">centimeters (cm)</dfn>.  There are one hundred centimeters in 1 meter. Here is a picture of a ruler marked in both centimeters and inches. Notice that each centimeter is divided into 10 smaller units called <dfn class="terminology">millimeters (mm)</dfn>.</div>
 <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/cmruler.png" class="contained"></div>
 <article class="example example-like" id="example-67"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.9</span><span class="period">.</span>
 </h4>
-<ol id="p-3896" class="lower-alpha">
-<li id="li-1799"><p id="p-3897">The label on a picture frame says it is 65 centimeters wide. How many meters is that?</p></li>
-<li id="li-1800"><p id="p-3898">What is the approximate width of the picture frame in English units?</p></li>
-</ol>
+<div class="para logical" id="p-3896"><ol class="lower-alpha">
+<li id="li-1799"><div class="para" id="p-3897">The label on a picture frame says it is 65 centimeters wide. How many meters is that?</div></li>
+<li id="li-1800"><div class="para" id="p-3898">What is the approximate width of the picture frame in English units?</div></li>
+</ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-53" id="solution-53"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-53"><div class="solution solution-like"><ol id="p-3899" class="lower-alpha">
-<li id="li-1801">
-<p id="p-3900">To convert centimeters to meters, we can multiply 65 centimeters by a unit fraction.</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-53" id="solution-53"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-53"><div class="solution solution-like"><div class="para logical" id="p-3899"><ol class="lower-alpha">
+<li id="li-1801"><div class="para logical" id="p-3900">
+<div class="para">To convert centimeters to meters, we can multiply 65 centimeters by a unit fraction.</div>
+<div class="displaymath process-math">
 \begin{equation*}
 65 \cancel{\text{ centimeters}} \times \dfrac{1 \text{ meter}}{100 \cancel{\text{ centimeters}}} = \dfrac{65}{100} \text{ meter}
 \end{equation*}
 </div>
-<p class="continuation">The frame is 0.65 meter wide.</p>
-</li>
-<li id="li-1802"><p id="p-3901">0.65 meter is approximately <span class="process-math">\(\dfrac{2}{3}\)</span> meter, and a meter is approximately one yard, or 3 feet, in length. So <span class="process-math">\(\dfrac{2}{3}\)</span> meter is about 2 feet. The picture frame is about 2 feet wide.</p></li>
-</ol></div></div>
+<div class="para">The frame is 0.65 meter wide.</div>
+</div></li>
+<li id="li-1802"><div class="para" id="p-3901">0.65 meter is approximately <span class="process-math">\(\dfrac{2}{3}\)</span> meter, and a meter is approximately one yard, or 3 feet, in length. So <span class="process-math">\(\dfrac{2}{3}\)</span> meter is about 2 feet. The picture frame is about 2 feet wide.</div></li>
+</ol></div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-793"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.3.10</span><span class="period">.</span>
 </h4>
-<p id="p-3902">The actress Jane Lynch is 6 feet tall. What is her approximate height in meters? In centimeters?</p>
+<div class="para" id="p-3902">The actress Jane Lynch is 6 feet tall. What is her approximate height in meters? In centimeters?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-429" id="answer-429"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-429"><div class="answer solution-like"><p id="p-3903">Approximately 1.82 meters or 182 centimeters.</p></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-429" id="answer-429"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-429"><div class="answer solution-like"><div class="para" id="p-3903">Approximately 1.82 meters or 182 centimeters.</div></div></div>
 </div></article><div class="sidebyside"><div class="sbsrow" style="margin-left:1.75%;margin-right:1.75%;">
-<div class="sbspanel top" style="width:72.5388601036269%;"><p id="p-3904"><p id="p-3905">How does a centimeter compare to an inch? A centimeter is a little less than half an inch in length; about the width of the nail on your index finger.</p> <article class="assemblage assemblage-like" id="assemblage-68"><div class="displaymath process-math" data-contains-math-knowls="" id="md-31">
+<div class="sbspanel top" style="width:72.5388601036269%;"><div class="para" id="p-3904">
+<div class="para" id="p-3905">How does a centimeter compare to an inch? A centimeter is a little less than half an inch in length; about the width of the nail on your index finger.</div> <article class="assemblage assemblage-like" id="assemblage-68"><div class="para logical" id="p-3906"><div class="displaymath process-math" id="md-31">
 \begin{align*}
 \large {1 \text{ centimeter}}~~~~ \amp = \large{0.3937 \text { inch}}\\
 \large {1 \text{ inch}}~~~~ \amp = \large {2.54 \text { centimeters}}
 \end{align*}
-</div></article></p></div>
+</div></div></article>
+</div></div>
 <div class="sbspanel top" style="width:23.8341968911917%;"><img src="external/cm.png" class="contained"></div>
 </div></div>
 <article class="example example-like" id="example-68"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.11</span><span class="period">.</span>
 </h4>
-<p id="p-3907">What is the length of 1 foot in centimeters?</p>
+<div class="para" id="p-3907">What is the length of 1 foot in centimeters?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-54" id="solution-54"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-54"><div class="solution solution-like">
-<p id="p-3908">We multiply 12 inches by a unit fraction.</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-54" id="solution-54"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-54"><div class="solution solution-like"><div class="para logical" id="p-3908">
+<div class="para">We multiply 12 inches by a unit fraction.</div>
+<div class="displaymath process-math">
 \begin{equation*}
 12 \cancel {\text{ inches}} \times \dfrac{2.54 \text { centimeters}}{1 \cancel{\text{ inch}}} = 30.48 \text{ centimetters}
 \end{equation*}
 </div>
-<p class="continuation">One foot is equal in length to 30.48 centimeters.</p>
-</div></div>
+<div class="para">One foot is equal in length to 30.48 centimeters.</div>
+</div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-794"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.3.12</span><span class="period">.</span>
 </h4>
-<p id="p-3909">What is the length of 1 meter in inches?</p>
+<div class="para" id="p-3909">What is the length of 1 meter in inches?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-430" id="answer-430"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-430"><div class="answer solution-like"><p id="p-3910">39.37 inches</p></div></div>
-</div></article><p id="p-3911">For longer distances we use <dfn class="terminology">kilometers (km)</dfn>. There are 1000 meters in one kilometer.</p>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-430" id="answer-430"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-430"><div class="answer solution-like"><div class="para" id="p-3910">39.37 inches</div></div></div>
+</div></article><div class="para" id="p-3911">For longer distances we use <dfn class="terminology">kilometers (km)</dfn>. There are 1000 meters in one kilometer.</div>
 <article class="assemblage assemblage-like" id="assemblage-69"><h4 class="heading"><span class="title">Metric Units of Length.</span></h4>
-<div class="displaymath process-math" data-contains-math-knowls="" id="md-32">
+<div class="para logical" id="p-3912"><div class="displaymath process-math" id="md-32">
 \begin{align*}
 \large {1 \text{ centimeter}}~~~~ \amp = \large{10 \text { millimeters}}\\
 \large {1 \text{ meter}}~~~~~~~~~~~~~~ \amp = \large {100 \text { centimeters}}\\
 \large {1 \text{ kilometer}}~~~~ \amp = \large {1000 \text { meters}}
 \end{align*}
-</div></article><article class="note remark-like" id="note-51"><h4 class="heading">
+</div></div></article><article class="note remark-like" id="note-51"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">3.3.13</span><span class="period">.</span>
 </h4>
-<p id="p-3913">As you can see in the table above, the conversion factors in the metric system are all powers of 10. This property makes the metric system easy to use, because we can convert between units simply by moving the decimal point. For example,</p>
-<div class="displaymath process-math" data-contains-math-knowls="" id="md-33">
+<div class="para logical" id="p-3913">
+<div class="para">As you can see in the table above, the conversion factors in the metric system are all powers of 10. This property makes the metric system easy to use, because we can convert between units simply by moving the decimal point. For example,</div>
+<div class="displaymath process-math" id="md-33">
 \begin{align*}
 0.48 \text{ kilometers} \amp = 480 \text { meters}\\
 315 \text{ centimeters}~~~~~~~~ ~~~~~~~~~~~~\amp = 3.15 \text { meters}\\
 87 \text{ millimeters} \amp = 8.7 \text { centimeters}
 \end{align*}
 </div>
-<p class="continuation">Can you explain each of these conversions? Use unit fractions if you like, then notice how to move the decimal point.</p></article><p id="p-3914">One kilometer is about six-tenths of a mile.</p>
-<article class="assemblage assemblage-like" id="assemblage-70"><div class="displaymath process-math" data-contains-math-knowls="" id="p-3915">
+<div class="para">Can you explain each of these conversions? Use unit fractions if you like, then notice how to move the decimal point.</div>
+</div></article><div class="para" id="p-3914">One kilometer is about six-tenths of a mile.</div>
+<article class="assemblage assemblage-like" id="assemblage-70"><div class="para logical" id="p-3915"><div class="displaymath process-math">
 \begin{equation*}
 \large\text{1 kilometer} ~~~~ =  \large\text{0.6214 mile}
 \end{equation*}
-</div></article><article class="example example-like" id="example-69"><h4 class="heading">
+</div></div></article><article class="example example-like" id="example-69"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.14</span><span class="period">.</span>
 </h4>
-<p id="p-3916">What is the length of a 5K (5 kilometer) race in miles?</p>
+<div class="para" id="p-3916">What is the length of a 5K (5 kilometer) race in miles?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-55" id="solution-55"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-55"><div class="solution solution-like">
-<p id="p-3917">We can use a unit fraction, or we can simply multiply the length of 1 kilometer by 5.</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-55" id="solution-55"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-55"><div class="solution solution-like"><div class="para logical" id="p-3917">
+<div class="para">We can use a unit fraction, or we can simply multiply the length of 1 kilometer by 5.</div>
+<div class="displaymath process-math">
 \begin{equation*}
 5 \text{ kilometers} = 5 \times 0.6214 \text{ miles} = 3.107 \text{ miles}
 \end{equation*}
 </div>
-<p class="continuation">Or you could notice that a 10K race is about 6.2 miles and then divide by 2 to find the length of a 5K race. Either way, a 5K race is about 3.1 miles long.</p>
-</div></div>
+<div class="para">Or you could notice that a 10K race is about 6.2 miles and then divide by 2 to find the length of a 5K race. Either way, a 5K race is about 3.1 miles long.</div>
+</div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-795"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.3.15</span><span class="period">.</span>
 </h4>
-<p id="p-3918">The speed limit on expressways in Canada is 110 kilometers per hour. What is the speed limit in miles per hour?</p>
+<div class="para" id="p-3918">The speed limit on expressways in Canada is 110 kilometers per hour. What is the speed limit in miles per hour?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-431" id="answer-431"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-431"><div class="answer solution-like"><p id="p-3919">About 68 mph</p></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-431" id="answer-431"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-431"><div class="answer solution-like"><div class="para" id="p-3919">About 68 mph</div></div></div>
 </div></article></section><section class="subsection" id="subsection-68"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">3.3.3</span> <span class="title">Area and Volume</span>
 </h3>
-<p id="p-3920">Recall that we measure area in square units and volume in cubic units. In the next Activity we'll see how to convert between different units of area or volume.</p>
+<div class="para" id="p-3920">Recall that we measure area in square units and volume in cubic units. In the next Activity we'll see how to convert between different units of area or volume.</div>
 <article class="activity project-like" id="activity-35"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Area and Volume.</span>
-</h4>
-<ol id="p-3921" class="decimal">
-<li id="li-1803">
-<p id="p-3922">How many square feet are there in a square yard? The lines on the grid below represent feet. In the upper left corner of the grid, draw a square yard, that is, a square that measures one yard on each side. <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/cmgrid.png" class="contained"></div></p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+</h4> <div class="para logical" id="p-3921"><ol class="decimal">
+<li id="li-1803"><div class="para logical" id="p-3922">
+<div class="para">How many square feet are there in a square yard? The lines on the grid below represent feet. In the upper left corner of the grid, draw a square yard, that is, a square that measures one yard on each side. <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/cmgrid.png" class="contained"></div>
+</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \large\text{1 square yard} ~~~~~~ = \fillinmath{XXX} \large\text{ square feet}
 \end{equation*}
 </div>
-</li>
-<li id="li-1804"><p id="p-3923">What is the difference between "2 square yards" and "a 2-yard square"? On the grid above, draw 2 square yards that touch along one edge. Then draw a square that measures 2 yards on each side. Are they the same? How many square yards are in a 2-yard square?</p></li>
+</div></li>
+<li id="li-1804"><div class="para" id="p-3923">What is the difference between "2 square yards" and "a 2-yard square"? On the grid above, draw 2 square yards that touch along one edge. Then draw a square that measures 2 yards on each side. Are they the same? How many square yards are in a 2-yard square?</div></li>
 <li id="li-1805">
-<p id="p-3924">Karin's living room is 18 feet long by 12 feet wide. What is its area in square feet?</p>
-<p id="p-3925">Carpet is sold by the square yard. How many square yards of carpet does Karin need for her living room?</p>
+<div class="para" id="p-3924">Karin's living room is 18 feet long by 12 feet wide. What is its area in square feet?</div>
+<div class="para" id="p-3925">Carpet is sold by the square yard. How many square yards of carpet does Karin need for her living room?</div>
 </li>
-<li id="li-1806">
-<p id="p-3926">How many square inches are there in a square foot? The lines on the grid below represent inches. Draw a square that measures 1 foot on each side. <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/cmgrid.png" class="contained"></div></p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<li id="li-1806"><div class="para logical" id="p-3926">
+<div class="para">How many square inches are there in a square foot? The lines on the grid below represent inches. Draw a square that measures 1 foot on each side. <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/cmgrid.png" class="contained"></div>
+</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \large\text{1 square foot} ~~~~~~ = \fillinmath{XXX} \large\text{ square inches}
 \end{equation*}
 </div>
-</li>
-<li id="li-1807"><p id="p-3927">Do you see a pattern in how to convert one square unit to another? Use your discovery to calculate the number of square inches in one square yard.</p></li>
+</div></li>
+<li id="li-1807"><div class="para" id="p-3927">Do you see a pattern in how to convert one square unit to another? Use your discovery to calculate the number of square inches in one square yard.</div></li>
 <li id="li-1808">
-<p id="p-3928">Daisy would like to cover the bulletin board in her classroom with butcher paper. The bulletin board measures 99 inches long by 48 inches tall. What is the area of the bulletin board in square inches?</p>
-<p id="p-3929">What is the area of the bulletin board in square feet?</p>
-<p id="p-3930">What is the area of the bulletin board in square yards?</p>
+<div class="para" id="p-3928">Daisy would like to cover the bulletin board in her classroom with butcher paper. The bulletin board measures 99 inches long by 48 inches tall. What is the area of the bulletin board in square inches?</div>
+<div class="para" id="p-3929">What is the area of the bulletin board in square feet?</div>
+<div class="para" id="p-3930">What is the area of the bulletin board in square yards?</div>
 </li>
-<li id="li-1809"><p id="p-3931">How many cubic feet are there in a cubic yard? Here is a picture of a cubic yard, with its sides marked in feet. <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/cubicyard.png" class="contained"></div></p></li>
-<li id="li-1810">
-<p id="p-3932">Now imagine a cubic foot, with its sides marked in inches. It will have 12 layers, each 1-inch thick, and each layer will be a square that is 12 inches by 12 inches. How many cubic inches are in each layer? How many cubic inches are in the whole cubic foot?</p>
-<div class="displaymath process-math" data-contains-math-knowls="" id="md-34">
+<li id="li-1809"><div class="para" id="p-3931">How many cubic feet are there in a cubic yard? Here is a picture of a cubic yard, with its sides marked in feet. <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/cubicyard.png" class="contained"></div>
+</div></li>
+<li id="li-1810"><div class="para logical" id="p-3932">
+<div class="para">Now imagine a cubic foot, with its sides marked in inches. It will have 12 layers, each 1-inch thick, and each layer will be a square that is 12 inches by 12 inches. How many cubic inches are in each layer? How many cubic inches are in the whole cubic foot?</div>
+<div class="displaymath process-math" id="md-34">
 \begin{gather*}
 \large\text{1 cubic yard} ~~~~~~ = \fillinmath{XXX} \large\text{ cubic feet}\\
 \large\text{1 cubic foot} ~~~~~~ = \fillinmath{XXX} \large\text{ cubic inches}
 \end{gather*}
 </div>
-</li>
-<li id="li-1811"><p id="p-3933">In the construction industry, building materials such as gravel or wood chips are often measured in "yards," but they really mean cubic yards. <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/gravel.png" class="contained"></div> At the U-Do-It store, gravel is sold in units of 0.25 (cubic) yards. Reza's driveway is 6 feet wide and 20 feet long. How many (cubic) yards of gravel should he order to cover the driveway 4 inches thick?</p></li>
-</ol></article></section><section class="subsection" id="subsection-69"><h3 class="heading hide-type">
+</div></li>
+<li id="li-1811"><div class="para" id="p-3933">In the construction industry, building materials such as gravel or wood chips are often measured in "yards," but they really mean cubic yards. <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/gravel.png" class="contained"></div> At the U-Do-It store, gravel is sold in units of 0.25 (cubic) yards. Reza's driveway is 6 feet wide and 20 feet long. How many (cubic) yards of gravel should he order to cover the driveway 4 inches thick?</div></li>
+</ol></div></article></section><section class="subsection" id="subsection-69"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">3.3.4</span> <span class="title">Liquid Measure</span>
 </h3>
-<p id="p-3934">Liquids are measured in volume or <dfn class="terminology">capacity</dfn> units based on the fluid ounce.</p>
+<div class="para" id="p-3934">Liquids are measured in volume or <dfn class="terminology">capacity</dfn> units based on the fluid ounce.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
-<div class="sbspanel top" style="width:56.4102564102564%;"><p id="p-3935"><article class="assemblage assemblage-like" id="assemblage-71"><h4 class="heading"><span class="title">Liquid Measure.</span></h4>
-<div class="displaymath process-math" data-contains-math-knowls="" id="md-35">
+<div class="sbspanel top" style="width:56.4102564102564%;"><div class="para" id="p-3935"><article class="assemblage assemblage-like" id="assemblage-71"><h4 class="heading"><span class="title">Liquid Measure.</span></h4>
+<div class="para logical" id="p-3936"><div class="displaymath process-math" id="md-35">
 \begin{align*}
 \large {1 \text{ fluid ounce}}~~~~ \amp = \large{2 \text { tablespoons}}\\
 \large {1 \text{ cup}}~~ \amp = \large {8 \text { fluid ounces}}\\
@@ -477,111 +922,107 @@ window.MathJax = {
 \large {1 \text{ quart}} ~~\amp = \large {2 \text { pints}}\\
 \large {1 \text{ gallon}} ~~\amp = \large {4 \text { quarts}}
 \end{align*}
-</div></article></p></div>
+</div></div></article></div></div>
 <div class="sbspanel top" style="width:41.025641025641%;"><img src="external/liquids.png" class="contained"></div>
 </div></div>
-<p id="p-3937">We can use unit fractions as conversion factors for liquid measure.</p>
+<div class="para" id="p-3937">We can use unit fractions as conversion factors for liquid measure.</div>
 <article class="example example-like" id="example-70"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.16</span><span class="period">.</span>
 </h4>
-<p id="p-3938">A soup recipe calls for 20 fluid ounces of chicken broth. How many cups is that?</p>
+<div class="para" id="p-3938">A soup recipe calls for 20 fluid ounces of chicken broth. How many cups is that?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-56" id="solution-56"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-56"><div class="solution solution-like">
-<p id="p-3939">We'd like to convert fluid ounces to cups, so we multiply by the appropriate unit fraction.</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-56" id="solution-56"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-56"><div class="solution solution-like"><div class="para logical" id="p-3939">
+<div class="para">We'd like to convert fluid ounces to cups, so we multiply by the appropriate unit fraction.</div>
+<div class="displaymath process-math">
 \begin{equation*}
 20 \cancel {\text{ fluid ounces}} \times \dfrac{1 \text { cup}}{8 \cancel{\text{ fluid ounces}}} = \dfrac{20}{8} \text{ cups}
 \end{equation*}
 </div>
-<p class="continuation">We can reduce <span class="process-math">\(\dfrac{20}{8}\)</span> to <span class="process-math">\(\dfrac{5}{2}\)</span> or  <span class="process-math">\(2\dfrac{5}{2}\)</span> cups.</p>
-</div></div>
+<div class="para">We can reduce <span class="process-math">\(\dfrac{20}{8}\)</span> to <span class="process-math">\(\dfrac{5}{2}\)</span> or  <span class="process-math">\(2\dfrac{5}{2}\)</span> cups.</div>
+</div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-796"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.3.17</span><span class="period">.</span>
 </h4>
-<p id="p-3940">Rachel needs three pints of cranberry juice. What fraction of a gallon container is that?</p>
+<div class="para" id="p-3940">Rachel needs three pints of cranberry juice. What fraction of a gallon container is that?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-432" id="answer-432"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-432"><div class="answer solution-like"><p id="p-3941"><span class="process-math">\(\dfrac{3}{8}\)</span></p></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-432" id="answer-432"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-432"><div class="answer solution-like"><div class="para" id="p-3941"><span class="process-math">\(\dfrac{3}{8}\)</span></div></div></div>
 </div></article><div class="sidebyside"><div class="sbsrow" style="margin-left:3.75%;margin-right:3.75%;">
-<div class="sbspanel top" style="width:75.6756756756757%;"><p id="p-3942"><p id="p-3943">To measure capacity in metric units, we use the <dfn class="terminology">liter (l)</dfn>.  One liter is about the same as one quart. Soft drinks are often sold in 2 liter bottles.</p> <article class="assemblage assemblage-like" id="assemblage-72"><div class="displaymath process-math" data-contains-math-knowls="" id="p-3944">
+<div class="sbspanel top" style="width:75.6756756756757%;"><div class="para" id="p-3942">
+<div class="para" id="p-3943">To measure capacity in metric units, we use the <dfn class="terminology">liter (l)</dfn>.  One liter is about the same as one quart. Soft drinks are often sold in 2 liter bottles.</div> <article class="assemblage assemblage-like" id="assemblage-72"><div class="para logical" id="p-3944"><div class="displaymath process-math">
 \begin{equation*}
 \large\text{1 liter} ~~~~ =  \large\text{1.06 quarts}
 \end{equation*}
-</div></article></p></div>
+</div></div></article>
+</div></div>
 <div class="sbspanel top" style="width:16.2162162162162%;"><img src="external/soda.png" class="contained"></div>
 </div></div>
-<p id="p-3945">A <dfn class="terminology">milliliter (ml)</dfn> is 11000 of one liter. It has the same volume as 1 cubic centimeter, so 1 milliliter is also called 1 cc.</p>
+<div class="para" id="p-3945">A <dfn class="terminology">milliliter (ml)</dfn> is 11000 of one liter. It has the same volume as 1 cubic centimeter, so 1 milliliter is also called 1 cc.</div>
 <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/milliliter.png" class="contained"></div>
 <article class="example example-like" id="example-71"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.3.18</span><span class="period">.</span>
 </h4>
-<ol id="p-3946" class="lower-alpha">
-<li id="li-1812"><p id="p-3947">The directions on a bottle of cold medicine say to take 30 cc every 6 hours. How much is that in fluid ounces?</p></li>
-<li id="li-1813"><p id="p-3948">How many tablespoons are in one dose of the cold medicine?</p></li>
-</ol>
+<div class="para logical" id="p-3946"><ol class="lower-alpha">
+<li id="li-1812"><div class="para" id="p-3947">The directions on a bottle of cold medicine say to take 30 cc every 6 hours. How much is that in fluid ounces?</div></li>
+<li id="li-1813"><div class="para" id="p-3948">How many tablespoons are in one dose of the cold medicine?</div></li>
+</ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-57" id="solution-57"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-57"><div class="solution solution-like"><ol id="p-3949" class="lower-alpha">
-<li id="li-1814">
-<p id="p-3950">First we'll convert 30 cc, or 30 milliliters, to quarts.</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-57" id="solution-57"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-57"><div class="solution solution-like"><div class="para logical" id="p-3949"><ol class="lower-alpha">
+<li id="li-1814"><div class="para logical" id="p-3950">
+<div class="para">First we'll convert 30 cc, or 30 milliliters, to quarts.</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \dfrac{30}{100} \cancel {\text{ liters}} \times \dfrac{1.06 \text { quarts}}{1 \cancel{\text{ liter}}} = \dfrac{30 \times 1.06}{1000} \text{ quarts} = 0.0318 \text{ quarts}
 \end{equation*}
 </div>
-<p class="continuation">There are 32 fluid ounces in a quart, so</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="para">There are 32 fluid ounces in a quart, so</div>
+<div class="displaymath process-math">
 \begin{equation*}
 0.0318 \cancel {\text{ quarts}} \times \dfrac{32 \text { fluid ounces}}{1 \cancel{\text{ quart}}} = 1.0176 \text{ fluid ounces}
 \end{equation*}
 </div>
-<p class="continuation">Thirty cc is a little over 1 fluid ounce.</p>
-</li>
-<li id="li-1815"><p id="p-3951">There are 2 tablespoons in 1 fluid ounce, and we see that 30 cc is just a little over 1 fluid ounce, so one dose of cold medicine is just over 2 tablespoons.</p></li>
-</ol></div></div>
+<div class="para">Thirty cc is a little over 1 fluid ounce.</div>
+</div></li>
+<li id="li-1815"><div class="para" id="p-3951">There are 2 tablespoons in 1 fluid ounce, and we see that 30 cc is just a little over 1 fluid ounce, so one dose of cold medicine is just over 2 tablespoons.</div></li>
+</ol></div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-797"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.3.19</span><span class="period">.</span>
 </h4>
-<p id="p-3952">A large dog like Brandi, the Saint Bernard, should be given 2.5 cc of heartworm medication. How many doses are in a 1 liter bottle of the medication?</p>
+<div class="para" id="p-3952">A large dog like Brandi, the Saint Bernard, should be given 2.5 cc of heartworm medication. How many doses are in a 1 liter bottle of the medication?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-433" id="answer-433"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-433"><div class="answer solution-like"><p id="p-3953">400</p></div></div>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-433" id="answer-433"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-433"><div class="answer solution-like"><div class="para" id="p-3953">400</div></div></div>
 </div></article><article class="activity project-like" id="activity-36"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">Unit Conversions.</span>
-</h4>
-<p id="p-3954">Fill in the blanks with the correct conversion values. (You can find all the answers in the text for this Section!)</p>
-<p id="p-3955"><article class="assemblage assemblage-like" id="assemblage-73"><h5 class="heading"><span class="title">English Units of length.</span></h5>
-<div class="displaymath process-math" data-contains-math-knowls="" id="md-36">
+</h4> <div class="para" id="p-3954">Fill in the blanks with the correct conversion values. (You can find all the answers in the text for this Section!)</div> <div class="para" id="p-3955"><article class="assemblage assemblage-like" id="assemblage-73"><h5 class="heading"><span class="title">English Units of length.</span></h5>
+<div class="para logical" id="p-3956"><div class="displaymath process-math" id="md-36">
 \begin{align*}
 \large\text{1 foot}~~ \amp = \fillinmath{XXX}\large\text{ inches}\\
 \large\text{1 yard}~~ \amp = \fillinmath{XXX} \large\text{ feet}\\
 \large\text{1 mile}~~ \amp = \fillinmath{XXX} \large\text{ feet}
 \end{align*}
-</div></article></p>
-<p id="p-3957"><article class="assemblage assemblage-like" id="assemblage-74"><h5 class="heading"><span class="title">Metric Units of Length.</span></h5>
-<div class="displaymath process-math" data-contains-math-knowls="" id="md-37">
+</div></div></article></div> <div class="para" id="p-3957"><article class="assemblage assemblage-like" id="assemblage-74"><h5 class="heading"><span class="title">Metric Units of Length.</span></h5>
+<div class="para logical" id="p-3958"><div class="displaymath process-math" id="md-37">
 \begin{align*}
 \large {1 \text{ centimeter}}~~~~ \amp = \fillinmath{XXX} \large{\text { millimeters}}\\
 \large {1 \text{ meter}}~~~~~~~~~~~~~ \amp = \fillinmath{XXX} \large { \text { centimeters}}\\
 \large {1 \text{ kilometer}}~~~~ \amp = \fillinmath{XXX} \large { \text { meters}}
 \end{align*}
-</div></article></p>
-<p id="p-3959"><article class="assemblage assemblage-like" id="assemblage-75"><h5 class="heading"><span class="title">Converting Between Metric and English Units.</span></h5>
-<div class="displaymath process-math" data-contains-math-knowls="" id="md-38">
+</div></div></article></div> <div class="para" id="p-3959"><article class="assemblage assemblage-like" id="assemblage-75"><h5 class="heading"><span class="title">Converting Between Metric and English Units.</span></h5>
+<div class="para logical" id="p-3960"><div class="displaymath process-math" id="md-38">
 \begin{align*}
 \large {1 \text{ meter}}~~~~~~~~~~~~~~ \amp = \fillinmath{XXX} \large{\text { yards}}\\
 \large {1 \text{ centimeter}}~~~~ \amp = \fillinmath{XXX} \large { \text { inch}}\\
 \large {1 \text{ inch}}~~~~ \amp = \fillinmath{XXX} \large { \text { centimeters}}
 \end{align*}
-</div></article></p>
-<p id="p-3961"><article class="assemblage assemblage-like" id="assemblage-76"><h5 class="heading"><span class="title">Area and Volume Units.</span></h5>
-<div class="displaymath process-math" data-contains-math-knowls="" id="md-39">
+</div></div></article></div> <div class="para" id="p-3961"><article class="assemblage assemblage-like" id="assemblage-76"><h5 class="heading"><span class="title">Area and Volume Units.</span></h5>
+<div class="para logical" id="p-3962"><div class="displaymath process-math" id="md-39">
 \begin{align*}
 \large {1 \text{ square yard}}~~~~ \amp = \fillinmath{XXX} \large{\text { square feet}}\\
 \large {1 \text{ square foot}}~~~~\amp = \fillinmath{XXX} \large { \text { square inches}}\\
 \large {1 \text{ cubic yard}}~~~~ \amp = \fillinmath{XXX} \large { \text { cubic feet}}\\
 \large {1 \text{ cubic foot}}~~~~ \amp = \fillinmath{XXX} \large { \text { cubic inches}}
 \end{align*}
-</div></article></p>
-<p id="p-3963"><article class="assemblage assemblage-like" id="assemblage-77"><h5 class="heading"><span class="title">Liquid Measure.</span></h5>
-<div class="displaymath process-math" data-contains-math-knowls="" id="md-40">
+</div></div></article></div> <div class="para" id="p-3963"><article class="assemblage assemblage-like" id="assemblage-77"><h5 class="heading"><span class="title">Liquid Measure.</span></h5>
+<div class="para logical" id="p-3964"><div class="displaymath process-math" id="md-40">
 \begin{align*}
 \large {1 \text{ fluid ounce}}~~~~ \amp = \fillinmath{XXX} \large{\text { tablespoons}}\\
 \large {1 \text{ cup}}~~ \amp = \fillinmath{XXX} \large {\text { fluid ounces}}\\
@@ -589,106 +1030,102 @@ window.MathJax = {
 \large {1 \text{ quart}} ~~\amp = \fillinmath{XXX} \large {\text { pints}}\\
 \large {1 \text{ gallon}} ~~\amp = \fillinmath{XXX} \large {\text { quarts}}
 \end{align*}
-</div></article></p></article></section><section class="subsection" id="subsection-70"><h3 class="heading hide-type">
+</div></div></article></div></article></section><section class="subsection" id="subsection-70"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">3.3.5</span> <span class="title">Vocabulary</span>
 </h3>
-<ul id="p-3965" class="disc cols2">
-<li id="li-1816"><p id="p-3966">conversion factor</p></li>
-<li id="li-1817"><p id="p-3967">unit fraction</p></li>
-<li id="li-1818"><p id="p-3968">capacity</p></li>
-</ul></section><section class="exercises" id="prac-3-3"><h3 class="heading hide-type">
+<div class="para logical" id="p-3965"><ul class="disc cols2">
+<li id="li-1816"><div class="para" id="p-3966">conversion factor</div></li>
+<li id="li-1817"><div class="para" id="p-3967">unit fraction</div></li>
+<li id="li-1818"><div class="para" id="p-3968">capacity</div></li>
+</ul></div></section><section class="exercises" id="prac-3-3"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber">3.3.6</span> <span class="title">Practice 3.3</span>
 </h3>
 <div class="exercisegroup" id="exercisegroup-104">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-109"><p id="p-3969">Answer the questions in Problems 1-10 with complete sentences.</p></div>
+<div class="introduction" id="introduction-109"><div class="para" id="p-3969">Answer the questions in Problems 1-10 with complete sentences.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-798"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
-<p id="p-3970">What is a conversion factor, and what is it used for?</p></article><article class="exercise exercise-like" id="exercise-799"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
-<p id="p-3972">What is a unit fraction, and why is it called that?</p></article><article class="exercise exercise-like" id="exercise-800"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
-<p id="p-3973">A meter is about the same length as which unit in the English system?</p></article><article class="exercise exercise-like" id="exercise-801"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
-<ol id="p-3975" class="lower-alpha">
-<li id="li-1819"><p id="p-3976">How many centimeters are there in a meter?</p></li>
-<li id="li-1820"><p id="p-3977">How many millimeters are there in a meter?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-803"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
-<p id="p-3980">Which metric unit is about 0.6 mile in length?</p></article><article class="exercise exercise-like" id="exercise-804"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
-<p id="p-3981">Draw a sketch showing why there are 9 square feet in 1 square yard.</p></article><article class="exercise exercise-like" id="exercise-805"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
-<p id="p-3982">Explain why there are 27 cubic feet in 1 cubic yard.</p></article><article class="exercise exercise-like" id="exercise-806"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
-<p id="p-3983">One liter is almost the same as which English measure of capacity?</p></article><article class="exercise exercise-like" id="exercise-807"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
-<p id="p-3985">Why is a milliliter sometimes called a cc?</p></article>
+<div class="para" id="p-3970">What is a conversion factor, and what is it used for?</div></article><article class="exercise exercise-like" id="exercise-799"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="p-3972">What is a unit fraction, and why is it called that?</div></article><article class="exercise exercise-like" id="exercise-800"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="p-3973">A meter is about the same length as which unit in the English system?</div></article><article class="exercise exercise-like" id="exercise-801"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para logical" id="p-3975"><ol class="lower-alpha">
+<li id="li-1819"><div class="para" id="p-3976">How many centimeters are there in a meter?</div></li>
+<li id="li-1820"><div class="para" id="p-3977">How many millimeters are there in a meter?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-803"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
+<div class="para" id="p-3980">Which metric unit is about 0.6 mile in length?</div></article><article class="exercise exercise-like" id="exercise-804"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
+<div class="para" id="p-3981">Draw a sketch showing why there are 9 square feet in 1 square yard.</div></article><article class="exercise exercise-like" id="exercise-805"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<div class="para" id="p-3982">Explain why there are 27 cubic feet in 1 cubic yard.</div></article><article class="exercise exercise-like" id="exercise-806"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
+<div class="para" id="p-3983">One liter is almost the same as which English measure of capacity?</div></article><article class="exercise exercise-like" id="exercise-807"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
+<div class="para" id="p-3985">Why is a milliliter sometimes called a cc?</div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-105">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-110"><p id="p-3986">For Problems 11-14, convert units to fill in the blanks.</p></div>
+<div class="introduction" id="introduction-110"><div class="para" id="p-3986">For Problems 11-14, convert units to fill in the blanks.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-808"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
-<ol id="p-3987" class="lower-alpha cols2">
-<li id="li-1821"><p id="p-3988">24 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft</p></li>
-<li id="li-1822"><p id="p-3989">24 ft = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> yd</p></li>
-<li id="li-1823"><p id="p-3990">66 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft</p></li>
-<li id="li-1824"><p id="p-3991">16 ft = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> yd</p></li>
-<li id="li-1825"><p id="p-3992">18 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> yd</p></li>
-<li id="li-1826"><p id="p-3993">8 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-809"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
-<ol id="p-4001" class="lower-alpha cols2">
-<li id="li-1833"><p id="p-4002">360 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft</p></li>
-<li id="li-1834"><p id="p-4003">72 ft = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> yd</p></li>
-<li id="li-1835"><p id="p-4004">30 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft</p></li>
-<li id="li-1836"><p id="p-4005">38 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> yd</p></li>
-<li id="li-1837"><p id="p-4006">108 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft</p></li>
-<li id="li-1838"><p id="p-4007">108 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> yd</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-810"><h5 class="heading"><span class="codenumber">13<span class="period">.</span></span></h5>
-<ol id="p-4008" class="lower-alpha cols2">
-<li id="li-1839"><p id="p-4009">16 qt = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> gal</p></li>
-<li id="li-1840"><p id="p-4010">16 pt = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> qt</p></li>
-<li id="li-1841"><p id="p-4011">5 c = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> pt</p></li>
-<li id="li-1842"><p id="p-4012">5 pt = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> qt</p></li>
-<li id="li-1843"><p id="p-4013">20 pt = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> gal</p></li>
-<li id="li-1844"><p id="p-4014">20 c = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> qt</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-811"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
-<ol id="p-4022" class="lower-alpha cols2">
-<li id="li-1851"><p id="p-4023">3 c = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> qt</p></li>
-<li id="li-1852"><p id="p-4024">9 c = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> qt</p></li>
-<li id="li-1853"><p id="p-4025">18 c = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> gal</p></li>
-<li id="li-1854"><p id="p-4026">40 pt = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> gal</p></li>
-<li id="li-1855"><p id="p-4027">50 qt = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> gal</p></li>
-<li id="li-1856"><p id="p-4028">100 c = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> qt</p></li>
-</ol></article>
+<div class="para logical" id="p-3987"><ol class="lower-alpha cols2">
+<li id="li-1821"><div class="para" id="p-3988">24 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft</div></li>
+<li id="li-1822"><div class="para" id="p-3989">24 ft = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> yd</div></li>
+<li id="li-1823"><div class="para" id="p-3990">66 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft</div></li>
+<li id="li-1824"><div class="para" id="p-3991">16 ft = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> yd</div></li>
+<li id="li-1825"><div class="para" id="p-3992">18 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> yd</div></li>
+<li id="li-1826"><div class="para" id="p-3993">8 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-809"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4001"><ol class="lower-alpha cols2">
+<li id="li-1833"><div class="para" id="p-4002">360 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft</div></li>
+<li id="li-1834"><div class="para" id="p-4003">72 ft = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> yd</div></li>
+<li id="li-1835"><div class="para" id="p-4004">30 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft</div></li>
+<li id="li-1836"><div class="para" id="p-4005">38 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> yd</div></li>
+<li id="li-1837"><div class="para" id="p-4006">108 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft</div></li>
+<li id="li-1838"><div class="para" id="p-4007">108 in = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> yd</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-810"><h5 class="heading"><span class="codenumber">13<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4008"><ol class="lower-alpha cols2">
+<li id="li-1839"><div class="para" id="p-4009">16 qt = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> gal</div></li>
+<li id="li-1840"><div class="para" id="p-4010">16 pt = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> qt</div></li>
+<li id="li-1841"><div class="para" id="p-4011">5 c = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> pt</div></li>
+<li id="li-1842"><div class="para" id="p-4012">5 pt = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> qt</div></li>
+<li id="li-1843"><div class="para" id="p-4013">20 pt = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> gal</div></li>
+<li id="li-1844"><div class="para" id="p-4014">20 c = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> qt</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-811"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4022"><ol class="lower-alpha cols2">
+<li id="li-1851"><div class="para" id="p-4023">3 c = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> qt</div></li>
+<li id="li-1852"><div class="para" id="p-4024">9 c = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> qt</div></li>
+<li id="li-1853"><div class="para" id="p-4025">18 c = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> gal</div></li>
+<li id="li-1854"><div class="para" id="p-4026">40 pt = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> gal</div></li>
+<li id="li-1855"><div class="para" id="p-4027">50 qt = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> gal</div></li>
+<li id="li-1856"><div class="para" id="p-4028">100 c = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> qt</div></li>
+</ol></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-106">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-111"><p id="p-4029">For Problems 15-24, show your work.</p></div>
+<div class="introduction" id="introduction-111"><div class="para" id="p-4029">For Problems 15-24, show your work.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-812"><h5 class="heading"><span class="codenumber">15<span class="period">.</span></span></h5>
-<p id="p-4030">The basketball player Lebron James is 6 feet 8 inches tall.</p>
-<ol id="p-4031" class="lower-alpha">
-<li id="li-1857"><p id="p-4032">Express his height in inches.</p></li>
-<li id="li-1858"><p id="p-4033">Express his height in feet.</p></li>
-<li id="li-1859"><p id="p-4034">Express his height in yards.</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-813"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
-<p id="p-4039">The California condor has a wingspan up to 9 feet 9 inches.</p>
-<ol id="p-4040" class="lower-alpha">
-<li id="li-1863"><p id="p-4041">Express the wingspan in inches.</p></li>
-<li id="li-1864"><p id="p-4042">Express the wingspan in feet.</p></li>
-<li id="li-1865"><p id="p-4043">Express the wingspan in yards.</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-814"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
-<p id="p-4044">On U.S. airlines, carry-on baggage may not exceed 45 inches in combined length, width and height. What is that number in centimeters?</p></article><article class="exercise exercise-like" id="exercise-815"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
-<p id="p-4046">The official length of a C-Class racing catamaran is 25 feet. What is that length in meters?</p></article><article class="exercise exercise-like" id="exercise-816"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
-<p id="p-4047">An Olympic swimming pool is 50 meters long. How long is that in feet?</p></article><article class="exercise exercise-like" id="exercise-817"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
-<p id="p-4049">The distance from Paris to Versailles on the A86 road is 28 kilometers. How far is that in miles?</p></article><article class="exercise exercise-like" id="exercise-818"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
-<ol id="p-4050" class="lower-alpha">
-<li id="li-1866"><p id="p-4051">How many centimeters are there in one foot?</p></li>
-<li id="li-1867"><p id="p-4052">Frank Zappa is 6 feet tall. Convert his height to centimeters.</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-819"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
-<ol id="p-4056" class="lower-alpha">
-<li id="li-1870"><p id="p-4057">How many millimeters are there in one inch?</p></li>
-<li id="li-1871"><p id="p-4058">The average length of a ladybug is 8 millimeters. What is that length in inches?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-820"><h5 class="heading"><span class="codenumber">23<span class="period">.</span></span></h5>
-<p id="p-4059">Necklaces come in standard lengths as shown in the figure below. Complete the table by converting each length, given in centimeters, to inches. Round your answers to the nearest quarter inch.</p>
-<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/necklaces.png" class="contained"></div>
-<p id="p-4060"><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="p-4030">The basketball player Lebron James is 6 feet 8 inches tall.</div> <div class="para logical" id="p-4031"><ol class="lower-alpha">
+<li id="li-1857"><div class="para" id="p-4032">Express his height in inches.</div></li>
+<li id="li-1858"><div class="para" id="p-4033">Express his height in feet.</div></li>
+<li id="li-1859"><div class="para" id="p-4034">Express his height in yards.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-813"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
+<div class="para" id="p-4039">The California condor has a wingspan up to 9 feet 9 inches.</div> <div class="para logical" id="p-4040"><ol class="lower-alpha">
+<li id="li-1863"><div class="para" id="p-4041">Express the wingspan in inches.</div></li>
+<li id="li-1864"><div class="para" id="p-4042">Express the wingspan in feet.</div></li>
+<li id="li-1865"><div class="para" id="p-4043">Express the wingspan in yards.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-814"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
+<div class="para" id="p-4044">On U.S. airlines, carry-on baggage may not exceed 45 inches in combined length, width and height. What is that number in centimeters?</div></article><article class="exercise exercise-like" id="exercise-815"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
+<div class="para" id="p-4046">The official length of a C-Class racing catamaran is 25 feet. What is that length in meters?</div></article><article class="exercise exercise-like" id="exercise-816"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
+<div class="para" id="p-4047">An Olympic swimming pool is 50 meters long. How long is that in feet?</div></article><article class="exercise exercise-like" id="exercise-817"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
+<div class="para" id="p-4049">The distance from Paris to Versailles on the A86 road is 28 kilometers. How far is that in miles?</div></article><article class="exercise exercise-like" id="exercise-818"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4050"><ol class="lower-alpha">
+<li id="li-1866"><div class="para" id="p-4051">How many centimeters are there in one foot?</div></li>
+<li id="li-1867"><div class="para" id="p-4052">Frank Zappa is 6 feet tall. Convert his height to centimeters.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-819"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4056"><ol class="lower-alpha">
+<li id="li-1870"><div class="para" id="p-4057">How many millimeters are there in one inch?</div></li>
+<li id="li-1871"><div class="para" id="p-4058">The average length of a ladybug is 8 millimeters. What is that length in inches?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-820"><h5 class="heading"><span class="codenumber">23<span class="period">.</span></span></h5>
+<div class="para" id="p-4059">Necklaces come in standard lengths as shown in the figure below. Complete the table by converting each length, given in centimeters, to inches. Round your answers to the nearest quarter inch.</div> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/necklaces.png" class="contained"></div> <div class="para" id="p-4060"><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">Necklace</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Length (cm)</th>
@@ -724,10 +1161,9 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">120</td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
 </tr>
-</table></div></p></article><article class="exercise exercise-like" id="exercise-821"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
-<p id="p-4062">Complete the table by converting the wrench sizes to metric. Round your answers to the nearest millimeter.</p>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
-<div class="sbspanel top" style="width:66.6666666666667%;"><p id="p-4063"><table class="tabular">
+</table></div></div></article><article class="exercise exercise-like" id="exercise-821"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
+<div class="para" id="p-4062">Complete the table by converting the wrench sizes to metric. Round your answers to the nearest millimeter.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel top" style="width:66.6666666666667%;"><div class="para" id="p-4063"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">Wrench size (in)</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Wrench size (mm)</th>
@@ -756,67 +1192,64 @@ window.MathJax = {
 <td class="c m b1 r1 l1 t0 lines">3/4</td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
 </tr>
-</table></p></div>
+</table></div></div>
 <div class="sbspanel top" style="width:30.7692307692308%;"><img src="external/wrenches.png" class="contained"></div>
 </div></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-107">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-112"><p id="p-4064">For Problems 25-28, complete the table.</p></div>
+<div class="introduction" id="introduction-112"><div class="para" id="p-4064">For Problems 25-28, complete the table.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-822"><h5 class="heading"><span class="codenumber">25<span class="period">.</span></span></h5>
-<p id="p-4066">The blackboard is 9 feet wide and 6 feet tall.</p></article><article class="exercise exercise-like" id="exercise-823"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
-<p id="p-4068">A table top is 18 inches wide and 3 feet long.</p></article><article class="exercise exercise-like" id="exercise-824"><h5 class="heading"><span class="codenumber">27<span class="period">.</span></span></h5>
-<p id="p-4069">The side wall is 12 feet tall and 6 yards wide.</p></article><article class="exercise exercise-like" id="exercise-825"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
-<p id="p-4071">The dishwasher is 24 inches wide and 30 inches tall.</p></article>
+<div class="para" id="p-4066">The blackboard is 9 feet wide and 6 feet tall.</div></article><article class="exercise exercise-like" id="exercise-823"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
+<div class="para" id="p-4068">A table top is 18 inches wide and 3 feet long.</div></article><article class="exercise exercise-like" id="exercise-824"><h5 class="heading"><span class="codenumber">27<span class="period">.</span></span></h5>
+<div class="para" id="p-4069">The side wall is 12 feet tall and 6 yards wide.</div></article><article class="exercise exercise-like" id="exercise-825"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
+<div class="para" id="p-4071">The dishwasher is 24 inches wide and 30 inches tall.</div></article>
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-826"><h4 class="heading"><span class="codenumber">29<span class="period">.</span></span></h4>
-<p id="p-4072">The area of the new exercise room at the gym is 800 square feet. You are in charge of buying carpet for the room. How can you convert this area to square yards?</p></article><article class="exercise exercise-like" id="exercise-827"><h4 class="heading"><span class="codenumber">30<span class="period">.</span></span></h4>
-<p id="p-4074">The area of a sofa cushion is <span class="process-math">\(2\dfrac{1}{4}\)</span> square feet. How can you convert this area to square inches?</p></article><div class="exercisegroup" id="exercisegroup-108">
+<div class="para" id="p-4072">The area of the new exercise room at the gym is 800 square feet. You are in charge of buying carpet for the room. How can you convert this area to square yards?</div></article><article class="exercise exercise-like" id="exercise-827"><h4 class="heading"><span class="codenumber">30<span class="period">.</span></span></h4>
+<div class="para" id="p-4074">The area of a sofa cushion is <span class="process-math">\(2\dfrac{1}{4}\)</span> square feet. How can you convert this area to square inches?</div></article><div class="exercisegroup" id="exercisegroup-108">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-113"><p id="p-4075">For Problems 31-40 about area, show your work.</p></div>
+<div class="introduction" id="introduction-113"><div class="para" id="p-4075">For Problems 31-40 about area, show your work.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-828"><h5 class="heading"><span class="codenumber">31<span class="period">.</span></span></h5>
-<p id="p-4076">A 1200-square-foot apartment at Tivoli Square costs $850 per month. For the same price you can get an apartment at Lakeview Centre that has 135 square yards of floor space. Which apartment gives you more room for your money?</p></article><article class="exercise exercise-like" id="exercise-829"><h5 class="heading"><span class="codenumber">32<span class="period">.</span></span></h5>
-<p id="p-4078">At Carpet World, Softwist carpet costs $3.42 per square foot. At Home Flooring the same carpet costs $31.28 per square yard. Which store offers the better deal?</p></article><article class="exercise exercise-like" id="exercise-830"><h5 class="heading"><span class="codenumber">33<span class="period">.</span></span></h5>
-<ol id="p-4079" class="lower-alpha">
-<li id="li-1872"><p id="p-4080">How many square inches are in a square yard?</p></li>
-<li id="li-1873"><p id="p-4081">You have a square piece of felt that measures 9 inches on a side. What fraction of a square yard is that?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-831"><h5 class="heading"><span class="codenumber">34<span class="period">.</span></span></h5>
-<ol id="p-4085" class="lower-alpha">
-<li id="li-1876"><p id="p-4086">How many square yards are in a square mile?</p></li>
-<li id="li-1877"><p id="p-4087">A square corn field measures 669 yards on a side. What fraction of a square mile is that?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-832"><h5 class="heading"><span class="codenumber">35<span class="period">.</span></span></h5>
-<ol id="p-4088" class="lower-alpha">
-<li id="li-1878"><p id="p-4089">How many square yards are there in one square meter? How many square feet are in one square meter?</p></li>
-<li id="li-1879"><p id="p-4090">You see a floor plan you like for a house of area 220 square meters. How large is that in square feet?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-833"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
-<ol id="p-4094" class="lower-alpha">
-<li id="li-1882"><p id="p-4095">How many square centimeters are in one square inch?</p></li>
-<li id="li-1883"><p id="p-4096">The international standard size for typing paper is called A4. A sheet of A4 paper measures 210 millimeters by 297 millimeters. What is its area in square centimeters?</p></li>
-<li id="li-1884"><p id="p-4097">What is the area of a sheet of A4 paper in square inches?</p></li>
-<li id="li-1885"><p id="p-4098">In the U.S., typing paper measures <span class="process-math">\(8\dfrac{1}{2}\)</span> by 11 inches. What is the area of a sheet of U.S. typing paper?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-834"><h5 class="heading"><span class="codenumber">37<span class="period">.</span></span></h5>
-<p id="p-4099">How many 16-inch square tiles will it take to tile a kitchen floor that is 12 feet wide and 18 feet long?</p></article><article class="exercise exercise-like" id="exercise-835"><h5 class="heading"><span class="codenumber">38<span class="period">.</span></span></h5>
-<p id="p-4101"><div class="sidebyside"><div class="sbsrow" style="margin-left:3.75%;margin-right:3.75%;">
-<div class="sbspanel top" style="width:64.8648648648649%;"><p id="p-4102">The figure at right is made of tangrams, a game that uses geometrical shapes. The piece labeled A is 1 square centimeter.</p></div>
+<div class="para" id="p-4076">A 1200-square-foot apartment at Tivoli Square costs $850 per month. For the same price you can get an apartment at Lakeview Centre that has 135 square yards of floor space. Which apartment gives you more room for your money?</div></article><article class="exercise exercise-like" id="exercise-829"><h5 class="heading"><span class="codenumber">32<span class="period">.</span></span></h5>
+<div class="para" id="p-4078">At Carpet World, Softwist carpet costs $3.42 per square foot. At Home Flooring the same carpet costs $31.28 per square yard. Which store offers the better deal?</div></article><article class="exercise exercise-like" id="exercise-830"><h5 class="heading"><span class="codenumber">33<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4079"><ol class="lower-alpha">
+<li id="li-1872"><div class="para" id="p-4080">How many square inches are in a square yard?</div></li>
+<li id="li-1873"><div class="para" id="p-4081">You have a square piece of felt that measures 9 inches on a side. What fraction of a square yard is that?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-831"><h5 class="heading"><span class="codenumber">34<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4085"><ol class="lower-alpha">
+<li id="li-1876"><div class="para" id="p-4086">How many square yards are in a square mile?</div></li>
+<li id="li-1877"><div class="para" id="p-4087">A square corn field measures 669 yards on a side. What fraction of a square mile is that?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-832"><h5 class="heading"><span class="codenumber">35<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4088"><ol class="lower-alpha">
+<li id="li-1878"><div class="para" id="p-4089">How many square yards are there in one square meter? How many square feet are in one square meter?</div></li>
+<li id="li-1879"><div class="para" id="p-4090">You see a floor plan you like for a house of area 220 square meters. How large is that in square feet?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-833"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4094"><ol class="lower-alpha">
+<li id="li-1882"><div class="para" id="p-4095">How many square centimeters are in one square inch?</div></li>
+<li id="li-1883"><div class="para" id="p-4096">The international standard size for typing paper is called A4. A sheet of A4 paper measures 210 millimeters by 297 millimeters. What is its area in square centimeters?</div></li>
+<li id="li-1884"><div class="para" id="p-4097">What is the area of a sheet of A4 paper in square inches?</div></li>
+<li id="li-1885"><div class="para" id="p-4098">In the U.S., typing paper measures <span class="process-math">\(8\dfrac{1}{2}\)</span> by 11 inches. What is the area of a sheet of U.S. typing paper?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-834"><h5 class="heading"><span class="codenumber">37<span class="period">.</span></span></h5>
+<div class="para" id="p-4099">How many 16-inch square tiles will it take to tile a kitchen floor that is 12 feet wide and 18 feet long?</div></article><article class="exercise exercise-like" id="exercise-835"><h5 class="heading"><span class="codenumber">38<span class="period">.</span></span></h5>
+<div class="para" id="p-4101"><div class="sidebyside"><div class="sbsrow" style="margin-left:3.75%;margin-right:3.75%;">
+<div class="sbspanel top" style="width:64.8648648648649%;"><div class="para" id="p-4102">The figure at right is made of tangrams, a game that uses geometrical shapes. The piece labeled A is 1 square centimeter.</div></div>
 <div class="sbspanel top" style="width:27.027027027027%;"><img src="external/tangram.png" class="contained"></div>
-</div></div></p>
-<ol id="p-4103" class="lower-alpha">
-<li id="li-1886"><p id="p-4104">Find the areas of the 6 other pieces in the figure.</p></li>
-<li id="li-1887"><p id="p-4105">What is the area of the whole figure?</p></li>
-<li id="li-1888"><p id="p-4106">Will the figure fit into a square of area 2.25 inches?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-836"><h5 class="heading"><span class="codenumber">39<span class="period">.</span></span></h5>
-<p id="p-4107">What is the difference between "6 square centimeters" and "a 6-centimeter square"?  Illustrate your answer with a sketch.</p></article><article class="exercise exercise-like" id="exercise-837"><h5 class="heading"><span class="codenumber">40<span class="period">.</span></span></h5>
-<p id="p-4108">Which is larger: a square yard, or a 100-centimeter square? By how much?</p></article>
+</div></div></div> <div class="para logical" id="p-4103"><ol class="lower-alpha">
+<li id="li-1886"><div class="para" id="p-4104">Find the areas of the 6 other pieces in the figure.</div></li>
+<li id="li-1887"><div class="para" id="p-4105">What is the area of the whole figure?</div></li>
+<li id="li-1888"><div class="para" id="p-4106">Will the figure fit into a square of area 2.25 inches?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-836"><h5 class="heading"><span class="codenumber">39<span class="period">.</span></span></h5>
+<div class="para" id="p-4107">What is the difference between "6 square centimeters" and "a 6-centimeter square"?  Illustrate your answer with a sketch.</div></article><article class="exercise exercise-like" id="exercise-837"><h5 class="heading"><span class="codenumber">40<span class="period">.</span></span></h5>
+<div class="para" id="p-4108">Which is larger: a square yard, or a 100-centimeter square? By how much?</div></article>
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-838"><h4 class="heading"><span class="codenumber">41<span class="period">.</span></span></h4>
-<p id="p-4109">The figure below compares the average home size in various countries. The amount of floor space is given in square meters. Complete the table by converting the figures to square feet. For the last column, round your answers to hundredths.</p>
-<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/floorspace.png" class="contained"></div>
-<p id="p-4110"><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="p-4109">The figure below compares the average home size in various countries. The amount of floor space is given in square meters. Complete the table by converting the figures to square feet. For the last column, round your answers to hundredths.</div> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/floorspace.png" class="contained"></div> <div class="para" id="p-4110"><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">Country</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Home size (sq m)</th>
@@ -865,9 +1298,8 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
 </tr>
-</table></div></p></article><article class="exercise exercise-like" id="exercise-839"><h4 class="heading"><span class="codenumber">42<span class="period">.</span></span></h4>
-<p id="p-4112">Building tiles come in various sizes, depending on their use and composition. Complete the table showing some common tile sizes.</p>
-<p id="p-4113"><div class="tabular-box natural-width"><table class="tabular">
+</table></div></div></article><article class="exercise exercise-like" id="exercise-839"><h4 class="heading"><span class="codenumber">42<span class="period">.</span></span></h4>
+<div class="para" id="p-4112">Building tiles come in various sizes, depending on their use and composition. Complete the table showing some common tile sizes.</div> <div class="para" id="p-4113"><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t1 lines">Use</th>
 <th scope="col" class="c m b1 r1 l0 t1 lines">Size (in)</th>
@@ -910,71 +1342,65 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000000}\)</span></td>
 </tr>
-</table></div></p></article><div class="exercisegroup" id="exercisegroup-109">
+</table></div></div></article><div class="exercisegroup" id="exercisegroup-109">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-114"><p id="p-4114">For Problems 43-52 about volume, show your work.</p></div>
+<div class="introduction" id="introduction-114"><div class="para" id="p-4114">For Problems 43-52 about volume, show your work.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-840"><h5 class="heading"><span class="codenumber">43<span class="period">.</span></span></h5>
-<ol id="p-4115" class="lower-alpha">
-<li id="li-1889"><p id="p-4116">How any cubic feet are in 4 cubic yards?</p></li>
-<li id="li-1890"><p id="p-4117">How many cubic yards are in 81 cubic feet?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-841"><h5 class="heading"><span class="codenumber">44<span class="period">.</span></span></h5>
-<ol id="p-4121" class="lower-alpha">
-<li id="li-1893"><p id="p-4122">Is a cubic meter bigger or smaller than a cubic yard?</p></li>
-<li id="li-1894"><p id="p-4123">Is a cubic centimeter bigger or smaller than a cubic inch?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-842"><h5 class="heading"><span class="codenumber">45<span class="period">.</span></span></h5>
-<ol id="p-4124" class="lower-alpha">
-<li id="li-1895"><p id="p-4125">How many square centimeters are in a square meter?</p></li>
-<li id="li-1896"><p id="p-4126">How many cubic centimeters are in a cubic meter?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-843"><h5 class="heading"><span class="codenumber">46<span class="period">.</span></span></h5>
-<ol id="p-4130" class="lower-alpha">
-<li id="li-1899"><p id="p-4131">How many square meters are in a square kilometer?</p></li>
-<li id="li-1900"><p id="p-4132">How many cubic meters are in a cubic kilometer?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-844"><h5 class="heading"><span class="codenumber">47<span class="period">.</span></span></h5>
-<p id="p-4133">Jazmin's garden is 36 feet long by 24 feet wide. How many (cubic) yards of wood chips should she order to cover the garden 3 inches deep?</p></article><article class="exercise exercise-like" id="exercise-845"><h5 class="heading"><span class="codenumber">48<span class="period">.</span></span></h5>
-<p id="p-4135">A rental dumpster holds 2 cubic yards of trash. It is 74 inches long and 40 inches wide.  How tall must it be?</p></article><article class="exercise exercise-like" id="exercise-846"><h5 class="heading"><span class="codenumber">49<span class="period">.</span></span></h5>
-<p id="p-4136">How many liters of water does it take to fill a cubic meter? (Hint: How many cubic centimeters are there in a cubic meter?)</p></article><article class="exercise exercise-like" id="exercise-847"><h5 class="heading"><span class="codenumber">50<span class="period">.</span></span></h5>
-<ol id="p-4138" class="lower-alpha">
-<li id="li-1901"><p id="p-4139">The reflecting pool at the Lincoln Memorial in Washington, D.C. is 2029 feet long, 167 feet wide, and 30 inches deep.  How many cubic feet of water does it hold?</p></li>
-<li id="li-1902"><p id="p-4140">One cubic foot of water is about 7.48 gallons.  How many gallons of water does the reflecting pool hold?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-848"><h5 class="heading"><span class="codenumber">51<span class="period">.</span></span></h5>
-<p id="p-4141">Here is the footprint for a new house.</p>
-<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/newhouse1.png" class="contained"></div>
-<ol id="p-4142" class="lower-alpha">
-<li id="li-1903"><p id="p-4143">Fill in the missing dimensions and find the area of the floor.</p></li>
-<li id="li-1904"><p id="p-4144">The concrete foundation will be 2 feet deep. How many cubic yards of concrete will be used?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-849"><h5 class="heading"><span class="codenumber">52<span class="period">.</span></span></h5>
-<p id="p-4148">The Wongs plan to have insulation blown into the attic of their house, shown below.</p>
-<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/newhouse2.png" class="contained"></div>
-<ol id="p-4149" class="lower-alpha">
-<li id="li-1907"><p id="p-4150">Fill in the missing dimensions and find the area of the ceiling.</p></li>
-<li id="li-1908"><p id="p-4151">The insulation will be 9 inches deep. How many cubic yards of insulation will they need?</p></li>
-</ol></article>
+<div class="para logical" id="p-4115"><ol class="lower-alpha">
+<li id="li-1889"><div class="para" id="p-4116">How any cubic feet are in 4 cubic yards?</div></li>
+<li id="li-1890"><div class="para" id="p-4117">How many cubic yards are in 81 cubic feet?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-841"><h5 class="heading"><span class="codenumber">44<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4121"><ol class="lower-alpha">
+<li id="li-1893"><div class="para" id="p-4122">Is a cubic meter bigger or smaller than a cubic yard?</div></li>
+<li id="li-1894"><div class="para" id="p-4123">Is a cubic centimeter bigger or smaller than a cubic inch?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-842"><h5 class="heading"><span class="codenumber">45<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4124"><ol class="lower-alpha">
+<li id="li-1895"><div class="para" id="p-4125">How many square centimeters are in a square meter?</div></li>
+<li id="li-1896"><div class="para" id="p-4126">How many cubic centimeters are in a cubic meter?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-843"><h5 class="heading"><span class="codenumber">46<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4130"><ol class="lower-alpha">
+<li id="li-1899"><div class="para" id="p-4131">How many square meters are in a square kilometer?</div></li>
+<li id="li-1900"><div class="para" id="p-4132">How many cubic meters are in a cubic kilometer?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-844"><h5 class="heading"><span class="codenumber">47<span class="period">.</span></span></h5>
+<div class="para" id="p-4133">Jazmin's garden is 36 feet long by 24 feet wide. How many (cubic) yards of wood chips should she order to cover the garden 3 inches deep?</div></article><article class="exercise exercise-like" id="exercise-845"><h5 class="heading"><span class="codenumber">48<span class="period">.</span></span></h5>
+<div class="para" id="p-4135">A rental dumpster holds 2 cubic yards of trash. It is 74 inches long and 40 inches wide.  How tall must it be?</div></article><article class="exercise exercise-like" id="exercise-846"><h5 class="heading"><span class="codenumber">49<span class="period">.</span></span></h5>
+<div class="para" id="p-4136">How many liters of water does it take to fill a cubic meter? (Hint: How many cubic centimeters are there in a cubic meter?)</div></article><article class="exercise exercise-like" id="exercise-847"><h5 class="heading"><span class="codenumber">50<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4138"><ol class="lower-alpha">
+<li id="li-1901"><div class="para" id="p-4139">The reflecting pool at the Lincoln Memorial in Washington, D.C. is 2029 feet long, 167 feet wide, and 30 inches deep.  How many cubic feet of water does it hold?</div></li>
+<li id="li-1902"><div class="para" id="p-4140">One cubic foot of water is about 7.48 gallons.  How many gallons of water does the reflecting pool hold?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-848"><h5 class="heading"><span class="codenumber">51<span class="period">.</span></span></h5>
+<div class="para" id="p-4141">Here is the footprint for a new house.</div> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/newhouse1.png" class="contained"></div> <div class="para logical" id="p-4142"><ol class="lower-alpha">
+<li id="li-1903"><div class="para" id="p-4143">Fill in the missing dimensions and find the area of the floor.</div></li>
+<li id="li-1904"><div class="para" id="p-4144">The concrete foundation will be 2 feet deep. How many cubic yards of concrete will be used?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-849"><h5 class="heading"><span class="codenumber">52<span class="period">.</span></span></h5>
+<div class="para" id="p-4148">The Wongs plan to have insulation blown into the attic of their house, shown below.</div> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/newhouse2.png" class="contained"></div> <div class="para logical" id="p-4149"><ol class="lower-alpha">
+<li id="li-1907"><div class="para" id="p-4150">Fill in the missing dimensions and find the area of the ceiling.</div></li>
+<li id="li-1908"><div class="para" id="p-4151">The insulation will be 9 inches deep. How many cubic yards of insulation will they need?</div></li>
+</ol></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-110">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-115"><p id="p-4152">Problems 53-60 explore some other units of measurement.</p></div>
+<div class="introduction" id="introduction-115"><div class="para" id="p-4152">Problems 53-60 explore some other units of measurement.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-850"><h5 class="heading"><span class="codenumber">53<span class="period">.</span></span></h5>
-<ol id="p-4153" class="lower-alpha">
-<li id="li-1909"><p id="p-4154">One acre is 43,560 square feet. How many acres are there in one square mile?</p></li>
-<li id="li-1910"><p id="p-4155">How many acres are there in one square kilometer?</p></li>
-<li id="li-1911"><p id="p-4156">How many square yards are in one acre?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-851"><h5 class="heading"><span class="codenumber">54<span class="period">.</span></span></h5>
-<p id="p-4161">Scientists monitor the extent of arctic sea ice as a measure of climate change. In January, 2015, there were 13.14 million square kilometers of arctic sea ice. What is that area in square miles?</p></article><article class="exercise exercise-like" id="exercise-852"><h5 class="heading"><span class="codenumber">55<span class="period">.</span></span></h5>
-<ol id="p-4162" class="lower-alpha">
-<li id="li-1915"><p id="p-4163">One hectare is 10,000 square meters. How many hectares are there in one square kilometer?</p></li>
-<li id="li-1916"><p id="p-4164">How many hectares are there in one square mile?</p></li>
-<li id="li-1917"><p id="p-4165">How many acres are there in one hectare?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-853"><h5 class="heading"><span class="codenumber">56<span class="period">.</span></span></h5>
-<p id="p-4170">The total land area of planet Earth is just over 136 million square kilometers. There are 141 million hectares of arable land on Earth; that is, land used to grow crops.</p>
-<ol id="p-4171" class="lower-alpha">
-<li id="li-1921"><p id="p-4172">How many square kilometers of arable land are there on Earth?</p></li>
-<li id="li-1922"><p id="p-4173">What percent of the land mass of Earth is arable?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-854"><h5 class="heading"><span class="codenumber">57<span class="period">.</span></span></h5>
-<p id="p-4174">Here are some units of volume once used in England. How is this system of units similar to the metric system?</p>
-<p id="p-4175"><div class="tabular-box natural-width"><table class="tabular">
+<div class="para logical" id="p-4153"><ol class="lower-alpha">
+<li id="li-1909"><div class="para" id="p-4154">One acre is 43,560 square feet. How many acres are there in one square mile?</div></li>
+<li id="li-1910"><div class="para" id="p-4155">How many acres are there in one square kilometer?</div></li>
+<li id="li-1911"><div class="para" id="p-4156">How many square yards are in one acre?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-851"><h5 class="heading"><span class="codenumber">54<span class="period">.</span></span></h5>
+<div class="para" id="p-4161">Scientists monitor the extent of arctic sea ice as a measure of climate change. In January, 2015, there were 13.14 million square kilometers of arctic sea ice. What is that area in square miles?</div></article><article class="exercise exercise-like" id="exercise-852"><h5 class="heading"><span class="codenumber">55<span class="period">.</span></span></h5>
+<div class="para logical" id="p-4162"><ol class="lower-alpha">
+<li id="li-1915"><div class="para" id="p-4163">One hectare is 10,000 square meters. How many hectares are there in one square kilometer?</div></li>
+<li id="li-1916"><div class="para" id="p-4164">How many hectares are there in one square mile?</div></li>
+<li id="li-1917"><div class="para" id="p-4165">How many acres are there in one hectare?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-853"><h5 class="heading"><span class="codenumber">56<span class="period">.</span></span></h5>
+<div class="para" id="p-4170">The total land area of planet Earth is just over 136 million square kilometers. There are 141 million hectares of arable land on Earth; that is, land used to grow crops.</div> <div class="para logical" id="p-4171"><ol class="lower-alpha">
+<li id="li-1921"><div class="para" id="p-4172">How many square kilometers of arable land are there on Earth?</div></li>
+<li id="li-1922"><div class="para" id="p-4173">What percent of the land mass of Earth is arable?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-854"><h5 class="heading"><span class="codenumber">57<span class="period">.</span></span></h5>
+<div class="para" id="p-4174">Here are some units of volume once used in England. How is this system of units similar to the metric system?</div> <div class="para" id="p-4175"><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">2 gills = 1 cup</td>
 <td class="c m b1 r1 l0 t1 lines">2 cups = 1 pint</td>
@@ -987,20 +1413,24 @@ window.MathJax = {
 <td class="c m b1 r1 l1 t0 lines">2 pottles = 1 gallon</td>
 <td class="c m b1 r1 l0 t0 lines">2 gallons = 1 peck</td>
 </tr>
-</table></div></p></article><article class="exercise exercise-like" id="exercise-855"><h5 class="heading"><span class="codenumber">58<span class="period">.</span></span></h5>
-<p id="p-4177">One fathom is equal to 6 feet in length, and one furlong is equal to 220 yards. How many fathoms in a furlong? (Fathoms were used for measuring the depth of water, and a furlong was the length of one furrow for planting crops.)</p></article><article class="exercise exercise-like" id="exercise-856"><h5 class="heading"><span class="codenumber">59<span class="period">.</span></span></h5>
-<p id="p-4178">There are <span class="process-math">\(1\dfrac{1}{4}\)</span> yards in an ell.</p>
-<ol id="p-4179" class="lower-alpha">
-<li id="li-1923"><p id="p-4180">How many square yards are in a square ell?</p></li>
-<li id="li-1924"><p id="p-4181">How many cubic yards are in a cubic ell?</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-857"><h5 class="heading"><span class="codenumber">60<span class="period">.</span></span></h5>
-<p id="p-4185">There are <span class="process-math">\(5\dfrac{1}{2}\)</span> yards in a rod.</p>
-<ol id="p-4186" class="lower-alpha">
-<li id="li-1927"><p id="p-4187">How many square yards are in a square rod?</p></li>
-<li id="li-1928"><p id="p-4188">How many cubic yards are in a cubic rod?</p></li>
-</ol></article>
+</table></div></div></article><article class="exercise exercise-like" id="exercise-855"><h5 class="heading"><span class="codenumber">58<span class="period">.</span></span></h5>
+<div class="para" id="p-4177">One fathom is equal to 6 feet in length, and one furlong is equal to 220 yards. How many fathoms in a furlong? (Fathoms were used for measuring the depth of water, and a furlong was the length of one furrow for planting crops.)</div></article><article class="exercise exercise-like" id="exercise-856"><h5 class="heading"><span class="codenumber">59<span class="period">.</span></span></h5>
+<div class="para" id="p-4178">There are <span class="process-math">\(1\dfrac{1}{4}\)</span> yards in an ell.</div> <div class="para logical" id="p-4179"><ol class="lower-alpha">
+<li id="li-1923"><div class="para" id="p-4180">How many square yards are in a square ell?</div></li>
+<li id="li-1924"><div class="para" id="p-4181">How many cubic yards are in a cubic ell?</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-857"><h5 class="heading"><span class="codenumber">60<span class="period">.</span></span></h5>
+<div class="para" id="p-4185">There are <span class="process-math">\(5\dfrac{1}{2}\)</span> yards in a rod.</div> <div class="para logical" id="p-4186"><ol class="lower-alpha">
+<li id="li-1927"><div class="para" id="p-4187">How many square yards are in a square rod?</div></li>
+<li id="li-1928"><div class="para" id="p-4188">How many cubic yards are in a cubic rod?</div></li>
+</ol></div></article>
 </div>
-</div></section></section></div></main>
+</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-3-2.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec-3-4.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
 </div>
 </body>
 </html>

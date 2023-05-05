@@ -13,7 +13,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
 <meta property="book:title" content="Core Mathematics">
-<meta property="book:author" content="Me">
+<meta property="book:author" content="Katherine Yoshiwara">
 <script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
   tex: {
@@ -21,18 +21,18 @@ window.MathJax = {
     tags: "none",
     tagSide: "right",
     tagIndent: ".8em",
-    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
   },
   options: {
     ignoreHtmlClass: "tex2jax_ignore|ignore-math",
     processHtmlClass: "process-math",
   },
   chtml: {
-    scale: 0.88,
+    scale: 0.98,
     mtextInheritFont: true
   },
   loader: {
-    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
     paths: {pretext: "https://pretextbook.org/js/lib"},
   },
   startup: {
@@ -42,22 +42,144 @@ window.MathJax = {
       rsMathReady();
       }
     )}
-},
+  },
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/style_oscarlevin.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
 </head>
-<body class="pretext-book ignore-math has-toc has-sidebar-left">
-<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N}
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Core Mathematics</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+<div id="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+</h2>
+<div id="searchempty"><span>No results.</span></div>
+<ol id="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec-1-2.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch1.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec-1-4.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
 \newcommand{\R}{\mathbb R}
@@ -75,110 +197,426 @@ window.MathJax = {
 \definecolor{fillinmathshade}{gray}{0.9}
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
-<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
-<a id="logo-link" href=""></a><div class="title-container">
-<h1 class="heading"><a href="my-great-book.html"><span class="title">Core Mathematics</span></a></h1>
-<p class="byline">Me</p>
-</div>
-</div></div>
-<nav id="primary-navbar" class="navbar"><div class="container">
-<div class="navbar-top-buttons">
-<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
-<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec-1-2.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch1.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-1-4.html" title="Next">Next</a></span>
-</div>
-</div>
-<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
-<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec-1-2.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch1.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-1-4.html" title="Next">Next</a>
-</div>
-</div></nav></header><div class="page">
-<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
-<nav id="toc"><ul>
-<li class="link frontmatter">
-<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
-<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
-<li><a href="dedication-1.html" data-scroll="dedication-1" class="internal">Dedication</a></li>
-<li><a href="acknowledgement-1.html" data-scroll="acknowledgement-1" class="internal">Acknowledgements</a></li>
-<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+<div class="ptx-page">
+<div id="ptx-sidebar"><nav id="ptx-toc" class="depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="meta_frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li><div class="toc-item"><a href="dedication-1.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li><div class="toc-item"><a href="acknowledgement-1.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li><div class="toc-item"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Preliminary Ideas</span></a><ul>
-<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Halves and Quarters</a></li>
-<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Tenths and Hundredths</a></li>
-<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="active">Whole Numbers</a></li>
-<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Angles and Triangles</a></li>
-<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Perimeter and Area</a></li>
+<li>
+<div class="toc-item"><a href="ch1.html" class="internal"><span class="codenumber">1</span> <span class="title">Preliminary Ideas</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-1-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Halves and Quarters</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-1" class="internal"><span class="codenumber">1.1.1</span> <span class="title">One-Half</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-2" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Other Ways to Write One-Half</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-3" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Fourths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-4" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Other Ways to Write Fourths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-5" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Fractions on a Number Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-6" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Benchmark Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#subsection-7" class="internal"><span class="codenumber">1.1.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-1.html#prac-1-1" class="internal"><span class="codenumber">1.1.8</span> <span class="title">Practice 1.1</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Numbers and Variables</span></a><ul>
-<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Decimal Numbers</a></li>
-<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">More Fractions and Percents</a></li>
-<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Variables</a></li>
-<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Algebraic Expressions</a></li>
-<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Equations</a></li>
+<li>
+<div class="toc-item"><a href="sec-1-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Tenths and Hundredths</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-8" class="internal"><span class="codenumber">1.2.1</span> <span class="title">One-Tenth</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-9" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Fractions in Tenths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-10" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Tenths and Fifths, Reducing Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-11" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Hundredths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-12" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Decimal Form</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#subsection-13" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#prac-1-2" class="internal"><span class="codenumber">1.2.7</span> <span class="title">Practice 1.2</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Measurement</span></a><ul>
-<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Volume and Surface Area</a></li>
-<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Exponents</a></li>
-<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Units of Measure</a></li>
-<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Circles and Spheres</a></li>
-<li><a href="sec-3-5.html" data-scroll="sec-3-5" class="internal">Large Numbers</a></li>
+<li class="active">
+<div class="toc-item"><a href="sec-1-3.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Whole Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-14" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Factors</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-15" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Primes and Composites</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-16" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Greatest Common Factor</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-17" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Lowest Common Multiple</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#subsection-18" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#prac-1-3" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Practice 1.3</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Calculation</span></a><ul>
-<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Adding and Subtracting Fractions</a></li>
-<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">Multiplying and Dividing Fractions</a></li>
-<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Roots and Radicals</a></li>
-<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Negative Numbers</a></li>
-<li><a href="sec-4-5.html" data-scroll="sec-4-5" class="internal">Order of Operations</a></li>
+<li>
+<div class="toc-item"><a href="sec-1-4.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Angles and Triangles</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-19" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Angles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-20" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Measuring Angles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-21" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Using a Protractor</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-22" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-23" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Sides and Angles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#subsection-24" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#prac-1-4" class="internal"><span class="codenumber">1.4.7</span> <span class="title">Practice 1.4</span></a></div></li>
 </ul>
 </li>
-<li class="link backmatter"><a href="meta_backmatter.html" data-scroll="meta_backmatter" class="internal"><span class="title">Backmatter</span></a></li>
-<li class="link"><a href="solutions-1.html" data-scroll="solutions-1" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Selected Exercises and Homework Problems</span></a></li>
-<li class="link"><a href="appendix-1.html" data-scroll="appendix-1" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></li>
-<li class="link"><a href="index-1.html" data-scroll="index-1" class="internal"><span class="title">Index</span></a></li>
-<li class="link"><a href="colophon-2.html" data-scroll="colophon-2" class="internal"><span class="title">Colophon</span></a></li>
-</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
-</div></div>
-<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-1-3"><h2 class="heading hide-type">
+<li>
+<div class="toc-item"><a href="sec-1-5.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Perimeter and Area</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-1-5.html#subsection-25" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Perimeter</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-5.html#subsection-26" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Area</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-5.html#subsection-27" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Estimating Area</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-5.html#subsection-28" class="internal"><span class="codenumber">1.5.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-5.html#prac-1-5" class="internal"><span class="codenumber">1.5.5</span> <span class="title">Practice 1.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch2.html" class="internal"><span class="codenumber">2</span> <span class="title">Numbers and Variables</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-2-1.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Decimal Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-29" class="internal"><span class="codenumber">2.1.1</span> <span class="title">The Metric System</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-30" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Place Value</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-31" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Comparing Decimal Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-32" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Fractions to Decimals</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-33" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Rounding and Estimating</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#subsection-34" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#prac-2-1" class="internal"><span class="codenumber">2.1.7</span> <span class="title">Practice 2.1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-2-2.html" class="internal"><span class="codenumber">2.2</span> <span class="title">More Fractions and Percents</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-35" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Percents</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-36" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Calculating Percents</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-37" class="internal"><span class="codenumber">2.2.3</span> <span class="title">What Percent Is It?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-38" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Eighths</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-39" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Thirds</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-40" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Decimal Form of One-Third</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#prac-2-2" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Practice 2.2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-2-3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Variables</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-41" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What is a Variable?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-42" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Bar Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-43" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Using Letters for Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-44" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Vocabuary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#prac-2-3" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Practice 2.3</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-2-4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Algebraic Expressions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-45" class="internal"><span class="codenumber">2.4.1</span> <span class="title">What is an Algebraic Expression?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-46" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Sums and Products</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-47" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Differences and Quotients</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-48" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Using Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-49" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-50" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-51" class="internal"><span class="codenumber">2.4.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#prac-2-4" class="internal"><span class="codenumber">2.4.8</span> <span class="title">Practice 2.4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-2-5.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Equations</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-52" class="internal"><span class="codenumber">2.5.1</span> <span class="title">What Is an Equation?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-53" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Solution of an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-54" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Finding Solutions: Opposite Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-55" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Isolating the Variable</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-56" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#prac-2-5" class="internal"><span class="codenumber">2.5.6</span> <span class="title">Practice 2.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch3.html" class="internal"><span class="codenumber">3</span> <span class="title">Measurement</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-3-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Volume and Surface Area</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-57" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Surface Area</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-58" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Boxes and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-59" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-60" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#prac-3-1" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Practice 3.1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-3-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Exponents</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-61" class="internal"><span class="codenumber">3.2.1</span> <span class="title">A New Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-62" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Squares and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-63" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Products and Powers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-64" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-65" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#prac-3-2" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Practice 3.2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-3-3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Units of Measure</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-66" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Length</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-67" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Metric Units</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-68" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Area and Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-69" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Liquid Measure</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-70" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#prac-3-3" class="internal"><span class="codenumber">3.3.6</span> <span class="title">Practice 3.3</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-3-4.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Circles and Spheres</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-71" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Perimeter</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-72" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Circumference of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-73" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-74" class="internal"><span class="codenumber">3.4.4</span> <span class="title">A Formula for the Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-75" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Volume of a Sphere</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-76" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#prac-3-4" class="internal"><span class="codenumber">3.4.7</span> <span class="title">Practice 3.4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-3-5.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Large Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-77" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Millions and Billions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-78" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Multiplying by Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-79" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Using Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-80" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Scientific Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-81" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-82" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#prac-3-5" class="internal"><span class="codenumber">3.5.7</span> <span class="title">Practice 3.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch4.html" class="internal"><span class="codenumber">4</span> <span class="title">Calculation</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-4-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Adding and Subtracting Fractions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-83" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Like Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-84" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Smaller Pieces</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-85" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Adding Unlike Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-86" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Lowest Common Denominator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-87" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Three Steps for Adding Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-88" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#prac-4-1" class="internal"><span class="codenumber">4.1.7</span> <span class="title">Practice 4.1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-4-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Multiplying and Dividing Fractions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-89" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Take Part</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-90" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Multiplying by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-91" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Dividing by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-92" class="internal"><span class="codenumber">4.2.4</span> <span class="title">More Dividing by Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-93" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#prac-4-2" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Practice 4.2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-4-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Roots and Radicals</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-94" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What Is a Square Root?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-95" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Approximating Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-96" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Squares and Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-97" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-98" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#prac-4-3" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Practice 4.3</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Negative Numbers</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-99" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Opposites</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-100" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-101" class="internal"><span class="codenumber">4.4.3</span> <span class="title">The Integers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-102" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Graphing on a Number Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-103" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Indicating Change with Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-104" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#prac-4-4" class="internal"><span class="codenumber">4.4.7</span> <span class="title">Practice 4.4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Order of Operations</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-105" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Which Operations Come First</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-106" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Combined Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-107" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Parentheses</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-108" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Fraction Bars</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-109" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-110" class="internal"><span class="codenumber">4.5.6</span> <span class="title">Exponents and Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-111" class="internal"><span class="codenumber">4.5.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#prac-4-5" class="internal"><span class="codenumber">4.5.8</span> <span class="title">Practice 4.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch5.html" class="internal"><span class="codenumber">5</span> <span class="title">Using Variables</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-5-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Working with Variables</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-112" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Like Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-113" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Equivalent Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-114" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Constant Multiples of Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-115" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Terms with Exponents</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-116" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Multiplying Variable Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-117" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-118" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#prac-5-1" class="internal"><span class="codenumber">5.1.8</span> <span class="title">Practice 5.1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-5-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">More Algebraic Expressions</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-119" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-120" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-121" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#prac-5-2" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Practice 5.2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-5-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Problem Solving</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-122" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Using Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-123" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Writing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-124" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Modeling a Problem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#prac-5-3" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Practice 5.3</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-5-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">More Equations</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-125" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Equations with Two Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-126" class="internal"><span class="codenumber">5.4.2</span> <span class="title">A Strategy for Solving Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-127" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-128" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Problem Solving</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-129" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Using Algebra to Solve Problems</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#prac-5-4" class="internal"><span class="codenumber">5.4.6</span> <span class="title">Practice 5.4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-5-5.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Graphs</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-130" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Line Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-131" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Plotting Points</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-132" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Graphing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-133" class="internal"><span class="codenumber">5.5.4</span> <span class="title">Reading a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#prac-5-5" class="internal"><span class="codenumber">5.5.5</span> <span class="title">Practice 5.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="ch6.html" class="internal"><span class="codenumber">6</span> <span class="title">Core Concepts</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="sec-6-1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Ratios</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-134" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Quantities</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-135" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-136" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Decimal Form for Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-137" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Rates</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#prac-6-1" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Practice 6-1</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-6-2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Proportion</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-138" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-139" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Problem Solving</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-140" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Graphing Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#prac-6-2" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Practice 6-2</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-6-3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Slope</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-141" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Equations Relating Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-142" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Steepness of the Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-143" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Rate of Growth</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-144" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Visulaizing Growth Rate on a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-145" class="internal"><span class="codenumber">6.3.5</span> <span class="title">Slope of a Line</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-6-3.html#subsection-146" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Decreasing Graphs</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-6-3.html#prac-6-3" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Practice 6-3</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-6-4.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Similarity</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-147" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-148" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Scale Factors</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-149" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Ratio and Proportion</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-150" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Conditions for Similarity</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-151" class="internal"><span class="codenumber">6.4.5</span> <span class="title">Similar Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#prac-6-4" class="internal"><span class="codenumber">6.4.6</span> <span class="title">Practice 6-4</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="sec-6-5.html" class="internal"><span class="codenumber">6.5</span> <span class="title">More About Similarity</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-152" class="internal"><span class="codenumber">6.5.1</span> <span class="title">Areas of Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-153" class="internal"><span class="codenumber">6.5.2</span> <span class="title">Volumes of Proportional Solids</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#prac-6-5" class="internal"><span class="codenumber">6.5.3</span> <span class="title">Practice 6-5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="solutions-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Selected Exercises and Homework Problems</span></a></div></li>
+<li><div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></div></li>
+<li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-1-3"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">1.3</span> <span class="title">Whole Numbers</span>
 </h2>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
-<div class="sbspanel top" style="width:50%;"><ul id="p-553" class="disc">
-<li id="li-291"><p id="p-554">Factors</p></li>
-<li id="li-292"><p id="p-555">Primes and Composites</p></li>
-<li id="li-293"><p id="p-556">Greatest Common Factor</p></li>
-<li id="li-294"><p id="p-557">Lowest Common Multiple</p></li>
-</ul></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="p-553"><ul class="disc">
+<li id="li-291"><div class="para" id="p-554">Factors</div></li>
+<li id="li-292"><div class="para" id="p-555">Primes and Composites</div></li>
+<li id="li-293"><div class="para" id="p-556">Greatest Common Factor</div></li>
+<li id="li-294"><div class="para" id="p-557">Lowest Common Multiple</div></li>
+</ul></div></div>
 <div class="sbspanel top" style="width:50%;"><img src="external/wholenums.png" class="contained"></div>
 </div></div>
 <section class="subsection" id="subsection-14"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.3.1</span> <span class="title">Factors</span>
 </h3>
-<p id="p-558">First let's review some vocabulary. Match each word with its definition.</p>
+<div class="para" id="p-558">First let's review some vocabulary. Match each word with its definition.</div>
 <article class="assemblage assemblage-like" id="assemblage-5"><h4 class="heading"><span class="title">Vocabulary.</span></h4>
-<p id="p-559">factor<span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span>  product <span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span>  divisible<span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span>  whole number<span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span></p>
-<ol id="p-560" class="decimal">
-<li id="li-295"><p id="p-561">The result of multiplying two or more numbers together.</p></li>
-<li id="li-296"><p id="p-562">A counting number or zero.</p></li>
-<li id="li-297"><p id="p-563">Can be divided evenly (with no remainder) by another number.</p></li>
-<li id="li-298"><p id="p-564">A whole number that divides evenly into a given number.</p></li>
-</ol></article><article class="activity project-like" id="activity-7"><h4 class="heading">
+<div class="para" id="p-559">factor<span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span>  product <span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span>  divisible<span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span>  whole number<span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span>
+</div>
+<div class="para logical" id="p-560"><ol class="decimal">
+<li id="li-295"><div class="para" id="p-561">The result of multiplying two or more numbers together.</div></li>
+<li id="li-296"><div class="para" id="p-562">A counting number or zero.</div></li>
+<li id="li-297"><div class="para" id="p-563">Can be divided evenly (with no remainder) by another number.</div></li>
+<li id="li-298"><div class="para" id="p-564">A whole number that divides evenly into a given number.</div></li>
+</ol></div></article><article class="activity project-like" id="activity-7"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Rectangles.</span>
-</h4>
-<p id="p-565">For this Activity (and the Practice problems), you will need 40 small tiles.</p>
-<ol id="p-566" class="decimal">
+</h4> <div class="para" id="p-565">For this Activity (and the Practice problems), you will need 40 small tiles.</div> <div class="para logical" id="p-566"><ol class="decimal">
 <li id="li-299">
-<p id="p-567">Select 12 tiles from your collection. Can you make a rectangle using all 12 tiles? One possibility is a rectangle with length 4 tiles and height 3 tiles. Or we could arrange the rectangle with length 3 tiles and height 4 tiles.</p>
+<div class="para" id="p-567">Select 12 tiles from your collection. Can you make a rectangle using all 12 tiles? One possibility is a rectangle with length 4 tiles and height 3 tiles. Or we could arrange the rectangle with length 3 tiles and height 4 tiles.</div>
 <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/tiles.png" class="contained"></div>
-<ol id="p-568" class="lower-alpha">
+<div class="para logical" id="p-568"><ol class="lower-alpha">
 <li id="li-300">
-<p id="p-569">What other rectangles can you make?  Fill in the table below.</p>
-<p id="p-570"><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="p-569">What other rectangles can you make?  Fill in the table below.</div>
+<div class="para" id="p-570"><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">Length</td>
 <td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{0}1\hphantom{0}\)</span></td>
@@ -209,15 +647,15 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">X</td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
-</table></div></p>
+</table></div></div>
 </li>
 <li id="li-301">
-<p id="p-571">How many rectangles did you find? On the grid below, sketch all of your rectangles. Start each one in the bottom left-hand corner. The rectangles will overlap. What do you notice about the rectangles?  (Hint: Draw in a diagonal on the grid, from bottom left to upper right.)</p>
+<div class="para" id="p-571">How many rectangles did you find? On the grid below, sketch all of your rectangles. Start each one in the bottom left-hand corner. The rectangles will overlap. What do you notice about the rectangles?  (Hint: Draw in a diagonal on the grid, from bottom left to upper right.)</div>
 <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/graphpaper.png" class="contained"></div>
 </li>
-</ol>
+</ol></div>
 </li>
-<li id="li-302"><p id="p-572">Repeat Problem 1 with a set of 24 tiles. Make your own table for Length and Height, and use the grid below to sketch your rectangles. (Note: two of your rectangles will not fit on the grid.) <p id="p-573"><div class="tabular-box natural-width"><table class="tabular">
+<li id="li-302"><div class="para" id="p-572">Repeat Problem 1 with a set of 24 tiles. Make your own table for Length and Height, and use the grid below to sketch your rectangles. (Note: two of your rectangles will not fit on the grid.) <div class="para" id="p-573"><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">Length</td>
 <td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{0}1\hphantom{0}\)</span></td>
@@ -232,9 +670,9 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r1 l0 t0 lines"></td>
 </tr>
-</table></div></p> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/graphpaper.png" class="contained"></div> How many rectangles did you find?</p></li>
-</ol></article><p id="p-574">Can you think of two whole numbers whose product is 12? Can you think of another pair? Let's try the whole numbers in order, starting with 1. We are looking for factors of 12, or numbers that divide evenly into 12.</p>
-<p id="p-575"><div class="tabular-box natural-width"><table class="tabular">
+</table></div></div> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/graphpaper.png" class="contained"></div> How many rectangles did you find?</div></li>
+</ol></div></article><div class="para" id="p-574">Can you think of two whole numbers whose product is 12? Can you think of another pair? Let's try the whole numbers in order, starting with 1. We are looking for factors of 12, or numbers that divide evenly into 12.</div>
+<div class="para" id="p-575"><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">Length</td>
 <td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{0}1\hphantom{0}\)</span></td>
@@ -265,347 +703,349 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines">X</td>
 <td class="c m b1 r1 l0 t0 lines">1</td>
 </tr>
-</table></div></p>
-<p id="p-576">Do you see that these are the same numbers we found in Problem 1 of Activity 1? We have found three number pairs:</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+</table></div></div>
+<div class="para logical" id="p-576">
+<div class="para">Do you see that these are the same numbers we found in Problem 1 of Activity 1? We have found three number pairs:</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \large{\blert{1}~~~~ \text{and}~~~~\blert{12}}, \hphantom{0000} \large{\blert{2}~~~~\text{and}~~~~\blert{6}}, \hphantom{0000} \text{and} \hphantom{0000} \large{\blert{3}~~~~\text{and}~~~~\blert{4}}
 \end{equation*}
 </div>
+</div>
 <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/factorrainbow.png" class="contained"></div>
-<p id="p-577">Each of these pairs of numbers is called a <dfn class="terminology">factor pair</dfn> for 12. (The order of the numbers in a factor pair doesn't matter.)</p>
+<div class="para" id="p-577">Each of these pairs of numbers is called a <dfn class="terminology">factor pair</dfn> for 12. (The order of the numbers in a factor pair doesn't matter.)</div>
 <article class="activity project-like" id="activity-8"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">Factor Pairs.</span>
-</h4>
-<p id="p-578">Find all the factor pairs for each number.  List them in order.</p>
+</h4> <div class="para logical" id="p-578">
+<div class="para">Find all the factor pairs for each number.  List them in order.</div>
 <ol class="decimal">
-<li id="li-303"><p id="p-579"><span class="process-math">\(\displaystyle 27\)</span></p></li>
-<li id="li-304"><p id="p-580"><span class="process-math">\(\displaystyle 26\)</span></p></li>
-<li id="li-305"><p id="p-581"><span class="process-math">\(\displaystyle 25\)</span></p></li>
-<li id="li-306"><p id="p-582"><span class="process-math">\(\displaystyle 24\)</span></p></li>
-<li id="li-307"><p id="p-583"><span class="process-math">\(\displaystyle 23\)</span></p></li>
+<li id="li-303"><div class="para" id="p-579"><span class="process-math">\(\displaystyle 27\)</span></div></li>
+<li id="li-304"><div class="para" id="p-580"><span class="process-math">\(\displaystyle 26\)</span></div></li>
+<li id="li-305"><div class="para" id="p-581"><span class="process-math">\(\displaystyle 25\)</span></div></li>
+<li id="li-306"><div class="para" id="p-582"><span class="process-math">\(\displaystyle 24\)</span></div></li>
+<li id="li-307"><div class="para" id="p-583"><span class="process-math">\(\displaystyle 23\)</span></div></li>
 </ol>
-<p id="p-584">Which number above has the most factor pairs? <span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span></p>
-<p id="p-585">Which number above has the fewest factor pairs? <span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span></p></article><article class="assemblage assemblage-like" id="assemblage-6"><h4 class="heading"><span class="title">Definition.</span></h4>
-<p id="p-586">A counting number (larger than 1) that is evenly divisible only by 1 and itself is called a <dfn class="terminology">prime</dfn> number. A counting number larger than 1 that is not prime is called <dfn class="terminology">composite</dfn>.</p></article><article class="example example-like" id="example-11"><h4 class="heading">
+</div> <div class="para" id="p-584">Which number above has the most factor pairs? <span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span>
+</div> <div class="para" id="p-585">Which number above has the fewest factor pairs? <span class="fillin underline" role="img" aria-label="8-character blank" style="width: 3.636363636363636em;"></span>
+</div></article><article class="assemblage assemblage-like" id="assemblage-6"><h4 class="heading"><span class="title">Definition.</span></h4>
+<div class="para" id="p-586">A counting number (larger than 1) that is evenly divisible only by 1 and itself is called a <dfn class="terminology">prime</dfn> number. A counting number larger than 1 that is not prime is called <dfn class="terminology">composite</dfn>.</div></article><article class="example example-like" id="example-11"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="period">.</span>
 </h4>
-<p id="p-587">Which of the following numbers are prime numbers?</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="para logical" id="p-587">
+<div class="para">Which of the following numbers are prime numbers?</div>
+<div class="displaymath process-math">
 \begin{equation*}
 6 \hphantom{0000}  7 \hphantom{0000} 10 \hphantom{0000} 11
 \end{equation*}
 </div>
+</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-8" id="solution-8"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-8"><div class="solution solution-like"><p id="p-588">Because  6  is divisible by 2 and 3, it is composite. Similarly, 2 and 5 are factors of 10, so it is composite also. But 7 has no factors other than 1 and 7, so it is prime. Similarly, 11 is prime.</p></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-8" id="solution-8"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-8"><div class="solution solution-like"><div class="para" id="p-588">Because  6  is divisible by 2 and 3, it is composite. Similarly, 2 and 5 are factors of 10, so it is composite also. But 7 has no factors other than 1 and 7, so it is prime. Similarly, 11 is prime.</div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-138"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="period">.</span>
 </h4>
-<p id="p-589">Which of the following numbers are prime numbers?</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="para logical" id="p-589">
+<div class="para">Which of the following numbers are prime numbers?</div>
+<div class="displaymath process-math">
 \begin{equation*}
 4 \hphantom{0000}  5 \hphantom{0000} 8 \hphantom{0000} 9
 \end{equation*}
 </div>
+</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-74" id="answer-74"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-74"><div class="answer solution-like"><p id="p-590">5</p></div></div>
-</div></article><p id="p-591">In the next Activity we'll find all the prime numbers between 1 and 100.</p>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-74" id="answer-74"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-74"><div class="answer solution-like"><div class="para" id="p-590">5</div></div></div>
+</div></article><div class="para" id="p-591">In the next Activity we'll find all the prime numbers between 1 and 100.</div>
 <article class="activity project-like" id="activity-9"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="period">.</span><span class="space"> </span><span class="title">The Sieve of Eratosthenes.</span>
-</h4>
-<ol id="p-592" class="lower-alpha">
-<li id="li-308"><p id="p-593">Circle the first prime number, 2. Cross out all multiples of 2.</p></li>
-<li id="li-309"><p id="p-594">Circle the first number that is not crossed out. (It should be a prime number.) Cross out all multiples of that number.</p></li>
-<li id="li-310"><p id="p-595">Repeat part (b) until there are no more numbers to cross out.</p></li>
-</ol>
-<div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/sieve.png" class="contained"></div>
-<p id="p-596">The circled numbers are the primes!</p></article></section><section class="subsection" id="subsection-15"><h3 class="heading hide-type">
+</h4> <div class="para logical" id="p-592"><ol class="lower-alpha">
+<li id="li-308"><div class="para" id="p-593">Circle the first prime number, 2. Cross out all multiples of 2.</div></li>
+<li id="li-309"><div class="para" id="p-594">Circle the first number that is not crossed out. (It should be a prime number.) Cross out all multiples of that number.</div></li>
+<li id="li-310"><div class="para" id="p-595">Repeat part (b) until there are no more numbers to cross out.</div></li>
+</ol></div> <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/sieve.png" class="contained"></div> <div class="para" id="p-596">The circled numbers are the primes!</div></article></section><section class="subsection" id="subsection-15"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.3.2</span> <span class="title">Primes and Composites</span>
 </h3>
-<p id="p-597">The prime numbers are important because they are the building blocks for the whole numbers: every composite number is a product of primes.</p>
+<div class="para" id="p-597">The prime numbers are important because they are the building blocks for the whole numbers: every composite number is a product of primes.</div>
 <article class="example example-like" id="example-12"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="period">.</span>
 </h4>
-<p id="p-598">Write each composite number as a product of primes.</p>
+<div class="para logical" id="p-598">
+<div class="para">Write each composite number as a product of primes.</div>
 <ol class="lower-alpha cols2">
-<li id="li-311"><p id="p-599"><span class="process-math">\(\displaystyle 35\)</span></p></li>
-<li id="li-312"><p id="p-600"><span class="process-math">\(\displaystyle 8\)</span></p></li>
+<li id="li-311"><div class="para" id="p-599"><span class="process-math">\(\displaystyle 35\)</span></div></li>
+<li id="li-312"><div class="para" id="p-600"><span class="process-math">\(\displaystyle 8\)</span></div></li>
 </ol>
+</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-9" id="solution-9"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-9"><div class="solution solution-like"><ol id="p-601" class="lower-alpha cols2">
-<li id="li-313"><p id="p-602"><span class="process-math">\(\displaystyle 35 = 5 \times 7\)</span></p></li>
-<li id="li-314"><p id="p-603"><span class="process-math">\(\displaystyle 8 = 2 \times 2 \times 2\)</span></p></li>
-</ol></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-9" id="solution-9"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-9"><div class="solution solution-like"><div class="para logical" id="p-601"><ol class="lower-alpha cols2">
+<li id="li-313"><div class="para" id="p-602"><span class="process-math">\(\displaystyle 35 = 5 \times 7\)</span></div></li>
+<li id="li-314"><div class="para" id="p-603"><span class="process-math">\(\displaystyle 8 = 2 \times 2 \times 2\)</span></div></li>
+</ol></div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-139"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="period">.</span>
 </h4>
-<p id="p-604">Write each composite number as a product of primes.</p>
+<div class="para logical" id="p-604">
+<div class="para">Write each composite number as a product of primes.</div>
 <ol class="lower-alpha cols2">
-<li id="li-315"><p id="p-605"><span class="process-math">\(\displaystyle 10\)</span></p></li>
-<li id="li-316"><p id="p-606"><span class="process-math">\(\displaystyle 18\)</span></p></li>
+<li id="li-315"><div class="para" id="p-605"><span class="process-math">\(\displaystyle 10\)</span></div></li>
+<li id="li-316"><div class="para" id="p-606"><span class="process-math">\(\displaystyle 18\)</span></div></li>
 </ol>
+</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-75" id="answer-75"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-75"><div class="answer solution-like"><ol id="p-607" class="lower-alpha cols2">
-<li id="li-317"><p id="p-608"><span class="process-math">\(\displaystyle 10 = 2 \times 5\)</span></p></li>
-<li id="li-318"><p id="p-609"><span class="process-math">\(\displaystyle 18 = 2 \times 3 \times 3\)</span></p></li>
-</ol></div></div>
-</div></article><p id="p-610">The list of prime numbers whose product is the original number is called the <dfn class="terminology">prime factorization</dfn> of a composite number. To find the prime factorization of a larger number, we can use a <dfn class="terminology">factor tree</dfn>.</p>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-75" id="answer-75"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-75"><div class="answer solution-like"><div class="para logical" id="p-607"><ol class="lower-alpha cols2">
+<li id="li-317"><div class="para" id="p-608"><span class="process-math">\(\displaystyle 10 = 2 \times 5\)</span></div></li>
+<li id="li-318"><div class="para" id="p-609"><span class="process-math">\(\displaystyle 18 = 2 \times 3 \times 3\)</span></div></li>
+</ol></div></div></div>
+</div></article><div class="para" id="p-610">The list of prime numbers whose product is the original number is called the <dfn class="terminology">prime factorization</dfn> of a composite number. To find the prime factorization of a larger number, we can use a <dfn class="terminology">factor tree</dfn>.</div>
 <article class="example example-like" id="example-13"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.5</span><span class="period">.</span>
 </h4>
-<p id="p-611">Find the prime factorization of 60.</p>
+<div class="para" id="p-611">Find the prime factorization of 60.</div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-10" id="solution-10"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-10"><div class="solution solution-like">
-<p id="p-612">We begin by finding any factor pair for 60. For example, we might start with <span class="process-math">\(60 = 6 \times 10\text{.}\)</span> We write each factor on a "branch" of the tree, as shown below:</p>
-<div class="image-box" style="width: 20%; margin-left: 40%; margin-right: 40%;"><img src="external/factortree1.png" class="contained"></div>
-<p id="p-613">Both 6 and 10 are composite numbers and can be factored further.</p>
-<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/factortree2.png" class="contained"></div>
-<p id="p-614">Now all the factors are prime numbers. These are the "leaves" of the factor tree. We circle each prime factor, and then write them in increasing order. The prime factorization of 60 is</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="para" id="p-612">We begin by finding any factor pair for 60. For example, we might start with <span class="process-math">\(60 = 6 \times 10\text{.}\)</span> We write each factor on a "branch" of the tree, as shown below:</div> <div class="image-box" style="width: 20%; margin-left: 40%; margin-right: 40%;"><img src="external/factortree1.png" class="contained"></div> <div class="para" id="p-613">Both 6 and 10 are composite numbers and can be factored further.</div> <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/factortree2.png" class="contained"></div> <div class="para logical" id="p-614">
+<div class="para">Now all the factors are prime numbers. These are the "leaves" of the factor tree. We circle each prime factor, and then write them in increasing order. The prime factorization of 60 is</div>
+<div class="displaymath process-math">
 \begin{equation*}
 60 = 2 \times 2 \times 3 \times 5
 \end{equation*}
+</div>
 </div>
 </div></div>
 </div></article><article class="note remark-like" id="note-9"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">1.3.6</span><span class="period">.</span>
 </h4>
-<p id="p-615">It doesn't matter how we start a factor tree; we will always get the same prime factorization at the end. In the previous Example, we might have started the factor tree with  <span class="process-math">\(60 = 2 \times 30\)</span>  and built the following tree.</p>
-<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/factortree3.png" class="contained"></div>
-<p id="p-616">You can see that we end up with the same prime factorization of 60.</p></article><article class="exercise exercise-like" id="exercise-140"><h4 class="heading">
+<div class="para" id="p-615">It doesn't matter how we start a factor tree; we will always get the same prime factorization at the end. In the previous Example, we might have started the factor tree with  <span class="process-math">\(60 = 2 \times 30\)</span>  and built the following tree.</div> <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/factortree3.png" class="contained"></div> <div class="para" id="p-616">You can see that we end up with the same prime factorization of 60.</div></article><article class="exercise exercise-like" id="exercise-140"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.7</span><span class="period">.</span>
 </h4>
-<p id="p-617">Build a factor tree and write the prime factorization for 280.</p>
+<div class="para" id="p-617">Build a factor tree and write the prime factorization for 280.</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-76" id="answer-76"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-76"><div class="answer solution-like"><p id="p-618"><span class="process-math">\(280 = 2 \times 2 \times 2 \times 5 \times 7\)</span></p></div></div>
-</div></article><p id="p-619">There is only one prime factorization for any whole number.</p>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-76" id="answer-76"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-76"><div class="answer solution-like"><div class="para" id="p-618"><span class="process-math">\(280 = 2 \times 2 \times 2 \times 5 \times 7\)</span></div></div></div>
+</div></article><div class="para" id="p-619">There is only one prime factorization for any whole number.</div>
 <article class="assemblage assemblage-like" id="assemblage-7"><h4 class="heading"><span class="title">Fundamental Theorem of Arithmetic.</span></h4>
-<p id="p-620">Every whole number greater than 1 can be written in exactly one way as a prime number or as a product of primes.</p></article></section><section class="subsection" id="subsection-16"><h3 class="heading hide-type">
+<div class="para" id="p-620">Every whole number greater than 1 can be written in exactly one way as a prime number or as a product of primes.</div></article></section><section class="subsection" id="subsection-16"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.3.3</span> <span class="title">Greatest Common Factor</span>
 </h3>
-<p id="p-621">We use factors when we work with fractions. Suppose we would like to reduce the fraction <span class="process-math">\(\dfrac{15}{24}\text{.}\)</span> We look for the largest number that divides evenly into both 15 and 24, or in other words, the largest number that is a factor of both 15 and 24. By listing all the factors of each number, we can see that the largest factor common to both 15 and 24 is <span class="process-math">\(\alert{3}\text{.}\)</span></p>
+<div class="para" id="p-621">We use factors when we work with fractions. Suppose we would like to reduce the fraction <span class="process-math">\(\dfrac{15}{24}\text{.}\)</span> We look for the largest number that divides evenly into both 15 and 24, or in other words, the largest number that is a factor of both 15 and 24. By listing all the factors of each number, we can see that the largest factor common to both 15 and 24 is <span class="process-math">\(\alert{3}\text{.}\)</span>
+</div>
 <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/factors15and24.png" class="contained"></div>
-<p id="p-622">We say that 3 is the <dfn class="terminology">greatest common factor</dfn> or <dfn class="terminology">GCF</dfn> for 15 and 24.</p>
+<div class="para" id="p-622">We say that 3 is the <dfn class="terminology">greatest common factor</dfn> or <dfn class="terminology">GCF</dfn> for 15 and 24.</div>
 <article class="assemblage assemblage-like" id="assemblage-8"><h4 class="heading"><span class="title">Definition.</span></h4>
-<p id="p-623">The <dfn class="terminology">greatest common factor</dfn> or <dfn class="terminology">GCF</dfn> of two whole numbers is the largest factor of both numbers.</p></article><article class="example example-like" id="example-14"><h4 class="heading">
+<div class="para" id="p-623">The <dfn class="terminology">greatest common factor</dfn> or <dfn class="terminology">GCF</dfn> of two whole numbers is the largest factor of both numbers.</div></article><article class="example example-like" id="example-14"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.8</span><span class="period">.</span>
 </h4>
-<p id="p-624">Find the greatest common factor of 16 and 24.</p>
+<div class="para" id="p-624">Find the greatest common factor of 16 and 24.</div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-11" id="solution-11"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-11"><div class="solution solution-like">
-<p id="p-625">We list all the factors of 16 and 24.</p>
-<div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/factors16and24.png" class="contained"></div>
-<p id="p-626">The numbers 16 and 24 have several common factors (namely, 1, 2, and 4), but the largest common factor is 8. The GCF of 16 and 24 is 8.</p>
+<div class="para" id="p-625">We list all the factors of 16 and 24.</div> <div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/factors16and24.png" class="contained"></div> <div class="para" id="p-626">The numbers 16 and 24 have several common factors (namely, 1, 2, and 4), but the largest common factor is 8. The GCF of 16 and 24 is 8.</div>
 </div></div>
 </div></article><article class="exercise exercise-like" id="exercise-141"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.9</span><span class="period">.</span>
 </h4>
-<ol id="p-627" class="lower-alpha">
+<div class="para logical" id="p-627"><ol class="lower-alpha">
 <li id="li-319">
-<p id="p-628">List all the factors of 18 and 24.</p>
+<div class="para" id="p-628">List all the factors of 18 and 24.</div>
 <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/factors18and24.png" class="contained"></div>
 </li>
-<li id="li-320"><p id="p-629">Find the GCF of 18 and 24.</p></li>
-</ol>
+<li id="li-320"><div class="para" id="p-629">Find the GCF of 18 and 24.</div></li>
+</ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-77" id="answer-77"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-77"><div class="answer solution-like"><ol id="p-630" class="lower-alpha">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-77" id="answer-77"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-77"><div class="answer solution-like"><div class="para logical" id="p-630"><ol class="lower-alpha">
 <li id="li-321">
-<p id="p-631">18:  2, 3, 6, 9</p>
-<p id="p-632">24:  2, 3, 4, 6, 8, 12</p>
+<div class="para" id="p-631">18:  2, 3, 6, 9</div>
+<div class="para" id="p-632">24:  2, 3, 4, 6, 8, 12</div>
 </li>
-<li id="li-322"><p id="p-633">6</p></li>
-</ol></div></div>
-</div></article><p id="p-634">There is a faster way to find the GCF of two numbers, using their prime factorizations.</p>
+<li id="li-322"><div class="para" id="p-633">6</div></li>
+</ol></div></div></div>
+</div></article><div class="para" id="p-634">There is a faster way to find the GCF of two numbers, using their prime factorizations.</div>
 <article class="example example-like" id="example-15"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.10</span><span class="period">.</span>
 </h4>
-<p id="p-635">Use prime factorization to find the greatest common factor of 16 and 24.</p>
+<div class="para" id="p-635">Use prime factorization to find the greatest common factor of 16 and 24.</div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-12" id="solution-12"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-12"><div class="solution solution-like">
-<p id="p-636">Make factor trees to verify the factorizations of 16 and 24.</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="para logical" id="p-636">
+<div class="para">Make factor trees to verify the factorizations of 16 and 24.</div>
+<div class="displaymath process-math">
 \begin{equation*}
 16 = 2 \times 2 \times 2 \times 2
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="displaymath process-math">
 \begin{equation*}
 24 = 2 \times 2 \times 2 \times 3
 \end{equation*}
 </div>
-<p class="continuation">Now list all the factors that appear in the factorization of both numbers.</p>
-<div class="image-box" style="width: 27%; margin-left: 36.5%; margin-right: 36.5%;"><img src="external/gcf16and24.png" class="contained"></div>
-<p id="p-637">Finally, multiply together the factors that appear in both numbers. The GCF of 16 and 24 is</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="para">Now list all the factors that appear in the factorization of both numbers.</div>
+</div> <div class="image-box" style="width: 27%; margin-left: 36.5%; margin-right: 36.5%;"><img src="external/gcf16and24.png" class="contained"></div> <div class="para logical" id="p-637">
+<div class="para">Finally, multiply together the factors that appear in both numbers. The GCF of 16 and 24 is</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \text{GCF} = 2 \times 2 \times 2  = 8
 \end{equation*}
+</div>
 </div>
 </div></div>
 </div></article><article class="note remark-like" id="note-10"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">1.3.11</span><span class="period">.</span>
 </h4>
-<p id="p-638">Do you see why this method works? By including all the factors that appear in both 18 and 24, we find the largest number that will divide evenly into both 18 and 24.</p></article><article class="exercise exercise-like" id="exercise-142"><h4 class="heading">
+<div class="para" id="p-638">Do you see why this method works? By including all the factors that appear in both 18 and 24, we find the largest number that will divide evenly into both 18 and 24.</div></article><article class="exercise exercise-like" id="exercise-142"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.12</span><span class="period">.</span>
 </h4>
-<p id="p-639">Use prime factorization to find the greatest common factor of 18 and 24.</p>
-<div class="displaymath process-math" data-contains-math-knowls="" id="md-1">
+<div class="para logical" id="p-639">
+<div class="para">Use prime factorization to find the greatest common factor of 18 and 24.</div>
+<div class="displaymath process-math" id="md-1">
 \begin{align*}
 18 \amp = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\
 24 \amp = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\
 \text{GCF}~~~~~~~ \amp = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \end{align*}
 </div>
+</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-78" id="answer-78"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-78"><div class="answer solution-like"><div class="displaymath process-math" data-contains-math-knowls="" id="md-2">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-78" id="answer-78"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-78"><div class="answer solution-like"><div class="para logical" id="p-640"><div class="displaymath process-math" id="md-2">
 \begin{align*}
 18 \amp = 2 \times 3 \times 3\\
 24 \amp = 2 \times 2 \times 2 \times 3\\
 \text{GCF}~~~~~~~ \amp = 2 \times 3 = 6
 \end{align*}
-</div></div></div>
+</div></div></div></div>
 </div></article></section><section class="subsection" id="subsection-17"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.3.4</span> <span class="title">Lowest Common Multiple</span>
 </h3>
-<p id="p-641">Tastee hot dogs come in packages of 8, and Tastee hot dog buns come in packages of 6. How many packages of each should you buy so that you won't have any hot dogs or buns left over?</p>
+<div class="para" id="p-641">Tastee hot dogs come in packages of 8, and Tastee hot dog buns come in packages of 6. How many packages of each should you buy so that you won't have any hot dogs or buns left over?</div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hotdogs.png" class="contained"></div>
-<p id="p-642">Let's try some numbers.  We are looking for the same number of hot dogs as buns.</p>
+<div class="para" id="p-642">Let's try some numbers.  We are looking for the same number of hot dogs as buns.</div>
 <div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/LCMtable.png" class="contained"></div>
-<p id="p-643">We can stop here. If we buy 3 packages of hot dogs and 4 packages of buns, we'll have equal numbers of each: 24 hot dogs and 24 buns.</p>
-<p id="p-644">The numbers in the second row of the table are <dfn class="terminology">multiples</dfn> of 8, and the numbers in the third row are multiples of 6. The number 24 is a <dfn class="terminology">common multiple</dfn> of 6 and 8; in fact, it is the <dfn class="terminology">lowest common multiple</dfn>. (You can check that 48 and 72 are also common multiples of 6 and 8.)</p>
+<div class="para" id="p-643">We can stop here. If we buy 3 packages of hot dogs and 4 packages of buns, we'll have equal numbers of each: 24 hot dogs and 24 buns.</div>
+<div class="para" id="p-644">The numbers in the second row of the table are <dfn class="terminology">multiples</dfn> of 8, and the numbers in the third row are multiples of 6. The number 24 is a <dfn class="terminology">common multiple</dfn> of 6 and 8; in fact, it is the <dfn class="terminology">lowest common multiple</dfn>. (You can check that 48 and 72 are also common multiples of 6 and 8.)</div>
 <article class="assemblage assemblage-like" id="assemblage-9"><h4 class="heading"><span class="title">Definition.</span></h4>
-<p id="p-645">The <dfn class="terminology">lowest common multiple</dfn> or LCM of two whole numbers is the smallest number that is a multiple of both whole numbers.</p></article><article class="example example-like" id="example-16"><h4 class="heading">
+<div class="para" id="p-645">The <dfn class="terminology">lowest common multiple</dfn> or LCM of two whole numbers is the smallest number that is a multiple of both whole numbers.</div></article><article class="example example-like" id="example-16"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.13</span><span class="period">.</span>
 </h4>
-<p id="p-646">Find the lowest common multiple for 12 and 15.</p>
+<div class="para" id="p-646">Find the lowest common multiple for 12 and 15.</div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-13" id="solution-13"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-13"><div class="solution solution-like">
-<p id="p-647">We list multiples of each number until we find the smallest common multiple.</p>
-<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/LCM12and15.png" class="contained"></div>
-<p id="p-648">We see that 60 is the smallest number that is a multiple of both 12 and 15. The LCM of 12 and 15 is 60.</p>
+<div class="para" id="p-647">We list multiples of each number until we find the smallest common multiple.</div> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/LCM12and15.png" class="contained"></div> <div class="para" id="p-648">We see that 60 is the smallest number that is a multiple of both 12 and 15. The LCM of 12 and 15 is 60.</div>
 </div></div>
 </div></article><article class="exercise exercise-like" id="exercise-143"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.14</span><span class="period">.</span>
 </h4>
-<ol id="p-649" class="lower-alpha">
-<li id="li-323"><p id="p-650">Juicee hot dogs come in packages of 10, and Juicee hot dog buns come in packages of 8. How many packages of each should you buy so that you won't have any hot dogs or buns left over?</p></li>
-<li id="li-324"><p id="p-651">What is the LCM of 8 and 10?</p></li>
-</ol>
+<div class="para logical" id="p-649"><ol class="lower-alpha">
+<li id="li-323"><div class="para" id="p-650">Juicee hot dogs come in packages of 10, and Juicee hot dog buns come in packages of 8. How many packages of each should you buy so that you won't have any hot dogs or buns left over?</div></li>
+<li id="li-324"><div class="para" id="p-651">What is the LCM of 8 and 10?</div></li>
+</ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-79" id="answer-79"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-79"><div class="answer solution-like"><ol id="p-652" class="lower-alpha">
-<li id="li-325"><p id="p-653">4 packages of hot dogs and 5 packages of buns</p></li>
-<li id="li-326"><p id="p-654">40</p></li>
-</ol></div></div>
-</div></article><p id="p-655">We can use prime factorization to find LCM's, too.</p>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-79" id="answer-79"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-79"><div class="answer solution-like"><div class="para logical" id="p-652"><ol class="lower-alpha">
+<li id="li-325"><div class="para" id="p-653">4 packages of hot dogs and 5 packages of buns</div></li>
+<li id="li-326"><div class="para" id="p-654">40</div></li>
+</ol></div></div></div>
+</div></article><div class="para" id="p-655">We can use prime factorization to find LCM's, too.</div>
 <article class="example example-like" id="example-17"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.15</span><span class="period">.</span>
 </h4>
-<p id="p-656">Use prime factorization to find the lowest common multiple for 12 and 15</p>
+<div class="para" id="p-656">Use prime factorization to find the lowest common multiple for 12 and 15</div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-14" id="solution-14"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-14"><div class="solution solution-like">
-<p id="p-657">Make factor trees to verify the factorizations of 12 and 15.</p>
-<p id="p-658"><span class="process-math">\(\hphantom{Some space}\begin{alignedat}[t]
+<div class="para" id="p-657">Make factor trees to verify the factorizations of 12 and 15.</div> <div class="para" id="p-658"><span class="process-math">\(\hphantom{Some space}\begin{alignedat}[t]
 12 \amp = 2 \times 2 \times \amp \amp 3\\
 15 \amp =                   \amp \amp 3 \times 5
-\end{alignedat}\)</span></p>
-<p id="p-659">Notice that we wrote the products so that common factors line up vertically.</p>
-<p id="p-660">Next we select one number from each column.</p>
-<div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/factorLCM.png" class="contained"></div>
-<p id="p-661">Finally, we multiply together all the factors that appear in either number.</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+\end{alignedat}\)</span></div> <div class="para" id="p-659">Notice that we wrote the products so that common factors line up vertically.</div> <div class="para" id="p-660">Next we select one number from each column.</div> <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/factorLCM.png" class="contained"></div> <div class="para logical" id="p-661">
+<div class="para">Finally, we multiply together all the factors that appear in either number.</div>
+<div class="displaymath process-math">
 \begin{equation*}
 \large{\text{LCM} = 2 \times 2 \times 3 \times 5 = 60}
 \end{equation*}
+</div>
 </div>
 </div></div>
 </div></article><article class="note remark-like" id="note-11"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">1.3.16</span><span class="period">.</span>
 </h4>
-<p id="p-662">Look carefully at the difference between using prime factorization to find the GCF and to find the LCM.</p>
-<ul id="p-663" class="disc">
-<li id="li-327"><p id="p-664">To find the GCF, we use <span class="process-math">\(\blert{\text{only}}\)</span> the factors that occur in <span class="process-math">\(\blert{\text{both}}\)</span> numbers.</p></li>
-<li id="li-328"><p id="p-665">To find the LCM, we use <span class="process-math">\(\blert{\text{all}}\)</span> the factors that appear in <span class="process-math">\(\blert{\text{either}}\)</span> number.</p></li>
-</ul></article><article class="exercise exercise-like" id="exercise-144"><h4 class="heading">
+<div class="para" id="p-662">Look carefully at the difference between using prime factorization to find the GCF and to find the LCM.</div> <div class="para logical" id="p-663"><ul class="disc">
+<li id="li-327"><div class="para" id="p-664">To find the GCF, we use <span class="process-math">\(\blert{\text{only}}\)</span> the factors that occur in <span class="process-math">\(\blert{\text{both}}\)</span> numbers.</div></li>
+<li id="li-328"><div class="para" id="p-665">To find the LCM, we use <span class="process-math">\(\blert{\text{all}}\)</span> the factors that appear in <span class="process-math">\(\blert{\text{either}}\)</span> number.</div></li>
+</ul></div></article><article class="exercise exercise-like" id="exercise-144"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.17</span><span class="period">.</span>
 </h4>
-<p id="p-666">Use prime factorization to find the lowest common multiple of 18 and 24.</p>
-<div class="displaymath process-math" data-contains-math-knowls="" id="md-3">
+<div class="para logical" id="p-666">
+<div class="para">Use prime factorization to find the lowest common multiple of 18 and 24.</div>
+<div class="displaymath process-math" id="md-3">
 \begin{align*}
 18 \amp = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\
 24 \amp = \\
 \text{LCM}~~~~~~~~ \amp = 
 \end{align*}
 </div>
+</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-80" id="answer-80"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-80"><div class="answer solution-like"><div class="displaymath process-math" data-contains-math-knowls="" id="md-4">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-80" id="answer-80"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-80"><div class="answer solution-like"><div class="para logical" id="p-667"><div class="displaymath process-math" id="md-4">
 \begin{align*}
 18 \amp = 2 \times 3 \times 3\\
 24 \amp = 2 \times 2 \times 2 \times 3\\
 \text{LCM}~~~~~~~ \amp = 2 \times 2 \times 2 \times 3 \times 3 = 72
 \end{align*}
-</div></div></div>
+</div></div></div></div>
 </div></article><article class="activity project-like" id="activity-10"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="period">.</span><span class="space"> </span><span class="title">Factor Trees.</span>
-</h4>
-<ol id="p-668" class="decimal">
-<li id="li-329"><ol id="p-669" class="lower-alpha">
-<li id="li-330"><p id="p-670">Make a factor tree for 42.</p></li>
-<li id="li-331"><p id="p-671">Write the prime factorization for 42.</p></li>
-</ol></li>
-<li id="li-332"><ol id="p-672" class="lower-alpha">
-<li id="li-333"><p id="p-673">Make a factor tree for 60.</p></li>
-<li id="li-334"><p id="p-674">Write the prime factorization for 60.</p></li>
-</ol></li>
+</h4> <div class="para logical" id="p-668"><ol class="decimal">
+<li id="li-329"><div class="para logical" id="p-669"><ol class="lower-alpha">
+<li id="li-330"><div class="para" id="p-670">Make a factor tree for 42.</div></li>
+<li id="li-331"><div class="para" id="p-671">Write the prime factorization for 42.</div></li>
+</ol></div></li>
+<li id="li-332"><div class="para logical" id="p-672"><ol class="lower-alpha">
+<li id="li-333"><div class="para" id="p-673">Make a factor tree for 60.</div></li>
+<li id="li-334"><div class="para" id="p-674">Write the prime factorization for 60.</div></li>
+</ol></div></li>
 <li id="li-335">
-<p id="p-675">Write the two prime factorizations with common factors aligned vertically.</p>
-<p id="p-676">42 =</p>
-<p id="p-677">60 =</p>
+<div class="para" id="p-675">Write the two prime factorizations with common factors aligned vertically.</div>
+<div class="para" id="p-676">42 =</div>
+<div class="para" id="p-677">60 =</div>
 </li>
-<li id="li-336"><ol id="p-678" class="lower-alpha">
-<li id="li-337"><p id="p-679">Find the GCF for 42 and 60.</p></li>
-<li id="li-338"><p id="p-680">In Step 3, circle the factors you used to build the GCF.</p></li>
-</ol></li>
-<li id="li-339"><ol id="p-681" class="lower-alpha">
-<li id="li-340"><p id="p-682">Find the LCM for 42 and 60.</p></li>
-<li id="li-341"><p id="p-683">In Step 3, circle the factors you used to build the LCM. (Use a different color than the circles in (4b), or use squares.</p></li>
-</ol></li>
-<li id="li-342"><ol id="p-684" class="lower-alpha">
-<li id="li-343"><p id="p-685">Find the product of 42 and 60.</p></li>
-<li id="li-344"><p id="p-686">Find the product of the GCF and the LCM for 42 and 60.</p></li>
-<li id="li-345"><p id="p-687">What do you notice?</p></li>
-<li id="li-346"><p id="p-688">Can you explain why that is true?</p></li>
-</ol></li>
-<li id="li-347"><ol id="p-689" class="lower-alpha">
-<li id="li-348"><p id="p-690">If you have found the GCF for 42 and 60, what is an easy way to find their LCM?</p></li>
-<li id="li-349"><p id="p-691">If you have found the LCM for 42 and 60, what is an easy way to find their GCF?</p></li>
-</ol></li>
-</ol></article></section><section class="subsection" id="subsection-18"><h3 class="heading hide-type">
+<li id="li-336"><div class="para logical" id="p-678"><ol class="lower-alpha">
+<li id="li-337"><div class="para" id="p-679">Find the GCF for 42 and 60.</div></li>
+<li id="li-338"><div class="para" id="p-680">In Step 3, circle the factors you used to build the GCF.</div></li>
+</ol></div></li>
+<li id="li-339"><div class="para logical" id="p-681"><ol class="lower-alpha">
+<li id="li-340"><div class="para" id="p-682">Find the LCM for 42 and 60.</div></li>
+<li id="li-341"><div class="para" id="p-683">In Step 3, circle the factors you used to build the LCM. (Use a different color than the circles in (4b), or use squares.</div></li>
+</ol></div></li>
+<li id="li-342"><div class="para logical" id="p-684"><ol class="lower-alpha">
+<li id="li-343"><div class="para" id="p-685">Find the product of 42 and 60.</div></li>
+<li id="li-344"><div class="para" id="p-686">Find the product of the GCF and the LCM for 42 and 60.</div></li>
+<li id="li-345"><div class="para" id="p-687">What do you notice?</div></li>
+<li id="li-346"><div class="para" id="p-688">Can you explain why that is true?</div></li>
+</ol></div></li>
+<li id="li-347"><div class="para logical" id="p-689"><ol class="lower-alpha">
+<li id="li-348"><div class="para" id="p-690">If you have found the GCF for 42 and 60, what is an easy way to find their LCM?</div></li>
+<li id="li-349"><div class="para" id="p-691">If you have found the LCM for 42 and 60, what is an easy way to find their GCF?</div></li>
+</ol></div></li>
+</ol></div></article></section><section class="subsection" id="subsection-18"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.3.5</span> <span class="title">Vocabulary</span>
 </h3>
-<ul id="p-692" class="disc cols2">
-<li id="li-350"><p id="p-693">whole number</p></li>
-<li id="li-351"><p id="p-694">product</p></li>
-<li id="li-352"><p id="p-695">factor</p></li>
-<li id="li-353"><p id="p-696">factor pair</p></li>
-<li id="li-354"><p id="p-697">divisible</p></li>
-<li id="li-355"><p id="p-698">multiple</p></li>
-<li id="li-356"><p id="p-699">prime</p></li>
-<li id="li-357"><p id="p-700">composite</p></li>
-<li id="li-358"><p id="p-701">factor tree</p></li>
-<li id="li-359"><p id="p-702">prime factorization</p></li>
-<li id="li-360"><p id="p-703">greatest common factor (GCF)</p></li>
-<li id="li-361"><p id="p-704">lowest common multiple (LCM)</p></li>
-</ul></section><section class="exercises" id="prac-1-3"><h3 class="heading hide-type">
+<div class="para logical" id="p-692"><ul class="disc cols2">
+<li id="li-350"><div class="para" id="p-693">whole number</div></li>
+<li id="li-351"><div class="para" id="p-694">product</div></li>
+<li id="li-352"><div class="para" id="p-695">factor</div></li>
+<li id="li-353"><div class="para" id="p-696">factor pair</div></li>
+<li id="li-354"><div class="para" id="p-697">divisible</div></li>
+<li id="li-355"><div class="para" id="p-698">multiple</div></li>
+<li id="li-356"><div class="para" id="p-699">prime</div></li>
+<li id="li-357"><div class="para" id="p-700">composite</div></li>
+<li id="li-358"><div class="para" id="p-701">factor tree</div></li>
+<li id="li-359"><div class="para" id="p-702">prime factorization</div></li>
+<li id="li-360"><div class="para" id="p-703">greatest common factor (GCF)</div></li>
+<li id="li-361"><div class="para" id="p-704">lowest common multiple (LCM)</div></li>
+</ul></div></section><section class="exercises" id="prac-1-3"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber">1.3.6</span> <span class="title">Practice 1.3</span>
 </h3>
 <div class="exercisegroup" id="exercisegroup-20">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-20">
-<p id="p-705">For Problems 1-4,</p>
+<div class="introduction" id="introduction-20"><div class="para logical" id="p-705">
+<div class="para">For Problems 1-4,</div>
 <ol class="lower-alpha">
 <li id="li-362">
-<p id="p-706">Find all factor pairs for the number given. Use a table like this one to record your results:</p>
-<p id="p-707"><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="p-706">Find all factor pairs for the number given. Use a table like this one to record your results:</div>
+<div class="para" id="p-707"><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">First Number</td>
 <td class="c m b1 r1 l0 t1 lines">1</td>
@@ -624,189 +1064,192 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000}\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{000}\)</span></td>
 </tr>
-</table></div></p>
+</table></div></div>
 </li>
-<li id="li-363"><p id="p-708">What was the largest "First number" you had to check to make sure you found all the factor pairs?</p></li>
+<li id="li-363"><div class="para" id="p-708">What was the largest "First number" you had to check to make sure you found all the factor pairs?</div></li>
 </ol>
-</div>
+</div></div>
 <div class="exercisegroup-exercises cols4">
 <article class="exercise exercise-like" id="exercise-145"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
-<p id="p-709">36</p></article><article class="exercise exercise-like" id="exercise-146"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
-<p id="p-713">45</p></article><article class="exercise exercise-like" id="exercise-147"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
-<p id="p-714">56</p></article><article class="exercise exercise-like" id="exercise-148"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
-<p id="p-718">100</p></article>
+<div class="para" id="p-709">36</div></article><article class="exercise exercise-like" id="exercise-146"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="p-713">45</div></article><article class="exercise exercise-like" id="exercise-147"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="p-714">56</div></article><article class="exercise exercise-like" id="exercise-148"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="p-718">100</div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-21">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-21"><p id="p-719">For Problems 5 and 6, follow the instructions in Activity 1. Some of your rectangles may not fit on the grid.</p></div>
+<div class="introduction" id="introduction-21"><div class="para" id="p-719">For Problems 5 and 6, follow the instructions in Activity 1. Some of your rectangles may not fit on the grid.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-149"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
-<ol id="p-720" class="lower-alpha">
-<li id="li-368"><p id="p-721">Make a table showing the length and height of all rectangles you can make with 30 tiles.</p></li>
-<li id="li-369"><p id="p-722">Sketch your rectangles on the grid below, starting each rectangle in the lower left corner.</p></li>
-</ol>
-<p id="p-723"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/graphpaper.png" class="contained"></div></p></article><article class="exercise exercise-like" id="exercise-150"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
-<ol id="p-727" class="lower-alpha">
-<li id="li-372"><p id="p-728">Make a table showing the length and height of all rectangles you can make with 30 tiles.</p></li>
-<li id="li-373"><p id="p-729">Sketch your rectangles on the grid below, starting each rectangle in the lower left corner.</p></li>
-</ol>
-<p id="p-730"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/graphpaper.png" class="contained"></div></p></article>
+<div class="para logical" id="p-720"><ol class="lower-alpha">
+<li id="li-368"><div class="para" id="p-721">Make a table showing the length and height of all rectangles you can make with 30 tiles.</div></li>
+<li id="li-369"><div class="para" id="p-722">Sketch your rectangles on the grid below, starting each rectangle in the lower left corner.</div></li>
+</ol></div> <div class="para" id="p-723"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/graphpaper.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-150"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
+<div class="para logical" id="p-727"><ol class="lower-alpha">
+<li id="li-372"><div class="para" id="p-728">Make a table showing the length and height of all rectangles you can make with 30 tiles.</div></li>
+<li id="li-373"><div class="para" id="p-729">Sketch your rectangles on the grid below, starting each rectangle in the lower left corner.</div></li>
+</ol></div> <div class="para" id="p-730"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/graphpaper.png" class="contained"></div></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-22">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-22"><p id="p-731">For Problems 7-10, find a factor pair for the first number whose sum is the second number.</p></div>
+<div class="introduction" id="introduction-22"><div class="para" id="p-731">For Problems 7-10, find a factor pair for the first number whose sum is the second number.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-151"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
-<p id="p-732">24, 11</p></article><article class="exercise exercise-like" id="exercise-152"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
-<p id="p-734">24, 10</p></article><article class="exercise exercise-like" id="exercise-153"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
-<p id="p-735">54, 21</p></article><article class="exercise exercise-like" id="exercise-154"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
-<p id="p-737">80, 21</p></article>
+<div class="para" id="p-732">24, 11</div></article><article class="exercise exercise-like" id="exercise-152"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<div class="para" id="p-734">24, 10</div></article><article class="exercise exercise-like" id="exercise-153"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
+<div class="para" id="p-735">54, 21</div></article><article class="exercise exercise-like" id="exercise-154"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
+<div class="para" id="p-737">80, 21</div></article>
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-155"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
-<p id="p-738">What is the smallest number that is the product of four different prime factors?</p></article><article class="exercise exercise-like" id="exercise-156"><h4 class="heading"><span class="codenumber">12<span class="period">.</span></span></h4>
-<p id="p-740">List four different composite numbers whose prime factors are all 3's.</p></article><div class="exercisegroup" id="exercisegroup-23">
+<div class="para" id="p-738">What is the smallest number that is the product of four different prime factors?</div></article><article class="exercise exercise-like" id="exercise-156"><h4 class="heading"><span class="codenumber">12<span class="period">.</span></span></h4>
+<div class="para" id="p-740">List four different composite numbers whose prime factors are all 3's.</div></article><div class="exercisegroup" id="exercisegroup-23">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-23"><p id="p-741">Look back at your prime sieve in Activity 2, and use it to answer the questions in Problems 13-22. (There is another copy of the number grid at the end of the Practice set.)</p></div>
+<div class="introduction" id="introduction-23"><div class="para" id="p-741">Look back at your prime sieve in Activity 2, and use it to answer the questions in Problems 13-22. (There is another copy of the number grid at the end of the Practice set.)</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-157"><h5 class="heading"><span class="codenumber">13<span class="period">.</span></span></h5>
-<p id="p-742">How many primes did you find?</p></article><article class="exercise exercise-like" id="exercise-158"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
-<p id="p-744">5 and 7 are called twin primes because they are separated by only one number.  List all the twin primes less than 100.</p></article><article class="exercise exercise-like" id="exercise-159"><h5 class="heading"><span class="codenumber">15<span class="period">.</span></span></h5>
-<p id="p-745">Find 5 composite numbers in a row.</p></article><article class="exercise exercise-like" id="exercise-160"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
-<p id="p-747">What is the longest string of consecutive composite numbers less than 100?</p></article><article class="exercise exercise-like" id="exercise-161"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
-<p id="p-748">When you made the sieve, you didn't need to cross out multiples of 6. Why not?</p></article><article class="exercise exercise-like" id="exercise-162"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
-<p id="p-750">Although 11 is a prime, you didn't need to cross out multiples of 11. Why not?</p></article><article class="exercise exercise-like" id="exercise-163"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
-<p id="p-751">Which number has the most different prime factors?</p></article><article class="exercise exercise-like" id="exercise-164"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
-<p id="p-753">List all the composite numbers that have only one prime factor, occurring twice. These numbers are called "perfect squares."</p></article><article class="exercise exercise-like" id="exercise-165"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
-<p id="p-754">Which number has the most copies of the same prime factor?</p></article><article class="exercise exercise-like" id="exercise-166"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
-<p id="p-756">Which number has the largest prime factor?</p></article>
+<div class="para" id="p-742">How many primes did you find?</div></article><article class="exercise exercise-like" id="exercise-158"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
+<div class="para" id="p-744">5 and 7 are called twin primes because they are separated by only one number.  List all the twin primes less than 100.</div></article><article class="exercise exercise-like" id="exercise-159"><h5 class="heading"><span class="codenumber">15<span class="period">.</span></span></h5>
+<div class="para" id="p-745">Find 5 composite numbers in a row.</div></article><article class="exercise exercise-like" id="exercise-160"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
+<div class="para" id="p-747">What is the longest string of consecutive composite numbers less than 100?</div></article><article class="exercise exercise-like" id="exercise-161"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
+<div class="para" id="p-748">When you made the sieve, you didn't need to cross out multiples of 6. Why not?</div></article><article class="exercise exercise-like" id="exercise-162"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
+<div class="para" id="p-750">Although 11 is a prime, you didn't need to cross out multiples of 11. Why not?</div></article><article class="exercise exercise-like" id="exercise-163"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
+<div class="para" id="p-751">Which number has the most different prime factors?</div></article><article class="exercise exercise-like" id="exercise-164"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
+<div class="para" id="p-753">List all the composite numbers that have only one prime factor, occurring twice. These numbers are called "perfect squares."</div></article><article class="exercise exercise-like" id="exercise-165"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
+<div class="para" id="p-754">Which number has the most copies of the same prime factor?</div></article><article class="exercise exercise-like" id="exercise-166"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
+<div class="para" id="p-756">Which number has the largest prime factor?</div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-24">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
 <div class="introduction" id="introduction-24">
-<p id="p-757">Use the number grid below to continue the Sieve of Eratosthenes, and find all the primes between 100 and 200. Begin by crossing out all multiples of 2, then all multiples of 3, etc. If possible, use a different color for the multiples of each prime. Then answer the questions in Problems 23-30.</p>
-<p id="p-758"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/sieve2.png" class="contained"></div></p>
+<div class="para" id="p-757">Use the number grid below to continue the Sieve of Eratosthenes, and find all the primes between 100 and 200. Begin by crossing out all multiples of 2, then all multiples of 3, etc. If possible, use a different color for the multiples of each prime. Then answer the questions in Problems 23-30.</div> <div class="para" id="p-758"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/sieve2.png" class="contained"></div></div>
 </div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-167"><h5 class="heading"><span class="codenumber">23<span class="period">.</span></span></h5>
-<p id="p-759">List all the prime numbers between 100 and 200. How many are there?</p></article><article class="exercise exercise-like" id="exercise-168"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
-<p id="p-761">List all the twin primes between 100 and 200.</p></article><article class="exercise exercise-like" id="exercise-169"><h5 class="heading"><span class="codenumber">25<span class="period">.</span></span></h5>
-<p id="p-762">What is the longest string of consecutive composite numbers between 100 and 200?</p></article><article class="exercise exercise-like" id="exercise-170"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
-<p id="p-764">What was the largest prime for which you had to cross out multiples?</p></article><article class="exercise exercise-like" id="exercise-171"><h5 class="heading"><span class="codenumber">27<span class="period">.</span></span></h5>
-<p id="p-765">Which two rows of your table have the most primes?</p></article><article class="exercise exercise-like" id="exercise-172"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
-<p id="p-767">Which column of your table has the most primes?</p></article><article class="exercise exercise-like" id="exercise-173"><h5 class="heading"><span class="codenumber">29<span class="period">.</span></span></h5>
-<p id="p-768">A number cannot be a prime if it ends in 2, 4, 6, or 8. Why is that?</p></article><article class="exercise exercise-like" id="exercise-174"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
-<p id="p-770">A number cannot be a prime if it ends in 5 or 0. Why is that?</p></article>
+<div class="para" id="p-759">List all the prime numbers between 100 and 200. How many are there?</div></article><article class="exercise exercise-like" id="exercise-168"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
+<div class="para" id="p-761">List all the twin primes between 100 and 200.</div></article><article class="exercise exercise-like" id="exercise-169"><h5 class="heading"><span class="codenumber">25<span class="period">.</span></span></h5>
+<div class="para" id="p-762">What is the longest string of consecutive composite numbers between 100 and 200?</div></article><article class="exercise exercise-like" id="exercise-170"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
+<div class="para" id="p-764">What was the largest prime for which you had to cross out multiples?</div></article><article class="exercise exercise-like" id="exercise-171"><h5 class="heading"><span class="codenumber">27<span class="period">.</span></span></h5>
+<div class="para" id="p-765">Which two rows of your table have the most primes?</div></article><article class="exercise exercise-like" id="exercise-172"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
+<div class="para" id="p-767">Which column of your table has the most primes?</div></article><article class="exercise exercise-like" id="exercise-173"><h5 class="heading"><span class="codenumber">29<span class="period">.</span></span></h5>
+<div class="para" id="p-768">A number cannot be a prime if it ends in 2, 4, 6, or 8. Why is that?</div></article><article class="exercise exercise-like" id="exercise-174"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
+<div class="para" id="p-770">A number cannot be a prime if it ends in 5 or 0. Why is that?</div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-25">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-25">
-<p id="p-771">For Problems 31-38,</p>
+<div class="introduction" id="introduction-25"><div class="para logical" id="p-771">
+<div class="para">For Problems 31-38,</div>
 <ol class="lower-alpha">
-<li id="li-374"><p id="p-772">Make a factor tree for the composite number.</p></li>
-<li id="li-375"><p id="p-773">Write the prime factorization for the number.</p></li>
+<li id="li-374"><div class="para" id="p-772">Make a factor tree for the composite number.</div></li>
+<li id="li-375"><div class="para" id="p-773">Write the prime factorization for the number.</div></li>
 </ol>
-</div>
+</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-175"><h5 class="heading"><span class="codenumber">31<span class="period">.</span></span></h5>
-<p id="p-774">36</p></article><article class="exercise exercise-like" id="exercise-176"><h5 class="heading"><span class="codenumber">32<span class="period">.</span></span></h5>
-<p id="p-776">84</p></article><article class="exercise exercise-like" id="exercise-177"><h5 class="heading"><span class="codenumber">33<span class="period">.</span></span></h5>
-<p id="p-777">72</p></article><article class="exercise exercise-like" id="exercise-178"><h5 class="heading"><span class="codenumber">34<span class="period">.</span></span></h5>
-<p id="p-779">66</p></article><article class="exercise exercise-like" id="exercise-179"><h5 class="heading"><span class="codenumber">35<span class="period">.</span></span></h5>
-<p id="p-780">250</p></article><article class="exercise exercise-like" id="exercise-180"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
-<p id="p-782">169</p></article><article class="exercise exercise-like" id="exercise-181"><h5 class="heading"><span class="codenumber">37<span class="period">.</span></span></h5>
-<p id="p-783">198</p></article><article class="exercise exercise-like" id="exercise-182"><h5 class="heading"><span class="codenumber">38<span class="period">.</span></span></h5>
-<p id="p-785">180</p></article>
+<div class="para" id="p-774">36</div></article><article class="exercise exercise-like" id="exercise-176"><h5 class="heading"><span class="codenumber">32<span class="period">.</span></span></h5>
+<div class="para" id="p-776">84</div></article><article class="exercise exercise-like" id="exercise-177"><h5 class="heading"><span class="codenumber">33<span class="period">.</span></span></h5>
+<div class="para" id="p-777">72</div></article><article class="exercise exercise-like" id="exercise-178"><h5 class="heading"><span class="codenumber">34<span class="period">.</span></span></h5>
+<div class="para" id="p-779">66</div></article><article class="exercise exercise-like" id="exercise-179"><h5 class="heading"><span class="codenumber">35<span class="period">.</span></span></h5>
+<div class="para" id="p-780">250</div></article><article class="exercise exercise-like" id="exercise-180"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
+<div class="para" id="p-782">169</div></article><article class="exercise exercise-like" id="exercise-181"><h5 class="heading"><span class="codenumber">37<span class="period">.</span></span></h5>
+<div class="para" id="p-783">198</div></article><article class="exercise exercise-like" id="exercise-182"><h5 class="heading"><span class="codenumber">38<span class="period">.</span></span></h5>
+<div class="para" id="p-785">180</div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-26">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-26"><p id="p-786">For Problems 39-50, find the greatest common factor.</p></div>
+<div class="introduction" id="introduction-26"><div class="para" id="p-786">For Problems 39-50, find the greatest common factor.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-183"><h5 class="heading"><span class="codenumber">39<span class="period">.</span></span></h5>
-<p id="p-787">36,  48</p></article><article class="exercise exercise-like" id="exercise-184"><h5 class="heading"><span class="codenumber">40<span class="period">.</span></span></h5>
-<p id="p-789">32,  48</p></article><article class="exercise exercise-like" id="exercise-185"><h5 class="heading"><span class="codenumber">41<span class="period">.</span></span></h5>
-<p id="p-790">35,  56</p></article><article class="exercise exercise-like" id="exercise-186"><h5 class="heading"><span class="codenumber">42<span class="period">.</span></span></h5>
-<p id="p-792">36,  54</p></article><article class="exercise exercise-like" id="exercise-187"><h5 class="heading"><span class="codenumber">43<span class="period">.</span></span></h5>
-<p id="p-793">50,  76</p></article><article class="exercise exercise-like" id="exercise-188"><h5 class="heading"><span class="codenumber">44<span class="period">.</span></span></h5>
-<p id="p-795">60,  72</p></article><article class="exercise exercise-like" id="exercise-189"><h5 class="heading"><span class="codenumber">45<span class="period">.</span></span></h5>
-<p id="p-796">7,  19</p></article><article class="exercise exercise-like" id="exercise-190"><h5 class="heading"><span class="codenumber">46<span class="period">.</span></span></h5>
-<p id="p-798">14,  27</p></article><article class="exercise exercise-like" id="exercise-191"><h5 class="heading"><span class="codenumber">47<span class="period">.</span></span></h5>
-<p id="p-799">51,  57</p></article><article class="exercise exercise-like" id="exercise-192"><h5 class="heading"><span class="codenumber">48<span class="period">.</span></span></h5>
-<p id="p-801">66, 110</p></article><article class="exercise exercise-like" id="exercise-193"><h5 class="heading"><span class="codenumber">49<span class="period">.</span></span></h5>
-<p id="p-802">216, 288</p></article><article class="exercise exercise-like" id="exercise-194"><h5 class="heading"><span class="codenumber">50<span class="period">.</span></span></h5>
-<p id="p-804">150, 400</p></article>
+<div class="para" id="p-787">36,  48</div></article><article class="exercise exercise-like" id="exercise-184"><h5 class="heading"><span class="codenumber">40<span class="period">.</span></span></h5>
+<div class="para" id="p-789">32,  48</div></article><article class="exercise exercise-like" id="exercise-185"><h5 class="heading"><span class="codenumber">41<span class="period">.</span></span></h5>
+<div class="para" id="p-790">35,  56</div></article><article class="exercise exercise-like" id="exercise-186"><h5 class="heading"><span class="codenumber">42<span class="period">.</span></span></h5>
+<div class="para" id="p-792">36,  54</div></article><article class="exercise exercise-like" id="exercise-187"><h5 class="heading"><span class="codenumber">43<span class="period">.</span></span></h5>
+<div class="para" id="p-793">50,  76</div></article><article class="exercise exercise-like" id="exercise-188"><h5 class="heading"><span class="codenumber">44<span class="period">.</span></span></h5>
+<div class="para" id="p-795">60,  72</div></article><article class="exercise exercise-like" id="exercise-189"><h5 class="heading"><span class="codenumber">45<span class="period">.</span></span></h5>
+<div class="para" id="p-796">7,  19</div></article><article class="exercise exercise-like" id="exercise-190"><h5 class="heading"><span class="codenumber">46<span class="period">.</span></span></h5>
+<div class="para" id="p-798">14,  27</div></article><article class="exercise exercise-like" id="exercise-191"><h5 class="heading"><span class="codenumber">47<span class="period">.</span></span></h5>
+<div class="para" id="p-799">51,  57</div></article><article class="exercise exercise-like" id="exercise-192"><h5 class="heading"><span class="codenumber">48<span class="period">.</span></span></h5>
+<div class="para" id="p-801">66, 110</div></article><article class="exercise exercise-like" id="exercise-193"><h5 class="heading"><span class="codenumber">49<span class="period">.</span></span></h5>
+<div class="para" id="p-802">216, 288</div></article><article class="exercise exercise-like" id="exercise-194"><h5 class="heading"><span class="codenumber">50<span class="period">.</span></span></h5>
+<div class="para" id="p-804">150, 400</div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-27">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-27">
-<p id="p-805">For Problems 51-54,</p>
+<div class="introduction" id="introduction-27"><div class="para logical" id="p-805">
+<div class="para">For Problems 51-54,</div>
 <ol class="lower-alpha">
-<li id="li-376"><p id="p-806">List all factors of the first number.</p></li>
-<li id="li-377"><p id="p-807">Find the greatest common factor.</p></li>
+<li id="li-376"><div class="para" id="p-806">List all factors of the first number.</div></li>
+<li id="li-377"><div class="para" id="p-807">Find the greatest common factor.</div></li>
 </ol>
-</div>
+</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-195"><h5 class="heading"><span class="codenumber">51<span class="period">.</span></span></h5>
-<p id="p-808">34,  765</p></article><article class="exercise exercise-like" id="exercise-196"><h5 class="heading"><span class="codenumber">52<span class="period">.</span></span></h5>
-<p id="p-812">29,  1392</p></article><article class="exercise exercise-like" id="exercise-197"><h5 class="heading"><span class="codenumber">53<span class="period">.</span></span></h5>
-<p id="p-813">43,  173</p></article><article class="exercise exercise-like" id="exercise-198"><h5 class="heading"><span class="codenumber">54<span class="period">.</span></span></h5>
-<p id="p-817">169,  605</p></article>
+<div class="para" id="p-808">34,  765</div></article><article class="exercise exercise-like" id="exercise-196"><h5 class="heading"><span class="codenumber">52<span class="period">.</span></span></h5>
+<div class="para" id="p-812">29,  1392</div></article><article class="exercise exercise-like" id="exercise-197"><h5 class="heading"><span class="codenumber">53<span class="period">.</span></span></h5>
+<div class="para" id="p-813">43,  173</div></article><article class="exercise exercise-like" id="exercise-198"><h5 class="heading"><span class="codenumber">54<span class="period">.</span></span></h5>
+<div class="para" id="p-817">169,  605</div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-28">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-28"><p id="p-818">For Problems 55-62, find the lowest common multiple.</p></div>
+<div class="introduction" id="introduction-28"><div class="para" id="p-818">For Problems 55-62, find the lowest common multiple.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-199"><h5 class="heading"><span class="codenumber">55<span class="period">.</span></span></h5>
-<p id="p-819">20,  25</p></article><article class="exercise exercise-like" id="exercise-200"><h5 class="heading"><span class="codenumber">56<span class="period">.</span></span></h5>
-<p id="p-821">20,  24</p></article><article class="exercise exercise-like" id="exercise-201"><h5 class="heading"><span class="codenumber">57<span class="period">.</span></span></h5>
-<p id="p-822">14,  21</p></article><article class="exercise exercise-like" id="exercise-202"><h5 class="heading"><span class="codenumber">58<span class="period">.</span></span></h5>
-<p id="p-824">15,  45</p></article><article class="exercise exercise-like" id="exercise-203"><h5 class="heading"><span class="codenumber">59<span class="period">.</span></span></h5>
-<p id="p-825">30,  42</p></article><article class="exercise exercise-like" id="exercise-204"><h5 class="heading"><span class="codenumber">60<span class="period">.</span></span></h5>
-<p id="p-827">50,  76</p></article><article class="exercise exercise-like" id="exercise-205"><h5 class="heading"><span class="codenumber">61<span class="period">.</span></span></h5>
-<p id="p-828">66,  110</p></article><article class="exercise exercise-like" id="exercise-206"><h5 class="heading"><span class="codenumber">62<span class="period">.</span></span></h5>
-<p id="p-830">60,  72</p></article>
+<div class="para" id="p-819">20,  25</div></article><article class="exercise exercise-like" id="exercise-200"><h5 class="heading"><span class="codenumber">56<span class="period">.</span></span></h5>
+<div class="para" id="p-821">20,  24</div></article><article class="exercise exercise-like" id="exercise-201"><h5 class="heading"><span class="codenumber">57<span class="period">.</span></span></h5>
+<div class="para" id="p-822">14,  21</div></article><article class="exercise exercise-like" id="exercise-202"><h5 class="heading"><span class="codenumber">58<span class="period">.</span></span></h5>
+<div class="para" id="p-824">15,  45</div></article><article class="exercise exercise-like" id="exercise-203"><h5 class="heading"><span class="codenumber">59<span class="period">.</span></span></h5>
+<div class="para" id="p-825">30,  42</div></article><article class="exercise exercise-like" id="exercise-204"><h5 class="heading"><span class="codenumber">60<span class="period">.</span></span></h5>
+<div class="para" id="p-827">50,  76</div></article><article class="exercise exercise-like" id="exercise-205"><h5 class="heading"><span class="codenumber">61<span class="period">.</span></span></h5>
+<div class="para" id="p-828">66,  110</div></article><article class="exercise exercise-like" id="exercise-206"><h5 class="heading"><span class="codenumber">62<span class="period">.</span></span></h5>
+<div class="para" id="p-830">60,  72</div></article>
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-207"><h4 class="heading"><span class="codenumber">63<span class="period">.</span></span></h4>
-<ol id="p-831" class="lower-alpha">
-<li id="li-382"><p id="p-832">Give an example where the LCM of two numbers is their product.</p></li>
-<li id="li-383"><p id="p-833">Give an example where the LCM of two numbers is not their product.</p></li>
-<li id="li-384"><p id="p-834">Give an example where the LCM of two numbers is the larger of the numbers.</p></li>
-</ol></article><article class="exercise exercise-like" id="exercise-208"><h4 class="heading"><span class="codenumber">64<span class="period">.</span></span></h4>
-<ol id="p-839" class="lower-alpha">
-<li id="li-388"><p id="p-840">Write the prime factorization of 30.</p></li>
-<li id="li-389"><p id="p-841">Write the prime factorization of 42.</p></li>
-<li id="li-390"><p id="p-842">Find the GCF of 30 and 42. Circle the factors that you used from parts (a) and (b) to build the GCF.</p></li>
-<li id="li-391"><p id="p-843">Find the LCM of 30 and 42. Circle the factors that you used from parts (a) and (b) to build the LCM.</p></li>
-<li id="li-392"><p id="p-844">What do you notice about the factors you circled in parts (c) and (d)?</p></li>
-</ol></article><div class="exercisegroup" id="exercisegroup-29">
+<div class="para logical" id="p-831"><ol class="lower-alpha">
+<li id="li-382"><div class="para" id="p-832">Give an example where the LCM of two numbers is their product.</div></li>
+<li id="li-383"><div class="para" id="p-833">Give an example where the LCM of two numbers is not their product.</div></li>
+<li id="li-384"><div class="para" id="p-834">Give an example where the LCM of two numbers is the larger of the numbers.</div></li>
+</ol></div></article><article class="exercise exercise-like" id="exercise-208"><h4 class="heading"><span class="codenumber">64<span class="period">.</span></span></h4>
+<div class="para logical" id="p-839"><ol class="lower-alpha">
+<li id="li-388"><div class="para" id="p-840">Write the prime factorization of 30.</div></li>
+<li id="li-389"><div class="para" id="p-841">Write the prime factorization of 42.</div></li>
+<li id="li-390"><div class="para" id="p-842">Find the GCF of 30 and 42. Circle the factors that you used from parts (a) and (b) to build the GCF.</div></li>
+<li id="li-391"><div class="para" id="p-843">Find the LCM of 30 and 42. Circle the factors that you used from parts (a) and (b) to build the LCM.</div></li>
+<li id="li-392"><div class="para" id="p-844">What do you notice about the factors you circled in parts (c) and (d)?</div></li>
+</ol></div></article><div class="exercisegroup" id="exercisegroup-29">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-29">
-<p id="p-845">For Problems 65-70,</p>
+<div class="introduction" id="introduction-29"><div class="para logical" id="p-845">
+<div class="para">For Problems 65-70,</div>
 <ol class="lower-alpha">
-<li id="li-393"><p id="p-846">Answer the question in the problem.</p></li>
-<li id="li-394"><p id="p-847">Did you need to find a GCF or an LCM?</p></li>
+<li id="li-393"><div class="para" id="p-846">Answer the question in the problem.</div></li>
+<li id="li-394"><div class="para" id="p-847">Did you need to find a GCF or an LCM?</div></li>
 </ol>
-</div>
+</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-209"><h5 class="heading"><span class="codenumber">65<span class="period">.</span></span></h5>
-<p id="p-848">Marlene is ordering supplies for her art class. Each student should get the same set of materials.  She will need 138 sheets of construction paper and 115 crayons. How many students are in her class?</p></article><article class="exercise exercise-like" id="exercise-210"><h5 class="heading"><span class="codenumber">66<span class="period">.</span></span></h5>
-<p id="p-852">Avril is planning the meals for a conference. She will need 212 sandwiches and 318 cookies so that each guest gets the same amount of food. How many people will attend the conference?</p></article><article class="exercise exercise-like" id="exercise-211"><h5 class="heading"><span class="codenumber">67<span class="period">.</span></span></h5>
-<p id="p-853">Saturn takes about 30 Earth years to make one revolution around the Sun, and Jupiter takes about 12 Earth years to make one revolution. If Earth, Jupiter, and Saturn are in a straight line right now, how long will it be before they are aligned again?</p></article><article class="exercise exercise-like" id="exercise-212"><h5 class="heading"><span class="codenumber">68<span class="period">.</span></span></h5>
-<p id="p-857">Yusuf runs one lap around the track in 72 seconds, and Kwan runs one lap in 64 seconds. If they start at the same time, how long will it be before they are at the starting line at the same time again? How many laps will each boy have run?</p></article><article class="exercise exercise-like" id="exercise-213"><h5 class="heading"><span class="codenumber">69<span class="period">.</span></span></h5>
-<p id="p-858">Daffodil bulbs come in packages of 40, and tulip bulbs come in packages of 25. How many packages of each should you buy so that you will have the same number of tulips and daffodils?</p></article><article class="exercise exercise-like" id="exercise-214"><h5 class="heading"><span class="codenumber">70<span class="period">.</span></span></h5>
-<p id="p-862">Last weekend the swim team made $198 by mowing lawns. This weekend they made $260. How much did they charge to mow a lawn?</p></article>
+<div class="para" id="p-848">Marlene is ordering supplies for her art class. Each student should get the same set of materials.  She will need 138 sheets of construction paper and 115 crayons. How many students are in her class?</div></article><article class="exercise exercise-like" id="exercise-210"><h5 class="heading"><span class="codenumber">66<span class="period">.</span></span></h5>
+<div class="para" id="p-852">Avril is planning the meals for a conference. She will need 212 sandwiches and 318 cookies so that each guest gets the same amount of food. How many people will attend the conference?</div></article><article class="exercise exercise-like" id="exercise-211"><h5 class="heading"><span class="codenumber">67<span class="period">.</span></span></h5>
+<div class="para" id="p-853">Saturn takes about 30 Earth years to make one revolution around the Sun, and Jupiter takes about 12 Earth years to make one revolution. If Earth, Jupiter, and Saturn are in a straight line right now, how long will it be before they are aligned again?</div></article><article class="exercise exercise-like" id="exercise-212"><h5 class="heading"><span class="codenumber">68<span class="period">.</span></span></h5>
+<div class="para" id="p-857">Yusuf runs one lap around the track in 72 seconds, and Kwan runs one lap in 64 seconds. If they start at the same time, how long will it be before they are at the starting line at the same time again? How many laps will each boy have run?</div></article><article class="exercise exercise-like" id="exercise-213"><h5 class="heading"><span class="codenumber">69<span class="period">.</span></span></h5>
+<div class="para" id="p-858">Daffodil bulbs come in packages of 40, and tulip bulbs come in packages of 25. How many packages of each should you buy so that you will have the same number of tulips and daffodils?</div></article><article class="exercise exercise-like" id="exercise-214"><h5 class="heading"><span class="codenumber">70<span class="period">.</span></span></h5>
+<div class="para" id="p-862">Last weekend the swim team made $198 by mowing lawns. This weekend they made $260. How much did they charge to mow a lawn?</div></article>
 </div>
 </div>
-<p id="p-863"><div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/sieve.png" class="contained"></div></p>
-<p id="p-864"><div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/sieve.png" class="contained"></div></p></section></section></div></main>
+<div class="para" id="p-863"><div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/sieve.png" class="contained"></div></div>
+<div class="para" id="p-864"><div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/sieve.png" class="contained"></div></div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-1-2.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec-1-4.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
 </div>
 </body>
 </html>
