@@ -33,6 +33,7 @@
     <xi:include href="./ch4.ptx" />
     <xi:include href="./ch5.ptx" />
     <xi:include href="./ch6.ptx" />
+    <xi:include href="./ch7.ptx" />
     
     <!-- Of course you will want to add more chapters as you proceed-->
 

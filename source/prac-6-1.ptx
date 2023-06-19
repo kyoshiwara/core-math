@@ -17,9 +17,9 @@
   <li><p>Which type of comparison gives the actual difference in the sizes of two quantities?</p></li>
 </ol></p></statement></exercise>
 
-<exercisegroup><introduction><p>For Problems 3-6, decide whether additive or multiplicative comparison is appropriate.<ul> s
-    <li><p>If the relationship is additive, write a difference and a sentence to describe it.</p></li> 
-    <li><p>If the relationship is multiplicative, write a quotient and a sentence to describe it.</p></li>
+<exercisegroup><introduction><p>For Problems 3-6, decide whether additive or multiplicative comparison is appropriate.<ul> 
+    <li><p>If you choose additive comparison, write a difference and a sentence to describe it.</p></li> 
+    <li><p>If you choose multiplicative comparison, write a quotient and a sentence to describe it.</p></li>
   </ul></p></introduction>
 
 <exercise number="3"><statement><p>Ravi has a photograph that measures 6 inches by 4 inches. He would like to paint an enlargement of the picture. What should be the relationship between the length and width of the painting?</p></statement>
@@ -41,10 +41,10 @@
 </ol></p></statement>
   <answer><p><ol marker="a">
   <li><p>The ratio of <m>a</m> to <m>b</m></p></li>
-  <li><p>Divid <m>a</m> by <m>b</m></p></li>
+  <li><p>Divide <m>a</m> by <m>b</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="8"><statement><p>What is the difference between a fraction and a ratio?</p></statement></exercise>
+<exercise number="8"><statement><p>How might a ratio be used where a fraction would not?</p></statement></exercise>
 
 <exercise number="9"><statement><p>Find three pairs of numbers whose ratio is <m>\dfrac{5}{8}</m>.</p></statement>
     <answer><p>10 and 16, 15 and 24, 20 and 32</p></answer></exercise>
@@ -54,7 +54,7 @@
 <exercise number="11"><statement><p>If there are more sheep than goats, what can you say about the ratio of sheep to goats?</p></statement>
     <answer><p>It is greater than 1.</p></answer></exercise>
 
-<exercise number="12"><statement><p>The ratio of oak trees to pine trees in the park is <m>1:1</m>.  What does this tell you about the number of trees in the park?</p></statement></exercise>
+<exercise number="12"><statement><p>The ratio of oak trees to pine trees in the park is <m>1:1</m>. What does this tell you about the numbers of oak trees and pine trees in the park?</p></statement></exercise>
 
 <exercise number="13"><statement><p>For every three sailboats registered to use the lake, there are four motorboats.</p>
       <image source="sailboats.png" width="50%"></image>
@@ -174,10 +174,21 @@
 
 <exercisegroup><introduction><p>For Problems 35-44, write a rate to describe the situation. If necessary, round your answers to three decimal places.</p></introduction>
 
-<exercise number="35"><statement><p>An experimental commuter mini van can travel 576 miles on a 12-gallon tank of gas.  What is its fuel efficiency, in miles per gallon?</p></statement>
-<answer><p>48 mpg</p></answer></exercise>
+<exercise number="35"><statement><p>An experimental commuter minivan can travel 576 miles on a 12-gallon tank of gas.</p>
+<p><ol marker="a">
+  <li><p>What is its fuel efficiency, in miles per gallon?</p></li>
+  <li><p>How far can the minivan travel on 15 gallons of gas?</p></li>
+</ol></p></statement>
+<answer><p><ol marker="a">
+  <li><p>48 mpg</p></li>
+  <li><p>720 mi</p></li>
+</ol></p></answer></exercise>
 
-<exercise number="36"><statement><p>Maryellen's family used 1044 kilowatt hours of electricity during the last billing period, which was for 58 days.  What was their rate of energy consumption, in kilowatt hours per day?</p></statement></exercise>
+<exercise number="36"><statement><p>Maryellen's family used 1044 kilowatt hours of electricity during the last billing period, which was for 58 days.</p>  
+<p><ol marker="a">
+  <li><p>What was their rate of energy consumption, in kilowatt hours per day?</p>
+  <li><p>How much energy would they use in one month of 30 days?</p></li>
+</li></ol></p></statement></exercise>
 
 <exercise number="37"><statement><p>Liesl jogs 5 miles in 40 minutes.<ol marker="a">  
   <li><p>What is her speed in minutes per mile?</p></li>  
@@ -201,24 +212,27 @@
 <exercise number="41"><statement><p>Maurice paid $29.82, including sales tax, for a $28 sweater.<ol marker="a">  
   <li><p>What was the sales tax rate, in cents per dollar?</p></li>
   <li><p>Express the sales tax rate as a percentage.</p></li>
+  <li><p>What is the tax on a $200 purchase?</p></li>
 </ol></p></statement>
 <answer><p><ol marker="a">  
   <li><p>6.5 cents per dollar</p></li>
   <li><p>6.5%</p></li>
+  <li><p>$13</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="42"><statement><p>Nicole paid $31.68 to fill her car with gasoline.  Of that amount, $6.84 was for taxes.<ol marker="a">  
-  <li><p>What was the tax rate, in cents per dollar?  Round your answer to hundredths.</p></li>
+<exercise number="42"><statement><p>Nicole paid $66.24 to fill her car with gasoline. Of that amount, $11.04 was for taxes.<ol marker="a">  
+  <li><p>What was the tax rate, in cents per dollar?</p></li>
   <li><p>Express the tax rate as a percentage.</p></li>
+  <li><p>What is the tax on $20 worth of gasoline?</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="43"><statement><p>Armand made $144 for 15 hours of work last week.<ol marker="a">  
+<exercise number="43"><statement><p>Armand made $192 for 15 hours of work last week.<ol marker="a">  
   <li><p>Write his rate of pay as a ratio.</p></li>
   <li><p>Calculate Armand's rate of pay, in dollars per hour.</p></li>
 </ol></p></statement>
 <answer><p><ol marker="a">  
-  <li><p><m>\dfrac{144}{15} = \dfrac{48}{5}</m> </p></li>
-  <li><p>$9.60 per hour</p></li>
+  <li><p><m>\dfrac{192}{15} = \dfrac{84}{5}</m> </p></li>
+  <li><p>$12.80 per hour</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="44"><statement><p>Beaverhead is the largest county in Montana, with an area of 5543 square miles.  The population of Beaverhead County is 8790.<ol marker="a">  

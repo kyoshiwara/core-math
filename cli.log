@@ -1,3 +1,8 @@
 INFO    : PreTeXt project found in `C:\Users\kyosh\pretext\core-math`.
 INFO    : Preparing to deploy from active `main` git branch.
 INFO    : 
+INFO    : Changes to project source since last commit detected.
+ERROR   : Either add and commit these changes with Git, or run
+ERROR   : `pretext deploy -u` to have these changes updated automatically.
+INFO    : While running pretext, the following errors occurred:
+

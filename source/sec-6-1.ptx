@@ -34,51 +34,98 @@ We use division to make a <term>multiplicative comparison</term>.  For the weigh
 Boris weighs <m>1.08</m> times as much as Cyril.  (We can also say that Boris weighs 8% more than Cyril.)</p>
 
 <exercise><statement><p>Use multiplicative comparison to compare prices. In which case is the $100 price difference more significant?<ol marker="a">
-  <li><p>You are shopping for a new sweater and find one that you really like at Chic Boutique for $125. Luckily, you find the same sweater at Sweater Barn for $25.  
-    <me>\blert{\dfrac{\text{Price at Chic Boutique}}{\text{Price at Sweater Barn}} =~~~~~~~~~~~~~~~~~}</me></p></li>                             
-  <li><p>You are shopping for a new car. The model you want costs $25,000, but you can get it in red, your favorite color, for $25,100.                                           
-      <me>\blert{\dfrac{\text{Price of new car in red}}{\text{Price of new car}} =~~~~~~~~~~~~~~~~~}</me></p></li>
-</ol></p></statement></exercise>
+  <li>You are shopping for a new sweater and find one that you really like at Chic Boutique for $125. Luckily, you find the same sweater at Sweater Barn for $25.  
+    <me>\blert{\dfrac{\text{Price at Chic Boutique}}{\text{Price at Sweater Barn}} =~~~~~~~~~~~~~~~~~}</me></li>                             
+  <li>You are shopping for a new car. The model you want costs $25,000, but you can get it in red, your favorite color, for $25,100.                                           
+      <me>\blert{\dfrac{\text{Price of new car in red}}{\text{Price of new car}} =~~~~~~~~~~~~~~~~~}</me></li>
+</ol></p></statement>
 
 <answer><p><ol marker="a">
   <li><p>5</p></li>
   <li><p>1.004</p></li>
 </ol></p>
-<p>The price difference is more significant in (a).</p></answer>
+<p>The price difference is more significant in (a).</p></answer></exercise>
+
+<p>We can think of additive and multiplicative comparison as different ways to evaluate the relationship between two quantities. Additive comparison gives us the actual difference between two quantities. Multiplicative comparison takes into account their relative sizes.</p> 
 
 <activity><title>Comparing Quantities</title>
 
-<p>Decide whether additive or multiplicative comparison is appropriate.<ul>  
-    <li><p>If the relationship is additive, write a difference and a sentence to describe it.</p></li>  
-    <li><p>If the relationship is multiplicative, write a quotient and a sentence to describe it.</p></li>
-</ul></p>
-
 <p><ol>
-  <li><p>Kelli and Kendra swim at the same speed, but Kelli swam 4 laps before Kendra started. Compare the number of laps the girls have completed after half an hour.</p></li>
-
-  <li><p>David and Dana signed up to bake brownies for a charity event. David says he will bake four dozen brownies, and Dana will bake three dozen. Compare the amounts of each ingredient they will need.</p></li>
+  <li><p>Jared and Carrie joined their department's "Losing It" contest for slimming down and getting in shape. Here are their weights before and after the six-month trial.</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+        <row bottom="minor" header="yes">
+            <cell></cell>
+            <cell>Before</cell>
+            <cell>After</cell></row>
+        <row bottom="minor">
+            <cell>Jared</cell>
+            <cell>210 lbs</cell>
+            <cell>190 lbs</cell></row>
+        <row bottom="minor">
+            <cell>Carrie</cell>
+            <cell>135 lbs</cell>
+            <cell>120 lbs</cell></row>       
+        </tabular>
+    <p><ol marker="a">
+      <li><p>Use additive comparison to compute each person's weight loss in pounds.</p></li>
+      <li><p>Use multiplicative comparison to compute each person's weight loss as a percentage of their initial weight.</p></li>
+      <li><p>Describe what each type of comparison tells you about Jared's and Carrie's weight loss.</p></li>
+      <li><p>Which person do you think did better in the contest? Why?</p></li>
+    </ol></p></li>
+<li><p>You are considering two different jobs, each of which will pay you $20,000 in your first year and $21,000 in your second year.</p>
+  <p><ol marker="a">
+    <li><p>Use additive comparison to calculate the change in your salary after one year. If Job A calculates your new salary the same way each year, how much will you make in your third year? Your fourth year? Record your answers in the table below.</p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+        <row bottom="minor" header="yes">
+            <cell>Year</cell>
+            <cell>Job A Salary</cell>
+            <cell>Job B Salary</cell></row>
+        <row bottom="minor">
+            <cell>1</cell>
+            <cell>20,000</cell>
+            <cell>20,000</cell></row>
+        <row bottom="minor">
+            <cell>2</cell>
+            <cell><m>\hphantom{000000}</m></cell>
+            <cell><m>\hphantom{000000}</m></cell></row> 
+        <row bottom="minor">
+            <cell>3</cell>
+            <cell><m>\hphantom{000000}</m></cell>
+            <cell><m>\hphantom{000000}</m></cell></row>
+        <row bottom="minor">
+            <cell>4</cell>
+            <cell><m>\hphantom{000000}</m></cell>
+            <cell><m>\hphantom{000000}</m></cell></row>      
+        </tabular></li>
+    <li><p>Use multiplicative comparison to calculate the percent change in your salary after one year. If Job B calculates your new salary the same way each year, how much will you make in your third year? Your fourth year? Record your answers in the table above.</p></li>
+    <li><p>Which job offers the better salary increases?</p></li>
+  </ol></p></li>
 </ol></p></activity>
 </subsection>
 
 <subsection><title>Ratios</title>
 
-<p>We have looked at two ways of comparing quantities. Additive comparison gives us the actual difference between two quantities.  Multiplicative comparison takes into account their relative sizes.</p>
+<p>We have looked at two ways of comparing quantities. For the rest of this lesson, we'll concentrate on multiplicative comparison.</p>
 
 <p>The quotient we used for multiplicative comparison is called a <term>ratio</term>. It tells us how many times greater one quantity is than another. If Boris weighs <m>3</m> times as much as Cyril, then the ratio of Boris' weight to Cyril's is <term>3 to 1</term>.</p>
 
 <assemblage><title>Definition</title>
-  <p>A <term>ratio</term> shows the relative sizes of two values by dividing one value into the other. The <term>ratio of <m>a</m> to <m>b</m></term>  is denoted by  <m>~a : b~</m>  and is computed as the quotient <m>~\dfrac{a}{b}</m>.</p>
+  <p>A <term>ratio</term> shows the relative sizes of two values by dividing one value into the other. The <term>ratio of <m>a</m> to <m>b</m></term>  is sometimes denoted by  <m>~a : b~</m>, and it is computed as the quotient <m>~\dfrac{a}{b}</m>.</p>
 </assemblage>
 
-<example><statement><p>The ratio of men to women in the state legislature is 5 to 2. This means that for every five men in the legislature there are two women. To display this ratio as a quotient we would write
-  <me>\dfrac{\text{number of men}}{\text{number of women}} = \dfrac{5}{2}</me></p></statement></example>
+<example><statement><p>There are 80 men in the state legislature and 16 women. To display the ratio of men to women as a quotient we would write
+  <me>\dfrac{\text{number of men}}{\text{number of women}} = \dfrac{80}{16}</me></p>
+<p>Just as we do with fractions, we can write the ratio in simpler form by reducing the fraction.
+    <me>\dfrac{\text{number of men}}{\text{number of women}} =  \dfrac{80}{16} =\dfrac{5}{2}</me>
+The ratio of men to women in the state legislature is <m>\dfrac{5}{2}</m>.</p> 
+</statement></example>
 
-<note><p>The ratio in the Example above does NOT tell us that there are exactly 5 men and 2 women in the legislature!  There could be 100 men and 40  women, or 185 men and 74 women, or many other combinations, because
+<note><p>To say that the ratio of men to women is <m>\dfrac{5}{2}</m> does NOT tell us that there are exactly 5 men and 2 women in the legislature! There could be 100 men and 40  women, or 185 men and 74 women, or many other combinations, because
   <me>\dfrac{100}{40} = \dfrac{185}{74} = \dfrac{5}{2}</me>
 You can check that all of these quotients equal 2.5. There are 2.5 times as many men as women in the state legislature.</p></note>
 
 <assemblage><title>A Quick Refresher</title>
-<p>Just as we do with fractions, we can use building factors to create new ratios with the same value, and we can reduce a ratio to a simpler form. For example, we'll find three different pairs of numbers whose ratio is <m>\dfrac{4}{3}</m>. </p> 
+<p>Recall that we can use building factors to create new fractions with the same value, and we can reduce a fraction to a simpler form. The same is true for ratios. For example, we'll find three different pairs of numbers whose ratio is <m>\dfrac{4}{3}</m>. </p> 
 
 <p><m>\blert{\text{Solution}}~~~</m>  This task is the same as finding three different fractions equivalent to <m>\dfrac{4}{3}</m>.  Because <m>\dfrac{4}{3}</m> is already in lowest terms, we will <term>build</term> <m>~\dfrac{4}{3}</m> to find equivalent fractions.  We can use any number we like (except zero) as the <term>building factor</term>.
 
@@ -90,8 +137,8 @@ We have found the following pairs with the ratio 4 to 3:
   <me>\text{8  and  6,} ~~~~    \text{12  and  9,} ~~~~   \text{16  and 12}</me>
 All these ratios are equivalent, but whenever possible we write ratios in simplest or reduced form.</p></assemblage>
 
-<exercise><statement><p>On a Saturday evening a restaurant found that 84 of its customers asked for seating in the nonsmoking section, and 35 customers preferred the smoking section.<ol marker="a">  
-  <li><p>What was the ratio of smokers to nonsmokers?</p></li>
+<exercise><statement><p>On a Saturday evening a restaurant found that 84 of its customers asked for seating inside, and 35 customers preferred to sit outside on the patio.<ol marker="a">  
+  <li><p>What was the ratio of inside diners to outside diners?</p></li>
   <li><p>Write the ratio in simplest form.</p></li>
 </ol></p></statement>
 
@@ -154,8 +201,8 @@ we can say that the ratio of nonsmokers to smokers in the previous Exercise is  
             <cell><m>\hphantom{000}</m></cell></row>
         <row bottom="minor">
             <cell>Michael Jordan</cell>
-            <cell>366</cell>
             <cell>324</cell>
+            <cell>366</cell>
             <cell><m>\hphantom{000}</m></cell>
             <cell><m>\hphantom{000}</m></cell>
             <cell><m>\hphantom{000}</m></cell></row>
@@ -218,7 +265,7 @@ and
 <p>You can think of "per" as meaning "for each" or "for every," so that "28 miles per gallon" means that you can travel 28 miles for every gallon of gas in the tank, and "55 cents per pound" means that each pound costs 55 cents.</p>
 
 <example><statement><p><ol marker="a">
-  <li><p>Kayla drove 130 miles in 212 hours. Compute the ratio of the distance she traveled to the time it took.</p></li>
+  <li><p>Kayla drove 130 miles in <m>2\frac{1}{2}</m> hours. Compute the ratio of the distance she traveled to the time it took.</p></li>
   <li><p>What is the every-day interpretation of the ratio in part (a).</p></li>
 </ol></p></statement>
 
