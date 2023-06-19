@@ -19267,7 +19267,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.1",
   "title": "Ratios",
-  "body": " Ratios   Comparing Quantities  Ratios  Decimal Form for Ratios  Rates    Comparing Quantities  How can we compare two quantities? We might say \"Boris weighs 20 pounds more than Cyril\" or \"Product A costs $100 less than Product B.\" These statements are examples of additive comparison , although we often use subtraction to describe the relationship: But the significance of the difference between two quantities also depends on the size of the quantities themselves.   Suppose Boris and Cyril are both world-class weight lifters. Cyril weighs 250 pounds and Boris weighs 270 pounds. The 20-pound difference between their weights is not that significant.  But what if Boris and Cyril are cats? Cyril weighs 10 pounds, and Boris weighs 30 pounds. So Boris weighs three times as much as Cyril, and is a very fat cat indeed.   In part (b) of the Example, we used multiplication to compare Boris' and Cyril's weights: Boris weighs times as much as Cyril, or We use division to make a multiplicative comparison . For the weight-lifters, Boris weighs times as much as Cyril. (We can also say that Boris weighs 8% more than Cyril.)  Use multiplicative comparison to compare prices. In which case is the $100 price difference more significant?  You are shopping for a new sweater and find one that you really like at Chic Boutique for $125. Luckily, you find the same sweater at Sweater Barn for $25.  You are shopping for a new car. The model you want costs $25,000, but you can get it in red, your favorite color, for $25,100.    5  1.004   The price difference is more significant in (a).  Comparing Quantities  Decide whether additive or multiplicative comparison is appropriate.  If the relationship is additive, write a difference and a sentence to describe it.  If the relationship is multiplicative, write a quotient and a sentence to describe it.    Kelli and Kendra swim at the same speed, but Kelli swam 4 laps before Kendra started. Compare the number of laps the girls have completed after half an hour.  David and Dana signed up to bake brownies for a charity event. David says he will bake four dozen brownies, and Dana will bake three dozen. Compare the amounts of each ingredient they will need.    Ratios  We have looked at two ways of comparing quantities. Additive comparison gives us the actual difference between two quantities. Multiplicative comparison takes into account their relative sizes.  The quotient we used for multiplicative comparison is called a ratio . It tells us how many times greater one quantity is than another. If Boris weighs times as much as Cyril, then the ratio of Boris' weight to Cyril's is 3 to 1 .  Definition  A ratio shows the relative sizes of two values by dividing one value into the other. The ratio of to is denoted by and is computed as the quotient .   The ratio of men to women in the state legislature is 5 to 2. This means that for every five men in the legislature there are two women. To display this ratio as a quotient we would write  The ratio in the Example above does NOT tell us that there are exactly 5 men and 2 women in the legislature! There could be 100 men and 40 women, or 185 men and 74 women, or many other combinations, because You can check that all of these quotients equal 2.5. There are 2.5 times as many men as women in the state legislature.  A Quick Refresher  Just as we do with fractions, we can use building factors to create new ratios with the same value, and we can reduce a ratio to a simpler form. For example, we'll find three different pairs of numbers whose ratio is .  This task is the same as finding three different fractions equivalent to . Because is already in lowest terms, we will build  to find equivalent fractions. We can use any number we like (except zero) as the building factor . We have found the following pairs with the ratio 4 to 3: All these ratios are equivalent, but whenever possible we write ratios in simplest or reduced form.  On a Saturday evening a restaurant found that 84 of its customers asked for seating in the nonsmoking section, and 35 customers preferred the smoking section.  What was the ratio of smokers to nonsmokers?  Write the ratio in simplest form.   84 to 35, or  12 to 5, or    Decimal Form for Ratios  Any ratio can be expressed as a decimal fraction. For example, because , we can say that the ratio of nonsmokers to smokers in the previous Exercise is 2.4 to 1, or just 2.4. We usually express a ratio as a decimal number if the numbers being compared are decimal numbers.  Major Motors budgeted 5.6 million dollars for research next year, and 3.5 million dollars for advertising. What is the ratio of the amount budgeted for advertising to the amount budgeted for research?  The ratio of amount budgeted for advertising to amount budgeted for research is (You might also recognize this ratio as .)  During the second quarter of 2015, consumers bought 271 million Android phones and 48.1 million iPhones. What was the ratio of Android phones sold to iPhones sold? Round your answer to the nearest tenth. 5.6  Ratios in Decimal Form   In the 2015-2016 season, Kobe Bryant attempted 281 free throws and made 232 of them. What is the ratio of his successes to his attempts?   Write your answer in the form .  Write your answer in the form of a common fraction.  Write your answer in the form of a decimal fraction, rounding to three decimal places.  Write your answer as a percent.    Here are the free-throw statistics for three other basketball greats in their last season of play. (FT stands for free throws, and FTA stands for free throw attempts.) Complete the table and compare the results. Who had the best free throw record, in your opinion?    Player  FT  FTA  Ratio  Decimal  Percent   Wilt Chamberlain  232  455      Kareen Abdul Jabbar  122  165      Michael Jordan  366  324       Is a ratio a fraction? Sometimes. We think of fractions as comparing a part to the whole, , but a ratio may also compare one part to another part.  25% of middle school teachers are male.  What fraction of middle school teachers are male?  What is the ratio of female middle school teachers to male middle school teachers?    As a fraction, 25% is 0.25, so of middle school teachers are male.  One out of four middle school teachers are male, so three out of four are female. The ratio of female teachers to male teachers is 3 to 1, or .   40% of high school teachers are male.  What fraction of high school teachers are male?  What is the ratio of female high school teachers to male high school teachers?    3 to 2, or .   Another important use of ratios is to compare quantities that are NOT parts of a whole.  When Paolo makes coffee in the morning, he uses 3 scoops of coffee beans and 5 cups of water. Raul uses 5 scoops of coffee beans and 8 cups of water. Whose coffee is stronger?  The strength of the coffee is determined by the ratio of coffee beans to water in the brew. Which ratio is greater, 3 to 5 or 5 to 8? We can compute each ratio as a decimal fraction. Remember that the ratio bar is a division symbol. Raul's coffee is stronger.  City Health Club has 144 active members and 15 elliptical trainers. Fitness First has 123 active members and 12 elliptical trainers. At which club might you have to wait longer to use an elliptical trainer?   City Health Club:  Fitness First:  Fitness First   Rates  A rate is just a ratio that compares quantities with different units. You are familiar with many rates already. You might hear that a certain car gets gas mileage of 28 miles per gallon, or that bananas cost 55 cents per pound. Because \"per\" indicates division, we see that and  You can think of \"per\" as meaning \"for each\" or \"for every,\" so that \"28 miles per gallon\" means that you can travel 28 miles for every gallon of gas in the tank, and \"55 cents per pound\" means that each pound costs 55 cents.   Kayla drove 130 miles in 212 hours. Compute the ratio of the distance she traveled to the time it took.  What is the every-day interpretation of the ratio in part (a).    The ratio of distance to time is To simplify the ratio, we divide 130 by 2.5 to find  We can interpret the simplified ratio as \"52 miles per hour.\" It gives us the average speed at which Kayla traveled. For each hour that elapsed, Kayla traveled 52 miles.   The simplified rate in the previous Example is called a unit rate because it gives us the distance Kayla traveled in one hour. We can use the unit rate to find the distance Kayla would travel (at the same rate) over other time periods. For example, in 3 hours Kayla would travel   Jamal worked for five hours on Tuesday and earned $132 (before taxes).  What was his pay rate, in dollars per hour?  How much did Jamal earn working 8 hours on Wednesday?   $26.40 per hour  $211.20     Practice 6-1   What operation do we use for additive comparison?  What operation do we use for multiplicative comparison?   Subtraction  Division?    Which type of comparison takes into account the relative sizes of the two quantities compared?  Which type of comparison gives the actual difference in the sizes of two quantities?   For Problems 3-6, decide whether additive or multiplicative comparison is appropriate. s If the relationship is additive, write a difference and a sentence to describe it.  If the relationship is multiplicative, write a quotient and a sentence to describe it.   Ravi has a photograph that measures 6 inches by 4 inches. He would like to paint an enlargement of the picture. What should be the relationship between the length and width of the painting? The length should be of the width.  Amy was 28 years old when she got married, and her husband, Greg, was 35. What is the relationship between their ages now?  The water is 12 feet deep at the deep end of the pool and 3 feet deep at the shallow end. Last week we discovered a leak in the pool, because the water level had dropped by several inches. What is the relationship between the depth of the water at the deep and shallow ends now? The deep end is 9 feet deeper than the shallow end.  A random sample of voters in Clark County found 72 voters in favor of Senator Foghorn and 81 in favor of his challenger, Justine Honest. What do you expect will be the relationship between their votes in the actual election?    What does the notation mean?  How do we compute a ratio?   The ratio of to  Divid by   What is the difference between a fraction and a ratio?  Find three pairs of numbers whose ratio is . 10 and 16, 15 and 24, 20 and 32  Find three pairs of numbers whose ratio is .  If there are more sheep than goats, what can you say about the ratio of sheep to goats? It is greater than 1.  The ratio of oak trees to pine trees in the park is . What does this tell you about the number of trees in the park?  For every three sailboats registered to use the lake, there are four motorboats.    What is the ratio of sailboats to motorboats?  What is the ratio of motorboats to sailboats?  What fraction of all the boats registered are sailboats? What fraction are motorboats?  If there are 36 sailboats registered, how many motorboats are registered?  If there are 60 motorboats registered, how many sailboats are registered?      48  45   For every nine girls in a Brownie troop, there must be two adults.  What is the ratio of girls to adults?  What is the ratio of adults to girls?  What fraction of all Brownies are adults? What fraction are girls?  If there are 45 girls who want to be Brownies, how many adults are needed?  If 12 adults are willing to be Brownie leaders, how many girls can be Brownies?   For Problems 15-22, write each ratio as a fraction in simplest form.  Cary's math book has 248 pages of text and 186 pages of exercises. What is the ratio of text to exercises in the book?  Emmet spends $720 a month for housing and $500 a month for food. What is the ratio of his food expenses to his housing expenses?  A typical American diet includes 920 calories per day from carbohydrates, 240 calories from protein, and 840 calories from fat.  What is the ratio of calories from fat to calories from protein?  What is the ratio of calories from protein to calories from carbohydrates?      A recommended low-fat diet includes 1190 calories per day from carbohydrates, 170 caloriesfrom protein, and 340 calories from fat.  What is the ratio of calories from fat to calories from protein?  What is the ratio of calories from fat to calories from carbohydrates?   A recipe for cranberry sangria calls for, among other ingredients, 48 ounces of cranberry juice and 32 ounces of red wine. You would like to make a smaller batch of cranberry sangria, so you need to know the ratio of cranberry juice to red wine. What is that ratio?   A recipe in a German cook book calls for 220 grams of sugar and 385 grams of flour. What is the ratio of flour to sugar needed in the recipe?  The quality control department at the Lighten Up company finds that a shipment of 4500 light bulbs includes 54 defective bulbs.   What is the ratio of defective bulbs to the total number of bulbs?  What is the ratio of good bulbs to defective bulbs?  What percent of the bulbs are defective?     1.2%   Village Miller, Inc. distributed 12,000 boxes of Oat Toasties last month, and 15 of the boxes contain a certificate for breakfast in Paris.  What is the ratio of certificates to the total number of boxes?  What is the ratio of plain boxes to prize boxes?  What percent of the boxes contain certificates?     How can we convert a common fraction into a decimal fraction?  How can we convert a decimal fraction into a percent?   Divide the numerator by the denominator  Multiply by 100    What is a rate?  What is a unit rate?   For Problems 25-34, write each ratio as a decimal fraction. If necessary, round your answers to three decimal places.  The average American eighth-grader spends 5.6 hours per week on homework and 21.4 hours per week watching TV. What is the ratio of time spent on homework to time spent watching TV? 0.262  The average American man spends 26.7 hours per week watching TV and 7.2 hours per week eating. What is the ratio of time spent eating to time spent watching TV?  On a scale drawing of a new public library, the length of the lobby is 14.4 centimeters and its width is 9 centimeters. The ratio of the width to the length will be the same for the actual lobby. What is that ratio? 0.625  A scale model of Big Ben is 20 centimeters tall and the clock face is 1.5 centimeters wide. What is the ratio of the width of the clock face to the height of the tower?    The Crane County commissioners have budgeted 24.9 million dollars for education and 41.5 million dollars for law enforcement. What is the ratio of funds budgeted for education to funds budgeted for law enforcement? 0.6  In 2014, Americans spent 216 billion dollars on clothing and 442.4 billion dollars on medical care. Compute the ratio, to the nearest thousandth, of amount spent on clothing to amount spent on medical care.  Hermann and Harriet joined a weight loss contest. In six months, Hermann's weight dropped from 225 pounds to 200 pounds, and Harriet's weight dropped from 140 pounds to 120 pounds. Which of them was the more successful dieter? Harriet  Jackie invested $500 in Comco stock and earned $27 in dividends. Petra invested $800 in Valcom stock and earned $48 in dividends. Which stock was the better investment?  The rectangle in the figure is called a Golden Rectangle, and the ratio of its length to its width is called the Golden Ratio. Rectangles of this shape are considered to be the most visually pleasing. If the dimensions of a Golden Rectangle are 8.9 centimeters and 5.5 centimeters, calculate the Golden Ratio.  1.618  Measure your height, and then measure the height from the floor to your navel. For most people, the ratio of their height to their navel height is approximately equal to the Golden Ratio. Compute the ratio for your own height. Is the result close to the value you calculated in Problem 33?   For Problems 35-44, write a rate to describe the situation. If necessary, round your answers to three decimal places.  An experimental commuter mini van can travel 576 miles on a 12-gallon tank of gas. What is its fuel efficiency, in miles per gallon? 48 mpg  Maryellen's family used 1044 kilowatt hours of electricity during the last billing period, which was for 58 days. What was their rate of energy consumption, in kilowatt hours per day?  Liesl jogs 5 miles in 40 minutes.  What is her speed in minutes per mile?  What is her speed in miles per minute?   8 min per mile  mile per min   Nabil read 60 pages in 1 hour and 32 minutes.  What was his reading speed in minutes per page?  What was his reading speed in pages per minute?   Harry tiled a 12-foot by 15-foot kitchen in hours. How fast did he work, in square feet per hour? 72 sq ft per hr  Rita worked on a needlework chair seat for a total of 32 hours. If the finished piece measures 15 inches by 16 inches, how fast did Rita work, in square inches per hour?  Maurice paid $29.82, including sales tax, for a $28 sweater.  What was the sales tax rate, in cents per dollar?  Express the sales tax rate as a percentage.   6.5 cents per dollar  6.5%   Nicole paid $31.68 to fill her car with gasoline. Of that amount, $6.84 was for taxes.  What was the tax rate, in cents per dollar? Round your answer to hundredths.  Express the tax rate as a percentage.   Armand made $144 for 15 hours of work last week.  Write his rate of pay as a ratio.  Calculate Armand's rate of pay, in dollars per hour.     $9.60 per hour   Beaverhead is the largest county in Montana, with an area of 5543 square miles. The population of Beaverhead County is 8790.  Write the ratio of people to area in Beaverhead County.  What is the population density, in people per square mile? Round your answer to tenths.     "
+  "body": " Ratios   Comparing Quantities  Ratios  Decimal Form for Ratios  Rates    Comparing Quantities  How can we compare two quantities? We might say \"Boris weighs 20 pounds more than Cyril\" or \"Product A costs $100 less than Product B.\" These statements are examples of additive comparison , although we often use subtraction to describe the relationship: But the significance of the difference between two quantities also depends on the size of the quantities themselves.   Suppose Boris and Cyril are both world-class weight lifters. Cyril weighs 250 pounds and Boris weighs 270 pounds. The 20-pound difference between their weights is not that significant.  But what if Boris and Cyril are cats? Cyril weighs 10 pounds, and Boris weighs 30 pounds. So Boris weighs three times as much as Cyril, and is a very fat cat indeed.   In part (b) of the Example, we used multiplication to compare Boris' and Cyril's weights: Boris weighs times as much as Cyril, or We use division to make a multiplicative comparison . For the weight-lifters, Boris weighs times as much as Cyril. (We can also say that Boris weighs 8% more than Cyril.)  Use multiplicative comparison to compare prices. In which case is the $100 price difference more significant?  You are shopping for a new sweater and find one that you really like at Chic Boutique for $125. Luckily, you find the same sweater at Sweater Barn for $25.  You are shopping for a new car. The model you want costs $25,000, but you can get it in red, your favorite color, for $25,100.   5  1.004   The price difference is more significant in (a).  We can think of additive and multiplicative comparison as different ways to evaluate the relationship between two quantities. Additive comparison gives us the actual difference between two quantities. Multiplicative comparison takes into account their relative sizes.  Comparing Quantities   Jared and Carrie joined their department's \"Losing It\" contest for slimming down and getting in shape. Here are their weights before and after the six-month trial.     Before  After   Jared  210 lbs  190 lbs   Carrie  135 lbs  120 lbs    Use additive comparison to compute each person's weight loss in pounds.  Use multiplicative comparison to compute each person's weight loss as a percentage of their initial weight.  Describe what each type of comparison tells you about Jared's and Carrie's weight loss.  Which person do you think did better in the contest? Why?   You are considering two different jobs, each of which will pay you $20,000 in your first year and $21,000 in your second year.   Use additive comparison to calculate the change in your salary after one year. If Job A calculates your new salary the same way each year, how much will you make in your third year? Your fourth year? Record your answers in the table below.    Year  Job A Salary  Job B Salary   1  20,000  20,000   2     3     4     Use multiplicative comparison to calculate the percent change in your salary after one year. If Job B calculates your new salary the same way each year, how much will you make in your third year? Your fourth year? Record your answers in the table above.  Which job offers the better salary increases?     Ratios  We have looked at two ways of comparing quantities. For the rest of this lesson, we'll concentrate on multiplicative comparison.  The quotient we used for multiplicative comparison is called a ratio . It tells us how many times greater one quantity is than another. If Boris weighs times as much as Cyril, then the ratio of Boris' weight to Cyril's is 3 to 1 .  Definition  A ratio shows the relative sizes of two values by dividing one value into the other. The ratio of to is sometimes denoted by , and it is computed as the quotient .   There are 80 men in the state legislature and 16 women. To display the ratio of men to women as a quotient we would write  Just as we do with fractions, we can write the ratio in simpler form by reducing the fraction. The ratio of men to women in the state legislature is .   To say that the ratio of men to women is does NOT tell us that there are exactly 5 men and 2 women in the legislature! There could be 100 men and 40 women, or 185 men and 74 women, or many other combinations, because You can check that all of these quotients equal 2.5. There are 2.5 times as many men as women in the state legislature.  A Quick Refresher  Recall that we can use building factors to create new fractions with the same value, and we can reduce a fraction to a simpler form. The same is true for ratios. For example, we'll find three different pairs of numbers whose ratio is .  This task is the same as finding three different fractions equivalent to . Because is already in lowest terms, we will build  to find equivalent fractions. We can use any number we like (except zero) as the building factor . We have found the following pairs with the ratio 4 to 3: All these ratios are equivalent, but whenever possible we write ratios in simplest or reduced form.  On a Saturday evening a restaurant found that 84 of its customers asked for seating inside, and 35 customers preferred to sit outside on the patio.  What was the ratio of inside diners to outside diners?  Write the ratio in simplest form.   84 to 35, or  12 to 5, or    Decimal Form for Ratios  Any ratio can be expressed as a decimal fraction. For example, because , we can say that the ratio of nonsmokers to smokers in the previous Exercise is 2.4 to 1, or just 2.4. We usually express a ratio as a decimal number if the numbers being compared are decimal numbers.  Major Motors budgeted 5.6 million dollars for research next year, and 3.5 million dollars for advertising. What is the ratio of the amount budgeted for advertising to the amount budgeted for research?  The ratio of amount budgeted for advertising to amount budgeted for research is (You might also recognize this ratio as .)  During the second quarter of 2015, consumers bought 271 million Android phones and 48.1 million iPhones. What was the ratio of Android phones sold to iPhones sold? Round your answer to the nearest tenth. 5.6  Ratios in Decimal Form   In the 2015-2016 season, Kobe Bryant attempted 281 free throws and made 232 of them. What is the ratio of his successes to his attempts?   Write your answer in the form .  Write your answer in the form of a common fraction.  Write your answer in the form of a decimal fraction, rounding to three decimal places.  Write your answer as a percent.    Here are the free-throw statistics for three other basketball greats in their last season of play. (FT stands for free throws, and FTA stands for free throw attempts.) Complete the table and compare the results. Who had the best free throw record, in your opinion?    Player  FT  FTA  Ratio  Decimal  Percent   Wilt Chamberlain  232  455      Kareen Abdul Jabbar  122  165      Michael Jordan  324  366       Is a ratio a fraction? Sometimes. We think of fractions as comparing a part to the whole, , but a ratio may also compare one part to another part.  25% of middle school teachers are male.  What fraction of middle school teachers are male?  What is the ratio of female middle school teachers to male middle school teachers?    As a fraction, 25% is 0.25, so of middle school teachers are male.  One out of four middle school teachers are male, so three out of four are female. The ratio of female teachers to male teachers is 3 to 1, or .   40% of high school teachers are male.  What fraction of high school teachers are male?  What is the ratio of female high school teachers to male high school teachers?    3 to 2, or .   Another important use of ratios is to compare quantities that are NOT parts of a whole.  When Paolo makes coffee in the morning, he uses 3 scoops of coffee beans and 5 cups of water. Raul uses 5 scoops of coffee beans and 8 cups of water. Whose coffee is stronger?  The strength of the coffee is determined by the ratio of coffee beans to water in the brew. Which ratio is greater, 3 to 5 or 5 to 8? We can compute each ratio as a decimal fraction. Remember that the ratio bar is a division symbol. Raul's coffee is stronger.  City Health Club has 144 active members and 15 elliptical trainers. Fitness First has 123 active members and 12 elliptical trainers. At which club might you have to wait longer to use an elliptical trainer?   City Health Club:  Fitness First:  Fitness First   Rates  A rate is just a ratio that compares quantities with different units. You are familiar with many rates already. You might hear that a certain car gets gas mileage of 28 miles per gallon, or that bananas cost 55 cents per pound. Because \"per\" indicates division, we see that and  You can think of \"per\" as meaning \"for each\" or \"for every,\" so that \"28 miles per gallon\" means that you can travel 28 miles for every gallon of gas in the tank, and \"55 cents per pound\" means that each pound costs 55 cents.   Kayla drove 130 miles in hours. Compute the ratio of the distance she traveled to the time it took.  What is the every-day interpretation of the ratio in part (a).    The ratio of distance to time is To simplify the ratio, we divide 130 by 2.5 to find  We can interpret the simplified ratio as \"52 miles per hour.\" It gives us the average speed at which Kayla traveled. For each hour that elapsed, Kayla traveled 52 miles.   The simplified rate in the previous Example is called a unit rate because it gives us the distance Kayla traveled in one hour. We can use the unit rate to find the distance Kayla would travel (at the same rate) over other time periods. For example, in 3 hours Kayla would travel   Jamal worked for five hours on Tuesday and earned $132 (before taxes).  What was his pay rate, in dollars per hour?  How much did Jamal earn working 8 hours on Wednesday?   $26.40 per hour  $211.20     Practice 6-1   What operation do we use for additive comparison?  What operation do we use for multiplicative comparison?   Subtraction  Division?    Which type of comparison takes into account the relative sizes of the two quantities compared?  Which type of comparison gives the actual difference in the sizes of two quantities?   For Problems 3-6, decide whether additive or multiplicative comparison is appropriate.  If you choose additive comparison, write a difference and a sentence to describe it.  If you choose multiplicative comparison, write a quotient and a sentence to describe it.   Ravi has a photograph that measures 6 inches by 4 inches. He would like to paint an enlargement of the picture. What should be the relationship between the length and width of the painting? The length should be of the width.  Amy was 28 years old when she got married, and her husband, Greg, was 35. What is the relationship between their ages now?  The water is 12 feet deep at the deep end of the pool and 3 feet deep at the shallow end. Last week we discovered a leak in the pool, because the water level had dropped by several inches. What is the relationship between the depth of the water at the deep and shallow ends now? The deep end is 9 feet deeper than the shallow end.  A random sample of voters in Clark County found 72 voters in favor of Senator Foghorn and 81 in favor of his challenger, Justine Honest. What do you expect will be the relationship between their votes in the actual election?    What does the notation mean?  How do we compute a ratio?   The ratio of to  Divide by   How might a ratio be used where a fraction would not?  Find three pairs of numbers whose ratio is . 10 and 16, 15 and 24, 20 and 32  Find three pairs of numbers whose ratio is .  If there are more sheep than goats, what can you say about the ratio of sheep to goats? It is greater than 1.  The ratio of oak trees to pine trees in the park is . What does this tell you about the numbers of oak trees and pine trees in the park?  For every three sailboats registered to use the lake, there are four motorboats.    What is the ratio of sailboats to motorboats?  What is the ratio of motorboats to sailboats?  What fraction of all the boats registered are sailboats? What fraction are motorboats?  If there are 36 sailboats registered, how many motorboats are registered?  If there are 60 motorboats registered, how many sailboats are registered?      48  45   For every nine girls in a Brownie troop, there must be two adults.  What is the ratio of girls to adults?  What is the ratio of adults to girls?  What fraction of all Brownies are adults? What fraction are girls?  If there are 45 girls who want to be Brownies, how many adults are needed?  If 12 adults are willing to be Brownie leaders, how many girls can be Brownies?   For Problems 15-22, write each ratio as a fraction in simplest form.  Cary's math book has 248 pages of text and 186 pages of exercises. What is the ratio of text to exercises in the book?  Emmet spends $720 a month for housing and $500 a month for food. What is the ratio of his food expenses to his housing expenses?  A typical American diet includes 920 calories per day from carbohydrates, 240 calories from protein, and 840 calories from fat.  What is the ratio of calories from fat to calories from protein?  What is the ratio of calories from protein to calories from carbohydrates?      A recommended low-fat diet includes 1190 calories per day from carbohydrates, 170 caloriesfrom protein, and 340 calories from fat.  What is the ratio of calories from fat to calories from protein?  What is the ratio of calories from fat to calories from carbohydrates?   A recipe for cranberry sangria calls for, among other ingredients, 48 ounces of cranberry juice and 32 ounces of red wine. You would like to make a smaller batch of cranberry sangria, so you need to know the ratio of cranberry juice to red wine. What is that ratio?   A recipe in a German cook book calls for 220 grams of sugar and 385 grams of flour. What is the ratio of flour to sugar needed in the recipe?  The quality control department at the Lighten Up company finds that a shipment of 4500 light bulbs includes 54 defective bulbs.   What is the ratio of defective bulbs to the total number of bulbs?  What is the ratio of good bulbs to defective bulbs?  What percent of the bulbs are defective?     1.2%   Village Miller, Inc. distributed 12,000 boxes of Oat Toasties last month, and 15 of the boxes contain a certificate for breakfast in Paris.  What is the ratio of certificates to the total number of boxes?  What is the ratio of plain boxes to prize boxes?  What percent of the boxes contain certificates?     How can we convert a common fraction into a decimal fraction?  How can we convert a decimal fraction into a percent?   Divide the numerator by the denominator  Multiply by 100    What is a rate?  What is a unit rate?   For Problems 25-34, write each ratio as a decimal fraction. If necessary, round your answers to three decimal places.  The average American eighth-grader spends 5.6 hours per week on homework and 21.4 hours per week watching TV. What is the ratio of time spent on homework to time spent watching TV? 0.262  The average American man spends 26.7 hours per week watching TV and 7.2 hours per week eating. What is the ratio of time spent eating to time spent watching TV?  On a scale drawing of a new public library, the length of the lobby is 14.4 centimeters and its width is 9 centimeters. The ratio of the width to the length will be the same for the actual lobby. What is that ratio? 0.625  A scale model of Big Ben is 20 centimeters tall and the clock face is 1.5 centimeters wide. What is the ratio of the width of the clock face to the height of the tower?    The Crane County commissioners have budgeted 24.9 million dollars for education and 41.5 million dollars for law enforcement. What is the ratio of funds budgeted for education to funds budgeted for law enforcement? 0.6  In 2014, Americans spent 216 billion dollars on clothing and 442.4 billion dollars on medical care. Compute the ratio, to the nearest thousandth, of amount spent on clothing to amount spent on medical care.  Hermann and Harriet joined a weight loss contest. In six months, Hermann's weight dropped from 225 pounds to 200 pounds, and Harriet's weight dropped from 140 pounds to 120 pounds. Which of them was the more successful dieter? Harriet  Jackie invested $500 in Comco stock and earned $27 in dividends. Petra invested $800 in Valcom stock and earned $48 in dividends. Which stock was the better investment?  The rectangle in the figure is called a Golden Rectangle, and the ratio of its length to its width is called the Golden Ratio. Rectangles of this shape are considered to be the most visually pleasing. If the dimensions of a Golden Rectangle are 8.9 centimeters and 5.5 centimeters, calculate the Golden Ratio.  1.618  Measure your height, and then measure the height from the floor to your navel. For most people, the ratio of their height to their navel height is approximately equal to the Golden Ratio. Compute the ratio for your own height. Is the result close to the value you calculated in Problem 33?   For Problems 35-44, write a rate to describe the situation. If necessary, round your answers to three decimal places.  An experimental commuter minivan can travel 576 miles on a 12-gallon tank of gas.   What is its fuel efficiency, in miles per gallon?  How far can the minivan travel on 15 gallons of gas?   48 mpg  720 mi   Maryellen's family used 1044 kilowatt hours of electricity during the last billing period, which was for 58 days.   What was their rate of energy consumption, in kilowatt hours per day?  How much energy would they use in one month of 30 days?   Liesl jogs 5 miles in 40 minutes.  What is her speed in minutes per mile?  What is her speed in miles per minute?   8 min per mile  mile per min   Nabil read 60 pages in 1 hour and 32 minutes.  What was his reading speed in minutes per page?  What was his reading speed in pages per minute?   Harry tiled a 12-foot by 15-foot kitchen in hours. How fast did he work, in square feet per hour? 72 sq ft per hr  Rita worked on a needlework chair seat for a total of 32 hours. If the finished piece measures 15 inches by 16 inches, how fast did Rita work, in square inches per hour?  Maurice paid $29.82, including sales tax, for a $28 sweater.  What was the sales tax rate, in cents per dollar?  Express the sales tax rate as a percentage.  What is the tax on a $200 purchase?   6.5 cents per dollar  6.5%  $13   Nicole paid $66.24 to fill her car with gasoline. Of that amount, $11.04 was for taxes.  What was the tax rate, in cents per dollar?  Express the tax rate as a percentage.  What is the tax on $20 worth of gasoline?   Armand made $192 for 15 hours of work last week.  Write his rate of pay as a ratio.  Calculate Armand's rate of pay, in dollars per hour.     $12.80 per hour   Beaverhead is the largest county in Montana, with an area of 5543 square miles. The population of Beaverhead County is 8790.  Write the ratio of people to area in Beaverhead County.  What is the population density, in people per square mile? Round your answer to tenths.     "
 },
 {
   "id": "p-7226",
@@ -19303,7 +19303,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.1.2",
   "title": "",
-  "body": "Use multiplicative comparison to compare prices. In which case is the $100 price difference more significant?  You are shopping for a new sweater and find one that you really like at Chic Boutique for $125. Luckily, you find the same sweater at Sweater Barn for $25.  You are shopping for a new car. The model you want costs $25,000, but you can get it in red, your favorite color, for $25,100.  "
+  "body": "Use multiplicative comparison to compare prices. In which case is the $100 price difference more significant?  You are shopping for a new sweater and find one that you really like at Chic Boutique for $125. Luckily, you find the same sweater at Sweater Barn for $25.  You are shopping for a new car. The model you want costs $25,000, but you can get it in red, your favorite color, for $25,100.   5  1.004   The price difference is more significant in (a). "
 },
 {
   "id": "activity-64",
@@ -19312,21 +19312,21 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "6.1.1",
   "title": "Comparing Quantities.",
-  "body": "Comparing Quantities  Decide whether additive or multiplicative comparison is appropriate.  If the relationship is additive, write a difference and a sentence to describe it.  If the relationship is multiplicative, write a quotient and a sentence to describe it.    Kelli and Kendra swim at the same speed, but Kelli swam 4 laps before Kendra started. Compare the number of laps the girls have completed after half an hour.  David and Dana signed up to bake brownies for a charity event. David says he will bake four dozen brownies, and Dana will bake three dozen. Compare the amounts of each ingredient they will need.  "
+  "body": "Comparing Quantities   Jared and Carrie joined their department's \"Losing It\" contest for slimming down and getting in shape. Here are their weights before and after the six-month trial.     Before  After   Jared  210 lbs  190 lbs   Carrie  135 lbs  120 lbs    Use additive comparison to compute each person's weight loss in pounds.  Use multiplicative comparison to compute each person's weight loss as a percentage of their initial weight.  Describe what each type of comparison tells you about Jared's and Carrie's weight loss.  Which person do you think did better in the contest? Why?   You are considering two different jobs, each of which will pay you $20,000 in your first year and $21,000 in your second year.   Use additive comparison to calculate the change in your salary after one year. If Job A calculates your new salary the same way each year, how much will you make in your third year? Your fourth year? Record your answers in the table below.    Year  Job A Salary  Job B Salary   1  20,000  20,000   2     3     4     Use multiplicative comparison to calculate the percent change in your salary after one year. If Job B calculates your new salary the same way each year, how much will you make in your third year? Your fourth year? Record your answers in the table above.  Which job offers the better salary increases?   "
 },
 {
-  "id": "p-7245",
+  "id": "p-7250",
   "level": "2",
-  "url": "sec-6-1.html#p-7245",
+  "url": "sec-6-1.html#p-7250",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "ratio 3 to 1 "
 },
 {
-  "id": "p-7246",
+  "id": "p-7251",
   "level": "2",
-  "url": "sec-6-1.html#p-7246",
+  "url": "sec-6-1.html#p-7251",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -19339,7 +19339,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "6.1.3",
   "title": "",
-  "body": "The ratio of men to women in the state legislature is 5 to 2. This means that for every five men in the legislature there are two women. To display this ratio as a quotient we would write "
+  "body": "There are 80 men in the state legislature and 16 women. To display the ratio of men to women as a quotient we would write  Just as we do with fractions, we can write the ratio in simpler form by reducing the fraction. The ratio of men to women in the state legislature is .  "
 },
 {
   "id": "note-90",
@@ -19348,12 +19348,12 @@ var ptx_lunr_docs = [
   "type": "Note",
   "number": "6.1.4",
   "title": "",
-  "body": "The ratio in the Example above does NOT tell us that there are exactly 5 men and 2 women in the legislature! There could be 100 men and 40 women, or 185 men and 74 women, or many other combinations, because You can check that all of these quotients equal 2.5. There are 2.5 times as many men as women in the state legislature. "
+  "body": "To say that the ratio of men to women is does NOT tell us that there are exactly 5 men and 2 women in the legislature! There could be 100 men and 40 women, or 185 men and 74 women, or many other combinations, because You can check that all of these quotients equal 2.5. There are 2.5 times as many men as women in the state legislature. "
 },
 {
-  "id": "p-7250",
+  "id": "p-7256",
   "level": "2",
-  "url": "sec-6-1.html#p-7250",
+  "url": "sec-6-1.html#p-7256",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -19366,7 +19366,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.1.5",
   "title": "",
-  "body": "On a Saturday evening a restaurant found that 84 of its customers asked for seating in the nonsmoking section, and 35 customers preferred the smoking section.  What was the ratio of smokers to nonsmokers?  Write the ratio in simplest form.   84 to 35, or  12 to 5, or  "
+  "body": "On a Saturday evening a restaurant found that 84 of its customers asked for seating inside, and 35 customers preferred to sit outside on the patio.  What was the ratio of inside diners to outside diners?  Write the ratio in simplest form.   84 to 35, or  12 to 5, or  "
 },
 {
   "id": "example-146",
@@ -19393,7 +19393,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "6.1.2",
   "title": "Ratios in Decimal Form.",
-  "body": "Ratios in Decimal Form   In the 2015-2016 season, Kobe Bryant attempted 281 free throws and made 232 of them. What is the ratio of his successes to his attempts?   Write your answer in the form .  Write your answer in the form of a common fraction.  Write your answer in the form of a decimal fraction, rounding to three decimal places.  Write your answer as a percent.    Here are the free-throw statistics for three other basketball greats in their last season of play. (FT stands for free throws, and FTA stands for free throw attempts.) Complete the table and compare the results. Who had the best free throw record, in your opinion?    Player  FT  FTA  Ratio  Decimal  Percent   Wilt Chamberlain  232  455      Kareen Abdul Jabbar  122  165      Michael Jordan  366  324      "
+  "body": "Ratios in Decimal Form   In the 2015-2016 season, Kobe Bryant attempted 281 free throws and made 232 of them. What is the ratio of his successes to his attempts?   Write your answer in the form .  Write your answer in the form of a common fraction.  Write your answer in the form of a decimal fraction, rounding to three decimal places.  Write your answer as a percent.    Here are the free-throw statistics for three other basketball greats in their last season of play. (FT stands for free throws, and FTA stands for free throw attempts.) Complete the table and compare the results. Who had the best free throw record, in your opinion?    Player  FT  FTA  Ratio  Decimal  Percent   Wilt Chamberlain  232  455      Kareen Abdul Jabbar  122  165      Michael Jordan  324  366      "
 },
 {
   "id": "note-91",
@@ -19441,9 +19441,9 @@ var ptx_lunr_docs = [
   "body": "City Health Club has 144 active members and 15 elliptical trainers. Fitness First has 123 active members and 12 elliptical trainers. At which club might you have to wait longer to use an elliptical trainer?   City Health Club:  Fitness First:  Fitness First "
 },
 {
-  "id": "p-7290",
+  "id": "p-7296",
   "level": "2",
-  "url": "sec-6-1.html#p-7290",
+  "url": "sec-6-1.html#p-7296",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -19456,7 +19456,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "6.1.13",
   "title": "",
-  "body": " Kayla drove 130 miles in 212 hours. Compute the ratio of the distance she traveled to the time it took.  What is the every-day interpretation of the ratio in part (a).    The ratio of distance to time is To simplify the ratio, we divide 130 by 2.5 to find  We can interpret the simplified ratio as \"52 miles per hour.\" It gives us the average speed at which Kayla traveled. For each hour that elapsed, Kayla traveled 52 miles.  "
+  "body": " Kayla drove 130 miles in hours. Compute the ratio of the distance she traveled to the time it took.  What is the every-day interpretation of the ratio in part (a).    The ratio of distance to time is To simplify the ratio, we divide 130 by 2.5 to find  We can interpret the simplified ratio as \"52 miles per hour.\" It gives us the average speed at which Kayla traveled. For each hour that elapsed, Kayla traveled 52 miles.  "
 },
 {
   "id": "note-92",
@@ -19537,7 +19537,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.5.7",
   "title": "",
-  "body": " What does the notation mean?  How do we compute a ratio?   The ratio of to  Divid by  "
+  "body": " What does the notation mean?  How do we compute a ratio?   The ratio of to  Divide by  "
 },
 {
   "id": "exercise-1705",
@@ -19546,7 +19546,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.5.8",
   "title": "",
-  "body": "What is the difference between a fraction and a ratio? "
+  "body": "How might a ratio be used where a fraction would not? "
 },
 {
   "id": "exercise-1706",
@@ -19582,7 +19582,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.5.12",
   "title": "",
-  "body": "The ratio of oak trees to pine trees in the park is . What does this tell you about the number of trees in the park? "
+  "body": "The ratio of oak trees to pine trees in the park is . What does this tell you about the numbers of oak trees and pine trees in the park? "
 },
 {
   "id": "exercise-1710",
@@ -19789,7 +19789,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.5.35",
   "title": "",
-  "body": "An experimental commuter mini van can travel 576 miles on a 12-gallon tank of gas. What is its fuel efficiency, in miles per gallon? 48 mpg "
+  "body": "An experimental commuter minivan can travel 576 miles on a 12-gallon tank of gas.   What is its fuel efficiency, in miles per gallon?  How far can the minivan travel on 15 gallons of gas?   48 mpg  720 mi  "
 },
 {
   "id": "exercise-1733",
@@ -19798,7 +19798,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.5.36",
   "title": "",
-  "body": "Maryellen's family used 1044 kilowatt hours of electricity during the last billing period, which was for 58 days. What was their rate of energy consumption, in kilowatt hours per day? "
+  "body": "Maryellen's family used 1044 kilowatt hours of electricity during the last billing period, which was for 58 days.   What was their rate of energy consumption, in kilowatt hours per day?  How much energy would they use in one month of 30 days?  "
 },
 {
   "id": "exercise-1734",
@@ -19843,7 +19843,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.5.41",
   "title": "",
-  "body": "Maurice paid $29.82, including sales tax, for a $28 sweater.  What was the sales tax rate, in cents per dollar?  Express the sales tax rate as a percentage.   6.5 cents per dollar  6.5%  "
+  "body": "Maurice paid $29.82, including sales tax, for a $28 sweater.  What was the sales tax rate, in cents per dollar?  Express the sales tax rate as a percentage.  What is the tax on a $200 purchase?   6.5 cents per dollar  6.5%  $13  "
 },
 {
   "id": "exercise-1739",
@@ -19852,7 +19852,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.5.42",
   "title": "",
-  "body": "Nicole paid $31.68 to fill her car with gasoline. Of that amount, $6.84 was for taxes.  What was the tax rate, in cents per dollar? Round your answer to hundredths.  Express the tax rate as a percentage.  "
+  "body": "Nicole paid $66.24 to fill her car with gasoline. Of that amount, $11.04 was for taxes.  What was the tax rate, in cents per dollar?  Express the tax rate as a percentage.  What is the tax on $20 worth of gasoline?  "
 },
 {
   "id": "exercise-1740",
@@ -19861,7 +19861,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6.1.5.43",
   "title": "",
-  "body": "Armand made $144 for 15 hours of work last week.  Write his rate of pay as a ratio.  Calculate Armand's rate of pay, in dollars per hour.     $9.60 per hour  "
+  "body": "Armand made $192 for 15 hours of work last week.  Write his rate of pay as a ratio.  Calculate Armand's rate of pay, in dollars per hour.     $12.80 per hour  "
 },
 {
   "id": "exercise-1741",
@@ -19879,21 +19879,21 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.2",
   "title": "Proportion",
-  "body": " Proportion   Proportional Variables  Problem Solving  Graphing    Proportional Variables  Ratios can help us describe the relationship between two variables.  A Quick Refresher  A variable is a numerical quantity that can take on different values at different times or in different situations.  Quantities that do not change are called constants .  Proportional Variables   The table shows the price of gasoline at your local gas station on a Saturday in April. There are two variables in the table: the of gasoline purchased and the . Compute the ratios in the third column of the table.     Gallons of Gasoline  Total Price    4  $10.60    6  $15.90    8  $21.20    12  $31.80    14  $37.10     You should find that the ratio , or price per gallon, is constant. It is the same for each pair of values of the variables. This result agrees with common sense: the price per gallon of gasoline is the same no matter how many gallons you buy.  The table shows the population of a town. The variable means the age of the town, or the number of years since the town was established. , of course, means the number of people who live in the town. Compute the ratios in the third column of the table.     Years  Population    10  432    20  932    30  2013    40  4345    50  9380     The ratios in this example, , give the rate of growth of the population in people per year. You can see from the table that this ratio is not constant; in fact, it increases as time goes on.   Definition  Two variables are said to be proportional if their ratio is constant, or always the same.  In the Activity, we see that the total price of gasoline is proportional to the number of gallons you buy. On the other hand, the population of the town is not proportional to its age.  How can we decide if two variables are proportional? First we identify several pairs of corresponding values for the variables, then we compute their ratios.  Tuition at Woodrow University is $400 plus $30 per unit. Is the tuition proportional to the number of units you take?  To compute the tuition, we multiply the number of units by 30 and add 400 to the result. For example, if you take 6 units, your tuition is We make a table showing several pairs of variables and compute their ratios.    Number of Units  Tuition    6  580  96.67   8  640  80   15  850  56.67   The ratio , or tuition per unit, is not constant, so the tuition is not proportional to the number of units.  Anouk is traveling by motorhome across Alaska at 60 miles per hour. Compute the ratios in the table.    Hours  Miles    3  180    6  360    8  480     Is the distance Anouk has traveled proportional to the time she has traveled? Yes   Problem Solving  We will consider two strategies to solve problems about proportional variables. But first let's look at a ratio table .  Five boxes of crayons cost Maryellen $4.25. How much will it cost to buy one box of crayons for each of the 25 students in her class?  Because the cost of the crayons is proportional to the number of boxes, we can make a table. We add copies of 5 boxes and $4.25 until we reach 25 boxes.   We find that 25 boxes of crayons will cost $21.25.  Three acres of land can support 220 apple trees. How many apple trees can you grow on 12 acres of land? Use a ratio table to find the answer.      Acres  3      Trees  220     880  Did you notice that we can use multiplication instead of addition to solve the problems above? (After all, multiplication is really just repeated addition.)  In the Example we can multiply 5 boxes of crayons by to get 25 boxes of crayons, so we can multiply $4.25 by to find the cost. The ratio of Boxes to Cost is not changed if we multiply both Boxes and Cost by the same number. This is the same principle that allows us to build a fraction, so we call this the build-up strategy for solving a problem about proportional variables, and we call the scale factor .  Try the build-up strategy on the previous Exercise.  Walking on a treadmill at 3 miles per hour for one hour burns 219 calories. How many calories will Shayla burn if she walks for 20 minutes?  The number of calories you burn is proportional to the time you walk. Because 20 minutes is of an hour, we should multiply the number of calories by also. (We are using the build-up strategy, with a scale factor of .) In 20 minutes Shayla will burn  The relationship between proportional variables is a very simple and useful one. The ratio between the variables must stay constant. So if we multiply one variable by a scale factor, we know exactly what will happen to the other variable. If you double the amount of gasoline you buy, say from 6 gallons to 12 gallons, the price will also double. If you have 4 times the amount of land, you can plant 4 times as many apple trees.  The table shows the amount of some foreign currencies you could buy with ten US dollars on April 17, 2016. Complete the table to show how much you could buy with a US 20-dollar bill.      Currency  $10  $20   Japanese yen  1083.3    Mexican peso  177.1    Canadian dollar  13    Euro  8.9    British pound  7.1     Currency  $10  $20   Japanese yen  1083.3  2166.6   Mexican peso  177.1  354.2   Canadian dollar  13  26   Euro  8.9  17.8   British pound  7.1  14.2   The build-up strategy works well if there is a nice number to multiply by. But sometimes it is easier to compute a unit rate , as we did in Section 6.1.  Six bottles of VeryBerry soda costs $10.50. How much would 10 bottles cost?  The cost of the soda is proportional to the number of bottles you buy. But 10 is not a nice multiple of 6, so instead we'll calculate the unit cost of a bottle of soda. We'll simplify the ratio by dividing. One bottle of VeryBerry Soda costs $1.75. So 10 bottles cost or $17.50.  Jayden drove 132 miles on 5 gallons of gas. How far can he drive on a full tank of 18 gallons? Use the unit rate strategy to find the answer. Start with a ratio. 475.2 miles  Solving Proportion Problems  A 6-inch turkey submarine sandwich contains 282 calories. How many calories are there in a 15-inch turkey sandwich?   We'll compare three different strategies to solve the problem.  Complete the ratio table and use it to answer the question.    Inches  3  6  12  15   Calories   282     A 15-inch turkey sandwich contains calories.  Use the build-up strategy to answer the question. First, what scale factor will you need to build 6 inches to 15 inches?  :  :  Use the unit rate strategy to answer the question.  :  :   Summary  We have used two methods to solve problems involving proportional variables:  Build-up strategy: multiply both variables by the same amount  Unit rate strategy: simplify the ratio by division   Both of these strategies come from the definition of proportional.  Earlier we saw that the build-up strategy works because we can build or reduce a fraction without changing its value. Now let us see why the unit rate strategy works.  Recall that multiplication and division are opposite operations. Every division fact can be written as a multiplication fact, and vice versa. For example, We'll use this relationship in the next Example.  How much sugar is in a 16-ounce serving of cola?  The nutrition label gives the following information.    Cola  12-ounce can  20-ounce bottle  1-liter (34 ounces)   Sugars  36 grams  60 grams  102 grams   Because the amount of sugar is proportional to the size of the serving, the ratio is constant: So 3 is the unit rate for . And because of the relationship between multiplication and division, we see that In particular, to answer the question in the problem, We have used the unit rate strategy to see that there are 48 grams of sugar in a 16-ounce serving of cola.   Five teaspoons of sugar is equivalent to 21 grams of sugar. How many teaspoons of sugar are there in a 12-ounce can of cola?  8.57 teaspoons   Graphing Proportional Variables  The relationship between proportional variables is a simple one, and their graphs are also simple.  Graphing Proportions  Delbert and Francine are classmates at City College. Before handing in big assignments such as term papers or lab reports, they make copies of their work. Delbert uses QuikCopy, and keeps track of the copying fee for each assignment.    Delbert's Copying Fees   Number of pages  14  27  35   Cost (cents)  112  216  280   Francine copies her assignments at Copy World.    Francine's Copying Fees   Number of pages  12  26  32   Cost (cents)  72  156  192    Verify that the cost of copying is proportional to the number of pages at both QuikCopy and at Copy World.    Delbert's Copying Fees   Number of pages  14  27  35   Cost(cents)  112  216  280   Cost\/page        Francine's Copying Fees   Number of pages  12  26  32   Cost(cents)  72  156  192   Cost\/page       How do you know that the cost of copying is proportional to the number of pages copied?  Who is paying the higher price for copying?    Plot the data for Delbert's copying fees on the grid. (Include a point for the cost of copying 0 pages.)  Connect the data points with a straight line.     Similarly, plot the data for Francine's copying fees on the same grid, and connect them with a straight line.  Which line is rising more rapidly?    From the Activity, we observe two facts about the graphs of proportional variables.  Graphs of Proportional Variables   The graph is a straight line.  The graph passes through the point . In other words, if one variable is zero, the other variable must be zero also.   We can recover information about proportional variables from their graphs. Here is a reminder about reading points on a graph.  How to Read Points   The location of the point in the horizontal direction tells us the value of the first variable (the input variable) .  The location of the point in the vertical direction tells us the value of the second variable (the output variable) .   Kira buys granola in bulk at the health food store. There are three standard containers customers can use, as shown by the highlighted points on the graph.  What are the size and cost of each standard container?  What is the unit cost of the granola, in cents per ounce?  If we extend the graph to include 25 ounces of granola, how much taller should we make the vertical axis?     We read the ounces and cents values for each of the three points. The standard containers are 10 ounces for $3.00, 16 ounces for $4.80, and 24 ounces for $7.20.  To find the unit cost, we compute the ratio of cost to ounces.  25 ounces would cost So we would need to extend the vertical axis by another 30 units, to 750.   Nazli and Marya both work part-time as data-entry technicians at different companies. The graph shows their earnings in terms of the number of hours they work.    Who earns more per hour? Explain how you know.  Use the graph to fill in the table.    Hours  4  8  10   Nazli's earnings      Marya's earnings      Compute each woman's wages in dollars per hour.  Nazli:  Marya:   Nazli. Her graph is steeper.    Hours  4  8  10   Nazli's earnings  100  200  250   Marya's earnings  60  120  150   Nazli: $25 per hr; Marya: $15 per hr     Practice 6-2  What is a variable? A quantity that takes on different values in different situations.  How can we tell whether two variables are proportional?  Name two strategies for solving problems involving proportional variables. Build-up strategy and unit rate strategy  If two variables are proportional, what does their graph look like?  For Problems 5-8,  Complete the table of values.  Decide whether the two variables are proportional.   To make Classic Pop, you need three ounces of Secret Syrup for every 32 ounces of carbonatedwater. Is the amount of Secret Syrup proportional to the amount of carbonated water?    Carbonated water (oz)  32  64  96   Secret Syrup (oz)        Carbonated water (oz)  32  64  96   Secret Syrup (oz)  3  6  9   Yes   To brew coffee, you put in one scoop of coffee for every six ounces of water, plus one scoop for the pot. Is the amount of coffee needed proportional to the amount of water used?    Water (oz)  6  12  18   Coffee (scoops)      The thickness of a book in millimeters can be found by adding 6 millimeters (for the thickness of the covers) to 1 millimeter for every 25 pages. Is the thickness of the book proportional to the number of pages?    Pages  25  50  75   Thickness (mm)        Pages  25  50  75   Thickness (mm)  7  8>  9   No   A four-liter can of paint will cover 150 square feet of primed surface. Is the amount of paint you need proportional to the area you have to paint?    Area (sq ft)  150  300  450   Paint (liters)       Use the build-up method to solve Problems 9-12.  A recipe for one dozen chocolate chip cookies calls for 8 ounces of chocolate chips. How many ounces of chocolate chips will you need to make 30 cookies? 20 oz  A 160-pound male burns 600 calories playing tennis for one hour. How many hours of tennis would it take to burn 3500 calories, or 1 pound of fat?  Ben has a four-inch wide by six-inch long photo of himself scaling Half-Dome in Yosemite. If he has it enlarged to a poster four feet long, how wide will the poster be? (Hint: How many inches are in a foot?) 32 in  A general purpose bird seed contains 2 cups of sunflower seed for every 5 cups of millet. How much millet should be mixed with 5 quarts of sunflower seed? (Hint: How many cups are in a quart?)   Use the unit rate method to solve Problems 13-16.  The road to the camp grounds at Pine Lake State Park is 1.5 miles long. On the map, the road measures inch. If Pine Lake is inches long on the map, how long is the lake actually? 6.5 mi  A cinnamon bread recipe calls for tablespoons of cinnamon and 5 cups of flour. How much cinnamon would be needed if 8 cups of flour are used?  Gary is six feet tall. At 4 p.m., his shadow is 10 feet long. How tall is the spruce tree on his front lawn if its shadow is 38 feet long at 4 p.m.? 63 ft  In a survey of 800 voters, 625 favored a gun control ballot measure. If there are 15,000 voters in Senator Fogbank's district, how many can be expected to favor gun control?   For Problems 17-20,  Which method, build-up or unit rate, do you think would be best-suited to solve the problem?  Use your method to solve the problem.   The Quality Control department at Major Motors found that in a sample of 500 electronic toggle units, 12 were defective. How many defective units should they expect in a shipment of 3600 units? 86  In order to estimate the number of deer in a certain wooded area, the Forest Service tagged and released 50 deer. A month later they captured 60 deer and found that 9 of them were tagged. Approximately how many deer are there in the woods?  The average American takes a shower that lasts 8.5 minutes and uses 17.85 gallons of water. How much water does a 10-minute shower use? 21 gal  An 8-ounce cafe mocha contains 150 calories. How many calories are in a 20-ounce cafe mocha?   For Problems 21-24, explain why using a proportion would not give an accurate answer to the question.  Andre ran 100 meters in 10 seconds. How far can he run in one hour? He will not run at the same rate for the whole hour.  It took 18 musicians 20 minutes to play a serenade by Mozart. How long would it take 36 musicians to play the same piece of music?   Jacquelyn grew from 18 inches long at birth to 48 inches tall at age 7. How tall will she be at age 21? Her rate of growth will decrease.  The temperature rose from 40° at 6 am to 70° at noon. What will the temperature be at 6 pm?   For Problems 25-28,  Make a table of values for the variables.  Plot the data points and connect them with a straight line.  Use a suitable strategy to answer the question.  On the graph, circle the point that shows your answer to part (c).   The distance traveled at a constant speed is proportional to the time taken. A research submarine traveled 45 miles in 3 hours. How long will it take them to travel 300 miles?    Time (hrs)  Distance (mi)         20 hrs  Megan's wages are proportional to the time she works. Megan made $60 for 8 hours work as a lab assistant. How long will it take her to make $500?    Time (hrs)  Wages($)          The cost of a turkey is proportional to its weight. A 16-pound turkey costs $12.80. How much does a 22-pound turkey cost?    Weight (lb)  Cost ($)         $17.60  The amount of pure copper produced by Copperfield Mine is proportional to the amount of ore extracted. A new lode produced 24 grams of copper from 800 grams of ore. How many grams of copper will one kilogram of ore yield??    Ore (g)  Copper (g)           Problems 29-32 consider some formulas from geometry.    The perimeter of a square is four times the length of its side. Complete the table.    Side length (cm)  2  5  8  11   Perimeter (cm)       Graph your equation, using the values in your table.  Is the perimeter of a square proportional to the length of its side?      Side length (cm)  2  5  8  11   Perimeter (cm)  8  20  32  44    Yes    The circumference of a circle (the distance around the circle) is times its radius. Complete the table. You can use 3.14 as an approximation for .    Radius (in)  2  5  7  10   Circumference (in)       Plot the data points on the grid below, using the values in your table, and connect them with a smooth curve.  Is the circumference of a circle proportional to its radius?     The area of a square is the square of the length of its side. (Recall that to \"square\" a number means to multiply the number by itself. Complete the table.    Side length (m)  2  5  6  8   Area (sq cm)       Plot the data points on the grid below, using the values in your table, and connect them with a smooth curve.  Is the area of a square proportional to the length of its side?      Side length (m)  2  5  6  8   Area (sq cm)  4  25  36  64    No    The area of a circle is times its the square of its radius. Complete the table. You can use 3.14 as an approximation for .    Radius (ft)  2  3  4  5   Area (sq ft)       Plot the data points on the grid below, using the values in your table, and connect them with a smooth curve.  Is the area of a circle proportional to its radius?      "
+  "body": " Proportion   Proportional Variables  Proportional Reasoning  Using Proportions  Graphing Proportional Variables    Proportional Variables  Ratios can help us describe the relationship between two variables.  A Quick Refresher  A variable is a numerical quantity that can take on different values at different times or in different situations.  Quantities that do not change are called constants .  Proportional Variables   The table shows the price of gasoline at your local gas station on a Saturday in April. There are two variables in the table: the of gasoline purchased and the . Compute the ratios in the third column of the table.     Gallons of Gasoline  Total Price    4  $10.60    6  $15.90    8  $21.20    12  $31.80    14  $37.10     You should find that the ratio , or price per gallon, is constant. It is the same for each pair of values of the variables. This result agrees with common sense: the price per gallon of gasoline is the same no matter how many gallons you buy.  The table shows the population of a town. The variable means the age of the town, or the number of years since the town was established. , of course, means the number of people who live in the town. Compute the ratios in the third column of the table.     Years  Population    10  432    20  932    30  2013    40  4345    50  9380     The ratios in this example, , give the rate of growth of the population in people per year. You can see from the table that this ratio is not constant; in fact, it increases as time goes on.   Definition  Two variables are said to be proportional if their ratio is constant, or always the same.  In the Activity, we see that the total price of gasoline is proportional to the number of gallons you buy. On the other hand, the population of the town is not proportional to its age.  As with the price of gasoline, sometimes it seems clear that two variables are proportional. But to check, we can identify several pairs of corresponding values for the variables, and then compute their ratios.  Tuition at Woodrow University is $30 per unit added to an enrollment fee of $100. Is the tuition proportional to the number of units you take?  To compute the tuition, we multiply the number of units by 30 and add 100 to the result. For example, if you take 6 units, your tuition is We make a table showing several pairs of variables and compute their ratios.    Number of Units  Tuition    6  280  46.67   8  340  42.50   15  550  36.67   The ratio , or tuition per unit, is not constant, so the tuition is not proportional to the number of units.  Anouk is traveling by motorhome across Alaska at 60 miles per hour. Compute the ratios in the table.    Hours  Miles    3  180    6  360    8  480     Is the distance Anouk has traveled proportional to the time she has traveled? Yes  From the Examples above, you may have discovered that two variables are proportional if one variable is a constant multiple of the other.  Is the area of a square proportional to the length of a side?  We'll make a table of values for squares of various lengths.    Length of side (in)  Area (sq in)  Ratio               From the table we see that the ratio of area to length is not constant, so the area of a square is not proportional to the length of a side.  Is the perimeter of a square proportional to the length of a side?  Hint: Make a table of values, or recall the formula for the perimeter of a square. Yes   Proportional Reasoning  Here is a simple way to look at proportional variables. If we list multiples of each variable, their ratio stays the same, and we create a ratio table . We can sometimes use a ratio table to answer questions about proportional variables.  Five boxes of crayons cost Maryellen $4.25. How much will it cost to buy one box of crayons for each of the 25 students in her class?  Because the cost of the crayons is proportional to the number of boxes, we can make a table. We add copies of 5 boxes and $4.25 until we reach 25 boxes.   We find that 25 boxes of crayons will cost $21.25.  Three acres of land can support 220 apple trees. How many apple trees can you grow on 12 acres of land? Use a ratio table to find the answer.      Acres  3      Trees  220     880  Did you notice that we can use multiplication instead of addition to solve the problems above? (After all, multiplication is really just repeated addition.)  In the Example we can multiply 5 boxes of crayons by to get 25 boxes of crayons, so we can multiply $4.25 by to find the cost. The ratio of Boxes to Cost is not changed if we multiply both Boxes and Cost by the same number. This is the same principle that allows us to build a fraction, so we call this the build-up strategy for solving a problem about proportional variables, and we call the scale factor .  Try the build-up strategy on the previous Exercise.  Walking on a treadmill at 3 miles per hour for one hour burns 219 calories. How many calories will Shayla burn if she walks for 20 minutes?  The number of calories you burn is proportional to the time you walk. Because 20 minutes is of an hour, we should multiply the number of calories by also. (We are using the build-up strategy, with a scale factor of .) In 20 minutes Shayla will burn  The relationship between proportional variables is a very simple and useful one. The ratio between the variables must stay constant. So if we multiply one variable by a scale factor, we know exactly what will happen to the other variable. If you double the amount of gasoline you buy, say from 6 gallons to 12 gallons, the price will also double. If you have 4 times the amount of land, you can plant 4 times as many apple trees.  The table shows the amount of some foreign currencies you could buy with ten US dollars on April 17, 2016. Complete the table to show how much you could buy with a US 20-dollar bill.      Currency  $10  $20   Japanese yen  1083.3    Mexican peso  177.1    Canadian dollar  13    Euro  8.9    British pound  7.1     Currency  $10  $20   Japanese yen  1083.3  2166.6   Mexican peso  177.1  354.2   Canadian dollar  13  26   Euro  8.9  17.8   British pound  7.1  14.2    Using Proportions  The build-up strategy works well if there is a nice number to multiply by. But sometimes it is easier to compute a unit rate , as we did in Section 6.1.  Six bottles of VeryBerry soda costs $10.50. How much would 10 bottles cost?  The cost of the soda is proportional to the number of bottles you buy. But 10 is not a nice multiple of 6, so instead we'll calculate the unit cost of a bottle of soda. We'll simplify the ratio by dividing top and bottom by 6. One bottle of VeryBerry Soda costs $1.75. So 10 bottles cost or $17.50.  Jayden drove 132 miles on 5 gallons of gas. How far can he drive on a full tank of 18 gallons? Use the unit rate strategy to find the answer. Start with a ratio. 475.2 miles  Using Proportions  A 6-inch turkey submarine sandwich contains 282 calories. How many calories are there in a 15-inch turkey sandwich?   We'll compare three different strategies to solve the problem.  Complete the ratio table and use it to answer the question.    Inches  3  6  12  15   Calories   282     A 15-inch turkey sandwich contains calories.  Use the build-up strategy to answer the question. First, what scale factor will you need to build 6 inches to 15 inches?  :  :  Use the unit rate strategy to answer the question.  :  :   Summary  We have used two methods to solve problems involving proportional variables:  Build-up strategy: multiply both variables by the same amount  Unit rate strategy: simplify the ratio by division   Both of these strategies come from the definition of proportional.  Earlier we saw that the build-up strategy works because we can build or reduce a fraction without changing its value. Now let us see why the unit rate strategy works.  Recall that multiplication and division are opposite operations. Every division fact can be written as a multiplication fact, and vice versa. For example, We'll use this relationship in the next Example.  How much sugar is in a 16-ounce serving of cola?  The nutrition label gives the following information.    Cola  12-ounce can  20-ounce bottle  1-liter (34 ounces)   Sugars  36 grams  60 grams  102 grams   Because the amount of sugar is proportional to the size of the serving, the ratio is constant: So is the unit rate for . And because of the relationship between multiplication and division, we see that In particular, to answer the question in the problem, We have used the unit rate strategy to see that there are 48 grams of sugar in a 16-ounce serving of cola.   Five teaspoons of sugar is equivalent to 21 grams of sugar. How many teaspoons of sugar are there in a 12-ounce can of cola?  8.57 teaspoons   Graphing Proportional Variables  The relationship between proportional variables is a simple one, and their graphs are also simple. In Section 5.5 we practiced plotting points and graphing an equation. Here is a brief review.  Quick Refresher: How to Plot Points   The first variable (the input variable ) tells us the location of the point in the horizontal direction.  The second variable (the output variable ) tells us its location in the vertical direction.   Quick Refresher: Steps for Graphing an Equation   Make a table of values. Choose values for the input variable and use the equation to find the values of the output variable.  Choose appropriate scales and label the axes.  Plot the points from the table, and connect them with a smooth curve.   Graphing Proportions  Delbert and Francine are classmates at City College. Before handing in big assignments such as term papers or lab reports, they make copies of their work. Delbert uses QuikCopy, and keeps track of the copying fee for each assignment.    Delbert's Copying Fees   Number of pages  14  27  35   Cost (cents)  112  216  280   Francine copies her assignments at Copy World.    Francine's Copying Fees   Number of pages  12  26  32   Cost (cents)  72  156  192    Verify that the cost of copying is proportional to the number of pages at both QuikCopy and at Copy World.    Delbert's Copying Fees   Number of pages  14  27  35   Cost(cents)  112  216  280   Cost\/page        Francine's Copying Fees   Number of pages  12  26  32   Cost(cents)  72  156  192   Cost\/page       How do you know that the cost of copying is proportional to the number of pages copied?  Who is paying the higher price for copying?    Plot the data for Delbert's copying fees on the grid. (Include a point for the cost of copying 0 pages.)  Connect the data points with a straight line.     Similarly, plot the data for Francine's copying fees on the same grid, and connect them with a straight line.  Which line is rising more rapidly?    From the Activity, we observe two facts about the graphs of proportional variables.  Graphs of Proportional Variables   The graph is a straight line.  The graph passes through the point . In other words, if one variable is zero, the other variable must be zero also.   You might want to compare the graphs of copying costs in the Activity with the graph of tuition from Example 6.2.1, shown below. Recall that the cost of tuition was not proportional to the number of units you take, and the graph does not pass through the point .   Graph of T=100+30u    We can recover information about proportional variables from their graphs. Here is a reminder about reading points on a graph.  How to Read Points   The location of the point in the horizontal direction tells us the value of the first variable (the input variable) .  The location of the point in the vertical direction tells us the value of the second variable (the output variable) .   Kira buys granola in bulk at the health food store. There are three standard containers customers can use, as shown by the highlighted points on the graph.  What are the size and cost of each standard container?  What is the unit cost of the granola, in cents per ounce?  If we extend the graph to include 25 ounces of granola, how much taller should we make the vertical axis?     We read the ounces and cents values for each of the three points. The standard containers are 10 ounces for $3.00, 16 ounces for $4.80, and 24 ounces for $7.20.  To find the unit cost, we compute the ratio of cost to ounces.  25 ounces would cost So we would need to extend the vertical axis by another 30 units, to 750.   Esme and Marya both work part-time as data-entry technicians at different companies. The graph shows their earnings in terms of the number of hours they work.    vector     Who earns more per hour? Explain how you know.  Use the graph to fill in the table.    Hours  4  8  10   Esme's earnings      Esme's earnings      Compute each woman's wages in dollars per hour.  Esme:  Marya:   Esme. Her graph is steeper.    Hours  4  8  10   Esme's earnings  100  200  250   Marya's earnings  60  120  150   Esme: $25 per hr; Marya: $15 per hr     Practice 6-2  What is a variable? A quantity that takes on different values in different situations.  How can we tell whether two variables are proportional?  Name two strategies for solving problems involving proportional variables. Build-up strategy and unit rate strategy  If two variables are proportional, what does their graph look like?  For Problems 5-8,  Complete the table of values.  Decide whether the two variables are proportional.   To make Classic Pop, you need three ounces of Secret Syrup for every 32 ounces of carbonatedwater. Is the amount of Secret Syrup proportional to the amount of carbonated water?    Carbonated water (oz)  32  64  96   Secret Syrup (oz)        Carbonated water (oz)  32  64  96   Secret Syrup (oz)  3  6  9   Yes   To brew coffee, you put in one scoop of coffee for every six ounces of water, plus one scoop for the pot. Is the amount of coffee needed proportional to the amount of water used?    Water (oz)  6  12  18   Coffee (scoops)      The thickness of a book in millimeters can be found by adding 6 millimeters (for the thickness of the covers) to 1 millimeter for every 25 pages. Is the thickness of the book proportional to the number of pages?    Pages  25  50  75   Thickness (mm)        Pages  25  50  75   Thickness (mm)  7  8>  9   No   A four-liter can of paint will cover 150 square feet of primed surface. Is the amount of paint you need proportional to the area you have to paint?    Area (sq ft)  150  300  450   Paint (liters)       Use the build-up method to solve Problems 9-12.  A recipe for one dozen chocolate chip cookies calls for 8 ounces of chocolate chips. How many ounces of chocolate chips will you need to make 30 cookies? 20 oz  A 160-pound male burns 600 calories playing tennis for one hour. How many hours of tennis would it take to burn 3500 calories, or 1 pound of fat?  Ben has a four-inch wide by six-inch long photo of himself scaling Half-Dome in Yosemite. If he has it enlarged to a poster four feet long, how wide will the poster be? (Hint: How many inches are in a foot?) 32 in  A general purpose bird seed contains 2 cups of sunflower seed for every 5 cups of millet. How much millet should be mixed with 5 quarts of sunflower seed? (Hint: How many cups are in a quart?)   Use the unit rate method to solve Problems 13-16.  The road to the camp grounds at Pine Lake State Park is 1.5 miles long. On the map, the road measures inch. If Pine Lake is inches long on the map, how long is the lake actually? 6.5 mi  A cinnamon bread recipe calls for tablespoons of cinnamon and 5 cups of flour. How much cinnamon would be needed if 8 cups of flour are used?  Gary is six feet tall. At 4 p.m., his shadow is 10 feet long. How tall is the spruce tree on his front lawn if its shadow is 38 feet long at 4 p.m.? 63 ft  In a survey of 800 voters, 625 favored a gun control ballot measure. If there are 15,000 voters in Senator Fogbank's district, how many can be expected to favor gun control?   For Problems 17-20,  Which method, build-up or unit rate, do you think would be best-suited to solve the problem?  Use your method to solve the problem.   The Quality Control department at Major Motors found that in a sample of 500 electronic toggle units, 12 were defective. How many defective units should they expect in a shipment of 3600 units? 86  In order to estimate the number of deer in a certain wooded area, the Forest Service tagged and released 50 deer. A month later they captured 60 deer and found that 9 of them were tagged. Approximately how many deer are there in the woods?  The average American takes a shower that lasts 8.5 minutes and uses 17.85 gallons of water. How much water does a 10-minute shower use? 21 gal  An 8-ounce cafe mocha contains 150 calories. How many calories are in a 20-ounce cafe mocha?   For Problems 21-24, explain why using a proportion would not give an accurate answer to the question.  Andre ran 100 meters in 10 seconds. How far can he run in one hour? He will not run at the same rate for the whole hour.  It took 18 musicians 20 minutes to play a serenade by Mozart. How long would it take 36 musicians to play the same piece of music?   Jacquelyn grew from 18 inches long at birth to 48 inches tall at age 7. How tall will she be at age 21? Her rate of growth will decrease.  The temperature rose from 40° at 6 am to 70° at noon. What will the temperature be at 6 pm?   For Problems 25-28,  Make a table of values for the variables.  Plot the data points and connect them with a straight line.  Use a suitable strategy to answer the question.  On the graph, circle the point that shows your answer to part (c).   The distance traveled at a constant speed is proportional to the time taken. A research submarine traveled 45 miles in 3 hours. How long will it take them to travel 300 miles?    Time (hrs)  Distance (mi)         20 hrs  Megan's wages are proportional to the time she works. Megan made $60 for 8 hours work as a lab assistant. How long will it take her to make $500?    Time (hrs)  Wages($)          The cost of a turkey is proportional to its weight. A 16-pound turkey costs $12.80. How much does a 22-pound turkey cost?    Weight (lb)  Cost ($)         $17.60  The amount of pure copper produced by Copperfield Mine is proportional to the amount of ore extracted. A new lode produced 24 grams of copper from 800 grams of ore. How many grams of copper will one kilogram of ore yield??    Ore (g)  Copper (g)           Problems 29-32 consider some formulas from geometry.    The perimeter of a square is four times the length of its side. Complete the table.    Side length (cm)  2  5  8  11   Perimeter (cm)       Graph your equation, using the values in your table.  Is the perimeter of a square proportional to the length of its side?      Side length (cm)  2  5  8  11   Perimeter (cm)  8  20  32  44    Yes    The circumference of a circle (the distance around the circle) is times its radius. Complete the table. You can use 3.14 as an approximation for .    Radius (in)  2  5  7  10   Circumference (in)       Plot the data points on the grid below, using the values in your table, and connect them with a smooth curve.  Is the circumference of a circle proportional to its radius?     The area of a square is the square of the length of its side. (Recall that to \"square\" a number means to multiply the number by itself. Complete the table.    Side length (m)  2  5  6  8   Area (sq cm)       Plot the data points on the grid below, using the values in your table, and connect them with a smooth curve.  Is the area of a square proportional to the length of its side?      Side length (m)  2  5  6  8   Area (sq cm)  4  25  36  64    No    The area of a circle is times its the square of its radius. Complete the table. You can use 3.14 as an approximation for .    Radius (ft)  2  3  4  5   Area (sq ft)       Plot the data points on the grid below, using the values in your table, and connect them with a smooth curve.  Is the area of a circle proportional to its radius?      "
 },
 {
-  "id": "p-7446",
+  "id": "p-7464",
   "level": "2",
-  "url": "sec-6-2.html#p-7446",
+  "url": "sec-6-2.html#p-7464",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "variable "
 },
 {
-  "id": "p-7447",
+  "id": "p-7465",
   "level": "2",
-  "url": "sec-6-2.html#p-7447",
+  "url": "sec-6-2.html#p-7465",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -19909,9 +19909,9 @@ var ptx_lunr_docs = [
   "body": "Proportional Variables   The table shows the price of gasoline at your local gas station on a Saturday in April. There are two variables in the table: the of gasoline purchased and the . Compute the ratios in the third column of the table.     Gallons of Gasoline  Total Price    4  $10.60    6  $15.90    8  $21.20    12  $31.80    14  $37.10     You should find that the ratio , or price per gallon, is constant. It is the same for each pair of values of the variables. This result agrees with common sense: the price per gallon of gasoline is the same no matter how many gallons you buy.  The table shows the population of a town. The variable means the age of the town, or the number of years since the town was established. , of course, means the number of people who live in the town. Compute the ratios in the third column of the table.     Years  Population    10  432    20  932    30  2013    40  4345    50  9380     The ratios in this example, , give the rate of growth of the population in people per year. You can see from the table that this ratio is not constant; in fact, it increases as time goes on.  "
 },
 {
-  "id": "p-7453",
+  "id": "p-7471",
   "level": "2",
-  "url": "sec-6-2.html#p-7453",
+  "url": "sec-6-2.html#p-7471",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -19924,7 +19924,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "6.2.1",
   "title": "",
-  "body": "Tuition at Woodrow University is $400 plus $30 per unit. Is the tuition proportional to the number of units you take?  To compute the tuition, we multiply the number of units by 30 and add 400 to the result. For example, if you take 6 units, your tuition is We make a table showing several pairs of variables and compute their ratios.    Number of Units  Tuition    6  580  96.67   8  640  80   15  850  56.67   The ratio , or tuition per unit, is not constant, so the tuition is not proportional to the number of units. "
+  "body": "Tuition at Woodrow University is $30 per unit added to an enrollment fee of $100. Is the tuition proportional to the number of units you take?  To compute the tuition, we multiply the number of units by 30 and add 100 to the result. For example, if you take 6 units, your tuition is We make a table showing several pairs of variables and compute their ratios.    Number of Units  Tuition    6  280  46.67   8  340  42.50   15  550  36.67   The ratio , or tuition per unit, is not constant, so the tuition is not proportional to the number of units. "
 },
 {
   "id": "exercise-1742",
@@ -19936,22 +19936,13 @@ var ptx_lunr_docs = [
   "body": "Anouk is traveling by motorhome across Alaska at 60 miles per hour. Compute the ratios in the table.    Hours  Miles    3  180    6  360    8  480     Is the distance Anouk has traveled proportional to the time she has traveled? Yes "
 },
 {
-  "id": "p-7462",
-  "level": "2",
-  "url": "sec-6-2.html#p-7462",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "ratio table "
-},
-{
   "id": "example-151",
   "level": "2",
   "url": "sec-6-2.html#example-151",
   "type": "Example",
   "number": "6.2.3",
   "title": "",
-  "body": "Five boxes of crayons cost Maryellen $4.25. How much will it cost to buy one box of crayons for each of the 25 students in her class?  Because the cost of the crayons is proportional to the number of boxes, we can make a table. We add copies of 5 boxes and $4.25 until we reach 25 boxes.   We find that 25 boxes of crayons will cost $21.25. "
+  "body": "Is the area of a square proportional to the length of a side?  We'll make a table of values for squares of various lengths.    Length of side (in)  Area (sq in)  Ratio               From the table we see that the ratio of area to length is not constant, so the area of a square is not proportional to the length of a side. "
 },
 {
   "id": "exercise-1743",
@@ -19960,6 +19951,33 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "6.2.4",
   "title": "",
+  "body": "Is the perimeter of a square proportional to the length of a side?  Hint: Make a table of values, or recall the formula for the perimeter of a square. Yes "
+},
+{
+  "id": "p-7487",
+  "level": "2",
+  "url": "sec-6-2.html#p-7487",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "ratio table "
+},
+{
+  "id": "example-152",
+  "level": "2",
+  "url": "sec-6-2.html#example-152",
+  "type": "Example",
+  "number": "6.2.5",
+  "title": "",
+  "body": "Five boxes of crayons cost Maryellen $4.25. How much will it cost to buy one box of crayons for each of the 25 students in her class?  Because the cost of the crayons is proportional to the number of boxes, we can make a table. We add copies of 5 boxes and $4.25 until we reach 25 boxes.   We find that 25 boxes of crayons will cost $21.25. "
+},
+{
+  "id": "exercise-1744",
+  "level": "2",
+  "url": "sec-6-2.html#exercise-1744",
+  "type": "Checkpoint",
+  "number": "6.2.6",
+  "title": "",
   "body": "Three acres of land can support 220 apple trees. How many apple trees can you grow on 12 acres of land? Use a ratio table to find the answer.      Acres  3      Trees  220     880 "
 },
 {
@@ -19967,36 +19985,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-2.html#note-93",
   "type": "Note",
-  "number": "6.2.5",
-  "title": "",
-  "body": "Did you notice that we can use multiplication instead of addition to solve the problems above? (After all, multiplication is really just repeated addition.)  In the Example we can multiply 5 boxes of crayons by to get 25 boxes of crayons, so we can multiply $4.25 by to find the cost. The ratio of Boxes to Cost is not changed if we multiply both Boxes and Cost by the same number. This is the same principle that allows us to build a fraction, so we call this the build-up strategy for solving a problem about proportional variables, and we call the scale factor .  Try the build-up strategy on the previous Exercise. "
-},
-{
-  "id": "example-152",
-  "level": "2",
-  "url": "sec-6-2.html#example-152",
-  "type": "Example",
-  "number": "6.2.6",
-  "title": "",
-  "body": "Walking on a treadmill at 3 miles per hour for one hour burns 219 calories. How many calories will Shayla burn if she walks for 20 minutes?  The number of calories you burn is proportional to the time you walk. Because 20 minutes is of an hour, we should multiply the number of calories by also. (We are using the build-up strategy, with a scale factor of .) In 20 minutes Shayla will burn "
-},
-{
-  "id": "exercise-1744",
-  "level": "2",
-  "url": "sec-6-2.html#exercise-1744",
-  "type": "Checkpoint",
   "number": "6.2.7",
   "title": "",
-  "body": "The table shows the amount of some foreign currencies you could buy with ten US dollars on April 17, 2016. Complete the table to show how much you could buy with a US 20-dollar bill.      Currency  $10  $20   Japanese yen  1083.3    Mexican peso  177.1    Canadian dollar  13    Euro  8.9    British pound  7.1     Currency  $10  $20   Japanese yen  1083.3  2166.6   Mexican peso  177.1  354.2   Canadian dollar  13  26   Euro  8.9  17.8   British pound  7.1  14.2  "
-},
-{
-  "id": "p-7476",
-  "level": "2",
-  "url": "sec-6-2.html#p-7476",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "unit rate "
+  "body": "Did you notice that we can use multiplication instead of addition to solve the problems above? (After all, multiplication is really just repeated addition.)  In the Example we can multiply 5 boxes of crayons by to get 25 boxes of crayons, so we can multiply $4.25 by to find the cost. The ratio of Boxes to Cost is not changed if we multiply both Boxes and Cost by the same number. This is the same principle that allows us to build a fraction, so we call this the build-up strategy for solving a problem about proportional variables, and we call the scale factor .  Try the build-up strategy on the previous Exercise. "
 },
 {
   "id": "example-153",
@@ -20005,7 +19996,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "6.2.8",
   "title": "",
-  "body": "Six bottles of VeryBerry soda costs $10.50. How much would 10 bottles cost?  The cost of the soda is proportional to the number of bottles you buy. But 10 is not a nice multiple of 6, so instead we'll calculate the unit cost of a bottle of soda. We'll simplify the ratio by dividing. One bottle of VeryBerry Soda costs $1.75. So 10 bottles cost or $17.50. "
+  "body": "Walking on a treadmill at 3 miles per hour for one hour burns 219 calories. How many calories will Shayla burn if she walks for 20 minutes?  The number of calories you burn is proportional to the time you walk. Because 20 minutes is of an hour, we should multiply the number of calories by also. (We are using the build-up strategy, with a scale factor of .) In 20 minutes Shayla will burn "
 },
 {
   "id": "exercise-1745",
@@ -20013,6 +20004,33 @@ var ptx_lunr_docs = [
   "url": "sec-6-2.html#exercise-1745",
   "type": "Checkpoint",
   "number": "6.2.9",
+  "title": "",
+  "body": "The table shows the amount of some foreign currencies you could buy with ten US dollars on April 17, 2016. Complete the table to show how much you could buy with a US 20-dollar bill.      Currency  $10  $20   Japanese yen  1083.3    Mexican peso  177.1    Canadian dollar  13    Euro  8.9    British pound  7.1     Currency  $10  $20   Japanese yen  1083.3  2166.6   Mexican peso  177.1  354.2   Canadian dollar  13  26   Euro  8.9  17.8   British pound  7.1  14.2  "
+},
+{
+  "id": "p-7501",
+  "level": "2",
+  "url": "sec-6-2.html#p-7501",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "unit rate "
+},
+{
+  "id": "example-154",
+  "level": "2",
+  "url": "sec-6-2.html#example-154",
+  "type": "Example",
+  "number": "6.2.10",
+  "title": "",
+  "body": "Six bottles of VeryBerry soda costs $10.50. How much would 10 bottles cost?  The cost of the soda is proportional to the number of bottles you buy. But 10 is not a nice multiple of 6, so instead we'll calculate the unit cost of a bottle of soda. We'll simplify the ratio by dividing top and bottom by 6. One bottle of VeryBerry Soda costs $1.75. So 10 bottles cost or $17.50. "
+},
+{
+  "id": "exercise-1746",
+  "level": "2",
+  "url": "sec-6-2.html#exercise-1746",
+  "type": "Checkpoint",
+  "number": "6.2.11",
   "title": "",
   "body": "Jayden drove 132 miles on 5 gallons of gas. How far can he drive on a full tank of 18 gallons? Use the unit rate strategy to find the answer. Start with a ratio. 475.2 miles "
 },
@@ -20022,26 +20040,35 @@ var ptx_lunr_docs = [
   "url": "sec-6-2.html#activity-67",
   "type": "Activity",
   "number": "6.2.2",
-  "title": "Solving Proportion Problems.",
-  "body": "Solving Proportion Problems  A 6-inch turkey submarine sandwich contains 282 calories. How many calories are there in a 15-inch turkey sandwich?   We'll compare three different strategies to solve the problem.  Complete the ratio table and use it to answer the question.    Inches  3  6  12  15   Calories   282     A 15-inch turkey sandwich contains calories.  Use the build-up strategy to answer the question. First, what scale factor will you need to build 6 inches to 15 inches?  :  :  Use the unit rate strategy to answer the question.  :  :  "
+  "title": "Using Proportions.",
+  "body": "Using Proportions  A 6-inch turkey submarine sandwich contains 282 calories. How many calories are there in a 15-inch turkey sandwich?   We'll compare three different strategies to solve the problem.  Complete the ratio table and use it to answer the question.    Inches  3  6  12  15   Calories   282     A 15-inch turkey sandwich contains calories.  Use the build-up strategy to answer the question. First, what scale factor will you need to build 6 inches to 15 inches?  :  :  Use the unit rate strategy to answer the question.  :  :  "
 },
 {
-  "id": "example-154",
+  "id": "example-155",
   "level": "2",
-  "url": "sec-6-2.html#example-154",
+  "url": "sec-6-2.html#example-155",
   "type": "Example",
-  "number": "6.2.10",
+  "number": "6.2.12",
   "title": "",
-  "body": "How much sugar is in a 16-ounce serving of cola?  The nutrition label gives the following information.    Cola  12-ounce can  20-ounce bottle  1-liter (34 ounces)   Sugars  36 grams  60 grams  102 grams   Because the amount of sugar is proportional to the size of the serving, the ratio is constant: So 3 is the unit rate for . And because of the relationship between multiplication and division, we see that In particular, to answer the question in the problem, We have used the unit rate strategy to see that there are 48 grams of sugar in a 16-ounce serving of cola.  "
+  "body": "How much sugar is in a 16-ounce serving of cola?  The nutrition label gives the following information.    Cola  12-ounce can  20-ounce bottle  1-liter (34 ounces)   Sugars  36 grams  60 grams  102 grams   Because the amount of sugar is proportional to the size of the serving, the ratio is constant: So is the unit rate for . And because of the relationship between multiplication and division, we see that In particular, to answer the question in the problem, We have used the unit rate strategy to see that there are 48 grams of sugar in a 16-ounce serving of cola.  "
 },
 {
-  "id": "exercise-1746",
+  "id": "exercise-1747",
   "level": "2",
-  "url": "sec-6-2.html#exercise-1746",
+  "url": "sec-6-2.html#exercise-1747",
   "type": "Checkpoint",
-  "number": "6.2.11",
+  "number": "6.2.13",
   "title": "",
   "body": "Five teaspoons of sugar is equivalent to 21 grams of sugar. How many teaspoons of sugar are there in a 12-ounce can of cola?  8.57 teaspoons "
+},
+{
+  "id": "p-7528",
+  "level": "2",
+  "url": "sec-6-2.html#p-7528",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "input variable output variable "
 },
 {
   "id": "activity-68",
@@ -20053,317 +20080,326 @@ var ptx_lunr_docs = [
   "body": "Graphing Proportions  Delbert and Francine are classmates at City College. Before handing in big assignments such as term papers or lab reports, they make copies of their work. Delbert uses QuikCopy, and keeps track of the copying fee for each assignment.    Delbert's Copying Fees   Number of pages  14  27  35   Cost (cents)  112  216  280   Francine copies her assignments at Copy World.    Francine's Copying Fees   Number of pages  12  26  32   Cost (cents)  72  156  192    Verify that the cost of copying is proportional to the number of pages at both QuikCopy and at Copy World.    Delbert's Copying Fees   Number of pages  14  27  35   Cost(cents)  112  216  280   Cost\/page        Francine's Copying Fees   Number of pages  12  26  32   Cost(cents)  72  156  192   Cost\/page       How do you know that the cost of copying is proportional to the number of pages copied?  Who is paying the higher price for copying?    Plot the data for Delbert's copying fees on the grid. (Include a point for the cost of copying 0 pages.)  Connect the data points with a straight line.     Similarly, plot the data for Francine's copying fees on the same grid, and connect them with a straight line.  Which line is rising more rapidly?   "
 },
 {
-  "id": "p-7523",
+  "id": "note-94",
   "level": "2",
-  "url": "sec-6-2.html#p-7523",
+  "url": "sec-6-2.html#note-94",
+  "type": "Note",
+  "number": "6.2.14",
+  "title": "",
+  "body": "You might want to compare the graphs of copying costs in the Activity with the graph of tuition from Example 6.2.1, shown below. Recall that the cost of tuition was not proportional to the number of units you take, and the graph does not pass through the point .   Graph of T=100+30u   "
+},
+{
+  "id": "p-7556",
+  "level": "2",
+  "url": "sec-6-2.html#p-7556",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "input variable) output variable) "
 },
 {
-  "id": "example-155",
+  "id": "example-156",
   "level": "2",
-  "url": "sec-6-2.html#example-155",
+  "url": "sec-6-2.html#example-156",
   "type": "Example",
-  "number": "6.2.12",
+  "number": "6.2.15",
   "title": "",
   "body": "Kira buys granola in bulk at the health food store. There are three standard containers customers can use, as shown by the highlighted points on the graph.  What are the size and cost of each standard container?  What is the unit cost of the granola, in cents per ounce?  If we extend the graph to include 25 ounces of granola, how much taller should we make the vertical axis?     We read the ounces and cents values for each of the three points. The standard containers are 10 ounces for $3.00, 16 ounces for $4.80, and 24 ounces for $7.20.  To find the unit cost, we compute the ratio of cost to ounces.  25 ounces would cost So we would need to extend the vertical axis by another 30 units, to 750.  "
-},
-{
-  "id": "exercise-1747",
-  "level": "2",
-  "url": "sec-6-2.html#exercise-1747",
-  "type": "Checkpoint",
-  "number": "6.2.13",
-  "title": "",
-  "body": "Nazli and Marya both work part-time as data-entry technicians at different companies. The graph shows their earnings in terms of the number of hours they work.    Who earns more per hour? Explain how you know.  Use the graph to fill in the table.    Hours  4  8  10   Nazli's earnings      Marya's earnings      Compute each woman's wages in dollars per hour.  Nazli:  Marya:   Nazli. Her graph is steeper.    Hours  4  8  10   Nazli's earnings  100  200  250   Marya's earnings  60  120  150   Nazli: $25 per hr; Marya: $15 per hr  "
 },
 {
   "id": "exercise-1748",
   "level": "2",
   "url": "sec-6-2.html#exercise-1748",
-  "type": "Exercise",
-  "number": "6.2.4.1",
+  "type": "Checkpoint",
+  "number": "6.2.16",
   "title": "",
-  "body": "What is a variable? A quantity that takes on different values in different situations. "
+  "body": "Esme and Marya both work part-time as data-entry technicians at different companies. The graph shows their earnings in terms of the number of hours they work.    vector     Who earns more per hour? Explain how you know.  Use the graph to fill in the table.    Hours  4  8  10   Esme's earnings      Esme's earnings      Compute each woman's wages in dollars per hour.  Esme:  Marya:   Esme. Her graph is steeper.    Hours  4  8  10   Esme's earnings  100  200  250   Marya's earnings  60  120  150   Esme: $25 per hr; Marya: $15 per hr  "
 },
 {
   "id": "exercise-1749",
   "level": "2",
   "url": "sec-6-2.html#exercise-1749",
   "type": "Exercise",
-  "number": "6.2.4.2",
+  "number": "6.2.5.1",
   "title": "",
-  "body": "How can we tell whether two variables are proportional? "
+  "body": "What is a variable? A quantity that takes on different values in different situations. "
 },
 {
   "id": "exercise-1750",
   "level": "2",
   "url": "sec-6-2.html#exercise-1750",
   "type": "Exercise",
-  "number": "6.2.4.3",
+  "number": "6.2.5.2",
   "title": "",
-  "body": "Name two strategies for solving problems involving proportional variables. Build-up strategy and unit rate strategy "
+  "body": "How can we tell whether two variables are proportional? "
 },
 {
   "id": "exercise-1751",
   "level": "2",
   "url": "sec-6-2.html#exercise-1751",
   "type": "Exercise",
-  "number": "6.2.4.4",
+  "number": "6.2.5.3",
   "title": "",
-  "body": "If two variables are proportional, what does their graph look like? "
+  "body": "Name two strategies for solving problems involving proportional variables. Build-up strategy and unit rate strategy "
 },
 {
   "id": "exercise-1752",
   "level": "2",
   "url": "sec-6-2.html#exercise-1752",
   "type": "Exercise",
-  "number": "6.2.4.5",
+  "number": "6.2.5.4",
   "title": "",
-  "body": "To make Classic Pop, you need three ounces of Secret Syrup for every 32 ounces of carbonatedwater. Is the amount of Secret Syrup proportional to the amount of carbonated water?    Carbonated water (oz)  32  64  96   Secret Syrup (oz)        Carbonated water (oz)  32  64  96   Secret Syrup (oz)  3  6  9   Yes  "
+  "body": "If two variables are proportional, what does their graph look like? "
 },
 {
   "id": "exercise-1753",
   "level": "2",
   "url": "sec-6-2.html#exercise-1753",
   "type": "Exercise",
-  "number": "6.2.4.6",
+  "number": "6.2.5.5",
   "title": "",
-  "body": "To brew coffee, you put in one scoop of coffee for every six ounces of water, plus one scoop for the pot. Is the amount of coffee needed proportional to the amount of water used?    Water (oz)  6  12  18   Coffee (scoops)     "
+  "body": "To make Classic Pop, you need three ounces of Secret Syrup for every 32 ounces of carbonatedwater. Is the amount of Secret Syrup proportional to the amount of carbonated water?    Carbonated water (oz)  32  64  96   Secret Syrup (oz)        Carbonated water (oz)  32  64  96   Secret Syrup (oz)  3  6  9   Yes  "
 },
 {
   "id": "exercise-1754",
   "level": "2",
   "url": "sec-6-2.html#exercise-1754",
   "type": "Exercise",
-  "number": "6.2.4.7",
+  "number": "6.2.5.6",
   "title": "",
-  "body": "The thickness of a book in millimeters can be found by adding 6 millimeters (for the thickness of the covers) to 1 millimeter for every 25 pages. Is the thickness of the book proportional to the number of pages?    Pages  25  50  75   Thickness (mm)        Pages  25  50  75   Thickness (mm)  7  8>  9   No  "
+  "body": "To brew coffee, you put in one scoop of coffee for every six ounces of water, plus one scoop for the pot. Is the amount of coffee needed proportional to the amount of water used?    Water (oz)  6  12  18   Coffee (scoops)     "
 },
 {
   "id": "exercise-1755",
   "level": "2",
   "url": "sec-6-2.html#exercise-1755",
   "type": "Exercise",
-  "number": "6.2.4.8",
+  "number": "6.2.5.7",
   "title": "",
-  "body": "A four-liter can of paint will cover 150 square feet of primed surface. Is the amount of paint you need proportional to the area you have to paint?    Area (sq ft)  150  300  450   Paint (liters)     "
+  "body": "The thickness of a book in millimeters can be found by adding 6 millimeters (for the thickness of the covers) to 1 millimeter for every 25 pages. Is the thickness of the book proportional to the number of pages?    Pages  25  50  75   Thickness (mm)        Pages  25  50  75   Thickness (mm)  7  8>  9   No  "
 },
 {
   "id": "exercise-1756",
   "level": "2",
   "url": "sec-6-2.html#exercise-1756",
   "type": "Exercise",
-  "number": "6.2.4.9",
+  "number": "6.2.5.8",
   "title": "",
-  "body": "A recipe for one dozen chocolate chip cookies calls for 8 ounces of chocolate chips. How many ounces of chocolate chips will you need to make 30 cookies? 20 oz "
+  "body": "A four-liter can of paint will cover 150 square feet of primed surface. Is the amount of paint you need proportional to the area you have to paint?    Area (sq ft)  150  300  450   Paint (liters)     "
 },
 {
   "id": "exercise-1757",
   "level": "2",
   "url": "sec-6-2.html#exercise-1757",
   "type": "Exercise",
-  "number": "6.2.4.10",
+  "number": "6.2.5.9",
   "title": "",
-  "body": "A 160-pound male burns 600 calories playing tennis for one hour. How many hours of tennis would it take to burn 3500 calories, or 1 pound of fat? "
+  "body": "A recipe for one dozen chocolate chip cookies calls for 8 ounces of chocolate chips. How many ounces of chocolate chips will you need to make 30 cookies? 20 oz "
 },
 {
   "id": "exercise-1758",
   "level": "2",
   "url": "sec-6-2.html#exercise-1758",
   "type": "Exercise",
-  "number": "6.2.4.11",
+  "number": "6.2.5.10",
   "title": "",
-  "body": "Ben has a four-inch wide by six-inch long photo of himself scaling Half-Dome in Yosemite. If he has it enlarged to a poster four feet long, how wide will the poster be? (Hint: How many inches are in a foot?) 32 in "
+  "body": "A 160-pound male burns 600 calories playing tennis for one hour. How many hours of tennis would it take to burn 3500 calories, or 1 pound of fat? "
 },
 {
   "id": "exercise-1759",
   "level": "2",
   "url": "sec-6-2.html#exercise-1759",
   "type": "Exercise",
-  "number": "6.2.4.12",
+  "number": "6.2.5.11",
   "title": "",
-  "body": "A general purpose bird seed contains 2 cups of sunflower seed for every 5 cups of millet. How much millet should be mixed with 5 quarts of sunflower seed? (Hint: How many cups are in a quart?) "
+  "body": "Ben has a four-inch wide by six-inch long photo of himself scaling Half-Dome in Yosemite. If he has it enlarged to a poster four feet long, how wide will the poster be? (Hint: How many inches are in a foot?) 32 in "
 },
 {
   "id": "exercise-1760",
   "level": "2",
   "url": "sec-6-2.html#exercise-1760",
   "type": "Exercise",
-  "number": "6.2.4.13",
+  "number": "6.2.5.12",
   "title": "",
-  "body": "The road to the camp grounds at Pine Lake State Park is 1.5 miles long. On the map, the road measures inch. If Pine Lake is inches long on the map, how long is the lake actually? 6.5 mi "
+  "body": "A general purpose bird seed contains 2 cups of sunflower seed for every 5 cups of millet. How much millet should be mixed with 5 quarts of sunflower seed? (Hint: How many cups are in a quart?) "
 },
 {
   "id": "exercise-1761",
   "level": "2",
   "url": "sec-6-2.html#exercise-1761",
   "type": "Exercise",
-  "number": "6.2.4.14",
+  "number": "6.2.5.13",
   "title": "",
-  "body": "A cinnamon bread recipe calls for tablespoons of cinnamon and 5 cups of flour. How much cinnamon would be needed if 8 cups of flour are used? "
+  "body": "The road to the camp grounds at Pine Lake State Park is 1.5 miles long. On the map, the road measures inch. If Pine Lake is inches long on the map, how long is the lake actually? 6.5 mi "
 },
 {
   "id": "exercise-1762",
   "level": "2",
   "url": "sec-6-2.html#exercise-1762",
   "type": "Exercise",
-  "number": "6.2.4.15",
+  "number": "6.2.5.14",
   "title": "",
-  "body": "Gary is six feet tall. At 4 p.m., his shadow is 10 feet long. How tall is the spruce tree on his front lawn if its shadow is 38 feet long at 4 p.m.? 63 ft "
+  "body": "A cinnamon bread recipe calls for tablespoons of cinnamon and 5 cups of flour. How much cinnamon would be needed if 8 cups of flour are used? "
 },
 {
   "id": "exercise-1763",
   "level": "2",
   "url": "sec-6-2.html#exercise-1763",
   "type": "Exercise",
-  "number": "6.2.4.16",
+  "number": "6.2.5.15",
   "title": "",
-  "body": "In a survey of 800 voters, 625 favored a gun control ballot measure. If there are 15,000 voters in Senator Fogbank's district, how many can be expected to favor gun control? "
+  "body": "Gary is six feet tall. At 4 p.m., his shadow is 10 feet long. How tall is the spruce tree on his front lawn if its shadow is 38 feet long at 4 p.m.? 63 ft "
 },
 {
   "id": "exercise-1764",
   "level": "2",
   "url": "sec-6-2.html#exercise-1764",
   "type": "Exercise",
-  "number": "6.2.4.17",
+  "number": "6.2.5.16",
   "title": "",
-  "body": "The Quality Control department at Major Motors found that in a sample of 500 electronic toggle units, 12 were defective. How many defective units should they expect in a shipment of 3600 units? 86 "
+  "body": "In a survey of 800 voters, 625 favored a gun control ballot measure. If there are 15,000 voters in Senator Fogbank's district, how many can be expected to favor gun control? "
 },
 {
   "id": "exercise-1765",
   "level": "2",
   "url": "sec-6-2.html#exercise-1765",
   "type": "Exercise",
-  "number": "6.2.4.18",
+  "number": "6.2.5.17",
   "title": "",
-  "body": "In order to estimate the number of deer in a certain wooded area, the Forest Service tagged and released 50 deer. A month later they captured 60 deer and found that 9 of them were tagged. Approximately how many deer are there in the woods? "
+  "body": "The Quality Control department at Major Motors found that in a sample of 500 electronic toggle units, 12 were defective. How many defective units should they expect in a shipment of 3600 units? 86 "
 },
 {
   "id": "exercise-1766",
   "level": "2",
   "url": "sec-6-2.html#exercise-1766",
   "type": "Exercise",
-  "number": "6.2.4.19",
+  "number": "6.2.5.18",
   "title": "",
-  "body": "The average American takes a shower that lasts 8.5 minutes and uses 17.85 gallons of water. How much water does a 10-minute shower use? 21 gal "
+  "body": "In order to estimate the number of deer in a certain wooded area, the Forest Service tagged and released 50 deer. A month later they captured 60 deer and found that 9 of them were tagged. Approximately how many deer are there in the woods? "
 },
 {
   "id": "exercise-1767",
   "level": "2",
   "url": "sec-6-2.html#exercise-1767",
   "type": "Exercise",
-  "number": "6.2.4.20",
+  "number": "6.2.5.19",
   "title": "",
-  "body": "An 8-ounce cafe mocha contains 150 calories. How many calories are in a 20-ounce cafe mocha? "
+  "body": "The average American takes a shower that lasts 8.5 minutes and uses 17.85 gallons of water. How much water does a 10-minute shower use? 21 gal "
 },
 {
   "id": "exercise-1768",
   "level": "2",
   "url": "sec-6-2.html#exercise-1768",
   "type": "Exercise",
-  "number": "6.2.4.21",
+  "number": "6.2.5.20",
   "title": "",
-  "body": "Andre ran 100 meters in 10 seconds. How far can he run in one hour? He will not run at the same rate for the whole hour. "
+  "body": "An 8-ounce cafe mocha contains 150 calories. How many calories are in a 20-ounce cafe mocha? "
 },
 {
   "id": "exercise-1769",
   "level": "2",
   "url": "sec-6-2.html#exercise-1769",
   "type": "Exercise",
-  "number": "6.2.4.22",
+  "number": "6.2.5.21",
   "title": "",
-  "body": "It took 18 musicians 20 minutes to play a serenade by Mozart. How long would it take 36 musicians to play the same piece of music?  "
+  "body": "Andre ran 100 meters in 10 seconds. How far can he run in one hour? He will not run at the same rate for the whole hour. "
 },
 {
   "id": "exercise-1770",
   "level": "2",
   "url": "sec-6-2.html#exercise-1770",
   "type": "Exercise",
-  "number": "6.2.4.23",
+  "number": "6.2.5.22",
   "title": "",
-  "body": "Jacquelyn grew from 18 inches long at birth to 48 inches tall at age 7. How tall will she be at age 21? Her rate of growth will decrease. "
+  "body": "It took 18 musicians 20 minutes to play a serenade by Mozart. How long would it take 36 musicians to play the same piece of music?  "
 },
 {
   "id": "exercise-1771",
   "level": "2",
   "url": "sec-6-2.html#exercise-1771",
   "type": "Exercise",
-  "number": "6.2.4.24",
+  "number": "6.2.5.23",
   "title": "",
-  "body": "The temperature rose from 40° at 6 am to 70° at noon. What will the temperature be at 6 pm? "
+  "body": "Jacquelyn grew from 18 inches long at birth to 48 inches tall at age 7. How tall will she be at age 21? Her rate of growth will decrease. "
 },
 {
   "id": "exercise-1772",
   "level": "2",
   "url": "sec-6-2.html#exercise-1772",
   "type": "Exercise",
-  "number": "6.2.4.25",
+  "number": "6.2.5.24",
   "title": "",
-  "body": "The distance traveled at a constant speed is proportional to the time taken. A research submarine traveled 45 miles in 3 hours. How long will it take them to travel 300 miles?    Time (hrs)  Distance (mi)         20 hrs "
+  "body": "The temperature rose from 40° at 6 am to 70° at noon. What will the temperature be at 6 pm? "
 },
 {
   "id": "exercise-1773",
   "level": "2",
   "url": "sec-6-2.html#exercise-1773",
   "type": "Exercise",
-  "number": "6.2.4.26",
+  "number": "6.2.5.25",
   "title": "",
-  "body": "Megan's wages are proportional to the time she works. Megan made $60 for 8 hours work as a lab assistant. How long will it take her to make $500?    Time (hrs)  Wages($)         "
+  "body": "The distance traveled at a constant speed is proportional to the time taken. A research submarine traveled 45 miles in 3 hours. How long will it take them to travel 300 miles?    Time (hrs)  Distance (mi)         20 hrs "
 },
 {
   "id": "exercise-1774",
   "level": "2",
   "url": "sec-6-2.html#exercise-1774",
   "type": "Exercise",
-  "number": "6.2.4.27",
+  "number": "6.2.5.26",
   "title": "",
-  "body": "The cost of a turkey is proportional to its weight. A 16-pound turkey costs $12.80. How much does a 22-pound turkey cost?    Weight (lb)  Cost ($)         $17.60 "
+  "body": "Megan's wages are proportional to the time she works. Megan made $60 for 8 hours work as a lab assistant. How long will it take her to make $500?    Time (hrs)  Wages($)         "
 },
 {
   "id": "exercise-1775",
   "level": "2",
   "url": "sec-6-2.html#exercise-1775",
   "type": "Exercise",
-  "number": "6.2.4.28",
+  "number": "6.2.5.27",
   "title": "",
-  "body": "The amount of pure copper produced by Copperfield Mine is proportional to the amount of ore extracted. A new lode produced 24 grams of copper from 800 grams of ore. How many grams of copper will one kilogram of ore yield??    Ore (g)  Copper (g)         "
+  "body": "The cost of a turkey is proportional to its weight. A 16-pound turkey costs $12.80. How much does a 22-pound turkey cost?    Weight (lb)  Cost ($)         $17.60 "
 },
 {
   "id": "exercise-1776",
   "level": "2",
   "url": "sec-6-2.html#exercise-1776",
   "type": "Exercise",
-  "number": "6.2.4.29",
+  "number": "6.2.5.28",
   "title": "",
-  "body": " The perimeter of a square is four times the length of its side. Complete the table.    Side length (cm)  2  5  8  11   Perimeter (cm)       Graph your equation, using the values in your table.  Is the perimeter of a square proportional to the length of its side?      Side length (cm)  2  5  8  11   Perimeter (cm)  8  20  32  44    Yes  "
+  "body": "The amount of pure copper produced by Copperfield Mine is proportional to the amount of ore extracted. A new lode produced 24 grams of copper from 800 grams of ore. How many grams of copper will one kilogram of ore yield??    Ore (g)  Copper (g)         "
 },
 {
   "id": "exercise-1777",
   "level": "2",
   "url": "sec-6-2.html#exercise-1777",
   "type": "Exercise",
-  "number": "6.2.4.30",
+  "number": "6.2.5.29",
   "title": "",
-  "body": " The circumference of a circle (the distance around the circle) is times its radius. Complete the table. You can use 3.14 as an approximation for .    Radius (in)  2  5  7  10   Circumference (in)       Plot the data points on the grid below, using the values in your table, and connect them with a smooth curve.  Is the circumference of a circle proportional to its radius?   "
+  "body": " The perimeter of a square is four times the length of its side. Complete the table.    Side length (cm)  2  5  8  11   Perimeter (cm)       Graph your equation, using the values in your table.  Is the perimeter of a square proportional to the length of its side?      Side length (cm)  2  5  8  11   Perimeter (cm)  8  20  32  44    Yes  "
 },
 {
   "id": "exercise-1778",
   "level": "2",
   "url": "sec-6-2.html#exercise-1778",
   "type": "Exercise",
-  "number": "6.2.4.31",
+  "number": "6.2.5.30",
   "title": "",
-  "body": " The area of a square is the square of the length of its side. (Recall that to \"square\" a number means to multiply the number by itself. Complete the table.    Side length (m)  2  5  6  8   Area (sq cm)       Plot the data points on the grid below, using the values in your table, and connect them with a smooth curve.  Is the area of a square proportional to the length of its side?      Side length (m)  2  5  6  8   Area (sq cm)  4  25  36  64    No  "
+  "body": " The circumference of a circle (the distance around the circle) is times its radius. Complete the table. You can use 3.14 as an approximation for .    Radius (in)  2  5  7  10   Circumference (in)       Plot the data points on the grid below, using the values in your table, and connect them with a smooth curve.  Is the circumference of a circle proportional to its radius?   "
 },
 {
   "id": "exercise-1779",
   "level": "2",
   "url": "sec-6-2.html#exercise-1779",
   "type": "Exercise",
-  "number": "6.2.4.32",
+  "number": "6.2.5.31",
+  "title": "",
+  "body": " The area of a square is the square of the length of its side. (Recall that to \"square\" a number means to multiply the number by itself. Complete the table.    Side length (m)  2  5  6  8   Area (sq cm)       Plot the data points on the grid below, using the values in your table, and connect them with a smooth curve.  Is the area of a square proportional to the length of its side?      Side length (m)  2  5  6  8   Area (sq cm)  4  25  36  64    No  "
+},
+{
+  "id": "exercise-1780",
+  "level": "2",
+  "url": "sec-6-2.html#exercise-1780",
+  "type": "Exercise",
+  "number": "6.2.5.32",
   "title": "",
   "body": " The area of a circle is times its the square of its radius. Complete the table. You can use 3.14 as an approximation for .    Radius (ft)  2  3  4  5   Area (sq ft)       Plot the data points on the grid below, using the values in your table, and connect them with a smooth curve.  Is the area of a circle proportional to its radius?   "
 },
@@ -20374,509 +20410,509 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.3",
   "title": "Slope",
-  "body": " Slope   Equations Relating Proportional Variables  Steepness of the Graph  Rate of Growth  Visualizing Growth Rate on a Graph  Slope of a Line    Equations Relating Proportional Variables  Our definition says that two variables are proportional if the ratio of their values is constant. If we use and to stand for the variables, we can write the definition in mathematical language.  Proportional Variables, Version 1  is proportional to if , where is a constant.  Here are some values of the two variables and . Is proportional to ?     8  20  28  52    2  5  7  13   We will check to see whether the ratio is constant.     8  20  28  52    2  5  7  13         Yes, , so is proportional to .  Is proportional to ?     2  4  6  8    8  12  16  20        No  In the Example above, we found that the value of was 0.25. This number is called the constant of proportionality . You can check that for each value of , we have This observation gives us another way to describe proportional variables.  Proportional Variables, Version 2  If is proportional to , then where is a constant.  Because multiplication and division are opposite operations, the two equations are two ways to say the same thing. This second version says that is proportional to if is a constant multiple of .  Recall that in algebra, we often write the product of two variables, or a number and a variable, next to each other, without any symbol between them. For example, So in particular we can write the equation for proportional variables as  The distance, , that you drive on the highway is proportional to the amount, , of gasoline that you use. Myrna used 6 gallons of gas to drive 159 miles.  Find the constant of proportionality and write an equation relating the variables.  How far can Myrna drive on a full 22-gallon tank of gas?    Because is proportional to , we can write the equation where is the constant of proportionality. We find the value of by using one pair of related values for the variables. So , and an equation relating the two variables is   If we now substitute for , we can compute the related value of . Myrna can drive 583 miles on 22 gallons of gas.   This Example demonstrates that the constant of proportionality, , is just the unit rate we used in Section 6.2. By simplifying the ratio for a specific pair of values, we found the distance that Myrna can drive on one gallon of gas, the unit rate for the proportion.  A four-ounce bar of dark chocolate contains 600 calories.   Find the constant of proportionality, and write an equation that gives the number of calories, , in a chocolate bar in terms of its weight, .  How much chocolate can you eat for 200 calories?  How many calories are in one-half ounce of chocolate?     ounces  75 calories    Steepness of the Graph  Now that we have seen how to write an equation relating proportional variables, let's take a closer look at the graphs of those equations. In Section 6.2 we made graphs for the proportional variables in the following story:  Before handing in big assignments such as term papers or lab reports, Delbert and Francine make copies of them. Delbert uses QuikCopy, and keeps track of the copying fee for each assignment. Francine copies her assignments at Copy World.    Delbert's Copying Fees   Number of pages  14  27  35   Cost (cents)  112  216  280     Francine's Copying Fees   Number of pages  12  26  32   Cost (cents)  72  156  192    We can write an equation for each of the variables, , Delbert's copying fees, and , Francine's copying fees, in terms of the number of pages copied, . We'll calculate the unit cost in each case.  Delbert's unit cost for copying is and this is the constant of proportionality, , for his equation: . Francine's unit cost for copying is so , for her equation: . We can think of the unit cost as the rate of increase in copying fees as the number of pages copied increases. Delbert's cost increases by 8 cents for each page copied. Francine's cost increases by 6 cents for each page copied. How is the rate of increase reflected in the graph?  Steepness of the Graph  The unit cost in each case is a ratio that measures the steepness of the graph. It tells us how much to increase the output variable per unit of increase in the input variable.  For example, for each additional page Delbert has copied, his cost will increase by 8 cents, and the graph will climb 8 units for each unit we move to the right. And because his cost is increasing more rapidly than Francine's, the graph of Delbert's cost is steeper than the graph of Francine's cost.   Rate of Growth  In the copying fee example, we interpreted the constant of proportionality or unit rate as a rate of increase. It tells us how quickly the output variable increases with respect to the input variable, and hence how steeply the graph of the equation rises.  The notion of rate of increase can be applied to other equations besides proportions. Recall that the graph of a proportion is a straight line that passes through the point . But as long as the graph is a straight line we can still talk about its rate of increase, even if it does not pass through the point . In the next example we'll compare the rate of growth of two strains of tomato plants.  Sara bought two kinds of tomato plants at the nursery. The Spring Giant seedlings were 2 inches tall, and the Jubilee seedlings were 16 inches tall. Sara recorded the height, , of the vines every two weeks, as shown in the tables below. Then she plotted their heights on a graph. Which variety grew more quickly?  From the graph, we can see that the Spring Giant tomato vines are growing faster than the Jubilee vines, because their graph increases more steeply. The steepness of the graph is a measure of how fast the vines grow.    Spring Giant   (wks)  (in)   0  2   2  10   4  18   6  26   8  34     Jubilee   (wks)  (in)   0  16   2  21   4  26   6  31   8  36   To see exactly how fast the vines grow, we compute their rate of growth. The variables and are not proportional, so we cannot use a unit rate to measure their growth. But we can see from the table that during the first two weeks, the Spring Giant vines grew 8 inches (from 2 inches to 10 inches), so their growth rate was   Similarly, the Jubilee vines grew 5 inches (from 16 inches to 21 inches), so their growth rate was So the Spring Giant vines grew faster than the Jubilee vines, as we saw from the graph.  In the next Exercise, we'll compute some more growth rates. Use the tables in the last Example about the Spring Giant and Jubilee tomato vines.  Compute the ratio to find each growth rate.    Find the growth rate of the Spring Giant tomato vines from the fourth week to the eighth week.  Find the growth rate of the Jubilee tomato vines over the first four weeks.  Find the growth rate of the Jubilee tomato vines from the fourth week to the eighth week.   4 inches\/week  2.5 inches\/week  2.5 inches\/week   A Quick Refresher and Some New Notation   To calculate the increase or decrease in a quantity, we can subtract the initial value from the final value. For example, over the first 2 weeks, the Jubilee tomato vines grew from 16 inches tall to 21 inches tall, so  We use the Greek letter delta, , to stand for the change in a quantity. So, for example, stands for the change in height of the vine, and we write  In general we have    Visulaizing Growth Rate on a Graph  We can illustrate the growth rate of each tomato vine on its graph.  The graph below shows the height, , of the Spring Giant tomato vine weeks after Sara planted it. The vertical line segment labeled represents the increase in the vine's height from the second week to the sixth week. The horizontal line segment labeled represents the time interval, 4 weeks.  From week 2 to week 6, the vine grew at a rate of    What does this ratio, 4 inches\/week, tell us about the graph? Place your pencil tip at any point on the graph, then move one unit to the right along the grid lines. To get back to the graph, you must now move up by four units (two grid lines on this graph). The graph increases by climbing four units vertically for each unit we move horizontally.  The graph shows the height, , of the Jubilee tomato vines weeks after Sara planted them.   Start at any point on the graph. If you move four units horizontally, how many units does the graph climb vertically? If you move one unit horizontally, how many units does the graph climb vertically?  On the graph, draw and label line segments to illustrate the growth rate of the Jubilee tomato vines from the fourth week to the eighth week. Then calculate the growth rate.   10, 2.5  2.5 inches\/week    Slope of a Line  The ratio in the Example above is called the slope of the line. The slope measures how steeply the line increases (or decreases) as we move from left to right across the graph. In general, we define the slope for any line as follows.  Slope  The slope , , of a line is the ratio as we move from any point on the line to another point on the line.  The graph shows the cost, , of renting a bicycle for hours.  Use the points and shown to calculate the slope of the line.  What does the slope tell you about renting a bicycle?     At point and , which tells us that it costs $8 to rent a bicycle for 1 hour. Point tells us that it costs $17 to rent a bicycle for 4 hours. The slope of the line is given by  The slope tells us the rate at which the cost of renting a bicycle increases. It costs $3 per hour to rent a bike.   In the Example above, note that is not proportional to ; the graph does not pass through the point . At . (Perhaps there is a $5 deposit on the bike.) Nonetheless, we can compute the slope of the line by calculating the change in its variables as we move from one point to another.  Be careful when computing a slope: it is important that the numerator (top) of the slope ratio gives the vertical change as we move along the graph. This is because the slope is a unit rate; it tells us how many units the graph climbs per unit of horizontal increase. So it would be to compute for the slope in the last Example.  The graph shows the altitude (in feet) of a skier minutes after she boards a ski lift.  Use the points shown to compute the slope of the graph. Include units in your answer.   What does the slope tell you about the ski lift?    150 feet\/minute  The rate at which the ski lift rises.    Decreasing Graphs  When a variable decreases in value, we say that its change is negative. So, if the output-values of points on a line decrease as we move from left to right, we say that the slope of the line is negative.  At noon the temperature was 18 F, and it has been getting colder by 2 every hour.  Graph the temperature from noon to midnight.  Find the slope of the graph.  What does the slope tell us about the temperature?    We start by making a table that shows the temperature, , at hours after noon. For every hour that passes, we subtract 2 degrees.     0  2  5  9  12    18  14  8  0  -6   Then we plot the points from the table on a grid, as shown at right. Finally, we connect the points with a straight line.  To compute the slope of the line, we choose two points on the graph, say and . Now the the output variable, , decreases by 10 degrees (from 12 degrees to 2 degrees), so we say that . The input variable, , increases from 4 to 9, so . Next we calculate the slope ratio.  The slope is . It represents the rate at which the temperature is decreasing, 2 degrees per hour.   Softek bought a new photocopying machine for 18 thousand dollars ($18,000). Every year, the copier decreases in value by 3 thousand dollars ($3000).   Complete the table and graph the value, , of the copier after years.     0  2  3  5  6          Compute the slope of the graph, including units.  What does the slope tell us about the copier?    dollars\/year  The rate at which the copier depreciates.    Practice 6-3  In Problems 1-6,  Decide whether the two variables are proportional.  If the variables are proportional, write an equation relating them.       3  6  8  12    9  18  24  36       1  3  6  12    15  35  65  125         2  4   3  9   5  25   8  64  No        9  3   16  4   49  7   121  11         2  0.5   4  0.25   5  0.2   10  0.1  No        3  0.6   4  0.8   6  1.2   9  1.8    In Problems 7-14, decide whether the graph or equation describes proportional variables.  No   No   No   Yes     is proportional to if their is constant.  is proportional to if is a of   quotient  multiple   Write two different equations that say that is proportional to .   What is a constant of proportionality?  How can you find it?   The quotient of two proportional variables  Divide one variable by the other   If is proportional to , what can you say about the graph of versus ?  Trish's real-estate commission is proportional to the amount of the sale. She made $3200 commission on a sale of $80,000.  Write an equation relating Trish's commission, , to her sales, .  What would her commission be on the sale of a $200,000 property?    $8000   Property taxes are proportional to the value of the property. Gwen paid $3000 in property tax on her summer home, which is valued at $120,000.  Write an equation relating the property tax, ,to the value of the property, .  How much will Gareth pay on his cabin, which was assessed at $50,000?   How do we calculate the amount of increase or decrease in a quantity? Subtract the old value from the new value  What does the Greek letter delta, , represent?  State the definition of slope, in words, and then in symbols. Change in output value divided by change in input value,  What does the slope of a line measure?  Lynette is saving money for the down payment on a new car. The graph shows the amount she has saved weeks after the first of the year.  How much has Lynette saved after 2 weeks?  When will Lynette have saved $700?  Compute the slope of the graph, , including units.  What does the slope tell you about the problem?   $300  10 weeks  $50 per week  The rate at which Lynette's savings increases   Joshua is saving newspapers for the paper drive at his son's school. The graph shows the amount of newspaper he has saved weeks after the paper drive began.  How many pounds of newspaper has Joshua saved after 4 weeks?  When will Joshua have saved 180 pounds of newspapers?  Compute the slope of the graph, , including units.  What does the slope tell you about the problem?   Britney is raising a goat to show at the state fair. The graph shows the goat's weight when it was months old.  How much did the goat's weight increase from the second month to the fourth month? From the fourth month to the eighth month?  Compute the goat's rate of growth, including units.  Illustrate the rate of growth, , on the graph.   5 lbs, 10 lbs  2.5 lbs per month    Jason is raising a rabbit for the county fair. The graph shows the rabbit's weight when it was weeks old.  How much did the rabbit's weight increase from the fourth week to the twelfth week? From the second week to the eighth week?  When will Joshua have saved 180 pounds of newspapers?  Compute the rabbit's rate of growth, including units.  Illustrate the rate of growth, , on the graph.   The graph shows the wholesale cost of pounds of dry-roasted peanuts.  What does the slope of this graph tell you about dry-roasted peanuts?  Compute the slope, including units.  If the Lone Star Barbecue increases its weekly order of peanuts from 100 to 120 pounds, how much will the cost increase?   Cost per pound  $1.50 per lb  $30   The graph shows the cost in thousands of dollars for thousand square feet of grass sod for a lawn.  What does the slope of this graph tell you about sod?  Compute the slope, including units.  The Huron Breeze golf course is considering expanding its proposed putting green from 12,000 square feet to 15,000 square feet. How much will the cost of the sod increase?   The steepness of an incline, like a ramp or a staircase, can be measured by its slope.  Find the slope of the staircase shown if its height is 12 feet and the horizontal distance between the foot and the head of the staircase is 8 feet.  Would a staircase of slope be steeper than the one pictured, or not as steep?    not as steep    Find the slope of the ramp pictured if its height is 4 feet and the horizontal distance from its base to its top is 10 feet.  Would a ramp of slope be steeper than the one pictured, or not as steep?   Suppose you know that the slope of a line is 25.  If you start at any point on the line and move 1 unit to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 3 units to the right?   25  75   Suppose you know that the slope of a line is 8.  If you start at any point on the line and move 1 unit to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 4 units to the right?   Suppose you know that the slope of a line is .  If you start at any point on the line and move 4 units to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 6 units to the right?   3  4.5   Suppose you know that the slope of a line is .  If you start at any point on the line and move 1 unit to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 3 units to the right?   For Problems 37-40, sketch a line whose slope is given. Start your line at any point on the vertical axis.           Problems 41 and 42 involve lines with negative slopes.  Roy is traveling home by train. The graph shows his distance miles from home hours after the train started.  Compute the slope of the graph, including units.  What does the slope tell you about Roy's journey?    -75 miles per hour  The rate at which the distance to home decreases   Antoine is living off his savings while he goes to college this year. The graph shows the amount of Antoine's savings, dollars, left after months.  Compute the slope of the graph, including units.  What does the slope tell you about Antoine's savings?       "
-},
-{
-  "id": "example-156",
-  "level": "2",
-  "url": "sec-6-3.html#example-156",
-  "type": "Example",
-  "number": "6.3.1",
-  "title": "",
-  "body": "Here are some values of the two variables and . Is proportional to ?     8  20  28  52    2  5  7  13   We will check to see whether the ratio is constant.     8  20  28  52    2  5  7  13         Yes, , so is proportional to . "
-},
-{
-  "id": "exercise-1780",
-  "level": "2",
-  "url": "sec-6-3.html#exercise-1780",
-  "type": "Checkpoint",
-  "number": "6.3.2",
-  "title": "",
-  "body": "Is proportional to ?     2  4  6  8    8  12  16  20        No "
-},
-{
-  "id": "p-7639",
-  "level": "2",
-  "url": "sec-6-3.html#p-7639",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "constant of proportionality "
-},
-{
-  "id": "note-94",
-  "level": "2",
-  "url": "sec-6-3.html#note-94",
-  "type": "Note",
-  "number": "6.3.3",
-  "title": "",
-  "body": "Recall that in algebra, we often write the product of two variables, or a number and a variable, next to each other, without any symbol between them. For example, So in particular we can write the equation for proportional variables as "
+  "body": " Slope   Equations Relating Proportional Variables  Steepness of the Graph  Rate of Growth  Visualizing Growth Rate on a Graph  Slope of a Line    Equations Relating Proportional Variables  Our definition says that two variables are proportional if the ratio of their values is constant. If we use and to stand for the variables, we can write the definition in mathematical language.  Proportional Variables, Version 1  is proportional to if , where is a constant.  Here are some values of the two variables and . Is proportional to ?     8  20  28  52    2  5  7  13   We will check to see whether the ratio is constant.     8  20  28  52    2  5  7  13         Yes, , so is proportional to .  Is proportional to ?     2  4  6  8    8  12  16  20        No  In the Example above, we found that the value of was 0.25. This number is called the constant of proportionality . You can check that for each value of , we have This observation gives us another way to describe proportional variables.  Proportional Variables, Version 2  If is proportional to , then where is a constant.  Because multiplication and division are opposite operations, the two equations are two ways to say the same thing. This second version says that is proportional to if is a constant multiple of .  Recall that in algebra, we often write the product of two variables, or a number and a variable, next to each other, without any symbol between them. For example, So in particular we can write the equation for proportional variables as  The distance, , that you drive on the highway is proportional to the amount, , of gasoline that you use. Myrna used 6 gallons of gas to drive 159 miles.  Find the constant of proportionality and write an equation relating the variables.  How far can Myrna drive on a full 22-gallon tank of gas?    Because is proportional to , we can write the equation where is the constant of proportionality. We find the value of by using one pair of related values for the variables. So , and an equation relating the two variables is   If we now substitute for , we can compute the related value of . Myrna can drive 583 miles on 22 gallons of gas.   This Example demonstrates that the constant of proportionality, , is just the unit rate we used in Section 6.2. By simplifying the ratio for a specific pair of values, we found the distance that Myrna can drive on one gallon of gas, the unit rate for the proportion.  A four-ounce bar of dark chocolate contains 600 calories.   Find the constant of proportionality, and write an equation that gives the number of calories, , in a chocolate bar in terms of its weight, .  How much chocolate can you eat for 200 calories?  How many calories are in one-half ounce of chocolate?     ounces  75 calories    Steepness of the Graph  Now that we have seen how to write an equation relating proportional variables, let's take a closer look at the graphs of those equations. In Section 6.2 we made graphs for the proportional variables in the following story:  Before handing in big assignments such as term papers or lab reports, Delbert and Francine make copies of them. Delbert uses QuikCopy, and keeps track of the copying fee for each assignment. Francine copies her assignments at Copy World.    Delbert's Copying Fees   Number of pages  14  27  35   Cost (cents)  112  216  280     Francine's Copying Fees   Number of pages  12  26  32   Cost (cents)  72  156  192    We can write an equation for each of the variables, , Delbert's copying fees, and , Francine's copying fees, in terms of the number of pages copied, . We'll calculate the unit cost in each case.  Delbert's unit cost for copying is and this is the constant of proportionality, , for his equation: . Francine's unit cost for copying is so , for her equation: . We can think of the unit cost as the rate of increase in copying fees as the number of pages copied increases. Delbert's cost increases by 8 cents for each page copied. Francine's cost increases by 6 cents for each page copied. How is the rate of increase reflected in the graph?  Steepness of the Graph  The unit cost in each case is a ratio that measures the steepness of the graph. It tells us how much to increase the output variable per unit of increase in the input variable.  For example, for each additional page Delbert has copied, his cost will increase by 8 cents, and the graph will climb 8 units for each unit we move to the right. And because his cost is increasing more rapidly than Francine's, the graph of Delbert's cost is steeper than the graph of Francine's cost.   Rate of Increase  In the copying fee example, we interpreted the constant of proportionality or unit rate as a rate of increase . It tells us how quickly the output variable increases with respect to the input variable, and hence how steeply the graph of the equation rises.  The notion of rate of increase can be applied to other equations besides proportions. Recall that the graph of a proportion is a straight line that passes through the point . But as long as the graph is a straight line, we can still talk about its rate of increase, even if it does not pass through the point . In the next example we'll compare the rate of growth of two strains of tomato plants.  Sara bought two kinds of tomato plants at the nursery. The Spring Giant seedlings were 2 inches tall, and the Jubilee seedlings were 16 inches tall. Sara recorded the height, , of the vines every two weeks, as shown in the tables below. Then she plotted their heights on a graph. Which variety grew more quickly?  From the graph, we can see that the Spring Giant tomato vines are growing faster than the Jubilee vines, because their graph increases more steeply. The steepness of the graph is a measure of how fast the vines grow.    Spring Giant   (wks)  (in)   0  2   2  10   4  18   6  26   8  34     Jubilee   (wks)  (in)   0  16   2  21   4  26   6  31   8  36   To see exactly how fast the vines grow, we compute their rate of growth. The variables and are not proportional, so we cannot use a constant of proportionality to measure their growth. But we can see from the table that during the first two weeks, the Spring Giant vines grew 8 inches (from 2 inches to 10 inches), so their growth rate was   Similarly, the Jubilee vines grew 5 inches (from 16 inches to 21 inches), so their growth rate was So the Spring Giant vines grew faster than the Jubilee vines, as we saw from the graph.  In the next Exercise, we'll compute some more growth rates. Use the tables in the last Example about the Spring Giant and Jubilee tomato vines.  Compute the ratio to find each growth rate.    Find the growth rate of the Spring Giant tomato vines from the fourth week to the eighth week.  Find the growth rate of the Jubilee tomato vines over the first four weeks.  Find the growth rate of the Jubilee tomato vines from the fourth week to the eighth week.   4 inches\/week  2.5 inches\/week  2.5 inches\/week   A Quick Refresher and Some New Notation   To calculate the increase or decrease in a quantity, we can subtract the initial value from the final value. For example, over the first 2 weeks, the Jubilee tomato vines grew from 16 inches tall to 21 inches tall, so  We use the Greek letter delta, , to stand for the change in a quantity. So, for example, stands for the change in height of the vine, and we write  In general we have    Visulaizing Growth Rate on a Graph  We can illustrate the growth rate of each tomato vine on its graph.  The graph below shows the height, , of the Spring Giant tomato vine weeks after Sara planted it. The vertical line segment labeled represents the increase in the vine's height from the second week to the sixth week. The horizontal line segment labeled represents the time interval, 4 weeks.  From week 2 to week 6, the vine grew at a rate of    What does this ratio, 4 inches\/week, tell us about the graph? Place your pencil tip at any point on the graph, then move one unit to the right along the grid lines. To get back to the graph, you must now move up by four units (two grid lines on this graph). The graph increases by climbing four units vertically for each unit we move horizontally.  The graph shows the height, , of the Jubilee tomato vines weeks after Sara planted them.   Start at any point on the graph. If you move four units horizontally, how many units does the graph climb vertically? If you move one unit horizontally, how many units does the graph climb vertically?  On the graph, draw and label line segments to illustrate the growth rate of the Jubilee tomato vines from the fourth week to the eighth week. Then calculate the growth rate.   10, 2.5  2.5 inches\/week    Slope of a Line  The ratio in the Example above is called the slope of the line. The slope measures how steeply the line increases (or decreases) as we move from left to right across the graph. In general, we define the slope for any line as follows.  Slope  The slope , , of a line is the ratio as we move from any point on the line to another point on the line.  The graph shows the cost, , of renting a bicycle for hours.  Use the points and shown to calculate the slope of the line.  What does the slope tell you about renting a bicycle?     At point and , which tells us that it costs $8 to rent a bicycle for 1 hour. Point tells us that it costs $17 to rent a bicycle for 4 hours. The slope of the line is given by  The slope tells us the rate at which the cost of renting a bicycle increases. It costs $3 per hour to rent a bike.   In the Example above, note that is not proportional to ; the graph does not pass through the point . In fact, at , we have . (Perhaps there is a $5 deposit on the bike.) Nonetheless, we can compute the slope of the line by calculating the change in its variables as we move from one point to another.  Caution  Be careful when computing a slope: it is important that the numerator (top) of the slope ratio gives the vertical change as we move along the graph. This is because the slope is a unit rate; it tells us how many units the graph climbs per unit of horizontal increase. So it would be to compute for the slope in the last Example.  The graph shows the altitude (in feet) of a skier minutes after she boards a ski lift.  Use the points shown to compute the slope of the graph. Include units in your answer.   What does the slope tell you about the ski lift?    150 feet\/minute  The rate at which the ski lift rises.    Decreasing Graphs  When a variable decreases in value, we say that its change is negative. So, if the output-values of points on a line decrease as we move from left to right, we say that the slope of the line is negative.  At noon the temperature was 18 F, and it has been getting colder by 2 every hour.  Graph the temperature from noon to midnight.  Find the slope of the graph.  What does the slope tell us about the temperature?    We start by making a table that shows the temperature, , at hours after noon. For every hour that passes, we subtract 2 degrees.     0  2  5  9  12    18  14  8  0  -6   Then we plot the points from the table on a grid, as shown at right. Finally, we connect the points with a straight line.  To compute the slope of the line, we choose two points on the graph, say and . Now the the output variable, , decreases by 10 degrees (from 12 degrees to 2 degrees), so we say that . The input variable, , increases from 4 to 9, so . Next we calculate the slope ratio.  The slope is . It represents the rate at which the temperature is decreasing, 2 degrees per hour.   Softek bought a new photocopying machine for 18 thousand dollars ($18,000). Every year, the copier decreases in value by 3 thousand dollars ($3000).   Complete the table and graph the value, , of the copier after years.     0  2  3  5  6          Compute the slope of the graph, including units.  What does the slope tell us about the copier?    dollars\/year  The rate at which the copier depreciates.    Practice 6-3  In Problems 1-6,  Decide whether the two variables are proportional.  If the variables are proportional, write an equation relating them.       3  6  8  12    9  18  24  36       1  3  6  12    15  35  65  125         2  4   3  9   5  25   8  64  No        9  3   16  4   49  7   121  11         2  0.5   4  0.25   5  0.2   10  0.1  No        3  0.6   4  0.8   6  1.2   9  1.8    In Problems 7-14, decide whether the graph or equation describes proportional variables.  No   No   No   Yes     is proportional to if their is constant.  is proportional to if is a of   quotient  multiple   Write two different equations that say that is proportional to .   What is a constant of proportionality?  How can you find it?   The quotient of two proportional variables  Divide one variable by the other   If is proportional to , what can you say about the graph of versus ?  Trish's real-estate commission is proportional to the amount of the sale. She made $3200 commission on a sale of $80,000.  Write an equation relating Trish's commission, , to her sales, .  What would her commission be on the sale of a $200,000 property?    $8000   Property taxes are proportional to the value of the property. Gwen paid $3000 in property tax on her summer home, which is valued at $120,000.  Write an equation relating the property tax, ,to the value of the property, .  How much will Gareth pay on his cabin, which was assessed at $50,000?   How do we calculate the amount of increase or decrease in a quantity? Subtract the old value from the new value  What does the Greek letter delta, , represent?  State the definition of slope, in words, and then in symbols. Change in output value divided by change in input value,  What does the slope of a line measure?  Lynette is saving money for the down payment on a new car. The graph shows the amount she has saved weeks after the first of the year.  How much has Lynette saved after 2 weeks?  When will Lynette have saved $700?  Compute the slope of the graph, , including units.  What does the slope tell you about the problem?   $300  10 weeks  $50 per week  The rate at which Lynette's savings increases   Joshua is saving newspapers for the paper drive at his son's school. The graph shows the amount of newspaper he has saved weeks after the paper drive began.  How many pounds of newspaper has Joshua saved after 4 weeks?  When will Joshua have saved 180 pounds of newspapers?  Compute the slope of the graph, , including units.  What does the slope tell you about the problem?   Britney is raising a goat to show at the state fair. The graph shows the goat's weight when it was months old.  How much did the goat's weight increase from the second month to the fourth month? From the fourth month to the eighth month?  Compute the goat's rate of growth, including units.  Illustrate the rate of growth, , on the graph.   5 lbs, 10 lbs  2.5 lbs per month    Jason is raising a rabbit for the county fair. The graph shows the rabbit's weight when it was weeks old.  How much did the rabbit's weight increase from the fourth week to the twelfth week? From the second week to the eighth week?  When will Joshua have saved 180 pounds of newspapers?  Compute the rabbit's rate of growth, including units.  Illustrate the rate of growth, , on the graph.   The graph shows the wholesale cost of pounds of dry-roasted peanuts.  What does the slope of this graph tell you about dry-roasted peanuts?  Compute the slope, including units.  If the Lone Star Barbecue increases its weekly order of peanuts from 100 to 120 pounds, how much will the cost increase?   Cost per pound  $1.50 per lb  $30   The graph shows the cost in thousands of dollars for thousand square feet of grass sod for a lawn.  What does the slope of this graph tell you about sod?  Compute the slope, including units.  The Huron Breeze golf course is considering expanding its proposed putting green from 12,000 square feet to 15,000 square feet. How much will the cost of the sod increase?   The steepness of an incline, like a ramp or a staircase, can be measured by its slope.  Find the slope of the staircase shown if its height is 12 feet and the horizontal distance between the foot and the head of the staircase is 8 feet.  Would a staircase of slope be steeper than the one pictured, or not as steep?    not as steep    Find the slope of the ramp pictured if its height is 4 feet and the horizontal distance from its base to its top is 10 feet.  Would a ramp of slope be steeper than the one pictured, or not as steep?   Suppose you know that the slope of a line is 25.  If you start at any point on the line and move 1 unit to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 3 units to the right?   25  75   Suppose you know that the slope of a line is 8.  If you start at any point on the line and move 1 unit to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 4 units to the right?   Suppose you know that the slope of a line is .  If you start at any point on the line and move 4 units to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 6 units to the right?   3  4.5   Suppose you know that the slope of a line is .  If you start at any point on the line and move 1 unit to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 3 units to the right?   For Problems 37-40, sketch a line whose slope is given. Start your line at any point on the vertical axis.           Problems 41 and 42 involve lines with negative slopes.  Roy is traveling home by train. The graph shows his distance miles from home hours after the train started.  Compute the slope of the graph, including units.  What does the slope tell you about Roy's journey?    -75 miles per hour  The rate at which the distance to home decreases   Antoine is living off his savings while he goes to college this year. The graph shows the amount of Antoine's savings, dollars, left after months.  Compute the slope of the graph, including units.  What does the slope tell you about Antoine's savings?       "
 },
 {
   "id": "example-157",
   "level": "2",
   "url": "sec-6-3.html#example-157",
   "type": "Example",
-  "number": "6.3.4",
+  "number": "6.3.1",
   "title": "",
-  "body": "The distance, , that you drive on the highway is proportional to the amount, , of gasoline that you use. Myrna used 6 gallons of gas to drive 159 miles.  Find the constant of proportionality and write an equation relating the variables.  How far can Myrna drive on a full 22-gallon tank of gas?    Because is proportional to , we can write the equation where is the constant of proportionality. We find the value of by using one pair of related values for the variables. So , and an equation relating the two variables is   If we now substitute for , we can compute the related value of . Myrna can drive 583 miles on 22 gallons of gas.  "
+  "body": "Here are some values of the two variables and . Is proportional to ?     8  20  28  52    2  5  7  13   We will check to see whether the ratio is constant.     8  20  28  52    2  5  7  13         Yes, , so is proportional to . "
 },
 {
   "id": "exercise-1781",
   "level": "2",
   "url": "sec-6-3.html#exercise-1781",
   "type": "Checkpoint",
-  "number": "6.3.5",
+  "number": "6.3.2",
   "title": "",
-  "body": "A four-ounce bar of dark chocolate contains 600 calories.   Find the constant of proportionality, and write an equation that gives the number of calories, , in a chocolate bar in terms of its weight, .  How much chocolate can you eat for 200 calories?  How many calories are in one-half ounce of chocolate?     ounces  75 calories  "
+  "body": "Is proportional to ?     2  4  6  8    8  12  16  20        No "
 },
 {
-  "id": "example-158",
+  "id": "p-7672",
   "level": "2",
-  "url": "sec-6-3.html#example-158",
-  "type": "Example",
-  "number": "6.3.6",
-  "title": "",
-  "body": "Sara bought two kinds of tomato plants at the nursery. The Spring Giant seedlings were 2 inches tall, and the Jubilee seedlings were 16 inches tall. Sara recorded the height, , of the vines every two weeks, as shown in the tables below. Then she plotted their heights on a graph. Which variety grew more quickly?  From the graph, we can see that the Spring Giant tomato vines are growing faster than the Jubilee vines, because their graph increases more steeply. The steepness of the graph is a measure of how fast the vines grow.    Spring Giant   (wks)  (in)   0  2   2  10   4  18   6  26   8  34     Jubilee   (wks)  (in)   0  16   2  21   4  26   6  31   8  36   To see exactly how fast the vines grow, we compute their rate of growth. The variables and are not proportional, so we cannot use a unit rate to measure their growth. But we can see from the table that during the first two weeks, the Spring Giant vines grew 8 inches (from 2 inches to 10 inches), so their growth rate was   Similarly, the Jubilee vines grew 5 inches (from 16 inches to 21 inches), so their growth rate was So the Spring Giant vines grew faster than the Jubilee vines, as we saw from the graph. "
-},
-{
-  "id": "exercise-1782",
-  "level": "2",
-  "url": "sec-6-3.html#exercise-1782",
-  "type": "Checkpoint",
-  "number": "6.3.7",
-  "title": "",
-  "body": "Compute the ratio to find each growth rate.    Find the growth rate of the Spring Giant tomato vines from the fourth week to the eighth week.  Find the growth rate of the Jubilee tomato vines over the first four weeks.  Find the growth rate of the Jubilee tomato vines from the fourth week to the eighth week.   4 inches\/week  2.5 inches\/week  2.5 inches\/week  "
-},
-{
-  "id": "p-7687",
-  "level": "2",
-  "url": "sec-6-3.html#p-7687",
+  "url": "sec-6-3.html#p-7672",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "delta, "
-},
-{
-  "id": "example-159",
-  "level": "2",
-  "url": "sec-6-3.html#example-159",
-  "type": "Example",
-  "number": "6.3.8",
-  "title": "",
-  "body": "The graph below shows the height, , of the Spring Giant tomato vine weeks after Sara planted it. The vertical line segment labeled represents the increase in the vine's height from the second week to the sixth week. The horizontal line segment labeled represents the time interval, 4 weeks.  From week 2 to week 6, the vine grew at a rate of   "
-},
-{
-  "id": "exercise-1783",
-  "level": "2",
-  "url": "sec-6-3.html#exercise-1783",
-  "type": "Checkpoint",
-  "number": "6.3.9",
-  "title": "",
-  "body": "The graph shows the height, , of the Jubilee tomato vines weeks after Sara planted them.   Start at any point on the graph. If you move four units horizontally, how many units does the graph climb vertically? If you move one unit horizontally, how many units does the graph climb vertically?  On the graph, draw and label line segments to illustrate the growth rate of the Jubilee tomato vines from the fourth week to the eighth week. Then calculate the growth rate.   10, 2.5  2.5 inches\/week  "
-},
-{
-  "id": "p-7704",
-  "level": "2",
-  "url": "sec-6-3.html#p-7704",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "slope "
-},
-{
-  "id": "p-7705",
-  "level": "2",
-  "url": "sec-6-3.html#p-7705",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "slope "
-},
-{
-  "id": "example-160",
-  "level": "2",
-  "url": "sec-6-3.html#example-160",
-  "type": "Example",
-  "number": "6.3.10",
-  "title": "",
-  "body": "The graph shows the cost, , of renting a bicycle for hours.  Use the points and shown to calculate the slope of the line.  What does the slope tell you about renting a bicycle?     At point and , which tells us that it costs $8 to rent a bicycle for 1 hour. Point tells us that it costs $17 to rent a bicycle for 4 hours. The slope of the line is given by  The slope tells us the rate at which the cost of renting a bicycle increases. It costs $3 per hour to rent a bike.  "
+  "body": "constant of proportionality "
 },
 {
   "id": "note-95",
   "level": "2",
   "url": "sec-6-3.html#note-95",
   "type": "Note",
-  "number": "6.3.11",
+  "number": "6.3.3",
   "title": "",
-  "body": "In the Example above, note that is not proportional to ; the graph does not pass through the point . At . (Perhaps there is a $5 deposit on the bike.) Nonetheless, we can compute the slope of the line by calculating the change in its variables as we move from one point to another. "
+  "body": "Recall that in algebra, we often write the product of two variables, or a number and a variable, next to each other, without any symbol between them. For example, So in particular we can write the equation for proportional variables as "
+},
+{
+  "id": "example-158",
+  "level": "2",
+  "url": "sec-6-3.html#example-158",
+  "type": "Example",
+  "number": "6.3.4",
+  "title": "",
+  "body": "The distance, , that you drive on the highway is proportional to the amount, , of gasoline that you use. Myrna used 6 gallons of gas to drive 159 miles.  Find the constant of proportionality and write an equation relating the variables.  How far can Myrna drive on a full 22-gallon tank of gas?    Because is proportional to , we can write the equation where is the constant of proportionality. We find the value of by using one pair of related values for the variables. So , and an equation relating the two variables is   If we now substitute for , we can compute the related value of . Myrna can drive 583 miles on 22 gallons of gas.  "
+},
+{
+  "id": "exercise-1782",
+  "level": "2",
+  "url": "sec-6-3.html#exercise-1782",
+  "type": "Checkpoint",
+  "number": "6.3.5",
+  "title": "",
+  "body": "A four-ounce bar of dark chocolate contains 600 calories.   Find the constant of proportionality, and write an equation that gives the number of calories, , in a chocolate bar in terms of its weight, .  How much chocolate can you eat for 200 calories?  How many calories are in one-half ounce of chocolate?     ounces  75 calories  "
+},
+{
+  "id": "p-7701",
+  "level": "2",
+  "url": "sec-6-3.html#p-7701",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "rate of increase "
+},
+{
+  "id": "example-159",
+  "level": "2",
+  "url": "sec-6-3.html#example-159",
+  "type": "Example",
+  "number": "6.3.6",
+  "title": "",
+  "body": "Sara bought two kinds of tomato plants at the nursery. The Spring Giant seedlings were 2 inches tall, and the Jubilee seedlings were 16 inches tall. Sara recorded the height, , of the vines every two weeks, as shown in the tables below. Then she plotted their heights on a graph. Which variety grew more quickly?  From the graph, we can see that the Spring Giant tomato vines are growing faster than the Jubilee vines, because their graph increases more steeply. The steepness of the graph is a measure of how fast the vines grow.    Spring Giant   (wks)  (in)   0  2   2  10   4  18   6  26   8  34     Jubilee   (wks)  (in)   0  16   2  21   4  26   6  31   8  36   To see exactly how fast the vines grow, we compute their rate of growth. The variables and are not proportional, so we cannot use a constant of proportionality to measure their growth. But we can see from the table that during the first two weeks, the Spring Giant vines grew 8 inches (from 2 inches to 10 inches), so their growth rate was   Similarly, the Jubilee vines grew 5 inches (from 16 inches to 21 inches), so their growth rate was So the Spring Giant vines grew faster than the Jubilee vines, as we saw from the graph. "
+},
+{
+  "id": "exercise-1783",
+  "level": "2",
+  "url": "sec-6-3.html#exercise-1783",
+  "type": "Checkpoint",
+  "number": "6.3.7",
+  "title": "",
+  "body": "Compute the ratio to find each growth rate.    Find the growth rate of the Spring Giant tomato vines from the fourth week to the eighth week.  Find the growth rate of the Jubilee tomato vines over the first four weeks.  Find the growth rate of the Jubilee tomato vines from the fourth week to the eighth week.   4 inches\/week  2.5 inches\/week  2.5 inches\/week  "
+},
+{
+  "id": "p-7720",
+  "level": "2",
+  "url": "sec-6-3.html#p-7720",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "delta, "
+},
+{
+  "id": "example-160",
+  "level": "2",
+  "url": "sec-6-3.html#example-160",
+  "type": "Example",
+  "number": "6.3.8",
+  "title": "",
+  "body": "The graph below shows the height, , of the Spring Giant tomato vine weeks after Sara planted it. The vertical line segment labeled represents the increase in the vine's height from the second week to the sixth week. The horizontal line segment labeled represents the time interval, 4 weeks.  From week 2 to week 6, the vine grew at a rate of   "
 },
 {
   "id": "exercise-1784",
   "level": "2",
   "url": "sec-6-3.html#exercise-1784",
   "type": "Checkpoint",
-  "number": "6.3.12",
+  "number": "6.3.9",
   "title": "",
-  "body": "The graph shows the altitude (in feet) of a skier minutes after she boards a ski lift.  Use the points shown to compute the slope of the graph. Include units in your answer.   What does the slope tell you about the ski lift?    150 feet\/minute  The rate at which the ski lift rises.  "
+  "body": "The graph shows the height, , of the Jubilee tomato vines weeks after Sara planted them.   Start at any point on the graph. If you move four units horizontally, how many units does the graph climb vertically? If you move one unit horizontally, how many units does the graph climb vertically?  On the graph, draw and label line segments to illustrate the growth rate of the Jubilee tomato vines from the fourth week to the eighth week. Then calculate the growth rate.   10, 2.5  2.5 inches\/week  "
+},
+{
+  "id": "p-7737",
+  "level": "2",
+  "url": "sec-6-3.html#p-7737",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "slope "
+},
+{
+  "id": "p-7738",
+  "level": "2",
+  "url": "sec-6-3.html#p-7738",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "slope "
 },
 {
   "id": "example-161",
   "level": "2",
   "url": "sec-6-3.html#example-161",
   "type": "Example",
-  "number": "6.3.13",
+  "number": "6.3.10",
   "title": "",
-  "body": "At noon the temperature was 18 F, and it has been getting colder by 2 every hour.  Graph the temperature from noon to midnight.  Find the slope of the graph.  What does the slope tell us about the temperature?    We start by making a table that shows the temperature, , at hours after noon. For every hour that passes, we subtract 2 degrees.     0  2  5  9  12    18  14  8  0  -6   Then we plot the points from the table on a grid, as shown at right. Finally, we connect the points with a straight line.  To compute the slope of the line, we choose two points on the graph, say and . Now the the output variable, , decreases by 10 degrees (from 12 degrees to 2 degrees), so we say that . The input variable, , increases from 4 to 9, so . Next we calculate the slope ratio.  The slope is . It represents the rate at which the temperature is decreasing, 2 degrees per hour.  "
+  "body": "The graph shows the cost, , of renting a bicycle for hours.  Use the points and shown to calculate the slope of the line.  What does the slope tell you about renting a bicycle?     At point and , which tells us that it costs $8 to rent a bicycle for 1 hour. Point tells us that it costs $17 to rent a bicycle for 4 hours. The slope of the line is given by  The slope tells us the rate at which the cost of renting a bicycle increases. It costs $3 per hour to rent a bike.  "
+},
+{
+  "id": "note-96",
+  "level": "2",
+  "url": "sec-6-3.html#note-96",
+  "type": "Note",
+  "number": "6.3.11",
+  "title": "",
+  "body": "In the Example above, note that is not proportional to ; the graph does not pass through the point . In fact, at , we have . (Perhaps there is a $5 deposit on the bike.) Nonetheless, we can compute the slope of the line by calculating the change in its variables as we move from one point to another. "
 },
 {
   "id": "exercise-1785",
   "level": "2",
   "url": "sec-6-3.html#exercise-1785",
   "type": "Checkpoint",
-  "number": "6.3.14",
+  "number": "6.3.12",
   "title": "",
-  "body": "Softek bought a new photocopying machine for 18 thousand dollars ($18,000). Every year, the copier decreases in value by 3 thousand dollars ($3000).   Complete the table and graph the value, , of the copier after years.     0  2  3  5  6          Compute the slope of the graph, including units.  What does the slope tell us about the copier?    dollars\/year  The rate at which the copier depreciates.  "
+  "body": "The graph shows the altitude (in feet) of a skier minutes after she boards a ski lift.  Use the points shown to compute the slope of the graph. Include units in your answer.   What does the slope tell you about the ski lift?    150 feet\/minute  The rate at which the ski lift rises.  "
+},
+{
+  "id": "example-162",
+  "level": "2",
+  "url": "sec-6-3.html#example-162",
+  "type": "Example",
+  "number": "6.3.13",
+  "title": "",
+  "body": "At noon the temperature was 18 F, and it has been getting colder by 2 every hour.  Graph the temperature from noon to midnight.  Find the slope of the graph.  What does the slope tell us about the temperature?    We start by making a table that shows the temperature, , at hours after noon. For every hour that passes, we subtract 2 degrees.     0  2  5  9  12    18  14  8  0  -6   Then we plot the points from the table on a grid, as shown at right. Finally, we connect the points with a straight line.  To compute the slope of the line, we choose two points on the graph, say and . Now the the output variable, , decreases by 10 degrees (from 12 degrees to 2 degrees), so we say that . The input variable, , increases from 4 to 9, so . Next we calculate the slope ratio.  The slope is . It represents the rate at which the temperature is decreasing, 2 degrees per hour.  "
 },
 {
   "id": "exercise-1786",
   "level": "2",
   "url": "sec-6-3.html#exercise-1786",
-  "type": "Exercise",
-  "number": "6.3.6.1",
+  "type": "Checkpoint",
+  "number": "6.3.14",
   "title": "",
-  "body": "    3  6  8  12    9  18  24  36  "
+  "body": "Softek bought a new photocopying machine for 18 thousand dollars ($18,000). Every year, the copier decreases in value by 3 thousand dollars ($3000).   Complete the table and graph the value, , of the copier after years.     0  2  3  5  6          Compute the slope of the graph, including units.  What does the slope tell us about the copier?    dollars\/year  The rate at which the copier depreciates.  "
 },
 {
   "id": "exercise-1787",
   "level": "2",
   "url": "sec-6-3.html#exercise-1787",
   "type": "Exercise",
-  "number": "6.3.6.2",
+  "number": "6.3.6.1",
   "title": "",
-  "body": "    1  3  6  12    15  35  65  125  "
+  "body": "    3  6  8  12    9  18  24  36  "
 },
 {
   "id": "exercise-1788",
   "level": "2",
   "url": "sec-6-3.html#exercise-1788",
   "type": "Exercise",
-  "number": "6.3.6.3",
+  "number": "6.3.6.2",
   "title": "",
-  "body": "      2  4   3  9   5  25   8  64  No "
+  "body": "    1  3  6  12    15  35  65  125  "
 },
 {
   "id": "exercise-1789",
   "level": "2",
   "url": "sec-6-3.html#exercise-1789",
   "type": "Exercise",
-  "number": "6.3.6.4",
+  "number": "6.3.6.3",
   "title": "",
-  "body": "      9  3   16  4   49  7   121  11  "
+  "body": "      2  4   3  9   5  25   8  64  No "
 },
 {
   "id": "exercise-1790",
   "level": "2",
   "url": "sec-6-3.html#exercise-1790",
   "type": "Exercise",
-  "number": "6.3.6.5",
+  "number": "6.3.6.4",
   "title": "",
-  "body": "      2  0.5   4  0.25   5  0.2   10  0.1  No "
+  "body": "      9  3   16  4   49  7   121  11  "
 },
 {
   "id": "exercise-1791",
   "level": "2",
   "url": "sec-6-3.html#exercise-1791",
   "type": "Exercise",
-  "number": "6.3.6.6",
+  "number": "6.3.6.5",
   "title": "",
-  "body": "      3  0.6   4  0.8   6  1.2   9  1.8  "
+  "body": "      2  0.5   4  0.25   5  0.2   10  0.1  No "
 },
 {
   "id": "exercise-1792",
   "level": "2",
   "url": "sec-6-3.html#exercise-1792",
   "type": "Exercise",
-  "number": "6.3.6.7",
+  "number": "6.3.6.6",
   "title": "",
-  "body": "No "
+  "body": "      3  0.6   4  0.8   6  1.2   9  1.8  "
 },
 {
   "id": "exercise-1793",
   "level": "2",
   "url": "sec-6-3.html#exercise-1793",
   "type": "Exercise",
-  "number": "6.3.6.8",
+  "number": "6.3.6.7",
   "title": "",
-  "body": ""
+  "body": "No "
 },
 {
   "id": "exercise-1794",
   "level": "2",
   "url": "sec-6-3.html#exercise-1794",
   "type": "Exercise",
-  "number": "6.3.6.9",
+  "number": "6.3.6.8",
   "title": "",
-  "body": "No "
+  "body": ""
 },
 {
   "id": "exercise-1795",
   "level": "2",
   "url": "sec-6-3.html#exercise-1795",
   "type": "Exercise",
-  "number": "6.3.6.10",
+  "number": "6.3.6.9",
   "title": "",
-  "body": ""
+  "body": "No "
 },
 {
   "id": "exercise-1796",
   "level": "2",
   "url": "sec-6-3.html#exercise-1796",
   "type": "Exercise",
-  "number": "6.3.6.11",
+  "number": "6.3.6.10",
   "title": "",
-  "body": "No "
+  "body": ""
 },
 {
   "id": "exercise-1797",
   "level": "2",
   "url": "sec-6-3.html#exercise-1797",
   "type": "Exercise",
-  "number": "6.3.6.12",
+  "number": "6.3.6.11",
   "title": "",
-  "body": ""
+  "body": "No "
 },
 {
   "id": "exercise-1798",
   "level": "2",
   "url": "sec-6-3.html#exercise-1798",
   "type": "Exercise",
-  "number": "6.3.6.13",
+  "number": "6.3.6.12",
   "title": "",
-  "body": "Yes "
+  "body": ""
 },
 {
   "id": "exercise-1799",
   "level": "2",
   "url": "sec-6-3.html#exercise-1799",
   "type": "Exercise",
-  "number": "6.3.6.14",
+  "number": "6.3.6.13",
   "title": "",
-  "body": ""
+  "body": "Yes "
 },
 {
   "id": "exercise-1800",
   "level": "2",
   "url": "sec-6-3.html#exercise-1800",
   "type": "Exercise",
-  "number": "6.3.6.15",
+  "number": "6.3.6.14",
   "title": "",
-  "body": " is proportional to if their is constant.  is proportional to if is a of   quotient  multiple  "
+  "body": ""
 },
 {
   "id": "exercise-1801",
   "level": "2",
   "url": "sec-6-3.html#exercise-1801",
   "type": "Exercise",
-  "number": "6.3.6.16",
+  "number": "6.3.6.15",
   "title": "",
-  "body": "Write two different equations that say that is proportional to . "
+  "body": " is proportional to if their is constant.  is proportional to if is a of   quotient  multiple  "
 },
 {
   "id": "exercise-1802",
   "level": "2",
   "url": "sec-6-3.html#exercise-1802",
   "type": "Exercise",
-  "number": "6.3.6.17",
+  "number": "6.3.6.16",
   "title": "",
-  "body": " What is a constant of proportionality?  How can you find it?   The quotient of two proportional variables  Divide one variable by the other  "
+  "body": "Write two different equations that say that is proportional to . "
 },
 {
   "id": "exercise-1803",
   "level": "2",
   "url": "sec-6-3.html#exercise-1803",
   "type": "Exercise",
-  "number": "6.3.6.18",
+  "number": "6.3.6.17",
   "title": "",
-  "body": "If is proportional to , what can you say about the graph of versus ? "
+  "body": " What is a constant of proportionality?  How can you find it?   The quotient of two proportional variables  Divide one variable by the other  "
 },
 {
   "id": "exercise-1804",
   "level": "2",
   "url": "sec-6-3.html#exercise-1804",
   "type": "Exercise",
-  "number": "6.3.6.19",
+  "number": "6.3.6.18",
   "title": "",
-  "body": "Trish's real-estate commission is proportional to the amount of the sale. She made $3200 commission on a sale of $80,000.  Write an equation relating Trish's commission, , to her sales, .  What would her commission be on the sale of a $200,000 property?    $8000  "
+  "body": "If is proportional to , what can you say about the graph of versus ? "
 },
 {
   "id": "exercise-1805",
   "level": "2",
   "url": "sec-6-3.html#exercise-1805",
   "type": "Exercise",
-  "number": "6.3.6.20",
+  "number": "6.3.6.19",
   "title": "",
-  "body": "Property taxes are proportional to the value of the property. Gwen paid $3000 in property tax on her summer home, which is valued at $120,000.  Write an equation relating the property tax, ,to the value of the property, .  How much will Gareth pay on his cabin, which was assessed at $50,000?  "
+  "body": "Trish's real-estate commission is proportional to the amount of the sale. She made $3200 commission on a sale of $80,000.  Write an equation relating Trish's commission, , to her sales, .  What would her commission be on the sale of a $200,000 property?    $8000  "
 },
 {
   "id": "exercise-1806",
   "level": "2",
   "url": "sec-6-3.html#exercise-1806",
   "type": "Exercise",
-  "number": "6.3.6.21",
+  "number": "6.3.6.20",
   "title": "",
-  "body": "How do we calculate the amount of increase or decrease in a quantity? Subtract the old value from the new value "
+  "body": "Property taxes are proportional to the value of the property. Gwen paid $3000 in property tax on her summer home, which is valued at $120,000.  Write an equation relating the property tax, ,to the value of the property, .  How much will Gareth pay on his cabin, which was assessed at $50,000?  "
 },
 {
   "id": "exercise-1807",
   "level": "2",
   "url": "sec-6-3.html#exercise-1807",
   "type": "Exercise",
-  "number": "6.3.6.22",
+  "number": "6.3.6.21",
   "title": "",
-  "body": "What does the Greek letter delta, , represent? "
+  "body": "How do we calculate the amount of increase or decrease in a quantity? Subtract the old value from the new value "
 },
 {
   "id": "exercise-1808",
   "level": "2",
   "url": "sec-6-3.html#exercise-1808",
   "type": "Exercise",
-  "number": "6.3.6.23",
+  "number": "6.3.6.22",
   "title": "",
-  "body": "State the definition of slope, in words, and then in symbols. Change in output value divided by change in input value, "
+  "body": "What does the Greek letter delta, , represent? "
 },
 {
   "id": "exercise-1809",
   "level": "2",
   "url": "sec-6-3.html#exercise-1809",
   "type": "Exercise",
-  "number": "6.3.6.24",
+  "number": "6.3.6.23",
   "title": "",
-  "body": "What does the slope of a line measure? "
+  "body": "State the definition of slope, in words, and then in symbols. Change in output value divided by change in input value, "
 },
 {
   "id": "exercise-1810",
   "level": "2",
   "url": "sec-6-3.html#exercise-1810",
   "type": "Exercise",
-  "number": "6.3.6.25",
+  "number": "6.3.6.24",
   "title": "",
-  "body": "Lynette is saving money for the down payment on a new car. The graph shows the amount she has saved weeks after the first of the year.  How much has Lynette saved after 2 weeks?  When will Lynette have saved $700?  Compute the slope of the graph, , including units.  What does the slope tell you about the problem?   $300  10 weeks  $50 per week  The rate at which Lynette's savings increases  "
+  "body": "What does the slope of a line measure? "
 },
 {
   "id": "exercise-1811",
   "level": "2",
   "url": "sec-6-3.html#exercise-1811",
   "type": "Exercise",
-  "number": "6.3.6.26",
+  "number": "6.3.6.25",
   "title": "",
-  "body": "Joshua is saving newspapers for the paper drive at his son's school. The graph shows the amount of newspaper he has saved weeks after the paper drive began.  How many pounds of newspaper has Joshua saved after 4 weeks?  When will Joshua have saved 180 pounds of newspapers?  Compute the slope of the graph, , including units.  What does the slope tell you about the problem?  "
+  "body": "Lynette is saving money for the down payment on a new car. The graph shows the amount she has saved weeks after the first of the year.  How much has Lynette saved after 2 weeks?  When will Lynette have saved $700?  Compute the slope of the graph, , including units.  What does the slope tell you about the problem?   $300  10 weeks  $50 per week  The rate at which Lynette's savings increases  "
 },
 {
   "id": "exercise-1812",
   "level": "2",
   "url": "sec-6-3.html#exercise-1812",
   "type": "Exercise",
-  "number": "6.3.6.27",
+  "number": "6.3.6.26",
   "title": "",
-  "body": "Britney is raising a goat to show at the state fair. The graph shows the goat's weight when it was months old.  How much did the goat's weight increase from the second month to the fourth month? From the fourth month to the eighth month?  Compute the goat's rate of growth, including units.  Illustrate the rate of growth, , on the graph.   5 lbs, 10 lbs  2.5 lbs per month   "
+  "body": "Joshua is saving newspapers for the paper drive at his son's school. The graph shows the amount of newspaper he has saved weeks after the paper drive began.  How many pounds of newspaper has Joshua saved after 4 weeks?  When will Joshua have saved 180 pounds of newspapers?  Compute the slope of the graph, , including units.  What does the slope tell you about the problem?  "
 },
 {
   "id": "exercise-1813",
   "level": "2",
   "url": "sec-6-3.html#exercise-1813",
   "type": "Exercise",
-  "number": "6.3.6.28",
+  "number": "6.3.6.27",
   "title": "",
-  "body": "Jason is raising a rabbit for the county fair. The graph shows the rabbit's weight when it was weeks old.  How much did the rabbit's weight increase from the fourth week to the twelfth week? From the second week to the eighth week?  When will Joshua have saved 180 pounds of newspapers?  Compute the rabbit's rate of growth, including units.  Illustrate the rate of growth, , on the graph.  "
+  "body": "Britney is raising a goat to show at the state fair. The graph shows the goat's weight when it was months old.  How much did the goat's weight increase from the second month to the fourth month? From the fourth month to the eighth month?  Compute the goat's rate of growth, including units.  Illustrate the rate of growth, , on the graph.   5 lbs, 10 lbs  2.5 lbs per month   "
 },
 {
   "id": "exercise-1814",
   "level": "2",
   "url": "sec-6-3.html#exercise-1814",
   "type": "Exercise",
-  "number": "6.3.6.29",
+  "number": "6.3.6.28",
   "title": "",
-  "body": "The graph shows the wholesale cost of pounds of dry-roasted peanuts.  What does the slope of this graph tell you about dry-roasted peanuts?  Compute the slope, including units.  If the Lone Star Barbecue increases its weekly order of peanuts from 100 to 120 pounds, how much will the cost increase?   Cost per pound  $1.50 per lb  $30  "
+  "body": "Jason is raising a rabbit for the county fair. The graph shows the rabbit's weight when it was weeks old.  How much did the rabbit's weight increase from the fourth week to the twelfth week? From the second week to the eighth week?  When will Joshua have saved 180 pounds of newspapers?  Compute the rabbit's rate of growth, including units.  Illustrate the rate of growth, , on the graph.  "
 },
 {
   "id": "exercise-1815",
   "level": "2",
   "url": "sec-6-3.html#exercise-1815",
   "type": "Exercise",
-  "number": "6.3.6.30",
+  "number": "6.3.6.29",
   "title": "",
-  "body": "The graph shows the cost in thousands of dollars for thousand square feet of grass sod for a lawn.  What does the slope of this graph tell you about sod?  Compute the slope, including units.  The Huron Breeze golf course is considering expanding its proposed putting green from 12,000 square feet to 15,000 square feet. How much will the cost of the sod increase?  "
+  "body": "The graph shows the wholesale cost of pounds of dry-roasted peanuts.  What does the slope of this graph tell you about dry-roasted peanuts?  Compute the slope, including units.  If the Lone Star Barbecue increases its weekly order of peanuts from 100 to 120 pounds, how much will the cost increase?   Cost per pound  $1.50 per lb  $30  "
 },
 {
   "id": "exercise-1816",
   "level": "2",
   "url": "sec-6-3.html#exercise-1816",
   "type": "Exercise",
-  "number": "6.3.6.31",
+  "number": "6.3.6.30",
   "title": "",
-  "body": "The steepness of an incline, like a ramp or a staircase, can be measured by its slope.  Find the slope of the staircase shown if its height is 12 feet and the horizontal distance between the foot and the head of the staircase is 8 feet.  Would a staircase of slope be steeper than the one pictured, or not as steep?    not as steep  "
+  "body": "The graph shows the cost in thousands of dollars for thousand square feet of grass sod for a lawn.  What does the slope of this graph tell you about sod?  Compute the slope, including units.  The Huron Breeze golf course is considering expanding its proposed putting green from 12,000 square feet to 15,000 square feet. How much will the cost of the sod increase?  "
 },
 {
   "id": "exercise-1817",
   "level": "2",
   "url": "sec-6-3.html#exercise-1817",
   "type": "Exercise",
-  "number": "6.3.6.32",
+  "number": "6.3.6.31",
   "title": "",
-  "body": " Find the slope of the ramp pictured if its height is 4 feet and the horizontal distance from its base to its top is 10 feet.  Would a ramp of slope be steeper than the one pictured, or not as steep?  "
+  "body": "The steepness of an incline, like a ramp or a staircase, can be measured by its slope.  Find the slope of the staircase shown if its height is 12 feet and the horizontal distance between the foot and the head of the staircase is 8 feet.  Would a staircase of slope be steeper than the one pictured, or not as steep?    not as steep  "
 },
 {
   "id": "exercise-1818",
   "level": "2",
   "url": "sec-6-3.html#exercise-1818",
   "type": "Exercise",
-  "number": "6.3.6.33",
+  "number": "6.3.6.32",
   "title": "",
-  "body": "Suppose you know that the slope of a line is 25.  If you start at any point on the line and move 1 unit to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 3 units to the right?   25  75  "
+  "body": " Find the slope of the ramp pictured if its height is 4 feet and the horizontal distance from its base to its top is 10 feet.  Would a ramp of slope be steeper than the one pictured, or not as steep?  "
 },
 {
   "id": "exercise-1819",
   "level": "2",
   "url": "sec-6-3.html#exercise-1819",
   "type": "Exercise",
-  "number": "6.3.6.34",
+  "number": "6.3.6.33",
   "title": "",
-  "body": "Suppose you know that the slope of a line is 8.  If you start at any point on the line and move 1 unit to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 4 units to the right?  "
+  "body": "Suppose you know that the slope of a line is 25.  If you start at any point on the line and move 1 unit to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 3 units to the right?   25  75  "
 },
 {
   "id": "exercise-1820",
   "level": "2",
   "url": "sec-6-3.html#exercise-1820",
   "type": "Exercise",
-  "number": "6.3.6.35",
+  "number": "6.3.6.34",
   "title": "",
-  "body": "Suppose you know that the slope of a line is .  If you start at any point on the line and move 4 units to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 6 units to the right?   3  4.5  "
+  "body": "Suppose you know that the slope of a line is 8.  If you start at any point on the line and move 1 unit to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 4 units to the right?  "
 },
 {
   "id": "exercise-1821",
   "level": "2",
   "url": "sec-6-3.html#exercise-1821",
   "type": "Exercise",
-  "number": "6.3.6.36",
+  "number": "6.3.6.35",
   "title": "",
-  "body": "Suppose you know that the slope of a line is .  If you start at any point on the line and move 1 unit to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 3 units to the right?  "
+  "body": "Suppose you know that the slope of a line is .  If you start at any point on the line and move 4 units to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 6 units to the right?   3  4.5  "
 },
 {
   "id": "exercise-1822",
   "level": "2",
   "url": "sec-6-3.html#exercise-1822",
   "type": "Exercise",
-  "number": "6.3.6.37",
+  "number": "6.3.6.36",
   "title": "",
-  "body": " "
+  "body": "Suppose you know that the slope of a line is .  If you start at any point on the line and move 1 unit to the right, how many units must you move up to reach another point on the line?  How many units must you move up if you move 3 units to the right?  "
 },
 {
   "id": "exercise-1823",
   "level": "2",
   "url": "sec-6-3.html#exercise-1823",
   "type": "Exercise",
-  "number": "6.3.6.38",
+  "number": "6.3.6.37",
   "title": "",
   "body": " "
 },
@@ -20885,7 +20921,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-3.html#exercise-1824",
   "type": "Exercise",
-  "number": "6.3.6.39",
+  "number": "6.3.6.38",
   "title": "",
   "body": " "
 },
@@ -20894,7 +20930,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-3.html#exercise-1825",
   "type": "Exercise",
-  "number": "6.3.6.40",
+  "number": "6.3.6.39",
   "title": "",
   "body": " "
 },
@@ -20903,14 +20939,23 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-3.html#exercise-1826",
   "type": "Exercise",
-  "number": "6.3.6.41",
+  "number": "6.3.6.40",
   "title": "",
-  "body": "Roy is traveling home by train. The graph shows his distance miles from home hours after the train started.  Compute the slope of the graph, including units.  What does the slope tell you about Roy's journey?    -75 miles per hour  The rate at which the distance to home decreases  "
+  "body": " "
 },
 {
   "id": "exercise-1827",
   "level": "2",
   "url": "sec-6-3.html#exercise-1827",
+  "type": "Exercise",
+  "number": "6.3.6.41",
+  "title": "",
+  "body": "Roy is traveling home by train. The graph shows his distance miles from home hours after the train started.  Compute the slope of the graph, including units.  What does the slope tell you about Roy's journey?    -75 miles per hour  The rate at which the distance to home decreases  "
+},
+{
+  "id": "exercise-1828",
+  "level": "2",
+  "url": "sec-6-3.html#exercise-1828",
   "type": "Exercise",
   "number": "6.3.6.42",
   "title": "",
@@ -20923,21 +20968,21 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.4",
   "title": "Similarity",
-  "body": " Similarity   Similar Figures  Scale Factors  Ratio and Proportion  Conditions for Similarity  Similar Triangles     Similar Figures  When we enlarge or reduce a photograph, the image in the new photo should have the same shape as the original. An enlargement of a circle should still be a circle, and an enlargement of a square should still be a square. If the enlarged object is twice as tall as the original object, it should also be twice as wide.  The enlarged sailboat is twice as tall and twice as wide as the original.  Two figures are called similar if they have the same shape but different sizes. (They are called congruent if they have the same shape AND the same size.   Triangles are simple shapes, so we'll start our study of similar figures with some triangles. (if you would like to review some properties of triangles, you could refer to Section 1.4.)  Which of the triangles shown below appear to be similar?   Only (a) and (e) appear to have the same shape. They could be similar. What do you notice about the angles in those two triangles?  Similar Triangles   Let's look more closely at two similar triangles. Use your protractor to measure the angles in each triangle. Record your measurements below.     You should find that the corresponding angles are equal, namely that  Now consider the sides of the two triangles. Measure the sides in centimeters and record your findings. Then compute the quotients of corresponding lengths, as shown below. What do you notice about the quotients?      Did you find that the length each side of the large triangle is 1.5 times the length of the corresponding side of the small triangle? (It is difficult to measure exactly, but your quotients should all be close to 1.5.)   In this Activity, we learned two things about similar triangles:   The corresponding angles are equal.  We can multiply each side of the small triangle by the same factor to get the corresponding side of the large triangle. (A factor is something you multiply by.)   Could these two triangles be similar? Why or why not?  They could be similar because and , so the corresponding angles are equal.   Scale Factors  The factor of 1.5 that you found in the Activity is called a scale factor . If we want to enlarge a figure to a similar shape (or \"scale it up\"), we need to increase the length of each part of the figure by the same factor. Of course, we need to preserve the angles between sides as well.  The picture at right illustrates one method for enlarging a figure. The principle behind this technique is the same one that enables us to project images from a filmstrip onto a movie screen. You can try it yourself in the next Activity.   Scaling Up   Here is a picture of a sailboat. We will enlarge it by a scale factor of 2. You will need a ruler. Notice the dot in the upper left above the sailboat.  Draw a very light line from the dot to one of the vertices on the picture of the sailboat, say, the top of the mast. Measure the length of that line, and extend it in the same direction to twice its length. That's the location of the top of the mast in the enlarged figure.  Repeat step 2 with all the other vertices of the original figure. (There are 12 in all.)  Now connect them in the same order as the original to see the enlarged sail boat! (You can check that each dimension of the enlarged sailboat is twice the original.)        Ratio and Proportion  Before we continue, let's review some tools you will need.  A Quick Refresher   Look up any conversion factors you don't remember.  1 foot = inches  1 pound = ounces  1 meter = centimeters  1 quart = pints  1 hour = minutes  1 kilogram = grams   Write each decimal number as a common fraction.  0.75  0.60  0.30  0.125  1.25  2.4  3.5  2.75    The scale factor between two similar figures is also the ratio of their side lengths. In Activity 1, the ratio of the side lengths of the two triangles is 1.5. When the dimensions of two figures have the same ratio, we say that the figures are proportional .  Definition  Two figures are called proportional if the ratios of corresponding distances are equal.  Recall that we often express ratios as fractions, so, for example, we write 1.5 as , or 3 to 2. You can check that the ratios of the corresponding sides of the triangles in Activity 1 are all equal to .  Which pair of triangles is proportional?       Here are the ratios of the sides of the larger triangle to the corresponding sides of the smaller triangle: These ratios are equal (they all reduce to ), so the triangles are proportional.  Here are the ratios of the sides of the larger triangle to the corresponding sides of the smaller triangle: These ratios are not equal, so the triangles are not proportional.   Remember that to make an equivalent fraction we must multiply or divide top and bottom by the same number. So, for example, We cannot add or subtract the same number to get an equivalent fraction. For example,   Which ratios are equivalent?  and  and  and  and   Write three ratios equivalent to the given one.      (b) and (c)       Here is what we know about using scale factors.  In similar figures, the ratios of all corresponding lengths are equal. We say that similar figures are proportional.  The scale factor is the ratio of the lengths in the new figure to the corresponding lengths in the original figure. We can write this relationship as a mathematical sentence as follows: or   The two triangles below are similar, and the lengths are in feet. Find by using a scale factor, and check your answer with ratios.   First we find the scale factor. In this case we can reduce the scale factor, dividing top and bottom by 8. To find , we multiply the corresponding side of the small triangle by the scale factor. The length, , of the vertical side of the large triangle is 12 feet.  Here are the ratios of the sides, large triangle to small triangle: You can verify that both of these ratios reduce to , the scale factor.  These two right triangles are proportional.    Find the scale factor that enlarges the small triangle to the larger one.  Find the missing sides.  Check your answers using ratios.        Conditions for Similarity  We now have enough information to formulate a test for similarity. Remember that two figures are similar if they have precisely the same shape but perhaps different sizes.  Similar Figures  Two figures are similar if, and only if  Their corresponding angles are equal, and  Their corresponding sides are proportional.   Both conditions must be true if the figures are similar.  The corresponding sides of all four parallelograms below are actually equal (so the sides are proportional), but the figures are not similar -- they don't have the same shape. You can see that their corresponding angles are not equal.   These two figures are similar. Find the missing measurements.   There are actually two ways to use ratios to find in the previous Exercise.    We use the fact that corresponding sides of similar figures are proportional.  Because the ratio of the short sides is 3 to 1, the ratio of the long sides must also be 3 to 1, so must be 9.   Sometimes it is easier to look at the ratios within each figure, like this:  With these ratios, we can see that the building factor is . Again we find that must be 9.  Method 2 uses the following fact about similar figures.  Ratios in Similar Figures  In similar figures, the ratios of lengths in one figure are equal to the ratios of the corresponding lengths in the other figure.  Heather wants to know the height of a street lamp. She discovers one night that when she is 12 feet from the lamp, her shadow is 6 feet long. How tall is the lamp?  In the picture, there are two similar right triangles, which we can separate as shown below. The larger triangle has a base of feet, and the smaller triangle shows Heather and her shadow.   The ratio of height to base in the small triangle, 5 to 6, must equal the ratio of height to base in the large triangle, to 18. The building factor is 3, so must be . The lamp is 15 feet tall.  Find .  18   Similar Triangles  To finish up our study of similar figures, we'll look at the special case of similar triangles. Because they are such simple figures, the condition for similarity of triangles is actually less demanding than the conditions for similar figures in general. If the sides of two triangles are proportional, then their corresponding angles are automatically equal, and vice versa. Thus, we only need to verify one of the conditions to show that two triangles are similar.  Similar Triangles  Two triangles are similar if either one of the following conditions is true:  Their corresponding angles are equal, OR Their corresponding sides are proportional.   Explain how you know that these two triangles are similar.   Recall that the sum of the angles in a triangle is 180°. Both of these triangles are right triangles, so the sum of the other two angles in each triangle is 90°. So the missing angle in the first triangle must be and the missing angle in the second triangle must be 42°. Thus, the two triangles have equal angles, and therefore they are similar.  Which of these pairs are similar triangles? Explain why or why not in each case.       (c) and (d)    Practice 6-4  For Problems 1-6, answer the questions in complete sentences.  What is a factor? Something to multiply by.  How is the meaning of the word \"similar\" different in mathematics from its common English meaning?  What does it mean for two figures to be congruent? They have the same size and the same shape.  What does it mean for two figures to be proportional?  If you know the lengths of two corresponding sides in similar figures, how can you find the scale factor? Divide one by the other.  What does the 2 mean in the expression ?   For Problems 7-14, decide whether the figures are similar. If they are similar, give the scale factor from the first figure to the second figure. If the figures are not similar, explain why not.    The sides are not proportional.        For Problems 15-18, each statement is false. Correct it to make a true statement.   Two figures are similar if their sides are proportional. ... and their corresponding angles are equal.  We can create an equivalent ratio by adding the same number to both top and bottom.  Doubling the dimensions of a rectangle also doubles its area. Doubling the dimensions of a rectangle quadruples its area.  To enlarge a picture, we add the same factor to each dimension.   In Problems 19-26, the figures are similar. Find the unknown angles and sides.            Which of the following statements are true?  All isosceles triangles are similar.  All equilateral triangles are similar.  All rectangles are similar.  All squares are similar.  (b) and (d)  Which of the following statements are true?  All right triangles are similar.  All isosceles right triangles are similar.  All circles are similar.  All obtuse triangles are similar.   Tamisha is measuring the angles in two triangles. She finds that two of the angles in the first triangle are equal to two angles in the second triangle. She concludes that the triangles are similar. Is she correct? Explain why or why not.  Yes, The third angles must also be equal.  Hakim says that if the lengths and widths of two rectangles are proportional, then the rectangles are similar. Is he correct? Explain why or why not.  In Problems 31-34, are the triangles similar? Explain why or why not.  Yes. The sides are proportional.   Yes, Corresponding angles are equal.    For Problems 35-38, find two figures that are similar.  (b) and (e)   (b) and (e)    For Problems 39-42,  Find the scale factor.  Calculate the new dimension.   A child's cello is 75% as tall as a full-sized cello. The strings on a full-sized cello are 28 inches long from the nut to the bridge. How long are the strings on a child's cello?    21   Celia wants her 8 by 10 inch portrait enlarged by 100% in each direction. What will be the new dimensions of the portrait?  Barry increased the font size on his computer by 25%. Capital letters used to be 2 millimeters tall. How tall are they now?   2.5 mm   The dimensions of a new model stereo speaker have been reduced by 20%. The old model speakers were 12 inches tall. How tall are the new speakers?   For Problems 43-48,  Use ratios to find the dimensions.  Find the scale factor.   In the floor plan for a new house, a six-foot wide picture window is shown as half an inch wide. How long is a 21-foot living room on the plan?  in    On a map of the county botanical garden, a lake that is 20 meters wide appears 4 centimeters wide. The rose garden is 16 meters long. How long is it on the map?  On a blueprint for the new library, 1 inch 10 feet. How long are the 25-foot bookshelves on the blueprint?  2.5 in    Grace enlarged an 8-inch wide photograph to a 2.5-foot wide poster. If the photo was 12 inches tall, how tall is the poster?  On a billboard, a picture of a 6-inch submarine sandwich is 4 feet long. How tall is the picture of a 10-inch tall soda cup?  ft  8   George Washington was 6 feet 2 inches tall, and his nose was 3.34 inches long. The nose on his likeness at Mount Rushmore is 21 feet long. At the same scale, how tall would a full statue of George Washington be?    For Problems 49-50, show your calculations.  While making the movie Titanic, the producers built a 775-foot model of the ill-fated ship. The original vessel was 882 feet, 9 inches long.    What was the scale factor used to build the model?  If the real Titanic was 175 feet tall from the keel to the top of the funnels, how tall is the model?   0.878  153.64 ft   The Straits of Mackinac between Michigan's Upper and Lower Peninsulas are 5 miles wide. Engineers studying the Mackinac bridge, the world's longest suspension bridge, build a model of the straits that is 50 feet wide.    Express the scale factor as a fraction. (There are 5280 feet in a mile.)  In their model, the suspension portion of the bridge is 7.2 feet long, and the towers are 12.5 inches above the water. What are the corresponding dimensions of the actual bridge?    For Problems 51-54,  Separate the figure into two similar triangles. Sketch and label the triangles.  Use ratios to find the unknown side.     7.5      15      "
+  "body": " Similarity   Similar Figures  Scale Factors  Ratio and Proportion  Conditions for Similarity  Similar Triangles     Similar Figures  When we enlarge or reduce a photograph, the image in the new photo should have the same shape as the original. An enlargement of a circle should still be a circle, and an enlargement of a square should still be a square. If the enlarged object is twice as tall as the original object, it should also be twice as wide.  The enlarged sailboat is twice as tall and twice as wide as the original.  Two figures are called similar if they have the same shape but different sizes. (They are called congruent if they have the same shape AND the same size.   Triangles are simple shapes, so we'll start our study of similar figures with some triangles. (If you would like to review some properties of triangles, you could refer to Section 1.4.)  Which of the triangles shown below appear to be similar?   Only (a) and (e) appear to have the same shape. They could be similar. What do you notice about the angles in those two triangles?  Similar Triangles   Let's look more closely at two similar triangles. Use your protractor to measure the angles in each triangle. Record your measurements below.     You should find that the corresponding angles are equal, namely that  Now consider the sides of the two triangles. Measure the sides in centimeters and record your findings. Then compute the quotients of corresponding lengths, as shown below. What do you notice about the quotients?      Did you find that the length each side of the large triangle is 1.5 times the length of the corresponding side of the small triangle? (It is difficult to measure exactly, but your quotients should all be close to 1.5.)   In this Activity, we learned two things about similar triangles:   The corresponding angles are equal.  We can multiply each side of the small triangle by the same factor to get the corresponding side of the large triangle. (A factor is something you multiply by.)   Could these two triangles be similar? Why or why not?  They could be similar because and , so the corresponding angles are equal.   Scale Factors  The factor of 1.5 that you found in the Activity is called a scale factor . If we want to enlarge a figure to a similar shape (or \"scale it up\"), we need to increase the length of each part of the figure by the same factor. Of course, we need to preserve the angles between sides as well.  The picture at right illustrates one method for enlarging a figure. The principle behind this technique is the same one that enables us to project images from a filmstrip onto a movie screen. You can try it yourself in the next Activity.   Scaling Up   Here is a picture of a sailboat. We will enlarge it by a scale factor of 2. You will need a ruler. Notice the dot in the upper left above the sailboat.  Draw a very light line from the dot to one of the vertices on the picture of the sailboat, say, the top of the mast. Measure the length of that line, and extend it in the same direction to twice its length. That's the location of the top of the mast in the enlarged figure.  Repeat step 2 with all the other vertices of the original figure. (There are 12 in all.)  Now connect them in the same order as the original to see the enlarged sail boat! (You can check that each dimension of the enlarged sailboat is twice the original.)        Ratio and Proportion  Before we continue, let's review some tools you will need.  A Quick Refresher   Look up any conversion factors you don't remember.  1 foot = inches  1 pound = ounces  1 meter = centimeters  1 quart = pints  1 hour = minutes  1 kilogram = grams   Write each decimal number as a common fraction.  0.75  0.60  0.30  0.125  1.25  2.4  3.5  2.75    The scale factor between two similar figures is also the ratio of their side lengths. In Activity 1, the ratio of the side lengths of the two triangles is 1.5. When the corresponding dimensions of two figures have the same ratio, we say that the figures are proportional .  Definition  Two figures are called proportional if the ratios of corresponding distances are equal.  Recall that we often express ratios as fractions, so, for example, we write 1.5 as , or 3 to 2. You can check that the ratios of the corresponding sides of the triangles in Activity 1 are all equal to .  Which pair of triangles is proportional?       Here are the ratios of the sides of the larger triangle to the corresponding sides of the smaller triangle: These ratios are equal (they all reduce to ), so the triangles are proportional.  Here are the ratios of the sides of the larger triangle to the corresponding sides of the smaller triangle: These ratios are not equal, so the triangles are not proportional.   A Quick Refresher  Remember that to make an equivalent fraction we must multiply or divide top and bottom by the same number. So, for example, We cannot add or subtract the same number to get an equivalent fraction. For example,   Which ratios are equivalent?  and  and  and  and   Write three ratios equivalent to the given one.      (b) and (c)        Here is what we know about using scale factors.  In similar figures, the ratios of all corresponding lengths are equal. We say that similar figures are proportional.  The scale factor is the ratio of the lengths in the new figure to the corresponding lengths in the original figure. We can write this relationship as a mathematical sentence as follows: or   The two triangles below are similar, and the lengths are in feet. Find by using a scale factor, and check your answer with ratios.   First we find the scale factor. In this case we can reduce the scale factor, dividing top and bottom by 8. To find , we multiply the corresponding side of the small triangle by the scale factor. The length, , of the vertical side of the large triangle is 12 feet.  Here are the ratios of the sides, large triangle to small triangle: You can verify that both of these ratios reduce to , the scale factor.  These two right triangles are proportional.    Find the scale factor that enlarges the small triangle to the larger one.  Find the missing sides.  Check your answers using ratios.        Conditions for Similarity  We now have enough information to formulate a test for similarity. Remember that two figures are similar if they have precisely the same shape but perhaps different sizes.  Similar Figures  Two figures are similar if, and only if  Their corresponding angles are equal, and  Their corresponding sides are proportional.   Both conditions must be true if the figures are similar.  The corresponding sides of all four parallelograms below are actually equal (so the sides are proportional), but the figures are not similar -- they don't have the same shape. You can see that their corresponding angles are not equal.   These two figures are similar. Find the missing measurements.   There are two ways to use ratios to find in the previous Exercise.    We use the fact that corresponding sides of similar figures are proportional.  Because the ratio of the short sides is 3 to 1, the ratio of the long sides must also be 3 to 1, so must be 9.   Sometimes it is easier to look at the ratios within each figure, like this:  With these ratios, we can see that the building factor is . Again we find that must be 9.  Method 2 uses the following fact about similar figures.  Ratios in Similar Figures  In similar figures, the ratios of lengths in one figure are equal to the ratios of the corresponding lengths in the other figure.  Heather wants to know the height of a street lamp. She discovers one night that when she is 12 feet from the lamp, her shadow is 6 feet long. How tall is the lamp?  In the picture, there are two similar right triangles, which we can separate as shown below. The larger triangle has a base of feet, and the smaller triangle shows Heather and her shadow.   The ratio of height to base in the small triangle, 5 to 6, must equal the ratio of height to base in the large triangle, to 18. The building factor is 3, so must be . The lamp is 15 feet tall.  Find .  18   Similar Triangles  To finish up our study of similar figures, we'll look at the special case of similar triangles. Because they are such simple figures, the condition for similarity of triangles is actually less demanding than the conditions for similar figures in general.  If the sides of two triangles are proportional, then their corresponding angles are automatically equal, and vice versa. Thus, we only need to verify one of the conditions to show that two triangles are similar.  Similar Triangles  Two triangles are similar if either one of the following conditions is true:  Their corresponding angles are equal, OR Their corresponding sides are proportional.   Explain how you know that these two triangles are similar.   Recall that the sum of the angles in a triangle is 180°. Both of these triangles are right triangles, so the sum of the other two angles in each triangle is 90°. So the missing angle in the first triangle must be and the missing angle in the second triangle must be 42°. Thus, the two triangles have equal angles, and therefore they are similar.  Which of these pairs are similar triangles? Explain why or why not in each case.       (c) and (d)    Practice 6-4  For Problems 1-6, answer the questions in complete sentences.  What is a factor? Something to multiply by.  How is the meaning of the word \"similar\" different in mathematics from its common English meaning?  What does it mean for two figures to be congruent? They have the same size and the same shape.  What does it mean for two figures to be proportional?  If you know the lengths of two corresponding sides in similar figures, how can you find the scale factor? Divide one by the other.  What does the 2 mean in the expression ?   For Problems 7-14, decide whether the figures are similar. If they are similar, give the scale factor from the first figure to the second figure. If the figures are not similar, explain why not.    The sides are not proportional.        For Problems 15-18, each statement is false. Correct it to make a true statement.   Two figures are similar if their sides are proportional. ... and their corresponding angles are equal.  We can create an equivalent ratio by adding the same number to both top and bottom.  Doubling the dimensions of a rectangle also doubles its area. Doubling the dimensions of a rectangle quadruples its area.  To enlarge a picture, we add the same factor to each dimension.   In Problems 19-26, the figures are similar. Find the unknown angles and sides.            Which of the following statements are true?  All isosceles triangles are similar.  All equilateral triangles are similar.  All rectangles are similar.  All squares are similar.  (b) and (d)  Which of the following statements are true?  All right triangles are similar.  All isosceles right triangles are similar.  All circles are similar.  All obtuse triangles are similar.   Tamisha is measuring the angles in two triangles. She finds that two of the angles in the first triangle are equal to two angles in the second triangle. She concludes that the triangles are similar. Is she correct? Explain why or why not.  Yes, The third angles must also be equal.  Hakim says that if the lengths and widths of two rectangles are proportional, then the rectangles are similar. Is he correct? Explain why or why not.  In Problems 31-34, are the triangles similar? Explain why or why not.  Yes. The sides are proportional.   Yes, Corresponding angles are equal.    For Problems 35-38, find two figures that are similar.  (b) and (e)   (b) and (e)    For Problems 39-42,  Find the scale factor.  Calculate the new dimension.   A child's cello is 75% as tall as a full-sized cello. The strings on a full-sized cello are 28 inches long from the nut to the bridge. How long are the strings on a child's cello?    21   Celia wants her 8 by 10 inch portrait enlarged by 100% in each direction. What will be the new dimensions of the portrait?  Barry increased the font size on his computer by 25%. Capital letters used to be 2 millimeters tall. How tall are they now?   2.5 mm   The dimensions of a new model stereo speaker have been reduced by 20%. The old model speakers were 12 inches tall. How tall are the new speakers?   For Problems 43-48,  Use ratios to find the dimensions.  Find the scale factor.   In the floor plan for a new house, a six-foot wide picture window is shown as half an inch wide. How long is a 21-foot living room on the plan?  in    On a map of the county botanical garden, a lake that is 20 meters wide appears 4 centimeters wide. The rose garden is 16 meters long. How long is it on the map?  On a blueprint for the new library, 1 inch 10 feet. How long are the 25-foot bookshelves on the blueprint?  2.5 in    Grace enlarged an 8-inch wide photograph to a 2.5-foot wide poster. If the photo was 12 inches tall, how tall is the poster?  On a billboard, a picture of a 6-inch submarine sandwich is 4 feet long. How tall is the picture of a 10-inch tall soda cup?  ft  8   George Washington was 6 feet 2 inches tall, and his nose was 3.34 inches long. The nose on his likeness at Mount Rushmore is 21 feet long. At the same scale, how tall would a full statue of George Washington be?    For Problems 49-50, show your calculations.  While making the movie Titanic, the producers built a 775-foot model of the ill-fated ship. The original vessel was 882 feet, 9 inches long.    What was the scale factor used to build the model?  If the real Titanic was 175 feet tall from the keel to the top of the funnels, how tall is the model?   0.878  153.64 ft   The Straits of Mackinac between Michigan's Upper and Lower Peninsulas are 5 miles wide. Engineers studying the Mackinac bridge, the world's longest suspension bridge, build a model of the straits that is 50 feet wide.    Express the scale factor as a fraction. (There are 5280 feet in a mile.)  In their model, the suspension portion of the bridge is 7.2 feet long, and the towers are 12.5 inches above the water. What are the corresponding dimensions of the actual bridge?    For Problems 51-54,  Separate the figure into two similar triangles. Sketch and label the triangles.  Use ratios to find the unknown side.     7.5      15      "
 },
 {
-  "id": "p-7882",
+  "id": "p-7915",
   "level": "2",
-  "url": "sec-6-4.html#p-7882",
+  "url": "sec-6-4.html#p-7915",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "similar congruent "
 },
 {
-  "id": "example-162",
+  "id": "example-163",
   "level": "2",
-  "url": "sec-6-4.html#example-162",
+  "url": "sec-6-4.html#example-163",
   "type": "Example",
   "number": "6.4.1",
   "title": "",
@@ -20953,27 +20998,27 @@ var ptx_lunr_docs = [
   "body": "Similar Triangles   Let's look more closely at two similar triangles. Use your protractor to measure the angles in each triangle. Record your measurements below.     You should find that the corresponding angles are equal, namely that  Now consider the sides of the two triangles. Measure the sides in centimeters and record your findings. Then compute the quotients of corresponding lengths, as shown below. What do you notice about the quotients?      Did you find that the length each side of the large triangle is 1.5 times the length of the corresponding side of the small triangle? (It is difficult to measure exactly, but your quotients should all be close to 1.5.)  "
 },
 {
-  "id": "p-7895",
+  "id": "p-7928",
   "level": "2",
-  "url": "sec-6-4.html#p-7895",
+  "url": "sec-6-4.html#p-7928",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "factor "
 },
 {
-  "id": "exercise-1828",
+  "id": "exercise-1829",
   "level": "2",
-  "url": "sec-6-4.html#exercise-1828",
+  "url": "sec-6-4.html#exercise-1829",
   "type": "Checkpoint",
   "number": "6.4.2",
   "title": "",
   "body": "Could these two triangles be similar? Why or why not?  They could be similar because and , so the corresponding angles are equal. "
 },
 {
-  "id": "p-7900",
+  "id": "p-7933",
   "level": "2",
-  "url": "sec-6-4.html#p-7900",
+  "url": "sec-6-4.html#p-7933",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -20989,209 +21034,191 @@ var ptx_lunr_docs = [
   "body": "Scaling Up   Here is a picture of a sailboat. We will enlarge it by a scale factor of 2. You will need a ruler. Notice the dot in the upper left above the sailboat.  Draw a very light line from the dot to one of the vertices on the picture of the sailboat, say, the top of the mast. Measure the length of that line, and extend it in the same direction to twice its length. That's the location of the top of the mast in the enlarged figure.  Repeat step 2 with all the other vertices of the original figure. (There are 12 in all.)  Now connect them in the same order as the original to see the enlarged sail boat! (You can check that each dimension of the enlarged sailboat is twice the original.)      "
 },
 {
-  "id": "p-7925",
+  "id": "p-7958",
   "level": "2",
-  "url": "sec-6-4.html#p-7925",
+  "url": "sec-6-4.html#p-7958",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "proportional "
 },
 {
-  "id": "p-7926",
+  "id": "p-7959",
   "level": "2",
-  "url": "sec-6-4.html#p-7926",
+  "url": "sec-6-4.html#p-7959",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "proportional "
-},
-{
-  "id": "note-96",
-  "level": "2",
-  "url": "sec-6-4.html#note-96",
-  "type": "Note",
-  "number": "6.4.3",
-  "title": "",
-  "body": "Recall that we often express ratios as fractions, so, for example, we write 1.5 as , or 3 to 2. You can check that the ratios of the corresponding sides of the triangles in Activity 1 are all equal to . "
-},
-{
-  "id": "example-163",
-  "level": "2",
-  "url": "sec-6-4.html#example-163",
-  "type": "Example",
-  "number": "6.4.4",
-  "title": "",
-  "body": "Which pair of triangles is proportional?       Here are the ratios of the sides of the larger triangle to the corresponding sides of the smaller triangle: These ratios are equal (they all reduce to ), so the triangles are proportional.  Here are the ratios of the sides of the larger triangle to the corresponding sides of the smaller triangle: These ratios are not equal, so the triangles are not proportional.  "
 },
 {
   "id": "note-97",
   "level": "2",
   "url": "sec-6-4.html#note-97",
   "type": "Note",
-  "number": "6.4.5",
+  "number": "6.4.3",
   "title": "",
-  "body": "Remember that to make an equivalent fraction we must multiply or divide top and bottom by the same number. So, for example, We cannot add or subtract the same number to get an equivalent fraction. For example, "
-},
-{
-  "id": "exercise-1829",
-  "level": "2",
-  "url": "sec-6-4.html#exercise-1829",
-  "type": "Checkpoint",
-  "number": "6.4.6",
-  "title": "",
-  "body": " Which ratios are equivalent?  and  and  and  and   Write three ratios equivalent to the given one.      (b) and (c)      "
+  "body": "Recall that we often express ratios as fractions, so, for example, we write 1.5 as , or 3 to 2. You can check that the ratios of the corresponding sides of the triangles in Activity 1 are all equal to . "
 },
 {
   "id": "example-164",
   "level": "2",
   "url": "sec-6-4.html#example-164",
   "type": "Example",
-  "number": "6.4.7",
+  "number": "6.4.4",
   "title": "",
-  "body": "The two triangles below are similar, and the lengths are in feet. Find by using a scale factor, and check your answer with ratios.   First we find the scale factor. In this case we can reduce the scale factor, dividing top and bottom by 8. To find , we multiply the corresponding side of the small triangle by the scale factor. The length, , of the vertical side of the large triangle is 12 feet.  Here are the ratios of the sides, large triangle to small triangle: You can verify that both of these ratios reduce to , the scale factor. "
+  "body": "Which pair of triangles is proportional?       Here are the ratios of the sides of the larger triangle to the corresponding sides of the smaller triangle: These ratios are equal (they all reduce to ), so the triangles are proportional.  Here are the ratios of the sides of the larger triangle to the corresponding sides of the smaller triangle: These ratios are not equal, so the triangles are not proportional.  "
 },
 {
   "id": "exercise-1830",
   "level": "2",
   "url": "sec-6-4.html#exercise-1830",
   "type": "Checkpoint",
-  "number": "6.4.8",
+  "number": "6.4.5",
   "title": "",
-  "body": "These two right triangles are proportional.    Find the scale factor that enlarges the small triangle to the larger one.  Find the missing sides.  Check your answers using ratios.      "
-},
-{
-  "id": "p-7966",
-  "level": "2",
-  "url": "sec-6-4.html#p-7966",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "similar "
+  "body": " Which ratios are equivalent?  and  and  and  and   Write three ratios equivalent to the given one.      (b) and (c)      "
 },
 {
   "id": "example-165",
   "level": "2",
   "url": "sec-6-4.html#example-165",
   "type": "Example",
-  "number": "6.4.9",
+  "number": "6.4.6",
   "title": "",
-  "body": "The corresponding sides of all four parallelograms below are actually equal (so the sides are proportional), but the figures are not similar -- they don't have the same shape. You can see that their corresponding angles are not equal.  "
+  "body": "The two triangles below are similar, and the lengths are in feet. Find by using a scale factor, and check your answer with ratios.   First we find the scale factor. In this case we can reduce the scale factor, dividing top and bottom by 8. To find , we multiply the corresponding side of the small triangle by the scale factor. The length, , of the vertical side of the large triangle is 12 feet.  Here are the ratios of the sides, large triangle to small triangle: You can verify that both of these ratios reduce to , the scale factor. "
 },
 {
   "id": "exercise-1831",
   "level": "2",
   "url": "sec-6-4.html#exercise-1831",
   "type": "Checkpoint",
-  "number": "6.4.10",
+  "number": "6.4.7",
   "title": "",
-  "body": "These two figures are similar. Find the missing measurements.  "
+  "body": "These two right triangles are proportional.    Find the scale factor that enlarges the small triangle to the larger one.  Find the missing sides.  Check your answers using ratios.      "
+},
+{
+  "id": "p-7999",
+  "level": "2",
+  "url": "sec-6-4.html#p-7999",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "similar "
 },
 {
   "id": "example-166",
   "level": "2",
   "url": "sec-6-4.html#example-166",
   "type": "Example",
-  "number": "6.4.11",
+  "number": "6.4.8",
   "title": "",
-  "body": "Heather wants to know the height of a street lamp. She discovers one night that when she is 12 feet from the lamp, her shadow is 6 feet long. How tall is the lamp?  In the picture, there are two similar right triangles, which we can separate as shown below. The larger triangle has a base of feet, and the smaller triangle shows Heather and her shadow.   The ratio of height to base in the small triangle, 5 to 6, must equal the ratio of height to base in the large triangle, to 18. The building factor is 3, so must be . The lamp is 15 feet tall. "
+  "body": "The corresponding sides of all four parallelograms below are actually equal (so the sides are proportional), but the figures are not similar -- they don't have the same shape. You can see that their corresponding angles are not equal.  "
 },
 {
   "id": "exercise-1832",
   "level": "2",
   "url": "sec-6-4.html#exercise-1832",
   "type": "Checkpoint",
-  "number": "6.4.12",
+  "number": "6.4.9",
   "title": "",
-  "body": "Find .  18 "
+  "body": "These two figures are similar. Find the missing measurements.  "
 },
 {
   "id": "example-167",
   "level": "2",
   "url": "sec-6-4.html#example-167",
   "type": "Example",
-  "number": "6.4.13",
+  "number": "6.4.10",
   "title": "",
-  "body": "Explain how you know that these two triangles are similar.   Recall that the sum of the angles in a triangle is 180°. Both of these triangles are right triangles, so the sum of the other two angles in each triangle is 90°. So the missing angle in the first triangle must be and the missing angle in the second triangle must be 42°. Thus, the two triangles have equal angles, and therefore they are similar. "
+  "body": "Heather wants to know the height of a street lamp. She discovers one night that when she is 12 feet from the lamp, her shadow is 6 feet long. How tall is the lamp?  In the picture, there are two similar right triangles, which we can separate as shown below. The larger triangle has a base of feet, and the smaller triangle shows Heather and her shadow.   The ratio of height to base in the small triangle, 5 to 6, must equal the ratio of height to base in the large triangle, to 18. The building factor is 3, so must be . The lamp is 15 feet tall. "
 },
 {
   "id": "exercise-1833",
   "level": "2",
   "url": "sec-6-4.html#exercise-1833",
   "type": "Checkpoint",
-  "number": "6.4.14",
+  "number": "6.4.11",
   "title": "",
-  "body": "Which of these pairs are similar triangles? Explain why or why not in each case.       (c) and (d) "
+  "body": "Find .  18 "
+},
+{
+  "id": "example-168",
+  "level": "2",
+  "url": "sec-6-4.html#example-168",
+  "type": "Example",
+  "number": "6.4.12",
+  "title": "",
+  "body": "Explain how you know that these two triangles are similar.   Recall that the sum of the angles in a triangle is 180°. Both of these triangles are right triangles, so the sum of the other two angles in each triangle is 90°. So the missing angle in the first triangle must be and the missing angle in the second triangle must be 42°. Thus, the two triangles have equal angles, and therefore they are similar. "
 },
 {
   "id": "exercise-1834",
   "level": "2",
   "url": "sec-6-4.html#exercise-1834",
-  "type": "Exercise",
-  "number": "6.4.6.1",
+  "type": "Checkpoint",
+  "number": "6.4.13",
   "title": "",
-  "body": "What is a factor? Something to multiply by. "
+  "body": "Which of these pairs are similar triangles? Explain why or why not in each case.       (c) and (d) "
 },
 {
   "id": "exercise-1835",
   "level": "2",
   "url": "sec-6-4.html#exercise-1835",
   "type": "Exercise",
-  "number": "6.4.6.2",
+  "number": "6.4.6.1",
   "title": "",
-  "body": "How is the meaning of the word \"similar\" different in mathematics from its common English meaning? "
+  "body": "What is a factor? Something to multiply by. "
 },
 {
   "id": "exercise-1836",
   "level": "2",
   "url": "sec-6-4.html#exercise-1836",
   "type": "Exercise",
-  "number": "6.4.6.3",
+  "number": "6.4.6.2",
   "title": "",
-  "body": "What does it mean for two figures to be congruent? They have the same size and the same shape. "
+  "body": "How is the meaning of the word \"similar\" different in mathematics from its common English meaning? "
 },
 {
   "id": "exercise-1837",
   "level": "2",
   "url": "sec-6-4.html#exercise-1837",
   "type": "Exercise",
-  "number": "6.4.6.4",
+  "number": "6.4.6.3",
   "title": "",
-  "body": "What does it mean for two figures to be proportional? "
+  "body": "What does it mean for two figures to be congruent? They have the same size and the same shape. "
 },
 {
   "id": "exercise-1838",
   "level": "2",
   "url": "sec-6-4.html#exercise-1838",
   "type": "Exercise",
-  "number": "6.4.6.5",
+  "number": "6.4.6.4",
   "title": "",
-  "body": "If you know the lengths of two corresponding sides in similar figures, how can you find the scale factor? Divide one by the other. "
+  "body": "What does it mean for two figures to be proportional? "
 },
 {
   "id": "exercise-1839",
   "level": "2",
   "url": "sec-6-4.html#exercise-1839",
   "type": "Exercise",
-  "number": "6.4.6.6",
+  "number": "6.4.6.5",
   "title": "",
-  "body": "What does the 2 mean in the expression ? "
+  "body": "If you know the lengths of two corresponding sides in similar figures, how can you find the scale factor? Divide one by the other. "
 },
 {
   "id": "exercise-1840",
   "level": "2",
   "url": "sec-6-4.html#exercise-1840",
   "type": "Exercise",
-  "number": "6.4.6.7",
+  "number": "6.4.6.6",
   "title": "",
-  "body": ""
+  "body": "What does the 2 mean in the expression ? "
 },
 {
   "id": "exercise-1841",
   "level": "2",
   "url": "sec-6-4.html#exercise-1841",
   "type": "Exercise",
-  "number": "6.4.6.8",
+  "number": "6.4.6.7",
   "title": "",
   "body": ""
 },
@@ -21200,25 +21227,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-4.html#exercise-1842",
   "type": "Exercise",
-  "number": "6.4.6.9",
+  "number": "6.4.6.8",
   "title": "",
-  "body": "The sides are not proportional. "
+  "body": ""
 },
 {
   "id": "exercise-1843",
   "level": "2",
   "url": "sec-6-4.html#exercise-1843",
   "type": "Exercise",
-  "number": "6.4.6.10",
+  "number": "6.4.6.9",
   "title": "",
-  "body": ""
+  "body": "The sides are not proportional. "
 },
 {
   "id": "exercise-1844",
   "level": "2",
   "url": "sec-6-4.html#exercise-1844",
   "type": "Exercise",
-  "number": "6.4.6.11",
+  "number": "6.4.6.10",
   "title": "",
   "body": ""
 },
@@ -21227,7 +21254,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-4.html#exercise-1845",
   "type": "Exercise",
-  "number": "6.4.6.12",
+  "number": "6.4.6.11",
   "title": "",
   "body": ""
 },
@@ -21236,7 +21263,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-4.html#exercise-1846",
   "type": "Exercise",
-  "number": "6.4.6.13",
+  "number": "6.4.6.12",
   "title": "",
   "body": ""
 },
@@ -21245,7 +21272,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-4.html#exercise-1847",
   "type": "Exercise",
-  "number": "6.4.6.14",
+  "number": "6.4.6.13",
   "title": "",
   "body": ""
 },
@@ -21254,52 +21281,52 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-4.html#exercise-1848",
   "type": "Exercise",
-  "number": "6.4.6.15",
+  "number": "6.4.6.14",
   "title": "",
-  "body": "Two figures are similar if their sides are proportional. ... and their corresponding angles are equal. "
+  "body": ""
 },
 {
   "id": "exercise-1849",
   "level": "2",
   "url": "sec-6-4.html#exercise-1849",
   "type": "Exercise",
-  "number": "6.4.6.16",
+  "number": "6.4.6.15",
   "title": "",
-  "body": "We can create an equivalent ratio by adding the same number to both top and bottom. "
+  "body": "Two figures are similar if their sides are proportional. ... and their corresponding angles are equal. "
 },
 {
   "id": "exercise-1850",
   "level": "2",
   "url": "sec-6-4.html#exercise-1850",
   "type": "Exercise",
-  "number": "6.4.6.17",
+  "number": "6.4.6.16",
   "title": "",
-  "body": "Doubling the dimensions of a rectangle also doubles its area. Doubling the dimensions of a rectangle quadruples its area. "
+  "body": "We can create an equivalent ratio by adding the same number to both top and bottom. "
 },
 {
   "id": "exercise-1851",
   "level": "2",
   "url": "sec-6-4.html#exercise-1851",
   "type": "Exercise",
-  "number": "6.4.6.18",
+  "number": "6.4.6.17",
   "title": "",
-  "body": "To enlarge a picture, we add the same factor to each dimension. "
+  "body": "Doubling the dimensions of a rectangle also doubles its area. Doubling the dimensions of a rectangle quadruples its area. "
 },
 {
   "id": "exercise-1852",
   "level": "2",
   "url": "sec-6-4.html#exercise-1852",
   "type": "Exercise",
-  "number": "6.4.6.19",
+  "number": "6.4.6.18",
   "title": "",
-  "body": ""
+  "body": "To enlarge a picture, we add the same factor to each dimension. "
 },
 {
   "id": "exercise-1853",
   "level": "2",
   "url": "sec-6-4.html#exercise-1853",
   "type": "Exercise",
-  "number": "6.4.6.20",
+  "number": "6.4.6.19",
   "title": "",
   "body": ""
 },
@@ -21308,7 +21335,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-4.html#exercise-1854",
   "type": "Exercise",
-  "number": "6.4.6.21",
+  "number": "6.4.6.20",
   "title": "",
   "body": ""
 },
@@ -21317,7 +21344,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-4.html#exercise-1855",
   "type": "Exercise",
-  "number": "6.4.6.22",
+  "number": "6.4.6.21",
   "title": "",
   "body": ""
 },
@@ -21326,7 +21353,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-4.html#exercise-1856",
   "type": "Exercise",
-  "number": "6.4.6.23",
+  "number": "6.4.6.22",
   "title": "",
   "body": ""
 },
@@ -21335,7 +21362,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-4.html#exercise-1857",
   "type": "Exercise",
-  "number": "6.4.6.24",
+  "number": "6.4.6.23",
   "title": "",
   "body": ""
 },
@@ -21344,7 +21371,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-4.html#exercise-1858",
   "type": "Exercise",
-  "number": "6.4.6.25",
+  "number": "6.4.6.24",
   "title": "",
   "body": ""
 },
@@ -21353,7 +21380,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-4.html#exercise-1859",
   "type": "Exercise",
-  "number": "6.4.6.26",
+  "number": "6.4.6.25",
   "title": "",
   "body": ""
 },
@@ -21362,248 +21389,257 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-6-4.html#exercise-1860",
   "type": "Exercise",
-  "number": "6.4.6.27",
+  "number": "6.4.6.26",
   "title": "",
-  "body": "Which of the following statements are true?  All isosceles triangles are similar.  All equilateral triangles are similar.  All rectangles are similar.  All squares are similar.  (b) and (d) "
+  "body": ""
 },
 {
   "id": "exercise-1861",
   "level": "2",
   "url": "sec-6-4.html#exercise-1861",
   "type": "Exercise",
-  "number": "6.4.6.28",
+  "number": "6.4.6.27",
   "title": "",
-  "body": "Which of the following statements are true?  All right triangles are similar.  All isosceles right triangles are similar.  All circles are similar.  All obtuse triangles are similar.  "
+  "body": "Which of the following statements are true?  All isosceles triangles are similar.  All equilateral triangles are similar.  All rectangles are similar.  All squares are similar.  (b) and (d) "
 },
 {
   "id": "exercise-1862",
   "level": "2",
   "url": "sec-6-4.html#exercise-1862",
   "type": "Exercise",
-  "number": "6.4.6.29",
+  "number": "6.4.6.28",
   "title": "",
-  "body": "Tamisha is measuring the angles in two triangles. She finds that two of the angles in the first triangle are equal to two angles in the second triangle. She concludes that the triangles are similar. Is she correct? Explain why or why not.  Yes, The third angles must also be equal. "
+  "body": "Which of the following statements are true?  All right triangles are similar.  All isosceles right triangles are similar.  All circles are similar.  All obtuse triangles are similar.  "
 },
 {
   "id": "exercise-1863",
   "level": "2",
   "url": "sec-6-4.html#exercise-1863",
   "type": "Exercise",
-  "number": "6.4.6.30",
+  "number": "6.4.6.29",
   "title": "",
-  "body": "Hakim says that if the lengths and widths of two rectangles are proportional, then the rectangles are similar. Is he correct? Explain why or why not. "
+  "body": "Tamisha is measuring the angles in two triangles. She finds that two of the angles in the first triangle are equal to two angles in the second triangle. She concludes that the triangles are similar. Is she correct? Explain why or why not.  Yes, The third angles must also be equal. "
 },
 {
   "id": "exercise-1864",
   "level": "2",
   "url": "sec-6-4.html#exercise-1864",
   "type": "Exercise",
-  "number": "6.4.6.31",
+  "number": "6.4.6.30",
   "title": "",
-  "body": "Yes. The sides are proportional. "
+  "body": "Hakim says that if the lengths and widths of two rectangles are proportional, then the rectangles are similar. Is he correct? Explain why or why not. "
 },
 {
   "id": "exercise-1865",
   "level": "2",
   "url": "sec-6-4.html#exercise-1865",
   "type": "Exercise",
-  "number": "6.4.6.32",
+  "number": "6.4.6.31",
   "title": "",
-  "body": ""
+  "body": "Yes. The sides are proportional. "
 },
 {
   "id": "exercise-1866",
   "level": "2",
   "url": "sec-6-4.html#exercise-1866",
   "type": "Exercise",
-  "number": "6.4.6.33",
+  "number": "6.4.6.32",
   "title": "",
-  "body": "Yes, Corresponding angles are equal. "
+  "body": ""
 },
 {
   "id": "exercise-1867",
   "level": "2",
   "url": "sec-6-4.html#exercise-1867",
   "type": "Exercise",
-  "number": "6.4.6.34",
+  "number": "6.4.6.33",
   "title": "",
-  "body": ""
+  "body": "Yes, Corresponding angles are equal. "
 },
 {
   "id": "exercise-1868",
   "level": "2",
   "url": "sec-6-4.html#exercise-1868",
   "type": "Exercise",
-  "number": "6.4.6.35",
+  "number": "6.4.6.34",
   "title": "",
-  "body": "(b) and (e) "
+  "body": ""
 },
 {
   "id": "exercise-1869",
   "level": "2",
   "url": "sec-6-4.html#exercise-1869",
   "type": "Exercise",
-  "number": "6.4.6.36",
+  "number": "6.4.6.35",
   "title": "",
-  "body": ""
+  "body": "(b) and (e) "
 },
 {
   "id": "exercise-1870",
   "level": "2",
   "url": "sec-6-4.html#exercise-1870",
   "type": "Exercise",
-  "number": "6.4.6.37",
+  "number": "6.4.6.36",
   "title": "",
-  "body": "(b) and (e) "
+  "body": ""
 },
 {
   "id": "exercise-1871",
   "level": "2",
   "url": "sec-6-4.html#exercise-1871",
   "type": "Exercise",
-  "number": "6.4.6.38",
+  "number": "6.4.6.37",
   "title": "",
-  "body": ""
+  "body": "(b) and (e) "
 },
 {
   "id": "exercise-1872",
   "level": "2",
   "url": "sec-6-4.html#exercise-1872",
   "type": "Exercise",
-  "number": "6.4.6.39",
+  "number": "6.4.6.38",
   "title": "",
-  "body": "A child's cello is 75% as tall as a full-sized cello. The strings on a full-sized cello are 28 inches long from the nut to the bridge. How long are the strings on a child's cello?    21  "
+  "body": ""
 },
 {
   "id": "exercise-1873",
   "level": "2",
   "url": "sec-6-4.html#exercise-1873",
   "type": "Exercise",
-  "number": "6.4.6.40",
+  "number": "6.4.6.39",
   "title": "",
-  "body": "Celia wants her 8 by 10 inch portrait enlarged by 100% in each direction. What will be the new dimensions of the portrait? "
+  "body": "A child's cello is 75% as tall as a full-sized cello. The strings on a full-sized cello are 28 inches long from the nut to the bridge. How long are the strings on a child's cello?    21  "
 },
 {
   "id": "exercise-1874",
   "level": "2",
   "url": "sec-6-4.html#exercise-1874",
   "type": "Exercise",
-  "number": "6.4.6.41",
+  "number": "6.4.6.40",
   "title": "",
-  "body": "Barry increased the font size on his computer by 25%. Capital letters used to be 2 millimeters tall. How tall are they now?   2.5 mm  "
+  "body": "Celia wants her 8 by 10 inch portrait enlarged by 100% in each direction. What will be the new dimensions of the portrait? "
 },
 {
   "id": "exercise-1875",
   "level": "2",
   "url": "sec-6-4.html#exercise-1875",
   "type": "Exercise",
-  "number": "6.4.6.42",
+  "number": "6.4.6.41",
   "title": "",
-  "body": "The dimensions of a new model stereo speaker have been reduced by 20%. The old model speakers were 12 inches tall. How tall are the new speakers? "
+  "body": "Barry increased the font size on his computer by 25%. Capital letters used to be 2 millimeters tall. How tall are they now?   2.5 mm  "
 },
 {
   "id": "exercise-1876",
   "level": "2",
   "url": "sec-6-4.html#exercise-1876",
   "type": "Exercise",
-  "number": "6.4.6.43",
+  "number": "6.4.6.42",
   "title": "",
-  "body": "In the floor plan for a new house, a six-foot wide picture window is shown as half an inch wide. How long is a 21-foot living room on the plan?  in   "
+  "body": "The dimensions of a new model stereo speaker have been reduced by 20%. The old model speakers were 12 inches tall. How tall are the new speakers? "
 },
 {
   "id": "exercise-1877",
   "level": "2",
   "url": "sec-6-4.html#exercise-1877",
   "type": "Exercise",
-  "number": "6.4.6.44",
+  "number": "6.4.6.43",
   "title": "",
-  "body": "On a map of the county botanical garden, a lake that is 20 meters wide appears 4 centimeters wide. The rose garden is 16 meters long. How long is it on the map? "
+  "body": "In the floor plan for a new house, a six-foot wide picture window is shown as half an inch wide. How long is a 21-foot living room on the plan?  in   "
 },
 {
   "id": "exercise-1878",
   "level": "2",
   "url": "sec-6-4.html#exercise-1878",
   "type": "Exercise",
-  "number": "6.4.6.45",
+  "number": "6.4.6.44",
   "title": "",
-  "body": "On a blueprint for the new library, 1 inch 10 feet. How long are the 25-foot bookshelves on the blueprint?  2.5 in   "
+  "body": "On a map of the county botanical garden, a lake that is 20 meters wide appears 4 centimeters wide. The rose garden is 16 meters long. How long is it on the map? "
 },
 {
   "id": "exercise-1879",
   "level": "2",
   "url": "sec-6-4.html#exercise-1879",
   "type": "Exercise",
-  "number": "6.4.6.46",
+  "number": "6.4.6.45",
   "title": "",
-  "body": "Grace enlarged an 8-inch wide photograph to a 2.5-foot wide poster. If the photo was 12 inches tall, how tall is the poster? "
+  "body": "On a blueprint for the new library, 1 inch 10 feet. How long are the 25-foot bookshelves on the blueprint?  2.5 in   "
 },
 {
   "id": "exercise-1880",
   "level": "2",
   "url": "sec-6-4.html#exercise-1880",
   "type": "Exercise",
-  "number": "6.4.6.47",
+  "number": "6.4.6.46",
   "title": "",
-  "body": "On a billboard, a picture of a 6-inch submarine sandwich is 4 feet long. How tall is the picture of a 10-inch tall soda cup?  ft  8  "
+  "body": "Grace enlarged an 8-inch wide photograph to a 2.5-foot wide poster. If the photo was 12 inches tall, how tall is the poster? "
 },
 {
   "id": "exercise-1881",
   "level": "2",
   "url": "sec-6-4.html#exercise-1881",
   "type": "Exercise",
-  "number": "6.4.6.48",
+  "number": "6.4.6.47",
   "title": "",
-  "body": "George Washington was 6 feet 2 inches tall, and his nose was 3.34 inches long. The nose on his likeness at Mount Rushmore is 21 feet long. At the same scale, how tall would a full statue of George Washington be?  "
+  "body": "On a billboard, a picture of a 6-inch submarine sandwich is 4 feet long. How tall is the picture of a 10-inch tall soda cup?  ft  8  "
 },
 {
   "id": "exercise-1882",
   "level": "2",
   "url": "sec-6-4.html#exercise-1882",
   "type": "Exercise",
-  "number": "6.4.6.49",
+  "number": "6.4.6.48",
   "title": "",
-  "body": "While making the movie Titanic, the producers built a 775-foot model of the ill-fated ship. The original vessel was 882 feet, 9 inches long.    What was the scale factor used to build the model?  If the real Titanic was 175 feet tall from the keel to the top of the funnels, how tall is the model?   0.878  153.64 ft  "
+  "body": "George Washington was 6 feet 2 inches tall, and his nose was 3.34 inches long. The nose on his likeness at Mount Rushmore is 21 feet long. At the same scale, how tall would a full statue of George Washington be?  "
 },
 {
   "id": "exercise-1883",
   "level": "2",
   "url": "sec-6-4.html#exercise-1883",
   "type": "Exercise",
-  "number": "6.4.6.50",
+  "number": "6.4.6.49",
   "title": "",
-  "body": "The Straits of Mackinac between Michigan's Upper and Lower Peninsulas are 5 miles wide. Engineers studying the Mackinac bridge, the world's longest suspension bridge, build a model of the straits that is 50 feet wide.    Express the scale factor as a fraction. (There are 5280 feet in a mile.)  In their model, the suspension portion of the bridge is 7.2 feet long, and the towers are 12.5 inches above the water. What are the corresponding dimensions of the actual bridge?  "
+  "body": "While making the movie Titanic, the producers built a 775-foot model of the ill-fated ship. The original vessel was 882 feet, 9 inches long.    What was the scale factor used to build the model?  If the real Titanic was 175 feet tall from the keel to the top of the funnels, how tall is the model?   0.878  153.64 ft  "
 },
 {
   "id": "exercise-1884",
   "level": "2",
   "url": "sec-6-4.html#exercise-1884",
   "type": "Exercise",
-  "number": "6.4.6.51",
+  "number": "6.4.6.50",
   "title": "",
-  "body": "  7.5  "
+  "body": "The Straits of Mackinac between Michigan's Upper and Lower Peninsulas are 5 miles wide. Engineers studying the Mackinac bridge, the world's longest suspension bridge, build a model of the straits that is 50 feet wide.    Express the scale factor as a fraction. (There are 5280 feet in a mile.)  In their model, the suspension portion of the bridge is 7.2 feet long, and the towers are 12.5 inches above the water. What are the corresponding dimensions of the actual bridge?  "
 },
 {
   "id": "exercise-1885",
   "level": "2",
   "url": "sec-6-4.html#exercise-1885",
   "type": "Exercise",
-  "number": "6.4.6.52",
+  "number": "6.4.6.51",
   "title": "",
-  "body": ""
+  "body": "  7.5  "
 },
 {
   "id": "exercise-1886",
   "level": "2",
   "url": "sec-6-4.html#exercise-1886",
   "type": "Exercise",
-  "number": "6.4.6.53",
+  "number": "6.4.6.52",
   "title": "",
-  "body": "  15  "
+  "body": ""
 },
 {
   "id": "exercise-1887",
   "level": "2",
   "url": "sec-6-4.html#exercise-1887",
+  "type": "Exercise",
+  "number": "6.4.6.53",
+  "title": "",
+  "body": "  15  "
+},
+{
+  "id": "exercise-1888",
+  "level": "2",
+  "url": "sec-6-4.html#exercise-1888",
   "type": "Exercise",
   "number": "6.4.6.54",
   "title": "",
@@ -21637,27 +21673,27 @@ var ptx_lunr_docs = [
   "body": "Recall that the exponent 2 in tells us to multiply together 2 copies of , so . For example, "
 },
 {
-  "id": "example-168",
+  "id": "example-169",
   "level": "2",
-  "url": "sec-6-5.html#example-168",
+  "url": "sec-6-5.html#example-169",
   "type": "Example",
   "number": "6.5.2",
   "title": "",
   "body": "An architect is drawing up floor plans for a new housing development. The dining room in her plan has an area of only 120 square feet. If she can increase the dimensions of the room by a factor of 1.25, what will the new area be?  The architect would like to scale the dimensions of the dining room by . According to the Area Principle, the area of the new dining room will be , or 1.5625, times the old area. The new area will then be "
 },
 {
-  "id": "exercise-1888",
+  "id": "exercise-1889",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1888",
+  "url": "sec-6-5.html#exercise-1889",
   "type": "Checkpoint",
   "number": "6.5.3",
   "title": "",
   "body": "Alys wants to replace her old hot tub with a new circular spa. If the radius of the new spa is twice the radius of the hot tub, how much greater will the area of the spa be?  4 times greater "
 },
 {
-  "id": "p-8133",
+  "id": "p-8167",
   "level": "2",
-  "url": "sec-6-5.html#p-8133",
+  "url": "sec-6-5.html#p-8167",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -21682,220 +21718,2470 @@ var ptx_lunr_docs = [
   "body": "Recall that the exponent 3 in tells us to multiply together 3 copies of , so . For example, "
 },
 {
-  "id": "example-169",
+  "id": "example-170",
   "level": "2",
-  "url": "sec-6-5.html#example-169",
+  "url": "sec-6-5.html#example-170",
   "type": "Example",
   "number": "6.5.5",
   "title": "",
   "body": "In Gulliver's Travels, the Lilliputians are tiny people about six inches tall. How would the volume of a Lilliputian compare to the volume of a human who is six feet tall?  The scale factor of the dimensions is the ratio of the Lilliputian's height to the human's height: Thus, the volume is scaled by The volume of a Lilliputian would be of the volume of a 6-foot tall human. (The weight of a Lilliputian would also be of the weight of a human. A 6-foot tall man weighs about 180 pounds, so a Lilliputian would weigh pounds, or ounces.) "
 },
 {
-  "id": "exercise-1889",
+  "id": "exercise-1890",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1889",
+  "url": "sec-6-5.html#exercise-1890",
   "type": "Checkpoint",
   "number": "6.5.6",
   "title": "",
   "body": "The radius of Jupiter is about 10.7 times the radius of the Earth. How does the volume of Jupiter compare to the volume of the Earth? About 1225 times the volume of the Earth. "
 },
 {
-  "id": "exercise-1890",
+  "id": "exercise-1891",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1890",
+  "url": "sec-6-5.html#exercise-1891",
   "type": "Exercise",
   "number": "6.5.3.1",
   "title": "",
   "body": " On the grid below, enlarge the triangle by doubling the lengths of the horizontal and vertical sides. What is the scale factor?  How many triangles of the original size fit inside the enlarged triangle? Draw them in.  Now draw an even bigger triangle by tripling the lengths of the horizontal and vertical sides of the original triangle. What is the scale factor?  How many triangles of the original size fit inside this even bigger triangle? Draw them in.  What is the area of the original triangle? What is the area of the enlarged triangle you drew in part (a)? What is the area of the even bigger triangle you drew in part (c)?    2  4  3  9  6 sq cm, 24 sq cm, 54 sq cm  "
 },
 {
-  "id": "exercise-1891",
+  "id": "exercise-1892",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1891",
+  "url": "sec-6-5.html#exercise-1892",
   "type": "Exercise",
   "number": "6.5.3.2",
   "title": "",
   "body": " On the grid below, enlarge the parallelogram by doubling the lengths of the horizontal and vertical sides. What is the scale factor?  How many parallelograms of the original size fit inside the enlarged parallelogram? Draw them in.  Now draw an even bigger parallelogram by tripling the lengths of the horizontal and vertical sides of the original parallelogram. What is the scale factor?  How many parallelograms of the original size fit inside this even bigger parallelogram? Draw them in.  What is the area of the original parallelogram? What is the area of the enlarged parallelogram you drew in part (a)? What is the area of the even bigger parallelogram you drew in part (c)?   "
 },
 {
-  "id": "exercise-1892",
+  "id": "exercise-1893",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1892",
+  "url": "sec-6-5.html#exercise-1893",
   "type": "Exercise",
   "number": "6.5.3.3",
   "title": "",
   "body": "Record the dimensions of the rectangle, its perimeter and its area in the table below. Complete the table for parts (a) through (c).  Enlarge the dimensions of the rectangle by 50%.  Enlarge the dimensions of the original rectangle by 100%.  Enlarge the dimensions of the original rectangle by 25%.       Base  Height  Perimeter  Area   Original Rectangle       Enlarged by 50%       Enlarged by 100%       Enlarged by 25%         Base  Height  Perimeter  Area   Original Rectangle  4  8  24  32   Enlarged by 50%  6  12  36  72   Enlarged by 100%  8  16  46  128   Enlarged by 25%  5  10  30  50  "
 },
 {
-  "id": "exercise-1893",
+  "id": "exercise-1894",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1893",
+  "url": "sec-6-5.html#exercise-1894",
   "type": "Exercise",
   "number": "6.5.3.4",
   "title": "",
   "body": "Record the dimensions of the rectangle, its perimeter and its area in the table below. Complete the table for parts (a) through (c).  Reduce the dimensions of the rectangle by 50%.  Reduce the dimensions of the original rectangle by 100%. (Careful: the dimensions of the new rectangle will be 75% of their original size!)  Reduce the dimensions of the original rectangle by 25%.       Base  Height  Perimeter  Area   Original Rectangle       Reduced by 50%       Reduced by 250%       Reduced by 75%      "
 },
 {
-  "id": "exercise-1894",
+  "id": "exercise-1895",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1894",
+  "url": "sec-6-5.html#exercise-1895",
   "type": "Exercise",
   "number": "6.5.3.5",
   "title": "",
   "body": "Elina has a 3-inch by 5-inch photograph of her cat, Sinbad. She wants to enlarge the photo by a factor of 1.5 in each dimension.  By what factor will the area of the photo increase?  What will be the area of the enlarged photograph?   2.25  33.75 sq in  "
 },
 {
-  "id": "exercise-1895",
+  "id": "exercise-1896",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1895",
+  "url": "sec-6-5.html#exercise-1896",
   "type": "Exercise",
   "number": "6.5.3.6",
   "title": "",
   "body": "For their publicity campaign, the Magazine Sweepstakes staff is making a poster-size version of a check for ten million dollars. A normal check is inches wide by 6 inches long, and the poster size version will be 12 times as big in both dimensions.  By what factor will the area increase?  What will be the area of the poster-size check?  "
 },
 {
-  "id": "exercise-1896",
+  "id": "exercise-1897",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1896",
+  "url": "sec-6-5.html#exercise-1897",
   "type": "Exercise",
   "number": "6.5.3.7",
   "title": "",
   "body": "Emily made a scale model of her sailboat. Each dimension of her model is one-tenth that of the real sailboat. If the real sail has an area of 75 square feet, what is the area of the model's sail? 0.75 sq ft "
 },
 {
-  "id": "exercise-1897",
+  "id": "exercise-1898",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1897",
+  "url": "sec-6-5.html#exercise-1898",
   "type": "Exercise",
   "number": "6.5.3.8",
   "title": "",
   "body": "Nora wants to make a copy of a mural covering an area of 10 square meters. She doesn't have a wall large enough for a full-size copy, so her version will be only one half the size in each dimension. What will be the area of the copy? "
 },
 {
-  "id": "exercise-1898",
+  "id": "exercise-1899",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1898",
+  "url": "sec-6-5.html#exercise-1899",
   "type": "Exercise",
   "number": "6.5.3.9",
   "title": "",
   "body": "Here is a box.   If we double all the dimensions of the box, how will its surface area change?  How will its volume change?    4 times as large  8 times as large  "
 },
 {
-  "id": "exercise-1899",
+  "id": "exercise-1900",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1899",
+  "url": "sec-6-5.html#exercise-1900",
   "type": "Exercise",
   "number": "6.5.3.10",
   "title": "",
   "body": "Here is a cube.   If we cut all the dimensions of the cube in half, how will its surface area change?  How will its volume change?  "
 },
 {
-  "id": "exercise-1900",
+  "id": "exercise-1901",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1900",
+  "url": "sec-6-5.html#exercise-1901",
   "type": "Exercise",
   "number": "6.5.3.11",
   "title": "",
   "body": "(a) and (e) "
 },
 {
-  "id": "exercise-1901",
+  "id": "exercise-1902",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1901",
+  "url": "sec-6-5.html#exercise-1902",
   "type": "Exercise",
   "number": "6.5.3.12",
   "title": "",
   "body": ""
 },
 {
-  "id": "exercise-1902",
+  "id": "exercise-1903",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1902",
+  "url": "sec-6-5.html#exercise-1903",
   "type": "Exercise",
   "number": "6.5.3.13",
   "title": "",
   "body": "A four-inch tall bottle holds 100 cubic centimeters of medicine. How much medicine does a six-inch tall bottle with a similar shape hold? 337.5 cu m "
 },
 {
-  "id": "exercise-1903",
+  "id": "exercise-1904",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1903",
+  "url": "sec-6-5.html#exercise-1904",
   "type": "Exercise",
   "number": "6.5.3.14",
   "title": "",
   "body": "Angel wants to guess the number of jelly beans in a jar that is 45 cm tall. He finds a jar of similar shape that is 15 cm tall and fills it with jelly beans. It holds 280 jelly beans. What should Angel guess for the number of jelly beams in the taller jar? "
 },
 {
-  "id": "exercise-1904",
+  "id": "exercise-1905",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1904",
+  "url": "sec-6-5.html#exercise-1905",
   "type": "Exercise",
   "number": "6.5.3.15",
   "title": "",
   "body": "An orange of diameter 8 centimeters has a peel of about 200 square centimeters. How much peel would you expect an orange of diameter 10 centimeters to have? 156.25 sq cm "
 },
 {
-  "id": "exercise-1905",
+  "id": "exercise-1906",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1905",
+  "url": "sec-6-5.html#exercise-1906",
   "type": "Exercise",
   "number": "6.5.3.16",
   "title": "",
   "body": "The Dome of the Rock is a shrine located in Jerusalem, and is the oldest surviving Islamic building. The dome itself has a diameter of about 20 meters, and is roofed with lead covered in gold. A model of the dome is 0.5 meters in diameter and required 15.7 square meters of gold leaf. How much gold leaf would be needed to cover the actual Dome? "
 },
 {
-  "id": "exercise-1906",
+  "id": "exercise-1907",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1906",
+  "url": "sec-6-5.html#exercise-1907",
   "type": "Exercise",
   "number": "6.5.3.17",
   "title": "",
   "body": "If a 6-foot tall, 180-pound human being were scaled up to a height of 60 feet, what would the giant's weight be? 180,000 lb "
 },
 {
-  "id": "exercise-1907",
+  "id": "exercise-1908",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1907",
+  "url": "sec-6-5.html#exercise-1908",
   "type": "Exercise",
   "number": "6.5.3.18",
   "title": "",
   "body": "A typical boll weevil is 1 centimeter long and weighs 0.0003 grams. If gamma rays produced a mutant boll weevil 5 meters long, how much would it weigh? "
 },
 {
-  "id": "exercise-1908",
+  "id": "exercise-1909",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1908",
+  "url": "sec-6-5.html#exercise-1909",
   "type": "Exercise",
   "number": "6.5.3.19",
   "title": "",
   "body": "The military museum wants to make a scale-model replica of the B2 Bomber. The scale is 1 to 50. The real B2 bomber has a wingspan of 172 feet and weighs 158,100 pounds.  What is the wing-span of the model?  How much will the model weigh?   3.44 ft  1.2648 lb  "
 },
 {
-  "id": "exercise-1909",
+  "id": "exercise-1910",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1909",
+  "url": "sec-6-5.html#exercise-1910",
   "type": "Exercise",
   "number": "6.5.3.20",
   "title": "",
   "body": "Bistro Paris is making a four-foot tall model of the Eiffel Tower. The original Eiffel Tower is 984 feet tall and weighs 7300 tons.  What is the scale factor?  How much will the model weigh? (There are 2000 pounds in one ton.)  "
 },
 {
-  "id": "exercise-1910",
+  "id": "exercise-1911",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1910",
+  "url": "sec-6-5.html#exercise-1911",
   "type": "Exercise",
   "number": "6.5.3.21",
   "title": "",
   "body": "Solve the problem about pizzas that opened this Lesson: Which is the better deal: $15 for three 8-inch pizzas or $15 for one 16-inch pizza? one 16-inch pizza "
 },
 {
-  "id": "exercise-1911",
+  "id": "exercise-1912",
   "level": "2",
-  "url": "sec-6-5.html#exercise-1911",
+  "url": "sec-6-5.html#exercise-1912",
   "type": "Exercise",
   "number": "6.5.3.22",
   "title": "",
   "body": "At the Chicken Coop, each dimension of the super-bucket of fried chicken is 1.5 times the corresponding dimension of the mini-bucket. Which is the better deal: $24 for three mini-buckets of fried chicken, or $24 for one super-bucket? "
+},
+{
+  "id": "sec-7-1",
+  "level": "1",
+  "url": "sec-7-1.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "Adding Signed Numbers",
+  "body": " Adding Signed Numbers   Adding Two Numbers with the Same Sign  Adding Two Numbers with Opposite Signs  Rules for Addition  Net Change    In Section 4.3 we looked at some of the uses of negative numbers. Some easy examples are temperature and elevation. Negative numbers are used extensively in finance and the sciences, where it is important to perform calculations with both positive and negative numbers. If you like, you can review number lines and the definition of integers in Section 4.3.  Adding Two Numbers with the Same Sign  We'll use number lines to help us add signed numbers. You already know how to add two positive numbers; let's see how that looks on a number line.  Use a number line to illustrate the sum  Plot the first number, , as shown on the number line below. From that point, move 3 units in the positive direction , or to the right. This brings us to , so .  Illustrate the sum on the number line.   What about the sum of two negative numbers? For example, what is We'll use ideas about money to illustrate negative numbers.  Think of negative numbers as representing debts. It makes sense that the sum of two negative numbers is another negative number: if you owe $5 to one person and $3 to another person, then you are $8 in debt.  Use a number line to illustrate the sum  Plot the first number, , as shown on the number line below. From that point, move 3 units in the negative direction , or to the left. This brings us to , so .  Illustrate the sum on the number line.   From the examples above, we see that:  Adding Two Numbers with the Same Sign   The sum of two positive numbers is positive.  The sum of two negative numbers is negative.    Adding Two Numbers with Opposite Signs  Now suppose you have $6, but you owe someone $8. Your financial status is described by Your debts are greater than your assets, so you are $2 in debt.  Use a number line to illustrate the sum  Plot the first number, , as shown on the number line below. From that point, move 8 units in the negative direction , or to the left. This brings us to , so .  Illustrate the sum on the number line.   So if your debts are greater than your assets, you end up in debt. What if your assets are greater than your debts? In that case, your net worth is positive. Suppose you have $10, but you owe someone $6. We can represent this situation by the sum Once you pay off your debt, you still have $4 left.  Use a number line to illustrate the sum  Plot the first number, , as shown on the number line below. From that point, move 6 units in the negative direction , or to the left. This brings us to , so .  Do you notice that adding a negative number has the same effect as subtracting a positive number? Hold that thought; we'll see more about it shortly.  Illustrate the sum on the number line.    From the examples above, we see that the sum of a positive number and a negative number can be either positive or negative. It depends on which is \"bigger,\" (farther from zero), the positive number or the negative number.  If the positive number is farther from zero, the sum will be positive.  If the negative number is farther from zero, the sum will be negative.   In other words, if your assets outweigh your debts, your net worth is positive. If your debts outweigh your assets, your net worth is negative.  So now we know the sign of the answer when we add two numbers of opposite signs, but how do we find its actual value? Look again at the examples above. Forget about the signs for a moment. If we subtract the two numbers, we find out by how much the \"bigger\" number outweighs the smaller one. Then we use the appropriate sign, positive or negative, for the answer.  This makes sense if we consider another example about money. Suppose you earn $20, but you have a debt of $15. Your financial status is given by You need $15 of your earnings to pay off the debt, so we subtract $15 from $20. The remainder, $5, is your net worth.  Number lines give us a visual representation of signed numbers, but some people prefer a more concrete model. In the next Activity we offer a different way to think about adding signed numbers.  Adding Two Numbers with Opposite Signs  For this Activity you will need some counters, such as chips or blocks, in two different colors. One color represents positive numbers, and the other color represents negative numbers. You can choose which is which.  Positive numbers are  Negative numbers are  We'll place counters on the table to represent sums of signed numbers.    Let's start with zero sums . Suppose you have $5 in your wallet, and you spend $5 on coffee and a cookie. What is your financial status now? When we add two numbers that are opposites, we get zero. We represent the zero sum with counters like this: Because the sum is zero, we can remove them from the table. An empty table represents the number 0.  Now we'll consider a sum of two numbers with opposite signs. Represent by placing 7 positive counters and 3 negative counters on the table. You can remove the zero sum from the table. What do you have left?  You have just shown that . But here's the important part: You started with more positive counters than negative counters. You took away or subtracted 3 of the 7 positive counters to make a zero sum, and you were left with 4 positive counters.  Use your counters to find the following sums of signed numbers.        For each sum in part 3, were there more positive blocks or more negative blocks?  For each sum in part 3, was the answer positive or negative?   For each sum in part 3, how many zero pairs did you remove?       Use your counters to find the following sums of signed numbers.        For each sum in part 6, were there more positive blocks or more negative blocks?  For each sum in part 6, was the answer positive or negative?   For each sum in part 6, how many zero pairs did you remove?       Look back at your answers to Exercise 3 and Exercise 6. Do you see a way to find the sums without using counters?  How can you predict whether the sum will be positive or negative?  Now ignore the signs of the two numbers being added. To get the answers would you add those two numbers or subtract them?  Can you explain your answer to part (b) in terms of zero sums?   Explain to a classmate how to add two numbers with opposite signs.    Which model for adding signed numbers was more helpful for you, number lines or counters? Do you find that you can visualize addition without a physical model?   Rules for Addition  We summarize below what we have learned about addition.  Rules for Addition of Signed Numbers   To add two numbers with the same sign:  Add the unsigned parts of the numbers.  Use the same sign for the sum.   To add two numbers with opposite signs:  Subtract the unsigned parts of the numbers.  If the positive number is farther from zero, the sum is positive. If the negative number is farther from zero, the sum is negative.    Use the Rules for Addition to find the following sums.       Because and have the same sign, we add their unsigned parts to get We use the same sign, , for the answer. Thus,  Because and have opposite signs, we subtract their unsigned parts to get The negative number is farther from zero, so the answer is negative. Thus,  Because and have opposite signs, we subtract their unsigned parts to get The positive number is farther from zero, so the answer is positive.   Here is an informal strategy for adding signed numbers:  Step 1 Do the two numbers have the same sign or opposite signs?  Step 2a (Same sign) Great: add 'em up and keep the same sign.  Step 2b (Opposite signs) Which number is \"bigger\" (farther from zero)? That number wins -- use the sign of that number. Subtract to see how much bigger.  Use the Rules for Addition to find the following sums.          We have been using parentheses to enclose the signed numbers in a sum. The parentheses help us decide which way the symbols and are used:  to indicate a positive or negative number, or  to show addition or subtraction.   Also, it can be confusing to have two plus or minus symbols in a row.  However, we can often leave out the parentheses if it is easy to interpret the expression. For instance, the three sums in Exercise 6 can be written as follows.      In the next lesson, we'll see how to simplify sums even further.   Net Change  Usually we denote gains by positive numbers and losses by negative numbers. We can find the net change in a quantity by adding those gains and losses.  Seymour's stock gained 3 points on Tuesday, but lost 7 points on Wednesday. What was the net change in the stock since Tuesday?  We use to denote a 3-point gain and to denote a 7-point loss in the price of the stock. Then The net change in Seymour's stock was a 4-point loss.  When the ballots in a disputed district were recounted, Senator Dubya lost 58 votes, but he gained 42 votes when the absentee ballots were tallied.  Write a sum of signed numbers to express the net change in the number of votes for Senator Dubya.  What was the net change in votes for Senator Dubya?    A loss of 16 votes     Practice 7-1  For Problems 1-10, use number lines to illustrate the sums.                       Is the sum of two negative numbers positive or negative? When you are adding signed numbers, do \"two negatives make a positive\"? Negative. No.  How can you predict whether the sum of two signed numbers will be positive or negative?  Use assets and debts to explain why you should subtract the unsigned parts of the numbers when you add two numbers with opposite signs. Part of your asset cancels your debt, or vice versa; what's left is their sum.  Make up an example about money that shows how to add two negative numbers.  For Problems 15-16, without calculating, say whether the sum will be positive or negative.       positive  negative  negative         For each sum in Problem 15, describe how you would illustrate the calculation with colored counters:  How many counters of each color would you put on the table?  How many counters of each color would you remove?  How many counters of each color would be left?   8 yellow, 6 red; 6; 2 yellow  8 red, 6 red; 0; 14 red  8 red, 6 yellow; 6; 2 red   Repeat Problem 17 for the sums in Problem 16.  For Problems 19-28,  Rewrite each sum with as few parentheses as possible.  Use the Rules for Addition to compute the sums.              Use the Rules for Addition to compute the sums in Problems 29-40.               Use a calculator to compute the sums in Problems 41-50.             Use an example about money to explain why the sum of two opposites is always zero. If your debts and assets are equal, your net worth is $0.   What number can you add to to produce a sum of 0?  What number can you add to to produce a sum of 0?   For Problems 53-58,  Write a sum of signed numbers to describe the problem.  Compute the sum and answer the question in the problem.   Yariv lost 27 pounds on his diet, but then gained back 6 pounds over the holidays. What is the net change in Yariv's weight?   The net change is pounds.   The Spartans gained 16 yards on their first down, but then lost 7 yards on their next play. What was their net change in position?  The Mountaineering Club hiked up 1200 feet to the top of a ridge, and then descended into a valley 1400 feet below the summit of the ridge. What was their net change in elevation?   The net change is feet.   Bruno is trying to bake potatoes. He increased the oven's temperature by 125° when he grew impatient, but then decreased the temperature by 75° when the skins started to burn. What was the net change in the oven temperature?  he captain of Flight 386 descended 5000 feet to avoid turbulence in the upper atmosphere, and then descended another 1800 feet on the approach to a small airport. What was the plane's net change in altitude?   The net change is feet.   The temperature is expected to drop 15° by this afternoon, and then drop another 18° overnight. What will be the net temperature change by tomorrow morning?   The bar graph shows the quarterly profits earned by Orinoco.com in one year. (A negative \"profit\" is a loss.)    What are the profits for the four quarters shown?  What was Orinoco.com's total annual profit for that year?   $1.3 million, -$0.8 million, -$0.2 million, $2.1 million  $2.4 million   The bar graph shows how much Kayla won in each of the six games of poker she played.    Write Kayla's poker record as a sum of signed numbers.  What was the financial outcome of Kayla's poker session?   The bar graph shows the water level in the reservoir, relative to its normal depth of 34 feet. For example, in January, when the level was 3 feet above normal, the water depth was feet.    Using values from the bar graph, fill in the table.     Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct  Nov  Dec   Relative water level               Water depth               Use the grid below to make a bar graph showing the actual depth of the water in the reservoir.       Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct  Nov  Dec   Relative water level               Water depth                 The bar graph shows the annual rainfall in Los Angeles, relative to the average value of 15 inches over the previous century. For example, in 1987 rainfall was 6 inches below normal, or inches.    Using values from the bar graph, fill in the table.     '87  '88  '89  '90  '91  '92  '93  '94  '95  '96   Deviation from average             Annual rainfall (in)             Use the grid below to make a bar graph showing the annual rainfall in Los Angeles over the decade from 1987 to 1996.     "
+},
+{
+  "id": "p-8314",
+  "level": "2",
+  "url": "sec-7-1.html#p-8314",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "integers "
+},
+{
+  "id": "example-171",
+  "level": "2",
+  "url": "sec-7-1.html#example-171",
+  "type": "Example",
+  "number": "7.1.1",
+  "title": "",
+  "body": "Use a number line to illustrate the sum  Plot the first number, , as shown on the number line below. From that point, move 3 units in the positive direction , or to the right. This brings us to , so . "
+},
+{
+  "id": "exercise-1913",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1913",
+  "type": "Checkpoint",
+  "number": "7.1.2",
+  "title": "",
+  "body": "Illustrate the sum on the number line.  "
+},
+{
+  "id": "example-172",
+  "level": "2",
+  "url": "sec-7-1.html#example-172",
+  "type": "Example",
+  "number": "7.1.3",
+  "title": "",
+  "body": "Use a number line to illustrate the sum  Plot the first number, , as shown on the number line below. From that point, move 3 units in the negative direction , or to the left. This brings us to , so . "
+},
+{
+  "id": "exercise-1914",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1914",
+  "type": "Checkpoint",
+  "number": "7.1.4",
+  "title": "",
+  "body": "Illustrate the sum on the number line.  "
+},
+{
+  "id": "example-173",
+  "level": "2",
+  "url": "sec-7-1.html#example-173",
+  "type": "Example",
+  "number": "7.1.5",
+  "title": "",
+  "body": "Use a number line to illustrate the sum  Plot the first number, , as shown on the number line below. From that point, move 8 units in the negative direction , or to the left. This brings us to , so . "
+},
+{
+  "id": "exercise-1915",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1915",
+  "type": "Checkpoint",
+  "number": "7.1.6",
+  "title": "",
+  "body": "Illustrate the sum on the number line.  "
+},
+{
+  "id": "example-174",
+  "level": "2",
+  "url": "sec-7-1.html#example-174",
+  "type": "Example",
+  "number": "7.1.7",
+  "title": "",
+  "body": "Use a number line to illustrate the sum  Plot the first number, , as shown on the number line below. From that point, move 6 units in the negative direction , or to the left. This brings us to , so . "
+},
+{
+  "id": "note-100",
+  "level": "2",
+  "url": "sec-7-1.html#note-100",
+  "type": "Note",
+  "number": "7.1.8",
+  "title": "",
+  "body": "Do you notice that adding a negative number has the same effect as subtracting a positive number? Hold that thought; we'll see more about it shortly. "
+},
+{
+  "id": "exercise-1916",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1916",
+  "type": "Checkpoint",
+  "number": "7.1.9",
+  "title": "",
+  "body": "Illustrate the sum on the number line.  "
+},
+{
+  "id": "activity-73",
+  "level": "2",
+  "url": "sec-7-1.html#activity-73",
+  "type": "Activity",
+  "number": "7.1.1",
+  "title": "Adding Two Numbers with Opposite Signs.",
+  "body": "Adding Two Numbers with Opposite Signs  For this Activity you will need some counters, such as chips or blocks, in two different colors. One color represents positive numbers, and the other color represents negative numbers. You can choose which is which.  Positive numbers are  Negative numbers are  We'll place counters on the table to represent sums of signed numbers.    Let's start with zero sums . Suppose you have $5 in your wallet, and you spend $5 on coffee and a cookie. What is your financial status now? When we add two numbers that are opposites, we get zero. We represent the zero sum with counters like this: Because the sum is zero, we can remove them from the table. An empty table represents the number 0.  Now we'll consider a sum of two numbers with opposite signs. Represent by placing 7 positive counters and 3 negative counters on the table. You can remove the zero sum from the table. What do you have left?  You have just shown that . But here's the important part: You started with more positive counters than negative counters. You took away or subtracted 3 of the 7 positive counters to make a zero sum, and you were left with 4 positive counters.  Use your counters to find the following sums of signed numbers.        For each sum in part 3, were there more positive blocks or more negative blocks?  For each sum in part 3, was the answer positive or negative?   For each sum in part 3, how many zero pairs did you remove?       Use your counters to find the following sums of signed numbers.        For each sum in part 6, were there more positive blocks or more negative blocks?  For each sum in part 6, was the answer positive or negative?   For each sum in part 6, how many zero pairs did you remove?       Look back at your answers to Exercise 3 and Exercise 6. Do you see a way to find the sums without using counters?  How can you predict whether the sum will be positive or negative?  Now ignore the signs of the two numbers being added. To get the answers would you add those two numbers or subtract them?  Can you explain your answer to part (b) in terms of zero sums?   Explain to a classmate how to add two numbers with opposite signs.   "
+},
+{
+  "id": "example-175",
+  "level": "2",
+  "url": "sec-7-1.html#example-175",
+  "type": "Example",
+  "number": "7.1.10",
+  "title": "",
+  "body": "Use the Rules for Addition to find the following sums.       Because and have the same sign, we add their unsigned parts to get We use the same sign, , for the answer. Thus,  Because and have opposite signs, we subtract their unsigned parts to get The negative number is farther from zero, so the answer is negative. Thus,  Because and have opposite signs, we subtract their unsigned parts to get The positive number is farther from zero, so the answer is positive.  "
+},
+{
+  "id": "note-101",
+  "level": "2",
+  "url": "sec-7-1.html#note-101",
+  "type": "Note",
+  "number": "7.1.11",
+  "title": "",
+  "body": "Here is an informal strategy for adding signed numbers:  Step 1 Do the two numbers have the same sign or opposite signs?  Step 2a (Same sign) Great: add 'em up and keep the same sign.  Step 2b (Opposite signs) Which number is \"bigger\" (farther from zero)? That number wins -- use the sign of that number. Subtract to see how much bigger. "
+},
+{
+  "id": "exercise-1917",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1917",
+  "type": "Checkpoint",
+  "number": "7.1.12",
+  "title": "",
+  "body": "Use the Rules for Addition to find the following sums.         "
+},
+{
+  "id": "note-102",
+  "level": "2",
+  "url": "sec-7-1.html#note-102",
+  "type": "Note",
+  "number": "7.1.13",
+  "title": "",
+  "body": "We have been using parentheses to enclose the signed numbers in a sum. The parentheses help us decide which way the symbols and are used:  to indicate a positive or negative number, or  to show addition or subtraction.   Also, it can be confusing to have two plus or minus symbols in a row.  However, we can often leave out the parentheses if it is easy to interpret the expression. For instance, the three sums in Exercise 6 can be written as follows.      In the next lesson, we'll see how to simplify sums even further. "
+},
+{
+  "id": "p-8422",
+  "level": "2",
+  "url": "sec-7-1.html#p-8422",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "net change "
+},
+{
+  "id": "example-176",
+  "level": "2",
+  "url": "sec-7-1.html#example-176",
+  "type": "Example",
+  "number": "7.1.14",
+  "title": "",
+  "body": "Seymour's stock gained 3 points on Tuesday, but lost 7 points on Wednesday. What was the net change in the stock since Tuesday?  We use to denote a 3-point gain and to denote a 7-point loss in the price of the stock. Then The net change in Seymour's stock was a 4-point loss. "
+},
+{
+  "id": "exercise-1918",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1918",
+  "type": "Checkpoint",
+  "number": "7.1.15",
+  "title": "",
+  "body": "When the ballots in a disputed district were recounted, Senator Dubya lost 58 votes, but he gained 42 votes when the absentee ballots were tallied.  Write a sum of signed numbers to express the net change in the number of votes for Senator Dubya.  What was the net change in votes for Senator Dubya?    A loss of 16 votes  "
+},
+{
+  "id": "exercise-1919",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1919",
+  "type": "Exercise",
+  "number": "7.1.5.1",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1920",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1920",
+  "type": "Exercise",
+  "number": "7.1.5.2",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1921",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1921",
+  "type": "Exercise",
+  "number": "7.1.5.3",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1922",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1922",
+  "type": "Exercise",
+  "number": "7.1.5.4",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1923",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1923",
+  "type": "Exercise",
+  "number": "7.1.5.5",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1924",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1924",
+  "type": "Exercise",
+  "number": "7.1.5.6",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1925",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1925",
+  "type": "Exercise",
+  "number": "7.1.5.7",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1926",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1926",
+  "type": "Exercise",
+  "number": "7.1.5.8",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1927",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1927",
+  "type": "Exercise",
+  "number": "7.1.5.9",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1928",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1928",
+  "type": "Exercise",
+  "number": "7.1.5.10",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1929",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1929",
+  "type": "Exercise",
+  "number": "7.1.5.11",
+  "title": "",
+  "body": "Is the sum of two negative numbers positive or negative? When you are adding signed numbers, do \"two negatives make a positive\"? Negative. No. "
+},
+{
+  "id": "exercise-1930",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1930",
+  "type": "Exercise",
+  "number": "7.1.5.12",
+  "title": "",
+  "body": "How can you predict whether the sum of two signed numbers will be positive or negative? "
+},
+{
+  "id": "exercise-1931",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1931",
+  "type": "Exercise",
+  "number": "7.1.5.13",
+  "title": "",
+  "body": "Use assets and debts to explain why you should subtract the unsigned parts of the numbers when you add two numbers with opposite signs. Part of your asset cancels your debt, or vice versa; what's left is their sum. "
+},
+{
+  "id": "exercise-1932",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1932",
+  "type": "Exercise",
+  "number": "7.1.5.14",
+  "title": "",
+  "body": "Make up an example about money that shows how to add two negative numbers. "
+},
+{
+  "id": "exercise-1933",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1933",
+  "type": "Exercise",
+  "number": "7.1.5.15",
+  "title": "",
+  "body": "     positive  negative  negative  "
+},
+{
+  "id": "exercise-1934",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1934",
+  "type": "Exercise",
+  "number": "7.1.5.16",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "exercise-1935",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1935",
+  "type": "Exercise",
+  "number": "7.1.5.17",
+  "title": "",
+  "body": "For each sum in Problem 15, describe how you would illustrate the calculation with colored counters:  How many counters of each color would you put on the table?  How many counters of each color would you remove?  How many counters of each color would be left?   8 yellow, 6 red; 6; 2 yellow  8 red, 6 red; 0; 14 red  8 red, 6 yellow; 6; 2 red  "
+},
+{
+  "id": "exercise-1936",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1936",
+  "type": "Exercise",
+  "number": "7.1.5.18",
+  "title": "",
+  "body": "Repeat Problem 17 for the sums in Problem 16. "
+},
+{
+  "id": "exercise-1937",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1937",
+  "type": "Exercise",
+  "number": "7.1.5.19",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1938",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1938",
+  "type": "Exercise",
+  "number": "7.1.5.20",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1939",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1939",
+  "type": "Exercise",
+  "number": "7.1.5.21",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1940",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1940",
+  "type": "Exercise",
+  "number": "7.1.5.22",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1941",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1941",
+  "type": "Exercise",
+  "number": "7.1.5.23",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1942",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1942",
+  "type": "Exercise",
+  "number": "7.1.5.24",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1943",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1943",
+  "type": "Exercise",
+  "number": "7.1.5.25",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1944",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1944",
+  "type": "Exercise",
+  "number": "7.1.5.26",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1945",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1945",
+  "type": "Exercise",
+  "number": "7.1.5.27",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1946",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1946",
+  "type": "Exercise",
+  "number": "7.1.5.28",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1947",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1947",
+  "type": "Exercise",
+  "number": "7.1.5.29",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1948",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1948",
+  "type": "Exercise",
+  "number": "7.1.5.30",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1949",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1949",
+  "type": "Exercise",
+  "number": "7.1.5.31",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1950",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1950",
+  "type": "Exercise",
+  "number": "7.1.5.32",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1951",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1951",
+  "type": "Exercise",
+  "number": "7.1.5.33",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1952",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1952",
+  "type": "Exercise",
+  "number": "7.1.5.34",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1953",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1953",
+  "type": "Exercise",
+  "number": "7.1.5.35",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1954",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1954",
+  "type": "Exercise",
+  "number": "7.1.5.36",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1955",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1955",
+  "type": "Exercise",
+  "number": "7.1.5.37",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1956",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1956",
+  "type": "Exercise",
+  "number": "7.1.5.38",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1957",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1957",
+  "type": "Exercise",
+  "number": "7.1.5.39",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1958",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1958",
+  "type": "Exercise",
+  "number": "7.1.5.40",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1959",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1959",
+  "type": "Exercise",
+  "number": "7.1.5.41",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1960",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1960",
+  "type": "Exercise",
+  "number": "7.1.5.42",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1961",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1961",
+  "type": "Exercise",
+  "number": "7.1.5.43",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1962",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1962",
+  "type": "Exercise",
+  "number": "7.1.5.44",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1963",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1963",
+  "type": "Exercise",
+  "number": "7.1.5.45",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1964",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1964",
+  "type": "Exercise",
+  "number": "7.1.5.46",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1965",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1965",
+  "type": "Exercise",
+  "number": "7.1.5.47",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1966",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1966",
+  "type": "Exercise",
+  "number": "7.1.5.48",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1967",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1967",
+  "type": "Exercise",
+  "number": "7.1.5.49",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1968",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1968",
+  "type": "Exercise",
+  "number": "7.1.5.50",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1969",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1969",
+  "type": "Exercise",
+  "number": "7.1.5.51",
+  "title": "",
+  "body": "Use an example about money to explain why the sum of two opposites is always zero. If your debts and assets are equal, your net worth is $0. "
+},
+{
+  "id": "exercise-1970",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1970",
+  "type": "Exercise",
+  "number": "7.1.5.52",
+  "title": "",
+  "body": " What number can you add to to produce a sum of 0?  What number can you add to to produce a sum of 0?  "
+},
+{
+  "id": "exercise-1971",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1971",
+  "type": "Exercise",
+  "number": "7.1.5.53",
+  "title": "",
+  "body": "Yariv lost 27 pounds on his diet, but then gained back 6 pounds over the holidays. What is the net change in Yariv's weight?   The net change is pounds.  "
+},
+{
+  "id": "exercise-1972",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1972",
+  "type": "Exercise",
+  "number": "7.1.5.54",
+  "title": "",
+  "body": "The Spartans gained 16 yards on their first down, but then lost 7 yards on their next play. What was their net change in position? "
+},
+{
+  "id": "exercise-1973",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1973",
+  "type": "Exercise",
+  "number": "7.1.5.55",
+  "title": "",
+  "body": "The Mountaineering Club hiked up 1200 feet to the top of a ridge, and then descended into a valley 1400 feet below the summit of the ridge. What was their net change in elevation?   The net change is feet.  "
+},
+{
+  "id": "exercise-1974",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1974",
+  "type": "Exercise",
+  "number": "7.1.5.56",
+  "title": "",
+  "body": "Bruno is trying to bake potatoes. He increased the oven's temperature by 125° when he grew impatient, but then decreased the temperature by 75° when the skins started to burn. What was the net change in the oven temperature? "
+},
+{
+  "id": "exercise-1975",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1975",
+  "type": "Exercise",
+  "number": "7.1.5.57",
+  "title": "",
+  "body": "he captain of Flight 386 descended 5000 feet to avoid turbulence in the upper atmosphere, and then descended another 1800 feet on the approach to a small airport. What was the plane's net change in altitude?   The net change is feet.  "
+},
+{
+  "id": "exercise-1976",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1976",
+  "type": "Exercise",
+  "number": "7.1.5.58",
+  "title": "",
+  "body": "The temperature is expected to drop 15° by this afternoon, and then drop another 18° overnight. What will be the net temperature change by tomorrow morning? "
+},
+{
+  "id": "exercise-1977",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1977",
+  "type": "Exercise",
+  "number": "7.1.5.59",
+  "title": "",
+  "body": "The bar graph shows the quarterly profits earned by Orinoco.com in one year. (A negative \"profit\" is a loss.)    What are the profits for the four quarters shown?  What was Orinoco.com's total annual profit for that year?   $1.3 million, -$0.8 million, -$0.2 million, $2.1 million  $2.4 million  "
+},
+{
+  "id": "exercise-1978",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1978",
+  "type": "Exercise",
+  "number": "7.1.5.60",
+  "title": "",
+  "body": "The bar graph shows how much Kayla won in each of the six games of poker she played.    Write Kayla's poker record as a sum of signed numbers.  What was the financial outcome of Kayla's poker session?  "
+},
+{
+  "id": "exercise-1979",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1979",
+  "type": "Exercise",
+  "number": "7.1.5.61",
+  "title": "",
+  "body": "The bar graph shows the water level in the reservoir, relative to its normal depth of 34 feet. For example, in January, when the level was 3 feet above normal, the water depth was feet.    Using values from the bar graph, fill in the table.     Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct  Nov  Dec   Relative water level               Water depth               Use the grid below to make a bar graph showing the actual depth of the water in the reservoir.       Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct  Nov  Dec   Relative water level               Water depth                "
+},
+{
+  "id": "exercise-1980",
+  "level": "2",
+  "url": "sec-7-1.html#exercise-1980",
+  "type": "Exercise",
+  "number": "7.1.5.62",
+  "title": "",
+  "body": "The bar graph shows the annual rainfall in Los Angeles, relative to the average value of 15 inches over the previous century. For example, in 1987 rainfall was 6 inches below normal, or inches.    Using values from the bar graph, fill in the table.     '87  '88  '89  '90  '91  '92  '93  '94  '95  '96   Deviation from average             Annual rainfall (in)             Use the grid below to make a bar graph showing the annual rainfall in Los Angeles over the decade from 1987 to 1996.   "
+},
+{
+  "id": "sec-7-2",
+  "level": "1",
+  "url": "sec-7-2.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "Subtracting Signed Numbers",
+  "body": " Subtracting Signed Numbers   Subtracting a Positive Number  Subtracting a Negative Number  Rule for Subtraction  Notation    Now that you a good intuitive grasp of addition, we'll turn our attention to subtraction. It will help if you keep two facts in mind:  subtraction is the opposite operation for addition, and  there are only two directions to move on the number line, right or left!   So, consider:  To add a positive number, we move to the right on the number line.  To subtract a positive number, we move to the left on the number line.  To add a negative number, we move to the left on the number line.  To subtract a negative number, we move to the ????? on the number line.   Let's look at some examples.  Subtracting a Positive Number  Compare the two number lines shown below. The first number line illustrates the addition problem The second number line illustrates the subtraction problem   Both number lines look the same, and both problems have the same answer, +5. On each number line, we start at +8 and move 3 units to the left. This example illustrates an important fact.  Subtracting a positive number is the same as adding the corresponding negative number. For both operations, we move to the left on the number line.  Of course, we don't need a number line to calculate simple subtractions like . But number lines may help us with less familiar problems.  Definition  Recall that the answer to an addition problem is called the sum , and the answer to a subtraction problem is called the difference .  Use number lines to illustrate the sum or difference.      We start at and move 5 units to the left.   We start at and move 5 units to the left.    Both problems have the same answer, .  Use number lines to illustrate the problems below. The answers for each pair should be the same!  and   and       Looking back at these examples, we see that we can rewrite a subtraction problem as an equivalent addition problem, then use the rules for addition.  Rewrite each subtraction problem as an equivalent addition problem, and compute.      Subtracting 10 gives the same result as adding , so we can write To add two numbers with opposite signs we subtract their unsigned parts to get . And because 10 is greater than 6, the answer is negative. Thus  Subtracting 3 gives the same result as adding , so we can write To add two numbers with the same sign we add their unsigned parts to get . And because both numbers are negative, the answer is negative. Thus   If you feel confident with adding signed numbers, with a little practice you'll be able to do these subtraction problems in your head. Until then, don't hesitate to write down the calculation.  Rewrite each subtraction problem as an equivalent addition problem, and compute.         Subtracting a Negative Number  What does it mean to subtract a negative number? Consider the problem If we use a number line to help us, we begin by plotting the first number, 2. We should then move five units away, but in which direction? Recall that when we add , we move to the left.  But there are only two directions on the number line, so when we subtract , we must move to the right. We finish the problem as shown below, to obtain an answer of .   Subtracting on the number line looks the same as adding . In both problems we move 5 units to the right, and in both problems the answer is 7.  Subtracting a negative number gives the same result as adding a positive number. For both operations, we move to the right on the number line.  This fact makes sense if we think in terms of money, with negative numbers representing debts. Suppose you have a net worth of $200, after writing a check for $500 to repay a loan from your father. Then your father calls to say “As your graduation present, I've decided to cancel your $500 debt, so keep the money.” You now have $700. Subtracting a debt of $500 has the same effect as adding $500 to your account!  Use number lines to illustrate the sum or difference.      We start at and move 3 units to the right.   We start at and move 3 units to the right.    Both problems have the same answer, .  Use number lines to illustrate the problems below. The answers for each pair should be the same!  and   and       Putting together all our examples so far, we can see that:  Every subtraction problem can be written as an equivalent addition problem.   Rule for Subtraction  We don't really have a new rule for subtraction. Instead, we change every subtraction problem to an equivalent addition problem, and then follow the Rules for Addition.  Subtraction Rule for Signed Numbers   To subtract a positive number, add the corresponding negative number.  To subtract a negative number, add the corresponding positive number.   So how do we change a subtraction problem into an addition problem? Here is a three-step process to follow if the problem is too complicated for an intuitive approach.  To rewrite a subtraction problem as an equivalent addition problem:   Leave the first number alone.  Change the sign of the second number.  Change the subtraction symbol to an addition symbol.   Rewrite each subtraction problem as an equivalent addition problem, then compute.      Subtracting positive 3 is the same as adding negative 3, and we rewrite the difference as a sum as follows.   Now we can use the Rules for Addition. To add two numbers with the same sign we add their unsigned parts to get . And because both numbers are negative, the answer is negative. Thus  Subtracting 12 is the same as adding 12, so   Now we use the Rules for Addition: Because and have opposite signs, we subtract their unsigned parts to get . And because 12 is larger than 8, the answer is positive. Thus,   Rewrite each subtraction problem as an equivalent addition problem, then compute.        Net Change  We compute the net change in a quantity by subtracting its initial value from its final value. Notice that if the final value is smaller than the initial value, the net change is negative.   The bar graph shows the prime time Nielsen ratings for the major networks for the week ending February 3, 2001, compared to their previous totals.    What was the net change in ABC's rating?  Complete the table showing the net change in ratings for each of the networks.    Network  NBC  Fox  ABC  CBS  WB  UPN   Change in Rating          If we know the starting value and the net change in a variable, we can calculate its final value. The bar graph shows the change in annual sales for Solaria.com over six years.    In 2008, Solaria posted 4 million dollars in sales. What was its sales total in 2009?  Complete the table showing Solaria's sales totals for the next five years.    Year  2010  2011  2012  2013  2014   Sales (million $)        In which year did Solaria post its lowest sales total?  In which year did Solaria post its highest sales total?     Notation  We have now used the symbol \" \" in two different ways: to indicate subtraction and to denote a negative number. We will have to be careful not to confuse these two different meanings. So far, we have been careful to include the sign of a number inside parentheses, to distinguish it from the operation symbol for adding or subtracting. But you won't always be provided with these helpful hints. Consider the expression  We can read this expression as \"negative 8 subtract 13.\" Or, changing to an equivalent addition problem, we get  You can check that both these expressions yield the same result, . After all, we perform subtraction by changing to an equivalent addition problem. So why not interpret as a sum in the first place?  That is what we'll do. When we see a string of numbers separated by plus or minus signs, we'll treat it as a sum of signed numbers. For example, the expression means \"add and and and ,\" to get .  Simplify the sum of signed numbers  Working from left to right, first we add and to get , then we add to the , to get .  Simplify each expression as a sum of signed numbers.        Profit and Loss  Here is a formula for calculating profit. Revenue is the amount of money a company takes in from selling its product. They have to subtract their operating costs from their revenue to calculate their profit. If a company's costs exceed its revenues, their profit will be negative, which means that the company will experience a loss.  The bar graph shows GoSolar's costs and revenues for the years 2011-2015.    Fill in the table with the values of revenue and cost from the bar graph.    Year  2011  2012  2013  2014  2015   Revenue        Cost        Profit        Compute the company's profit for in each year and complete the table.  In which of the five years did the company lose money?  In which year did they make the largest profit?  What was the net change in their profit from 2011 to 2015?     Practice 7-2  For Problems 1-8,  Rewrite the subtraction problem as an equivalent addition problem.  Illustrate the problem on a number line.                    Explain why subtracting a negative number is the same as adding a positive number. They move in the same direction on the number line.  Explain why we don't need any new rules for subtraction of signed numbers.  For Problems 11-24, subtract. Rewrite as an equivalent addition problem if that is helpful.                 Delbert participated in a student math competition at his school. There were three rounds of problem-solving. Delbert earns points for correct answers, but loses points for each incorrect answer. The bar graph shows Delbert's results after three rounds.    Find Delbert's score on each round.  The final score for each contestant is the sum of the scores on each round. Find Delbert's final score.       The bar graph shows the quarterly revenue and cost figures for Infocom, a new internet service provider.    Compute Infocom's profit for each quarter of the year.  Compute Infocom's profit for the entire year (the sum of its profits for each quarter).   Use a calculator to find the following differences in Problems 27-34.            Read each expression aloud in English, then compute the values.  Consider the expression . Should this expression be interpreted as 4 subtracted from 16, or as added to 16? Will both interpretations give the same value? Which do you prefer?    Yes    Read each expression aloud in English, then compute the values.  Consider the expression . Should this expression be interpreted as 15 subtracted from 8, or as added to 8? Will both interpretations give the same value? Which do you prefer?    Read each expression aloud in English, then compute the values.  Consider the expression . Should this expression be interpreted as 9 subtracted from , or as added to ? Will both interpretations give the same value? Which do you prefer?    Yes    Read each expression aloud in English, then compute the values.  Consider the expression . Should this expression be interpreted as 6 subtracted from , or as added to ? Will both interpretations give the same value? Which do you prefer?    Write the expression as an equivalent addition problem, and then as an equivalent subtraction problem.  Is it easier to compute as a subtraction problem, or as an addition problem?    Your choice    Write the expression as an equivalent addition problem, and then as an equivalent subtraction problem.  Is it easier to compute as a subtraction problem, or as an addition problem?   For Problems 41-42, simplify each expression by treating it as an addition of signed numbers.                    For Problems 43-56, add or subtract as indicated.                 The bar graph shows the value of U.S. exports to Venezuela for the years 1994–1999.    By how much did the exports change in 1995 compared with 1994? In 1996 compared with 1995? Fill in the table.    Year  1995  1996  1997  1998  1999   Change in exports (billion $)        Make a bar graph showing changes in exports on the grid below. Use the table from part (a).      Year  1995  1996  1997  1998  1999   Change in exports (billion $)  0.6  0.1  1.9  0.1      The bar graph shows the value of U.S. exports to South Africa for the years 1994–1999.    By how much did the exports change in 1995 compared with 1994? In 1996 compared with 1995? Fill in the table.    Year  1995  1996  1997  1998  1999   Change in exports (billion $)        Make a bar graph showing changes in exports on the grid below. Use the table from part (a).    In 1995 the Boeing Corporation filled 468 orders for planes from commercial airlines. The bar graph shows the change in the number of orders for aircraft over the next few years.    Complete the table showing the number of commercial aircraft built by Boeing in each year.    Year  1996  1997  1998  1999  2000   Aircraft        In which year did Boeing build the most airplanes?     Year  1996  1997  1998  1999  2000   Aircraft  754  568  656  391  585   1996   In 1995 Airbus Industrie filled 106 orders for planes from commercial airlines. The bar graph shows the change in the number of orders for aircraft over the next few years.    Complete the table showing the number of commercial aircraft built by Boeing in each year.    Year  1996  1997  1998  1999  2000   Aircraft        In which year did Airbus first build more commercial airplanes than Boeing? (See Problem 59.)    "
+},
+{
+  "id": "p-8559",
+  "level": "2",
+  "url": "sec-7-2.html#p-8559",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "sum difference "
+},
+{
+  "id": "example-177",
+  "level": "2",
+  "url": "sec-7-2.html#example-177",
+  "type": "Example",
+  "number": "7.2.1",
+  "title": "",
+  "body": "Use number lines to illustrate the sum or difference.      We start at and move 5 units to the left.   We start at and move 5 units to the left.    Both problems have the same answer, . "
+},
+{
+  "id": "exercise-1981",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1981",
+  "type": "Checkpoint",
+  "number": "7.2.2",
+  "title": "",
+  "body": "Use number lines to illustrate the problems below. The answers for each pair should be the same!  and   and      "
+},
+{
+  "id": "example-178",
+  "level": "2",
+  "url": "sec-7-2.html#example-178",
+  "type": "Example",
+  "number": "7.2.3",
+  "title": "",
+  "body": "Rewrite each subtraction problem as an equivalent addition problem, and compute.      Subtracting 10 gives the same result as adding , so we can write To add two numbers with opposite signs we subtract their unsigned parts to get . And because 10 is greater than 6, the answer is negative. Thus  Subtracting 3 gives the same result as adding , so we can write To add two numbers with the same sign we add their unsigned parts to get . And because both numbers are negative, the answer is negative. Thus  "
+},
+{
+  "id": "exercise-1982",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1982",
+  "type": "Checkpoint",
+  "number": "7.2.4",
+  "title": "",
+  "body": "Rewrite each subtraction problem as an equivalent addition problem, and compute.       "
+},
+{
+  "id": "note-103",
+  "level": "2",
+  "url": "sec-7-2.html#note-103",
+  "type": "Note",
+  "number": "7.2.5",
+  "title": "",
+  "body": "This fact makes sense if we think in terms of money, with negative numbers representing debts. Suppose you have a net worth of $200, after writing a check for $500 to repay a loan from your father. Then your father calls to say “As your graduation present, I've decided to cancel your $500 debt, so keep the money.” You now have $700. Subtracting a debt of $500 has the same effect as adding $500 to your account! "
+},
+{
+  "id": "example-179",
+  "level": "2",
+  "url": "sec-7-2.html#example-179",
+  "type": "Example",
+  "number": "7.2.6",
+  "title": "",
+  "body": "Use number lines to illustrate the sum or difference.      We start at and move 3 units to the right.   We start at and move 3 units to the right.    Both problems have the same answer, . "
+},
+{
+  "id": "exercise-1983",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1983",
+  "type": "Checkpoint",
+  "number": "7.2.7",
+  "title": "",
+  "body": "Use number lines to illustrate the problems below. The answers for each pair should be the same!  and   and      "
+},
+{
+  "id": "example-180",
+  "level": "2",
+  "url": "sec-7-2.html#example-180",
+  "type": "Example",
+  "number": "7.2.8",
+  "title": "",
+  "body": "Rewrite each subtraction problem as an equivalent addition problem, then compute.      Subtracting positive 3 is the same as adding negative 3, and we rewrite the difference as a sum as follows.   Now we can use the Rules for Addition. To add two numbers with the same sign we add their unsigned parts to get . And because both numbers are negative, the answer is negative. Thus  Subtracting 12 is the same as adding 12, so   Now we use the Rules for Addition: Because and have opposite signs, we subtract their unsigned parts to get . And because 12 is larger than 8, the answer is positive. Thus,  "
+},
+{
+  "id": "exercise-1984",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1984",
+  "type": "Checkpoint",
+  "number": "7.2.9",
+  "title": "",
+  "body": "Rewrite each subtraction problem as an equivalent addition problem, then compute.       "
+},
+{
+  "id": "activity-74",
+  "level": "2",
+  "url": "sec-7-2.html#activity-74",
+  "type": "Activity",
+  "number": "7.2.1",
+  "title": "Net Change.",
+  "body": "Net Change  We compute the net change in a quantity by subtracting its initial value from its final value. Notice that if the final value is smaller than the initial value, the net change is negative.   The bar graph shows the prime time Nielsen ratings for the major networks for the week ending February 3, 2001, compared to their previous totals.    What was the net change in ABC's rating?  Complete the table showing the net change in ratings for each of the networks.    Network  NBC  Fox  ABC  CBS  WB  UPN   Change in Rating          If we know the starting value and the net change in a variable, we can calculate its final value. The bar graph shows the change in annual sales for Solaria.com over six years.    In 2008, Solaria posted 4 million dollars in sales. What was its sales total in 2009?  Complete the table showing Solaria's sales totals for the next five years.    Year  2010  2011  2012  2013  2014   Sales (million $)        In which year did Solaria post its lowest sales total?  In which year did Solaria post its highest sales total?   "
+},
+{
+  "id": "example-181",
+  "level": "2",
+  "url": "sec-7-2.html#example-181",
+  "type": "Example",
+  "number": "7.2.10",
+  "title": "",
+  "body": "Simplify the sum of signed numbers  Working from left to right, first we add and to get , then we add to the , to get . "
+},
+{
+  "id": "exercise-1985",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1985",
+  "type": "Checkpoint",
+  "number": "7.2.11",
+  "title": "",
+  "body": "Simplify each expression as a sum of signed numbers.       "
+},
+{
+  "id": "activity-75",
+  "level": "2",
+  "url": "sec-7-2.html#activity-75",
+  "type": "Activity",
+  "number": "7.2.2",
+  "title": "Profit and Loss.",
+  "body": "Profit and Loss  Here is a formula for calculating profit. Revenue is the amount of money a company takes in from selling its product. They have to subtract their operating costs from their revenue to calculate their profit. If a company's costs exceed its revenues, their profit will be negative, which means that the company will experience a loss.  The bar graph shows GoSolar's costs and revenues for the years 2011-2015.    Fill in the table with the values of revenue and cost from the bar graph.    Year  2011  2012  2013  2014  2015   Revenue        Cost        Profit        Compute the company's profit for in each year and complete the table.  In which of the five years did the company lose money?  In which year did they make the largest profit?  What was the net change in their profit from 2011 to 2015?  "
+},
+{
+  "id": "exercise-1986",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1986",
+  "type": "Exercise",
+  "number": "7.2.5.1",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1987",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1987",
+  "type": "Exercise",
+  "number": "7.2.5.2",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1988",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1988",
+  "type": "Exercise",
+  "number": "7.2.5.3",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1989",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1989",
+  "type": "Exercise",
+  "number": "7.2.5.4",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1990",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1990",
+  "type": "Exercise",
+  "number": "7.2.5.5",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1991",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1991",
+  "type": "Exercise",
+  "number": "7.2.5.6",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1992",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1992",
+  "type": "Exercise",
+  "number": "7.2.5.7",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1993",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1993",
+  "type": "Exercise",
+  "number": "7.2.5.8",
+  "title": "",
+  "body": " "
+},
+{
+  "id": "exercise-1994",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1994",
+  "type": "Exercise",
+  "number": "7.2.5.9",
+  "title": "",
+  "body": "Explain why subtracting a negative number is the same as adding a positive number. They move in the same direction on the number line. "
+},
+{
+  "id": "exercise-1995",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1995",
+  "type": "Exercise",
+  "number": "7.2.5.10",
+  "title": "",
+  "body": "Explain why we don't need any new rules for subtraction of signed numbers. "
+},
+{
+  "id": "exercise-1996",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1996",
+  "type": "Exercise",
+  "number": "7.2.5.11",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1997",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1997",
+  "type": "Exercise",
+  "number": "7.2.5.12",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1998",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1998",
+  "type": "Exercise",
+  "number": "7.2.5.13",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-1999",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-1999",
+  "type": "Exercise",
+  "number": "7.2.5.14",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2000",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2000",
+  "type": "Exercise",
+  "number": "7.2.5.15",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2001",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2001",
+  "type": "Exercise",
+  "number": "7.2.5.16",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2002",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2002",
+  "type": "Exercise",
+  "number": "7.2.5.17",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2003",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2003",
+  "type": "Exercise",
+  "number": "7.2.5.18",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2004",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2004",
+  "type": "Exercise",
+  "number": "7.2.5.19",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2005",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2005",
+  "type": "Exercise",
+  "number": "7.2.5.20",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2006",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2006",
+  "type": "Exercise",
+  "number": "7.2.5.21",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2007",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2007",
+  "type": "Exercise",
+  "number": "7.2.5.22",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2008",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2008",
+  "type": "Exercise",
+  "number": "7.2.5.23",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2009",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2009",
+  "type": "Exercise",
+  "number": "7.2.5.24",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2010",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2010",
+  "type": "Exercise",
+  "number": "7.2.5.25",
+  "title": "",
+  "body": "Delbert participated in a student math competition at his school. There were three rounds of problem-solving. Delbert earns points for correct answers, but loses points for each incorrect answer. The bar graph shows Delbert's results after three rounds.    Find Delbert's score on each round.  The final score for each contestant is the sum of the scores on each round. Find Delbert's final score.     "
+},
+{
+  "id": "exercise-2011",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2011",
+  "type": "Exercise",
+  "number": "7.2.5.26",
+  "title": "",
+  "body": "The bar graph shows the quarterly revenue and cost figures for Infocom, a new internet service provider.    Compute Infocom's profit for each quarter of the year.  Compute Infocom's profit for the entire year (the sum of its profits for each quarter).  "
+},
+{
+  "id": "exercise-2012",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2012",
+  "type": "Exercise",
+  "number": "7.2.5.27",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2013",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2013",
+  "type": "Exercise",
+  "number": "7.2.5.28",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2014",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2014",
+  "type": "Exercise",
+  "number": "7.2.5.29",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2015",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2015",
+  "type": "Exercise",
+  "number": "7.2.5.30",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2016",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2016",
+  "type": "Exercise",
+  "number": "7.2.5.31",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2017",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2017",
+  "type": "Exercise",
+  "number": "7.2.5.32",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2018",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2018",
+  "type": "Exercise",
+  "number": "7.2.5.33",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2019",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2019",
+  "type": "Exercise",
+  "number": "7.2.5.34",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2020",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2020",
+  "type": "Exercise",
+  "number": "7.2.5.35",
+  "title": "",
+  "body": " Read each expression aloud in English, then compute the values.  Consider the expression . Should this expression be interpreted as 4 subtracted from 16, or as added to 16? Will both interpretations give the same value? Which do you prefer?    Yes  "
+},
+{
+  "id": "exercise-2021",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2021",
+  "type": "Exercise",
+  "number": "7.2.5.36",
+  "title": "",
+  "body": " Read each expression aloud in English, then compute the values.  Consider the expression . Should this expression be interpreted as 15 subtracted from 8, or as added to 8? Will both interpretations give the same value? Which do you prefer?  "
+},
+{
+  "id": "exercise-2022",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2022",
+  "type": "Exercise",
+  "number": "7.2.5.37",
+  "title": "",
+  "body": " Read each expression aloud in English, then compute the values.  Consider the expression . Should this expression be interpreted as 9 subtracted from , or as added to ? Will both interpretations give the same value? Which do you prefer?    Yes  "
+},
+{
+  "id": "exercise-2023",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2023",
+  "type": "Exercise",
+  "number": "7.2.5.38",
+  "title": "",
+  "body": " Read each expression aloud in English, then compute the values.  Consider the expression . Should this expression be interpreted as 6 subtracted from , or as added to ? Will both interpretations give the same value? Which do you prefer?  "
+},
+{
+  "id": "exercise-2024",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2024",
+  "type": "Exercise",
+  "number": "7.2.5.39",
+  "title": "",
+  "body": " Write the expression as an equivalent addition problem, and then as an equivalent subtraction problem.  Is it easier to compute as a subtraction problem, or as an addition problem?    Your choice  "
+},
+{
+  "id": "exercise-2025",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2025",
+  "type": "Exercise",
+  "number": "7.2.5.40",
+  "title": "",
+  "body": " Write the expression as an equivalent addition problem, and then as an equivalent subtraction problem.  Is it easier to compute as a subtraction problem, or as an addition problem?  "
+},
+{
+  "id": "exercise-2026",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2026",
+  "type": "Exercise",
+  "number": "7.2.5.41",
+  "title": "",
+  "body": "          "
+},
+{
+  "id": "exercise-2027",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2027",
+  "type": "Exercise",
+  "number": "7.2.5.42",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exercise-2028",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2028",
+  "type": "Exercise",
+  "number": "7.2.5.43",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2029",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2029",
+  "type": "Exercise",
+  "number": "7.2.5.44",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2030",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2030",
+  "type": "Exercise",
+  "number": "7.2.5.45",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2031",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2031",
+  "type": "Exercise",
+  "number": "7.2.5.46",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2032",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2032",
+  "type": "Exercise",
+  "number": "7.2.5.47",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2033",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2033",
+  "type": "Exercise",
+  "number": "7.2.5.48",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2034",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2034",
+  "type": "Exercise",
+  "number": "7.2.5.49",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2035",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2035",
+  "type": "Exercise",
+  "number": "7.2.5.50",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2036",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2036",
+  "type": "Exercise",
+  "number": "7.2.5.51",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2037",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2037",
+  "type": "Exercise",
+  "number": "7.2.5.52",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2038",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2038",
+  "type": "Exercise",
+  "number": "7.2.5.53",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2039",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2039",
+  "type": "Exercise",
+  "number": "7.2.5.54",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2040",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2040",
+  "type": "Exercise",
+  "number": "7.2.5.55",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2041",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2041",
+  "type": "Exercise",
+  "number": "7.2.5.56",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2042",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2042",
+  "type": "Exercise",
+  "number": "7.2.5.57",
+  "title": "",
+  "body": "The bar graph shows the value of U.S. exports to Venezuela for the years 1994–1999.    By how much did the exports change in 1995 compared with 1994? In 1996 compared with 1995? Fill in the table.    Year  1995  1996  1997  1998  1999   Change in exports (billion $)        Make a bar graph showing changes in exports on the grid below. Use the table from part (a).      Year  1995  1996  1997  1998  1999   Change in exports (billion $)  0.6  0.1  1.9  0.1     "
+},
+{
+  "id": "exercise-2043",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2043",
+  "type": "Exercise",
+  "number": "7.2.5.58",
+  "title": "",
+  "body": "The bar graph shows the value of U.S. exports to South Africa for the years 1994–1999.    By how much did the exports change in 1995 compared with 1994? In 1996 compared with 1995? Fill in the table.    Year  1995  1996  1997  1998  1999   Change in exports (billion $)        Make a bar graph showing changes in exports on the grid below. Use the table from part (a).   "
+},
+{
+  "id": "exercise-2044",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2044",
+  "type": "Exercise",
+  "number": "7.2.5.59",
+  "title": "",
+  "body": "In 1995 the Boeing Corporation filled 468 orders for planes from commercial airlines. The bar graph shows the change in the number of orders for aircraft over the next few years.    Complete the table showing the number of commercial aircraft built by Boeing in each year.    Year  1996  1997  1998  1999  2000   Aircraft        In which year did Boeing build the most airplanes?     Year  1996  1997  1998  1999  2000   Aircraft  754  568  656  391  585   1996  "
+},
+{
+  "id": "exercise-2045",
+  "level": "2",
+  "url": "sec-7-2.html#exercise-2045",
+  "type": "Exercise",
+  "number": "7.2.5.60",
+  "title": "",
+  "body": "In 1995 Airbus Industrie filled 106 orders for planes from commercial airlines. The bar graph shows the change in the number of orders for aircraft over the next few years.    Complete the table showing the number of commercial aircraft built by Boeing in each year.    Year  1996  1997  1998  1999  2000   Aircraft        In which year did Airbus first build more commercial airplanes than Boeing? (See Problem 59.)  "
+},
+{
+  "id": "sec-7-3",
+  "level": "1",
+  "url": "sec-7-3.html",
+  "type": "Section",
+  "number": "7.3",
+  "title": "Multiplying and Dividing Signed Numbers",
+  "body": " Multiplying and Dividing Signed Numbers   Multiplication  Division  Powers of Negative Numbers    Multiplication  Multiplication is really just a short cut for repeated addition. For example, Similarly, Because the sum of five 's added together is , the product is equal to also.  Think of this problem in terms of money: if you owe five different people two dollars each, then you are actually in debt by $10.  It is also true that because we can multiply two numbers in either order and get the same answer.  From these examples, the following rule seems reasonable.  The product of two numbers with opposite signs is negative.        Multiply.         What about the product of two negative numbers?  The product of two negative numbers is positive.  This rule is the hardest one to understand. Try reading the Note below to see if it convinces you.  Earlier we argued that erasing a debt of $500 had the same effect as adding $500 to your net worth. This example helped us understand that subtracting a negative number is the same as adding a positive number.  Now imagine that three debts of $500 are erased from your balance sheet. This is equivalent to increasing your net worth by $1500. We express this mathematically as      Multiply.         We already know that the product of two positive numbers is positive. And here is another reasonable fact:  Zero times any number, positive or negative, is zero.  For example,  Combining all these facts, we get the following set of rules.  Products of Signed Numbers   The product of two numbers with the same sign is positive.  The product of two numbers with opposite signs is negative.  The product of any number and zero is zero.    Division  Division is the opposite operation for multiplication. Every division fact can be rewritten as an equivalent multiplication fact. For example, We'll use this idea to investigate division of signed numbers.  Quotients  Each division problem below is rewritten as a multiplication problem.  because  because    In the first multiplication problem, should the blank be replaced by a positive number or a negative number?  Why?  Fill in the blanks:  From this example, we see that:  The quotient of a negative number and a positive number is .  In the second multiplication problem, should the blank be replaced by a positive number or a negative number?  Why?  Fill in the blanks:  From this example, we see that:  The quotient of two negative numbers is .  Compute the quotients.        What about quotients involving zero? We know that zero times any number is zero, so what does that mean for division?  Quotients Involving Zero   We'll first consider two examples where zero is divided by a number. Rewrite each quotient as a product.   What number can we use to replace the question marks and make true statements? There is only one possible answer. and  From these examples, we see that: The quotient of zero divided by any number (except zero) is .  Next we'll look at two examples in which a number is divided by zero. Again, begin by rewriting each quotient as a product.   What number can we use to replace the question marks and make true statements?  Because zero times any number is zero, we cannot find any number that will result in a product of 15 or a product of 4. There is no solution to either multiplication problem, and consequently there are no solutions to the division problems either. We say that division by zero is undefined.  The quotient of any number divided by zero is .  Compute the quotients.        We summarize the rules for division as follows.  Rules for Dividing Signed Numbers   The quotient of two numbers with the same sign is positive.  The quotient of two numbers with opposite signs is negative.  Zero divided by any number (except zero) is zero.  The quotient of any number divided by zero is undefined.    Powers of Negative Numbers  Recall that an exponent indicates repeated multiplication. For example, where 4 is called the base and 3 is called the exponent. We read as \"4 to the third power\" or \"4 cubed.\" We can also compute powers of negative numbers.  To show that a negative number is raised to a power, we must enclose the negative number in parentheses.  For example, to indicate the square of 5, we write If the negative number is not enclosed in parentheses, then the exponent applies only to the positive number. The negative sign tells us that the power is negative. For example,  Look carefully at how the placement of parentheses changes the meaning of the expressions in the next Example.  Compute each power.        Only 4 is squared:  The negative number is squared:  Only 4 is squared:  Only 4 is squared, and the entire expression appears within parentheses:   Write each power as a repeated product, then compute.             Practice 7-3  For Problems 1-8, multiply or divide, if possible.                                                                     Use the idea of repeated addition to explain why the product of a positive number and a negative number is negative. Adding several negative numbers gives a negative sum.  Use ideas about money to explain why the product of two negative numbers is positive.  Delbert says that \"two negatives make a positive.\" For which operations is he correct: addition, subtraction, multiplication, division. Multiplication and division  True or False:  The product of any number and zero is undefined.  The quotient of any number divided by zero is undefined.  The quotient of zero divided by any number is undefined.  The sum of any number and its opposite is undefined.   Fill in each blank with \"is always positive,\" \"is always negative,\" or \"could be either positive or negative.\"  The sum of two negative numbers .  The difference of two negative numbers .  The product of two negative numbers .  The quotient of two negative numbers .   Always negative  Either  Always positive  Always positive   Fill in each blank with \"is always positive,\" \"is always negative,\" or \"could be either positive or negative.\"  The sum of two a positive number and a negative number .  The difference of a positive number and a negative number .  The product of a positive number and a negative number .  The quotient of a positive number and a negative number .   For Problems 19-24,  Write a product or quotient of signed numbers to describe the story.  Evaluate the product or quotient to answer the question.   Whitney is climbing down a sheer cliff. She has spaced pitons vertically every 6 meters. What is her net elevation change after she has descended to the eighth piton from the top?   feet   The bank erroneously charged Utako with five withdrawals of $400 each. If her balance is actually $0, what does the bank believe her balance is?  The temperature on the ice planet Hoth dropped 115 in just 4 hours. What was the average temperature change per hour?   degrees per hour   Bertha lost 30 pounds in 8 weeks. What was Bertha's average change in weight per week?  The U.S. balance book shows an entry of $100,000,000,000 representing the failure of numerous savings and loan institutions. If this amount were to be divided equally among the 100 million adult citizens, how much of the balance would be assigned to each?   dollars   Petra implements a scheme that successfully cuts her firm's $250,000 debt in half. What is the resulting balance?   For Problems 25-34, which operation is indicated in each expression? Simplify the expression.                                                          For Problems 35-40, write each division fact as an equivalent multiplication fact.         For Problems 41-48, use your calculator to multiply or divide. Round your answers to two decimal places if necessary.           For Problems 49-52, compute each power.                                      Compute each power.         Do you see a pattern developing? What is the connection between the exponent and the sign of the answer? The sign of the power is if the exponent is .    negative, odd    Explain why and are different numbers.  Explain why and are the same number.    "
+},
+{
+  "id": "note-104",
+  "level": "2",
+  "url": "sec-7-3.html#note-104",
+  "type": "Note",
+  "number": "7.3.1",
+  "title": "",
+  "body": "Think of this problem in terms of money: if you owe five different people two dollars each, then you are actually in debt by $10. "
+},
+{
+  "id": "example-182",
+  "level": "2",
+  "url": "sec-7-3.html#example-182",
+  "type": "Example",
+  "number": "7.3.2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exercise-2046",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2046",
+  "type": "Checkpoint",
+  "number": "7.3.3",
+  "title": "",
+  "body": "Multiply.        "
+},
+{
+  "id": "note-105",
+  "level": "2",
+  "url": "sec-7-3.html#note-105",
+  "type": "Note",
+  "number": "7.3.4",
+  "title": "",
+  "body": "Earlier we argued that erasing a debt of $500 had the same effect as adding $500 to your net worth. This example helped us understand that subtracting a negative number is the same as adding a positive number.  Now imagine that three debts of $500 are erased from your balance sheet. This is equivalent to increasing your net worth by $1500. We express this mathematically as "
+},
+{
+  "id": "example-183",
+  "level": "2",
+  "url": "sec-7-3.html#example-183",
+  "type": "Example",
+  "number": "7.3.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "exercise-2047",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2047",
+  "type": "Checkpoint",
+  "number": "7.3.6",
+  "title": "",
+  "body": "Multiply.        "
+},
+{
+  "id": "activity-76",
+  "level": "2",
+  "url": "sec-7-3.html#activity-76",
+  "type": "Activity",
+  "number": "7.3.1",
+  "title": "Quotients.",
+  "body": "Quotients  Each division problem below is rewritten as a multiplication problem.  because  because    In the first multiplication problem, should the blank be replaced by a positive number or a negative number?  Why?  Fill in the blanks:  From this example, we see that:  The quotient of a negative number and a positive number is .  In the second multiplication problem, should the blank be replaced by a positive number or a negative number?  Why?  Fill in the blanks:  From this example, we see that:  The quotient of two negative numbers is .  Compute the quotients.       "
+},
+{
+  "id": "activity-77",
+  "level": "2",
+  "url": "sec-7-3.html#activity-77",
+  "type": "Activity",
+  "number": "7.3.2",
+  "title": "Quotients Involving Zero.",
+  "body": "Quotients Involving Zero   We'll first consider two examples where zero is divided by a number. Rewrite each quotient as a product.   What number can we use to replace the question marks and make true statements? There is only one possible answer. and  From these examples, we see that: The quotient of zero divided by any number (except zero) is .  Next we'll look at two examples in which a number is divided by zero. Again, begin by rewriting each quotient as a product.   What number can we use to replace the question marks and make true statements?  Because zero times any number is zero, we cannot find any number that will result in a product of 15 or a product of 4. There is no solution to either multiplication problem, and consequently there are no solutions to the division problems either. We say that division by zero is undefined.  The quotient of any number divided by zero is .  Compute the quotients.       "
+},
+{
+  "id": "example-184",
+  "level": "2",
+  "url": "sec-7-3.html#example-184",
+  "type": "Example",
+  "number": "7.3.7",
+  "title": "",
+  "body": "Compute each power.        Only 4 is squared:  The negative number is squared:  Only 4 is squared:  Only 4 is squared, and the entire expression appears within parentheses:  "
+},
+{
+  "id": "exercise-2048",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2048",
+  "type": "Checkpoint",
+  "number": "7.3.8",
+  "title": "",
+  "body": "Write each power as a repeated product, then compute.          "
+},
+{
+  "id": "exercise-2049",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2049",
+  "type": "Exercise",
+  "number": "7.3.4.1",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "exercise-2050",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2050",
+  "type": "Exercise",
+  "number": "7.3.4.2",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "exercise-2051",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2051",
+  "type": "Exercise",
+  "number": "7.3.4.3",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "exercise-2052",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2052",
+  "type": "Exercise",
+  "number": "7.3.4.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "exercise-2053",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2053",
+  "type": "Exercise",
+  "number": "7.3.4.5",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "exercise-2054",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2054",
+  "type": "Exercise",
+  "number": "7.3.4.6",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "exercise-2055",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2055",
+  "type": "Exercise",
+  "number": "7.3.4.7",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "exercise-2056",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2056",
+  "type": "Exercise",
+  "number": "7.3.4.8",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "exercise-2057",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2057",
+  "type": "Exercise",
+  "number": "7.3.4.9",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "exercise-2058",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2058",
+  "type": "Exercise",
+  "number": "7.3.4.10",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "exercise-2059",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2059",
+  "type": "Exercise",
+  "number": "7.3.4.11",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "exercise-2060",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2060",
+  "type": "Exercise",
+  "number": "7.3.4.12",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "exercise-2061",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2061",
+  "type": "Exercise",
+  "number": "7.3.4.13",
+  "title": "",
+  "body": "Use the idea of repeated addition to explain why the product of a positive number and a negative number is negative. Adding several negative numbers gives a negative sum. "
+},
+{
+  "id": "exercise-2062",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2062",
+  "type": "Exercise",
+  "number": "7.3.4.14",
+  "title": "",
+  "body": "Use ideas about money to explain why the product of two negative numbers is positive. "
+},
+{
+  "id": "exercise-2063",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2063",
+  "type": "Exercise",
+  "number": "7.3.4.15",
+  "title": "",
+  "body": "Delbert says that \"two negatives make a positive.\" For which operations is he correct: addition, subtraction, multiplication, division. Multiplication and division "
+},
+{
+  "id": "exercise-2064",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2064",
+  "type": "Exercise",
+  "number": "7.3.4.16",
+  "title": "",
+  "body": "True or False:  The product of any number and zero is undefined.  The quotient of any number divided by zero is undefined.  The quotient of zero divided by any number is undefined.  The sum of any number and its opposite is undefined.  "
+},
+{
+  "id": "exercise-2065",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2065",
+  "type": "Exercise",
+  "number": "7.3.4.17",
+  "title": "",
+  "body": "Fill in each blank with \"is always positive,\" \"is always negative,\" or \"could be either positive or negative.\"  The sum of two negative numbers .  The difference of two negative numbers .  The product of two negative numbers .  The quotient of two negative numbers .   Always negative  Either  Always positive  Always positive  "
+},
+{
+  "id": "exercise-2066",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2066",
+  "type": "Exercise",
+  "number": "7.3.4.18",
+  "title": "",
+  "body": "Fill in each blank with \"is always positive,\" \"is always negative,\" or \"could be either positive or negative.\"  The sum of two a positive number and a negative number .  The difference of a positive number and a negative number .  The product of a positive number and a negative number .  The quotient of a positive number and a negative number .  "
+},
+{
+  "id": "exercise-2067",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2067",
+  "type": "Exercise",
+  "number": "7.3.4.19",
+  "title": "",
+  "body": "Whitney is climbing down a sheer cliff. She has spaced pitons vertically every 6 meters. What is her net elevation change after she has descended to the eighth piton from the top?   feet  "
+},
+{
+  "id": "exercise-2068",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2068",
+  "type": "Exercise",
+  "number": "7.3.4.20",
+  "title": "",
+  "body": "The bank erroneously charged Utako with five withdrawals of $400 each. If her balance is actually $0, what does the bank believe her balance is? "
+},
+{
+  "id": "exercise-2069",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2069",
+  "type": "Exercise",
+  "number": "7.3.4.21",
+  "title": "",
+  "body": "The temperature on the ice planet Hoth dropped 115 in just 4 hours. What was the average temperature change per hour?   degrees per hour  "
+},
+{
+  "id": "exercise-2070",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2070",
+  "type": "Exercise",
+  "number": "7.3.4.22",
+  "title": "",
+  "body": "Bertha lost 30 pounds in 8 weeks. What was Bertha's average change in weight per week? "
+},
+{
+  "id": "exercise-2071",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2071",
+  "type": "Exercise",
+  "number": "7.3.4.23",
+  "title": "",
+  "body": "The U.S. balance book shows an entry of $100,000,000,000 representing the failure of numerous savings and loan institutions. If this amount were to be divided equally among the 100 million adult citizens, how much of the balance would be assigned to each?   dollars  "
+},
+{
+  "id": "exercise-2072",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2072",
+  "type": "Exercise",
+  "number": "7.3.4.24",
+  "title": "",
+  "body": "Petra implements a scheme that successfully cuts her firm's $250,000 debt in half. What is the resulting balance? "
+},
+{
+  "id": "exercise-2073",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2073",
+  "type": "Exercise",
+  "number": "7.3.4.25",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "exercise-2074",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2074",
+  "type": "Exercise",
+  "number": "7.3.4.26",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "exercise-2075",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2075",
+  "type": "Exercise",
+  "number": "7.3.4.27",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "exercise-2076",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2076",
+  "type": "Exercise",
+  "number": "7.3.4.28",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "exercise-2077",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2077",
+  "type": "Exercise",
+  "number": "7.3.4.29",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "exercise-2078",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2078",
+  "type": "Exercise",
+  "number": "7.3.4.30",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "exercise-2079",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2079",
+  "type": "Exercise",
+  "number": "7.3.4.31",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "exercise-2080",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2080",
+  "type": "Exercise",
+  "number": "7.3.4.32",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "exercise-2081",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2081",
+  "type": "Exercise",
+  "number": "7.3.4.33",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "exercise-2082",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2082",
+  "type": "Exercise",
+  "number": "7.3.4.34",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "exercise-2083",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2083",
+  "type": "Exercise",
+  "number": "7.3.4.35",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2084",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2084",
+  "type": "Exercise",
+  "number": "7.3.4.36",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2085",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2085",
+  "type": "Exercise",
+  "number": "7.3.4.37",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2086",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2086",
+  "type": "Exercise",
+  "number": "7.3.4.38",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2087",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2087",
+  "type": "Exercise",
+  "number": "7.3.4.39",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2088",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2088",
+  "type": "Exercise",
+  "number": "7.3.4.40",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2089",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2089",
+  "type": "Exercise",
+  "number": "7.3.4.41",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2090",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2090",
+  "type": "Exercise",
+  "number": "7.3.4.42",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2091",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2091",
+  "type": "Exercise",
+  "number": "7.3.4.43",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2092",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2092",
+  "type": "Exercise",
+  "number": "7.3.4.44",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2093",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2093",
+  "type": "Exercise",
+  "number": "7.3.4.45",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2094",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2094",
+  "type": "Exercise",
+  "number": "7.3.4.46",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2095",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2095",
+  "type": "Exercise",
+  "number": "7.3.4.47",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2096",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2096",
+  "type": "Exercise",
+  "number": "7.3.4.48",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "exercise-2097",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2097",
+  "type": "Exercise",
+  "number": "7.3.4.49",
+  "title": "",
+  "body": "          "
+},
+{
+  "id": "exercise-2098",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2098",
+  "type": "Exercise",
+  "number": "7.3.4.50",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exercise-2099",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2099",
+  "type": "Exercise",
+  "number": "7.3.4.51",
+  "title": "",
+  "body": "          "
+},
+{
+  "id": "exercise-2100",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2100",
+  "type": "Exercise",
+  "number": "7.3.4.52",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exercise-2101",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2101",
+  "type": "Exercise",
+  "number": "7.3.4.53",
+  "title": "",
+  "body": " Compute each power.         Do you see a pattern developing? What is the connection between the exponent and the sign of the answer? The sign of the power is if the exponent is .    negative, odd  "
+},
+{
+  "id": "exercise-2102",
+  "level": "2",
+  "url": "sec-7-3.html#exercise-2102",
+  "type": "Exercise",
+  "number": "7.3.4.54",
+  "title": "",
+  "body": " Explain why and are different numbers.  Explain why and are the same number.  "
+},
+{
+  "id": "sec-7-4",
+  "level": "1",
+  "url": "sec-7-4.html",
+  "type": "Section",
+  "number": "7.4",
+  "title": "Equations and Graphs",
+  "body": " Equations and Graphs   Solving Equations  The Cartesian Coordinate System  Plotting Points  Graphing Lines  Applications of Linear Equations    Solving Equations  The solid form of nitrogen is a useful substance. It is used as a refrigerant in medical research, and it can also be used to remove pollutants and metal ions from waste water. Nitrogen freezes into solid form at a temperature of F.  Suppose your lab is kept at a temperature of F, and your equipment can lower the temperature of nitrogen by F per minute. How long will it take for nitrogen gas to solidify? The answer to this question is the solution of the equation In this section we'll solve equations that involve negative numbers.  Recall that we solve an equation by undoing in reverse order the operations performed on the variable. To solve the equation we first subtract 6 from both sides, then we divide both sides by 2. The solution is . If you like, you can review solving equations in Sections 2.5 and 5.4.  A Quick Refresher  Consider the expression We might naturally read this expression as \"8 subtract ,\" but we can also thnk of it as the sum of 8 and .  In fact, we can think of any string of terms as a sum, where the and symbols tell us the sign of the term that follows. For example,  We'll use this idea to solve equations involving negative numbers.  Solve the equation  We start by asking ourselves what operations have been performed on .    Operations performed on  Steps for Solution   1. Multiplied by  1. Subtract 8   2. Added 8  2. Divide by   Now we carry out the plan.  Step 1  Step 2  The solution is 7. The solution checks.  In the Example above, be sure to divide both sides by , not by 2. To reverse the operation \"multiply by ,\" we divide by the same number, .  Solve the equation    Operations performed on  Steps for Solution   1.  1.   2.  2.   Step 1:  Step 2:  Check:  2  Solving Equations  Use a calculator as needed to solve the equations.   Solve    Operations performed on  Steps for Solution   1.  1.   2.  2.   Step 1:  Step 2:  Check:  Solve    Operations performed on  Steps for Solution   1.  1.   2.  2.   Step 1:  Step 2:  Check:   In the next Example, we use three steps to solve the equation.  Solve  We analyze the equation and formulate a plan for its solution.    Operations performed on  Steps for Solution   1. Multiplied by  1. Add 9   2. Divided by 4  2. Multiply by 4   3. Subtracted 9  3. Divide by   Now we carry out the plan.   The solution is . (You should check the solution.)  Solve    Operations performed on  Steps for Solution   1.  1.   2.  2.   3.  3.   Step 1:  Step 2:  Check:   The Cartesian Coordinate System  Now that you can work with signed numbers, you can study graphs that use both positive and negative numbers. Recall that a graph shows the relationship between the values of two variables.  We used a number line to keep track of operations on signed numbers. To display the values of two variables we need two number lines. We draw a second number line perpendicular to the first one, as shown below. The values on this second number line increase from bottom to top, and the two lines intersect at the zero points of each.  The horizontal number line is called the -axis , and the vertical number line is the -axis . The point where the two axes intersect is called the origin . The two axes divide the plane into four regions called quadrants , which are numbered 1 through 4 counter-clockwise around the origin.   This system for locating points in the plane was inspired by the French philosopher and mathematician Rene Descartes, who lived in the seventeenth century. It is called a Cartesian coordinate system in his honor.   Plotting Points  Now we can use both positive and negative values when we graph an equation. We'll begin by plotting points on a Cartesian coordinate system. In Section 5.5 we plotted points from a table of values for two variables, and the same method works here.  How to Plot Points   The first variable (the input variable ) tells us the location of the point in the horizontal direction.  The second variable (the output variable ) tells us its location in the vertical direction.   We'll plot each pair of values in the table below as a point on a graph.                    The first pair of values is and , which we write as . We call the numbers 2 and 6 the coordinates of the point; 2 is the -coordinate and 6 is the -coordinate . The coordinates of a point describe its location in the plane.  To plot the point we first find 2 on the -axis (to the right of the origin), and from there move 6 units directly up, as shown at right.  The expression (2, 6) is called an ordered pair , because the order of the numbers is important. The first number in the pair is always the value of the input variable, and the second number is the value of the output variable.  Coordinates  The location of a point in the plane is given by an ordered pair , where is the -coordinate of the point, and is the -coordinate .  The signs of the coordinates tell us which direction to move when plotting the point.  Starting at the origin, we move along the -axis to the right if the -coordinate is positive, and to the left if the -coordinate is negative.  From this location on the -axis, we move up if the -coordinate is positive, and down if the -coordinate is negative.   Plot the points and .  To plot , we move 3 units to the left of the origin, then 4 units up. This point lies in the second quadrant. To plot , we move 5 units to the left, then 1 unit down into the third quadrant. Both points are shown below.   Plot the point   The signs of the coordinates determine in which of the four quadrants the point will appear. If one (or both) of its coordinates is zero, the point lies on one of the two axes.  Plot the points and .  If the -coordinate is 0, the point lies on the -axis, like the point shown at right. If the -coordinate is 0, the point lies on the -axis, like the point .   Plot the following points on the grid.           Graphing Lines   At the start of this section we looked at an equation for freezing nitrogen. If represents the temperature of the nitrogen after it has been cooling for minutes, we have the equation The graph of this equation looks like this. (You can review graphing equations in Section 5.5.)    Decreasing line of Temperature vs time  Remember that each point on the graph tells us something about the variables involved. For instance, the point tells us that the temperature of the nitrogen started at F.  What does the point tell us?  At the point we have and . After 10 minutes the temperature of the nitrogen is F.  When does the nitrogen reach a temperature of F? At , or at 13 minutes.  The simplest and most useful type of equation relating two variables has a very simple and useful graph. These equations are called linear equations because their graphs are straight lines.  Linear Equations  An equation of the form where and are constants, is a linear equation . Its graph is a straight line.  In Section 5.5 we used three steps to graph an equation.  Steps for Graphing an Equation   Make a table of values. Choose values for the input variable and use the equation to find the values of the output variable.  Choose appropriate scales and label the axes.  Plot the points from the table, and connect them with a smooth curve.   Graph the equation  We begin by making a table of values. We should choose both positive and negative values for the input variable, . Then we calculate the output values by substituting the -values into the equation.     Calculation   Ordered Pair                                                we choose  these values   we calculate  these values    Next, we sketch a Cartesian coordinate system and scale the axes. For this graph, we choose scales from 5 to 5 on the -axis, and from 5 to 15 on the -axis.  Then we plot each of the points in the table and connect them with a smooth curve.  You should find that all of the points lie on a straight line, as shown in the figure.    If we choose more -values and plot more points, we will find that the line extends forever in either direction. To indicate this we draw an arrow head at each end of the line, as shown in the figure.  Graph the equation   Complete the table.                    Label the scales on the axes.  Plot the points from the table and connect them with a straight line.   Graphing Lines  How many points do we need to plot in order to draw an accurate graph? Perhaps you can see that to graph a line we really only need two points (and a ruler or straight-edge). It is a good idea to plot three points, though, as a check.    Graph the equation  Complete the table.              Label the scales on the axes.  Plot the points from the table and connect them with a straight line. Extend your line to the edges of the grid.   If the coefficient of is a fraction, we can simplify the calculations by choosing -values with the fraction in mind.  Graph the equation   Complete the table.              Label the scales on the axes.  Plot the points from the table and connect them with a straight line. Extend your line to the edges of the grid.     Applications of Linear Equations  Linear equations describe many common situations.  Byron borrowed $6000 from his uncle to help pay for his college education. Now that he has graduated and has a job, he is paying back the loan at $100 per month. (His uncle is not charging Byron any interest on the loan.)  Write an equation showing the amount of money, , that Byron still owes his uncle after months.  Graph your equation.  Use your graph to find out how long will it take Byron to pay off his debt.    Byron subtracts $100 from his debt each month, so  We choose values for and make a table showing several points on the graph. Then we plot the points and connect them with a straight line.              Byron has paid off his debt when the amount he still owes his uncle is $0, or when . On the graph, the point with -coordinate 0 has -coordinate 60. Thus, it will take Byron 60 months, or 5 years, to repay his uncle.   Note You can check your answer to part (c) of the previous Example by solving the equation  Chloe's All-Night Diner buys coffee in 50-pound containers. They use 2 pounds of coffee per day.  Write an equation for the number of pounds of coffee, , left days after they open a new container.  Graph your equation on the grid.              Chloe's orders more coffee when they have 8 pounds left in the container. Use your graph to find out how long that will take.  Write and solve an equation to verify your answer to part (c).     21 days     "
+},
+{
+  "id": "example-185",
+  "level": "2",
+  "url": "sec-7-4.html#example-185",
+  "type": "Example",
+  "number": "7.4.1",
+  "title": "",
+  "body": "Solve the equation  We start by asking ourselves what operations have been performed on .    Operations performed on  Steps for Solution   1. Multiplied by  1. Subtract 8   2. Added 8  2. Divide by   Now we carry out the plan.  Step 1  Step 2  The solution is 7. The solution checks. "
+},
+{
+  "id": "note-106",
+  "level": "2",
+  "url": "sec-7-4.html#note-106",
+  "type": "Note",
+  "number": "7.4.2",
+  "title": "",
+  "body": "In the Example above, be sure to divide both sides by , not by 2. To reverse the operation \"multiply by ,\" we divide by the same number, . "
+},
+{
+  "id": "exercise-2103",
+  "level": "2",
+  "url": "sec-7-4.html#exercise-2103",
+  "type": "Checkpoint",
+  "number": "7.4.3",
+  "title": "",
+  "body": "Solve the equation    Operations performed on  Steps for Solution   1.  1.   2.  2.   Step 1:  Step 2:  Check:  2 "
+},
+{
+  "id": "activity-78",
+  "level": "2",
+  "url": "sec-7-4.html#activity-78",
+  "type": "Activity",
+  "number": "7.4.1",
+  "title": "Solving Equations.",
+  "body": "Solving Equations  Use a calculator as needed to solve the equations.   Solve    Operations performed on  Steps for Solution   1.  1.   2.  2.   Step 1:  Step 2:  Check:  Solve    Operations performed on  Steps for Solution   1.  1.   2.  2.   Step 1:  Step 2:  Check:  "
+},
+{
+  "id": "example-186",
+  "level": "2",
+  "url": "sec-7-4.html#example-186",
+  "type": "Example",
+  "number": "7.4.4",
+  "title": "",
+  "body": "Solve  We analyze the equation and formulate a plan for its solution.    Operations performed on  Steps for Solution   1. Multiplied by  1. Add 9   2. Divided by 4  2. Multiply by 4   3. Subtracted 9  3. Divide by   Now we carry out the plan.   The solution is . (You should check the solution.) "
+},
+{
+  "id": "exercise-2104",
+  "level": "2",
+  "url": "sec-7-4.html#exercise-2104",
+  "type": "Checkpoint",
+  "number": "7.4.5",
+  "title": "",
+  "body": "Solve    Operations performed on  Steps for Solution   1.  1.   2.  2.   3.  3.   Step 1:  Step 2:  Check: "
+},
+{
+  "id": "p-9006",
+  "level": "2",
+  "url": "sec-7-4.html#p-9006",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "-axis -axis origin quadrants "
+},
+{
+  "id": "p-9007",
+  "level": "2",
+  "url": "sec-7-4.html#p-9007",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Cartesian coordinate system "
+},
+{
+  "id": "p-9009",
+  "level": "2",
+  "url": "sec-7-4.html#p-9009",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "input variable output variable "
+},
+{
+  "id": "p-9013",
+  "level": "2",
+  "url": "sec-7-4.html#p-9013",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "coordinates -coordinate -coordinate "
+},
+{
+  "id": "p-9015",
+  "level": "2",
+  "url": "sec-7-4.html#p-9015",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "ordered pair "
+},
+{
+  "id": "p-9016",
+  "level": "2",
+  "url": "sec-7-4.html#p-9016",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "-coordinate -coordinate "
+},
+{
+  "id": "example-187",
+  "level": "2",
+  "url": "sec-7-4.html#example-187",
+  "type": "Example",
+  "number": "7.4.6",
+  "title": "",
+  "body": "Plot the points and .  To plot , we move 3 units to the left of the origin, then 4 units up. This point lies in the second quadrant. To plot , we move 5 units to the left, then 1 unit down into the third quadrant. Both points are shown below.  "
+},
+{
+  "id": "exercise-2105",
+  "level": "2",
+  "url": "sec-7-4.html#exercise-2105",
+  "type": "Checkpoint",
+  "number": "7.4.7",
+  "title": "",
+  "body": "Plot the point  "
+},
+{
+  "id": "note-107",
+  "level": "2",
+  "url": "sec-7-4.html#note-107",
+  "type": "Note",
+  "number": "7.4.8",
+  "title": "",
+  "body": "The signs of the coordinates determine in which of the four quadrants the point will appear. If one (or both) of its coordinates is zero, the point lies on one of the two axes. "
+},
+{
+  "id": "example-188",
+  "level": "2",
+  "url": "sec-7-4.html#example-188",
+  "type": "Example",
+  "number": "7.4.9",
+  "title": "",
+  "body": "Plot the points and .  If the -coordinate is 0, the point lies on the -axis, like the point shown at right. If the -coordinate is 0, the point lies on the -axis, like the point .  "
+},
+{
+  "id": "exercise-2106",
+  "level": "2",
+  "url": "sec-7-4.html#exercise-2106",
+  "type": "Checkpoint",
+  "number": "7.4.10",
+  "title": "",
+  "body": "Plot the following points on the grid.         "
+},
+{
+  "id": "example-189",
+  "level": "2",
+  "url": "sec-7-4.html#example-189",
+  "type": "Example",
+  "number": "7.4.11",
+  "title": "",
+  "body": "What does the point tell us?  At the point we have and . After 10 minutes the temperature of the nitrogen is F. "
+},
+{
+  "id": "exercise-2107",
+  "level": "2",
+  "url": "sec-7-4.html#exercise-2107",
+  "type": "Checkpoint",
+  "number": "7.4.12",
+  "title": "",
+  "body": "When does the nitrogen reach a temperature of F? At , or at 13 minutes. "
+},
+{
+  "id": "p-9033",
+  "level": "2",
+  "url": "sec-7-4.html#p-9033",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "linear equations "
+},
+{
+  "id": "p-9034",
+  "level": "2",
+  "url": "sec-7-4.html#p-9034",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "linear equation "
+},
+{
+  "id": "example-190",
+  "level": "2",
+  "url": "sec-7-4.html#example-190",
+  "type": "Example",
+  "number": "7.4.13",
+  "title": "",
+  "body": "Graph the equation  We begin by making a table of values. We should choose both positive and negative values for the input variable, . Then we calculate the output values by substituting the -values into the equation.     Calculation   Ordered Pair                                                we choose  these values   we calculate  these values    Next, we sketch a Cartesian coordinate system and scale the axes. For this graph, we choose scales from 5 to 5 on the -axis, and from 5 to 15 on the -axis.  Then we plot each of the points in the table and connect them with a smooth curve.  You should find that all of the points lie on a straight line, as shown in the figure.   "
+},
+{
+  "id": "note-108",
+  "level": "2",
+  "url": "sec-7-4.html#note-108",
+  "type": "Note",
+  "number": "7.4.14",
+  "title": "",
+  "body": "If we choose more -values and plot more points, we will find that the line extends forever in either direction. To indicate this we draw an arrow head at each end of the line, as shown in the figure. "
+},
+{
+  "id": "exercise-2108",
+  "level": "2",
+  "url": "sec-7-4.html#exercise-2108",
+  "type": "Checkpoint",
+  "number": "7.4.15",
+  "title": "",
+  "body": "Graph the equation   Complete the table.                    Label the scales on the axes.  Plot the points from the table and connect them with a straight line.  "
+},
+{
+  "id": "activity-79",
+  "level": "2",
+  "url": "sec-7-4.html#activity-79",
+  "type": "Activity",
+  "number": "7.4.2",
+  "title": "Graphing Lines.",
+  "body": "Graphing Lines  How many points do we need to plot in order to draw an accurate graph? Perhaps you can see that to graph a line we really only need two points (and a ruler or straight-edge). It is a good idea to plot three points, though, as a check.    Graph the equation  Complete the table.              Label the scales on the axes.  Plot the points from the table and connect them with a straight line. Extend your line to the edges of the grid.   If the coefficient of is a fraction, we can simplify the calculations by choosing -values with the fraction in mind.  Graph the equation   Complete the table.              Label the scales on the axes.  Plot the points from the table and connect them with a straight line. Extend your line to the edges of the grid.   "
+},
+{
+  "id": "example-191",
+  "level": "2",
+  "url": "sec-7-4.html#example-191",
+  "type": "Example",
+  "number": "7.4.16",
+  "title": "",
+  "body": "Byron borrowed $6000 from his uncle to help pay for his college education. Now that he has graduated and has a job, he is paying back the loan at $100 per month. (His uncle is not charging Byron any interest on the loan.)  Write an equation showing the amount of money, , that Byron still owes his uncle after months.  Graph your equation.  Use your graph to find out how long will it take Byron to pay off his debt.    Byron subtracts $100 from his debt each month, so  We choose values for and make a table showing several points on the graph. Then we plot the points and connect them with a straight line.              Byron has paid off his debt when the amount he still owes his uncle is $0, or when . On the graph, the point with -coordinate 0 has -coordinate 60. Thus, it will take Byron 60 months, or 5 years, to repay his uncle.  "
+},
+{
+  "id": "note-109",
+  "level": "2",
+  "url": "sec-7-4.html#note-109",
+  "type": "Note",
+  "number": "7.4.17",
+  "title": "",
+  "body": "Note You can check your answer to part (c) of the previous Example by solving the equation "
+},
+{
+  "id": "exercise-2109",
+  "level": "2",
+  "url": "sec-7-4.html#exercise-2109",
+  "type": "Checkpoint",
+  "number": "7.4.18",
+  "title": "",
+  "body": "Chloe's All-Night Diner buys coffee in 50-pound containers. They use 2 pounds of coffee per day.  Write an equation for the number of pounds of coffee, , left days after they open a new container.  Graph your equation on the grid.              Chloe's orders more coffee when they have 8 pounds left in the container. Use your graph to find out how long that will take.  Write and solve an equation to verify your answer to part (c).     21 days   "
 },
 {
   "id": "solutions-1",
