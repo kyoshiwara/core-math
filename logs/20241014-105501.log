@@ -1,0 +1,554 @@
+INFO    : PreTeXt-CLI version: 2.6.1
+
+INFO    : PreTeXt project found in `C:\Users\byosh\core-math`.
+WARNING : Using CLI version 2.6.1 but project's `requirements.txt`
+WARNING : is configured to use 1.5.1. Consider either installing
+WARNING : CLI version 1.5.1 or running `pretext init --refresh`
+WARNING : to update `requirements.txt` to match 2.6.1.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : converting latex-image pictures from C:\Users\byosh\core-math\source\main.ptx to svg graphics for placement in C:\Users\byosh\core-math\generated-assets\latex-image
+INFO    : extracting latex-image pictures from C:\Users\byosh\core-math\source\main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'C:/Users/byosh/core-math/publication/publication.ptx'}
+INFO    : discovering source file's directory name: C:\Users\byosh\core-math\source
+INFO    : verifying and expanding input directory: C:\Users\byosh\core-math\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\byosh\core-math\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\byosh\core-math\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\byosh\core-math\assets
+INFO    : XSL conversion of C:\Users\byosh\core-math\source\main.ptx by C:\Users\byosh\.ptx\2.6.1\core\xsl\extract-latex-image.xsl
+INFO    : successful application of C:\Users\byosh\.ptx\2.6.1\core\xsl\extract-latex-image.xsl
+INFO    : converting activityangles.tex to activityangles.pdf
+INFO    : cropping activityangles.pdf to cropped-activityangles.pdf
+INFO    : renaming cropped-activityangles.pdf to activityangles.pdf
+INFO    : converting activityangles.pdf to activityangles.svg
+INFO    : converting Acute-angles.tex to Acute-angles.pdf
+INFO    : cropping Acute-angles.pdf to cropped-Acute-angles.pdf
+INFO    : renaming cropped-Acute-angles.pdf to Acute-angles.pdf
+INFO    : converting Acute-angles.pdf to Acute-angles.svg
+INFO    : converting acutetris.tex to acutetris.pdf
+INFO    : cropping acutetris.pdf to cropped-acutetris.pdf
+INFO    : renaming cropped-acutetris.pdf to acutetris.pdf
+INFO    : converting acutetris.pdf to acutetris.svg
+INFO    : converting Add-unlike-fractions.tex to Add-unlike-fractions.pdf
+INFO    : cropping Add-unlike-fractions.pdf to cropped-Add-unlike-fractions.pdf
+INFO    : renaming cropped-Add-unlike-fractions.pdf to Add-unlike-fractions.pdf
+INFO    : converting Add-unlike-fractions.pdf to Add-unlike-fractions.svg
+INFO    : converting Angle40-deg.tex to Angle40-deg.pdf
+INFO    : cropping Angle40-deg.pdf to cropped-Angle40-deg.pdf
+INFO    : renaming cropped-Angle40-deg.pdf to Angle40-deg.pdf
+INFO    : converting Angle40-deg.pdf to Angle40-deg.svg
+INFO    : converting angles.tex to angles.pdf
+INFO    : cropping angles.pdf to cropped-angles.pdf
+INFO    : renaming cropped-angles.pdf to angles.pdf
+INFO    : converting angles.pdf to angles.svg
+INFO    : converting anglesAandB.tex to anglesAandB.pdf
+INFO    : cropping anglesAandB.pdf to cropped-anglesAandB.pdf
+INFO    : renaming cropped-anglesAandB.pdf to anglesAandB.pdf
+INFO    : converting anglesAandB.pdf to anglesAandB.svg
+INFO    : converting atri.tex to atri.pdf
+INFO    : cropping atri.pdf to cropped-atri.pdf
+INFO    : renaming cropped-atri.pdf to atri.pdf
+INFO    : converting atri.pdf to atri.svg
+INFO    : converting box-3by5by8.tex to box-3by5by8.pdf
+INFO    : cropping box-3by5by8.pdf to cropped-box-3by5by8.pdf
+INFO    : renaming cropped-box-3by5by8.pdf to box-3by5by8.pdf
+INFO    : converting box-3by5by8.pdf to box-3by5by8.svg
+INFO    : converting box-3by8by6.tex to box-3by8by6.pdf
+INFO    : cropping box-3by8by6.pdf to cropped-box-3by8by6.pdf
+INFO    : renaming cropped-box-3by8by6.pdf to box-3by8by6.pdf
+INFO    : converting box-3by8by6.pdf to box-3by8by6.svg
+INFO    : converting btri.tex to btri.pdf
+INFO    : cropping btri.pdf to cropped-btri.pdf
+INFO    : renaming cropped-btri.pdf to btri.pdf
+INFO    : converting btri.pdf to btri.svg
+INFO    : converting clockangle.tex to clockangle.pdf
+INFO    : cropping clockangle.pdf to cropped-clockangle.pdf
+INFO    : renaming cropped-clockangle.pdf to clockangle.pdf
+INFO    : converting clockangle.pdf to clockangle.svg
+INFO    : converting clockangle2.tex to clockangle2.pdf
+INFO    : cropping clockangle2.pdf to cropped-clockangle2.pdf
+INFO    : renaming cropped-clockangle2.pdf to clockangle2.pdf
+INFO    : converting clockangle2.pdf to clockangle2.svg
+INFO    : converting ctri.tex to ctri.pdf
+INFO    : cropping ctri.pdf to cropped-ctri.pdf
+INFO    : renaming cropped-ctri.pdf to ctri.pdf
+INFO    : converting ctri.pdf to ctri.svg
+INFO    : converting decimalpoint.tex to decimalpoint.pdf
+INFO    : cropping decimalpoint.pdf to cropped-decimalpoint.pdf
+INFO    : renaming cropped-decimalpoint.pdf to decimalpoint.pdf
+INFO    : converting decimalpoint.pdf to decimalpoint.svg
+INFO    : converting dtri.tex to dtri.pdf
+INFO    : cropping dtri.pdf to cropped-dtri.pdf
+INFO    : renaming cropped-dtri.pdf to dtri.pdf
+INFO    : converting dtri.pdf to dtri.svg
+INFO    : converting earnings.tex to earnings.pdf
+INFO    : cropping earnings.pdf to cropped-earnings.pdf
+INFO    : renaming cropped-earnings.pdf to earnings.pdf
+INFO    : converting earnings.pdf to earnings.svg
+INFO    : converting equitri.tex to equitri.pdf
+INFO    : cropping equitri.pdf to cropped-equitri.pdf
+INFO    : renaming cropped-equitri.pdf to equitri.pdf
+INFO    : converting equitri.pdf to equitri.svg
+INFO    : converting etri.tex to etri.pdf
+INFO    : cropping etri.pdf to cropped-etri.pdf
+INFO    : renaming cropped-etri.pdf to etri.pdf
+INFO    : converting etri.pdf to etri.svg
+INFO    : converting exer5-5-3ans.tex to exer5-5-3ans.pdf
+INFO    : cropping exer5-5-3ans.pdf to cropped-exer5-5-3ans.pdf
+INFO    : renaming cropped-exer5-5-3ans.pdf to exer5-5-3ans.pdf
+INFO    : converting exer5-5-3ans.pdf to exer5-5-3ans.svg
+INFO    : converting Fig-nitrogen.tex to Fig-nitrogen.pdf
+INFO    : cropping Fig-nitrogen.pdf to cropped-Fig-nitrogen.pdf
+INFO    : renaming cropped-Fig-nitrogen.pdf to Fig-nitrogen.pdf
+INFO    : converting Fig-nitrogen.pdf to Fig-nitrogen.svg
+INFO    : converting findangle-a.tex to findangle-a.pdf
+INFO    : cropping findangle-a.pdf to cropped-findangle-a.pdf
+INFO    : renaming cropped-findangle-a.pdf to findangle-a.pdf
+INFO    : converting findangle-a.pdf to findangle-a.svg
+INFO    : converting findangle-b.tex to findangle-b.pdf
+INFO    : cropping findangle-b.pdf to cropped-findangle-b.pdf
+INFO    : renaming cropped-findangle-b.pdf to findangle-b.pdf
+INFO    : converting findangle-b.pdf to findangle-b.svg
+INFO    : converting findangle-c.tex to findangle-c.pdf
+INFO    : cropping findangle-c.pdf to cropped-findangle-c.pdf
+INFO    : renaming cropped-findangle-c.pdf to findangle-c.pdf
+INFO    : converting findangle-c.pdf to findangle-c.svg
+INFO    : converting findangle-d.tex to findangle-d.pdf
+INFO    : cropping findangle-d.pdf to cropped-findangle-d.pdf
+INFO    : renaming cropped-findangle-d.pdf to findangle-d.pdf
+INFO    : converting findangle-d.pdf to findangle-d.svg
+INFO    : converting Five-ThirdsdivbySixth.tex to Five-ThirdsdivbySixth.pdf
+INFO    : cropping Five-ThirdsdivbySixth.pdf to cropped-Five-ThirdsdivbySixth.pdf
+INFO    : renaming cropped-Five-ThirdsdivbySixth.pdf to Five-ThirdsdivbySixth.pdf
+INFO    : converting Five-ThirdsdivbySixth.pdf to Five-ThirdsdivbySixth.svg
+INFO    : converting Four-atri.tex to Four-atri.pdf
+INFO    : cropping Four-atri.pdf to cropped-Four-atri.pdf
+INFO    : renaming cropped-Four-atri.pdf to Four-atri.pdf
+INFO    : converting Four-atri.pdf to Four-atri.svg
+INFO    : converting Four-btri.tex to Four-btri.pdf
+INFO    : cropping Four-btri.pdf to cropped-Four-btri.pdf
+INFO    : renaming cropped-Four-btri.pdf to Four-btri.pdf
+INFO    : converting Four-btri.pdf to Four-btri.svg
+INFO    : converting Four-ctri.tex to Four-ctri.pdf
+INFO    : cropping Four-ctri.pdf to cropped-Four-ctri.pdf
+INFO    : renaming cropped-Four-ctri.pdf to Four-ctri.pdf
+INFO    : converting Four-ctri.pdf to Four-ctri.svg
+INFO    : converting Four-dtri.tex to Four-dtri.pdf
+INFO    : cropping Four-dtri.pdf to cropped-Four-dtri.pdf
+INFO    : renaming cropped-Four-dtri.pdf to Four-dtri.pdf
+INFO    : converting Four-dtri.pdf to Four-dtri.svg
+INFO    : converting Four-etri.tex to Four-etri.pdf
+INFO    : cropping Four-etri.pdf to cropped-Four-etri.pdf
+INFO    : renaming cropped-Four-etri.pdf to Four-etri.pdf
+INFO    : converting Four-etri.pdf to Four-etri.svg
+INFO    : converting Four-ftri.tex to Four-ftri.pdf
+INFO    : cropping Four-ftri.pdf to cropped-Four-ftri.pdf
+INFO    : renaming cropped-Four-ftri.pdf to Four-ftri.pdf
+INFO    : converting Four-ftri.pdf to Four-ftri.svg
+INFO    : converting FourdivbyFifth.tex to FourdivbyFifth.pdf
+INFO    : cropping FourdivbyFifth.pdf to cropped-FourdivbyFifth.pdf
+INFO    : renaming cropped-FourdivbyFifth.pdf to FourdivbyFifth.pdf
+INFO    : converting FourdivbyFifth.pdf to FourdivbyFifth.svg
+INFO    : converting FourdivbyThird.tex to FourdivbyThird.pdf
+INFO    : cropping FourdivbyThird.pdf to cropped-FourdivbyThird.pdf
+INFO    : renaming cropped-FourdivbyThird.pdf to FourdivbyThird.pdf
+INFO    : converting FourdivbyThird.pdf to FourdivbyThird.svg
+INFO    : converting foursectors.tex to foursectors.pdf
+INFO    : cropping foursectors.pdf to cropped-foursectors.pdf
+INFO    : renaming cropped-foursectors.pdf to foursectors.pdf
+INFO    : converting foursectors.pdf to foursectors.svg
+INFO    : converting ftri.tex to ftri.pdf
+INFO    : cropping ftri.pdf to cropped-ftri.pdf
+INFO    : renaming cropped-ftri.pdf to ftri.pdf
+INFO    : converting ftri.pdf to ftri.svg
+INFO    : converting grid-1-8ths.tex to grid-1-8ths.pdf
+INFO    : cropping grid-1-8ths.pdf to cropped-grid-1-8ths.pdf
+INFO    : renaming cropped-grid-1-8ths.pdf to grid-1-8ths.pdf
+INFO    : converting grid-1-8ths.pdf to grid-1-8ths.svg
+INFO    : converting grid-12-48ths.tex to grid-12-48ths.pdf
+INFO    : cropping grid-12-48ths.pdf to cropped-grid-12-48ths.pdf
+INFO    : renaming cropped-grid-12-48ths.pdf to grid-12-48ths.pdf
+INFO    : converting grid-12-48ths.pdf to grid-12-48ths.svg
+INFO    : converting grid-2-8ths.tex to grid-2-8ths.pdf
+INFO    : cropping grid-2-8ths.pdf to cropped-grid-2-8ths.pdf
+INFO    : renaming cropped-grid-2-8ths.pdf to grid-2-8ths.pdf
+INFO    : converting grid-2-8ths.pdf to grid-2-8ths.svg
+INFO    : converting grid-3-8ths.tex to grid-3-8ths.pdf
+INFO    : cropping grid-3-8ths.pdf to cropped-grid-3-8ths.pdf
+INFO    : renaming cropped-grid-3-8ths.pdf to grid-3-8ths.pdf
+INFO    : converting grid-3-8ths.pdf to grid-3-8ths.svg
+INFO    : converting grid-4-16ths.tex to grid-4-16ths.pdf
+INFO    : cropping grid-4-16ths.pdf to cropped-grid-4-16ths.pdf
+INFO    : renaming cropped-grid-4-16ths.pdf to grid-4-16ths.pdf
+INFO    : converting grid-4-16ths.pdf to grid-4-16ths.svg
+INFO    : converting grid-4-8ths.tex to grid-4-8ths.pdf
+INFO    : cropping grid-4-8ths.pdf to cropped-grid-4-8ths.pdf
+INFO    : renaming cropped-grid-4-8ths.pdf to grid-4-8ths.pdf
+INFO    : converting grid-4-8ths.pdf to grid-4-8ths.svg
+INFO    : converting grid-5-20ths.tex to grid-5-20ths.pdf
+INFO    : cropping grid-5-20ths.pdf to cropped-grid-5-20ths.pdf
+INFO    : renaming cropped-grid-5-20ths.pdf to grid-5-20ths.pdf
+INFO    : converting grid-5-20ths.pdf to grid-5-20ths.svg
+INFO    : converting grid-5-8ths.tex to grid-5-8ths.pdf
+INFO    : cropping grid-5-8ths.pdf to cropped-grid-5-8ths.pdf
+INFO    : renaming cropped-grid-5-8ths.pdf to grid-5-8ths.pdf
+INFO    : converting grid-5-8ths.pdf to grid-5-8ths.svg
+INFO    : converting grid-6-24ths.tex to grid-6-24ths.pdf
+INFO    : cropping grid-6-24ths.pdf to cropped-grid-6-24ths.pdf
+INFO    : renaming cropped-grid-6-24ths.pdf to grid-6-24ths.pdf
+INFO    : converting grid-6-24ths.pdf to grid-6-24ths.svg
+INFO    : converting grid-6-8ths.tex to grid-6-8ths.pdf
+INFO    : cropping grid-6-8ths.pdf to cropped-grid-6-8ths.pdf
+INFO    : renaming cropped-grid-6-8ths.pdf to grid-6-8ths.pdf
+INFO    : converting grid-6-8ths.pdf to grid-6-8ths.svg
+INFO    : converting grid-7-8ths.tex to grid-7-8ths.pdf
+INFO    : cropping grid-7-8ths.pdf to cropped-grid-7-8ths.pdf
+INFO    : renaming cropped-grid-7-8ths.pdf to grid-7-8ths.pdf
+INFO    : converting grid-7-8ths.pdf to grid-7-8ths.svg
+INFO    : converting grid-8-8ths.tex to grid-8-8ths.pdf
+INFO    : cropping grid-8-8ths.pdf to cropped-grid-8-8ths.pdf
+INFO    : renaming cropped-grid-8-8ths.pdf to grid-8-8ths.pdf
+INFO    : converting grid-8-8ths.pdf to grid-8-8ths.svg
+INFO    : converting grid2by4.tex to grid2by4.pdf
+INFO    : cropping grid2by4.pdf to cropped-grid2by4.pdf
+INFO    : renaming cropped-grid2by4.pdf to grid2by4.pdf
+INFO    : converting grid2by4.pdf to grid2by4.svg
+INFO    : converting grid3by3.tex to grid3by3.pdf
+INFO    : cropping grid3by3.pdf to cropped-grid3by3.pdf
+INFO    : renaming cropped-grid3by3.pdf to grid3by3.pdf
+INFO    : converting grid3by3.pdf to grid3by3.svg
+INFO    : converting grid4by3.tex to grid4by3.pdf
+INFO    : cropping grid4by3.pdf to cropped-grid4by3.pdf
+INFO    : renaming cropped-grid4by3.pdf to grid4by3.pdf
+INFO    : converting grid4by3.pdf to grid4by3.svg
+INFO    : converting grid8by4.tex to grid8by4.pdf
+INFO    : cropping grid8by4.pdf to cropped-grid8by4.pdf
+INFO    : renaming cropped-grid8by4.pdf to grid8by4.pdf
+INFO    : converting grid8by4.pdf to grid8by4.svg
+INFO    : converting hp-1-4-17.tex to hp-1-4-17.pdf
+INFO    : cropping hp-1-4-17.pdf to cropped-hp-1-4-17.pdf
+INFO    : renaming cropped-hp-1-4-17.pdf to hp-1-4-17.pdf
+INFO    : converting hp-1-4-17.pdf to hp-1-4-17.svg
+INFO    : converting hp-1-4-18.tex to hp-1-4-18.pdf
+INFO    : cropping hp-1-4-18.pdf to cropped-hp-1-4-18.pdf
+INFO    : renaming cropped-hp-1-4-18.pdf to hp-1-4-18.pdf
+INFO    : converting hp-1-4-18.pdf to hp-1-4-18.svg
+INFO    : converting hp-1-4-19.tex to hp-1-4-19.pdf
+INFO    : cropping hp-1-4-19.pdf to cropped-hp-1-4-19.pdf
+INFO    : renaming cropped-hp-1-4-19.pdf to hp-1-4-19.pdf
+INFO    : converting hp-1-4-19.pdf to hp-1-4-19.svg
+INFO    : converting hp-1-4-20.tex to hp-1-4-20.pdf
+INFO    : cropping hp-1-4-20.pdf to cropped-hp-1-4-20.pdf
+INFO    : renaming cropped-hp-1-4-20.pdf to hp-1-4-20.pdf
+INFO    : converting hp-1-4-20.pdf to hp-1-4-20.svg
+INFO    : converting hp-1-4-21.tex to hp-1-4-21.pdf
+INFO    : cropping hp-1-4-21.pdf to cropped-hp-1-4-21.pdf
+INFO    : renaming cropped-hp-1-4-21.pdf to hp-1-4-21.pdf
+INFO    : converting hp-1-4-21.pdf to hp-1-4-21.svg
+INFO    : converting hp-1-4-22.tex to hp-1-4-22.pdf
+INFO    : cropping hp-1-4-22.pdf to cropped-hp-1-4-22.pdf
+INFO    : renaming cropped-hp-1-4-22.pdf to hp-1-4-22.pdf
+INFO    : converting hp-1-4-22.pdf to hp-1-4-22.svg
+INFO    : converting hp-1-4-25.tex to hp-1-4-25.pdf
+INFO    : cropping hp-1-4-25.pdf to cropped-hp-1-4-25.pdf
+INFO    : renaming cropped-hp-1-4-25.pdf to hp-1-4-25.pdf
+INFO    : converting hp-1-4-25.pdf to hp-1-4-25.svg
+INFO    : converting hp-1-4-26.tex to hp-1-4-26.pdf
+INFO    : cropping hp-1-4-26.pdf to cropped-hp-1-4-26.pdf
+INFO    : renaming cropped-hp-1-4-26.pdf to hp-1-4-26.pdf
+INFO    : converting hp-1-4-26.pdf to hp-1-4-26.svg
+INFO    : converting hp-1-4-27.tex to hp-1-4-27.pdf
+INFO    : cropping hp-1-4-27.pdf to cropped-hp-1-4-27.pdf
+INFO    : renaming cropped-hp-1-4-27.pdf to hp-1-4-27.pdf
+INFO    : converting hp-1-4-27.pdf to hp-1-4-27.svg
+INFO    : converting hp-1-4-28.tex to hp-1-4-28.pdf
+INFO    : cropping hp-1-4-28.pdf to cropped-hp-1-4-28.pdf
+INFO    : renaming cropped-hp-1-4-28.pdf to hp-1-4-28.pdf
+INFO    : converting hp-1-4-28.pdf to hp-1-4-28.svg
+INFO    : converting hp-1-4-29.tex to hp-1-4-29.pdf
+INFO    : cropping hp-1-4-29.pdf to cropped-hp-1-4-29.pdf
+INFO    : renaming cropped-hp-1-4-29.pdf to hp-1-4-29.pdf
+INFO    : converting hp-1-4-29.pdf to hp-1-4-29.svg
+INFO    : converting hp-1-4-30.tex to hp-1-4-30.pdf
+INFO    : cropping hp-1-4-30.pdf to cropped-hp-1-4-30.pdf
+INFO    : renaming cropped-hp-1-4-30.pdf to hp-1-4-30.pdf
+INFO    : converting hp-1-4-30.pdf to hp-1-4-30.svg
+INFO    : converting hp-1-4-31.tex to hp-1-4-31.pdf
+INFO    : cropping hp-1-4-31.pdf to cropped-hp-1-4-31.pdf
+INFO    : renaming cropped-hp-1-4-31.pdf to hp-1-4-31.pdf
+INFO    : converting hp-1-4-31.pdf to hp-1-4-31.svg
+INFO    : converting hp-1-4-32.tex to hp-1-4-32.pdf
+INFO    : cropping hp-1-4-32.pdf to cropped-hp-1-4-32.pdf
+INFO    : renaming cropped-hp-1-4-32.pdf to hp-1-4-32.pdf
+INFO    : converting hp-1-4-32.pdf to hp-1-4-32.svg
+INFO    : converting hp-1-4-33.tex to hp-1-4-33.pdf
+INFO    : cropping hp-1-4-33.pdf to cropped-hp-1-4-33.pdf
+INFO    : renaming cropped-hp-1-4-33.pdf to hp-1-4-33.pdf
+INFO    : converting hp-1-4-33.pdf to hp-1-4-33.svg
+INFO    : converting hp-1-4-34.tex to hp-1-4-34.pdf
+INFO    : cropping hp-1-4-34.pdf to cropped-hp-1-4-34.pdf
+INFO    : renaming cropped-hp-1-4-34.pdf to hp-1-4-34.pdf
+INFO    : converting hp-1-4-34.pdf to hp-1-4-34.svg
+INFO    : converting hp-1-4-35.tex to hp-1-4-35.pdf
+INFO    : cropping hp-1-4-35.pdf to cropped-hp-1-4-35.pdf
+INFO    : renaming cropped-hp-1-4-35.pdf to hp-1-4-35.pdf
+INFO    : converting hp-1-4-35.pdf to hp-1-4-35.svg
+INFO    : converting hp-1-4-36.tex to hp-1-4-36.pdf
+INFO    : cropping hp-1-4-36.pdf to cropped-hp-1-4-36.pdf
+INFO    : renaming cropped-hp-1-4-36.pdf to hp-1-4-36.pdf
+INFO    : converting hp-1-4-36.pdf to hp-1-4-36.svg
+INFO    : converting hp-1-4-37.tex to hp-1-4-37.pdf
+INFO    : cropping hp-1-4-37.pdf to cropped-hp-1-4-37.pdf
+INFO    : renaming cropped-hp-1-4-37.pdf to hp-1-4-37.pdf
+INFO    : converting hp-1-4-37.pdf to hp-1-4-37.svg
+INFO    : converting hp-1-4-38.tex to hp-1-4-38.pdf
+INFO    : cropping hp-1-4-38.pdf to cropped-hp-1-4-38.pdf
+INFO    : renaming cropped-hp-1-4-38.pdf to hp-1-4-38.pdf
+INFO    : converting hp-1-4-38.pdf to hp-1-4-38.svg
+INFO    : converting hp-1-4-39.tex to hp-1-4-39.pdf
+INFO    : cropping hp-1-4-39.pdf to cropped-hp-1-4-39.pdf
+INFO    : renaming cropped-hp-1-4-39.pdf to hp-1-4-39.pdf
+INFO    : converting hp-1-4-39.pdf to hp-1-4-39.svg
+INFO    : converting hp-1-4-40.tex to hp-1-4-40.pdf
+INFO    : cropping hp-1-4-40.pdf to cropped-hp-1-4-40.pdf
+INFO    : renaming cropped-hp-1-4-40.pdf to hp-1-4-40.pdf
+INFO    : converting hp-1-4-40.pdf to hp-1-4-40.svg
+INFO    : converting hp-1-4-46.tex to hp-1-4-46.pdf
+INFO    : cropping hp-1-4-46.pdf to cropped-hp-1-4-46.pdf
+INFO    : renaming cropped-hp-1-4-46.pdf to hp-1-4-46.pdf
+INFO    : converting hp-1-4-46.pdf to hp-1-4-46.svg
+INFO    : converting hp2-sum-35.tex to hp2-sum-35.pdf
+INFO    : cropping hp2-sum-35.pdf to cropped-hp2-sum-35.pdf
+INFO    : renaming cropped-hp2-sum-35.pdf to hp2-sum-35.pdf
+INFO    : converting hp2-sum-35.pdf to hp2-sum-35.svg
+INFO    : converting ineqtri.tex to ineqtri.pdf
+INFO    : cropping ineqtri.pdf to cropped-ineqtri.pdf
+INFO    : renaming cropped-ineqtri.pdf to ineqtri.pdf
+INFO    : converting ineqtri.pdf to ineqtri.svg
+INFO    : converting isostri.tex to isostri.pdf
+INFO    : cropping isostri.pdf to cropped-isostri.pdf
+INFO    : renaming cropped-isostri.pdf to isostri.pdf
+INFO    : converting isostri.pdf to isostri.svg
+INFO    : converting kindsofangles.tex to kindsofangles.pdf
+INFO    : cropping kindsofangles.pdf to cropped-kindsofangles.pdf
+INFO    : renaming cropped-kindsofangles.pdf to kindsofangles.pdf
+INFO    : converting kindsofangles.pdf to kindsofangles.svg
+INFO    : converting neg160to0.tex to neg160to0.pdf
+INFO    : cropping neg160to0.pdf to cropped-neg160to0.pdf
+INFO    : renaming cropped-neg160to0.pdf to neg160to0.pdf
+INFO    : converting neg160to0.pdf to neg160to0.svg
+INFO    : converting neg500to500.tex to neg500to500.pdf
+INFO    : cropping neg500to500.pdf to cropped-neg500to500.pdf
+INFO    : renaming cropped-neg500to500.pdf to neg500to500.pdf
+INFO    : converting neg500to500.pdf to neg500to500.svg
+INFO    : converting numberline16-frac.tex to numberline16-frac.pdf
+INFO    : cropping numberline16-frac.pdf to cropped-numberline16-frac.pdf
+INFO    : renaming cropped-numberline16-frac.pdf to numberline16-frac.pdf
+INFO    : converting numberline16-frac.pdf to numberline16-frac.svg
+INFO    : converting numberline20-frac.tex to numberline20-frac.pdf
+INFO    : cropping numberline20-frac.pdf to cropped-numberline20-frac.pdf
+INFO    : renaming cropped-numberline20-frac.pdf to numberline20-frac.pdf
+INFO    : converting numberline20-frac.pdf to numberline20-frac.svg
+INFO    : converting numberline24-frac.tex to numberline24-frac.pdf
+INFO    : cropping numberline24-frac.pdf to cropped-numberline24-frac.pdf
+INFO    : renaming cropped-numberline24-frac.pdf to numberline24-frac.pdf
+INFO    : converting numberline24-frac.pdf to numberline24-frac.svg
+INFO    : converting numberline36-frac.tex to numberline36-frac.pdf
+INFO    : cropping numberline36-frac.pdf to cropped-numberline36-frac.pdf
+INFO    : renaming cropped-numberline36-frac.pdf to numberline36-frac.pdf
+INFO    : converting numberline36-frac.pdf to numberline36-frac.svg
+INFO    : converting numberline36-in.tex to numberline36-in.pdf
+INFO    : cropping numberline36-in.pdf to cropped-numberline36-in.pdf
+INFO    : renaming cropped-numberline36-in.pdf to numberline36-in.pdf
+INFO    : converting numberline36-in.pdf to numberline36-in.svg
+INFO    : converting numberline8-frac.tex to numberline8-frac.pdf
+INFO    : cropping numberline8-frac.pdf to cropped-numberline8-frac.pdf
+INFO    : renaming cropped-numberline8-frac.pdf to numberline8-frac.pdf
+INFO    : converting numberline8-frac.pdf to numberline8-frac.svg
+INFO    : converting numberlineNeg3to3.tex to numberlineNeg3to3.pdf
+INFO    : cropping numberlineNeg3to3.pdf to cropped-numberlineNeg3to3.pdf
+INFO    : renaming cropped-numberlineNeg3to3.pdf to numberlineNeg3to3.pdf
+INFO    : converting numberlineNeg3to3.pdf to numberlineNeg3to3.svg
+INFO    : converting numberlineNeg3to3with3points.tex to numberlineNeg3to3with3points.pdf
+INFO    : cropping numberlineNeg3to3with3points.pdf to cropped-numberlineNeg3to3with3points.pdf
+INFO    : renaming cropped-numberlineNeg3to3with3points.pdf to numberlineNeg3to3with3points.pdf
+INFO    : converting numberlineNeg3to3with3points.pdf to numberlineNeg3to3with3points.svg
+INFO    : converting numberlinetenths-with-fifths.tex to numberlinetenths-with-fifths.pdf
+INFO    : cropping numberlinetenths-with-fifths.pdf to cropped-numberlinetenths-with-fifths.pdf
+INFO    : renaming cropped-numberlinetenths-with-fifths.pdf to numberlinetenths-with-fifths.pdf
+INFO    : converting numberlinetenths-with-fifths.pdf to numberlinetenths-with-fifths.svg
+INFO    : converting numberlinetenths-with-fourths.tex to numberlinetenths-with-fourths.pdf
+INFO    : cropping numberlinetenths-with-fourths.pdf to cropped-numberlinetenths-with-fourths.pdf
+INFO    : renaming cropped-numberlinetenths-with-fourths.pdf to numberlinetenths-with-fourths.pdf
+INFO    : converting numberlinetenths-with-fourths.pdf to numberlinetenths-with-fourths.svg
+INFO    : converting numberlinetenths.tex to numberlinetenths.pdf
+INFO    : cropping numberlinetenths.pdf to cropped-numberlinetenths.pdf
+INFO    : renaming cropped-numberlinetenths.pdf to numberlinetenths.pdf
+INFO    : converting numberlinetenths.pdf to numberlinetenths.svg
+INFO    : converting Obtuse-angles.tex to Obtuse-angles.pdf
+INFO    : cropping Obtuse-angles.pdf to cropped-Obtuse-angles.pdf
+INFO    : renaming cropped-Obtuse-angles.pdf to Obtuse-angles.pdf
+INFO    : converting Obtuse-angles.pdf to Obtuse-angles.svg
+INFO    : converting obtusetris.tex to obtusetris.pdf
+INFO    : cropping obtusetris.pdf to cropped-obtusetris.pdf
+INFO    : renaming cropped-obtusetris.pdf to obtusetris.pdf
+INFO    : converting obtusetris.pdf to obtusetris.svg
+INFO    : converting Protractor.tex to Protractor.pdf
+INFO    : cropping Protractor.pdf to cropped-Protractor.pdf
+INFO    : renaming cropped-Protractor.pdf to Protractor.pdf
+INFO    : converting Protractor.pdf to Protractor.svg
+INFO    : converting protractor135.tex to protractor135.pdf
+INFO    : cropping protractor135.pdf to cropped-protractor135.pdf
+INFO    : renaming cropped-protractor135.pdf to protractor135.pdf
+INFO    : converting protractor135.pdf to protractor135.svg
+INFO    : converting protractor40.tex to protractor40.pdf
+INFO    : cropping protractor40.pdf to cropped-protractor40.pdf
+INFO    : renaming cropped-protractor40.pdf to protractor40.pdf
+INFO    : converting protractor40.pdf to protractor40.svg
+INFO    : converting pttwofive-to-pttwosix-with-decimals.tex to pttwofive-to-pttwosix-with-decimals.pdf
+INFO    : cropping pttwofive-to-pttwosix-with-decimals.pdf to cropped-pttwofive-to-pttwosix-with-decimals.pdf
+INFO    : renaming cropped-pttwofive-to-pttwosix-with-decimals.pdf to pttwofive-to-pttwosix-with-decimals.pdf
+INFO    : converting pttwofive-to-pttwosix-with-decimals.pdf to pttwofive-to-pttwosix-with-decimals.svg
+INFO    : converting rightstraight.tex to rightstraight.pdf
+INFO    : cropping rightstraight.pdf to cropped-rightstraight.pdf
+INFO    : renaming cropped-rightstraight.pdf to rightstraight.pdf
+INFO    : converting rightstraight.pdf to rightstraight.svg
+INFO    : converting righttris.tex to righttris.pdf
+INFO    : cropping righttris.pdf to cropped-righttris.pdf
+INFO    : renaming cropped-righttris.pdf to righttris.pdf
+INFO    : converting righttris.pdf to righttris.svg
+INFO    : converting roundhund.tex to roundhund.pdf
+INFO    : cropping roundhund.pdf to cropped-roundhund.pdf
+INFO    : renaming cropped-roundhund.pdf to roundhund.pdf
+INFO    : converting roundhund.pdf to roundhund.svg
+INFO    : converting scaltri.tex to scaltri.pdf
+INFO    : cropping scaltri.pdf to cropped-scaltri.pdf
+INFO    : renaming cropped-scaltri.pdf to scaltri.pdf
+INFO    : converting scaltri.pdf to scaltri.svg
+INFO    : converting sidestri.tex to sidestri.pdf
+INFO    : cropping sidestri.pdf to cropped-sidestri.pdf
+INFO    : renaming cropped-sidestri.pdf to sidestri.pdf
+INFO    : converting sidestri.pdf to sidestri.svg
+INFO    : converting sixsectors.tex to sixsectors.pdf
+INFO    : cropping sixsectors.pdf to cropped-sixsectors.pdf
+INFO    : renaming cropped-sixsectors.pdf to sixsectors.pdf
+INFO    : converting sixsectors.pdf to sixsectors.svg
+INFO    : converting TenHalvesdivbyEighth.tex to TenHalvesdivbyEighth.pdf
+INFO    : cropping TenHalvesdivbyEighth.pdf to cropped-TenHalvesdivbyEighth.pdf
+INFO    : renaming cropped-TenHalvesdivbyEighth.pdf to TenHalvesdivbyEighth.pdf
+INFO    : converting TenHalvesdivbyEighth.pdf to TenHalvesdivbyEighth.svg
+INFO    : converting Thermometer.tex to Thermometer.pdf
+INFO    : cropping Thermometer.pdf to cropped-Thermometer.pdf
+INFO    : renaming cropped-Thermometer.pdf to Thermometer.pdf
+INFO    : converting Thermometer.pdf to Thermometer.svg
+INFO    : converting Thermometer5toMinus6.tex to Thermometer5toMinus6.pdf
+INFO    : cropping Thermometer5toMinus6.pdf to cropped-Thermometer5toMinus6.pdf
+INFO    : renaming cropped-Thermometer5toMinus6.pdf to Thermometer5toMinus6.pdf
+INFO    : converting Thermometer5toMinus6.pdf to Thermometer5toMinus6.svg
+INFO    : converting ThermometerMinus4.tex to ThermometerMinus4.pdf
+INFO    : cropping ThermometerMinus4.pdf to cropped-ThermometerMinus4.pdf
+INFO    : renaming cropped-ThermometerMinus4.pdf to ThermometerMinus4.pdf
+INFO    : converting ThermometerMinus4.pdf to ThermometerMinus4.svg
+INFO    : converting ThermometerMinus5.tex to ThermometerMinus5.pdf
+INFO    : cropping ThermometerMinus5.pdf to cropped-ThermometerMinus5.pdf
+INFO    : renaming cropped-ThermometerMinus5.pdf to ThermometerMinus5.pdf
+INFO    : converting ThermometerMinus5.pdf to ThermometerMinus5.svg
+INFO    : converting ThermometerNeg8.tex to ThermometerNeg8.pdf
+INFO    : cropping ThermometerNeg8.pdf to cropped-ThermometerNeg8.pdf
+INFO    : renaming cropped-ThermometerNeg8.pdf to ThermometerNeg8.pdf
+INFO    : converting ThermometerNeg8.pdf to ThermometerNeg8.svg
+INFO    : converting Thermometerpos5.tex to Thermometerpos5.pdf
+INFO    : cropping Thermometerpos5.pdf to cropped-Thermometerpos5.pdf
+INFO    : renaming cropped-Thermometerpos5.pdf to Thermometerpos5.pdf
+INFO    : converting Thermometerpos5.pdf to Thermometerpos5.svg
+INFO    : converting thirty-deg-angles.tex to thirty-deg-angles.pdf
+INFO    : cropping thirty-deg-angles.pdf to cropped-thirty-deg-angles.pdf
+INFO    : renaming cropped-thirty-deg-angles.pdf to thirty-deg-angles.pdf
+INFO    : converting thirty-deg-angles.pdf to thirty-deg-angles.svg
+INFO    : converting ThreeHalvesdivbyFourth.tex to ThreeHalvesdivbyFourth.pdf
+INFO    : cropping ThreeHalvesdivbyFourth.pdf to cropped-ThreeHalvesdivbyFourth.pdf
+INFO    : renaming cropped-ThreeHalvesdivbyFourth.pdf to ThreeHalvesdivbyFourth.pdf
+INFO    : converting ThreeHalvesdivbyFourth.pdf to ThreeHalvesdivbyFourth.svg
+INFO    : converting tri120deg.tex to tri120deg.pdf
+INFO    : cropping tri120deg.pdf to cropped-tri120deg.pdf
+INFO    : renaming cropped-tri120deg.pdf to tri120deg.pdf
+INFO    : converting tri120deg.pdf to tri120deg.svg
+INFO    : converting tri38deg.tex to tri38deg.pdf
+INFO    : cropping tri38deg.pdf to cropped-tri38deg.pdf
+INFO    : renaming cropped-tri38deg.pdf to tri38deg.pdf
+INFO    : converting tri38deg.pdf to tri38deg.svg
+INFO    : converting triangle-3-4-5.tex to triangle-3-4-5.pdf
+INFO    : cropping triangle-3-4-5.pdf to cropped-triangle-3-4-5.pdf
+INFO    : renaming cropped-triangle-3-4-5.pdf to triangle-3-4-5.pdf
+INFO    : converting triangle-3-4-5.pdf to triangle-3-4-5.svg
+INFO    : converting triangle-8-15-17.tex to triangle-8-15-17.pdf
+INFO    : cropping triangle-8-15-17.pdf to cropped-triangle-8-15-17.pdf
+INFO    : renaming cropped-triangle-8-15-17.pdf to triangle-8-15-17.pdf
+INFO    : converting triangle-8-15-17.pdf to triangle-8-15-17.svg
+INFO    : converting Tuition.tex to Tuition.pdf
+INFO    : cropping Tuition.pdf to cropped-Tuition.pdf
+INFO    : renaming cropped-Tuition.pdf to Tuition.pdf
+INFO    : converting Tuition.pdf to Tuition.svg
+INFO    : converting vertexangle.tex to vertexangle.pdf
+INFO    : cropping vertexangle.pdf to cropped-vertexangle.pdf
+INFO    : renaming cropped-vertexangle.pdf to vertexangle.pdf
+INFO    : converting vertexangle.pdf to vertexangle.svg
+INFO    : converting zerotoone-with-decimals.tex to zerotoone-with-decimals.pdf
+INFO    : cropping zerotoone-with-decimals.pdf to cropped-zerotoone-with-decimals.pdf
+INFO    : renaming cropped-zerotoone-with-decimals.pdf to zerotoone-with-decimals.pdf
+INFO    : converting zerotoone-with-decimals.pdf to zerotoone-with-decimals.svg
+INFO    : converting zerotoone.tex to zerotoone.pdf
+INFO    : cropping zerotoone.pdf to cropped-zerotoone.pdf
+INFO    : renaming cropped-zerotoone.pdf to zerotoone.pdf
+INFO    : converting zerotoone.pdf to zerotoone.svg
+INFO    : Removing temporary directory C:\Users\byosh\AppData\Local\Temp\ptx-m3f2ncji
+INFO    : Preparing to build into C:\Users\byosh\core-math\output\html.
+INFO    : discovering source file's directory name: C:\Users\byosh\core-math\source
+INFO    : verifying and expanding input directory: C:\Users\byosh\core-math\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\byosh\core-math\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\byosh\core-math\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\byosh\core-math\assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.3.3
+INFO    : Runestone Services (using newer, via online CDN query): version 7.4.3
+INFO    : Downloading Runestone Services, version 7.4.3
+INFO    : Extracting Runestone Services from archive file
+INFO    : converting C:\Users\byosh\core-math\source\main.ptx to HTML in C:\Users\byosh\AppData\Local\Temp\ptx-ocikbbzf
+INFO    : XSL conversion of C:\Users\byosh\core-math\source\main.ptx by C:\Users\byosh\.ptx\2.6.1\core\xsl\pretext-html.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:ERROR:   a <tabular> has at least one paragraph (<p>) inside a <cell>, yet there are no <col> elements with a @width attribute.  Default widths will be supplied.
+INFO    : *              located within: "prac-7-4" (xml:id), "Practice 7-4" (title)
+ERROR   : * PTX:ERROR:   a <tabular> has at least one paragraph (<p>) inside a <cell>, yet there are no <col> elements with a @width attribute.  Default widths will be supplied.
+INFO    : *              located within: "prac-7-4" (xml:id), "Practice 7-4" (title)
+WARNING : * PTX:DEPRECATE: (2023-10-17) the "docinfo/latex-preamble/package" element has been replaced by a "docinfo/math-package" element with "@latex-name" and "@mathjax-name" attributes.  Both attributes are required, but may be different, identical, or empty.  Note too that "latex-preamble" is no longer used for anything.  Until adjusted, we will honor your intent. (1 time)
+INFO    : * --------------
+WARNING : * PTX:DEPRECATE: (2023-10-17) the "docinfo/latex-preamble" element no longer has a purpose.  Remove the element and adjust any contained "package" elements.  Then this warning will cease. (1 time)
+INFO    : * --------------
+ERROR   : * PTX:ERROR:   a cross-reference ("xref") uses references [triangles] that do not point to any target, or perhaps point to multiple targets.  Maybe you typed an @xml:id value wrong, maybe the target of the @xml:id is nonexistent, or maybe you temporarily removed the target from your source, or maybe an auxiliary file contains a duplicate.  Your output will contain some placeholder text that you will not want to distribute to your readers.
+INFO    : *              located within: "Similar Figures" (title)
+WARNING : * PTX:WARNING: a <sidebyside> or <sbsgroup> has extra "@valigns" (did you confuse singular and plural attribute names?)
+INFO    : *              located within: "prac-7-4" (xml:id), "Practice 7-4" (title)
+WARNING : * PTX:WARNING: a <sidebyside> or <sbsgroup> has extra "@valigns" (did you confuse singular and plural attribute names?)
+INFO    : *              located within: "prac-7-4" (xml:id), "Practice 7-4" (title)
+WARNING : * PTX:WARNING: a <sidebyside> or <sbsgroup> has extra "@valigns" (did you confuse singular and plural attribute names?)
+INFO    : *              located within: "prac-7-4" (xml:id), "Practice 7-4" (title)
+WARNING : * PTX:WARNING: a <sidebyside> or <sbsgroup> has extra "@valigns" (did you confuse singular and plural attribute names?)
+INFO    : *              located within: "prac-7-4" (xml:id), "Practice 7-4" (title)
+WARNING : * PTX:WARNING: a <sidebyside> or <sbsgroup> has extra "@valigns" (did you confuse singular and plural attribute names?)
+INFO    : *              located within: "prac-7-4" (xml:id), "Practice 7-4" (title)
+WARNING : * PTX:WARNING: a <sidebyside> or <sbsgroup> has extra "@valigns" (did you confuse singular and plural attribute names?)
+INFO    : *              located within: "prac-7-4" (xml:id), "Practice 7-4" (title)
+WARNING : * PTX:WARNING: a <sidebyside> or <sbsgroup> has extra "@valigns" (did you confuse singular and plural attribute names?)
+INFO    : *              located within: "prac-7-4" (xml:id), "Practice 7-4" (title)
+WARNING : * PTX:WARNING: a <sidebyside> or <sbsgroup> has extra "@valigns" (did you confuse singular and plural attribute names?)
+INFO    : *              located within: "prac-7-4" (xml:id), "Practice 7-4" (title)
+INFO    : successful application of C:\Users\byosh\.ptx\2.6.1\core\xsl\pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

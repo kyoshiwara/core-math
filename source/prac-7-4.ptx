@@ -486,7 +486,7 @@
   <li><p>Write an equation expressing <m>y</m> in terms of <m>x</m>.</p></li>
   <li><p>Complete the table and graph your equation.</p>
 
-  <sidebyside widths="30% 60%" valign="middle middle" margins="5% 5%">
+  <sidebyside widths="30% 60%" valigns="middle middle" margins="5% 5%">
     <p><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
         <row bottom="minor" header="yes">
             <cell><m>~x~</m></cell>
@@ -516,7 +516,7 @@
   <li><p>Write an equation expressing <m>y</m> in terms of <m>x</m>.</p></li>
   <li><p>Complete the table and graph your equation.</p>
 
-  <sidebyside widths="30% 50%" valign="middle middle" margins="10% 10%">
+  <sidebyside widths="30% 50%" valigns="middle middle" margins="10% 10%">
     <p><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
         <row bottom="minor" header="yes">
             <cell><m>~x~</m></cell>
@@ -539,7 +539,7 @@
   <me>F=1.8C+32</me></p>
 <p><ol marker="a">
   <li><p>Graph the equation.</p>
-      <sidebyside widths="30% 40%" valign="middle middle" margins="10% 10%">
+      <sidebyside widths="30% 40%" valigns="middle middle" margins="10% 10%">
         <p><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
         <row bottom="minor" header="yes">
             <cell><m>~C~</m></cell>
@@ -569,7 +569,7 @@
   where <m>h</m> is your elevation in Kaldorian feet, and <m>T</m> is the temperature in Kaldorian degrees. </p>
 <p><ol marker="a"> 
 <li><p>Graph the equation.</p>
-      <sidebyside widths="30% 45%" valign="middle middle" margins="10% 10%">
+      <sidebyside widths="30% 45%" valigns="middle middle" margins="10% 10%">
         <p><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
         <row bottom="minor" header="yes">
             <cell><m>~h~</m></cell>
@@ -593,7 +593,7 @@
   <p><ol marker="a">
   <li><p>Write an equation expressing <m>y</m> in terms of <m>x</m>.</p></li>
   <li><p>Complete the table and graph your equation.</p>
-  <sidebyside widths="30% 55%" valign="middle middle" margins="10% 5%">
+  <sidebyside widths="30% 55%" valigns="middle middle" margins="10% 5%">
     <p><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
         <row bottom="minor" header="yes">
             <cell><m>~x~</m></cell>
@@ -623,7 +623,7 @@
 <p><ol marker="a">
   <li><p>Write an equation expressing <m>y</m> in terms of <m>x</m>.</p></li>
   <li><p>Complete the table and graph your equation.</p>
-  <sidebyside widths="30% 60%" valign="middle middle" margins="5% 5%">
+  <sidebyside widths="30% 60%" valigns="middle middle" margins="5% 5%">
     <p><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
         <row bottom="minor" header="yes">
             <cell><m>~x~</m></cell>
@@ -646,7 +646,7 @@
   <p><ol marker="a">
     <li><p>Write an equation expressing <m>y</m> in terms of <m>x</m>.</p></li>
     <li><p>Complete the table and graph your equation.</p>
-  <sidebyside widths="30% 50%" valign="middle middle" margins="10% 10%">
+  <sidebyside widths="30% 50%" valigns="middle middle" margins="10% 10%">
     <p><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
         <row bottom="minor" header="yes">
             <cell><m>~x~</m></cell>
@@ -675,7 +675,7 @@
 <p><ol marker="a">
   <li><p>Write an equation expressing <m>y</m> in terms of <m>x</m>.</p></li>
   <li><p>Complete the table and graph your equation.</p>
-  <sidebyside widths="30% 60%" valign="middle middle" margins="5% 5%">
+  <sidebyside widths="30% 60%" valigns="middle middle" margins="5% 5%">
     <p><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
         <row bottom="minor" header="yes">
             <cell><m>~x~</m></cell>
