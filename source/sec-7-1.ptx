@@ -12,7 +12,7 @@
   </ul></p>
       <image source="assets.png"></image></sidebyside>
 
-<introduction><p>In Section 4.3 we looked at some of the uses of negative numbers. Some easy examples are temperature and elevation. Negative numbers are used extensively in finance and the sciences, where it is important to perform calculations with both positive and negative numbers. If you like, you can review number lines and the definition of <term>integers</term> in Section 4.3.</p></introduction>
+<introduction><p>In <xref ref="negnos" text="custom">Section 4.4</xref> we looked at some of the uses of negative numbers. Some easy examples are temperature and elevation. Negative numbers are used extensively in finance and the sciences, where it is important to perform calculations with both positive and negative numbers. If you like, you can review number lines and the definition of <term>integers</term> in <xref ref="integers" text="custom">Section 4.4</xref>.</p></introduction>
 
 <subsection><title>Adding Two Numbers with the Same Sign</title>
 
@@ -109,7 +109,7 @@ From that point, move 6 units in the <term>negative direction</term>, or to the 
 You need $15 of your earnings to pay off the debt, so we subtract $15 from $20. The remainder, $5, is your net worth.
     <image source="unnumexm-7-1.png" width="95%"></image></p>
 
-<p>Number lines give us a visual representation of signed numbers, but some people prefer a more concrete model. In the next Activity we offer a different way to think about adding signed numbers.</p>
+<p>Number lines give us a visual representation of signed numbers, but some people prefer a more concrete model. In Activity 7.1.1 we offer a different way to think about adding signed numbers.</p>
 
 <activity><title>Adding Two Numbers with Opposite Signs</title>
 
@@ -125,7 +125,7 @@ You need $15 of your earnings to pay off the debt, so we subtract $15 from $20. 
     <me>(+5)+(-5) = 0</me>
   When we add two numbers that are opposites, we get zero. We represent the zero sum <m>(+5)+(-5)</m> with counters like this:
         <image source="zerosum.png" width="60%"></image>
-  Because the sum is zero, we can remove them from the table. An empty table represents the number 0.</p></li>
+  (In our examples, yellow counters are positive and red ones are negative.) Because the sum is zero, we can remove them from the table. An empty table represents the number 0.</p></li>
 
   <li><p>Now we'll consider a sum of two numbers with opposite signs. Represent
         <me>(+7)+(-3)</me>
@@ -186,7 +186,7 @@ You need $15 of your earnings to pay off the debt, so we subtract $15 from $20. 
 <p>Which model for adding signed numbers was more helpful for you, number lines or counters? Do you find that you can visualize addition without a physical model?</p>
 </subsection>
 
-<subsection><title>Rules for Addition</title>
+<subsection xml:id="addrules"><title>Rules for Addition</title>
 
 <p>We summarize below what we have learned about addition.</p>
 
@@ -245,12 +245,12 @@ You need $15 of your earnings to pay off the debt, so we subtract $15 from $20. 
   <li><p>to show addition or subtraction.</p></li>
 </ul></p>  
 <p>Also, it can be confusing to have two plus or minus symbols in a row.</p>
-<p>However, we can often leave out the parentheses if it is easy to interpret the expression.  For instance, the three sums in Exercise 6 can be written as follows.<ol marker="a">
+<p>However, we can often leave out the parentheses if it is easy to interpret the expression.  For instance, the three sums in Checkpoint 7.1.12 can be written as follows.<ol marker="a">
   <li><p><m>-2 + (-2)</m></p></li>
   <li><p><m>-4 + 3</m></p></li>
   <li><p><m>6 + (-8)</m></p></li>
 </ol></p>
-<p>In the next lesson, we'll see how to simplify sums even further.</p></note>
+<p>In the next Lesson, we'll see how to simplify sums even further.</p></note>
 </subsection>
 
 <subsection><title>Net Change</title>
@@ -272,6 +272,13 @@ The net change in Seymour's stock was a 4-point loss.</p></solution></example>
   <li><p>A loss of 16 votes</p></li>
 </ol></p></answer></exercise>
 
+</subsection>
+
+<subsection><title>Vocabulary</title>
+<p><ul cols="2">
+  <li><p>integers</p></li>
+  <li><p>net change</p></li>
+</ul></p>
 </subsection>
 
 <xi:include href="./prac-7-1.ptx" />

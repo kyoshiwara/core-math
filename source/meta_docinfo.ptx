@@ -33,10 +33,15 @@
 <!-- If you put any latex-image elements you can include preambles  -->
 <!-- for those in the next element.                                 -->
 <latex-image-preamble>
-  \usepackage{tikz, pgfplots}
-  \usetikzlibrary{positioning,matrix,arrows}
-  \usetikzlibrary{shapes,decorations,shadows,fadings,patterns}
-  \usetikzlibrary{decorations.markings} 
+        \usepackage{tikz}
+        \usetikzlibrary{calc}
+        \usetikzlibrary{arrows}
+        \usetikzlibrary{arrows.meta}
+        \usetikzlibrary{decorations.pathreplacing}
+        \usetikzlibrary{calc,intersections,through,backgrounds}
+        \usetikzlibrary{patterns}
+        \usetikzlibrary{shapes.misc}
+        \usetikzlibrary{shapes.geometric}
 </latex-image-preamble>
 
 <latex-preamble>

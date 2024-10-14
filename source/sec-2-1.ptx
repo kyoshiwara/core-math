@@ -67,7 +67,7 @@
 
 <p>The picture below shows a portion of a meter stick.
 
-  <image source="meterstick.png" width="65%"></image></p>
+  <image source="meterstick.png" width="80%"></image></p>
 
 <p>The metric system is easy to use because it fits with our base-10 number system. In the same way, <term>decimal fractions</term> are easy to use.</p>
 </subsection>
@@ -81,7 +81,7 @@
 <p>The places after the decimal point represent fractions of a whole number, and it is important to remember that:</p>
 
 <assemblage><title>Decimal Fractions</title>
-<p><m>\blert{\large{\text{The position of the last digit tells us the denominator of the fraction.}}}</m></p></assemblage>
+<p><m>\blert{\text{The position of the last digit tells us the denominator of the fraction.}}</m></p></assemblage>
 
 <activity><title>Place Value</title>
 <p>Complete the table.</p>
@@ -146,13 +146,14 @@ In the same way, 4 and 40 and 400 are very different numbers.</p></note>
     <image source="block.png" width="60%"></image></p>
 
 <p>Then one horizontal slice of the block (a "flat") represents one tenth of one whole. One row of the flat (a "stick") represents one hundredth, and one small cube represents one thousandth.
-    <image source="flatsandsticks.png" width="70%"></image></p>
+    <image source="flatsandsticks.png" width="80%"></image></p>
 
 <p>There are ten flats in a whole, ten sticks in a flat, and ten cubes in a stick. Or, in other words, a flat is one tenth of a whole, a stick is one tenth of a flat, and a cube is one tenth of a stick.</p>  
 
-<assemblage><p><m>\blert{\large{\text{Each decimal place is one tenth of the preceding place.}}}</m></p></assemblage>
+<assemblage><title>Decimal Places</title>
+<p><m>\blert{\text{Each decimal place is one tenth of the preceding place.}}</m></p></assemblage>
 
-<example><statement><p>Represent the decimal fraction 0.253 as part of one whole.</p></statement>
+<example><statement><p>Use blocks to represent the decimal fraction 0.253 as part of one whole.</p></statement>
 
 <solution><p>We read the fraction as "two hundred fifty-three thousandths." (Note that the last digit, 3, is in the thousandths place.)</p>
 <p> We can analyze the fraction as follows:
@@ -196,7 +197,7 @@ It might be helpful to picture each fraction using blocks, as demonstrated in Ex
 <me>~~~~0.058,~~~~~~0.325,~~~~~~0.36,~~~~~~0.04</me>
 
 Here are the four fractions shown on a number line.</p>
-    <image source="decorder.png" width="75%"></image>
+    <image source="decorder.png" width="90%"></image>
 </solution></example>
 
 <note><p> Do not make the <m>\alert{\text{ERROR}}</m> of thinking that 0.325 is larger than 0.36 because 325 is larger than 36! Remember to compare decimal fractions one decimal place at a time:  tenths, then hundredths, etc.</p></note>
@@ -294,7 +295,7 @@ and so on. Each of these fractions reduces to <m>\dfrac{7}{10}</m>, or 0.7. Note
 <answer><p><m>0.15 = \dfrac{15}{100}</m>, and <m>0.150 = \dfrac{150}{1000}</m>, which can be reduced to <m>\dfrac{15}{100}</m>, so those two fractions are equal. (Both are equivalent to <m>\dfrac{3}{20}</m>.) But <m>0.015 = \dfrac{15}{1000} = \dfrac{3}{200}</m>.</p></answer></exercise>
 </subsection>
 
-<subsection><title>Fractions to Decimals</title>
+<subsection xml:id="fractodec"><title>Fractions to Decimals</title>
 
 <p>Another way to get a feel for decimal fractions is to relate them to familiar common fractions. Remember that the fraction bar is actually a division symbol, so the fraction <m>\dfrac{1}{2}</m> means "1 divided by 2." If you use your calculator to carry out the division, you will find
 
@@ -324,7 +325,7 @@ We denote these <term>repeating decimals</term> with a bar over the digits that 
 
 <answer><p><m>0.3\overline{18}</m></p></answer></exercise>
 
-<activity><title>Decimal Equivalents</title>
+<activity xml:id="actdecequiv"><title>Decimal Equivalents</title>
 <p><ol>
   <li><p>Use your calculator to find the decimal equivalent of each common fraction. Use a repeater bar to denote any repeating decimals.</p>
 
@@ -376,7 +377,7 @@ We denote these <term>repeating decimals</term> with a bar over the digits that 
     </tabular></p></li>
 
 <li><p>Plot each decimal fraction on the number line below.</p>
-    <image source="zerotoone.png" width="80%"></image></li>
+    <image source="zerotoone.png" width="90%"></image></li>
 
 <li><p>Which of the fractions above are repeating decimals?</p></li>
 </ol></p>
@@ -386,7 +387,7 @@ We denote these <term>repeating decimals</term> with a bar over the digits that 
 <p>Is there a way to tell which fractions have terminating decimals, and which ones have repeating decimals?</p></assemblage>
 </subsection>
 
-<subsection><title>Rounding and Estimating</title>
+<subsection xml:id="rounding"><title>Rounding and Estimating</title>
 <p>My town has a population of 8300 people. Is that closer to 8000 people or 9000 people? If we count by 100's, 8300 is closer to 8000.</p>
     <image source="roundpop.png" width="80%"></image>
 

@@ -30,7 +30,7 @@ we first subtract 6 from both sides, then we divide both sides by 2.
         <mrow> </mrow>
         <mrow>\dfrac{2x}{\blert{2}} \amp = \dfrac{18}{\blert{2}}</mrow>
         <mrow> x \amp = 9</mrow></md>
-The solution is <m>x = 9</m>. If you like, you can review solving equations in Sections 2.5 and 5.4.</p>
+The solution is <m>x = 9</m>. If you like, you can review solving equations in <xref ref="solve1" text="custom">Section 2.5</xref> and <xref ref="solve2" text="custom">Section 5.4</xref>.</p>
 
 <assemblage><title>A Quick Refresher</title>
 
@@ -73,7 +73,7 @@ We might naturally read this expression as "8 subtract <m>2x</m>," but we can al
           <mrow> 8 - 14 \amp = -6 ~~~~\blert{\text{True}}</mrow></md>
 The solution checks.</p></solution></example>
 
-<note><p>In the Example above, be sure to divide both sides by <m>-2</m>, not by 2. To reverse the operation "multiply by <m>-2</m>," we divide by the same number, <m>-2</m>.</p></note>
+<note><p>In Example 7.4.1, be sure to divide both sides by <m>-2</m>, not by 2. To reverse the operation "multiply by <m>-2</m>," we divide by the same number, <m>-2</m>.</p></note>
 
 <exercise><statement><p> Solve the equation  <m>~10 - 4x = 2</m></p>
 
@@ -144,7 +144,7 @@ The solution checks.</p></solution></example>
 <p>Check:</p></li>
 </ol></p></activity>
 
-<p>In the next Example, we use three steps to solve the equation.</p>
+<p>In Example 7.4.4, we use three steps to solve the equation.</p>
 
 <example><statement><p>Solve  <m>~15 = \dfrac{-3x}{4} - 9</m></p></statement>
 
@@ -216,7 +216,7 @@ The solution checks.</p></solution></example>
 
 <subsection><title>Plotting Points</title>
 
-<p>Now we can use both positive and negative values when we graph an equation. We'll begin by plotting points on a Cartesian coordinate system. In Section 5.5 we plotted points from a table of values for two variables, and the same method works here.</p> 
+<p>Now we can use both positive and negative values when we graph an equation. We'll begin by plotting points on a Cartesian coordinate system. In <xref ref="plotpoints" text="custom">Section 5.5</xref> we plotted points from a table of values for two variables, and the same method works here.</p> 
 
 <assemblage><title>How to Plot Points</title>
 <p><ul>
@@ -228,7 +228,7 @@ The solution checks.</p></solution></example>
 
     <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >
-            <cell><m>x</m></cell>
+            <cell><m>~x~</m></cell>
             <cell><m>2</m></cell>
             <cell><m>-3</m></cell>
             <cell><m>-5</m></cell>
@@ -236,7 +236,7 @@ The solution checks.</p></solution></example>
             <cell><m>0</m></cell>
             <cell><m>-3</m></cell></row>
         <row bottom="minor">
-            <cell><m>y</m></cell>
+            <cell><m>~y~</m></cell>
             <cell><m>6</m></cell>
             <cell><m>4</m></cell>
             <cell><m>-1</m></cell>
@@ -294,7 +294,7 @@ The solution checks.</p></solution></example>
 <sidebyside widths="50% 40%" margins="0% 5%" valigns="middle middle"><stack>
       <p>At the start of this section we looked at an equation for freezing nitrogen. If <m>T</m> represents the temperature of the nitrogen after it has been cooling for <m>t</m> minutes, we have the equation
           <me>T = 65 - 5t</me>
-      The graph of this equation looks like this. (You can review graphing equations in Section 5.5.)</p>
+      The graph of this equation looks like this. (You can review graphing equations in <xref ref="grapheqn" text="custom">Section 5.5</xref>.)</p>
       </stack>
     <image xml:id="Fig-nitrogen">
         <description>Decreasing line of Temperature vs time</description><latex-image>
@@ -327,10 +327,10 @@ The solution checks.</p></solution></example>
 
 <assemblage><title>Linear Equations</title>
 <p>An equation of the form
-  <me>y = ax + b</me>    
+  <me>\blert{y = ax + b}</me>    
 where <m>a</m> and <m>b</m> are constants, is a <term>linear equation</term>. Its graph is a straight line.</p></assemblage>
 
-<p>In Section 5.5 we used three steps to graph an equation.</p>
+<p>In <xref ref="grapheqn" text="custom">Section 5.5</xref> we used three steps to graph an equation.</p>
 
 <assemblage><title>Steps for Graphing an Equation</title>
 <p><ol> 
@@ -413,7 +413,7 @@ where <m>a</m> and <m>b</m> are constants, is a <term>linear equation</term>. It
 
 <exercise><statement><p>Graph the equation  <m>~y = 3x - 9</m></p> 
 
-<sidebyside widths="50% 40%" valigns="middle middle">
+<sidebyside widths="50% 35%" valigns="middle middle">
   <stack><p><m>\blert{\text{Step 1} ~~}</m> Complete the table.</p>
 
   <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
@@ -560,4 +560,21 @@ where <m>a</m> and <m>b</m> are constants, is a <term>linear equation</term>. It
 
 </subsection>
 
+<subsection><title>Vocabulary</title>
+<p><ul cols="2">
+  <li><p>Cartesian coordinate system</p></li>
+  <li><p><m>x</m>-axis</p></li>
+  <li><p><m>y</m>-axis</p></li>
+  <li><p>origin</p></li>
+  <li><p>quadrants</p></li>
+  <li><p>input variable</p></li>
+  <li><p>output variable</p></li>
+  <li><p><m>x</m>-coordinate</p></li>
+  <li><p><m>y</m>-coordinate</p></li>
+  <li><p>ordered pair</p></li>
+  <li><p>linear equation</p></li>
+</ul></p>
+</subsection>
+
+<xi:include href="./prac-7-4.ptx" />
 </section>

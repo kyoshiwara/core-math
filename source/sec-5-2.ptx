@@ -221,7 +221,7 @@ The area of the bedroom is 180 square feet.</p></solution></example>
 <example><statement><p>A train traveled at 70 miles per hour for 3 hours. How far did the train travel?</p></statement>
 
 <solution><p>We are looking for a distance (how far).  We have <m>r = \alert{70}</m>  and <m>t=\alert{3}</m>.  The distance traveled is: 
-    <me>d = rt = (\alert{70})(\alert{3}) = 210 ~\tex{miles}</me></p></solution></example>
+    <me>d = rt = (\alert{70})(\alert{3}) = 210 ~\text{miles}</me></p></solution></example>
 
 <note><p>When we use the distance formula, the rate, time, and distance must be expressed in compatible units. For example, if the speed is given in miles per hour, the time must be expressed in hours, and the distance will be in miles.</p></note>
 
@@ -240,7 +240,7 @@ The area of the bedroom is 180 square feet.</p></solution></example>
 
 <example><statement><p>Last week Kendal worked a total of 27 hours on six days. What was the average number of hours he worked per day?</p></statement>
 
-<solution><p>We are looking for an average.  We have <m>S = \alert{27}</m>  and  <m>n = \ablert{6}</m>.  Kendal's average work day was:
+<solution><p>We are looking for an average.  We have <m>S = \alert{27}</m>  and  <m>n = \alert{6}</m>.  Kendal's average work day was:
     <me>A = \dfrac{S}{n} = \dfrac{\alert{27}}{\alert{6}} = 4.5 ~\text{hours}</me></p></solution></example>
 
 <assemblage><title>A Quick Refresher</title>
@@ -302,6 +302,20 @@ The area of the bedroom is 180 square feet.</p></solution></example>
     <p>Formula:</p></li>
 </ol></p></activity>
 
+</subsection>
+
+<subsection><title>Vocabulary</title>
+<p><ul cols="2">
+  <li><p>formula</p></li>
+  <li><p>evaluate</p></li>
+  <li><p>profit</p></li>
+  <li><p>revenue</p></li>
+  <li><p>cost</p></li>
+  <li><p>average</p></li>
+  <li><p>principal</p></li>
+  <li><p>interest</p></li>
+  <li><p>percentage</p></li>
+</ul></p>
 </subsection>
 
 

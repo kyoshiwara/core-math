@@ -3,7 +3,7 @@
 <section xml:id="sec-3-5" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Large Numbers</title>
 
-<sidebyside widths="45% 55%">
+<sidebyside widths="45% 55%" valigns="middle middle">
   <p><ul>
     <li><p>Millions and Billions</p></li>
     <li><p>Multiplying by Powers of Ten</p></li>
@@ -29,7 +29,7 @@
     <image source="bluedots.png" width="80%"></image>
     <image source="bluedots.png" width="80%"></image>
 
-    <p><me>\blert{\LARGE{\text{One   thousand   blue   dots}}} \hphantom{0000000000}</me></p>
+    <p><me>\blert{\large{\text{One   thousand   blue   dots}}} \hphantom{000000}</me></p>
 
 <sidebyside widths="55% 40%"><stack><p>Thus, one million is a thousand thousands.</p>
 <p>Let's review the names of the place values up to one million. As an example, the population of New York City in 2020 was 
@@ -141,13 +141,13 @@ Covering about 300 square miles of land, New York is the most densely populated 
 
 <subsection><title>Multiplying by Powers of Ten</title>
 
-<sidebyside widths="50% 40%"><p>People who deal with information often encounter very large numbers in their work. For instance, the nearest star to our solar system is Proxima Centauri, a faint, reddish star at a distance of approximately
+<sidebyside widths="50% 40%" valigns="middle middle"><p>People who deal with information often encounter very large numbers in their work. For instance, the nearest star to our solar system is Proxima Centauri, a faint, reddish star at a distance of approximately
   <me>24,800,000,000,000 \text{ miles}</me></p>
    <image source="proxcent.png"></image></sidebyside>
 
 <p>Economists work with figures like the national debt, which has surpassed</p>
 
-<sidebyside widths="40% 50%"><p><image source="natdebt.png"></image></p>
+<sidebyside widths="40% 50%" valigns="middle middle"><p><image source="natdebt.png"></image></p>
 <p><me>$31,490,000,000,000</me>
 Calculations with such large numbers can be difficult. Most calculators have only an eight- or ten-digit display, so numbers in the trillions cannot even be entered. To get around this problem, we write numbers with a special notation that uses <term>powers of ten</term>.</p></sidebyside>
 
@@ -174,9 +174,10 @@ Calculations with such large numbers can be difficult. Most calculators have onl
     <li><p><m>0.126 \times 10</m></p></li></ol></p></li>
   </ol></p></activity>
 
-<p>In the Activity, we discovered the following fact: </p>
+<p>In Activity 3.5.2, we discovered the following fact: </p>
 
-  <assemblage><p>To multiply a number by a power of ten, we move the decimal point to the right.</p></assemblage>
+  <assemblage><title>Powers of Ten</title>
+    <p>To multiply a number by a power of ten, we move the decimal point to the right.</p></assemblage>
 
 <p>For example, you can check that</p>
 
@@ -193,10 +194,12 @@ Calculations with such large numbers can be difficult. Most calculators have onl
 
 <example><statement><p>Compute each product.</p>
 <p><ol marker="a">
-  <li><image source="decpt2.png" width="90%"></image>
-    <p>The product is two billion, eight hundred million.</p></li>
-  <li><image source="decpt3.png" width="90%"></image>
-    <p>The product is one hundred seventy.</p></li>
+  <li><p>Compute <m>~28 \times 10^8</m>.
+    <image source="decpt2.png" width="90%"></image>
+    The product is two billion, eight hundred million.</p></li>
+  <li><p>Compute <m>~0.17 \times 10^4</m>.
+    <image source="decpt3.png" width="90%"></image>
+    The product is one hundred seventy.</p></li>
 </ol></p></statement></example>
 
 <note><p>When you write your answer, don't forget to insert commas at the proper locations, before every third digit from the right-hand end. This partitions the number into thousands, millions, billions, and so on, and makes it easier to read.</p></note>
@@ -208,8 +211,8 @@ Calculations with such large numbers can be difficult. Most calculators have onl
 </ol></p></statement>
 
 <answer><p><ol marker="a">
-  <li><p><m>123,000 </m>, one hundred twenty-three thousand</p></li>
-  <li><p><m>123 </m>, one hundred twenty-three</p></li>
+  <li><p><m>123,000 </m>; one hundred twenty-three thousand</p></li>
+  <li><p><m>123 </m>; one hundred twenty-three</p></li>
 </ol></p></answer></exercise>
 
 <note><p>The rule for multiplying by a power of ten is not <m>\alert{\large{\text{MAGIC}}}~~~</m>. It follows from the fact that our number system is based on powers of ten: each place value is 10 times the place to its right.</p></note>

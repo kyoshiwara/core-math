@@ -14,7 +14,7 @@
 
 <subsection><title>What is an Algebraic Expression?</title>
 
-<p>In the last section we saw that we can use a letter to represent a variable quantity, such as temperature or age. Now we'll see how to work with variables to describe changing situations and to solve problems.</p>
+<p>In Section 2.3 we saw that we can use a letter to represent a variable quantity, such as temperature or age. Now we'll see how to work with variables to describe changing situations and to solve problems.</p>
 
 <p>Our first task is to describe variable situations in mathematical language. When we use operation symbols to combine numbers and variables, we create <term>algebraic expressions</term>. Some examples of algebraic expressions are</p>
         <image source="exampalgexp.png" width="60%"></image>
@@ -31,7 +31,7 @@
 </ul></p>
         <image source="sumproduct.png" width="65%"></image>
 
-<assemblage>
+<assemblage><title>Products</title>
 <p>In algebra, we can use a raised dot or parentheses instead of a cross to indicate multiplication. For example, we write "two times three" as 
     <me>\alert{2 \cdot 3}~~~~~~\text{or}~~~~~~\alert{2(3)}~~~~~~\text{or}~~~~~~\alert{2 \times 3}</me>
 We write the product of two variables, or a number and a variable, next to each other without any symbol between them. For example,
@@ -89,9 +89,9 @@ We write the product of two variables, or a number and a variable, next to each 
 </ol></p></solution></example>
 
 <note><p><ul>
-  <li><p>In Example 1a, we do not write a dot or parentheses between 0.05 and <m>w</m>. The simplest way of writing an algebraic expression is usually best.</p></li>  
+  <li><p>In Example 2.4.2a, we do not write a dot or parentheses between 0.05 and <m>w</m>. The simplest way of writing an algebraic expression is usually best.</p></li>  
   <li><p>We could also write <m>w(0.05)</m>,  because we can multiply the factors in either order. However, in algebra we prefer to write the number before the variable in a product.</p></li> 
-  <li><p>In Example 1b, we could also write <m>\dfrac{3}{4} + D</m>. In a sum, it does not matter which term is written first.</p></li>
+  <li><p>In Example 2.4.2b, we could also write <m>\dfrac{3}{4} + D</m>. In a sum, it does not matter which term is written first.</p></li>
   </ul></p></note>
 
 <exercise><statement><p>Write each phrase as an algebraic expression.</p>
@@ -109,15 +109,14 @@ We write the product of two variables, or a number and a variable, next to each 
 <subsection><title>Differences and Quotients</title>
 <p>When we subtract one number or variable from another, the result is called the <term>difference</term>. Here are two common ways to describe subtraction.</p>
 
-<assemblage>
+<assemblage><title>Differences</title>
   <p><md><mrow>\alert{b}~~\text{subtracted from}~~\alert{12}~~~~~~\amp \text{means}~~~~~~\alert{12-p}</mrow>
       <mrow>\text{the difference of}~~\alert{12}~~\text{and}~~\alert{p} ~~~~~~\amp \text{means}~~~~~~\alert{12-p}</mrow></md></p>
 </assemblage>
 
-<p>
-  When we divide one number or variable by another, the result is called the <term>quotient</term>. In algebra, we often use a fraction bar instead of the symbol <m>\div</m> to denote division. For example,</p>
+<p>When we divide one number or variable by another, the result is called the <term>quotient</term>. In algebra, we often use a fraction bar instead of the symbol <m>\div</m> to denote division. For example,</p>
 
-  <assemblage>
+  <assemblage><title>Quotients</title>
     <p><me>\alert{\dfrac{20}{5}}~~~~~~\text{means}~~~~~~\alert{20 \div 5}</me></p>
   </assemblage>
 
@@ -132,7 +131,7 @@ We write the product of two variables, or a number and a variable, next to each 
 
 <p>We can switch the order of the two numbers in a sum or in a product, but we cannot switch them in a difference or a quotient.  We say that the operations of addition and multiplication are <term>commutative</term>, but subtraction and division are not commutative.</p>
 
-<assemblage>
+<assemblage><title>Division</title>
   <p>Here are three different ways to write the division  "Fifteen divided by three":
     <me>~~\alert{3)\overline{15}~~~~~~~~~~~ 15 \div 3 ~~~~~~~~~~~ \dfrac{15}{3}}</me>
   Look carefully at the order of the numbers in each expression.</p></assemblage>
@@ -150,17 +149,17 @@ We write the product of two variables, or a number and a variable, next to each 
       <cell><m>\dfrac{94}{6}</m></cell></row>
     <row>
       <cell><m></m></cell>
-      <cell><m>\hphantom{00000000}</m></cell>
+      <cell><m>\hphantom{00000000}\vphantom{\dfrac{94}{6}}</m></cell>
       <cell><m>60 \div 5</m></cell>
       <cell><m>\hphantom{00000000}</m></cell></row>
     <row>
       <cell><m></m></cell>
       <cell><m>25)\overline{260}</m></cell>
-      <cell><m>\hphantom{00000000}</m></cell>
+      <cell><m>\hphantom{00000000}\vphantom{\dfrac{94}{6}}</m></cell>
       <cell><m>\hphantom{00000000}</m></cell></row>
     <row>
       <cell><m>M</m> divided by 8</cell>
-      <cell><m>\hphantom{00000000}</m></cell>
+      <cell><m>\hphantom{00000000}\vphantom{\dfrac{94}{6}}</m></cell>
       <cell><m>\hphantom{00000000}</m></cell>
       <cell><m>\hphantom{00000000}</m></cell></row>
 
@@ -170,7 +169,7 @@ We write the product of two variables, or a number and a variable, next to each 
       <cell><m>\hphantom{00000000}</m></cell>
       <cell><m>\dfrac{T}{c}</m></cell></row>
     <row>
-      <cell><m>\hphantom{00000000}</m></cell>
+      <cell><m>\hphantom{00000000}\vphantom{\dfrac{94}{6}}</m></cell>
       <cell><m>\hphantom{00000000}</m></cell>
       <cell><m>Q \div 4</m></cell>
       <cell><m>\hphantom{00000000}</m></cell></row>
@@ -180,7 +179,7 @@ We write the product of two variables, or a number and a variable, next to each 
       <cell><m>\hphantom{00000000}</m></cell>
       <cell><m>\dfrac{1.5}{v}</m></cell></row>
     <row>
-      <cell><m>\hphantom{00000000}</m></cell>
+      <cell><m>\hphantom{00000000}\vphantom{\dfrac{94}{6}}</m></cell>
       <cell><m>\hphantom{00000000}</m></cell>
       <cell><m>18 \div k</m></cell>
       <cell><m>\hphantom{00000000}</m></cell></row>
@@ -204,8 +203,8 @@ We write the product of two variables, or a number and a variable, next to each 
 
 <note><p>Sometimes English phrases can be tricky. We must be especially careful with subtraction and division.</p>
 <p><ul>  
-  <li><p>In Example 3a, the expression <m>16 - z</m> is not a correct answer.</p></li>  
-  <li><p>In Example 3b, "<m>m</m> divided by 6" means <m>\dfrac{m}{6}</m>, but "<m>m</m> divided into 6" means <m>\dfrac{6}{m}</m>.</p></li>
+  <li><p>In part (a) of Example 2.4.6, the expression <m>16 - z</m> is not a correct answer.</p></li>  
+  <li><p>In part (b) of Example 2.4.6, "<m>m</m> divided by 6" means <m>\dfrac{m}{6}</m>, but "<m>m</m> divided into 6" means <m>\dfrac{6}{m}</m>.</p></li>
   </ul></p></note>
 
 <p>Another common way of referring to division uses the word <term>ratio</term>.</p>
@@ -361,7 +360,7 @@ We write the product of two variables, or a number and a variable, next to each 
   <li><p><m>w - 4</m></p></li>
 </ol></p></solution></example>
 
-<note><p>In Example 3a, notice that "of" means multiplication when used with fractions. The same is true for percents. For example, "35% of <m>P</m>"  is written as  <m>0.35 P</m></p></note>
+<note><p>In part (a) of Example 2.4.9, notice that "of" means multiplication when used with fractions. The same is true for percents. For example, "35% of <m>P</m>"  is written as  <m>0.35 P</m></p></note>
 
 <exercise><statement><p>Write algebraic expressions for each phrase.</p>
 <p><ol marker="a" cols="2">
@@ -398,12 +397,12 @@ We write the product of two variables, or a number and a variable, next to each 
       <cell>14</cell></row>
     <row>
       <cell><m>22g</m></cell>
+      <cell><m>\hphantom{000}</m></cell>
+      <cell><m>\hphantom{000}</m></cell>
+      <cell><m>\hphantom{000}</m></cell>
+      <cell><m>\hphantom{000}</m></cell>
       <cell><m>\hphantom{00}</m></cell>
-      <cell><m>\hphantom{00}</m></cell>
-      <cell><m>\hphantom{00}</m></cell>
-      <cell><m>\hphantom{00}</m></cell>
-      <cell><m>\hphantom{00}</m></cell>
-      <cell><m>\hphantom{00}</m></cell></row>
+      <cell><m>\hphantom{000}</m></cell></row>
     </tabular></p></li>
 </ol></p></statement>
 

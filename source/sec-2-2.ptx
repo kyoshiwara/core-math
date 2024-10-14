@@ -119,7 +119,7 @@ $12.00. Find the following percents of the price of the boots.</p>
   <li><p>2.00</p></li>
 </ol></p></answer></exercise>
 
-<note><p>In the Exercise above, do you see the difference between the decimal forms of 50% and 5%? Try one yourself. Write the decimal form of each percent:
+<note><p>In Checkpoint 2.2.4 above, do you see the difference between the decimal forms of 50% and 5%? Try one yourself. Write the decimal form of each percent:
   <me>8\% = \hphantom{0000000000000000} 80\% = \hphantom{0000000000000000}</me></p></note>
 
 <p>Now we can find any percent of a number.</p>
@@ -133,7 +133,7 @@ $12.00. Find the following percents of the price of the boots.</p>
     <me>0.06 \times 458 = 27.48</me>
 The sales tax is $27.48.</p></solution></example>
 
-<note><p>In the last Example, why does multiplying by 0.06 give us 6 hundredths of 458?  Here's why:</p>
+<note><p>In Example 2.2.6, why does multiplying by 0.06 give us 6 hundredths of 458?  Here's why:</p>
   <p>To find one hundredth of 458 we divide by 100:    <m>~~~458 \div 100 = 4.58</m></p>
   <p>To find six hundredths of 458 we multiply 4.58 by 6:    <m>~~~4.58 \times 6 = 27.48</m></p>
 <p>You can check with your calculator that multiplying 458 by 0.06 is the same as multiplying by 6 and dividing by 100!</p></note>
@@ -607,7 +607,7 @@ Then we multiply by 3 to find <m>\dfrac{3}{8}</m> of 3200:
   <me>3 \times 400 = 1200</me>
 We get the same answer, and we can do the calculations mentally!</p></solution></example>
 
-<exercise><statement><p>Devon and Darla from the previous Example have budgeted their $3200 monthly income as follows.</p>
+<exercise><statement><p>Devon and Darla from Example 2.2.14 have budgeted their $3200 monthly income as follows.</p>
 
 <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <col halign="center"/>
@@ -733,7 +733,7 @@ We get the same answer, and we can do the calculations mentally!</p></solution><
 <p>What about the decimal form of <m>\dfrac{1}{3}</m>? Remember that some fractions do not "come out evenly" in their decimal form. One-third is one of those fractions. Use your calculator to verify that
       <image source="decthird1.png" width = "50%"></image>
 
-where the  …  symbol indicates that the 3's go on forever. (Recall that we encountered repeating decimals in Section 2.1. We can represent <m>\dfrac{1}{3}</m> with a repeater bar as <m>0.\overline{3}.~~</m>) This is the exact value of <m>\dfrac{1}{3}</m> as a decimal fraction.  We often round the decimal form to hundredths and say that
+where the  …  symbol indicates that the 3's go on forever. (Recall that we encountered repeating decimals in <xref ref="fractodec"/>. We can represent <m>\dfrac{1}{3}</m> with a repeater bar as <m>0.\overline{3}.~</m>) This is the exact value of <m>\dfrac{1}{3}</m> as a decimal fraction.  We often round the decimal form to hundredths and say that
     <image source="decthird2.png" width = "60%"></image>
 
 Similarly, you can verify that the exact value of <m>\dfrac{2}{3}</m> is
@@ -873,6 +873,12 @@ We have found exact percent forms for <m>\dfrac{1}{3}</m> and <m>\dfrac{2}{3}</m
     </tabular></p></sidebyside>
   </activity>
 </subsection>
+
+<subsection><title>Vocabulary</title>
+<p><ul cols="2">
+  <li><p>percent</p></li>
+  <li><p>circle graph</p></li>
+</ul></p></subsection>
 
 <xi:include href="./prac-2-2.ptx" />
 

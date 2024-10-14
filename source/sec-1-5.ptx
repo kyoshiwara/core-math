@@ -14,7 +14,7 @@
   <p>When we speak of the perimeter of a region, we usually mean the outer edge or boundary of the region. In mathematics, the <term>perimeter</term> means the length of that boundary. </p> 
 
   <example><statement>
-    <sidebyside widths="50% 25%" margins="0% 20%"><p>To find the perimeter of the region at right we add up the lengths of its sides:
+    <sidebyside widths="50% 28%" margins="0% 15%" valigns="middle middle"><p>To find the perimeter of the region at right we add up the lengths of its sides:
       <me>5+3+5+4+3=20</me>
     The perimeter of the region is 20 inches.</p>
       <image source="perim1.png"></image></sidebyside></statement></example>
@@ -23,7 +23,7 @@
         <image source="ants.png"></image></sidebyside></note>
 
   <exercise><statement><p>One reason you might want to find a perimeter is to calculate the amount of fence you need to surround a region.  Find the perimeter of the community garden shown below.
-      <image source="perim2.png" width="40%"></image></p></statement>
+      <image source="perim2.png" width="50%"></image></p></statement>
 
   <answer><p>267 ft</p></answer></exercise>
 
@@ -154,7 +154,7 @@ Now we just need to subtract the areas of the four "corners" of the rectangle.</
 <p>Finally, we subtract the area of the corners from the area of the rectangle, and what's left is the area inside the octagon:
   <me>49 - 8 = 41 ~\text{square inches}</me></p></solution></example>
 
-<exercise><statement><p>Find the area of the parallelogram. Enclose the figure in a rectangle, then subtract the areas that are not inside the parallelogram. The grid represents centimeters.</p>
+<exercise><statement><p>Find the area of the <term>parallelogram</term>. Enclose the figure in a rectangle, then subtract the areas that are not inside the parallelogram. The grid represents centimeters.</p>
   <image source="paralarea.png" width="40%"></image></statement>
 
 <answer><p>22 sq cm</p></answer></exercise>
@@ -176,7 +176,7 @@ Now we just need to subtract the areas of the four "corners" of the rectangle.</
     <p><ol marker="a" cols="2">
       <li><image source="actarea1a.png" width="80%"></image></li>
       <li><image source="actarea1b.png" width="80%"></image></li></ol></p></li>
-<li><p>Use the fact that a triangle is half of a rectangle to find the area of each region. Hint:  It may help to draw in a useful vertical line (or two).</p>
+<li><p>Use the fact that a triangle is half of a rectangle to find the area of each region. Hint:  It may help to draw in a useful <term>vertical line</term> (or two).</p>
   <p><ol marker="a">
       <li><image source="actarea2a.png" width="60%"></image></li>
       <li><image source="actarea2b.png" width="80%"></image></li></ol></p></li>
@@ -193,6 +193,7 @@ Now we just need to subtract the areas of the four "corners" of the rectangle.</
     <li><p>perimeter</p></li>
     <li><p>area</p></li>
     <li><p>square unit</p></li>
+    <li><p>vertical line</p></li>
   </ul></p></subsection>
 
   <xi:include href="./prac-1-5.ptx" />

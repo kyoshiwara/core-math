@@ -44,7 +44,7 @@
 <exercise number="4"><statement><p>100</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 5 and 6, follow the instructions in Activity 1. Some of your rectangles may not fit on the grid.</p></introduction>
+<exercisegroup><introduction><p>For Problems 5 and 6, follow the instructions in <xref ref="activityrectangles"/>. Some of your rectangles may not fit on the grid.</p></introduction>
 
 <exercise number="5"><statement><p><ol marker="a">
   <li><p>Make a table showing the length and height of all rectangles you can make with 30 tiles.</p></li>
@@ -90,7 +90,7 @@
 
 <exercise number="12"><statement><p>List four different composite numbers whose prime factors are all 3's.</p></statement></exercise>
 
-<exercisegroup><introduction><p>Look back at your prime sieve in Activity 2, and use it to answer the questions in Problems 13-22. (There is another copy of the number grid at the end of the Practice set.)</p></introduction>
+<exercisegroup><introduction><p>Look back at your prime sieve in <xref ref="activitysieve"/>, and use it to answer the questions in Problems 13-22. (There is another copy of the number grid at the end of the Practice set.)</p></introduction>
 
 <exercise number="13"><statement><p>How many primes did you find?</p></statement>
 <answer><p>25</p></answer></exercise>
@@ -289,6 +289,8 @@
 
 <exercise number="70"><statement><p>Last weekend the swim team made $198 by mowing lawns. This weekend they made $260. How much did they charge to mow a lawn?</p></statement></exercise>
 </exercisegroup>
+
+<p>Extra Grids for the Sieve of Eratosthenes</p>
 
 <p><image source="sieve.png" width="65%"></image></p>
 

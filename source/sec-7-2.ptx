@@ -37,7 +37,8 @@ The second number line illustrates the subtraction problem
 
 <p>Both number lines look the same, and both problems have the same answer, +5. On each number line, we start at +8 and move 3 units to the left.  This example illustrates an important fact.</p>
 
-<assemblage><p>Subtracting a positive number is the same as adding the corresponding negative number. For both operations, we move to the left on the number line.</p></assemblage>
+<assemblage><title>Sutracting a Positive Number</title>
+<p>Subtracting a positive number is the same as adding the corresponding negative number. For both operations, we move to the left on the number line.</p></assemblage>
 
 <p>Of course, we don't need a number line to calculate simple subtractions like <m>8-3</m>.  But number lines may help us with less familiar problems.</p>
 
@@ -114,7 +115,8 @@ If we use a number line to help us, we begin by plotting the first number, 2. We
 <p>Subtracting <m>-5</m> on the number line looks the same as adding <m>+5</m>. In both problems we move 5 units to the right, and in both problems the answer is 7.
     <me> 2 - (-5) = 7 ~~~~ \text{and} ~~~~2 + (+5) = 7 </me></p>
 
-<assemblage><p>Subtracting a negative number gives the same result as adding a positive number. For both operations, we move to the right on the number line.</p></assemblage>
+<assemblage><title>Subtracting a Negative Number</title>
+  <p>Subtracting a negative number gives the same result as adding a positive number. For both operations, we move to the right on the number line.</p></assemblage>
 
 <note><p>This fact makes sense if we think in terms of money, with negative numbers representing debts.  Suppose you have a net worth of $200, after writing a check for $500 to repay a loan from your father. Then your father calls to say “As your graduation present, I've decided to cancel your $500 debt, so keep the money.” You now have $700. Subtracting a 
 debt of $500 has the same effect as adding $500 to your account!</p></note>
@@ -146,12 +148,13 @@ debt of $500 has the same effect as adding $500 to your account!</p></note>
 
 <p>Putting together all our examples so far, we can see that:</p>
 
-<assemblage><p>Every subtraction problem can be written as an equivalent addition problem.</p></assemblage>
+<assemblage><title>Subtracting Signed Numbers</title>
+  <p>Every subtraction problem can be written as an equivalent addition problem.</p></assemblage>
 </subsection>
 
 <subsection><title>Rule for Subtraction</title>
 
-<p>We don't really have a new rule for subtraction. Instead, we change every subtraction problem to an equivalent addition problem, and then follow the Rules for Addition.</p>
+<p>We don't really have a new rule for subtraction. Instead, we change every subtraction problem to an equivalent addition problem, and then follow the <xref ref="addrules" text="custom>">Rules for Addition</xref>.</p>
 
 <assemblage><title>Subtraction Rule for Signed Numbers</title>
 <p><ol>
@@ -178,7 +181,7 @@ debt of $500 has the same effect as adding $500 to your account!</p></note>
           <image source="difftosuma.png" width="60%"></image>
       <p>Now we can use the Rules for Addition. To add two numbers with the same sign we add their unsigned parts to get  <m>4 + 3 = 7</m>.  And because both numbers are negative, the answer is negative.  Thus
           <me>-4 - (+3) = -4 + (-3) = -7</me></p></li>
-  <li><p>Subtracting 12  is the same as adding 12, so</p>
+  <li><p>Subtracting -12  is the same as adding 12, so</p>
             <image source="difftosumb.png" width="60%"></image>
       <p>Now we use the Rules for Addition:  Because <m>-8</m>  and <m>+12</m>  have opposite signs, we subtract their unsigned parts to get  <m>12 - 8 = 4</m>.  And because 12 is larger than 8, the answer is positive. Thus,
             <me>-8 - (-12) = -8 + (+12) = 4</me></p></li>
@@ -255,7 +258,7 @@ Notice that if the final value is smaller than the initial value, the net change
     </ol></p></activity>
 </subsection>
 
-<subsection><title>Notation</title>
+<subsection xml:id="notation"><title>Notation</title>
 
 <p>We have now used the symbol "<m>-</m>"  in two different ways:  to indicate subtraction and to denote a negative number. We will have to be careful not to confuse these two different meanings. So far, we have been careful to include the sign of a number inside parentheses, to distinguish it from the operation symbol for adding or subtracting. But you won't always be provided with these helpful hints. Consider the expression
     <me>-8 - 13</me></p>
@@ -334,6 +337,17 @@ Revenue is the amount of money a company takes in from selling its product. They
 
   <li><p>What was the net change in their profit from 2011 to 2015?</p></li>
 </ol></p></activity>
+</subsection>
+
+<subsection><title>Vocabulary</title>
+<p><ul cols="2">
+  <li><p>sum</p></li>
+  <li><p>difference</p></li>
+  <li><p>net change</p></li>
+  <li><p>profit</p></li>
+  <li><p>revenue</p></li>
+  <li><p>cost</p></li>
+</ul></p>
 </subsection>
 
 <xi:include href="./prac-7-2.ptx" />

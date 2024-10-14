@@ -67,8 +67,8 @@
         <li>more than one-half.</li></ol></p>
 
     <p><ol marker="1">
-      <li><p>Greta used a yardstick to measure a picture frame that is 20 inches wide. What fraction of a yard is that? (A yard is 36 inches.)
-        <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+      <li><p>Greta used a yardstick to measure a picture frame that is 20 inches wide. What fraction of a yard is that? (A yard is 36 inches.)</p>
+        <p><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell>Whole</cell>
             <cell>Part</cell>
@@ -83,8 +83,8 @@
 
         <p>The fraction described in the story is <fillin characters="15" /> one-half.</p></li>
 
-    <li><p>Josh is taking an 18-day course of antibiotics.  What fraction of a month (30 days) is that?
-        <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+    <li><p>Josh is taking an 18-day course of antibiotics.  What fraction of a month (30 days) is that?</p>
+        <p><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell>Whole</cell>
             <cell>Part</cell>
@@ -99,8 +99,8 @@
 
         <p>The fraction described in the story is <fillin characters="15" /> one-half.</p></li>
 
-    <li><p>Carol swam 660 yards today. What fraction of a mile is that? (A mile is 1760 yards.)
-        <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+    <li><p>Carol swam 660 yards today. What fraction of a mile is that? (A mile is 1760 yards.)</p>
+        <p><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell>Whole</cell>
             <cell>Part</cell>
@@ -115,8 +115,8 @@
 
         <p>The fraction described in the story is <fillin characters="15" /> one-half.</p></li>
  
-    <li><p>Noah's paycheck was $256. He deposited $128 in his savings account. What fraction of his paycheck was that?
-        <sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+    <li><p>Noah's paycheck was $256. He deposited $128 in his savings account. What fraction of his paycheck was that?</p>
+        <p><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell>Whole</cell>
             <cell>Part</cell>
@@ -134,7 +134,7 @@
 </subsection>
 
 <subsection><title>Fourths</title>
-<p>If we divide one whole into four parts, each part is <m>\large{\blert{\text{one-fourth}}}~~~</m> of the whole.</p>
+<p>If we divide one whole into four parts, each part is <m>\large{\blert{\text{one-fourth}}}~</m> of the whole.</p>
 
 <example><statement><p>If you take one-half of half a pizza, what fraction of the pizza do you have?
 
@@ -155,7 +155,7 @@
     <li><p>64, 16, 48</p></li>
   </ol></p></answer></exercise>
 
-  <note><p>One-fourth is also called <m>\large{\blert{\text{one quarter}}}~~~~</m>.  (How many quarters are there in one dollar?)
+  <note><p>One-fourth is also called <m>\large{\blert{\text{one quarter}}}~~</m>.  (How many quarters are there in one dollar?)
       <image source="dollar.png" width="35%"></image></p></note>
 
 <activity><title>Fourths</title>
