@@ -486,7 +486,7 @@
 </activity>
 </subsection>
 
-<subsection><title>Triangles</title>
+<subsection xml:id="triangles"><title>Triangles</title>
 
 <p>Triangles come in various shapes, depending on the size of their angles or the lengths of their sides. Here are the names of some triangles classified by the size of their angles.</p>
 
