@@ -143,7 +143,7 @@
 
 <exercise number="15"><statement><p><ol marker="a">
   <li><p><m>T</m> is proportional to <m>w</m> if their  <fillin></fillin> is constant.</p></li>
-  <li><p><m>T</m> is proportional to <m>w</m> if <m>T</m> is a   <fillin></fillin> of <m>w</m></p></li>
+  <li><p><m>T</m> is proportional to <m>w</m> if <m>T</m> is a   <fillin></fillin> of <m>w</m>.</p></li>
 </ol></p></statement>
     <answer><p><ol marker="a">
   <li><p>quotient</p></li>
@@ -247,7 +247,7 @@
 </ol></p><image source="hp-6-3-30.png"></image></sidebyside></statement></exercise>
 
 <exercise number="31"><statement><p>The steepness of an incline, like a ramp or a staircase, can be measured by its slope.</p><sidebyside widths="60% 25%" valigns="middle middle"><p><ol marker="a">
-  <li><p>Find the slope of the staircase shown  if its height is 12 feet and the horizontal distance between the foot and the head of the staircase is 8 feet.</p></li>  
+  <li><p>Find the slope of the staircase shown if its height is 12 feet and the horizontal distance between the foot and the head of the staircase is 8 feet.</p></li>  
   <li><p>Would a staircase of slope <m>\frac{5}{4}</m> be steeper than the one pictured, or not as steep?</p></li>
 </ol></p><image source="hp-6-3-31.png"></image></sidebyside></statement>
 

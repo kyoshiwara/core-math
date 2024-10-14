@@ -7,9 +7,9 @@
 
 <exercise number="1"><statement><p><ol marker="a" cols="2">
   <li><p>Shade 0.03.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade 0.30.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement>
 <answer><p><ol marker="a" cols="2">
   <li><image source="ans-1-2-1a.png" width="40%"></image></li>
@@ -18,16 +18,16 @@
 
 <exercise number="2"><statement><p><ol marker="a" cols="2">
   <li><p>Shade 0.75.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade 0.075.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement></exercise>
 
 <exercise number="3"><statement><p><ol marker="a" cols="2">
   <li><p>Shade 0.1.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade half of 0.1. What fraction is that?</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement>
 <answer><p><ol marker="a" cols="2">
   <li><image source="ans-1-2-3a.png" width="40%"></image></li>
@@ -36,16 +36,16 @@
 
 <exercise number="4"><statement><p><ol marker="a" cols="2">
   <li><p>Shade 0.7.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade half of 0.7. What fraction is that?</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement></exercise>
 
 <exercise number="5"><statement><p><ol marker="a" cols="2">
   <li><p>Shade 0.4.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade <m>\dfrac{1}{4}</m>.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement>
 <answer><p><ol marker="a" cols="2">
   <li><image source="ans-1-2-5a.png" width="40%"></image></li>
@@ -54,16 +54,16 @@
 
 <exercise number="6"><statement><p><ol marker="a" cols="2">
   <li><p>Shade 0.2.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade <m>\dfrac{2}{5}</m>.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement></exercise>
 
 <exercise number="7"><statement><p><ol marker="a" cols="2">
   <li><p>Shade <m>\dfrac{1}{20}</m>.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade 0.05.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement>
 <answer><p><ol marker="a" cols="2">
   <li><image source="ans-1-2-7a.png" width="40%"></image></li>
@@ -72,9 +72,9 @@
 
 <exercise number="8"><statement><p><ol marker="a" cols="2">
   <li><p>Shade 0.9.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade 0.99.</p>
-    <image source="tenbytengrid.png" width="80%"></image></li>
+    <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement></exercise>
 </exercisegroup>
 
@@ -375,8 +375,8 @@ For Problems 69-76, read each fraction aloud, then write it as a common fraction
  <exercise number="68"><statement><p><m>\dfrac{15}{1000}</m></p></statement></exercise>
 </exercisegroup>
 
- <exercisegroup cols="4"><introduction><p>For Problems 69-72, use your calculator to find the fractions of each number, <m>N</m>. What do you notice about the decimal point?</p>
- <p><ol marker="a">
+ <exercisegroup cols="4"><introduction><p>For Problems 69-72, use your calculator to find the fractions of each number, <m>N</m>. What do you notice about the decimal point?
+ <ol marker="a" cols="3">
   <li><m>\dfrac{1}{10} N</m></li>
   <li><m>\dfrac{1}{100} N</m></li>
   <li><m>\dfrac{1}{1000} N</m></li>

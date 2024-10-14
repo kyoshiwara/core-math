@@ -16,7 +16,7 @@
 
 <p>A good way to organize and display information is to create a graph. Graphs are especially useful for illustrating the relationship between two variables.</p>  
   
-<p>In an earlier lesson we considered <term>bar graphs</term>.  The height of the bar illustrated the value of the variable. However, we don't really need the whole bar to convey that information; we could instead place a dot at the top of each bar. If we connect the dots with line segments, we have created a <term>line graph</term>.</p>
+<p>In an earlier lesson we considered <term>bar graphs</term>. The height of the bar illustrated the value of the variable. However, we don't really need the whole bar to convey that information; we could instead place a dot at the top of each bar. If we connect the dots with line segments, we have created a <term>line graph</term>.</p>
 
 <example><statement><p>The bar graph in figure (a) shows the percentage of all flights from U.S. airports that experienced late departures.<ol marker="a">  
   <li><p>Make a line graph that gives the same information.</p></li>
@@ -76,7 +76,7 @@
 </ol></p></answer></exercise>
 </subsection>
 
-<subsection><title>Plotting Points</title>
+<subsection xml:id="plotpoints"><title>Plotting Points</title>
 
 <p>We can make a graph that shows the relationship between two variables. We first decide which variable is the <term>input variable</term>, and which is the <term>output variable</term>.</p>
 
@@ -167,7 +167,7 @@
 </answer></exercise>
 </subsection>
 
-<subsection><title>Graphing an Equation</title>
+<subsection xml:id="grapheqn"><title>Graphing an Equation</title>
 
 <p>Now that we know how to plot points, we can graph an equation.</p>
 
@@ -221,7 +221,7 @@
         <image source="act5-5-1-1.png" width="60%"></image></li></ol></p>
 </activity>
 
-<note><p>Look back at the graphs in the Activity, and notice the scales on the axes. We should choose scales to fit the values of the variables.<ul>
+<note><p>Look back at the graphs in Activity 5.5.1, and notice the scales on the axes. We should choose scales to fit the values of the variables.<ul>
   <li><p>In Problem 1, the total number of calories was 1200, so we scaled each axis by 100's from 0 to 1200.</p></li>
   <li><p>In Problem 2, the values of <m>s</m> went for 0 to 5, while the values of <m>A</m> went from 0 to 25.  We scaled each axis to include those values.</p></li>
 </ul></p></note>
@@ -286,7 +286,7 @@
         </ol></p>
 </solution></example>
 
-<exercise><statement><p>Refer to your graph of <m>A=s^2</m> in Problem 2 of the last Activity.</p><ol marker="a">
+<exercise><statement><p>Refer to your graph of <m>A=s^2</m> in Problem 2 of Activity 5.5.1.</p><ol marker="a">
   <li><p>Use the graph to answer the question:  You would like a square skylight to have an area of 20 square feet.  How long should the sides be?</p>
     <p>(Hint:  Find the point on the graph with <m>A=20</m>.  What is the value of <m>s</m> at that point? You will have to estimate your answer.)</p></li>
   <li><p>Now verify your answer by solving an equation.  (Hint:  What is the opposite operation for squaring?)</p></li>
@@ -339,6 +339,15 @@ where <m>d</m> is the length of the skid marks, in feet.</p>
 <li><p>Use your graph to find the length of the skid marks left by a car traveling at 90 miles per hour when it braked.</p></li>
 </ol></activity>
  
+</subsection>
+
+<subsection><title>Vocabulary</title>
+<p><ul cols="2">
+  <li><p>bar graph</p></li>
+  <li><p>line graph</p></li>
+  <li><p>input variable</p></li>
+  <li><p>output variable</p></li>
+</ul></p>
 </subsection>
 
 <xi:include href="./prac-5-5.ptx" />

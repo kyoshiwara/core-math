@@ -3,7 +3,7 @@
 <section xml:id="sec-4-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Adding and Subtracting Fractions</title>
 
-<sidebyside widths="60% 35%">
+<sidebyside widths="60% 35%" valigns="middle middle">
   <p><ul>
     <li><p>Like Fractions</p></li>
     <li><p>Smaller Pieces</p></li>
@@ -22,7 +22,8 @@
 <p>So the number in the denominator tells us the size of each piece: the bigger the denominator, the smaller one piece is.</p>  
 </assemblage>
 
-<assemblage><p>If we want to add two fractions together, the pieces must have the same size, which means that the fractions must have the same denominator.</p></assemblage>
+<assemblage><title>Same Size Pieces</title>
+  <p>If we want to add two fractions together, the pieces must have the same size, which means that the fractions must have the same denominator.</p></assemblage>
 
 <p>Suppose you cut a pie into 8 slices, and you eat one slice. Then you eat another slice. What fraction of the pie have you eaten?</p>
     <image source="twopieces.png" width="70%"></image>
@@ -74,7 +75,7 @@
   <li><p><m>\dfrac{15}{10}</m></p></li>
 </ol></p></answer></exercise>
 
-<note><p>Do you remember how to reduce your answers to the Exercise? You can review reducing fractions in Section 1.2.</p></note>
+<note><p>Do you remember how to reduce your answers to Checkpoint 4.1.2? You can review reducing fractions in <xref ref="reducing"/>.</p></note>
 </subsection>
 
 <subsection><title>Smaller Pieces</title>
@@ -97,7 +98,7 @@
     <me>\large{\dfrac{3}{68} + \dfrac{1}{6} = \dfrac{4}{6}}</me></p>
 </statement></example>
 
-<note><p>Did you notice that the answer to Example 2, namely <m>\dfrac{4}{6}</m>, can be written in its simpler reduced form as <m>\dfrac{2}{3}</m> ?</p>
+<note><p>Did you notice that the answer to Example 4.1.4, namely <m>\dfrac{4}{6}</m>, can be written in its simpler reduced form as <m>\dfrac{2}{3}</m> ?</p>
     <image source="twothirds.png" width="55%"></image></note>
 
 <exercise><statement><sidebyside widths="60% 18%"><p>You have <m>\dfrac{2}{3}</m> of a chocolate cake, left over from a birthday party. One serving is <m>\dfrac{1}{12}</m> of a cake. How many servings do you have left?</p>
@@ -129,7 +130,7 @@
   <li><p>In your own words, describe a two-step method for breaking a fraction into smaller pieces.</p></li>
 </ol></p></activity>
 
-<p>In Activity 1, we practiced writing an equivalent fraction with a larger denominator. The new fraction is the same portion of one whole as the old fraction, but it is broken into smaller pieces.</p>
+<p>In Activity 4.1.1, we practiced writing an equivalent fraction with a larger denominator. The new fraction is the same portion of one whole as the old fraction, but it is broken into smaller pieces.</p>
 
 <assemblage><title>To write an equivalent fraction with a larger denominator</title>
 <p><ol>
@@ -163,7 +164,7 @@
   <me>\dfrac{6}{8} - \dfrac{5}{8} = \dfrac{6 - 5}{8} = \dfrac{1}{8} ~~~~ \blert{\dfrac{\text{Combine the numerators.}}{\text{Keep the denominator.}}}</me></p>
 </solution></example>
 
-<note><p>In Example 3, we multiplied the numerator and denominator of <m>\dfrac{3}{4}</m> by <m>\alert{2}</m> to write the fraction with the denominator we needed, namely 8.  When we rewrite a fraction, the number we multiply by is often called the <term>building factor</term>.
+<note xml:id="building-fractions"><p>In Example 4.1.2, we multiplied the numerator and denominator of <m>\dfrac{3}{4}</m> by <m>\alert{2}</m> to write the fraction with the denominator we needed, namely 8.  When we rewrite a fraction, the number we multiply by is often called the <term>building factor</term>.
   <md><mrow>\dfrac{\text{old numerator}}{\text{old denominator}} \amp \times \dfrac{\text{building factor}}{\text{building factor}} \amp\amp =  \dfrac{\text{new numerator}}{\text{new denominator}}</mrow>
       <mrow>\dfrac{3}{4} ~~~~~~ \amp \times ~~~~~~ \dfrac{\alert{2}}{\alert{2}} \amp \amp = ~~~~~~ \dfrac{6}{8}</mrow></md>
 </p></note>
@@ -196,7 +197,7 @@
 </ol></p>
 </activity>
 
-<note><p>You may have noticed that for the problems in Activity 2, one of the denominators was always a multiple of the other denominator. What if that is not the case? We'll tackle that problem next.</p></note>
+<note><p>You may have noticed that for the problems in Activity 4.1.2, one of the denominators was always a multiple of the other denominator. What if that is not the case? We'll tackle that problem next.</p></note>
 </subsection>
 
 <subsection><title>Lowest Common Denominator</title>
@@ -211,7 +212,7 @@
 <p>Which of these multiples is also a multiple of 6 ? You can check that 6 divides evenly into 24 and 48, (and many more multiples if we continue the list). But for our purposes we want the smallest number that is a multiple of 6 and 8, so we can stop at 24.</p></solution></example>
 
 <assemblage><title>A Quick Refresher </title> 
-<p>In Example 4, the number 24 is called the <term>lowest common multiple</term> of 6 and 8. It is the smallest number that is a multiple of both 6 and 8, or is a "common" multiple for them. We first encountered the lowest common multiple, or LCM, in Section 1.3.</p></assemblage>
+<p>In Example 4.1.11, the number 24 is called the <term>lowest common multiple</term> of 6 and 8. It is the smallest number that is a multiple of both 6 and 8, or is a "common" multiple for them. We first encountered the lowest common multiple, or LCM, in <xref ref="lcm" text="custom"> Section 1.3.</xref></p></assemblage>
 
 <exercise><statement><p>Find the lowest common multiple for each pair of numbers. (In some cases, you may be able to do this in your head.)</p>
 <p><ol marker="a" cols="2">
@@ -234,7 +235,7 @@
 
 <p>Remember that we can only add or subtract fractions that have the same denominator, or "like" fractions. Finding the lowest common multiple for their denominators will help us to add unlike fractions.</p>
 
-<p>Recall that in Example 2, we added <m>\dfrac{1}{2}</m> and <m>\dfrac{1}{6}</m> by first writing <m>\dfrac{1}{2}</m> with a denominator of 6. (Notice that 6 is the lowest common multiple for 2 and 6.) To rewrite <m>\dfrac{1}{2}</m> we used a building factor of <m>\alert{3}</m>.
+<p>Recall that in Example 4.1.4, we added <m>\dfrac{1}{2}</m> and <m>\dfrac{1}{6}</m> by first writing <m>\dfrac{1}{2}</m> with a denominator of 6. (Notice that 6 is the lowest common multiple for 2 and 6.) To rewrite <m>\dfrac{1}{2}</m> we used a building factor of <m>\alert{3}</m>.
   <me>\dfrac{\blert{1}}{\blert{2}} + \dfrac{1}{6} = \left(\dfrac{\blert{1}}{\blert{2}} \times \dfrac{\alert{3}}{\alert{3}}\right) + \dfrac{1}{6} = \dfrac{\blert{3}}{\blert{6}} + \dfrac{1}{6} = \dfrac{4}{6}</me></p>
 
 <p>Then the two fractions shared a <term>common denominator</term>. They became like fractions, so we could combine their numerators.</p>
@@ -275,7 +276,7 @@
  
  <p> We now have all the skills we need to add unlike fractions. Let's review the reasoning behind our process.</p>
 
-<assemblage>
+<assemblage><title>Adding Fractions</title>
   <p><ul>
     <li><p>We can only add fractions whose pieces are the same size, which means that they have the same denominator.</p></li>
     <li><p>We can rewrite any fraction equivalently with a different denominator by breaking it into smaller pieces.</p></li>
@@ -296,7 +297,7 @@
 
 <example><statement><p> Add:  <m>~~\dfrac{1}{3} + \dfrac{3}{4}</m></p></statement>
 
-<solution><p>Step1:   In Example 4, we found the LCD for <m>\dfrac{1}{3}</m> and <m>\dfrac{3}{4}</m>. The smallest multiple of 4 that is also a multiple of 3 is 12.</p>
+<solution><p>Step1:   In Example 4.1.13, we found the LCD for <m>\dfrac{1}{3}</m> and <m>\dfrac{3}{4}</m>. The smallest multiple of 4 that is also a multiple of 3 is 12.</p>
 <p>Step 2:  Next, we must find a building factor for each fraction. We do this by dividing the old denominator into the <term>LCD</term>, 12.</p>
   <p>For <m>\dfrac{1}{3}</m>, the building factor is <m>12 \div 3 = \alert{4}</m>, so
       <me>\dfrac{1}{3} \times \dfrac{\alert{4}}{\alert{4}} = \dfrac{4}{12}</me></p>
@@ -383,7 +384,7 @@
     \end{tikzpicture}]]>
   </latex-image></image>
   
-<note><p>The sum in Example 6, <m>\dfrac{13}{12}</m>, is an <term>improper fraction</term> because its numerator is larger than its denominator. That just means that the fraction represents a number bigger than one whole. In this case, because <m>\dfrac{12}{12} = 1</m>, we can write
+<note><p>The sum in Example 4.1.16, <m>\dfrac{13}{12}</m>, is an <term>improper fraction</term> because its numerator is larger than its denominator. That just means that the fraction represents a number bigger than one whole. In this case, because <m>\dfrac{12}{12} = 1</m>, we can write
     <me>\dfrac{13}{12} = \dfrac{12 + 1}{12} = \dfrac{12}{12} + \dfrac{1}{12} = 1 + \dfrac{1}{12}</me>
 We usually write <m>1 + \dfrac{1}{12}</m> as a <term>mixed number</term>, <m>1 \dfrac{1}{12}</m>.</p></note>
 
@@ -418,19 +419,19 @@ We usually write <m>1 + \dfrac{1}{12}</m> as a <term>mixed number</term>, <m>1 \
 
   <p>Add or subtract the unlike fractions. Use the three steps:</p>
 
-<assemblage><p><ol>
+<assemblage><title>Three Steps</title><p><ol>
   <li><p>Find an <term>LCD</term> for the fractions.</p></li>
   <li><p>Build each fraction to the <term>LCD</term>.</p></li>
   <li><p>Combine the resulting like fractions.</p></li>
 </ol></p></assemblage>
 
-<p>Show your work.</p>
-
 <assemblage>
-<p>Example:  <m>~~\dfrac{3}{4} + \dfrac{5}{6}</m></p>
+<p><m>\blert{\text{Example:}}~~</m> Add <m>~~\dfrac{3}{4} + \dfrac{5}{6}</m></p>
     <p>Step 1:  The <term>LCD</term> is 12.</p>
     <p>Step 2:  <m>~~\dfrac{3}{4} + \dfrac{5}{6} = \left(\dfrac{3}{4} \times \dfrac{\alert{3}}{\alert{3}}\right) + \left(\dfrac{5}{6} \times \dfrac{\alert{2}}{\alert{2}}\right) = \dfrac{9}{12} + \dfrac{10}{12}</m></p>
     <p>Step 3:  <m>~~ \dfrac{9}{12} + \dfrac{10}{12} = \dfrac{19}{12}</m></p></assemblage>
+
+<p>Show your work.</p>
 
 <p><ol cols="2">
   <li><p><m>~~\dfrac{3}{5} - \dfrac{1}{2}</m></p></li>

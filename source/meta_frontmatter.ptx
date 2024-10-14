@@ -14,10 +14,10 @@
 
   <colophon>
 
-    <website>
+    <!--<website>
       <name><c>my-website.org</c></name>
       <address>http://pretextbook.org</address>
-    </website>
+    </website>-->
 
     <copyright>
       <!-- In addition to specifying the copyright holder, you should  -->
@@ -39,7 +39,7 @@
 
   </colophon>
 
-  <dedication>
+  <!--<dedication>
     <p>
       For ...
     </p>
@@ -49,7 +49,7 @@
     <p>
       I would like to thank...
     </p>
-  </acknowledgement>
+  </acknowledgement>-->
 
   <preface xml:id="meta_frontmatter-preface">
 
@@ -58,7 +58,7 @@
 <p>The exposition proceeds at a leisurely pace so that the reader can feel comfortable with the material. In fact, you may find that some parts seem very elementary. That is fine; you can relax and congratulate yourself on your existing knowledge. Learning proceeds best when we examine a topic from various angles, and ideas are sealed in memory by revisiting them in different settings.
 We think you will find something new to think about in most sections.</p>
 
-<p>Each Example in the text is followed by a similar Checkpoint for you to try yourself. There are also Activities that can be used in a classroom setting. If you are reading the book on your own, we hope you will try at least some of the Practice problems <emdash/> keep pencil and paper handy to jot down your thoughts and calculations. Once again, learning occurs most efficiently, especially in mathematics, if you engage actively with the material.</p> 
+<p>Each Example in the text is followed by a similar Checkpoint for you to try yourself. There are also Activities that can be used in a classroom setting. If you are reading the book on your own, we hope you will try at least some of the Practice problems; keep pencil and paper handy to jot down your thoughts and calculations. Once again, learning occurs most efficiently, especially in mathematics, if you engage actively with the material.</p> 
 
 <p>But most of all, we hope you will find the material useful, and enjoy learning more about mathematics.</p>
     

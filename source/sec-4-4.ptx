@@ -3,7 +3,7 @@
 <section xml:id="sec-4-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Negative Numbers</title>
 
-<sidebyside widths="50% 50%">
+<sidebyside widths="50% 50%" valigns="middle middle">
   <p><ul>
     <li><p>Opposites</p></li>
     <li><p>Signed Numbers</p></li>
@@ -14,7 +14,7 @@
   
   <image source="stockmarket.png"></image></sidebyside>
 
-  <subsection><title>Opposites</title>
+  <subsection xml:id="negnos"><title>Opposites</title>
 
   <p>The picture above shows part of the electronic display above a stock market trading floor. Notice the numbers in the column on the right.  Most of these are <term>negative numbers</term>, which tell us that the stock has decreased in value. The world of finance is just one of the areas where negative numbers are useful.</p>
 
@@ -79,7 +79,7 @@
   <solution><p><ol marker="a" cols="2">
     <li>
     <!-- <p><image source="pos14deg.png" width="42%"></image></p> -->
-    <image xml:id="Thermometerpos5" width="30%" margins="0% 70%"><description>Thermometer-5 deg</description><latex-image>
+    <image xml:id="Thermometerpos5" width="40%" margins="0% 60%"><description>Thermometer-5 deg</description><latex-image>
       <![CDATA[
       \begin{tikzpicture} [scale=.3]
       \def\r{1.2};
@@ -103,7 +103,7 @@
     </li>
     <li>
     <!-- <p><image source="neg8deg.png" width="45%"></image></p> -->
-    <image xml:id="ThermometerNeg8" width="30%" margins="0% 70%"><description>Thermometer -8 deg</description><latex-image>
+    <image xml:id="ThermometerNeg8" width="40%" margins="0% 60%"><description>Thermometer -8 deg</description><latex-image>
       <![CDATA[
       \begin{tikzpicture} [scale=.3]
       \def\r{1.2};
@@ -177,7 +177,6 @@ right to show a temperature of <m>-4  \degree</m>.</p>
 </latex-image></image>
 </answer></exercise>
 
-
 <p>Here are some more examples of how negative numbers are used:</p>
 <p><ul> 
   <li><p>Elevations above sea level are given by positive numbers, and elevations below sea level are given by negative numbers.</p></li>  
@@ -215,7 +214,7 @@ right to show a temperature of <m>-4  \degree</m>.</p>
   <li><p>The balance of Callie's checking account is <m>-50</m> dollars.</p></li>
 </ol></p></answer></exercise>
 
-<p>We can use a bar graph to display both positive and negative numbers. Bars that extend above the zero line indicate positive values, and bars that extend below the zero line indicate negative values. (See Section 2.3 if you would like to review bar graphs.)</p>
+<p>We can use a bar graph to display both positive and negative numbers. Bars that extend above the zero line indicate positive values, and bars that extend below the zero line indicate negative values. (See <xref ref="bargraph" text="custom">Section 2.3</xref> if you would like to review bar graphs.)</p>
 
 <example><statement><p>The bar graph below shows normal low temperatures, indegrees Celsius, for each month in Bismarck, North Dakota.</p>  
     <image source="bismarcktemp.png" width="75%"></image>
@@ -231,7 +230,7 @@ right to show a temperature of <m>-4  \degree</m>.</p>
 </ol></p></solution></example>
 
 <exercise><statement><p><ol marker="a">
-  <li><p>Look at the bar graph in Example 3. What is the normal low temperature in Bismarck in February? Is it colder in Bismarck in February or in December?</p></li>
+  <li><p>Look at the bar graph in Example 4.4.6. What is the normal low temperature in Bismarck in February? Is it colder in Bismarck in February or in December?</p></li>
   <li><p>Which two months have the same negative normal low temperature?  What is that temperature?</p></li>
 </ol></p></statement>
 
@@ -241,7 +240,7 @@ right to show a temperature of <m>-4  \degree</m>.</p>
 </ol></p></answer></exercise>
 </subsection>
 
-<subsection><title>The Integers</title>
+<subsection xml:id="integers"><title>The Integers</title>
 
 <p>In Section 2.1 we used <term>number lines</term> to compare decimal numbers. Now we'll extend our number lines to include negative numbers. Here is an example. </p>
     <image source="numberline.png" width="95%"></image>
@@ -315,7 +314,7 @@ means the same as
 
 <exercise><statement><p>Use inequality symbols to write the phrase in two different ways: <m>~~~-2</m> is greater than <m>-10</m>.</p></statement>
 
-<answer><m>-2 \gt -10</m>, or <m>-10 \lt -2</m></answer></exercise>
+<answer><m>-2 \gt -10~</m>, or <m>~-10 \lt -2</m></answer></exercise>
 
 </subsection>
 
@@ -330,7 +329,7 @@ means the same as
 
   <image source="neg6to6.png" width="95%"></image></solution></example>
 
-<note><p>In Example 6, notice that <m>-2.5</m> is less than <m>-2</m>, so it is graphed to the left of <m>-2</m>, between <m>-2</m>  and <m>-3</m>.</p></note>
+<note><p>In Example 4.4.14, notice that <m>-2.5</m> is less than <m>-2</m>, so it is graphed to the left of <m>-2</m>, between <m>-2</m>  and <m>-3</m>.</p></note>
 
 <exercise><statement><p>Graph the numbers <m>-2\dfrac{3}{4}</m>,  0.2,  and  1.6 on the number line below.</p>
 

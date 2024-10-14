@@ -1,7 +1,7 @@
 <exercises xml:id="prac-4-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Practice 4.3</title>
 
-<exercisegroup cols="4"><introduction><p>For Problems 1-4, find the positive square root of each number.</p></introduction>
+<exercisegroup><introduction><p>For Problems 1-4, find the positive square root of each number.</p></introduction>
 
 <exercise number="1"><statement><p><ol marker="a" cols="3">
   <li><p>36</p></li>

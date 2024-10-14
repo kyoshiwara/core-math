@@ -33,7 +33,7 @@
 <exercise number="7"><statement><p>Moving the decimal point 2 places to the left is a short-cut for what operation?</p></statement>
 <answer><p>Divide by 10</p></answer></exercise>
 
-<exercise number="8"><statement><p>Which of the following operations does 38 represent?</p>
+<exercise number="8"><statement><p>Which of the following operations does <m>\dfrac{3}{8}</m> represent?</p>
 <p><ol marker="a" cols="2">  
   <li><p>3 divided into 8</p></li>
   <li><p>3 divided by 8</p></li>
@@ -66,7 +66,7 @@
   <li><p>Which is a larger fraction,  <m>\dfrac{1}{3}</m> or 310?</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="13"><statement><p>Find the percent form of each fraction by dividing the denominator into 10</p>
+<exercise number="13"><statement><p>Find the percent form of each fraction by dividing the denominator into 10.</p>
 <p><ol marker="a" cols="4">
   <li><p><m>\dfrac{1}{5}</m></p></li> 
   <li><p><m>\dfrac{1}{25}</m></p></li> 

@@ -213,7 +213,7 @@
 
 <p>The discovery you made in this Activity about boxes is true for any similar objects.</p>
 
-<assemblage><title>Volume Principle for Similar Objecgs</title>
+<assemblage><title>Volume Principle for Similar Objects</title>
  <p>If we multiply each dimension of a three-dimensional object by <m>k</m>, then <ol>
   <li><p>The new object is similar to the original object, and </p></li>
   <li><p>The volume of the new object is <m>k^3</m> times the volume of the original object. </p></li>
@@ -234,7 +234,7 @@ Thus, the volume is scaled by
 
 The volume of a Lilliputian would be <m>\frac{1}{1728}</m> of the volume of a 6-foot tall human. (The weight of a Lilliputian would also be <m>\frac{1}{1728}</m> of the weight of a human. A 6-foot tall man weighs about 180 pounds, so a Lilliputian would weigh <m>\frac{180}{1728}</m> pounds, or <m>1\frac{2}{3}</m> ounces.)</p></solution></example>
 
-<exercise><statement><sidebyside widths="55% 35%" valigns="middle middle"><p>The radius of Jupiter is about 10.7 times the radius of the Earth. How does the volume of Jupiter compare to the volume of the Earth?</p><image source="Jupiter.png"></image></sidebyside></statement>
+<exercise><statement><sidebyside widths="55% 35%" valigns="middle middle"><p>The radius of Jupiter is about 10.7 times the radius of the Earth. How does the volume of Jupiter compare to the volume of the Earth?</p><image source="jupiter.png"></image></sidebyside></statement>
 
 <answer>About 1225 times the volume of the Earth.</answer></exercise>
 

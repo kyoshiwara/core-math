@@ -27,7 +27,7 @@ But the significance of the difference between two quantities also depends on th
   <li><p>But what if Boris and Cyril are cats? Cyril weighs 10 pounds, and Boris weighs 30 pounds. So Boris weighs three times as much as Cyril, and is a very fat cat indeed.</p></li>
 </ol></p></statement></example>
 
-<p>In part (b) of the Example, we used multiplication to compare Boris' and Cyril's weights:  Boris weighs <m>3</m> times as much as Cyril, or
+<p>In part (b) of Example 6.1.1, we used multiplication to compare Boris' and Cyril's weights:  Boris weighs <m>3</m> times as much as Cyril, or
   <me>\blert{\dfrac{\text{Boris' weight}}{\text{Cyril's weight}} = \dfrac{30}{10} = 3}</me>
 We use division to make a <term>multiplicative comparison</term>.  For the weight-lifters,
     <me>\blert{\dfrac{\text{Boris' weight}}{\text{Cyril's weight}} = \dfrac{270}{250} = 1.08}</me>
@@ -125,9 +125,8 @@ The ratio of men to women in the state legislature is <m>\dfrac{5}{2}</m>.</p>
 You can check that all of these quotients equal 2.5. There are 2.5 times as many men as women in the state legislature.</p></note>
 
 <assemblage><title>A Quick Refresher</title>
-<p>Recall that we can use building factors to create new fractions with the same value, and we can reduce a fraction to a simpler form. The same is true for ratios. For example, we'll find three different pairs of numbers whose ratio is <m>\dfrac{4}{3}</m>. </p> 
-
-<p><m>\blert{\text{Solution}}~~~</m>  This task is the same as finding three different fractions equivalent to <m>\dfrac{4}{3}</m>.  Because <m>\dfrac{4}{3}</m> is already in lowest terms, we will <term>build</term> <m>~\dfrac{4}{3}</m> to find equivalent fractions.  We can use any number we like (except zero) as the <term>building factor</term>.
+<p>Recall that we can use <term>building factors</term> to create new fractions with the same value, and we can reduce a fraction to a simpler form. The same is true for ratios. For example, we'll find three different pairs of numbers whose ratio is <m>\dfrac{4}{3}</m>.</p> 
+<p><m>\blert{\text{Solution}}~~~</m>  This task is the same as finding three different fractions equivalent to <m>\dfrac{4}{3}</m>.  Because <m>\dfrac{4}{3}</m> is already in lowest terms, we will <term>build</term> <m>~\dfrac{4}{3}</m> to find equivalent fractions.  We can use any number we like (except zero) as the building factor.
 
   <md><mrow>\text{Using 2 as the building factor:} \hphantom{000} \amp \dfrac{4 \cdot \blert{2}}{3 \cdot \blert{2}} = \dfrac{8}{6}</mrow>
       <mrow>\text{Using 3 as the building factor:} \hphantom{000} \amp \dfrac{4 \cdot \blert{3}}{3 \cdot \blert{3}} = \dfrac{12}{9}</mrow>
@@ -266,7 +265,7 @@ and
 
 <example><statement><p><ol marker="a">
   <li><p>Kayla drove 130 miles in <m>2\frac{1}{2}</m> hours. Compute the ratio of the distance she traveled to the time it took.</p></li>
-  <li><p>What is the every-day interpretation of the ratio in part (a).</p></li>
+  <li><p>What is the every-day interpretation of the ratio in part (a)?</p></li>
 </ol></p></statement>
 
 <solution><p><ol marker="a">
@@ -277,9 +276,10 @@ and
   <li><p>We can interpret the simplified ratio as "52 miles per hour." It gives us the average speed at which Kayla traveled. For each hour that elapsed, Kayla traveled 52 miles.</p></li>
 </ol></p></solution></example>
 
-<note><p>The simplified rate in the previous Example is called a <term>unit rate</term> because it gives us the distance Kayla traveled in one hour. We can use the unit rate to find the distance Kayla would travel (at the same rate) over other time periods. For example, in 3 hours Kayla would travel
-  <me>3 \cancel{\text{hours}} \times \frac{52}{1} \frac{\text{miles}}{\cancel{\text{hour}}} = \text{156 miles}</me>
-</p></note>
+<p>The simplified rate in Example 6.1.3 is called a <term>unit rate</term> because it gives us the distance Kayla traveled in one hour. We can use the unit rate to find the distance Kayla would travel (at the same rate) over other time periods. For example, in 3 hours Kayla would travel
+  <me>3 \cancel{\text{hours}} \times \frac{52}{1} \frac{\text{miles}}{\cancel{\text{hours}}} = \text{156 miles}</me></p>
+
+<note><p>Here is one of those tricky places where an English word can mean more than one thing in mathematics. Although a rate describes a ratio of quantities with different units, such as miles/hours, the "unit" in <term>unit rate</term> means 1, so that the rate <m>\dfrac{\text{130 miles}}{\text{2.5 hours}}</m> is simplified to the unit rate <m>\dfrac{52}{\blert{1}} \dfrac{\text{miles}}{\blert{1~}\text{hour}}</m>.</p></note>
 
 <exercise><statement><p>Jamal worked for five hours on Tuesday and earned $132 (before taxes).<ol marker="a">
   <li><p>What was his pay rate, in dollars per hour?</p></li>
@@ -291,6 +291,19 @@ and
   <li><p>$211.20</p></li>
 </ol></p></answer></exercise>
 
+</subsection>
+
+<subsection><title>Vocabulary</title>
+<p><ul cols="2">
+  <li><p>additive comparison</p></li>
+  <li><p>multiplicativ conparison</p></li>
+  <li><p>ratio</p></li>
+  <li><p>build</p></li>
+  <li><p>building factor</p></li>
+  <li><p>decimal form</p></li>
+  <li><p>rate</p></li>
+  <li><p>unit rate</p></li>
+</ul></p>
 </subsection>
 
 <xi:include href="./prac-6-1.ptx" />

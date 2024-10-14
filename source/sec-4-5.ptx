@@ -3,7 +3,7 @@
 <section xml:id="sec-4-5" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Order of Operations</title>
 
-<sidebyside widths="50% 40%">
+<sidebyside widths="50% 40%" valigns="middle middle">
   <p><ul>
     <li><p>Which Operations Come First</p></li>
     <li><p>Combined Operations</p></li>
@@ -28,7 +28,7 @@
     <li><p>Frost the cake.</p></li>
   </ol></p></assemblage>
 
-<p>What if you perform those steps out of order? Your cake might not be a succecss! The order in which we perform a sequence of steps makes a difference to the outcome.</p>
+<p>What if you perform those steps out of order? Your cake might not be a success! The order in which we perform a sequence of steps makes a difference to the outcome.</p>
 
 <p>Algebraic expressions often involve more than one operation. Just as with cake baking, the order in which we perform those operations makes a difference to the answer. You probably know the following rule.</p>
 
@@ -156,7 +156,7 @@ Should we add  <m>5 + 2</m>  first, and then multiply by 4, or should we multipl
 <assemblage><sidebyside><stack>
   <p><m>\blert{\text{Option 1}}</m></p>
   <p><md><mrow>2 \amp + \alert{5 \cdot 3} \amp \amp \text{Multiply first.}</mrow>
-      <mrow>\amp = 2 + \alert{15} \amp \amp \text{Then multiply.}</mrow>
+      <mrow>\amp = 2 + \alert{15} \amp \amp \text{Then add.}</mrow>
       <mrow>\amp = 17</mrow></md></p></stack>
   <stack>
   <p><m>\blert{\text{Option 2}}</m></p>
@@ -240,12 +240,13 @@ we compute the sum  <m>16+14</m> and the difference <m>8-2</m>  before dividing:
     <me>\dfrac{15}{3} ~~~~~~ \text{or} ~~~~~~  15 \div 3</me>
 But the calculator does not have a fraction bar, so we must use the <m>\boxed{\div}</m> key for division.</p> 
 
-<assemblage><p>If there are operations above or below the fraction bar, we must enclose those operations in parentheses.</p></assemblage>
+<assemblage><title> Fraction Bars</title>
+  <p>If there are operations above or below the fraction bar, we must enclose those operations in parentheses.</p></assemblage>
 
 <p>For example, to simplify the expression
   <me>\dfrac{120}{4(5)} \hphantom{0000} \text{we enter} \hphantom{0000} 120 \hphantom{0} \boxed{\div} \hphantom{0} \boxed{(} \hphantom{0} 4  \hphantom{0} \boxed{\times} \hphantom{0} 5 \hphantom{0} \boxed{)} \hphantom{0} \boxed{=}</me></p>
 
-<note><p>If your calculator does not have parentheses, you must perform the calculation in steps, followint the order of operations:  first compute <m>4 \times 5</m>  to get 20, then divide 120  by  20 to get 6.</p>
+<note><p>If your calculator does not have parentheses, you must perform the calculation in steps, following the order of operations:  first compute <m>4 \times 5</m>  to get 20, then divide 120  by  20 to get 6.</p>
 
 <p>What answer would you get if you entered this keying sequence:
   <me>120 \hphantom{0} \boxed{\div} \hphantom{0} 4 \hphantom{0} \boxed{\times} \hphantom{0} 5 \hphantom{0} \boxed{=}</me></p>
@@ -296,7 +297,7 @@ But the calculator does not have a fraction bar, so we must use the <m>\boxed{\d
 
 <answer><m>5</m></answer></exercise>
 
-<note><p>Be careful!  In Exercise 3, did you add 9 + 16 to get 25 before you took the square root? Look at Step 1 of the order of operations:  Perform any operations ... or inside a radical.  In other words,
+<note><p>Be careful!  In Checkpoint 4.5.16, did you add 9 + 16 to get 25 before you took the square root? Look at Step 1 of the order of operations:  Perform any operations ... or inside a radical.  In other words,
     <me>\sqrt{9+16} \hphantom{0000}  \text{is not equal to}  \hphantom{0000}   \sqrt{9} + \sqrt{16}</me></p></note>
 
 <p>You can also use your calculator to find approximations for expressions that involve radicals. Let's agree to round all approximate values to three decimal places, unless otherwise specified.</p>

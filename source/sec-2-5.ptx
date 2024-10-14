@@ -24,7 +24,7 @@ you would respond by filling in the blank:  <m>5 \times 12 = 60</m>.</p>
   </ul></p></assemblage>
 
   <p>In algebra, we often use the equals sign in a completely different way, to show a relationship between two algebraic expressions. When we write
-      <me>\large{\text{Delbert's age}~~~~ = \text{Francine's age}~~~~ + 6}</me>
+      <me>\blert{\large{\text{Delbert's age}~~~~ = ~~~ \text{Francine's age}~~~~ + ~~~6}}</me>
   we are describing the relationship between Delbert's age and Francine's age. Such a statement is called an <term>equation</term>.</p>
 
 <assemblage><title>Definition</title>
@@ -202,7 +202,7 @@ The statement is false, so 28 is not a solution of the equation <m>6z=178</m>.</
 
 <subsection><title>Finding Solutions: Opposite Operations</title>
 
-<sidebyside widths="65% 20%"><stack><p>To <term>solve</term> an equation means to find its solution (or solutions).</p>
+<sidebyside widths="68% 20%"><stack><p>To <term>solve</term> an equation means to find its solution (or solutions).</p>
 <p> Some equations are easy to solve; you can see the solution just by thinking about it. For example, the equation <m>x=5</m> is very easy to solve; its solution is 5.</p></stack><image source="spyglass.png"></image></sidebyside>  
 
 <p>We can solve more complicated equations by transforming them into simple ones. Of course, we must do this in a way that the new equation has the same solution as the original equation.</p>
@@ -277,7 +277,7 @@ The statement is false, so 28 is not a solution of the equation <m>6z=178</m>.</
 <p>We see that subtraction "undoes" the effect of addition, and division "undoes" the effect of multiplication. Next we'll use opposite operations to solve an equation.</p>
 </subsection>
 
-<subsection><title>Isolating the Variable</title>
+<subsection xml:id="solve1"><title>Isolating the Variable</title>
 
 <sidebyside widths="70% 25%"><stack><p>Consider the equation
     <me>x - 6 = 4</me>
@@ -317,12 +317,12 @@ It is a good idea to perform the check as part of the solution process.</p>
 
 <answer><p><m>a = 10.4</m></p></answer></exercise>
 
-<p>In the previous Example, we solved an equation by "undoing" an addition. In the next Activity, note carefully how we write down the solution step in the Examples for the other three operations. </p>
+<p>In Example 2.5.9, we solved an equation by "undoing" a subtraction. In Activity 2.5.3, note carefully how we write down the solution step in the Examples for the other three operations. </p>
 
 <activity><title>Isolating the Variable</title>
 <p>Read each Example, then complete the Exercise following the Example.</p>
 <p><ol>
-  <li><p>Solve the equation <m>~4x = 32</m></p>
+  <li><p><m>\blert{\text{Example 1}}~~</m>Solve the equation <m>~4x = 32</m></p>
     <p>Step 1:  What operation has been performed on <m>x</m>?
         <me>\blert{x~ \text{has been multiplied by 4.}}</me></p>
     <p>Step 2: Perform the opposite operation on both sides of the equation.
@@ -336,7 +336,7 @@ It is a good idea to perform the check as part of the solution process.</p>
     <p>Step 2: Perform the opposite operation on both sides of the equation.</p>
     <p>Check:</p></li>
 
-  <li><p>Solve the equation <m>~x+8.3 = 24</m></p>
+  <li><p><m>\blert{\text{Example 2}}~~</m>Solve the equation <m>~x+8.3 = 24</m></p>
     <p>Step 1:  What operation has been performed on <m>x</m>?
         <me>\blert{8.3~ \text{has been added to}~x.}</me></p>
     <p>Step 2: Perform the opposite operation on both sides of the equation.
@@ -351,7 +351,7 @@ It is a good idea to perform the check as part of the solution process.</p>
     <p>Step 2: Perform the opposite operation on both sides of the equation.</p>
     <p>Check:</p></li>
 
-    <li><p>Solve the equation <m>~\dfrac{x}{6} = 12</m></p>
+    <li><p><m>\blert{\text{Example 3}}~~</m>Solve the equation <m>~\dfrac{x}{6} = 12</m></p>
     <p>Step 1:  What operation has been performed on <m>x</m>?
         <me>\blert{x~ \text{has been divided by 6.}}</me></p>
     <p>Step 2: Perform the opposite operation on both sides of the equation.

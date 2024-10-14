@@ -63,7 +63,8 @@
 
 <exercise number="6"><statement><p>What is a square unit, and how is it used?</p></statement></exercise>
 
-<exercise number="7"><statement><p>If you know the length and width of a rectangle, how can you find its perimeter</p></statement><answer><p>Add the length and width and double the sum.</p></answer></exercise>
+<exercise number="7"><statement><p>If you know the length and width of a rectangle, how can you find its perimeter?</p></statement>
+<answer><p>Add the length and width and double the sum.</p></answer></exercise>
 
 <exercise number="8"><statement><p>Which of the following are correct ways to calculate the perimeter of a rectangle?</p>
 <p><ol marker="a">

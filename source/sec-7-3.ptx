@@ -13,7 +13,7 @@
 
 <subsection><title>Multiplication</title>
 
-<p>Multiplication is really just a short cut for repeated addition.  For example,
+<p>Multiplication of integers is really just a short cut for repeated addition.  For example,
     <image source="multa.png" width="65%"></image>
 Similarly,
     <image source="multb.png" width="90%"></image>
@@ -27,7 +27,8 @@ because we can multiply two numbers in either order and get the same answer.</p>
   
 <p>From these examples, the following rule seems reasonable.</p>
 
-<assemblage><p>The product of two numbers with opposite signs is negative.</p></assemblage>
+<assemblage><title>Opposite Signs</title>
+  <p>The product of two numbers with opposite signs is negative.</p></assemblage>
 
 <example><statement><p><ol marker="a" cols="2">
   <li><p><m>(-3)(6) = -18</m></p></li>
@@ -49,7 +50,8 @@ because we can multiply two numbers in either order and get the same answer.</p>
 
 <p>What about the product of two negative numbers?</p>
 
-  <assemblage><p>The product of two negative numbers is positive.</p></assemblage>
+  <assemblage><title>Product of Negative Numbers</title>
+    <p>The product of two negative numbers is positive.</p></assemblage>
 
 <p>This rule is the hardest one to understand. Try reading the Note below to see if it convinces you.</p>
 
@@ -75,7 +77,8 @@ because we can multiply two numbers in either order and get the same answer.</p>
 
 <p>We already know that the product of two positive numbers is positive. And here is another reasonable fact:</p>
 
-  <assemblage><p>Zero times any number, positive or negative, is zero.</p></assemblage>
+  <assemblage><title>Products with Zero</title>
+      <p>Zero times any number, positive or negative, is zero.</p></assemblage>
 
 <p>For example,
     <me> 0(-28) = 0 ~~~~ \text{and} ~~~~ -17(0) = 0</me></p>
@@ -188,7 +191,8 @@ We'll use this idea to investigate division of signed numbers.</p>
     <me>4^3 ~~~~ \text{means} ~~~~   4 \cdot 4 \cdot 4</me>
 where 4 is called the base and 3 is called the exponent.  We read <m>4^3</m> as "4 to the third power" or "4 cubed."  We can also compute powers of negative numbers.</p>
 
-  <assemblage><p>To show that a negative number is raised to a power, we must enclose the negative number in parentheses.</p></assemblage>
+  <assemblage><title>Powers of Negative NUmbers</title>
+    <p>To show that a negative number is raised to a power, we must enclose the negative number in parentheses.</p></assemblage>
 
 <p>For example, to indicate the square of 5, we write
       <me>(-5)^2 = (-5)(-5) = 25 ~~~~~~  \blert{\text{Exponent applies to}~ (-5).}</me>
@@ -228,6 +232,15 @@ If the negative number is not enclosed in parentheses, then the exponent applies
     <li><m>-8</m></li>
   </ol></p></answer></exercise>
 
+</subsection>
+
+<subsection><title>Vocabulary</title>
+<p><ul cols="2">
+  <li><p>product</p></li>
+  <li><p>quotient</p></li>
+  <li><p>power</p></li>
+  <li><p>expponent</p></li>
+</ul></p>
 </subsection>
 
 <xi:include href="./prac-7-3.ptx" />

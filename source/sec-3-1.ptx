@@ -103,7 +103,7 @@
 
 <subsection><title>Volume</title>
 
-<p>Remember the cube in Exercise 1? In that exercise we were interested in the outer surface of the cube, the six faces that can be "unfolded" into a flat two-dimensional surface. Now we'll switch our focus to the three-dimensional space enclosed inside a box. We'll use cubes to measure that space.</p>
+<p>Remember the cube in Checkpoint 3.1.3? In that exercise we were interested in the outer surface of the cube, the six faces that can be "unfolded" into a flat two-dimensional surface. Now we'll switch our focus to the three-dimensional space enclosed inside a box. We'll use cubes to measure that space.</p>
   
 <p>Just as we use square units, such as square inches or square meters, to measure the area of a two-dimensional region, we use <term>cubic units</term> to measure the <term>volume</term> or amount of space inside a three-dimensional object. For instance, a <term>cubic inch</term> is the
  amount of space enclosed inside a cube that measures 1 inch on each side. A <term>cubic meter</term> is ....  well, you get the idea.</p>
@@ -123,7 +123,7 @@ The volume of the box is 72 cubic centimeters.</p>
 
 <note><p>We don't really need the grid lines to help us calculate the volume of a box. For example, here is a picture of a box with the standard labels for its dimensions.</p>
     <image source="dimensionsbox.png" width="45%"></image>
-<p>Let's look at a particular example. We'll figure out how many cubic inches fit inside the box below, just as we did in Example 2.</p>
+<p>Let's look at a particular example. We'll figure out how many cubic inches fit inside the box below, just as we did in Example 3.1.4.</p>
     <image source="vol2400box.png" width="60%"></image>
 <p>The box is 10 inches high, so there are 10 layers of cubic inch blocks. Each layer contains 20 rows of 12 blocks each. One layer contains
     <me>20 \times 12 = 240 \hphantom{0} \text{cubic inches}</me>
@@ -157,7 +157,7 @@ The volume of the box is 2400 cubic inches.</p></note>
   </ol></p></answer></exercise>
   
 <activity><title>Volume</title>
-<p>Look back at the unfolded boxes in Problem 2 of Activity 2. (Here are tiny pictures of them.)</p>
+<p>Look back at the unfolded boxes in Problem 2 of Activity 3.1.2. (Here are tiny pictures of them.)</p>
     <image source="tinybox.png" width="80%"></image>
 <p><ol>
 <li><p>Draw the folded up version of each box, and label its dimensions.</p></li>

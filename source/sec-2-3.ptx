@@ -4,7 +4,7 @@
   <title>Variables</title>
 
 <sidebyside widths="50% 35%"><p><ul>
-    <li><p>What is a Variable</p></li>
+    <li><p>What is a Variable?</p></li>
     <li><p>Bar Graphs</p></li>
     <li><p>Using Letters for Variables</p></li>
   </ul></p>
@@ -20,7 +20,7 @@
                 <col halign="center"/>
                 <col halign="center"/>
                 <col halign="center"/>
-    <row >
+    <row header="yes">
       <cell>Francine's age</cell>
       <cell>Delbert's age</cell></row>
     <row>
@@ -74,11 +74,11 @@
 
 <answer><p><ol marker="a">
     <li><p>Yes, the discount price is $2 less than the regular price.</p></li>
-    <li><p>Discount price =  Regular price <m>-</m> $2</p></li>
+    <li><p>Discount price <m>=</m>  Regular price <m>-</m> $2</p></li>
   </ol></p></answer></exercise>                                                 
 
-<assemblage>
-  <p>Did you see the pattern relating the Discount price to the Regular price in Exercise 1? When we look for a pattern we can check several possibilities:</p>
+<assemblage><title>Looking for Patterns</title>
+  <p>Did you see the pattern relating the Discount price to the Regular price in Checkpoint 2.2.3? When we look for a pattern we can check several possibilities:</p>
   <p><ul>
   <li><p>Is there a constant number we can add to or subtract from the first variable to get the second variable?</p></li>
   <li><p>Can we multiply or divide the first variable by a constant to get the second variable?</p></li>
@@ -111,7 +111,7 @@
     <me>\text{Your share} = \blert{\text{utility bill} \div 4}</me></p></li>
   </ol></p></statement></example>
 
-  <p>In the Example above, Your Share and Utility Bill are variables, because they can change from month to month.</p>
+  <p>In Example 2.3.4, Your Share and Utility Bill are variables, because they can change from month to month.</p>
 
   <exercise><statement><p>The table shows the weight of a salad and the price charged by the cafeteria.</p>
 
@@ -241,7 +241,7 @@
 </ol></p></activity>
 </subsection>
 
-<subsection><title>Bar Graphs</title>
+<subsection xml:id="bargraph"><title>Bar Graphs</title>
 
 <p>We can use a <term>bar graph</term> to display the values of a variable. The height of the bar illustrates the value at each time or in each situation.</p>
 
@@ -260,7 +260,7 @@
         <me>\blert{\text{Housing sales declined by 25 (from 35 to 10).}}</me></p></li>
 </ol></p></statement></example>
 
-<exercise><statement><p>Refer to the bar graph in the Example above, which shows new home sales in Columbus County.</p> 
+<exercise><statement><p>Refer to the bar graph in Example 2.3.6, which shows new home sales in Columbus County.</p> 
 <p><ol marker="a">
   <li><p>How many houses were sold in February?</p></li>
   <li><p>In which month(s) were 20 houses sold?</p></li>
@@ -365,7 +365,7 @@
   <image source="bargraph2.png" width="85%"></image>
 
 <p><ol marker="a">
-  <li><p>What was Motorola's share of the market in 2000?   <m>~~~~~~\blert{15\%}</m></p></li>
+  <li><p>What was Motorola's share of the market in 2000?   <m>~~~~~~\blert{\text{15%}}</m></p></li>
   <li><p>In which year shown did Motorola have a 24% market share?   <m>~~~~~~\blert{\text{1997}}</m></p></li>
   <li><p>In which of the years shown did Motorola have its largest market share?  What was that share?
     <me>\blert{\text{In 1994 Motorola had 33% of the market.}}</me></p></li>    
@@ -375,15 +375,15 @@
     <me>\blert{\text{In 1994 Motorola had a 12% lead in market share.}}</me></p></li>
 </ol></p></statement></example>
 
-<exercise><statement><p>Refer to the bar graph in the previous Example.</p>
-<p><ol marlker="a">  
+<exercise><statement><p>Refer to the bar graph in Example 2.3.8.</p>
+<p><ol marker="a">  
   <li><p>What was Nokia's share of the market in 2000?</p></li>  
   <li><p>In which of the years shown did Nokia have its lowest market share?  What was that share?</p></li>  
   <li><p>In which of the years shown did Nokia have its largest lead over Motorola in market share? What was that lead?</p></li> 
   <li><p>In which year did Nokia overtake Motorola in market share?</p></li>
 </ol></p></statement>
 
-<answer><p><ol marlker="a">  
+<answer><p><ol marker="a">  
   <li><p>31%</p></li>  
   <li><p>1997, 19%</p></li>  
   <li><p>2000, 16%</p></li> 
@@ -435,7 +435,7 @@
 
 <subsection><title>Using Letters for Variables</title>
 
-<p>We often use a single letter to represent a variable quantity. In the next Example, the variables are Jayson's age and Shawna's age.</p>
+<p>We often use a single letter to represent a variable quantity. In Example 2.3.10, the variables are Jayson's age and Shawna's age.</p>
 
 <example><statement><p>Shawna was 22 years old when her son Jayson was born.</p>
 <p><ol marker="a">
@@ -454,11 +454,11 @@
       <cell>18</cell></row>
     <row>
       <cell>(Calculation)</cell>
-      <cell>1+22</cell>
-      <cell>4+22</cell>
-      <cell>7+22</cell>
-      <cell>12+22</cell>
-      <cell>18+22</cell></row>
+      <cell><m>1+22</m></cell>
+      <cell><m>4+22</m></cell>
+      <cell><m>7+22</m></cell>
+      <cell><m>12+22</m></cell>
+      <cell><m>18+22</m></cell></row>
     <row>
       <cell>Shawna's age</cell>
       <cell>23</cell>
@@ -497,7 +497,7 @@
     </tabular></p></li>
 </ol></p></statement></example>
 
-<note><p>A letter used as a variable must always stand for a number. In the previous Example, the variable <m>\alert{a}</m> stands for Jayson's age, which is a number. We cannot let a variable stand for, say, "Jayson," or for any other person or object.</p></note>
+<note><p>A letter used as a variable must always stand for a number. In Example 2.3.10, the variable <m>\alert{a}</m> stands for Jayson's age, which is a number. We cannot let a variable stand for, say, "Jayson," or for any other person or object.</p></note>
 
 <exercise><statement><p>A belt should be 3 inches longer than the maximum waist size it can fit.</p>
 <p><ol marker="a">
@@ -520,10 +520,10 @@
       <cell></cell></row>
     <row>
       <cell>Belt length (inches)</cell>
-      <cell></cell>
-      <cell></cell>
-      <cell></cell>
-      <cell></cell></row>
+      <cell><m>\hphantom{00000}</m></cell>
+      <cell><m>\hphantom{00000}</m></cell>
+      <cell><m>\hphantom{00000}</m></cell>
+      <cell><m>\hphantom{00000}</m></cell></row>
     </tabular></p></li>
 
   <li><p>Explain how to find the belt length if you know the waist size.</p></li>
@@ -543,10 +543,10 @@
       <cell>36</cell></row>
     <row>
       <cell><m>\vphantom{w}</m></cell>
-      <cell></cell>
-      <cell></cell>
-      <cell></cell>
-      <cell></cell></row>
+      <cell><m>\hphantom{00000}</m></cell>
+      <cell><m>\hphantom{00000}</m></cell>
+      <cell><m>\hphantom{00000}</m></cell>
+      <cell><m>\hphantom{00000}</m></cell></row>
     </tabular></p></li>
 </ol></p></statement>
 
@@ -558,10 +558,10 @@
                 <col halign="center"/>
     <row>
       <cell>Waist size (inches)</cell>
-      <cell>24</cell>
-      <cell>28</cell>
-      <cell>32</cell>
-      <cell>36</cell></row>
+      <cell><m>\hphantom{00}</m>24<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>28<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>32<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>36<m>\hphantom{00}</m></cell></row>
     <row>
       <cell>(Calculation)</cell>
       <cell><m>24 + 3</m></cell>
@@ -586,22 +586,22 @@
                 <col halign="center"/>
     <row>
       <cell><m>\blert{w} \hphantom{000}</m></cell>
-      <cell>24</cell>
-      <cell>28</cell>
-      <cell>32</cell>
-      <cell>36</cell></row>
+      <cell><m>\hphantom{00}</m>24<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>28<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>32<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>36<m>\hphantom{00}</m></cell></row>
     <row>
-      <cell><m>w + 3</m></cell>
-      <cell>27</cell>
-      <cell>31</cell>
-      <cell>35</cell>
-      <cell>39</cell></row>
+      <cell><m>\blert{w + 3}</m></cell>
+      <cell><m>\hphantom{00}</m>27<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>31<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>35<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>39<m>\hphantom{00}</m></cell></row>
     </tabular></p></li>
 </ol></p></answer></exercise>
 
-<activity><title>Using Letters for Varuables</title>
+<activity><title>Using Letters for Variables</title>
 <p><ol>
-  <li><sidebyside widths="50% 30%"><p>Uncle Herb is on a diet. He can have 1200 calories per day.</p><image source="salad.png"></image></sidebyside>  
+  <li><sidebyside widths="50% 30%" valigns="middle middle"><p>Uncle Herb is on a diet. He can have 1200 calories per day.</p><image source="salad.png"></image></sidebyside>  
     <p><ol marker="a">
       <li><p>If Uncle Herb has 700 calories for lunch, how many calories can he have for dinner?</p></li>
       <li><p>Explain how to find the number of calories Uncle Herb can have for dinner if he consumes <m>c</m> calories for lunch.</p></li>
@@ -611,12 +611,12 @@
                 <col halign="center"/>
                 <col halign="center"/>
     <row>
-      <cell><m>c \hphantom{000}</m></cell>
-      <cell>200</cell>
-      <cell>350</cell>
-      <cell>425</cell>
-      <cell>640</cell>
-      <cell>870</cell></row>
+      <cell><m><m>\hphantom{00}</m>c \hphantom{000}</m></cell>
+      <cell><m>\hphantom{00}</m>200<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>350<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>425<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>640<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>870<m>\hphantom{00}</m></cell></row>
     <row>
       <cell><m>1200-c</m></cell>
       <cell></cell>
@@ -629,18 +629,18 @@
 <li><p>Quentin has to drive 600 miles. He plans to drive at a constant average speed.</p>
     <p><ol marker="a">
       <li><p>How long will the journey take if he drives at 60 miles per hour?</p></li>
-      <li><p> Explain how to find how long the journey will take at <m>r</m> miles per hour.</p></li>
+      <li><p>Explain how to find how long the journey will take at <m>r</m> miles per hour.</p></li>
       <li><p>Fill in the table for the given values of <m>r</m>.</p>        
     <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <col halign="center"/>
                 <col halign="center"/>
                 <col halign="center"/>
     <row>
-      <cell><m>r \hphantom{000}</m></cell>
-      <cell>40</cell>
-      <cell>45</cell>
-      <cell>50</cell>
-      <cell>80</cell></row>
+      <cell><m><m>\hphantom{00}</m>r \hphantom{000}</m></cell>
+      <cell><m>\hphantom{00}</m>40<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>45<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>50<m>\hphantom{00}</m></cell>
+      <cell><m>\hphantom{00}</m>80<m>\hphantom{00}</m></cell></row>
     <row>
       <cell><m>\dfrac{600}{r}</m></cell>
       <cell></cell>
@@ -658,7 +658,7 @@
   multiply the result by 2:
       <me>\dfrac{2}{3}~ \text{of}~ 36 = 2 \times 12 = 24</me></p>
 
-<p>Exercise </p>
+<p><m>\blert{\text{Exercise}}</m> </p>
   <p><ol marker="a"> 
     <li><p>Find <m>\dfrac{1}{4}</m> of 120.</p></li>
     <li><p>Find <m>\dfrac{3}{4}</m> of 120.</p></li></ol></p></li>
@@ -668,7 +668,7 @@
 <li><p>If a number is increased by 5%, we multiply the number by 1.05:
       <me>80~ \text{increased by}~ 5\% ~\text{is}~  1.05 \times 80 = 84</me></p>
 
-<p>Exercise</p>
+<p><m>\blert{\text{Exercise}}</m></p>
   <p><ol marker="a"> 
     <li><p>Find 15% of 60.</p></li>
     <li><p>Increase 60 by 15%.</p></li></ol></p></li>

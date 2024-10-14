@@ -24,7 +24,7 @@
 
     <image source="porticos.png" width="70%"></image>
 
-<p>Triangles are simple shapes, so we'll start our study of similar figures with some triangles. (If you would like to review some properties of triangles, you could refer to Section 1.4.)</p>
+<p>Triangles are simple shapes, so we'll start our study of similar figures with some triangles. (If you would like to review some properties of triangles, you could refer to <xref ref="triangles" text="custom">Section 1.4</xref>.)</p>
 
 <example><statement><p>Which of the triangles shown below appear to be similar?</p>
 
@@ -69,7 +69,7 @@
   <li><p>Did you find that the length each side of the large triangle is 1.5 times the length of the <term>corresponding side</term> of the small triangle? (It is difficult to measure exactly, but your quotients should all be close to 1.5.)</p></li>
 </ol></p></activity>
 
-<p><m>\blert{\text{Summary:}}</m> In this Activity, we learned two things about similar triangles:</p>
+<p><m>\blert{\text{Summary:}}</m> In Activity 6.4.1, we learned two things about similar triangles:</p>
 
 <p><ul>
   <li><p>The corresponding angles are equal.</p></li>
@@ -85,7 +85,7 @@
 
 <subsection><title>Scale Factors</title>
 
-<p>The factor of 1.5 that you found in the Activity is called a <term>scale factor</term>. If we want to enlarge a figure to a similar shape (or "scale it up"), we need to increase the length of each part of the figure by the same factor.  Of course, we need to preserve the angles between sides as well.</p>
+<p>The factor of 1.5 that you found in Activity 6.4.1 is called a <term>scale factor</term>. If we want to enlarge a figure to a similar shape (or "scale it up"), we need to increase the length of each part of the figure by the same factor.  Of course, we need to preserve the angles between sides as well.</p>
 
 <sidebyside widths="60% 30%" valigns="middle middle"><p>The picture at right illustrates one method for enlarging a figure. The principle behind this technique is the same one that enables us to project images from a filmstrip onto a movie screen. You can try it yourself in the next Activity.</p>       
 <image source="scaling.png"></image></sidebyside>
@@ -137,12 +137,12 @@
   </p></li>
 </ol></p></assemblage>
 
-<p>The scale factor between two similar figures is also the ratio of their side lengths. In Activity 1, the ratio of the side lengths of the two triangles is 1.5. When the corresponding dimensions of two figures have the same ratio, we say that the figures are <term>proportional</term>.</p>
+<p>The scale factor between two similar figures is also the ratio of their side lengths. In Activity 6.4.1, the ratio of the side lengths of the two triangles is 1.5. When the corresponding dimensions of two figures have the same ratio, we say that the figures are <term>proportional</term>.</p>
 
 <assemblage><title>Definition</title>
 <p>Two figures are called <term>proportional</term> if the ratios of corresponding distances are equal.</p></assemblage>
 
-<note><p>Recall that we often express ratios as fractions, so, for example, we write 1.5 as <m>\frac{3}{2}</m>,  or  3 to 2. You can check that the ratios of the corresponding sides of the triangles in Activity 1 are all equal to <m>\frac{3}{2}</m>. </p></note>   
+<note><p>Recall that we often express ratios as fractions, so, for example, we write 1.5 as <m>\frac{3}{2}</m>,  or  3 to 2. You can check that the ratios of the corresponding sides of the triangles in Activity 6.4.1 are all equal to <m>\frac{3}{2}</m>. </p></note>   
 
 <example><statement><p>Which pair of triangles is proportional?</p>
   <p><ol marker="a" cols="2">
@@ -190,7 +190,7 @@ We cannot add or subtract the same number to get an equivalent fraction.  For ex
       </ol></p></li>
   </ol></p></answer></exercise>
 
-<assemblage><title><m>\blert{\text{Summary:}}</m></title>
+<assemblage><title><m>\blert{\text{Summary}}</m></title>
 <p>Here is what we know about using scale factors.<ul>
 
   <li><p>In similar figures, the ratios of all corresponding lengths are equal.  We say that similar figures are proportional.</p></li>
@@ -252,7 +252,7 @@ You can verify that both of these ratios reduce to <m>\dfrac{4}{3}</m>, the scal
 
 <answer><m>a = 120 \degree, ~ b = 60 \degree, ~ c = 9</m></answer></exercise>
 
-<p>There are two ways to use ratios to find <m>c</m> in the previous Exercise.</p>
+<p>There are two ways to use ratios to find <m>c</m> in Checkpoint 6.4.9.</p>
 
 <assemblage>
 <p><m>\blert{\text{Method 1}}</m></p>
@@ -299,7 +299,7 @@ The building factor is 3, so <m>h</m> must be <m>5 \times 3 = 15</m>.  The lamp 
 
 <assemblage><title>Similar Triangles</title>
 <p>Two triangles are similar if either one of the following conditions is true:<ol> 
-    <li><p>Their corresponding angles are equal,</p></li> 
+    <li><p>Their corresponding angles are equal.</p></li> 
             OR
   <li><p>Their corresponding sides are proportional.</p></li>
 </ol></p></assemblage>
@@ -321,6 +321,17 @@ and the missing angle in the second triangle must be 42°. Thus, the two triangl
 
 <answer><p>(c) and (d)</p></answer></exercise>
  
+</subsection>
+
+<subsection><title>Vocabulary</title>
+<p><ul cols="2">
+  <li><p>similar</p></li>
+  <li><p>congruent</p></li>
+  <li><p>corresponding angle</p></li>
+  <li><p>corresponding side</p></li>
+  <li><p>scale factor</p></li>
+  <li><p>proportional</p></li>
+</ul></p>
 </subsection>
 
 <xi:include href="./prac-6-4.ptx" />
