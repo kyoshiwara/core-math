@@ -31,7 +31,7 @@ If you know the square of a number, can you find the original number?</p>
 <assemblage><title>Definition</title>
 <p>A number <m>s</m> is called a <term>square root</term> of <m>N</m>  if <m>s^2 = N</m>.</p></assemblage>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p>3 is a square root of 9 because <m>3^2 = 9</m>.</p></li>
   <li><p>8  is a square root of  64  because <m>8^2 = 64</m>.</p></li>
   <li><p><m>\dfrac{2}{3}</m>  is a square root of <m>\dfrac{4}{9}</m> because  <m>\left(\dfrac{2}{3}\right)^2 = \dfrac{4}{9}</m>.</p></li>
@@ -50,7 +50,7 @@ In fact, every positive number has two square roots, one positive and one negati
     <me>\sqrt{16}~~~~ \text{means} ~~~~ \text{"the positive square root of 16."}</me>
 so <m>\sqrt{16} = 4.</m></p></assemblage>
 
-<example><statement><p><ol marker="a" cols="2">
+<example><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{144} = 12</m></p></li>
   <li><p><m>\sqrt{0} = 0</m></p></li>
   <li><p><m>\sqrt{1} = 1</m></p></li>
@@ -237,13 +237,13 @@ But there is no symbol to write the exact value of <m>\sqrt{5}</m> except for <m
 <note><p>You can review rounding in <xref ref="rounding"/>.</p></note>
 
 <example><statement><p>Use a calculator to find approximate values for each square root. Round your answers to three decimal places.</p>
-<p><ol marker="a" cols="3">
+<p><ol marker="a." cols="3">
   <li><p><m>\sqrt{3}</m></p></li>
   <li><p><m>\sqrt{243}</m></p></li>
   <li><p><m>\sqrt{0.02}</m></p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>Enter <m> 3 \hphantom{0} \boxed{\sqrt{\hphantom{0}}}</m>, and the calculator displays  1.7320508. Rounding to three decimal places gives  1.732.</p></li>
   <li><p>Enter  <m>243 \hphantom{0} \boxed{\sqrt{\hphantom{0}}}</m>,  and the calculator displays  15.588457. Rounding to three decimal places gives  15.588.</p></li>
   <li><p>Enter <m>0.02 \hphantom{0} \boxed{\sqrt{\hphantom{0}}}</m>,  and the calculator displays  0.1414214. Rounding to three decimal places gives  0.141.</p></li>
@@ -373,7 +373,7 @@ The distance across the lake is about 2.65 miles.</p></solution></example>
 
 <p><ol>
   <li><p>How high will the rail rise in the middle?  First, choose your best guess:</p>
-      <p><ol marker="a" cols="2">
+      <p><ol marker="a." cols="2">
           <li><p>1  centimeter</p></li>
           <li><p>2 inches</p></li>
           <li><p>3  feet</p></li> 

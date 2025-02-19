@@ -8,18 +8,18 @@
 
 <exercise number="2"><statement><p>If you know 10% of a number, how can you find the number?</p></statement></exercise>
 
-<exercise number="3"><statement><p><ol marker="a">
+<exercise number="3"><statement><p><ol marker="a.">
   <li><p>If you know 10% of a number, how can you find 5% of the number?</p></li>
   <li><p>How can you find 25% of the number?</p></li>
   <li><p>Leslie gave $76 to a local charity. That was 10% of her paycheck. Find 25% of her paycheck, using the method you described in parts (a) and (b).</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p> Divide by 2</p></li>
   <li><p>Add 5% to twice 10%</p></li>   
   <li><p>$190</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><ol marker="a">
+<exercise number="4"><statement><p><ol marker="a.">
   <li><p>If you know 10% of a number, how can you find 1% of the number?</p></li>
   <li><p>How can you find 99% of the number?</p></li>
   <li><p>The Wellness Clinic gave flu shots to 170 seniors last week. That was 10% of the seniors living in Stratton County. Find 99% of the senior population, using the method you described in parts (a) and (b).</p></li>
@@ -34,7 +34,7 @@
 <answer><p>Divide by 10</p></answer></exercise>
 
 <exercise number="8"><statement><p>Which of the following operations does <m>\dfrac{3}{8}</m> represent?</p>
-<p><ol marker="a" cols="2">  
+<p><ol marker="a." cols="2">  
   <li><p>3 divided into 8</p></li>
   <li><p>3 divided by 8</p></li>
   <li><p><m>3 \div 8</m></p></li>
@@ -48,17 +48,17 @@
   <me>0.3 \hphantom{00} 3\% \hphantom{00} 3.0 \hphantom{00} \dfrac{3}{100} \hphantom{00} 0.03 \hphantom{00} \dfrac{30}{100} \hphantom{00} 30\% \hphantom{00} \dfrac{1}{3} \hphantom{00} 0.30 \hphantom{00} \dfrac{30}{10} \hphantom{00} 300\% \hphantom{00} \dfrac{3}{10} \hphantom{00} 3.00</me>
 </p></statement></exercise>
 
-<exercise number="11"><statement><p><ol marker="a">
+<exercise number="11"><statement><p><ol marker="a.">
   <li><p>Which is a larger fraction, <m>\dfrac{3}{8}</m> or <m>\dfrac{1}{3}</m>?</p></li>
   <li><p>Is <m>\dfrac{1}{9}</m> larger or smaller than 10%?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\frac{3}{8}</m></p></li>
   <li><p>Larger</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="12"><statement><p>Is <m>\dfrac{1}{3}</m> equal to 0.3?  Try these calculations.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Find <m>\dfrac{1}{3}</m> of $120 by dividing by 3.</p></li>
   <li><p>Find <m>\dfrac{3}{10}</m> of $120 by dividing by 10, then multiplying the result by 3.</p></li>
   <li><p>Use your calculator to find 0.3 of $120.</p></li>
@@ -67,13 +67,13 @@
 </ol></p></statement></exercise>
 
 <exercise number="13"><statement><p>Find the percent form of each fraction by dividing the denominator into 10.</p>
-<p><ol marker="a" cols="4">
+<p><ol marker="a." cols="4">
   <li><p><m>\dfrac{1}{5}</m></p></li> 
   <li><p><m>\dfrac{1}{25}</m></p></li> 
   <li><p><m>\dfrac{1}{8}</m> </p></li> 
    <li><p><m>\dfrac{1}{16}</m></p></li>
  </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>20%</p></li> 
   <li><p>4%</p></li> 
   <li><p>12.5%</p></li> 
@@ -81,7 +81,7 @@
  </ol></p></answer></exercise>
 
 <exercise number="14"><statement><p>Write exact decimal and percent forms for <m>\dfrac{1}{6}</m> and <m>\dfrac{1}{12}</m> as follows. (Hint: Do you remember the decimal forms for <m>\dfrac{1}{3}</m> and <m>\dfrac{2}{3}</m>?)</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Start with the decimal form for <m>\dfrac{1}{3}</m> and divide by 2.</p></li>
   <li><p>Divide each denominator into 100.</p></li>
   <li><p>Do you get the same results by each method?</p></li>
@@ -194,17 +194,17 @@
 <exercise number="20"><statement><p>Cadbury recently reduced the weight of its most popular chocolate bar from 250 grams to 200 grams. What percent of its original weight was that reduction?</p></statement></exercise>
 
 <exercise number="21"><statement><p>In the first half of 2013, there were 258,915 guns sold in Virginia. In the first half of 2014, there were 192,585 guns sold.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>What was the decrease in the number of guns sold?</p></li>
   <li><p>What percent decrease did guns sales experience over 2013?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>66,330</p></li>
   <li><p>25.6%</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="22"><statement><p>At the census of 2010, the population of the U.S. was 308,745,000.  In 2020, the population was 331,449,000.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>What was the increase in population over that decade?</p></li>
   <li><p>By what percent of the 2010 population did the population increase from 2010 to 2020?</p></li>
   <li><p>If the population continues to increase by the same percent, what will the U.S. population be in 2030?</p></li>
@@ -224,7 +224,7 @@
 </exercisegroup>
 
 <exercise number="27"><statement><p>Which of the following are correct ways to find 5% of an amount?</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Divide by 10, then divide by 2.</p></li>
   <li><p> Multiply by 0.5</p></li>
   <li><p>Move the decimal two places to the left, then multiply by 5</p></li>
@@ -234,7 +234,7 @@
 <answer><p>(a), (c), and (d)</p></answer></exercise>
 
 <exercise number="28"><statement><p>Which of these are the same?</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>1% of $10,000</p></li>
   <li><p>10% of $1000</p></li>
   <li><p>0.01 of $1000</p></li>
@@ -317,7 +317,7 @@
 <exercise number="53"><statement><p>Fabric is usually sold by the yard, and a yard is equal to 36 inches. The number line below represents one yard.</p>
       <image source="oneyard.png" width="80%"></image>
  
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>On the number line, label each benchmark fraction of one yard with its measure in inches.</p></li>
   <li><p>Here is another copy of the one-yard number line.  Mark the eighths of a yard on the number line, and label each with its measure in inches.</p>
       <image source="oneyard.png" width="85%"></image></li>
@@ -365,7 +365,7 @@
       <cell><m>\hphantom{0000000000}</m></cell>
       <cell><m>\hphantom{0000000000}</m></cell></row>
     </tabular></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><image source="ans-2-2-53a.png" width="40%"></image></li>
   <li><image source="ans-2-2-53b.png" width="40%"></image></li>
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
@@ -438,12 +438,12 @@
 
 <exercise number="55"><statement><p>Here is a block from a quilt pattern called Irish Chain.</p>
           <image source="hp-22-55.png" width="40%"></image>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>What fraction of the block is blue?</p></li>
     <li><p>What fraction of the block is pink?</p></li>
     <li><p>Use your answers to parts(a) and (b) to find the fraction of the block in the background color.</p></li>
   </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>\dfrac{1}{9}</m></p></li>
     <li><p><m>\dfrac{2}{9}</m></p></li>
     <li><p><m>\dfrac{2}{3}</m></p></li>
@@ -451,7 +451,7 @@
 
 <exercise number="56"><statement><p>Here is a block from a quilt pattern called Bow Tie.</p>
       <image source="hp-22-56.png" width="40%"></image>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>What fraction of the block is blue?</p></li>
     <li><p>What fraction of the block is pink?</p></li>
     <li><p>Use your answers to parts(a) and (b) to find the fraction of the block in the background color.</p></li>
@@ -467,19 +467,19 @@
 </introduction>
 
 <exercise number="59"><statement>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>What is the smallest fraction of an inch marked on the ruler?</p></li>
     <li><p>If you start at 2 on the ruler and move 20 sixteenths of an inch to the right, where will you end up?</p></li>
     <li><p>Reduce 20 sixteenths.</p></li>
   </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>\dfrac{1}{16}</m></p></li>
     <li><p><m>3\dfrac{1}{4}</m></p></li>
     <li><p><m>\dfrac{5}{4}</m></p></li>
   </ol></p></answer></exercise>
 
 <exercise number="60"><statement>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>From 3 on the ruler, move eleven eighths inches to the right. Where are you now?</p></li>
     <li><p>From 3 on the ruler, move eleven eighths inches to the left. Where are you now?</p></li>
     <li><p>What is the distance between your ending points in parts (a) and (b)?</p></li>
@@ -489,36 +489,36 @@
 <exercisegroup><introduction><p>For Problems 61-64, remember that rotating through one whole circle sweeps out an angle of 360°.  A <term>sector</term> of a circle is a wedge with its point at the center of the circle.</p></introduction>
 
 <exercise number="61"><statement><p>
-  <sidebyside widths="50% 30%"><p><ol marker="a">
+  <sidebyside widths="50% 30%"><p><ol marker="a.">
     <li><p>What is the degree measure of each sector of the circle shown at right?</p></li>
     <li><p>Shade a sector that shows <m>\dfrac{2}{3}</m> of the circle. What is the degree measure of that sector?</p></li>
   </ol></p>
   <image source="hp-2-2-61.png"></image></sidebyside></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>60 \degree</m></p></li>
     <li><p><m>240 \degree</m></p> <image source="as-2-2-61.png" width="40%"></image> </li>
   </ol></p></answer></exercise>
 
 <exercise number="62"><statement><p>
-    <sidebyside widths="50% 30%"><p><ol marker="a">
+    <sidebyside widths="50% 30%"><p><ol marker="a.">
     <li><p>What is the degree measure of each sector of the circle shown at right?</p></li>
     <li><p>Shade a sector that shows <m>\dfrac{5}{8}</m> of the circle. What is the degree measure of that sector?</p></li>
   </ol></p>
   <image source="hp-2-2-62.png"></image></sidebyside></p></statement></exercise>
 
 <exercise number="63"><statement><p>
-  <sidebyside widths="50% 30%"><p><ol marker="a">
+  <sidebyside widths="50% 30%"><p><ol marker="a.">
     <li><p>What is the degree measure of each sector of the circle shown at right?</p></li>
     <li><p>Shade a sector that shows <m>\dfrac{5}{6}</m> of the circle. What is the degree measure of that sector?</p></li>
   </ol></p>
   <image source="hp-2-2-63.png"></image></sidebyside></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>30 \degree</m></p></li>
     <li><p><m>300 \degree</m></p> <image source="as-2-2-63.png" width="40%"></image> </li>
   </ol></p></answer></exercise>
 
 <exercise number="64"><statement><p>
-    <sidebyside widths="50% 30%"><p><ol marker="a">
+    <sidebyside widths="50% 30%"><p><ol marker="a.">
     <li><p>What is the degree measure of each sector of the circle shown at right?</p></li>
     <li><p>Shade a sector that shows <m>\dfrac{3}{8}</m> of the circle. What is the degree measure of that sector?</p></li>
   </ol></p>
@@ -550,7 +550,7 @@
       <cell>18.9</cell>
       <cell><m>\hphantom{0000000000}</m></cell></row>
     </tabular></p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Compute the percent of the U.S. population made up by each minority group.</p></li>
   <li><p>Do any of these groups, alone or in combination, make up one-third of the U.S. population?</p></li>
 </ol></p></statement></exercise>

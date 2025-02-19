@@ -14,7 +14,7 @@
 <exercise number="3"><statement><p>A meter is about the same length as which unit in the English system?</p></statement>
 <answer><p>A yard</p></answer></exercise>
 
-<exercise number="4"><statement><p><ol marker="a">
+<exercise number="4"><statement><p><ol marker="a.">
   <li><p>How many centimeters are there in a meter?</p></li>
   <li><p>How many millimeters are there in a meter?</p></li>
 </ol></p></statement>
@@ -37,14 +37,14 @@
 
 <exercisegroup><introduction><p>For Problems 11-14, convert units to fill in the blanks.</p></introduction>
  
-<exercise number="11"><statement><p><ol marker="a" cols="2">
+<exercise number="11"><statement><p><ol marker="a." cols="2">
   <li><p>24 in = <fillin></fillin> ft</p></li>
   <li><p>24 ft = <fillin></fillin> yd</p></li>
   <li><p>66 in = <fillin></fillin> ft</p></li>
   <li><p>16 ft = <fillin></fillin> yd</p></li>
   <li><p>18 in = <fillin></fillin> yd</p></li>
   <li><p>8 in = <fillin></fillin> ft</p></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>2</p></li>
   <li><p>8</p></li>
   <li><p>5.5</p></li>
@@ -53,7 +53,7 @@
   <li><p><m>\frac{2}{3}</m></p></li>
 </ol></p></answer></exercise> 
 
-<exercise number="12"><statement><p><ol marker="a" cols="2">
+<exercise number="12"><statement><p><ol marker="a." cols="2">
   <li><p>360 in = <fillin></fillin> ft</p></li>
   <li><p>72 ft = <fillin></fillin> yd</p></li>
   <li><p>30 in = <fillin></fillin> ft</p></li>
@@ -61,7 +61,7 @@
   <li><p>108 in = <fillin></fillin> ft</p></li>
   <li><p>108 in = <fillin></fillin> yd</p></li></ol></p></statement></exercise> 
 
-<exercise number="13"><statement><p><ol marker="a" cols="2">
+<exercise number="13"><statement><p><ol marker="a." cols="2">
   <li><p>16 qt = <fillin></fillin> gal</p></li>
   <li><p>16 pt = <fillin></fillin> qt</p></li>
   <li><p>5 c = <fillin></fillin> pt</p></li>
@@ -69,7 +69,7 @@
   <li><p>20 pt = <fillin></fillin> gal</p></li>
   <li><p>20 c = <fillin></fillin> qt</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>4</p></li>
   <li><p>8</p></li>
   <li><p>2.5</p></li>
@@ -78,7 +78,7 @@
   <li><p>5</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="14"><statement><p><ol marker="a" cols="2">
+<exercise number="14"><statement><p><ol marker="a." cols="2">
   <li><p>3 c = <fillin></fillin> qt</p></li>
   <li><p>9 c = <fillin></fillin> qt</p></li>
   <li><p>18 c = <fillin></fillin> gal</p></li>
@@ -90,19 +90,19 @@
 <exercisegroup><introduction><p>For Problems 15-24, show your work.</p></introduction>
 
 <exercise number="15"><statement><p>The basketball player Lebron James is 6 feet 8 inches tall.</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>Express his height in inches.</p></li>
     <li><p>Express his height in feet.</p></li>
     <li><p>Express his height in yards.</p></li>
   </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p>80 in</p></li>
     <li><p><m>6\frac{2}{3}</m> ft</p></li>
     <li><p><m>2 \frac{2}{9}</m> yd</p></li>   
   </ol></p></answer></exercise>
 
 <exercise number="16"><statement><p>The California condor has a wingspan up to 9 feet 9 inches.</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>Express the wingspan in inches.</p></li>
     <li><p>Express the wingspan in feet.</p></li>
     <li><p>Express the wingspan in yards.</p></li>
@@ -118,16 +118,16 @@
 
 <exercise number="20"><statement><p>The distance from Paris to Versailles on the A86 road is 28 kilometers. How far is that in miles?</p></statement></exercise>
 
-<exercise number="21"><statement><p><ol marker="a">
+<exercise number="21"><statement><p><ol marker="a.">
   <li><p>How many centimeters are there in one foot?</p></li>
   <li><p>Frank Zappa is 6 feet tall. Convert his height to centimeters.</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>30.48 cm</p></li>
   <li><p>182.88 cm</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="22"><statement><p><ol marker="a">
+<exercise number="22"><statement><p><ol marker="a.">
   <li><p>How many millimeters are there in one inch?</p></li>
   <li><p>The average length of a ladybug is 8 millimeters. What is that length in inches?</p></li>
 </ol></p></statement></exercise>
@@ -297,30 +297,30 @@
 
 <exercise number="32"><statement><p>At Carpet World, Softwist carpet costs $3.42 per square foot. At Home Flooring the same carpet costs $31.28 per square yard. Which store offers the better deal?</p></statement></exercise>
 
-<exercise number="33"><statement><p><ol marker="a">
+<exercise number="33"><statement><p><ol marker="a.">
   <li><p>How many square inches are in a square yard?</p></li>  
   <li><p>You have a square piece of felt that measures 9 inches on a side. What fraction of a square yard is that?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>1296</p></li>  
   <li><p><m>\frac{1}{16}</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="34"><statement><p><ol marker="a">
+<exercise number="34"><statement><p><ol marker="a.">
   <li><p>How many square yards are in a square mile?</p></li>
   <li><p>A square corn field measures 669 yards on a side. What fraction of a square mile is that?</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="35"><statement><p><ol marker="a">
+<exercise number="35"><statement><p><ol marker="a.">
   <li><p>How many square yards are there in one square meter? How many square feet are in one square meter?</p></li>
   <li><p>You see a floor plan you like for a house of area 220 square meters. How large is that in square feet?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>1.196 sq yd, 10.764 sq ft</p></li>  
   <li><p>2368.06 sq ft</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="36"><statement><p><ol marker="a">
+<exercise number="36"><statement><p><ol marker="a.">
   <li><p>How many square centimeters are in one square inch?</p></li>
   <li><p>The international standard size for typing paper is called A4. A sheet of A4 paper measures 210 millimeters by 297 millimeters. What is its area in square centimeters?</p></li>
   <li><p>What is the area of a sheet of A4 paper in square inches?</p></li>
@@ -332,7 +332,7 @@
 
 <exercise number="38"><statement><p><sidebyside widths="60% 25%"><p>The figure at right is made of tangrams, a game that uses geometrical shapes. The piece labeled A is 1 square centimeter.</p>
   <image source ="tangram.png"></image></sidebyside></p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Find the areas of the 6 other pieces in the figure.</p></li>
   <li><p>What is the area of the whole figure?</p></li>
   <li><p>Will the figure fit into a square of area 2.25 inches?</p></li>
@@ -487,30 +487,30 @@
 
 <exercisegroup><introduction><p>For Problems 43-52 about volume, show your work.</p></introduction>
 
-<exercise number="43"><statement><p><ol marker="a">
+<exercise number="43"><statement><p><ol marker="a.">
   <li><p>How any cubic feet are in 4 cubic yards?</p></li>
   <li><p>How many cubic yards are in 81 cubic feet?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>36</p></li>
   <li><p>9</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="44"><statement><p><ol marker="a">
+<exercise number="44"><statement><p><ol marker="a.">
   <li><p>Is a cubic meter bigger or smaller than a cubic yard?</p></li>
   <li><p>Is a cubic centimeter bigger or smaller than a cubic inch?</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="45"><statement><p><ol marker="a">
+<exercise number="45"><statement><p><ol marker="a.">
   <li><p>How many square centimeters are in a square meter?</p></li>
   <li><p>How many cubic centimeters are in a cubic meter?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>10,000</p></li>
   <li><p>1,000,000</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="46"><statement><p><ol marker="a">
+<exercise number="46"><statement><p><ol marker="a.">
   <li><p>How many square meters are in a square kilometer?</p></li>
   <li><p>How many cubic meters are in a cubic kilometer?</p></li>
 </ol></p></statement></exercise>
@@ -523,25 +523,25 @@
 <exercise number="49"><statement><p>How many liters of water does it take to fill a cubic meter? (Hint: How many cubic centimeters are there in a cubic meter?)</p></statement>
 <answer><p>1000 liters</p></answer></exercise>
 
-<exercise number="50"><statement><p><ol marker="a">
+<exercise number="50"><statement><p><ol marker="a.">
   <li><p>The reflecting pool at the Lincoln Memorial in Washington, D.C. is 2029 feet long, 167 feet wide, and 30 inches deep.  How many cubic feet of water does it hold?</p></li>
   <li><p>One cubic foot of water is about 7.48 gallons.  How many gallons of water does the reflecting pool hold?</p></li>
 </ol></p></statement></exercise>
 
 <exercise number="51"><statement><p>Here is the footprint for a new house.</p>
     <image source ="newhouse1.png" width="80%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Fill in the missing dimensions and find the area of the floor.</p></li>
   <li><p>The concrete foundation will be 2 feet deep. How many cubic yards of concrete will be used?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>147 sq yd</p></li>
   <li><p>98 cu yd</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="52"><statement><p>The Wongs plan to have insulation blown into the attic of their house, shown below.</p>
     <image source ="newhouse2.png" width="80%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Fill in the missing dimensions and find the area of the ceiling.</p></li>
   <li><p>The insulation will be 9 inches deep. How many cubic yards of insulation will they need?</p></li>
 </ol></p></statement></exercise>
@@ -549,31 +549,31 @@
 
 <exercisegroup><introduction><p>Problems 53-60 explore some other units of measurement.</p></introduction>
 
-<exercise number="53"><statement><p><ol marker="a">
+<exercise number="53"><statement><p><ol marker="a.">
   <li><p>One acre is 43,560 square feet. How many acres are there in one square mile?</p></li>
   <li><p>How many acres are there in one square kilometer?</p></li>
   <li><p>How many square yards are in one acre?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>640</p></li>
   <li><p>247.105</p></li>
   <li><p>4840</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="54"><statement><p>Scientists monitor the extent of arctic sea ice as a measure of climate change. In January, 2015, there were 13.14 million square kilometers of arctic sea ice. What is that area in square miles?</p></statement></exercise>  
-<exercise number="55"><statement><p><ol marker="a">
+<exercise number="55"><statement><p><ol marker="a.">
   <li><p>One hectare is 10,000 square meters. How many hectares are there in one square kilometer?</p></li>
   <li><p>How many hectares are there in one square mile?</p></li>
   <li><p>How many acres are there in one hectare?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>100</p></li>
   <li><p>258.999</p></li>
   <li><p>2.47105</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="56"><statement><p>The total land area of planet Earth is just over 136 million square kilometers. There are 141 million hectares of arable land on Earth; that is, land used to grow crops.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>How many square kilometers of arable land are there on Earth?</p></li>
   <li><p>What percent of the land mass of Earth is arable?</p></li>
 </ol></p></statement></exercise>
@@ -598,17 +598,17 @@
 <exercise number="58"><statement><p>One fathom is equal to 6 feet in length, and one furlong is equal to 220 yards. How many fathoms in a furlong? (Fathoms were used for measuring the depth of water, and a furlong was the length of one furrow for planting crops.)</p></statement></exercise>
 
 <exercise number="59"><statement><p>There are <m>1\dfrac{1}{4}</m> yards in an ell.</p>
-<p><ol marker="a">  
+<p><ol marker="a.">  
   <li><p>How many square yards are in a square ell?</p></li>
   <li><p>How many cubic yards are in a cubic ell?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">  
+<answer><p><ol marker="a.">  
   <li><p><m>1 \frac{9}{16}</m> sq yd</p></li>
   <li><p><m>1 \frac{16}{64}</m> cu yd</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="60"><statement><p>There are <m>5\dfrac{1}{2}</m> yards in a rod.</p>
-<p><ol marker="a">  
+<p><ol marker="a.">  
   <li><p>How many square yards are in a square rod?</p></li>
   <li><p>How many cubic yards are in a cubic rod?</p></li>
 </ol></p></statement></exercise>

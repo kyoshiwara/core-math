@@ -14,7 +14,7 @@
 
 <p>We live in a world of change. The numbers we use to measure our world change, too. The temperature and humidity of the environment change day-by-day, as do prices on the stock market. We monitor our blood pressure and cholesterol count to detect changes in our health. The connections between variable quantities help us understand the forces that shape our world.</p> 
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p> Consider the table below. Do you see a pattern that relates Delbert's age to Francine's age?</p>
     <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <col halign="center"/>
@@ -66,13 +66,13 @@
       <cell>9.49</cell></row>
     </tabular></p> 
 
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>Is there a pattern that relates the discount price to the regular price?</p></li>
     <li><p>Write a mathematical sentence that expresses the discount price in terms of the regular price.</p>
           <p>Discount price =  </p></li>
   </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p>Yes, the discount price is $2 less than the regular price.</p></li>
     <li><p>Discount price <m>=</m>  Regular price <m>-</m> $2</p></li>
   </ol></p></answer></exercise>                                                 
@@ -85,7 +85,7 @@
   <li><p>Is the sum or the product of the two variables a constant?</p></li>
 </ul></p></assemblage>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p>In the table below, do you see a pattern that relates the total utility bill to your share?</p>
 
   <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
@@ -133,13 +133,13 @@
       <cell>0.80</cell></row>
     </tabular></p> 
 
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Is there a pattern that relates the price of the salad to its weight?</p></li>
    <li><p>Write a mathematical sentence that expresses the price of the salad in terms of its weight.</p>
         <p>Price = </p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>Yes, the price is 0.10 times the weight in ounces.</p></li>
    <li><p>Price = 0.10 <m>\times</m> Weight</p></li>
 </ol></p></answer></exercise>
@@ -247,7 +247,7 @@
 
 <example><statement><p>The bar graph shows the number of new homes sold each month in Columbus County last year.</p>
     <image source="bargraph1.png" width="75%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>What variable is shown in this graph?
         <me>\blert{\text{Number of new homes}}</me></p></li>
   <li><p>How many houses were sold in March?
@@ -261,7 +261,7 @@
 </ol></p></statement></example>
 
 <exercise><statement><p>Refer to the bar graph in Example 2.3.6, which shows new home sales in Columbus County.</p> 
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>How many houses were sold in February?</p></li>
   <li><p>In which month(s) were 20 houses sold?</p></li>
   <li><p>In which month were the fewest houses sold, and how many houses were sold that month?</p></li>
@@ -309,7 +309,7 @@
     </tabular></p></li>
   </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>15</p></li>
   <li><p>March, April, and September</p></li>
   <li><p>December, 5</p></li>
@@ -364,7 +364,7 @@
 
   <image source="bargraph2.png" width="85%"></image>
 
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>What was Motorola's share of the market in 2000?   <m>~~~~~~\blert{\text{15%}}</m></p></li>
   <li><p>In which year shown did Motorola have a 24% market share?   <m>~~~~~~\blert{\text{1997}}</m></p></li>
   <li><p>In which of the years shown did Motorola have its largest market share?  What was that share?
@@ -376,14 +376,14 @@
 </ol></p></statement></example>
 
 <exercise><statement><p>Refer to the bar graph in Example 2.3.8.</p>
-<p><ol marker="a">  
+<p><ol marker="a.">  
   <li><p>What was Nokia's share of the market in 2000?</p></li>  
   <li><p>In which of the years shown did Nokia have its lowest market share?  What was that share?</p></li>  
   <li><p>In which of the years shown did Nokia have its largest lead over Motorola in market share? What was that lead?</p></li> 
   <li><p>In which year did Nokia overtake Motorola in market share?</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">  
+<answer><p><ol marker="a.">  
   <li><p>31%</p></li>  
   <li><p>1997, 19%</p></li>  
   <li><p>2000, 16%</p></li> 
@@ -423,7 +423,7 @@
       <cell>15</cell></row>
     </tabular></p>
 
-<p><ol marker ="a">
+<p><ol marker ="a.">
   <li><p>Which was the largest age group in 1900?  In 2015? </p></li> 
   <li><p>What percent of the population was under 25 in 1900?  In 2015?</p></li>
   <li><p>What percent of the population was over 44 in 1900?  In 2015?</p></li>
@@ -438,7 +438,7 @@
 <p>We often use a single letter to represent a variable quantity. In Example 2.3.10, the variables are Jayson's age and Shawna's age.</p>
 
 <example><statement><p>Shawna was 22 years old when her son Jayson was born.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Fill in the table.</p>
 
   <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
@@ -500,7 +500,7 @@
 <note><p>A letter used as a variable must always stand for a number. In Example 2.3.10, the variable <m>\alert{a}</m> stands for Jayson's age, which is a number. We cannot let a variable stand for, say, "Jayson," or for any other person or object.</p></note>
 
 <exercise><statement><p>A belt should be 3 inches longer than the maximum waist size it can fit.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Fill in the table below.</p>  
     <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <col halign="center"/>
@@ -550,7 +550,7 @@
     </tabular></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>Fill in the table below.</p>  
     <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <col halign="center"/>
@@ -602,7 +602,7 @@
 <activity><title>Using Letters for Variables</title>
 <p><ol>
   <li><sidebyside widths="50% 30%" valigns="middle middle"><p>Uncle Herb is on a diet. He can have 1200 calories per day.</p><image source="salad.png"></image></sidebyside>  
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p>If Uncle Herb has 700 calories for lunch, how many calories can he have for dinner?</p></li>
       <li><p>Explain how to find the number of calories Uncle Herb can have for dinner if he consumes <m>c</m> calories for lunch.</p></li>
       <li><p>Fill in the table for the given values of <m>c</m>.</p>        
@@ -627,7 +627,7 @@
     </tabular></p></li></ol></p></li>
 
 <li><p>Quentin has to drive 600 miles. He plans to drive at a constant average speed.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p>How long will the journey take if he drives at 60 miles per hour?</p></li>
       <li><p>Explain how to find how long the journey will take at <m>r</m> miles per hour.</p></li>
       <li><p>Fill in the table for the given values of <m>r</m>.</p>        
@@ -659,7 +659,7 @@
       <me>\dfrac{2}{3}~ \text{of}~ 36 = 2 \times 12 = 24</me></p>
 
 <p><m>\blert{\text{Exercise}}</m> </p>
-  <p><ol marker="a"> 
+  <p><ol marker="a."> 
     <li><p>Find <m>\dfrac{1}{4}</m> of 120.</p></li>
     <li><p>Find <m>\dfrac{3}{4}</m> of 120.</p></li></ol></p></li>
 
@@ -669,7 +669,7 @@
       <me>80~ \text{increased by}~ 5\% ~\text{is}~  1.05 \times 80 = 84</me></p>
 
 <p><m>\blert{\text{Exercise}}</m></p>
-  <p><ol marker="a"> 
+  <p><ol marker="a."> 
     <li><p>Find 15% of 60.</p></li>
     <li><p>Increase 60 by 15%.</p></li></ol></p></li>
 </ul></p></assemblage>

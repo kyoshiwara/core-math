@@ -220,12 +220,12 @@
             <cell><m>\hphantom{000000}</m></cell>
             <cell><m>\hphantom{000000}</m></cell></row>
         </tabular>
-  <p><ol marker="a">
+  <p><ol marker="a.">
       <li><p>Describe in words how to find the oven temperature at any time.</p></li>
       <li><p>Let <m>m</m> represent the number of minutes elapsed since the oven was turned on and write an algebraic expression for the oven temperature.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>Add 30 times the nuber of minutes elapsed to 75.</p></li>
       <li><p><m>75 + 30m</m></p></li>
 </ol></p></answer></exercise>
@@ -248,7 +248,7 @@
             <cell><m>\hphantom{000000}</m></cell>
             <cell><m>\hphantom{000000}</m></cell></row>
         </tabular>
-  <p><ol marker="a">
+  <p><ol marker="a.">
       <li><p>Describe in words how to find Herman's weight at the end of any week.</p></li>
       <li><p>Let <m>w</m> represent the number of weeks that Herman has been dieting and write an algebraic expression for his weight.</p></li>
 </ol></p></statement></exercise>
@@ -271,12 +271,12 @@
             <cell><m>\hphantom{000000}</m></cell>
             <cell><m>\hphantom{000000}</m></cell></row>
         </tabular>
-  <p><ol marker="a">
+  <p><ol marker="a.">
       <li><p>Describe in words how to find the amount Luisa's parents will contribute to Luisa's support.</p></li>
       <li><p>Let <m>a</m> represent Luisa's annual living expenses and write an algebraic expression for the amount her parents will contribute to her support.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>Add half of luisa's expenses to 800.</p></li>
       <li><p><m>800 + 0.5a</m></p></li>
 </ol></p></answer></exercise>
@@ -297,7 +297,7 @@
             <cell><m>\hphantom{000000}</m></cell>
             <cell><m>\hphantom{000000}</m></cell></row>
         </tabular>
-  <p><ol marker="a">
+  <p><ol marker="a.">
       <li><p>Describe in words how to find each nephew's share of the estate.</p></li>
       <li><p>Let <m>e</m> stand for the amount of Aunt Charlotte's estate and write an algebraic expression for the amount each nephew will inherit.</p></li>
 </ol></p></statement></exercise>
@@ -318,12 +318,12 @@
             <cell><m>\hphantom{000000}</m></cell>
             <cell><m>\hphantom{000000}</m></cell></row>
         </tabular>
-  <p><ol marker="a">
+  <p><ol marker="a.">
       <li><p>Describe in words how to find each daughter's share of the canned tomatoes.</p></li>
       <li><p>Let <m>M</m> stand for the number of pints Mildred kept and write an algebraic expression for the number of pints she gave each daughter.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>Subtract Mildred's pints from 80 and divide the result by 4.</p></li>
       <li><p><m>\dfrac{80-M}{4}</m></p></li>
 </ol></p></answer></exercise>
@@ -344,7 +344,7 @@
             <cell><m>\hphantom{000000}</m></cell>
             <cell><m>\hphantom{000000}</m></cell></row>
         </tabular>
-  <p><ol marker="a">
+  <p><ol marker="a.">
       <li><p>Describe in words how to find the budget for new recordings.</p></li>
       <li><p>Let <m>P</m> stand for the pledge drive revenue and write an algebraic expression for the new recordings budget.</p></li>
 </ol></p></statement></exercise>

@@ -276,7 +276,7 @@ The solution checks.</p></solution></example>
 <solution><sidebyside widths="40% 40%" valigns="middle middle"><p>If the <m>x</m>-coordinate is 0, the point lies on the <m>y</m>-axis, like the point <m>(0,-2)</m> shown at right. If the <m>y</m>-coordinate is 0, the point lies on the <m>x</m>-axis, like the point <m>(-3,0)</m>.</p> 
     <image source="coords4.png"></image></sidebyside></solution></example>
 
-<exercise><statement><sidebyside widths="50% 45%"><p>Plot the following points on the grid.<ol marker="a" cols="2">
+<exercise><statement><sidebyside widths="50% 45%"><p>Plot the following points on the grid.<ol marker="a." cols="2">
   <li><m>(-6,2)</m></li>
   <li><m>(-5,-7)</m></li>
   <li><m>(8,-4)</m></li>
@@ -500,13 +500,13 @@ where <m>a</m> and <m>b</m> are constants, is a <term>linear equation</term>. It
 
 <p>Linear equations describe many common situations.</p>
 
-<example><statement><p>Byron borrowed $6000 from his uncle to help pay for his college education. Now that he has graduated and has a job, he is paying back the loan at $100 per month. (His uncle is not charging Byron any interest on the loan.)<ol marker="a">  
+<example><statement><p>Byron borrowed $6000 from his uncle to help pay for his college education. Now that he has graduated and has a job, he is paying back the loan at $100 per month. (His uncle is not charging Byron any interest on the loan.)<ol marker="a.">  
   <li><p>Write an equation showing the amount of money, <m>y</m>, that Byron still owes his uncle after <m>x</m> months.</p></li>
   <li><p>Graph your equation.</p></li>
   <li><p>Use your graph to find out how long will it take Byron to pay off his debt.</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a"> 
+<solution><p><ol marker="a."> 
   <li><p>Byron subtracts $100 from his debt each month, so
         <me>y = 6000 - 100x</me></p></li>
   <li><p>We choose values for <m>x</m> and make a table showing several points on the graph. Then we plot the points and connect them with a straight line.</p>
@@ -531,7 +531,7 @@ where <m>a</m> and <m>b</m> are constants, is a <term>linear equation</term>. It
       <me>6000 - 100x = 0</me></p></note>
 
 <exercise><statement><p>Chloe's All-Night Diner buys coffee in 50-pound containers. They use 2 pounds of coffee per day. 
-<ol marker="a">
+<ol marker="a.">
   <li><p>Write an equation for the number of pounds of coffee, <m>C</m>, left <m>d</m> days after they open a new container.</p></li>
   <li><p>Graph your equation on the grid.</p>
 
@@ -551,7 +551,7 @@ where <m>a</m> and <m>b</m> are constants, is a <term>linear equation</term>. It
   <li><p>Write and solve an equation to verify your answer to part (c).</p></li>
 </ol></p></statement>
 
-<answer><ol marker="a">
+<answer><ol marker="a.">
   <li><p><m>C = 50 - 2d</m></p></li>
   <li><p><image source="Chloeans.png" width="100%"></image></p></li>
   <li><p>21 days</p></li>

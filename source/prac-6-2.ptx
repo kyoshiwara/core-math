@@ -11,7 +11,7 @@
 
 <exercise number="4"><statement><p>If two variables are proportional, what does their graph look like?</p></statement></exercise>
 
-<exercisegroup><introduction><p>For Problems 5-8, <ol marker="a">  
+<exercisegroup><introduction><p>For Problems 5-8, <ol marker="a.">  
     <li><p>Complete the table of values.</p></li> 
     <li><p>Decide whether the two variables are proportional.</p></li>
   </ol></p></introduction>
@@ -29,7 +29,7 @@
             <cell><m>\hphantom{00000}</m></cell>
             <cell><m>\hphantom{00000}</m></cell></row>
         </tabular></statement>
-<answer><p><ol marker="a">  
+<answer><p><ol marker="a.">  
     <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >
             <cell><m>\vphantom{\dfrac{1}{2}}</m>Carbonated water (oz)</cell>
@@ -72,7 +72,7 @@
             <cell><m>\hphantom{00000}</m></cell>
             <cell><m>\hphantom{00000}</m></cell></row>
         </tabular></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >
             <cell><m>\vphantom{\dfrac{1}{2}}</m>Pages</cell>
@@ -233,7 +233,7 @@
 <exercisegroup><introduction><p>Problems 29-32 consider some formulas from geometry.</p>
     <image source="formulas.png" width="90%"></image></introduction>
  
-<exercise number="29"><statement><p><ol marker="a">
+<exercise number="29"><statement><p><ol marker="a.">
   <li><p>The perimeter of a square is four times the length of its side. Complete the table.</p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >
@@ -253,7 +253,7 @@
   <li><p>Is the perimeter of a square proportional to the length of its side?</p></li>
 </ol></p>
     <image source="hp-6-2-29.png" width="60%"></image></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >
             <cell><m>\vphantom{\dfrac{1}{2}}</m>Side length (cm)</cell>
@@ -272,7 +272,7 @@
     <li><p>Yes</p></li>
   </ol></p></answer></exercise>
 
-<exercise number="30"><statement><p><ol marker="a">
+<exercise number="30"><statement><p><ol marker="a.">
   <li><p>The circumference of a circle (the distance around the circle) is <m>2\pi</m> times its radius. Complete the table. You can use 3.14 as an approximation for <m>\pi</m>. </p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >
@@ -293,7 +293,7 @@
 </ol></p>
     <image source="hp-6-2-30.png" width="60%"></image></statement></exercise>
 
-<exercise number="31"><statement><p><ol marker="a">
+<exercise number="31"><statement><p><ol marker="a.">
   <li><p>The area of a square is the square of the length of its side. (Recall that to "square" a number means to multiply the number by itself. Complete the table.</p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >
@@ -313,7 +313,7 @@
   <li><p>Is the area of a square proportional to the length of its side?</p></li>
 </ol></p>
     <image source="hp-6-2-31.png" width="60%"></image></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >
             <cell><m>\vphantom{\dfrac{1}{2}}</m>Side length (m)</cell>
@@ -332,7 +332,7 @@
     <li><p>No</p></li>
   </ol></p></answer></exercise>
 
-<exercise number="32"><statement><p><ol marker="a">
+<exercise number="32"><statement><p><ol marker="a.">
   <li><p>The area of a circle is <m>\pi</m> times its the square of its radius. Complete the table. You can use 3.14 as an approximation for <m>\pi</m>. </p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >

@@ -26,7 +26,7 @@
 
     <me>\frac{\text{number of objects in the}~\blert{\text{part}}}{\text{number of objects in the}~\blert{\text{whole}}},~~~~\text{or just}~~~~\frac{\large{\blert{\text{part}}}}{\large{\blert{\text{whole}}}}</me></p>
 
-    <example><statement><p><ol marker="a">
+    <example><statement><p><ol marker="a.">
         <li><p><m>{\dfrac{1}{2}}</m> of a dozen eggs (12 eggs) <m>=</m> 6 eggs</p>
       
       <image source="eggs.png" width="75%"><description>eggs</description></image>
@@ -49,7 +49,7 @@
       <image source="halves.png" width="60%"><description>eggs</description></image></p>
 <m>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\blert{\dfrac{2}{4}~~~~~~~~~~~~~~~~~~~~~~~~~~~~\dfrac{3}{6}~~~~~~~~~~~~~~~~~~~~~~~~~~~~\dfrac{4}{8}}</m>
 
-  <exercise><statement><p><ol marker="a">
+  <exercise><statement><p><ol marker="a.">
     <li><p>Write fractions that are equal to <m>{\dfrac{1}{2}}</m>.
 
       <me>\large{\dfrac{1}{2}}:~~~~~~~~\large{\dfrac{?}{16}}~~~~~~~~\large{\dfrac{?}{24}}~~~~~~~~\large{\dfrac{9}{?}}~~~~~~~~\large{\dfrac{25}{?}}~~~~~~~~\large{\dfrac{?}{72}}~~~~~~~~\large{\dfrac{50}{?}}</me></p></li>
@@ -61,12 +61,12 @@
     <p>Now that you know some different ways to represent <m>\dfrac{1}{2}</m>, we can compare other fractions to <m>\dfrac{1}{2}</m>.</p>
 
     <activity><title>One-Half</title>
-    <p>Write a fraction for each story, then decide whether the fraction is:<ol marker="a">
+    <p>Write a fraction for each story, then decide whether the fraction is:<ol marker="a.">
         <li>equal to one-half,</li> 
         <li>less than one-half, or </li> 
         <li>more than one-half.</li></ol></p>
 
-    <p><ol marker="1">
+    <p><ol marker="1.">
       <li><p>Greta used a yardstick to measure a picture frame that is 20 inches wide. What fraction of a yard is that? (A yard is 36 inches.)</p>
         <p><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -142,7 +142,7 @@
 
 <solution><p>You have one-fourth of the pizza, or <m>\dfrac{1}{4}</m>, because your piece is <m>1</m> of <m>4</m> equal pieces that make up the whole pizza.  Because there are <m>4</m> fourths in a whole pizza, after you take your piece, there are <m>3</m> fourths, or <m>\dfrac{3}{4}</m> of a pizza left.</p></solution></example>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p>Explain how you know that one-fourth of the grid is shaded.
 
     <image source="gridfourth.png" width="35%"></image></p></li>
@@ -150,7 +150,7 @@
   <li><p>How many squares are in the whole grid?</p>  
       <p>How many squares are in one-fourth of the grid?</p>  
       <p>How many squares are in three-fourths of the grid?</p></li></ol></p></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
     <li><p>Half of half is shaded.</p></li>
     <li><p>64, 16, 48</p></li>
   </ol></p></answer></exercise>
@@ -159,30 +159,30 @@
       <image source="dollar.png" width="35%"></image></p></note>
 
 <activity><title>Fourths</title>
-    <p>Show your work for each calculation.<ol marker="a">
+    <p>Show your work for each calculation.<ol marker="a.">
       <li>Find one-fourth of the amount by taking one-half of one-half.</li>
       <li>Find three-fourths of the amount by subtracting one-fourth from the whole.</li>
       <li>Find three-fourths of the amount by multiplying one-fourth by three. Are your answers to parts (b) and (c) the same?</li>
 </ol></p>
 
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><p>Norman's monthly salary is $3600. He deposits one-fourth of his salary in his savings account, and the rest in his checking account.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p></p></li>
       <li><p></p></li>
       <li><p></p></li></ol></p></li>
   <li><p>Jaycee owns a ranch of 3000 acres.  She plans to grow corn on one-fourth of her land and raise cattle on the rest.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p></p></li>
       <li><p></p></li>
       <li><p></p></li></ol></p></li>
   <li><p>Rich is on a diet that allows 2100 calories per day. He consumes one-quarter of his calories at breakfast, and the rest throughout the day.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p></p></li>
       <li><p></p></li>
       <li><p></p></li></ol></p></li>
   <li><p>Caroline drove one-quarter of a 900-mile trip today. How far did she drive, and how far does she have left to go?</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p></p></li>
       <li><p></p></li>
       <li><p></p></li></ol></p></li>
@@ -197,7 +197,7 @@
   
   We can also write one-fourth and three-fourths in different ways.</p>
 
-  <example><statement><p><ol marker="a">
+  <example><statement><p><ol marker="a.">
     <li><p><m>\dfrac{1}{2}</m> of a dozen eggs (12 eggs) <m>=</m> 3 eggs</p>
           
         <image source="three-eggs.png" width="60%"><description>clocks</description></image>
@@ -227,7 +227,7 @@
       <image source="gridsixty.png" width="40%"><description>grid-fourth</description></image></p></note>
 
     <exercise><p>Shade one-fourth of the grid. Then write <m>\dfrac{1}{4}</m> and <m>\dfrac{3}{4}</m> with the denominator for the whole grid.</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
       <li><p><image source="grid4by6.png" width="35%"><description>4by6 grid</description></image><m>~~~~~~\dfrac{1}{4}=~~~~~~</m> and <m>~~~~~~\dfrac{3}{4}=</m></p></li>
 
       <li><p><image source="grid8by2.png" width="60%"><description>8by2 grid</description></image><m>~~~~~~\dfrac{1}{4}=~~~~~~</m> and <m>~~~~~~\dfrac{3}{4}=</m></p></li>
@@ -236,7 +236,7 @@
 
       <li><p><image source="grid8by6.png" width="60%"><description>8by6 grid</description></image><m>~~~~~~\dfrac{1}{4}=~~~~~~</m> and <m>~~~~~~\dfrac{3}{4}=</m></p></li>
     </ol></p>
-    <answer><p><ol marker="a" cols="2">
+    <answer><p><ol marker="a." cols="2">
     <li><image xml:id="grid-6-24ths" width="25%" margins="0% 75%"><description>6 by 4 grid with 6 shaded boxes</description><latex-image>
     <![CDATA[
     \begin{tikzpicture}
@@ -297,13 +297,13 @@
 A number line can help us visualize familiar fractions written with different denominators.  Here is the number line from that Example, showing the fractions written with denominator 12.
   <image source="twelfthsnumberline.png" width="75%"><description>number line</description></image></p></note>
 
-<exercise><p>Mark the fractions <m>\dfrac{1}{2}</m>, <m>\dfrac{1}{4}</m>, and <m>\dfrac{3}{4}</m> of the distance on each number line, and write the fractions with the new denominator. <ol marker="a">
+<exercise><p>Mark the fractions <m>\dfrac{1}{2}</m>, <m>\dfrac{1}{4}</m>, and <m>\dfrac{3}{4}</m> of the distance on each number line, and write the fractions with the new denominator. <ol marker="a.">
   <li><image source="numberline8.png" width="70%"><description>number line</description></image></li>
   <li><image source="numberline16.png" width="70%"><description>number line</description></image></li>
   <li><image source="numberline20.png" width="70%"><description>number line</description></image></li>
   <li><image source="numberline24.png" width="70%"><description>number line</description></image></li>
 </ol></p>
-<answer><p><ol marker="a" cols="1">
+<answer><p><ol marker="a." cols="1">
   <li><image xml:id="numberline8-frac" width="60%" margins="0% 40%"><description>fractions of 8</description><latex-image>
   <![CDATA[
   \begin{tikzpicture} [scale=1]
@@ -370,12 +370,12 @@ A number line can help us visualize familiar fractions written with different de
 <subsection><title>Benchmark Fractions</title>
 <p>The fractions <m>\dfrac{1}{2}</m>, <m>\dfrac{1}{4}</m>, and <m>\dfrac{3}{4}</m> are called <term>benchmark fractions</term> because we have a good intuitive feel for their size. We can estimate other fractions by comparing them to the benchmarks.</p>
 
-<example><statement><p>Of the 32 students in Ethan's math class, 9 are from out-of-state.</p>  <ol marker="a">
+<example><statement><p>Of the 32 students in Ethan's math class, 9 are from out-of-state.</p>  <ol marker="a.">
   <li><p>What fraction of Ethan's class is from out-of-state?</p></li>
   <li><p>Is that fraction closer to <m>\dfrac{1}{2}</m>, <m>\dfrac{1}{4}</m>, or to <m>\dfrac{3}{4}</m> of the class?</p></li>
 </ol></statement>
 
-<solution> <ol marker="a">
+<solution> <ol marker="a.">
   <li><p> We write the fraction as
     
     <me>\dfrac{\text{part}}{\text{whole}} = \dfrac{9~~ \text{out-of-state students}}{32~~ \text{total students}}</me>
@@ -396,7 +396,7 @@ A number line can help us visualize familiar fractions written with different de
   <p> We can use a number line to compare fractions. Here are the fractions from the previous Example shown on a number line.
     <image source="comparenumberline.png" width="70%"><description>number line</description></image></p>
 
-  <exercise><p>One yard is equal to 36 inches. <ol marker="a">
+  <exercise><p>One yard is equal to 36 inches. <ol marker="a.">
       <li><p>Compute the benchmark fractions with denominator 36.
         
         <me>\dfrac{1}{4}=~~~~~~~~~~ \dfrac{1}{2}=~~~~~~~~~~ \dfrac{3}{4}=~~~~~~~~~~</me></p></li>
@@ -408,7 +408,7 @@ A number line can help us visualize familiar fractions written with different de
       <li><p>Connie needs ribbons of length 10 inches and 25 inches. What fractions 
         of a yard are those lengths? Plot the fractions on your number line.</p></li>
       </ol></p>
-      <answer><p><ol marker="a">
+      <answer><p><ol marker="a.">
       <li><p><m>\dfrac{9}{36},~ \dfrac{18}{36},~ \dfrac{27}{36}</m></p></li>
       <li><image xml:id="numberline36-frac" width="70%" margins="0% 30%"><description>fractions of 36</description><latex-image>
         <![CDATA[
@@ -445,7 +445,7 @@ A number line can help us visualize familiar fractions written with different de
       </ol></p></answer></exercise>
 
 <activity><title>Number Lines</title>
-  <p><ol marker="1">
+  <p><ol marker="1.">
     <li><p>This number line is 6 units long. Label the number of units at <m>\dfrac{1}{4}</m>, <m>\dfrac{1}{2}</m>, and <m>\dfrac{3}{4}</m> of its length.
       <image source="emptyfourths.png" width="70%"><description>number line</description></image></p></li>
     
@@ -466,7 +466,7 @@ A number line can help us visualize familiar fractions written with different de
       <li><p>One mile is 1760 yards.  The longest ocean pier in California is the Santa Cruz Municipal Wharf, at 905 yards.  What fraction of a mile is that?
         <image source="emptyfourths.png" width="70%"><description>number line</description></image></p></li>
       
-      <li><p><ol marker="a">
+      <li><p><ol marker="a.">
         <li><p>When it is eight o'clock in the evening, what fraction of the distance around the clock has the hour hand traveled since noon?
           <image source="eightoclock.png" width="25%"><description>clock</description></image></p></li>
         
@@ -474,7 +474,7 @@ A number line can help us visualize familiar fractions written with different de
             <image source="emptyfourths.png" width="70%"><description>number line</description></image></p></li>
           </ol></p></li>
       
-      <li><p><ol marker="a">
+      <li><p><ol marker="a.">
         <li><p>When it is 10 minutes before one o'clock in the afternoon, what fraction of the distance around the clock has the hour hand traveled since noon?
           <image source="ten-before-one.png" width="25%"><description>clock</description></image></p></li>
         <li><p>Locate that fraction on the number line below.

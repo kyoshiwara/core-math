@@ -20,7 +20,7 @@
 
 <activity><title>Like Terms</title>
 
-<p><ol marker="1">
+<p><ol marker="1.">
     <li><p>Suppose tuition at your college is $20 per unit. If you are enrolled in eight units this semester and plan to enroll in ten units next semester, then you can figure your tuition for the year in two ways.</p>
 
     <p>Method 1:  Calculate the tuition for each semester, then add them up:
@@ -42,19 +42,19 @@
 <p>The numbers multiplied by the variable are called the <term>coefficients</term> of the variable. In Activity 5.1.1 the coefficients are 8 and 10.</p>
 
 <assemblage><title>To add or subtract like terms</title>
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><p>Add or subtract the coefficients.</p></li>
   <li><p>Do not change the variable part of the terms.</p></li>
 </ol></p></assemblage>
 
 <example><statement><p>Add or subtract like terms.
-  <ol marker="a" cols="2">
+  <ol marker="a." cols="2">
     <li><m>9m-4m</m></li>
     <li><m>6st + 8st</m></li>
   </ol></p></statement>
 
   <solution><p>We add or subtract the coefficients of the terms. The variable part of the terms remains the same.
-    <ol marker="a">
+    <ol marker="a.">
       <li><m> 9m - 4m = (9-4)m = 5m ~~~~~~~ \blert{\text{Subtract coefficients, keep the variable factor.}}</m></li>
       <li><m> 6st + 8st = (6+8)st = 14st ~~~~~~~ \blert{\text{Add coefficients, keep the variable factor.}}</m></li>
     </ol></p></solution></example>
@@ -66,7 +66,7 @@
     <me>0 \cdot x = 0</me></p></note>
 
 <example><statement><p>Combine like terms.</p>
-  <ol marker="a">
+  <ol marker="a.">
     <li><p><m>3x + x = 4x ~~~~~~~ \blert{\text{Add coefficients, keep the variable factor.}}</m></p></li>
     <li><p><m>3w - w = 2w ~~~~~~~  \blert{\text{Subtract coefficients, keep the variable factor.}}</m></p></li>
 </ol></statement></example>
@@ -102,7 +102,7 @@ we perform the multiplication first.
 <activity><title>Equivalent Expressions</title>
 
 <p>Complete the table to help you decide whether the two expressions are equivalent.</p>
-<p><ol marker="1">
+<p><ol marker="1.">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">                   
         <row header="yes">
             <cell><m>x</m></cell>
@@ -183,23 +183,23 @@ By combining like terms, we see that  <m>~2x + 2x + 2x = 6x</m>.  Thus,
 <assemblage><p>To multiply a term by a constant, we multiply the coefficient of the term by the constant.</p></assemblage>
 
 <example><statement><p>The members of the Concert Choir agree that each member of the Choir should sell five tickets to the spring concert.
-<ol marker="a">
+<ol marker="a.">
   <li><p>If one ticket sells for  <m>x</m>  dollars, how much will each member make from ticket sales?</p></li>
   <li><p>The Choir has 20 members.  How much will they earn from ticket sales?</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>Each member of the choir will earn <m>5x</m>  dollars.</p></li>
   <li><p>The Choir will earn  <m>20(5x)</m>,  or  <m>100x</m>  dollars.</p></li>
 </ol></p></solution></example>
 
 <exercise><statement><p>Every staff member will carry home two sets of new regulations from the meeting. Each set of regulations weighs <m>h</m> ounces.
-<ol marker="a">
+<ol marker="a.">
   <li><p>How many ounces will each staff member carry home?</p></li>
   <li><p>There are 9 staff members.  What is the total weight they carry home?</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><m>2h</m></li>
   <li><m>18h</m></li>
 </ol></p></answer></exercise>
@@ -221,7 +221,7 @@ but
 <p>This is because <m>x</m> and <m>x^2</m> are usually not the same number (unless <m>x</m> happens to be 0 or 1), so we cannot combine them into one group (like cats and canaries).</p>
 
 <example><statement><p>Combine like terms.
-<ol marker="a">
+<ol marker="a.">
     <li><p>We add the coefficients, <m>4 + 3</m>,  and leave the variable part, <m>x</m>, unchanged.
         <me>4x^2 + 3x^2 = (4 + 3) x^2 = 7x^2</me></p></li>
     <li><p><m>7a^2</m> and <m>5a</m> are not like terms, because the variable, <m>a</m>, does not have the same exponent.  So we cannot combine the terms; this expression cannot be simplified.</p></li>
@@ -276,7 +276,7 @@ For example, if  <m>x=5</m>,
 <p>When we evluate an algebraic expression, we follow the order of operations.</p>
 
 <assemblage><title>Order of Operations</title>
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><p>Perform any operations inside parentheses, or above or below a fraction bar, or inside a radical.</p></li>
   <li><p>Compute all powers and roots.</p></li>
   <li><p>Perform all multiplications and divisions in the order in which they occur from left to right.</p></li>

@@ -64,7 +64,7 @@ Finally, we solve the equation.  Because 17 is added to <m>n</m>, we subtract 17
 The number is 28.</p></solution></example>
 
 <exercise><statement><p>The product of 13 and a number is 598.</p>
-<p><ol marker="a">   
+<p><ol marker="a.">   
   <li><p>Write an equation that describes this problem.</p></li>
 
   <li><p>Solve your equation.  What is the number?</p></li>
@@ -114,7 +114,7 @@ The number is 28.</p></solution></example>
 <p>We summarize our method in three steps.</p> 
 
 <assemblage><title>Steps for Modeling a Problem</title>
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><p>Identify the unknown quantity and choose a variable to represent it.</p></li>
   <li><p>Find some quantity that can be expressed in two different ways, and write an equation.</p></li>
   <li><p>Solve the equation, and answer the question in the problem.</p></li>
@@ -131,7 +131,7 @@ The number is 28.</p></solution></example>
 <p>Here are two things to remember about writing equations to solve problems.</p>
 
 <assemblage><title>Problem-Solving Hints</title>
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><p>It is very important to specify precisely what the variable represents. You will have to write an equation about this variable, so you must have a clear idea of what it stands for.</p>
   <p>In particular, the variable must stand for a number, so in the previous exercise, <m>w</m> stands for "Lima's weight," not for "Lima."</p></li>
   <li><p>Although the equation includes the variable, the two sides of the equation may actually be expressions for some other quantity.</p> 
@@ -142,7 +142,7 @@ The number is 28.</p></solution></example>
 
 <p>Follow the three steps to solve the problems. Remember that writing an equation is more important than finding the answer!</p>
 
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><p>Toshiro must reduce his daily calorie intake by 260 calories. If his goal is 1350 calories per day, what is his current calorie intake?</p>
 
   <p>Step 1: What are we asked to find?  Choose a variable for that quantity.</p>

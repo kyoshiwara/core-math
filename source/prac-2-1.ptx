@@ -4,12 +4,12 @@
   <title>Practice 2.1</title>
 
 <exercisegroup cols="4">
-<introduction><p>  For Problems 1-8,<ol marker="a">
+<introduction><p>  For Problems 1-8,<ol marker="a.">
   <li><p>Write the decimal fraction as a common fraction.</p></li> 
   <li><p>Write the name of the fraction in words.</p></li></ol></p></introduction>
 
 <exercise number="1"><statement><p><m>0.8</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\dfrac{8}{10}</m></p></li>
   <li><p>eight tenths</p></li>
 </ol></p></answer></exercise>
@@ -17,7 +17,7 @@
 <exercise number="2"><statement><p><m>0.5</m></p></statement></exercise>
 
 <exercise number="3"><statement><p><m>0.009</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\dfrac{9}{1000}</m></p></li>
   <li><p>nine thousandths</p></li>
 </ol></p></answer></exercise>
@@ -25,7 +25,7 @@
 <exercise number="4"><statement><p><m>0.002</m></p></statement></exercise>
 
 <exercise number="5"><statement><p><m>0.07</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\dfrac{7}{100}</m></p></li>
   <li><p>seven hundredths</p></li>
 </ol></p></answer></exercise>
@@ -33,7 +33,7 @@
 <exercise number="6"><statement><p><m>0.04</m></p></statement></exercise>
 
 <exercise number="7"><statement><p><m>0.0003</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\dfrac{3}{10,000}</m></p></li>
   <li><p>three ten-thousandths</p></li>
 </ol></p></answer></exercise>
@@ -42,12 +42,12 @@
 </exercisegroup>
 
 <exercisegroup cols="4">
-<introduction><p>  For Problems 9-16,<ol marker="a">
+<introduction><p>  For Problems 9-16,<ol marker="a.">
   <li><p>Write the decimal fraction as a common fraction.</p></li> 
   <li><p>Write the name of the fraction in words.</p></li></ol></p></introduction>
 
 <exercise number="9"><statement><p><m>0.28</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\dfrac{28}{100}</m></p></li>
   <li><p>twenty-eight hundredths</p></li>
 </ol></p></answer></exercise>
@@ -55,7 +55,7 @@
 <exercise number="10"><statement><p><m>0.39</m></p></statement></exercise>
 
 <exercise number="11"><statement><p><m>0.452</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\dfrac{452}{1000}</m></p></li>
   <li><p>four hundred fifty-two thousandths</p></li>
 </ol></p></answer></exercise>
@@ -63,7 +63,7 @@
 <exercise number="12"><statement><p><m>0.618</m></p></statement></exercise>
 
 <exercise number="13"><statement><p><m>0.064</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\dfrac{64}{100}</m></p></li>
   <li><p>sixty-four hundredths</p></li>
 </ol></p></answer></exercise>
@@ -71,7 +71,7 @@
 <exercise number="14"><statement><p><m>0.098</m></p></statement></exercise>
 
 <exercise number="15"><statement><p><m>0.050</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\dfrac{50}{1000}</m></p></li>
   <li><p>fifty thousandths</p></li>
 </ol></p></answer></exercise>
@@ -80,12 +80,12 @@
 </exercisegroup>
 
 <exercisegroup cols="4">
-<introduction><p>For Problems 17-24,<ol marker="a">
+<introduction><p>For Problems 17-24,<ol marker="a.">
   <li><p>Represent the fraction with flats, sticks, and cubes.</p></li> 
   <li><p>Write the fraction as a sum of tenths, hundredths, and thousandths.</p></li></ol></p></introduction>
 
 <exercise number="17"><statement><p><m>0.317</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>3 flats, 1 stick, 7 cubes</p></li>
   <li><p><m>\dfrac{3}{10} + \dfrac{1}{100} + \dfrac{7}{1000}</m></p></li>
 </ol></p></answer></exercise>
@@ -93,7 +93,7 @@
 <exercise number="18"><statement><p><m>0.425</m></p></statement></exercise>
 
 <exercise number="19"><statement><p><m>0.034</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>3 sticks and 4 cubes</p></li>
   <li><p><m>\dfrac{3}{100} + \dfrac{4}{1000}</m></p></li>
 </ol></p></answer></exercise>
@@ -101,7 +101,7 @@
 <exercise number="20"><statement><p><m>0.016</m></p></statement></exercise>
 
 <exercise number="21"><statement><p><m>0.102</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>1 flat and 2 cubes</p></li>
   <li><p><m>\dfrac{2}{10} + \dfrac{2}{1000}</m></p></li>
 </ol></p></answer></exercise>
@@ -109,7 +109,7 @@
 <exercise number="22"><statement><p><m>0.203</m></p></statement></exercise>
 
 <exercise number="23"><statement><p><m>0.430</m></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>4 flats and 3 sticks</p></li>
   <li><p><m>\dfrac{4}{10} + \dfrac{3}{100}</m></p></li>
 </ol></p></answer></exercise>
@@ -120,7 +120,7 @@
 <exercisegroup cols="2">
 <introduction><p>In Problems 25-28,  each 10 by 10 grid represents one whole. Shade the fraction of the grid.</p></introduction>
 
-<exercise number="25"><statement><p><ol marker="a">
+<exercise number="25"><statement><p><ol marker="a.">
   <li><p><m>0.3</m></p>
       <image source="tenbytengrid.png" width="60%"></image></li>
   <li><p><m>0.03</m></p>
@@ -128,13 +128,13 @@
   <li><p><m>0.33</m></p>
       <image source="tenbytengrid.png" width="60%"></image></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><image source="ans-2-1-25a.png" width="40%"></image></li>
   <li><image source="ans-2-1-25b.png" width="40%"></image></li>
   <li><image source="ans-2-1-25c.png" width="40%"></image></li>
 </ol></p></answer></exercise>
 
-<exercise number="26"><statement><p><ol marker="a">
+<exercise number="26"><statement><p><ol marker="a.">
   <li><p><m>0.15</m></p>
       <image source="tenbytengrid.png" width="60%"></image></li>
   <li><p><m>0.05</m></p>
@@ -143,7 +143,7 @@
       <image source="tenbytengrid.png" width="60%"></image></li>
 </ol></p></statement></exercise>
 
-<exercise number="27"><statement><p><ol marker="a">
+<exercise number="27"><statement><p><ol marker="a.">
   <li><p><m>\dfrac{1}{4}</m></p>
       <image source="tenbytengrid.png" width="60%"></image></li>
   <li><p><m>\dfrac{1}{8}</m></p>
@@ -151,13 +151,13 @@
   <li><p><m>\dfrac{1}{5}</m></p>
       <image source="tenbytengrid.png" width="60%"></image></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><image source="ans-2-1-27a.png" width="40%"></image></li>
   <li><image source="ans-2-1-27b.png" width="40%"></image></li>
   <li><image source="ans-2-1-27c.png" width="40%"></image></li>
 </ol></p></answer></exercise>
 
-<exercise number="28"><statement><p><ol marker="a">
+<exercise number="28"><statement><p><ol marker="a.">
   <li><p><m>\dfrac{2}{5}</m></p>
       <image source="tenbytengrid.png" width="60%"></image></li>
   <li><p><m>\dfrac{5}{8}</m></p>
@@ -196,7 +196,7 @@
 </exercisegroup>
 
 <exercisegroup>
-<introduction><p>For Problems 37-40,<ol marker="a">
+<introduction><p>For Problems 37-40,<ol marker="a.">
   <li><p>Write the fractions in order from smallest to largest.</p></li> 
   <li><p>Label the number line with appropriate values and plot the fractions.</p></li></ol></p></introduction>
 
@@ -371,12 +371,12 @@
 <introduction><p>For Problems 59-62, use only your knowledge of place value and the result of the calculation shown to find the products.</p></introduction>
 
 <exercise number="59"><statement><p><m>24 \times 65 = 1560</m></p>
-<p><ol cols="2" marker = "a">
+<p><ol cols="2" marker = "a.">
   <li><p><m>2.4 \times 65</m></p></li>
   <li><p><m>0.24 \times 65</m></p></li>
   <li><p><m>2.4 \times 6.5</m></p></li>
   <li><p><m>0.24 \times 0.65</m></p></li></ol></p></statement>
-<answer><p><ol marker = "a">
+<answer><p><ol marker = "a.">
   <li><p>156</p></li>
   <li><p>15.6</p></li>
   <li><p>15.6</p></li>
@@ -384,19 +384,19 @@
 </ol></p></answer></exercise>
 
 <exercise number="60"><statement><p><m>33 \times 89 = 2937</m></p>
-<p><ol cols="2" marker = "a">
+<p><ol cols="2" marker = "a.">
   <li><p><m>0.33 \times 89</m></p></li>
   <li><p><m>3.3 \times 8.9</m></p></li>
   <li><p><m>3.3 \times 0.89</m></p></li>
   <li><p><m>33 \times 8.9</m></p></li></ol></p></statement></exercise>
 
 <exercise number="61"><statement><p><m>41 \times 52 = 2132</m></p>
-<p><ol cols="2" marker = "a">
+<p><ol cols="2" marker = "a.">
   <li><p><m>4.1 \times 5.2</m></p></li>
   <li><p><m>0.41 \times 52</m></p></li>
   <li><p><m>0.41 \times 0.52</m></p></li>
   <li><p><m>41 \times 520</m></p></li></ol></p></statement>
-<answer><p><ol marker = "a">
+<answer><p><ol marker = "a.">
   <li><p>21.32</p></li>
   <li><p>21.32</p></li>
   <li><p>0.2132</p></li>
@@ -404,7 +404,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="62"><statement><p><m>88 \times 73 = 6424</m></p>
-<p><ol cols="2" marker = "a">
+<p><ol cols="2" marker = "a.">
   <li><p><m>8.8 \times 73</m></p></li>
   <li><p><m>0.88 \times 73</m></p></li>
   <li><p><m>0.88 \times 7.3</m></p></li>
@@ -419,18 +419,18 @@
 <exercise number="65"><statement><p>Is <m>0.3</m> equal to <m>0.\overline{3}</m> ? Explain why or why not.</p></statement>
 <answer><p>No. <m>0.3 = \frac{3}{10},</m> but <m>0.\overline{3} = \frac{1}{3}</m></p></answer></exercise>
 
-<exercise number="66"><statement><p><ol marker="a">
+<exercise number="66"><statement><p><ol marker="a.">
   <li><p>Explain the dfference between  <m>0.\overline{25}</m>  and  <m>0.2\overline{5}</m>.</p></li>
   <li><p>Find the decimal equivalents of <m>\dfrac{25}{99}</m> and <m>\dfrac{23}{90}</m>.</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="67"><statement><p><ol marker="a">
+<exercise number="67"><statement><p><ol marker="a.">
   <li><p>Is there a decimal fraction between 1.9 and 2?</p></li>
   <li><p>Is there a decimal fraction between 1.99 and 2?</p></li>
   <li><p>Is there a decimal fraction between 1.999 and 2?</p></li>
   <li><p>Describe a way to find a decimal fraction between any two numbers.</p></li>
 </ol></p></statement>
-<answer><p><ol marker = "a">
+<answer><p><ol marker = "a.">
   <li><p>1.95</p></li>
   <li><p>1.995</p></li>
   <li><p>1.9995</p></li>

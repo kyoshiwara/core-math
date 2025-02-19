@@ -117,7 +117,7 @@
 
 <assemblage><title>A Quick Refresher</title>
 <p><ol>
-  <li><p>Look up any conversion factors you don't remember.<ol marker="a" cols="2">
+  <li><p>Look up any conversion factors you don't remember.<ol marker="a." cols="2">
     <li><p>1 foot = <fillin  characters="4"></fillin> inches</p></li>
     <li><p>1 pound = <fillin  characters="4"></fillin> ounces</p></li>
     <li><p>1 meter = <fillin  characters="4"></fillin> centimeters</p></li>
@@ -125,7 +125,7 @@
     <li><p>1 hour = <fillin  characters="4"></fillin> minutes</p></li>
     <li><p>1 kilogram = <fillin  characters="4"></fillin> grams</p></li></ol>
   </p></li>
-  <li><p>Write each decimal number as a common fraction.<ol marker="a" cols="2">
+  <li><p>Write each decimal number as a common fraction.<ol marker="a." cols="2">
     <li><p>0.75</p></li>
     <li><p>0.60</p></li>
     <li><p>0.30</p></li>
@@ -145,12 +145,12 @@
 <note><p>Recall that we often express ratios as fractions, so, for example, we write 1.5 as <m>\frac{3}{2}</m>,  or  3 to 2. You can check that the ratios of the corresponding sides of the triangles in Activity 6.4.1 are all equal to <m>\frac{3}{2}</m>. </p></note>   
 
 <example><statement><p>Which pair of triangles is proportional?</p>
-  <p><ol marker="a" cols="2">
+  <p><ol marker="a." cols="2">
       <li><p><image source="proptria.png" width="95%"></image></p></li>
       <li><p><image source="proptrib.png" width="95%"></image></p></li>
   </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>Here are the ratios of the sides of the larger triangle to the corresponding sides of the smaller triangle:
         <md><mrow>\text{Longest sides} \hphantom{0000} \dfrac{15}{10}</mrow>
             <mrow>\text{Middle sides} \hphantom{0000} \dfrac{12}{8}</mrow>
@@ -170,13 +170,13 @@ We cannot add or subtract the same number to get an equivalent fraction.  For ex
     <me>\dfrac{4}{3}~~ \text{is not equivalent to} ~~  \dfrac{4 + 1}{3 + 1} = \dfrac{5}{4}</me></p></assemblage>
 
 <exercise><statement><p><ol>
-  <li><p>Which ratios are equivalent?<ol marker="a" cols = "2">
+  <li><p>Which ratios are equivalent?<ol marker="a." cols = "2">
       <li><p><m>\dfrac{5}{8}</m> and <m>\dfrac{15}{18}</m></p></li>
       <li><p><m>\dfrac{5}{8}</m> and <m>\dfrac{15}{24}</m></p></li>
       <li><p><m>\dfrac{25}{12}</m> and <m>\dfrac{75}{36}</m></p></li>
       <li><p><m>\dfrac{4}{5}</m> and <m>\dfrac{16}{25}</m></p></li>
     </ol></p></li>
-  <li><p>Write three ratios equivalent to the given one.<ol marker="a" cols = "2">
+  <li><p>Write three ratios equivalent to the given one.<ol marker="a." cols = "2">
         <li><p><m>\dfrac{2}{3}</m></p></li>
         <li><p><m>\dfrac{9}{8}</m></p></li>
       </ol></p></li>
@@ -184,7 +184,7 @@ We cannot add or subtract the same number to get an equivalent fraction.  For ex
 
 <answer><p><ol>
   <li><p>(b) and (c)</p></li>
-  <li><p><ol marker="a" cols = "2">
+  <li><p><ol marker="a." cols = "2">
         <li><p><m>\dfrac{4}{6}, ~ \dfrac{6}{9}, ~ \dfrac{8}{12}</m></p></li>
         <li><p><m>\dfrac{18}{16}, ~ \dfrac{27}{24}, ~ \dfrac{36}{32}</m></p></li>
       </ol></p></li>
@@ -219,13 +219,13 @@ You can verify that both of these ratios reduce to <m>\dfrac{4}{3}</m>, the scal
 
 <exercise><statement><p>These two right triangles are proportional.</p> 
       <image source="missingsides.png" width="40%"></image>
-<p><ol marker="a"> 
+<p><ol marker="a."> 
   <li><p>Find the scale factor that enlarges the small triangle to the larger one.</p></li>
   <li><p>Find the missing sides.</p></li>
   <li><p>Check your answers using ratios.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a"> 
+<answer><p><ol marker="a."> 
   <li><p><m>\dfrac{7}{3}</m></p></li>
   <li><p><m>a = 28,~ h = 35</m></p></li>
   <li><p><m>\dfrac{7}{3} \times 12 = 28; ~ \dfrac{7}{3} \times 15 = 35</m></p></li>
@@ -312,7 +312,7 @@ The building factor is 3, so <m>h</m> must be <m>5 \times 3 = 15</m>.  The lamp 
 and the missing angle in the second triangle must be 42°. Thus, the two triangles have equal angles, and therefore they are similar.</p></solution></example>
 
 <exercise><statement><p>Which of these pairs are similar triangles? Explain why or why not in each case.</p>
-<ol marker="a" cols="2" valigns="middle middle">
+<ol marker="a." cols="2" valigns="middle middle">
   <li><image source="whichsima.png" width="70%"></image></li>
   <li><image source="whichsimb.png" width="100%"></image></li>
   <li><image source="whichsimc.png" width="75%"></image></li>

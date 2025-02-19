@@ -31,7 +31,7 @@ Jaycee's commission is $1250.</p></solution></example>
 
 <exercise><statement><p>Viktor used a coupon for 10% off the price of hiking boots and saved 
 $12.00. Find the following percents of the price of the boots.</p>
-<p><ol marker = "a" cols="2">
+<p><ol marker = "a." cols="2">
   <li><p>5%</p></li>
   <li><p>20%</p></li>
   <li><p>25%</p></li>
@@ -40,7 +40,7 @@ $12.00. Find the following percents of the price of the boots.</p>
   <li><p>100%</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker = "a" cols="2">
+<answer><p><ol marker = "a." cols="2">
   <li><p>$6</p></li>
   <li><p>$24</p></li>
   <li><p>$30</p></li>
@@ -55,27 +55,27 @@ $12.00. Find the following percents of the price of the boots.</p>
 
 <p><ol>
   <li><p>The Kwans are buying a house for $340,000, and they want to make a down payment of 20% of the price.</p>
-      <p><ol marker="a">
+      <p><ol marker="a.">
         <li><p>What is 10% of the price of the house?</p></li>
         <li><p>What is 20% of the price of the house?</p></li>
       </ol></p></li>
 
   <li><p>The restaurant bill came to $26, and Tyrell wants to leave a 15% tip.</p>
-      <p><ol marker="a">
+      <p><ol marker="a.">
         <li><p>What is 10% of the bill?</p></li>
         <li><p>What is 5% of the bill?</p></li>
         <li><p>What is 15% of the bill?</p></li>
       </ol></p></li>
 
   <li><p>The sales tax on a $25 rose bush is 8%.</p>
-      <p><ol marker="a">
+      <p><ol marker="a.">
         <li><p>What is 10% of the price of the rose bush?</p></li>
         <li><p>What is 1% of the price of the rose bush?</p></li>
         <li><p>What is 8% of the price of the rose bush?</p></li>
       </ol></p></li>
 
   <li><p>In 2020 there were approximately 72 million children under the age of 18 in the United States. About 16% of them lived in poverty.</p>
-      <p><ol marker="a">
+      <p><ol marker="a.">
         <li><p>What was 10% of the US population of children?</p></li>
         <li><p>What was 5% of the US population of children?</p></li>
         <li><p>What was 1% of the US population of children?</p></li>
@@ -101,7 +101,7 @@ $12.00. Find the following percents of the price of the boots.</p>
 <p>Even Easier!  You can also think of the % sign as "hundredths," so that we read 12% as "twelve hundredths" and write the fraction 0.12.</p>
 
 <exercise><statement><p>Change each percent to a decimal fraction.</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p>50%</p></li>
   <li><p>5%  (Be careful!)</p></li>
   <li><p>23%</p></li>
@@ -110,7 +110,7 @@ $12.00. Find the following percents of the price of the boots.</p>
   <li><p>200%</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>0.5</p></li>
   <li><p>0.05</p></li>
   <li><p>0.23</p></li>
@@ -650,7 +650,7 @@ We get the same answer, and we can do the calculations mentally!</p></solution><
       <cell><m>\hphantom{0000000000}</m></cell></row>
     </tabular></p>
 
-  <p><ol marker = "a">
+  <p><ol marker = "a.">
     <li><p>Compute the amount they can spend in each category. Try to do each calculation in your head, by using fractions whenever possible!</p></li>
   <li><p>Check your calculations by computing the total in each column.</p></li>
 </ol></p></statement>
@@ -709,7 +709,7 @@ We get the same answer, and we can do the calculations mentally!</p></solution><
 <solution><p>One-third of 24 is 8, so the base of the tree should be 8 inches from the edge of the picture.</p></solution></example>
 
 <exercise><statement><p>Apply the one-third rule to each situation.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
 
   <li><p>When a home-buyer applies for a mortgage, the monthly payments on the mortgage amount should not exceed one third of the buyer's net monthly salary. Brandon's net annual salary is $48,600. What size mortgage payment can he afford?</p></li> 
 
@@ -720,7 +720,7 @@ We get the same answer, and we can do the calculations mentally!</p></solution><
   <li><p>When mowing grass, you should never remove more than one third of the grass blade. If the mowing height on your lawn mower is 3 inches, how tall should the grass be when you mow, so that you remove one third of the grass blade?</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>$1700</p></li>
   <li><p><m>\dfrac{4}{3}</m> hour, or 1 hour and 20 minutes</p></li>
   <li><p><m>\dfrac{20}{3}</m> liters, or <m>6\dfrac{2}{3}</m> liters</p></li>

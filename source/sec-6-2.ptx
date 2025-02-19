@@ -481,18 +481,18 @@ We have used the unit rate strategy to see that there are 48 grams of sugar in a
             <cell><m>\hphantom{00000}</m></cell></row>
         </tabular></p></li>
 
-  <li><p><ol marker="a">
+  <li><p><ol marker="a.">
       <li><p>How do you know that the cost of copying is proportional to the number of pages copied?</p></li>
       <li><p>Who is paying the higher price for copying?</p></li>
     </ol></p></li>
 
-  <li><p><ol marker="a">
+  <li><p><ol marker="a.">
       <li><p>Plot the data for Delbert's copying fees on the grid. (Include a point for the cost of copying 0 pages.)</p></li>
       <li><p>Connect the data points with a straight line.</p></li>
     </ol></p>
       <image source="copyfees.png" width="70%"></image></li>
 
-  <li><p><ol marker="a">
+  <li><p><ol marker="a.">
       <li><p>Similarly, plot the data for Francine's copying fees on the same grid, and connect them with a straight line.</p></li>
       <li><p>Which line is rising more rapidly?</p></li>
     </ol></p></li>
@@ -536,14 +536,14 @@ We have used the unit rate strategy to see that there are 48 grams of sugar in a
   <li><p>The location of the point in the vertical direction tells us the value of the second variable (the <term>output variable)</term>.</p></li>
 </ul></p></assemblage> 
 
-<example><statement><sidebyside widths="45% 45%"><p>Kira buys granola in bulk at the health food store.  There are three standard containers customers can use, as shown by the highlighted points on the graph.<ol marker="a">
+<example><statement><sidebyside widths="45% 45%"><p>Kira buys granola in bulk at the health food store.  There are three standard containers customers can use, as shown by the highlighted points on the graph.<ol marker="a.">
   <li><p>What are the size and cost of each standard container?</p></li>
   <li><p>What is the unit cost of the granola, in cents per ounce?</p></li>
   <li><p>If we extend the graph to include 25 ounces of granola, how much taller should we make the vertical axis?</p></li>
 </ol></p>
     <image source="granola.png"></image></sidebyside></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>We read the ounces and cents values for each of the three points. The standard containers are 10 ounces for $3.00, 16 ounces for $4.80, and 24 ounces for $7.20.</p></li>
   <li><p>To find the unit cost, we compute the ratio of cost to ounces. 
       <me>\dfrac{\text{300 cents}}{\text{10 ounces}} = \text{30 cents per ounce}</me></p></li>
@@ -574,7 +574,7 @@ We have used the unit rate strategy to see that there are 48 grams of sugar in a
     </latex-image>
     </image>
 
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Who earns more per hour?  Explain how you know.</p></li>  
   <li><p>Use the graph to fill in the table.</p>  
 
@@ -603,7 +603,7 @@ We have used the unit rate strategy to see that there are 48 grams of sugar in a
       <p>Marya:</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>Esme. Her graph is steeper.</p></li>
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >

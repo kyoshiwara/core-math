@@ -45,12 +45,12 @@ The second number line illustrates the subtraction problem
 <assemblage><title>Definition</title>
 <p>Recall that the answer to an addition problem is called the <term>sum</term>, and the answer to a subtraction problem is called the <term>difference</term>.</p></assemblage>
 
-<example><statement><p>Use number lines to illustrate the sum or difference.<ol marker="a" cols="2">
+<example><statement><p>Use number lines to illustrate the sum or difference.<ol marker="a." cols="2">
   <li><m>(-3)-(+5)</m></li>
   <li><m>(-3)+(-5)</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>We start at <m>-3</m> and move 5 units to the left.</p> 
         <image source="exm-7-2-1.png"></image></li>
   <li><p>We start at <m>-3</m> and move 5 units to the left.</p> 
@@ -58,14 +58,14 @@ The second number line illustrates the subtraction problem
 </ol></p>
 <p>Both problems have the same answer, <m>-8</m>.</p></solution></example>
 
-<exercise><statement><p>Use number lines to illustrate the problems below. The answers for each pair should be the same!<ol marker="a">
+<exercise><statement><p>Use number lines to illustrate the problems below. The answers for each pair should be the same!<ol marker="a.">
   <li><p><m>(+2) - (+8) ~~~~</m> and <m>~~~~(+2) + (-8)</m></p>
       <image source="signednumberline.png" width="95%"></image></li> 
   <li><p><m>(+9) - (+4) ~~~~</m> and <m>~~~~(+9) + (-4)</m></p>
       <image source="signednumberline.png" width="95%"></image></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>-6</m></p></li>
   <li><p><m>+5</m></p></li>
 </ol></p></answer></exercise>
@@ -73,12 +73,12 @@ The second number line illustrates the subtraction problem
 <p>Looking back at these examples, we see that we can rewrite a subtraction problem as an equivalent addition problem, then use the rules for addition.</p>
 
 <example><statement><p>Rewrite each subtraction problem as an equivalent addition problem, and compute.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
   <li><m>6 - (+10)</m></li>
   <li><m>-4 - (+3)</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 <li><p>Subtracting 10 gives the same result as adding <m>-10</m>, so we can write
     <me> 6 - (+10) = 6 +(-10)</me>
   To add two numbers with opposite signs we subtract their unsigned parts to get  <m>10 - 6 = 4</m>.  And because 10 is greater than 6, the answer is negative. Thus
@@ -92,12 +92,12 @@ The second number line illustrates the subtraction problem
 <p>If you feel confident with adding signed numbers, with a little practice you'll be able to do these subtraction problems in your head. Until then, don't hesitate to write down the calculation.</p>
 
 <exercise><statement><p>Rewrite each subtraction problem as an equivalent addition problem, and compute.
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
   <li><m>5 - (+9)</m></li>
   <li><m>-3 - (+5)</m></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>-4</m></p></li>
   <li><p><m>-8</m></p></li>
 </ol></p></answer></exercise>
@@ -121,12 +121,12 @@ If we use a number line to help us, we begin by plotting the first number, 2. We
 <note><p>This fact makes sense if we think in terms of money, with negative numbers representing debts.  Suppose you have a net worth of $200, after writing a check for $500 to repay a loan from your father. Then your father calls to say “As your graduation present, I've decided to cancel your $500 debt, so keep the money.” You now have $700. Subtracting a 
 debt of $500 has the same effect as adding $500 to your account!</p></note>
 
-<example><statement><p>Use number lines to illustrate the sum or difference.<ol marker="a" cols="2">
+<example><statement><p>Use number lines to illustrate the sum or difference.<ol marker="a." cols="2">
   <li><m>6 + (+3)</m></li>
   <li><m>6 - (-3)</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>We start at <m>6</m> and move 3 units to the right.</p> 
         <image source="exm-7-2-3.png" width="70%"></image></li>
   <li><p>We start at <m>6</m> and move 3 units to the right.</p> 
@@ -134,14 +134,14 @@ debt of $500 has the same effect as adding $500 to your account!</p></note>
 </ol></p>
 <p>Both problems have the same answer, <m>9</m>.</p></solution></example>
 
-<exercise><statement><p>Use number lines to illustrate the problems below. The answers for each pair should be the same!<ol marker="a">
+<exercise><statement><p>Use number lines to illustrate the problems below. The answers for each pair should be the same!<ol marker="a.">
   <li><p><m>(-8) - (-2) ~~~~</m> and <m>~~~~(-8) + (+2)</m></p>
       <image source="signednumberline.png" width="95%"></image></li> 
   <li><p><m>(-4) - (-7) ~~~~</m> and <m>~~~~(-4) + (+7)</m></p>
       <image source="signednumberline.png" width="95%"></image></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>-6</m></p></li>
   <li><p><m>+3</m></p></li>
 </ol></p></answer></exercise>
@@ -171,12 +171,12 @@ debt of $500 has the same effect as adding $500 to your account!</p></note>
   <li><p>Change the subtraction symbol to an addition symbol.</p></li>
 </ol></p></assemblage>
 
-<example><statement><p>Rewrite each subtraction problem as an equivalent addition problem, then compute.<ol marker="a" cols="2">
+<example><statement><p>Rewrite each subtraction problem as an equivalent addition problem, then compute.<ol marker="a." cols="2">
   <li><p><m>-4 - (+3)</m></p></li>
   <li><p><m>-8 - (-12)</m></p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>Subtracting positive 3 is the same as adding negative 3, and we rewrite the difference as a sum as follows.</p>
           <image source="difftosuma.png" width="60%"></image>
       <p>Now we can use the Rules for Addition. To add two numbers with the same sign we add their unsigned parts to get  <m>4 + 3 = 7</m>.  And because both numbers are negative, the answer is negative.  Thus
@@ -187,12 +187,12 @@ debt of $500 has the same effect as adding $500 to your account!</p></note>
             <me>-8 - (-12) = -8 + (+12) = 4</me></p></li>
 </ol></p></solution></example>
 
-<exercise><statement><p>Rewrite each subtraction problem as an equivalent addition problem, then compute.<ol marker="a" cols="2">
+<exercise><statement><p>Rewrite each subtraction problem as an equivalent addition problem, then compute.<ol marker="a." cols="2">
   <li><p><m>3 - (-2)</m></p></li>
   <li><p><m>-19 - (-12)</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>+5</m></p></li>
   <li><p><m>-7</m></p></li>
 </ol></p></answer></exercise>
@@ -206,7 +206,7 @@ Notice that if the final value is smaller than the initial value, the net change
 <p><ol>
   <li><p>The bar graph shows the prime time Nielsen ratings for the major networks for the week ending February 3, 2001, compared to their previous totals.</p>
         <image source="nielsen.png" width="80%"></image>
-  <p><ol marker="a">
+  <p><ol marker="a.">
       <li><p>What was the net change in ABC's rating?
         <md><mrow>\text{net change} \amp = \text{final value} - \text{initial value}</mrow>
                   <mrow> \amp = 4.3 - 4.7 =</mrow></md></p></li>
@@ -232,7 +232,7 @@ Notice that if the final value is smaller than the initial value, the net change
     </ol></p></li>
     <li><p>If we know the starting value and the net change in a variable, we can calculate its final value. The bar graph shows the change in annual sales for Solaria.com over six years.</p>
           <image source="solaria.png" width="75%"></image>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>In 2008, Solaria posted 4 million dollars in sales. What was its sales total in 2009?
               <me>4 + 2.5 = <fillin></fillin>~ \text{million dollars}</me></p></li>
         <li><p>Complete the table showing Solaria's sales totals for the next five years.</p>
@@ -276,12 +276,12 @@ means "add <m>4</m> and <m>-9</m> and <m>6</m> and <m>-2</m>," to get <m>-1</m>.
 
 <solution><p>Working from left to right, first we add <m>-3</m> and <m>-6</m> to get <m>-9</m>, then we add <m>+4</m> to the <m>-9</m>, to get <m>-5</m>.</p></solution></example>
 
-<exercise><statement><p>Simplify each expression as a sum of signed numbers. <ol marker="a" cols="2">
+<exercise><statement><p>Simplify each expression as a sum of signed numbers. <ol marker="a." cols="2">
     <li><p><m>-5 - 6</m></p></li>
     <li><P><m>3 - 10 - 8</m></P></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><p><m>-11</m></p></li>
     <li><P><m>-15</m></P></li>
 </ol></p></answer></exercise> 
@@ -297,7 +297,7 @@ Revenue is the amount of money a company takes in from selling its product. They
 
     <image source="gosolar.png" width="95%"></image>
 
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Fill in the table with the values of revenue and cost from the bar graph.</p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >

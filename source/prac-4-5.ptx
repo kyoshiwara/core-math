@@ -36,72 +36,72 @@
 
 <exercisegroup><introduction><p>In Problems 13-22, simplify. Notice the difference between (a) and (b) in each pair of expressions.</p></introduction>
 
-<exercise number="13"><statement><p><ol cols="2" marker="a">
+<exercise number="13"><statement><p><ol cols="2" marker="a.">
   <li><p><m>8 + 2 \cdot 5</m></p></li>
   <li><p><m>(8 + 2) \cdot 5</m></p></li>
 </ol></p></statement>
-<answer><p><ol cols="2" marker="a">
+<answer><p><ol cols="2" marker="a.">
   <li><p><m>18</m></p></li>
   <li><p><m>50</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="14"><statement><p><ol cols="2" marker="a">
+<exercise number="14"><statement><p><ol cols="2" marker="a.">
   <li><p><m>10 - 6 \div 2</m></p></li>
   <li><p><m>(10 - 6) \div 2</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="15"><statement><p><ol cols="2" marker="a">
+<exercise number="15"><statement><p><ol cols="2" marker="a.">
   <li><p><m>\dfrac{24}{2 + 6}</m></p></li>
   <li><p><m>\dfrac{24}{2} + 6</m></p></li>
 </ol></p></statement>
-<answer><p><ol cols="2" marker="a">
+<answer><p><ol cols="2" marker="a.">
   <li><p><m>3</m></p></li>
   <li><p><m>18</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="16"><statement><p><ol cols="2" marker="a">
+<exercise number="16"><statement><p><ol cols="2" marker="a.">
   <li><p><m>\dfrac{8 + 4}{2}</m></p></li>
   <li><p><m>8 + \dfrac{4}{2}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="17"><statement><p><ol cols="2" marker="a">
+<exercise number="17"><statement><p><ol cols="2" marker="a.">
   <li><p><m>(9 - 4) - 3</m></p></li>
   <li><p><m>9 - (4 - 3)</m></p></li>
 </ol></p></statement>
-<answer><p><ol cols="2" marker="a">
+<answer><p><ol cols="2" marker="a.">
   <li><p><m>2</m></p></li>
   <li><p><m>8</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="18"><statement><p><ol cols="2" marker="a">
+<exercise number="18"><statement><p><ol cols="2" marker="a.">
   <li><p><m>27 \div (9 \div 3)</m></p></li>
   <li><p><m>(27 \div 9) \div 3</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="19"><statement><p><ol cols="2" marker="a">
+<exercise number="19"><statement><p><ol cols="2" marker="a.">
   <li><p><m>6 \cdot 8 - 6</m></p></li>
   <li><p><m>6(8 - 6)</m></p></li>
 </ol></p></statement>
-<answer><p><ol cols="2" marker="a">
+<answer><p><ol cols="2" marker="a.">
   <li><p><m>42</m></p></li>
   <li><p><m>12</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="20"><statement><p><ol cols="2" marker="a">
+<exercise number="20"><statement><p><ol cols="2" marker="a.">
   <li><p><m>24 \div 3 \cdot 2</m></p></li>
   <li><p><m>24 \div (3 \cdot 2)</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="21"><statement><p><ol cols="2" marker="a">
+<exercise number="21"><statement><p><ol cols="2" marker="a.">
   <li><p><m>\dfrac{36}{6(3)}</m></p></li>
   <li><p><m>\dfrac{36}{6}(3)</m></p></li>
 </ol></p></statement>
-<answer><p><ol cols="2" marker="a">
+<answer><p><ol cols="2" marker="a.">
   <li><p><m>2</m></p></li>
   <li><p><m>18</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="22"><statement><p><ol cols="2" marker="a">
+<exercise number="22"><statement><p><ol cols="2" marker="a.">
   <li><p><m>20 - 8 + 2</m></p></li>
   <li><p><m>20 - (8 + 2)</m></p></li>
 </ol></p></statement></exercise>
@@ -109,30 +109,30 @@
 
 <exercisegroup><introduction><p>For Problems 23-26, write each phrase as a mathematical expression.</p></introduction>
 
-<exercise number="23"><statement><p><ol marker="a">
+<exercise number="23"><statement><p><ol marker="a.">
   <li><p>Three times the sum of 5 and 8.</p></li>
   <li><p>The sum of 3 times 5 and 8.</p></li>
 </ol></p></statement>
-<answer><p><ol cols="2" marker="a">
+<answer><p><ol cols="2" marker="a.">
   <li><p><m>3(5 + 8)</m></p></li>
   <li><p><m>3 \cdot 5 + 8</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="24"><statement><p><ol marker="a">
+<exercise number="24"><statement><p><ol marker="a.">
   <li><p>Find the sum of 18 and 30, then divide by 6.</p></li>
   <li><p>Add to 18 the quotient of 30 divided by 6.</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="25"><statement><p><ol marker="a">
+<exercise number="25"><statement><p><ol marker="a.">
   <li><p>Subtract the difference of 12 and 8 from 25.</p></li>
   <li><p>Subtract 8 from the difference of 25 and 12.</p></li>
 </ol></p></statement>
-<answer><p><ol cols="2" marker="a">
+<answer><p><ol cols="2" marker="a.">
   <li><p><m>25 - (12 - 8)</m></p></li>
   <li><p><m>(25 - 12) - 8</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="26"><statement><p><ol marker="a">
+<exercise number="26"><statement><p><ol marker="a.">
   <li><p>Find the difference of 34 and 7, then multiply by 3.</p></li>
   <li><p>Multiply 7 times 3, then subtract the product from 34.</p></li>
 </ol></p></statement></exercise>
@@ -226,72 +226,72 @@
 
 <exercisegroup><introduction><p>For Problems 59-68, simplify the pair of expressions. Are they the same?</p></introduction>
 
-<exercise number="59"><statement><p><ol cols="2" marker="a">
+<exercise number="59"><statement><p><ol cols="2" marker="a.">
   <li><p><m>\sqrt{9 + 16}</m></p></li>
   <li><p><m>\sqrt{9} + \sqrt{16}</m></p></li>
 </ol></p></statement>
-<answer><p><ol cols="2" marker="a">
+<answer><p><ol cols="2" marker="a.">
   <li><p><m>5</m></p></li>
   <li><p><m>7</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="60"><statement><p><ol cols="2" marker="a">
+<exercise number="60"><statement><p><ol cols="2" marker="a.">
   <li><p><m>4\sqrt{25}</m></p></li>
   <li><p><m>\sqrt{4(25)}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="61"><statement><p><ol cols="2" marker="a">
+<exercise number="61"><statement><p><ol cols="2" marker="a.">
   <li><p><m>\sqrt{9}\sqrt{36}</m></p></li>
   <li><p><m>\sqrt{9(36)}</m></p></li>
 </ol></p></statement>
-<answer><p><ol cols="2" marker="a">
+<answer><p><ol cols="2" marker="a.">
   <li><p><m>18</m></p></li>
   <li><p><m>18</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="62"><statement><p><ol cols="2" marker="a">
+<exercise number="62"><statement><p><ol cols="2" marker="a.">
   <li><p><m>5 + 2\sqrt{64}</m></p></li>
   <li><p><m>(5 + 2)\sqrt{64}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="63"><statement><p><ol cols="2" marker="a">
+<exercise number="63"><statement><p><ol cols="2" marker="a.">
   <li><p><m>\sqrt{\dfrac{16}{49}}</m></p></li>
   <li><p><m>\dfrac{\sqrt{15}}{\sqrt{49}}</m></p></li>
 </ol></p></statement>
-<answer><p><ol cols="2" marker="a">
+<answer><p><ol cols="2" marker="a.">
   <li><p><m>\dfrac{4}{7}</m></p></li>
   <li><p><m>\dfrac{4}{7}</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="64"><statement><p><ol cols="2" marker="a">
+<exercise number="64"><statement><p><ol cols="2" marker="a.">
   <li><p><m>\sqrt{100} - \sqrt{64}</m></p></li>
   <li><p><m>\sqrt{100 - 64}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="65"><statement><p><ol cols="2" marker="a">
+<exercise number="65"><statement><p><ol cols="2" marker="a.">
   <li><p><m>\dfrac{\sqrt{81}}{4}</m></p></li>
   <li><p><m>\sqrt{\dfrac{81}{4}}</m></p></li>
 </ol></p></statement>
-<answer><p><ol cols="2" marker="a">
+<answer><p><ol cols="2" marker="a.">
   <li><p><m>\dfrac{9}{4}</m></p></li>
   <li><p><m>\dfrac{9}{2}</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="66"><statement><p><ol cols="2" marker="a">
+<exercise number="66"><statement><p><ol cols="2" marker="a.">
   <li><p><m>10 - 3\sqrt{144}</m></p></li>
   <li><p><m>(10 - 3)\sqrt{144}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="67"><statement><p><ol cols="2" marker="a">
+<exercise number="67"><statement><p><ol cols="2" marker="a.">
   <li><p><m>\sqrt{4\sqrt{81}}</m></p></li>
   <li><p><m>\sqrt{4}\sqrt{81}</m></p></li>
 </ol></p></statement>
-<answer><p><ol cols="2" marker="a">
+<answer><p><ol cols="2" marker="a.">
   <li><p><m>6</m></p></li>
   <li><p><m>18</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="68"><statement><p><ol cols="2" marker="a">
+<exercise number="68"><statement><p><ol cols="2" marker="a.">
   <li><p><m>\sqrt{4 + \sqrt{25}}</m></p></li>
   <li><p><m>\sqrt{4} + \sqrt{25}</m></p></li>
 </ol></p></statement></exercise>

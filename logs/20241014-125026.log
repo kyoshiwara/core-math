@@ -10,3 +10,5 @@ INFO    :   (Reminder: use `pretext deploy` to deploy your built project to a pu
 INFO    :   GitHub Pages site that can be shared with readers who cannot access your
 INFO    :   personal computer.)
 INFO    : 
+INFO    : Server will soon be available at http://localhost:8128
+INFO    : Opening browser for target `web` at http://localhost:8128/output/html

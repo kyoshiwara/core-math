@@ -62,7 +62,7 @@
 </exercisegroup> 
 
 <exercisegroup><introduction><p>For Problems 21-22,</p>
-<p><ol marker="a"> 
+<p><ol marker="a."> 
   <li><p>Sketch the box that can be made from each diagram, and label its dimensions. The grids represent inches.</p></li>
   <li><p>Find the surface area of the box.</p></li>
   <li><p>Find the volume of the box.</p></li>
@@ -70,7 +70,7 @@
 
 <exercise number="21"><statement><p><image source="hp-3-1-21.png" width="60%"></image></p></statement>
 <answer>
-    <ol marker="a">
+    <ol marker="a.">
         <li>
             <image xml:id="box-3by8by6" width="30%" margins="0% 70%"><description>box 3 by 8 by 6</description><latex-image>
                 <![CDATA[
@@ -108,13 +108,13 @@
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 27-28, the grid lines represent feet.</p>
-<p><ol marker="a"> 
+<p><ol marker="a."> 
   <li><p>Find the volume of the box.</p></li>
   <li><p>Find the surface area of the box.</p></li>
 </ol></p></introduction>
 
 <exercise number="27"><statement><p><image source="hp-3-1-27.png" width="50%"></image></p></statement>
-<answer><p><ol marker="a"> 
+<answer><p><ol marker="a."> 
   <li><p>80 cu ft</p></li>
   <li><p>112 sq ft</p></li>
 </ol></p></answer></exercise>
@@ -123,13 +123,13 @@
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 29-30,</p>
-<p><ol marker="a"> 
+<p><ol marker="a."> 
   <li><p>Find the volume of the cube.</p></li>
   <li><p>Find the surface area of the cube.</p></li>
 </ol></p></introduction>
 
 <exercise number="29"><statement><p><image source="hp-3-1-29.png" width="60%"></image></p></statement>
-<answer><p><ol marker="a"> 
+<answer><p><ol marker="a."> 
   <li><p>512 cu in</p></li>
   <li><p>384 sq in</p></li>
 </ol></p></answer></exercise>
@@ -138,13 +138,13 @@
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 31-32,</p>
-<p><ol marker="a"> 
+<p><ol marker="a."> 
   <li><p>Find the volume of the box.</p></li>
   <li><p>Find the surface area of the box.</p></li>
 </ol></p></introduction>
 
 <exercise number="31"><statement><p><image source="hp-3-1-31.png" width="70%"></image></p></statement>
-<answer><p><ol marker="a"> 
+<answer><p><ol marker="a."> 
   <li><p>2560 cu cm</p></li>
   <li><p>1216 sq cm</p></li>
 </ol></p></answer></exercise>
@@ -153,13 +153,13 @@
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 33-34, the grid lines represent meters.</p>
-<p><ol marker="a"> 
+<p><ol marker="a."> 
   <li><p>Find the volume of the object.</p></li>
   <li><p>Find the surface area of the object.</p></li>
 </ol></p></introduction>
 
 <exercise number="33"><statement><p><image source="hp-3-1-33.png" width="60%"></image></p></statement>
-<answer><p><ol marker="a"> 
+<answer><p><ol marker="a."> 
   <li><p>44 cu m</p></li>
   <li><p>94 sq m</p></li>
 </ol></p></answer></exercise>
@@ -168,13 +168,13 @@
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 35-38,</p>
-<p><ol marker="a"> 
+<p><ol marker="a."> 
   <li><p>Find the volume of the object.</p></li>
   <li><p>Find the surface area of the object.</p></li>
 </ol></p></introduction>
 
 <exercise number="35"><statement><p><image source="hp-3-1-35.png" width="80%"></image></p></statement>
-<answer><p><ol marker="a"> 
+<answer><p><ol marker="a."> 
   <li><p>3 cu yd</p></li>
   <li><p>14 sq yd</p></li>
 </ol></p></answer></exercise>
@@ -182,7 +182,7 @@
 <exercise number="36"><statement><p><image source="hp-3-1-36.png" width="90%"></image></p></statement></exercise>
 
 <exercise number="37"><statement><p><image source="hp-3-1-37.png" width="85%"></image></p></statement>
-<answer><p><ol marker="a"> 
+<answer><p><ol marker="a."> 
   <li><p>4000 cu in</p></li>
   <li><p>1300 sq in</p></li>
 </ol></p></answer></exercise>
@@ -204,7 +204,7 @@
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 43-46,</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Find the unknown dimension.</p></li>
   <li><p>Sketch the object, and label its dimensions.</p></li>
 </ol></p></introduction>
@@ -362,7 +362,7 @@
       <cell><m>\hphantom{Six times H}</m></cell></row>
     </tabular></p>
 
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>What do you notice about the volume as the size of the square cut-out increases?</p></li>
   <li><p>What size cut-out produced the largest volume in the table?</p></li>
   <li><p>Why can't the size of the square cut-out be more than <m>4\dfrac{1}{4}</m> inches?</p></li>
@@ -373,16 +373,16 @@
 
 <exercise number="55"><statement><p>Here is a picture of four 1-inch cubes arranged face-to-face.</p>
   <image source="fourcubes.png" width="35%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>What is the volume of the arrangement? What is its surface area?</p></li>
   <li><p>Sketch some other ways you can arrange four cubes face-to-face. (For example, one way is in a straight line.) What is the smallest surface area you can arrange? What is the largest?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>4 cu in, 18 sq in</p></li>
   <li><p>16 sq in, 18 sq in</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="56"><statement><p><ol marker="a">
+<exercise number="56"><statement><p><ol marker="a.">
   <li><p>How many small cubes will you need to build the next larger size cube?</p></li>
   <li><p>How many small cubes will you need to build the next larger size cube after that?</p></li>
   <li><p>One more time:  how many small cubes to build the next cube?</p></li>

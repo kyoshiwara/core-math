@@ -67,14 +67,14 @@ But be careful:  you can delete subtraction symbols, but don't delete any negati
 <p>The location of parentheses in an expression is very important. Compare the expressions in Example 7.5.5.  Note carefully how the parentheses and minus signs change the meaning of the expression.</p>
 
 <example><statement><p>Simplify each expression.</p>
-  <p><ol marker="a" cols="2">
+  <p><ol marker="a." cols="2">
     <li><m>3(-8)</m></li>
     <li><m>3-(-8)</m></li>
     <li><m>-3-8</m></li>
     <li><m>-3(-8)</m></li>
   </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>The parentheses tell us to multiply:  <m>3(-8)=-24</m></p></li>
   <li><p>We subtract negative 8 from 3 by first changing to an addition:  
     <me>3-(-8) = 3+8=11</me></p></li>
@@ -85,13 +85,13 @@ But be careful:  you can delete subtraction symbols, but don't delete any negati
 <note><p>In Examples 7.5.6(a) and (d), the parentheses indicate multiplication. There is no addition or subtraction symbol between the first number and the parentheses, as there is in part (b).</p></note>
 
 <exercise><statement><p>Identify the operation in each expression as an addition, a subtraction, or a product. Then simplify the expression. </p>
-<p><ol marker="a" cols="3">
+<p><ol marker="a." cols="3">
   <li><p><m>-2-7</m></p></li>
   <li><p><m>-2(-7)</m></p></li>
   <li><p><m>-2-(-7)</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="3">
+<answer><p><ol marker="a." cols="3">
   <li><p><m>-9</m></p></li>
   <li><p><m>14</m></p></li>
   <li><p><m>5</m></p></li>
@@ -149,13 +149,13 @@ Note that we enclosed <m>-20</m> in parentheses because it follows a subtraction
 <p>Perform any operations inside parentheses first.</p></assemblage>
 
 <example><statement><p>Compare the three expressions below, and simplify each.</p>
-<p><ol marker="a" cols="3">
+<p><ol marker="a." cols="3">
   <li><p><m>-4(6-10)</m></p></li>
   <li><p><m>-4(6)(-10)</m></p></li>
   <li><p><m>-4(6)-10</m></p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>The first e>\blertxpression has an operation inside parentheses,  <m>6-10</m>,  which must be performed first. 
     <md><mrow>-4(\blert{6-10}) \amp = -4(\blert{-4}) \amp \amp \blert{\text{Add}~ 6~ \text{and} ~-10~ \text{inside parentheses.}}</mrow>
         <mrow> \amp = -16 \amp \amp \blert{\text{Multiply} ~-4~ \text{by}~ -4.}</mrow></md></p></li>
@@ -168,13 +168,13 @@ Note that we enclosed <m>-20</m> in parentheses because it follows a subtraction
   </ol></p></solution></example>
 
   <exercise><statement><p>Analyze the order of operations in each expression, then simplify.</p>
-  <p><ol marker="a" cols="3">
+  <p><ol marker="a." cols="3">
     <li><m>-2(-3)-5</m></li>
     <li><m>-2(-3)(-5)</m></li>
     <li><m>-2(-3-5)</m></li>
   </ol></p></statement>
 
-<answer><p><ol marker="a" cols="3">
+<answer><p><ol marker="a." cols="3">
     <li><m>1</m></li>
     <li><m>-30</m></li>
     <li><m>16</m></li>
@@ -200,7 +200,7 @@ Note that we enclosed <m>-20</m> in parentheses because it follows a subtraction
 <p>Here are the rules for simplifying expressions, in the order they should be applied.</p>
 
 <assemblage><title>Order of Operations</title>
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><p>First, perform all operations inside parentheses, or above or below a fraction bar.</p></li>
   <li><p>Next, perform all multiplications and divisions in order from left to right.</p></li>
   <li><p>Finally, perform all additions and subtractions in order from left to right.</p></li>
@@ -210,7 +210,7 @@ Note that we enclosed <m>-20</m> in parentheses because it follows a subtraction
 
 <p>Simplify each expression by following the order of operations.</p>
 
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><m>-6(-2)(-5)</m></li>
   <li><m>-6(-2)-5</m></li>
   <li><m>-6(-2-5)</m></li>
@@ -260,7 +260,7 @@ The two expressions are not equivalent, as you can see by evaluating each:
 <p>Now we can include exponents in the order of operations.</p>
 
 <assemblage><title>Order of Operations</title>
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><p>Perform all operations inside parentheses, or above or below a fraction bar.</p></li>
   <li><p>Compute all powers.</p></li>
   <li><p>Perform all multiplications and divisions in order from left to right.</p></li>
@@ -275,13 +275,13 @@ The two expressions are not equivalent, as you can see by evaluating each:
       <mrow>  \amp = -2\blert{(-4)^2} \amp \amp \blert{\text{Compute the power, then multiply.}}</mrow>
       <mrow>   \amp = -2(16) = -32</mrow></md></p></solution></example>
 
-<exercise><statement><p>Simplify each expression.<ol marker="a">
+<exercise><statement><p>Simplify each expression.<ol marker="a.">
   <li><m>-4-2^3</m></li>
   <li><m>-4(-2)^3</m></li>
   <li><m>(-4-2)^3</m></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="3">
+<answer><p><ol marker="a." cols="3">
   <li><m>-12</m></li>
   <li><m>32</m></li>
   <li><m>-216</m></li>

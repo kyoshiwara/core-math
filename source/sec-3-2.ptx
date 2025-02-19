@@ -56,14 +56,14 @@
             <mrow>5^3 \amp = 5 \cdot 5 \cdot 5 = 125    \amp \blert{\text{Three factors of 5}}</mrow></md></p></li>
   </ul></p></note>
 
-<exercise><statement><p>Write each power as a repeated multiplication, then evaluate the power. (Use your calculator for part (d).)</p><p><ol marker="a" cols="2">
+<exercise><statement><p>Write each power as a repeated multiplication, then evaluate the power. (Use your calculator for part (d).)</p><p><ol marker="a." cols="2">
   <li><p><m>6^2</m></p></li>
   <li><p><m>\left(\dfrac{2}{3}\right)^3</m></p></li>
   <li><p><m>10^5</m></p></li>
   <li><p><m>1.4^4</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>6 \cdot 6 = 36</m></p></li>
   <li><p><m>\left(\dfrac{2}{3}\right)\left(\dfrac{2}{3}\right)\left(\dfrac{2}{3}\right) = \dfrac{8}{27}</m></p></li>
   <li><p><m>10 \cdot 10 \cdot 10 \cdot 10 \cdot 10 = 100,000</m></p></li>
@@ -84,13 +84,13 @@
 <subsection><title>Squares and Cubes</title>
 <p>Exponents are useful in a variety of calculations. You probably recall that a square is a rectangle whose sides are equal, and a cube is a box whose edges are all equal.</p>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p>Use exponents to calculate the area of a square whose side is 5 inches long.</p></li> 
   <li><p>Use exponents to calculate  the volume of a cube whose edge is 5 inches long.</p></li>
 </ol></p>
     <image source="squareandcube.png" width="50%"></image></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>The area of the square is
     <me>5 \times 5 = 5^2 = 25~~\text{square inches}</me></p></li>
   <li><p>The volume of the cube is
@@ -103,12 +103,12 @@
   <li><p>Instead of reading  <m>5^3</m>  as "5 raised to the third power,"  we say "5 cubed."</p></li>
 </ul></p></note>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p>A square closet has sides 6 feet long. Write a power to express the area of its floor space, then compute the area, including units.</p></li>
   <li><p>A cubical storage container measures 4 meters on each side. Write a power to express the volume of the container, then compute the volume, including units.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>6^2 = 36 </m> sq ft</p></li>
   <li><p><m>4^3 = 64 </m> cu m</p></li>
 </ol></p></answer></exercise>
@@ -255,17 +255,17 @@ Should we multiply 3 times 5 and then square the result, or should we square 5 f
 <p>If we really want to multiply before computing the power, we can use parentheses around the product. The parentheses tell us to simplify what's inside first. Compare the two calculations in the next Example.</p>
 
 <example><statement><p>Simplify.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p><m>3 \cdot 5^2 = 3 \cdot 25 = 75  \hphantom{0000} ~~\blert{\text{Compute the power first, then multiply.}}</m></p></li>
   <li><p><m>(3 \cdot 5)^2 = 15^2 = 225  \hphantom{0000} \blert{\text{Multiply inside parentheses first, then compute the power.}}</m></p></li>
 </ol></p></statement></example>
 
-<exercise><statement><p><ol marker="a" cols="2">
+<exercise><statement><p><ol marker="a." cols="2">
   <li><p><m>5 \cdot 2^3</m></p></li>
   <li><p><m>(5 \cdot 2)^3</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>40</m></p></li>
   <li><p><m>1000</m></p></li>
 </ol></p></answer></exercise>

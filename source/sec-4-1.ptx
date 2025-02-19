@@ -57,7 +57,7 @@
 </ol></p></assemblage>
 
 <exercise><statement><p>Add or subtract the fractions.</p>
-<p><ol marker="a" cols="3">
+<p><ol marker="a." cols="3">
   <li><p><m>\dfrac{1}{5} + \dfrac{3}{5}</m></p></li>
   <li><p><m>\dfrac{7}{12} - \dfrac{5}{12}</m></p></li>
   <li><p><m>\dfrac{2}{3} + \dfrac{2}{3}</m></p></li>
@@ -66,7 +66,7 @@
   <li><p><m>\dfrac{7}{10} + \dfrac{8}{10}</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="3">
+<answer><p><ol marker="a." cols="3">
   <li><p><m>\dfrac{4}{5}</m></p></li>
   <li><p><m>\dfrac{2}{12}</m></p></li>
   <li><p><m>\dfrac{4}{3}</m></p></li>
@@ -169,12 +169,12 @@
       <mrow>\dfrac{3}{4} ~~~~~~ \amp \times ~~~~~~ \dfrac{\alert{2}}{\alert{2}} \amp \amp = ~~~~~~ \dfrac{6}{8}</mrow></md>
 </p></note>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p>What building factor will you need to add <m>\dfrac{2}{3}</m> and <m>\dfrac{5}{12}</m>?</p></li>
   <li><p>What will the new form of the built-up fraction be?</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>4</m></p></li>
   <li><p><m>\dfrac{8}{12}</m></p></li>
 </ol></p></answer></exercise>
@@ -215,7 +215,7 @@
 <p>In Example 4.1.11, the number 24 is called the <term>lowest common multiple</term> of 6 and 8. It is the smallest number that is a multiple of both 6 and 8, or is a "common" multiple for them. We first encountered the lowest common multiple, or LCM, in <xref ref="lcm" text="custom"> Section 1.3.</xref></p></assemblage>
 
 <exercise><statement><p>Find the lowest common multiple for each pair of numbers. (In some cases, you may be able to do this in your head.)</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p> 4 and 6</p></li>
   <li><p> 6 and 9</p></li>
   <li><p> 9 and 12</p></li>
@@ -224,7 +224,7 @@
   <li><p> 10 and 16</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p> 12</p></li>
   <li><p> 18</p></li>
   <li><p> 36</p></li>
@@ -253,7 +253,7 @@
 <note><p>The lowest common denominator for two fractions is often called their <term>LCD</term>. Do you see that finding the <term>LCD</term> for two fractions is the same as finding the lowest common multiple of their denominators?</p></note>
 
 <exercise><statement><p>Find the lowest common denominator (<term>LCD</term>) for each pair of fractions.</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p> <m>\dfrac{2}{3}</m> and <m>\dfrac{2}{5}</m></p></li>    
   <li><p> <m>\dfrac{1}{4}</m> and <m>\dfrac{5}{6}</m></p></li>
   <li><p> <m>\dfrac{1}{6}</m> and <m>\dfrac{3}{8}</m></p></li>
@@ -262,7 +262,7 @@
   <li><p> <m>\dfrac{5}{6}</m> and <m>\dfrac{3}{10}</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p> <m>15</m></p></li>    
   <li><p> <m>12</m></p></li>
   <li><p> <m>24</m></p></li>
@@ -401,14 +401,14 @@ We usually write <m>1 + \dfrac{1}{12}</m> as a <term>mixed number</term>, <m>1 \
 </solution></example>
 
 <exercise><statement><p>By adding a fraction to a whole number, write each mixed number as an improper fraction.</p>
-  <p><ol marker="a" cols="2">
+  <p><ol marker="a." cols="2">
     <li><p><m>1 \dfrac{3}{4}</m></p></li>
     <li><p><m>2 \dfrac{2}{3}</m></p></li>
     <li><p><m>2 \dfrac{5}{8}</m></p></li>
     <li><p><m>3 \dfrac{3}{10}</m></p></li>
   </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><p><m>\dfrac{7}{4}</m></p></li>
     <li><p><m>\dfrac{8}{3}</m></p></li>
     <li><p><m>\dfrac{21}{8}</m></p></li>

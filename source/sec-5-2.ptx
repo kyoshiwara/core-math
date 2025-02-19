@@ -17,10 +17,10 @@
 
 <activity><title>Two Operations</title>
 
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><p>Emma can order T-shirts for her soccer team from a catalog for $5 each.  
   She pays a $4 handling charge on her order.</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>Complete the table.</p>
 
       <p><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
@@ -52,7 +52,7 @@
       </ol></p></li>
 
     <li><p>Francisco is sharing a taxicab with 3 friends from the airport to the hotel. The four friends will share the fare equally, but Francisco will also tip the driver $5 for handling his luggage.</p>
-     <p><ol marker="a">
+     <p><ol marker="a.">
     <li><p>Complete the table.</p>
 
       <p><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
@@ -268,7 +268,7 @@ The area of the bedroom is 180 square feet.</p></solution></example>
 <p>Here is a list of the formulas we are studying.</p>
 
 <assemblage><title>Some Useful Formulas</title>
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><sidebyside widths="20% 65%"><p><m>d = rt</m></p>  <p>distance <m>=</m> rate <m>\times</m> time</p></sidebyside></li>
   <li><sidebyside widths="20% 65%"><p><m>P = R - C</m></p>     <p>Profit <m>=</m> Revenue <m>-</m> Costs</p></sidebyside></li>
   <li><sidebyside widths="20% 65%"><p><m>A = \dfrac{S}{n}</m></p>    <p>Average <m>=</m> <m>\dfrac{\text{Sum of values}}{\text{number of values}}</m></p></sidebyside></li>
@@ -280,7 +280,7 @@ The area of the bedroom is 180 square feet.</p></solution></example>
 
 <p>Use the formulas discussed above to answer the questions. First decide which formula is appropriate.</p> 
 
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><p>If Ann and Bill hike 16 kilometers per day, how far will they hike in a week?</p>
 
     <p>Formula:</p></li>

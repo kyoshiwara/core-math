@@ -3,7 +3,7 @@
 <exercises xml:id="prac-1-5" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Practice 1.5</title>
 
-<exercise number="1"><statement><p><ol marker="a">
+<exercise number="1"><statement><p><ol marker="a.">
   <li><p>On the centimeter grids below, draw three rectangles of different sizes and shapes.</p>
   <image source="cmgrid.png" width="80%"></image>
   <image source="cmgrid.png" width="80%"></image></li>
@@ -47,7 +47,7 @@
       <p><m>\blert{\text{http://www.printablepaper.net/category/graph}}</m></p></note>
 
 
-<exercise number="2"><statement><p>On another grid, copy the three rectangles you drew in problem 1, but arrange them into one composite (combined) shape.</p><p><ol marker="a">  
+<exercise number="2"><statement><p>On another grid, copy the three rectangles you drew in problem 1, but arrange them into one composite (combined) shape.</p><p><ol marker="a.">  
   <li><p>Do you think the area of the new shape will be larger, smaller, or the same as the sum of the areas of the three rectangles?  Calculate the area of the new shape to find out.</p></li>
   <li><p>Do you think the perimeter of the new shape you made in problem 2 will be larger, smaller, or the same as the sum of the perimeters of the three rectangles?  Calculate the perimeter of the new shape to find out.</p></li>
 </ol></p></statement></exercise>
@@ -67,7 +67,7 @@
 <answer><p>Add the length and width and double the sum.</p></answer></exercise>
 
 <exercise number="8"><statement><p>Which of the following are correct ways to calculate the perimeter of a rectangle?</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Double the sum of the length plus the width</p></li>
   <li><p>Multiply the length times the width</p></li>
   <li><p>Add twice the length to twice the width</p></li>
@@ -112,20 +112,20 @@
     </tabular></statement>
 <answer><p>Answers will vary.</p></answer></exercise>
 
-<exercise number="10"><statement><p><ol marker="a">
+<exercise number="10"><statement><p><ol marker="a.">
   <li><p>Do all of the rectangles in Problem 9 have the same area?</p></li>
   <li><p>What do you notice about the sum of the length plus the width of each rectangle?</p></li>
 </ol></p></statement></exercise>
 
 <exercisegroup>
   <introduction><p>For Problems 11-12, use a ruler to measure the length of each side.</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
       <li><p>First measure in inches. Round your measurements to the nearest quarter-inch. Then calculate the perimeter of the figure.</p></li>
       <li><p>Then measure in centimeters. Round your measurements to the nearest half-centimeter. Then calculate the perimeter of the figure.</p></li>
   </ol></p></introduction>
 
 <exercise number="11"><statement><image source="incmtri.png" width="80%"></image></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>13 in</p></li>
       <li><p>33 cm</p></li>
 </ol></p></answer></exercise>
@@ -133,27 +133,27 @@
 <exercise number="12"><statement><image source="incmpent.png" width="90%"></image></statement></exercise>
 </exercisegroup>
 
-<exercise number="13"><statement><p><ol marker="a">
+<exercise number="13"><statement><p><ol marker="a.">
   <li><p>Measure the length and width of your textbook in centimeters.</p></li>
   <li><p>Calculate the perimeter of your textbook.</p></li>
 </ol></p></statement>
 <answer><p>Answers will vary.</p></answer></exercise>
 
-<exercise number="14"><statement><p><ol marker="a">
+<exercise number="14"><statement><p><ol marker="a.">
   <li><p>Measure the length and width of a sheet of notebook paper in inches.</p></li>
   <li><p>Calculate the perimeter of a sheet of notebook paper.</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="15"><statement><p><ol marker="a">
+<exercise number="15"><statement><p><ol marker="a.">
   <li><p>How many sides of a rectangle do you need to measure in order to find its perimeter?</p></li>
   <li><p>How many sides of a square do you need to measure in order to find its perimeter?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>Two</p></li>
       <li><p>One</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="16"><statement><p><ol marker="a">
+<exercise number="16"><statement><p><ol marker="a.">
   <li><p>How many sides of an equilateral triangle do you need to measure in order to find its perimeter?</p></li>
   <li><p>How many sides of an isosceles triangle do you need to measure in order to find its perimeter?</p></li>
 </ol></p></statement></exercise>
@@ -166,13 +166,13 @@
 
 <exercisegroup cols="2">
   <introduction><p>For Problems 19-22, the grids represent feet. Find</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>the perimeter of the region,</p></li>
     <li><p>the area of the region.</p></li>
 </ol></p></introduction>
 
 <exercise number="19"><statement><image source="hp-1-5-19.png" width="60%"></image></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>12 ft</p></li>
       <li><p>5 sq ft</p></li>
 </ol></p></answer></exercise>
@@ -180,7 +180,7 @@
 <exercise number="20"><statement><image source="hp-1-5-20.png" width="60%"></image></statement></exercise>
 
 <exercise number="21"><statement><image source="hp-1-5-21.png" width="65%"></image></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>16 ft</p></li>
       <li><p>10 sq ft</p></li>
 </ol></p></answer></exercise>
@@ -232,12 +232,12 @@
         <cell><m>\hphantom{000000000000}</m></cell>
         <cell><m>36</m></cell></row>
     </tabular>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>Which closet has the smallest perimeter?</p></li>
     <li><p>Which closet has the largest perimeter?</p></li>
     <li><p>Which closet do you think would be the most useful? Why?</p></li>
   </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>Closet 5</p></li>
       <li><p>Closet 1</p></li>
       <li><p>Closet 3</p></li>
@@ -287,7 +287,7 @@
         <cell><m>60</m></cell>
         <cell><m>\hphantom{000000000000}</m></cell></row>
     </tabular>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>Which pen encloses the smallest area?</p></li>
     <li><p>Which pen encloses the largest area?</p></li>
     <li><p>Do you think Rolly could enclose an even larger area by using a different shape?</p></li>
@@ -307,7 +307,7 @@
 </exercisegroup>
 
 <exercise number="29"><statement><p>To find the area of a rectangle, do we really need to count the square units inside its edges?</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Find the area of the rectangle below. The grid represents inches.</p>
       <image source="hp-1-5-29a.png" width="40%"></image>
 
@@ -325,7 +325,7 @@
 
   <li><p>Find the perimeter of the rectangle in part (c).</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>20 sq in</p></li>
       <li><p>36 sq in</p></li>
       <li><p>144 sq ft</p></li>
@@ -335,13 +335,13 @@
 <exercise number="30"><statement><p>Find the area and perimeter of a rectangle whose length is 15 meters and whose width is 12 meters.</p></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 31-34,</p>
-<p><ol marker="a"> 
+<p><ol marker="a."> 
   <li><p>Find the perimeter of the figure.</p></li>
   <li><p>Draw in horizontal or vertical lines to create rectangles, then find the area of the figure.</p></li>
 </ol></p></introduction> 
 
 <exercise number="31"><statement><image source="hp-1-5-31.png" width="90%"></image></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>49 cm</p></li>
       <li><p>120 sq cm</p></li>
 </ol></p></answer></exercise>
@@ -349,7 +349,7 @@
 <exercise number="32"><statement><image source="hp-1-5-32.png" width="70%"></image></statement></exercise>
 
 <exercise number="33"><statement><image source="hp-1-5-33.png" width="100%"></image></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>160 ft</p></li>
       <li><p>1290 sq ft</p></li>
 </ol></p></answer></exercise>
@@ -357,20 +357,20 @@
 <exercise number="34"><statement><image source="hp-1-5-34.png" width="90%"></image></statement></exercise>
 </exercisegroup>
 
-<exercise number="35"><statement><p><ol marker="a">
+<exercise number="35"><statement><p><ol marker="a.">
   <li><p>What is the area of the rectangle shown below?  What is its perimeter?</p>
       <image source="hp-1-5-35.png" width="40%"></image></li>
 
   <li><p>Draw a line to divide the rectangle into two rectangles with equal area. (Is there more than one way to do this?) Shade one of the two new rectangles.</p></li>
   <li><p>What is the perimeter of the new rectangle? Is it one-half the perimeter of the original rectangle? Do you get the same perimeter no matter how you made the new rectangle?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>80 sq in, 36 in</p></li>
       <li><p>Answers will vary.</p></li>
       <li><p>26 in or 28 in, no, no</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="36"><statement><p><ol marker="a">
+<exercise number="36"><statement><p><ol marker="a.">
   <li><p>Here are two more copies of the rectangle. On the left copy below, draw lines to make a rectangle with one-fourth of the area.  Is there more than one way to do this? Shade the new rectangle.</p> 
       <sidebyside widths="40% 40%"><image source="hp-1-5-35.png" width="40%"></image><image source="hp-1-5-35.png" width="40%"></image></sidebyside></li>       
   <li><p>What is the perimeter of the new rectangle? Is it one-fourth the perimeter of the original rectangle?</p></li>  
@@ -383,7 +383,7 @@
 <exercise number="38"><statement><p>The area of a rectangular solar panel must be 320 square feet.  If you know the length of the solar panel, how can you find its width?</p></statement></exercise>
 
 <exercise number="39"><statement><p>Francine and Delbert each cut a rectangular brownie out of the pan. Francine's brownie measured 3 inches by 4 inches, and Delbert's brownie measured 4 inches by 5 inches. How much bigger was Delbert's brownie than Francine's brownie? (Choose the correct answer.)</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>2 inches</p></li>
   <li><p>1 square inch</p></li>
   <li><p>7 square inches</p></li>
@@ -394,17 +394,17 @@
 <exercise number="40"><statement><p>The wool rug that Keesha likes costs $6 per square foot. How much more does a 6 foot by 8 foot rug cost than a 5 foot by 7 foot rug?</p></statement></exercise>
 
 <exercise number="41"><statement><p>Toshi has just completed a large painting that measures 5 feet by <m>3\frac{1}{2}</m> feet. He plans to install it in a frame that is 3 inches wide. </p>
-<p><ol marker="a"> 
+<p><ol marker="a."> 
   <li><p>What will be the area of the framed painting? Hint:  What fraction of a foot is 3 inches?</p></li>
   <li><p>What will be the perimeter of the framed painting?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>22 sq ft</p></li>
       <li><p>19 ft</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="42"><statement><p>The reflecting pool in front of city hall is 60 feet long and 20 feet wide. The water is surrounded by an 18 inch stone ledge.</p>
-<p><ol marker="a"> 
+<p><ol marker="a."> 
   <li><p>What is the area of the water surface? Hint:  What fraction of a foot is 18 inches?</p></li>
   <li><p>What is the perimeter of the water surface?</p></li>
 </ol></p></statement></exercise>
@@ -497,7 +497,7 @@
         <cell>150 sq ft</cell></row>
 </tabular></answer></exercise>
 
-<exercise number="44"><statement><p><ol marker="a">
+<exercise number="44"><statement><p><ol marker="a.">
   <li><p>Use the grid below to draw a square yard. The grid is marked in feet.</p>
       <image source="cmgrid.png" width="60%"></image></li>
   <li><p>How many square feet are there in a square yard?</p></li>
@@ -508,40 +508,40 @@
 <exercisegroup><introduction><p>For Problems 45-48, look at a ruler to help you convert units.</p>
     <image source="ruler.png" width="60%"></image></introduction>
 
-<exercise number="45"><statement><p><ol marker="a" cols="2">
+<exercise number="45"><statement><p><ol marker="a." cols="2">
   <li><p>3 cm  = <fillin></fillin> mm</p></li>
   <li><p>1.8 cm  = <fillin></fillin> mm</p></li>
   <li><p>0.6 cm  = <fillin></fillin> mm</p></li>
   <li><p>0.25 cm  = <fillin></fillin> mm</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>30</p></li>
       <li><p>18</p></li>
       <li><p>6</p></li>
       <li><p>2.5</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="46"><statement><p><ol marker="a" cols="2">
+<exercise number="46"><statement><p><ol marker="a." cols="2">
   <li><p>25 cm  = <fillin></fillin> mm</p></li>
   <li><p>14 cm  = <fillin></fillin> mm</p></li>
   <li><p>7 cm  = <fillin></fillin> mm</p></li>
   <li><p>36 cm  = <fillin></fillin> mm</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="47"><statement><p><ol marker="a" cols="2">
+<exercise number="47"><statement><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{1}{2}</m> in  = <m>\dfrac{?}{8}</m> in</p></li>
   <li><p><m>\dfrac{3}{4}</m> in  = <m>\dfrac{?}{16}</m> in</p></li>
   <li><p><m>\dfrac{5}{8}</m> in  = <m>\dfrac{?}{16}</m> in</p></li>
   <li><p><m>\dfrac{5}{4}</m> in  = <m>\dfrac{?}{8}</m> in</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p>4</p></li>
       <li><p>12</p></li>
       <li><p>10</p></li>
       <li><p>10</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="48"><statement><p><ol marker="a" cols="2">
+<exercise number="48"><statement><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{6}{8}</m> in  = <m>\dfrac{?}{4}</m> in</p></li>
   <li><p><m>\dfrac{8}{16}</m> in  = <m>\dfrac{?}{2}</m> in</p></li>
   <li><p><m>\dfrac{6}{4}</m> in  = <m>\dfrac{?}{2}</m> in</p></li>
@@ -578,7 +578,7 @@
 </statement></exercise>
 </exercisegroup>
 
-<exercise number="53"><statement><p><ol marker="a">
+<exercise number="53"><statement><p><ol marker="a.">
   <li><p>Do you see a pattern relating the base and height of the triangle to its area?</p></li>
   <li><p>Use the figures below to explain why your formula makes sense.</p>
       <image source="hp-1-5-53b.png" width="80%"></image></li>
@@ -595,7 +595,7 @@
 <statement><p>The picture on the left below shows a solid figure called a truncated icosahedron (eye-kosa-he-dron). If you inflate it a little bit, you get a soccer ball. The surface of the soccer ball is made up of 20 hexagons and 12 pentagons. The hexagons have six sides (the white pieces), and the pentagons have five sides (the black pieces).</p>
     <image source="soccerball.png" width="80%"></image>
          
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Find the area of each pentagon on a soccer ball. The side of the pentagon is 1.8 inches, and the distance from the center of the pentagon to its side is 1.24 inches.</p>
     <image source="penthex.png" width="80%"></image></li>    
 

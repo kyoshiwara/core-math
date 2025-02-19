@@ -69,7 +69,7 @@ where <m>D</m> and <m>F</m> stand for Delbert's age and Francine's age. Finding 
       <cell></cell>
       <cell>59</cell></row>
     </tabular></p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p>Explain how to find Tamir's share when you know the grocery bill.</p></li>
       <li><p>Explain how to find the grocery bill when you know Tamir's share.</p></li>
       <li><p>Let <m>T</m> stand for Tamir's share. Write an equation for <m>T</m> in terms of the grocery bill, <m>g</m>.</p></li>
@@ -98,7 +98,7 @@ where <m>D</m> and <m>F</m> stand for Delbert's age and Francine's age. Finding 
       <cell></cell>
       <cell>25.20</cell></row>
     </tabular></p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p>Explain how to find the VAT share when you know the price before tax.</p></li>
       <li><p>Explain how to find the price before tax when you know the VAT.</p></li>
       <li><p>Let <m>V</m> stand for the VAT. Write an equation for <m>V</m> in terms of the price, <m>p</m>.</p></li>
@@ -107,7 +107,7 @@ where <m>D</m> and <m>F</m> stand for Delbert's age and Francine's age. Finding 
     </ol></p></li>
   </ol></p></activity>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p>Describe the relationship between the two variables shown in the table.</p>
     <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <col halign="center"/>
@@ -129,11 +129,11 @@ where <m>D</m> and <m>F</m> stand for Delbert's age and Francine's age. Finding 
   <li><p>Write an equation that expresses the second variable, <m>g</m>, in terms of the first variable, <m>w</m>.</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p> <m>g</m> is 5 more than <m>w</m>.</p></li> 
   <li><p> <m>g = w + 5</m></p></li></ol></p></solution></example>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p>Describe the relationship between the two variables shown in the table.</p>
     <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <col halign="center"/>
@@ -155,7 +155,7 @@ where <m>D</m> and <m>F</m> stand for Delbert's age and Francine's age. Finding 
   <li><p>Write an equation that expresses the second variable, <m>d</m>, in terms of the first variable, <m>t</m>.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>d</m> is 30 times <m>t</m>.</p></li>
   <li><p><m>d = 30t</m></p></li>
 </ol></p></answer></exercise>
@@ -187,13 +187,13 @@ Multiply 6 times 28 to see if a true statement results.
   <me>168 = 178? ~~~~~~~~\blert{\large{\text{False!}}}</me>
 The statement is false, so 28 is not a solution of the equation <m>6z=178</m>.</p></solution></example>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p>Decide whether <m>221</m> is a solution of the equation <m>~~\dfrac{w}{17} = 13</m></p></li>
   <li><p>Decide whether  <m>18.2</m>  is a solution of the equation  <m>~~b-13.5 = 4.7</m></p></li>
   <li><p>Decide whether  <m>30.1</m>  is a solution of the equation  <m>~~r+12.5 = 17.6</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="3">
+<answer><p><ol marker="a." cols="3">
   <li><p>Yes</p></li>
   <li><p>Yes</p></li>
   <li><p>No</p></li>

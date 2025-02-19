@@ -1,7 +1,7 @@
 <exercises xml:id="prac-7-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Practice 7-4</title>
 
-<exercisegroup><introduction><p>Complete the table for the expressions in Problems 1-4.</p></introduction>
+<exercisegroup><introduction><p>Complete the table for the expressions in Problems 1<ndash/>4.</p></introduction>
 
 <exercise number="1"><statement><p><m>2-5x</m></p>
 
@@ -23,11 +23,11 @@
             <cell>Operations performed on <m>x</m></cell>
             <cell>Steps to isolate <m>x~~~~</m></cell></row>
         <row bottom="minor">
-            <cell><p>1. Multiply by <m>-5</m></p> </cell>
-            <cell><p>1. Subtract 2</p></cell></row>
+            <cell>1. Multiply by <m>-5</m> </cell>
+            <cell>1. Subtract 2</cell></row>
         <row bottom="minor">
-            <cell><p>2. Add 2</p></cell>
-            <cell><p>2. Divide by <m>-5</m></p></cell></row>
+            <cell>2. Add 2</cell>
+            <cell>2. Divide by <m>-5</m></cell></row>
         </tabular></answer></exercise>
 
 <exercise number="2"><statement><p><m>-1-6y</m></p>
@@ -65,11 +65,11 @@
             <cell>Operations performed on <m>x</m></cell>
             <cell>Steps to isolate <m>x~~~~</m></cell></row>
         <row bottom="minor">
-            <cell><p>1. Divide by 3</p> </cell>
-            <cell><p>1. Subtract 4</p></cell></row>
+            <cell>1. Divide by 3</cell>
+            <cell>1. Subtract 4</cell></row>
         <row bottom="minor">
-            <cell><p>2. Add 4</p></cell>
-            <cell><p>2. Multiply by 3</p></cell></row>
+            <cell>2. Add 4</cell>
+            <cell>2. Multiply by 3</cell></row>
         </tabular></answer></exercise>
 
 <exercise number="4"><statement><p><m>\dfrac{w-7}{2}</m></p>
@@ -126,14 +126,14 @@
 <exercise number="18"><statement><m>\dfrac{-3-4x}{2} = -1</m></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 19-24,<ol marker="a">
+<exercisegroup><introduction><p>For Problems 19-24,<ol marker="a.">
   <li><p>Identify the unknown quantity and choose a variable to represent it.</p></li>
   <li><p>Find something in the problem that can be described in two ways and write an equation.</p></li>  
   <li><p>Solve the equation and answer the question in the problem.</p></li>
 </ol></p></introduction>
 
 <exercise number="19"><statement><p>Starting at a depth of <m>-45</m> feet, a diver begins descending at a rate of <m>-15</m> feet per minute. How long will it take him to reach a depth of <m>-159</m> feet?</p></statement>
-<answer><ol marker="a">
+<answer><ol marker="a.">
   <li><p>Time to reach <m>-150</m> ft: <m>t</m></p></li>
   <li><p><m>-45-15t=-150</m></p></li>
   <li><p>It will take 7 min.</p></li>
@@ -143,7 +143,7 @@
 
 <exercise number="21"><statement><p>Alida has to let her chocolate pie cool to room temperature before cutting it. The pie comes out of the oven at 350°, and room temperature is 75°. If the pie cools on average 11° per minute, how long must Alida wait?
 </p></statement>
-<answer><ol marker="a">
+<answer><ol marker="a.">
   <li><p>Time to wait: <m>t</m></p></li>
   <li><p><m>350-11t=75</m></p></li>
   <li><p>She must wait 25 min.</p></li>
@@ -154,7 +154,7 @@
 </statement></exercise>
 
 <exercise number="23"><statement><p>Lois spent Saturday afternoon playing hand after hand of Fizbin with her sister. At 3 o'clock Lois had a score of 60 points, but by 5 o'clock her score was <m>-96</m>.  If Lois lost 12 hands after 3 o'clock and didn't win any, how much is each hand worth?</p></statement>
-<answer><ol marker="a">
+<answer><ol marker="a.">
   <li><p>Value of one hand <m>w</m></p></li>
   <li><p><m>60-12w=-96</m></p></li>
   <li><p>One hand is worth 13 points.</p></li>
@@ -184,22 +184,22 @@
 
 <exercisegroup><introduction><p>Answer the questions in Problems 29-30.</p></introduction>
 
-<exercise number="29"><statement><p><ol marker="a">
+<exercise number="29"><statement><p><ol marker="a.">
   <li><p>If a point lies in the third quadrant, what do you know about its coordinates?</p></li>
   <li><p>If a point lies in the second quadrant, what do you know about its coordinates?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>They are both negative.</p></li>
   <li><p><m>x</m> is negative; <m>y</m> is positive</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="30"><statement><p><ol marker="a">
+<exercise number="30"><statement><p><ol marker="a.">
   <li><p>If a point lies on the <m>x</m>-axis, what do you know about its coordinates?</p></li>
   <li><p>If a point lies on the <m>y</m>-axis, what do you know about its coordinates?</p></li>
 </ol></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 31-42, <ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 31-42, <ol marker="a.">
   <li><p>Make a table showing three solutions to the equation.</p></li>
   <li><p>Graph the equation.</p></li>  
 </ol></p></introduction>
@@ -482,7 +482,7 @@
  </exercisegroup>
 
 <exercise number="43"><statement><p>Eloise makes $20 an hour as a computer programmer. Let <m>x</m> represent the number of hours Eloise works in a week, and let <m>y</m> represent her earnings.</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
   <li><p>Write an equation expressing <m>y</m> in terms of <m>x</m>.</p></li>
   <li><p>Complete the table and graph your equation.</p>
 
@@ -505,14 +505,14 @@
   <li><p>How many hours must Eloise work in order to make $500?  Write and solve an equation, then locate the corresponding point on your graph.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>y=20x</m></p></li>
   <li><image source="hp-7-4-43ans.png"></image></li>
   <li><p>25 hrs</p></li>
 </ol></p></answer></exercise> 
 
 <exercise number="44"><statement><p>Anatole sells hand-tooled leather belts for $15 each. Let <m>x</m> represent the number of belts hesells in a week, and let <m>y</m> represent his revenue.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Write an equation expressing <m>y</m> in terms of <m>x</m>.</p></li>
   <li><p>Complete the table and graph your equation.</p>
 
@@ -537,7 +537,7 @@
 
 <exercise number="45"><statement><p>The equation that relates the temperature in degrees Fahrenheit to the temperature in degrees Celsius is
   <me>F=1.8C+32</me></p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Graph the equation.</p>
       <sidebyside widths="30% 40%" valigns="middle middle" margins="10% 10%">
         <p><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
@@ -559,7 +559,7 @@
   <li><p>What Celsius temperature is equal to 86° F?  Write and solve an equation, then locate the corresponding point on your graph.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><image source="hp-7-4-45ans.png"></image></li>
   <li><p>30° C</p></li>
 </ol></p></answer></exercise>
@@ -567,7 +567,7 @@
 <exercise number="46"><statement><p>On the planet Kaldor in the Gamma Quadrant, there are no seasons. The temperature at noon on any day is given by the formula
   <me>T = 50 + 0.2h</me> 
   where <m>h</m> is your elevation in Kaldorian feet, and <m>T</m> is the temperature in Kaldorian degrees. </p>
-<p><ol marker="a"> 
+<p><ol marker="a."> 
 <li><p>Graph the equation.</p>
       <sidebyside widths="30% 45%" valigns="middle middle" margins="10% 10%">
         <p><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
@@ -590,7 +590,7 @@
   </ol></p></statement></exercise> 
 
 <exercise number="47"><statement><p>Stuart invested $800 in a computer and word processor and now makes $5 a page typing research papers. Let <m>x</m> represent the number of pages Stuart has typed, and let <m>y</m> represent his profit from his business venture.</p> 
-  <p><ol marker="a">
+  <p><ol marker="a.">
   <li><p>Write an equation expressing <m>y</m> in terms of <m>x</m>.</p></li>
   <li><p>Complete the table and graph your equation.</p>
   <sidebyside widths="30% 55%" valigns="middle middle" margins="10% 5%">
@@ -612,7 +612,7 @@
   <li><p>How many pages must Stuart type in order to break even?  Write and solve an equation to answer this question, then verify the answer on your graph.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>y=-800+5x</m></p></li>
   <li><image source="hp-7-4-47ans.png"></image></li>
   <li><p>160 pages</p></li>
@@ -620,7 +620,7 @@
 
 <exercise number="48"><statement><p>The Haley Light Opera ended last season $1200 in debt, but they are selling tickets to their summer series at $20 each. Let <m>x</m> represent the number of tickets they sell, and let <m>y</m> represent their balance.</p>
 
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Write an equation expressing <m>y</m> in terms of <m>x</m>.</p></li>
   <li><p>Complete the table and graph your equation.</p>
   <sidebyside widths="30% 60%" valigns="middle middle" margins="5% 5%">
@@ -643,7 +643,7 @@
 </ol></p></statement></exercise>
 
 <exercise number="49"><statement><p>An archaeological expedition gathers at a remote village at an altitude of 750 feet. They descend on foot into the valley below, at approximately 120 feet in elevation per hour.  Let <m>x</m> represent the number of hours they have been hiking, and let <m>y</m> represent their elevation.</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>Write an equation expressing <m>y</m> in terms of <m>x</m>.</p></li>
     <li><p>Complete the table and graph your equation.</p>
   <sidebyside widths="30% 50%" valigns="middle middle" margins="10% 10%">
@@ -665,14 +665,14 @@
   <li><p>How long will it take them to reach their site, which lies 210 feet below sea level on the valley floor?  Write and solve an equation to answer this question, then verify the answer on your graph.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>y=750-120x</m></p></li>
   <li><image source="hp-7-4-49ans.png"></image></li>
   <li><p>8 hrs</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="50"><statement><p>A group of adventurers would like to set a new elevation record for a hot-air balloon flight.  The temperature on the ground is 24°C, and the temperature decreases by about 8°C per kilometer above the earth's surface. Let <m>x</m> represent the balloon's altitude in kilometers, and let <m>y</m> represent the temperature.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Write an equation expressing <m>y</m> in terms of <m>x</m>.</p></li>
   <li><p>Complete the table and graph your equation.</p>
   <sidebyside widths="30% 60%" valigns="middle middle" margins="5% 5%">

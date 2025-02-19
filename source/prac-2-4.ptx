@@ -4,7 +4,7 @@
   <title>Practice 2.4</title>
 
 <exercise number="1"><statement><p>Choose the correct operation (addition, subtraction, multiplication, or division) associated with each word.</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p>product <fillin></fillin></p></li>
   <li><p>factors <fillin></fillin></p></li>
   <li><p>difference <fillin></fillin></p></li>
@@ -13,7 +13,7 @@
   <li><p>quotient <fillin></fillin></p></li>
   <li><p>ratio <fillin></fillin></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>Multiplication</p></li>
   <li><p>Multiplication</p></li>
   <li><p>Subtraction</p></li>
@@ -24,7 +24,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="2"><statement><p>Write each phrase as an algebraic expression.</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p>The product of <m>q</m> and 6</p></li>
   <li><p>The ratio of <m>t</m> to 20</p></li>
   <li><p>Five subtracted form <m>h</m></p></li>
@@ -47,72 +47,72 @@
 
 <exercisegroup><introduction><p>For Problems 7-16, write an algebraic expression for the English phrase.</p></introduction>
 
-<exercise number="7"><statement><p><ol marker="a" cols="2">
+<exercise number="7"><statement><p><ol marker="a." cols="2">
   <li><p>Eight less than <m>v</m></p></li>
   <li><p>Four divided into <m>c</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>v-8</m></p></li>
   <li><p><m>\dfrac{c}{4}</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="8"><statement><p><ol marker="a" cols="2">
+<exercise number="8"><statement><p><ol marker="a." cols="2">
   <li><p><m>H</m> increased by 14</p></li>
   <li><p>Ten times <m>g</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="9"><statement><p><ol marker="a" cols="2">
+<exercise number="9"><statement><p><ol marker="a." cols="2">
   <li><p><m>t</m> divided by 5</p></li>
   <li><p>Twenty more than <m>J</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{t}{5}</m></p></li>
   <li><p><m>J+20</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="10"><statement><p><ol marker="a" cols="2">
+<exercise number="10"><statement><p><ol marker="a." cols="2">
   <li><p>Two-thirds of <m>w</m></p></li>
   <li><p>Sixteen reduced by <m>h</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="11"><statement><p><ol marker="a" cols="2">
+<exercise number="11"><statement><p><ol marker="a." cols="2">
   <li><p>The ratio of 15 to <m>b</m></p></li>
   <li><p>The total of 32 and <m>f</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{15}{b}</m></p></li>
   <li><p><m>32+f</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="12"><statement><p><ol marker="a" cols="2">
+<exercise number="12"><statement><p><ol marker="a." cols="2">
   <li><p>The The difference of <m>R</m> and 26</p></li>
   <li><p>17.5 divided by <m>q</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="13"><statement><p><ol marker="a" cols="2">
+<exercise number="13"><statement><p><ol marker="a." cols="2">
   <li><p><m>P</m> split three ways</p></li>
   <li><p><m>Z</m> reduced by <m>\dfrac{3}{2}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{P}{3}</m></p></li>
   <li><p><m>Z-\dfrac{3}{2}</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="14"><statement><p><ol marker="a" cols="2">
+<exercise number="14"><statement><p><ol marker="a." cols="2">
   <li><p>18% of <m>N</m></p></li>
   <li><p>4% of <m>G</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="15"><statement><p><ol marker="a" cols="2">
+<exercise number="15"><statement><p><ol marker="a." cols="2">
   <li><p><m>d</m> subtracted from <m>r</m></p></li>
   <li><p>The product of <m>y</m> and <m>z</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>r-d</m></p></li>
   <li><p><m>yz</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="16"><statement><p><ol marker="a" cols="2">
+<exercise number="16"><statement><p><ol marker="a." cols="2">
   <li><p>The total of <m>P</m> and <m>I</m></p></li>
   <li><p><m>m</m> less than <m>k</m></p></li>
 </ol></p></statement></exercise>
@@ -152,13 +152,13 @@
 </exercisegroup>
 
 <exercise number="29"><statement><p>Write an English phrase for each of the following, then simplify. Which expressions are the same?</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p><m>24 \div 6</m></p></li>
   <li><p><m>6 \div 24</m></p></li>
   <li><p><m>\dfrac{6}{24}</m></p></li>
   <li><p><m>\dfrac{24}{6}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>24 divided by 6, 4</p></li>
   <li><p>6 divided by 24, <m>\dfrac{1}{4}</m></p></li>
   <li><p>6 divided by 24, <m>\dfrac{1}{4}</m></p></li>
@@ -166,7 +166,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="30"><statement><p>Write an English phrase for each of the following, then simplify. Which expressions are the same?</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p><m>\dfrac{36}{4}</m></p></li>
   <li><p><m>\dfrac{1}{4}(36)</m></p></li>
   <li><p><m>36 \div 4</m></p></li>
@@ -300,17 +300,17 @@
 
 <assemblage><p><me>~~~~~~ m + 15 ~~~~~~~~~~~~ m - 15 ~~~~~~~~~~~~ 15 - m ~~~~~~</me></p></assemblage></introduction>
 
-<exercise number="37"><statement><p><ol marker="a">
+<exercise number="37"><statement><p><ol marker="a.">
   <li><p>Carol weighs 15 pounds less than Garth. If Garth weighs <m>m</m> pounds, how much does Carol weigh?</p></li>
   <li><p>Amber and Beryl together planted 15 trees. If Amber planted <m>m</m> trees, how many trees did Beryl plant?</p></li>
   <li><p>Fred earned $15 more this week than last week. If he earned <m>m</m> dollars last week, how much did he earn this week?</p></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>m-15</m></p></li>
   <li><p><m>15-m</m></p></li>
   <li><p><m>m+15</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="38"><statement><p><ol marker="a">
+<exercise number="38"><statement><p><ol marker="a.">
   <li><p>Meg bicycled 15 miles farther than Kwan. If Kwan rode <m>m</m> miles, how far did Meg ride?</p></li>
   <li><p>There are 15 children in Amy's swim class. If there are <m>m</m> girls, how many are boys?</p></li>
   <li><p>The sale price of a sweater is $15 less than the regular price. If the regular price is <m>m</m> dollars, what is the sale price?</p></li></ol></p></statement></exercise>
@@ -320,17 +320,17 @@
 
 <assemblage><p><me>~~~~~~ 12p ~~~~~~~~~~~~ \dfrac{12}{p} ~~~~~~~~~~~~ \dfrac{p}{12} ~~~~~~</me></p></assemblage></introduction>
 
-<exercise number="39"><statement><p><ol marker="a">
+<exercise number="39"><statement><p><ol marker="a.">
   <li><p>Julian earns $12 an hour. If he works for <m>p</m> hours, how much will he make?</p></li>
   <li><p>Farmer Brown collected <m>p</m> eggs this morning. How many dozen is that?</p></li>
   <li><p>Melissa bought 12 colored markers. If their total cost was <m>p</m> dollars, how much did each marker cost?</p></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>12p</m></p></li>
   <li><p><m>\dfrac{p}{12}</m></p></li>
   <li><p><m>\dfrac{p}{12}</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="40"><statement><p><ol marker="a">
+<exercise number="40"><statement><p><ol marker="a.">
   <li><p>Rosalind is baby-sitting for <m>p</m> children. If she brings 12 puzzles, how many will each child get?</p></li>
   <li><p>Hector has to read 12 chapters in his history text. If he has <m>p</m> days to complete the assignment, how many chapters should he read per day?</p></li>
   <li><p>Roma swims 12 laps per day. After <m>p</m> days, how many laps will she have swum?</p></li></ol></p></statement></exercise>
@@ -342,19 +342,19 @@
                    <mrow>~~ 36c ~~~~~~~~~~~~~~ \dfrac{36}{c} ~~~~~~~~~~~~~~~~ \dfrac{c}{36} ~~~~~~</mrow></md></p></assemblage>
 </introduction>
 
-<exercise number="41"><statement><p><ol marker="a">
+<exercise number="41"><statement><p><ol marker="a.">
   <li><p>Renee made $36 for <m>c</m> hours of work. How much does she earn per hour?</p></li>
   <li><p>A pair of shorts and a shirt cost $36. If the shorts cost <m>c</m> dollars, how much did the shirt cost?</p></li>
   <li><p>Elba's Scrabble total was 36 points higher than Carla's. If Carla's total was <m>c</m> points, what was Elba's total?</p></li>
   <li><p>Marc's business will use <m>c</m> mailing envelopes this month. If there are 36 envelopes in a package, how many packages should he order?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\dfrac{c}{36}</m></p></li>
   <li><p><m>36-c</m></p></li>
   <li><p><m>c+36</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="42"><statement><p><ol marker="a">
+<exercise number="42"><statement><p><ol marker="a.">
   <li><p>Heather had 36 math problems to work. She finished <m>c</m> of them. How many more does she have to work?</p></li>
   <li><p>Takiji is 36 years older than Seiki. If Takiji is <m>c</m> years old, how old is Seiki?</p></li>
   <li><p>If the 36 members of the Ski Club each pay <m>c</m> dollars in dues, how much money will the club raise?</p></li>
@@ -391,39 +391,39 @@
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 53-56,</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>Write an algebraic expression.</p></li>
     <li><p>Evaluate the expression.</p></li>
   </ol></p></introduction>
 
 <exercise number="53"><statement>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>Amanda's bread recipe calls for three cups of flour more than she has. Choose a variable for the amount of flour Amanda has, then write an expression for the amount of flour required.</p></li>
     <li><p>If Amanda has 8 cups of flour, how much flour does the recipe call for?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p>c+3</p></li>
     <li><p>11 cups</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="54"><statement><p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>Garth received 432 fewer votes than his opponent in the election. Choose a variable for the number of votes Garth's opponent received, then write an expression for the number of votes Garth received.</p></li>
     <li><p>If Garth's opponent got 3297 votes, how many votes did Garth get?</p></li>
   </ol></p></p></statement></exercise>
 
 <exercise number="55"><statement><p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>To find his homework grade, Jamal should divide his total points by  600. Choose a variable for Jamal's total points, then write an expression for Jamal's homework grade.</p></li>
     <li><p>If Jamal earned 480 homework points, what is his homework grade?</p></li>
   </ol></p></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p>\dfrac{T}{600}</p></li>
     <li><p>80%</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="56"><statement><p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>Each member of the Forensics Club pays $5 in dues. Choose a variable for the number of members, then write an expression for the amount the club earns in dues.</p></li>
     <li><p>If the Forensics Club has 38 members, how much does it earn in dues?</p></li>
   </ol></p></p></statement></exercise>
@@ -433,17 +433,17 @@
   <me>\blert{\text{time} = \dfrac{\text{distance}}{\text{rate}}}</me>
 where "rate" is another word for speed.</p></introduction>
 
-<exercise number="57"><statement><p><ol marker="a">
+<exercise number="57"><statement><p><ol marker="a.">
   <li><p>Write an expression for the time it takes to travel from Kansas City to Salt Lake City (approximately 1000 miles) at different speeds.</p></li>
   <li><p>How long would it take to travel from Kansas City to Salt Lake City by wagon train at 8 miles per hour?</p></li>
 </ol></p>
         <p><image source="usmap.png"></image></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p>\dfrac{1000}{r}</p></li>
     <li><p>125 hrs</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="58"><statement><p><ol marker="a">
+<exercise number="58"><statement><p><ol marker="a.">
   <li><p>Write an expression for the time it takes for the different members of the track team to run 800 meters at different speeds.</p></li>
   <li><p>How long would it take to run 800 meters at a speed of 5 meters per second?</p></li>
 </ol></p></statement></exercise>
@@ -451,52 +451,52 @@ where "rate" is another word for speed.</p></introduction>
 
 <exercisegroup><introduction><p>For Problems 59-64, evaluate for <m>x = 6,~ y = 3</m>, and <m>z = 8</m>. </p></introduction>
 
-<exercise number="59"><statement><p><ol marker="a" cols="3">
+<exercise number="59"><statement><p><ol marker="a." cols="3">
   <li><p><m>z-y</m></p></li>
   <li><p><m>x+x</m></p></li>
   <li><p><m>9.4+x</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p>5</p></li>
     <li><p>12</p></li>
     <li><p>15.4</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="60"><statement><p><ol marker="a" cols="3">
+<exercise number="60"><statement><p><ol marker="a." cols="3">
   <li><p><m>12.7-z</m></p></li>
   <li><p><m>5x</m></p></li>
   <li><p><m>\dfrac{1}{2}z</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="61"><statement><p><ol marker="a" cols="3">
+<exercise number="61"><statement><p><ol marker="a." cols="3">
   <li><p><m>xz</m></p></li>
   <li><p><m>2xyz</m></p></li>
   <li><p><m>0.4y</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p>48</p></li>
     <li><p>288</p></li>
     <li><p>1.2</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="62"><statement><p><ol marker="a" cols="3">
+<exercise number="62"><statement><p><ol marker="a." cols="3">
   <li><p><m>xxx</m></p></li>
   <li><p><m>\dfrac{12}{x}</m></p></li>
   <li><p><m>\dfrac{z}{4}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="63"><statement><p><ol marker="a" cols="3">
+<exercise number="63"><statement><p><ol marker="a." cols="3">
   <li><p><m>\dfrac{y}{9x}</m></p></li>
   <li><p><m>\dfrac{x}{z}</m></p></li>
   <li><p><m>\dfrac{2.4}{x}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p><m>\dfrac{1}{3}</m></p></li>
     <li><p><m>\dfrac{3}{4}</m></p></li>
     <li><p>0.4</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="64"><statement><p><ol marker="a" cols="3">
+<exercise number="64"><statement><p><ol marker="a." cols="3">
   <li><p><m>0.8z</m></p></li>
   <li><p><m>z-0.8</m></p></li>
   <li><p><m>\dfrac{z}{0.8}</m></p></li>
