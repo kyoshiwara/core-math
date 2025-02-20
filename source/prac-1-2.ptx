@@ -5,72 +5,72 @@
 
  <exercisegroup><introduction><p> For Problems 1-8, use the 10 by 10 grids provided.</p></introduction>
 
-<exercise number="1"><statement><p><ol marker="a" cols="2">
+<exercise number="1"><statement><p><ol marker="a." cols="2">
   <li><p>Shade 0.03.</p>
     <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade 0.30.</p>
     <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><image source="ans-1-2-1a.png" width="40%"></image></li>
   <li><image source="ans-1-2-1b.png" width="40%"></image></li>
 </ol></p></answer></exercise>
 
-<exercise number="2"><statement><p><ol marker="a" cols="2">
+<exercise number="2"><statement><p><ol marker="a." cols="2">
   <li><p>Shade 0.75.</p>
     <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade 0.075.</p>
     <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement></exercise>
 
-<exercise number="3"><statement><p><ol marker="a" cols="2">
+<exercise number="3"><statement><p><ol marker="a." cols="2">
   <li><p>Shade 0.1.</p>
     <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade half of 0.1. What fraction is that?</p>
     <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><image source="ans-1-2-3a.png" width="40%"></image></li>
   <li><image source="ans-1-2-3b.png" width="40%"></image></li>
 </ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><ol marker="a" cols="2">
+<exercise number="4"><statement><p><ol marker="a." cols="2">
   <li><p>Shade 0.7.</p>
     <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade half of 0.7. What fraction is that?</p>
     <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement></exercise>
 
-<exercise number="5"><statement><p><ol marker="a" cols="2">
+<exercise number="5"><statement><p><ol marker="a." cols="2">
   <li><p>Shade 0.4.</p>
     <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade <m>\dfrac{1}{4}</m>.</p>
     <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><image source="ans-1-2-5a.png" width="40%"></image></li>
   <li><image source="ans-1-2-5b.png" width="40%"></image></li>
 </ol></p></answer></exercise>
 
-<exercise number="6"><statement><p><ol marker="a" cols="2">
+<exercise number="6"><statement><p><ol marker="a." cols="2">
   <li><p>Shade 0.2.</p>
     <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade <m>\dfrac{2}{5}</m>.</p>
     <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement></exercise>
 
-<exercise number="7"><statement><p><ol marker="a" cols="2">
+<exercise number="7"><statement><p><ol marker="a." cols="2">
   <li><p>Shade <m>\dfrac{1}{20}</m>.</p>
     <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade 0.05.</p>
     <image source="tenbytengrid.png" width="75%"></image></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><image source="ans-1-2-7a.png" width="40%"></image></li>
   <li><image source="ans-1-2-7b.png" width="40%"></image></li>
 </ol></p></answer></exercise>
 
-<exercise number="8"><statement><p><ol marker="a" cols="2">
+<exercise number="8"><statement><p><ol marker="a." cols="2">
   <li><p>Shade 0.9.</p>
     <image source="tenbytengrid.png" width="89%"></image></li>
   <li><p>Shade 0.99.</p>
@@ -78,10 +78,10 @@
 </ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="9"><statement><p><ol marker="a">
+<exercise number="9"><statement><p><ol marker="a.">
   <li><p>Explain why 0.1 is the same as 0.10.</p></li>
   <li><p>Explain why 0.10 is not the same as 0.01.</p></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><m>\dfrac{1}{10} = \dfrac{10}{100}</m></li>
   <li><m>\dfrac{10}{10} \not = \dfrac{1}{100}</m></li>
 </ol></p></answer></exercise>
@@ -90,10 +90,10 @@
 
 <p>Problems 11-12 are true stories.</p>
 
-<exercise number="11"><statement><p><ol marker="a">
+<exercise number="11"><statement><p><ol marker="a.">
   <li><p>Kathy asks for 4 ounces of roast turkey at the deli counter, but the clerk tells her that the scale only measures in pounds. How should Kathy rephrase her order?</p></li>
   <li><p>Kathy then asks for a fraction of a pound (instead of 4 ounces), but the clerk says that the scale only measures in decimal fractions. Now what should Kathy ask for?</p></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{1}{4}~</m> lb</p></li>
   <li><p><m>0.25~</m> lb</p></li>
 </ol></p></answer></exercise>
@@ -115,15 +115,15 @@
 
 <exercisegroup> <introduction><p>For Problems 17-20, show your work.</p></introduction>
 
-<exercise number="17"><statement><p>A standard glass of wine is one-fifth of a 750 ml bottle.<ol marker="a">  
+<exercise number="17"><statement><p>A standard glass of wine is one-fifth of a 750 ml bottle.<ol marker="a.">  
   <li><p>How much wine is in half a glass?</p></li>  
   <li><p>What fraction of a bottle of wine is half a glass?</p></li></ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>75 mlb</p></li>
   <li> <m>\dfrac{1}{10}</m></li>
 </ol></p></answer></exercise>
 
-<exercise number="18"><statement><p>Baker's chocolate comes in one-half ounce squares. Cora's recipe calls for 2.5 ounces of chocolate.<ol marker="a">  
+<exercise number="18"><statement><p>Baker's chocolate comes in one-half ounce squares. Cora's recipe calls for 2.5 ounces of chocolate.<ol marker="a.">  
   <li><p>How many squares of baker's chocolate does she need?</p></li>
   <li><p>Cora has a one-ounce square of unsweetened chocolate. What fraction of her recipe would that provide?</p></li></ol></p></statement></exercise> 
 
@@ -234,7 +234,7 @@ For Problems 21-26, use the diagram to help you reduce the fraction.</p></introd
 <exercise number="50"><statement><p>Explain how you know that <m>\dfrac{4}{5}</m> of one whole is bigger than <m>\dfrac{3}{4}</m> of one whole.</p></statement></exercise>
 </exercisegroup>
 
-<exercise number="51"><statement><p><ol marker="a">
+<exercise number="51"><statement><p><ol marker="a.">
   <li><p>On the number line below, mark and label the decimal fractions located half-way between each pair of tick marks.
         <image source="hp-1-2-51.png" width="90%"></image></p></li>
   <li><p>In the first row of the table below, write as a common fraction each of the decimal fractions you labeled in part (a). In the second row, reduce the fraction if possible.</p>
@@ -270,7 +270,7 @@ For Problems 21-26, use the diagram to help you reduce the fraction.</p></introd
         <cell></cell></row>
     </tabular></p></li></ol></p></statement>
 
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
   <li><image source="ans-1-2-51.png" width="40%"></image></li>
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <col halign="center"/>
@@ -304,7 +304,7 @@ For Problems 21-26, use the diagram to help you reduce the fraction.</p></introd
     </tabular></p></li>
   </ol></p></answer></exercise>
 
-<exercise number="52"><statement><p><ol marker="a">
+<exercise number="52"><statement><p><ol marker="a.">
   <li><p>What is one-half of 0.10? (Hint: Read the fraction aloud.)</p></li>
   <li><p>Write your answer to part (a) as a common fraction.</p></li>
   <li><p>Reduce your answer to part (b) if possible.</p></li>
@@ -319,7 +319,7 @@ For Problems 21-26, use the diagram to help you reduce the fraction.</p></introd
 <answer>
 <m>\dfrac{1}{20},~\dfrac{3}{20},~\dfrac{7}{20},~\dfrac{9}{20},~\dfrac{11}{20},~\dfrac{13}{20},~\dfrac{17}{20},~\dfrac{19}{20}</m></answer></exercise> 
 
-<exercise number="56"><statement><p><ol marker="a">
+<exercise number="56"><statement><p><ol marker="a.">
   <li><p>Which of the following numbers are equal to one-tenth?</p></li>
   <li><p>Which of the following numbers are equal to one-hundredth?</p>
 
@@ -329,7 +329,7 @@ For Problems 21-26, use the diagram to help you reduce the fraction.</p></introd
 <exercise number="57"><statement><p>Caleb says that you can double a fraction by multiplying numerator and denominator by 2. Is he correct? Give an example.</p></statement>
 <answer><p>No. <m>\dfrac{1}{2} = \dfrac{2}{4}</m></p></answer></exercise>
 
-<exercise number="58"><statement><p>Janelle says that you can create an equivalent fraction by adding the same number to the numerator and the denominator. Do you think this is true?<ol marker="a">  
+<exercise number="58"><statement><p>Janelle says that you can create an equivalent fraction by adding the same number to the numerator and the denominator. Do you think this is true?<ol marker="a.">  
   <li><p>Try this example:</p>
     <p>Start with this fraction:        <m>\dfrac{3}{4}</m></p>
     <p> Add 1 to top and bottom:        <m>\dfrac{3+1}{4+1}</m></p>
@@ -338,15 +338,15 @@ For Problems 21-26, use the diagram to help you reduce the fraction.</p></introd
      <p>Are the fractions equivalent?</p></li>
   <li><p>Make up your own example. </p></li></ol></p></statement></exercise>
 
- <exercise number="59"><statement><p><ol marker="a">
+ <exercise number="59"><statement><p><ol marker="a.">
     <li><p>If you know <m>\dfrac{1}{10}</m> of an amount, how can you find <m>\dfrac{1}{2}</m> of the amount? Give an example.</p></li>
     <li><p>If you know <m>\dfrac{1}{10}</m> of an amount, how can you find <m>\dfrac{1}{4}</m> of the amount? Give an example.</p></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p>Multiply by 5.</p></li>
     <li><p>Multiply by 5, then divide by 2.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="60"><statement><p><ol marker="a">
+<exercise number="60"><statement><p><ol marker="a.">
   <li><p>If you know <m>\dfrac{2}{5}</m> of an amount, how can you find <m>\dfrac{1}{10}</m> of the amount? Give an example.</p></li>
   <li><p>If you know <m>\dfrac{2}{5}</m> of an amount, how can you find <m>\dfrac{1}{2}</m> of the amount? Give an example.</p></li></ol></p></statement></exercise>
 
@@ -376,14 +376,14 @@ For Problems 69-76, read each fraction aloud, then write it as a common fraction
 </exercisegroup>
 
  <exercisegroup cols="4"><introduction><p>For Problems 69-72, use your calculator to find the fractions of each number, <m>N</m>. What do you notice about the decimal point?
- <ol marker="a" cols="3">
+ <ol marker="a." cols="3">
   <li><m>\dfrac{1}{10} N</m></li>
   <li><m>\dfrac{1}{100} N</m></li>
   <li><m>\dfrac{1}{1000} N</m></li>
 </ol></p></introduction>
 
 <exercise number="69"><statement><p>38</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li>3.8</li>
   <li>0.38</li>
   <li>0.038</li>
@@ -392,7 +392,7 @@ For Problems 69-76, read each fraction aloud, then write it as a common fraction
 <exercise number="70"><statement><p>765</p></statement></exercise>
 
 <exercise number="71"><statement><p>18.2</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li>1.82</li>
   <li>0.182</li>
   <li>0.0182</li>

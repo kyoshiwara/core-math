@@ -27,14 +27,14 @@
       <cell></cell>
       <cell>32</cell></row>
     </tabular></p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Explain how to find Rachel's age when you know Simone's age.</p></li>
   <li><p>Explain how to find Simone's age when you know Rachel's age.</p></li>
   <li><p>Let <m>r</m> stand for Rachel's age.  Write an equation for <m>r</m> in terms of Simone's age, <m>s</m>.</p></li>
   <li><p>How can you find <m>r</m> if you know <m>s</m>?</p></li>  
   <li><p>How can you find <m>s</m> if you know <m>r</m>?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>Add 8</p></li>
   <li><p>Subtract 8</p></li>
   <li><p><m>r = s + 8</m></p></li>
@@ -64,7 +64,7 @@
       <cell></cell>
       <cell>100</cell></row>
     </tabular></p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Explain how to find Farnaz's deposit when you know her paycheck.</p></li>
   <li><p>Explain how to find Farnaz's paycheck when you know her dposit.</p></li>
   <li><p>Let <m>r</m> stand for Farnaz's deposit.  Write an equation for <m>d</m> in terms of her paycheck, <m>p</m>.</p></li>
@@ -94,14 +94,14 @@
       <cell></cell>
       <cell>276</cell></row>
     </tabular></p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Explain how to find the actual balance from the bank statement.</p></li>
   <li><p>Explain how to find the bank's figure for the balance if you know the actual balance.</p></li>
   <li><p>Let <m>a</m> stand for the actual balance. Write an equation for <m>a</m> in terms of the bank statement, <m>b</m>.</p></li>
   <li><p>How can you find <m>a</m> if you know <m>b</m>?</p></li>  
   <li><p>How can you find <m>b</m> if you know <m>a</m>?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>Add $76</p></li>
   <li><p>Subtract $76</p></li>
   <li><p><m>a = b + 76</m></p></li>
@@ -131,7 +131,7 @@
       <cell></cell>
       <cell>650</cell></row>
     </tabular></p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Explain how to find the distance Francine traveled if you know how many hours she traveled.</p></li>
   <li><p>Explain how to find the number of hours Francine traveled if you know  how many miles she traveled.</p></li>
   <li><p>Let <m>d</m> stand for the distance Francine traveled. Write an equation for <m>d</m> in terms of the travel time, <m>t</m>.</p></li>
@@ -141,7 +141,7 @@
 </exercisegroup>
 
 <exercisegroup cols="4"><introduction><p>For Problems 5-12,</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Describe the relationship between the variables.</p></li>
   <li><p>Write an equation that expresses the second variable in terms of the first variable.</p></li>
 </ol></p></introduction>
@@ -167,7 +167,7 @@
       <cell>10</cell>
       <cell>2</cell></row>
 </tabular></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>q</m> is 8 less than <m>r</m>.</p></li>
   <li><p><m>q = r - 8</m></p></li>
 </ol></p></answer></exercise>
@@ -215,7 +215,7 @@
       <cell>33</cell>
       <cell>11</cell></row>
 </tabular></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>m</m> is <m>\dfrac{1}{3}</m> of <m>h</m>.</p></li>
   <li><p><m>m = \dfrac{h}{3}</m></p></li>
 </ol></p></answer></exercise>
@@ -263,7 +263,7 @@
       <cell>2.6</cell>
       <cell>3.2</cell></row>
 </tabular></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>k</m> is 0.6 more than <m>c</m>.</p></li>
   <li><p><m>k = c + 0.6</m></p></li>
 </ol></p></answer></exercise>
@@ -311,7 +311,7 @@
       <cell>4</cell>
       <cell>3</cell></row>
 </tabular></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>d</m> is <m>\dfrac{3}{4}</m> of <m>a</m>.</p></li>
   <li><p><m>d = \dfrac{3}{4}a</m></p></li>
 </ol></p></answer></exercise>
@@ -342,20 +342,20 @@
 <exercisegroup><introduction><p>For Problems 13-14, choose the equation that best describes each situation. In each case, <m>p</m> represents the unknown quantity.</p>
   <assemblage><p><m>~~~~~p+8 = 40~~~~~~~~p-8 = 40~~~~~~~~8p=40</m></p></assemblage></introduction>
 
-<exercise number="13"><statement><p><ol marker="a">
+<exercise number="13"><statement><p><ol marker="a.">
   <li><p>Eight times a number is 40. What is the number?</p></li>
   <li><p>A number decreased by 8 is 40. What is the number?</p></li>
   <li><p>Eight less than a number is 40. What is the number?</p></li>
   <li><p>Forty exceeds a number by 8. What is the number?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>8p=40</m></p></li>
   <li><p><m>p-8=40</m></p></li>
   <li><p><m>p-8=40</m></p></li>
   <li><p><m>p+8=40</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="14"><statement><p><ol marker="a">
+<exercise number="14"><statement><p><ol marker="a.">
   <li><p>Antoinette scored 8 points more than Katy scored. If Antoinette scored 40 points, how many points did Katy score?</p></li>
   <li><p>Raul got a discount of $8 on his calculator and paid $40. How much is the regular price?</p></li>
   <li><p>Eight tickets to the rodeo cost $40. How much does one ticket cost?</p></li>
@@ -366,18 +366,18 @@
 <exercisegroup><introduction><p>For Problems 15-16, choose the equation that best describes each situation. In each case, <m>b</m> represents the unknown quantity.</p>
   <assemblage><p><m>~~~~~b - 18 = 10~~~~~~~~18 - b = 10</m></p></assemblage></introduction>
 
-<exercise number="15"><statement><p><ol marker="a">
+<exercise number="15"><statement><p><ol marker="a.">
   <li><p>Eighteen less than a number is 10. What is the number?</p></li>
   <li><p>Eighteen reduced by a number is 10. What is the number?</p></li>
   <li><p>The difference of 18 and a number is 10. What is the number?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>b-18=10</m></p></li>
   <li><p><m>18-b = 10</m></p></li>
   <li><p><m>18-b = 10</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="16"><statement><p><ol marker="a">
+<exercise number="16"><statement><p><ol marker="a.">
   <li><p>The temperature dropped 18 degrees over night, and now it is 10<m>\deg</m>. What was the temperatureyesterday?</p></li>
   <li><p>Negin was enrolled in 18 units, but she dropped some classes and now she has 10 units. Homany units did she drop?</p></li>
   <li><p>Dorrie bought an $18 video on sale for $10. What was the discount?</p></li>
@@ -387,16 +387,16 @@
 <exercisegroup><introduction><p>For Problems 17-18, choose the equation that best describes each situation. In each case, <m>t</m> represents the unknown quantity.</p>
   <assemblage><p><m>~~~~~16t = 80~~~~~~~~\dfrac{t}{16} = 80</m></p></assemblage></introduction>
 
-<exercise number="17"><statement><p><ol marker="a">
+<exercise number="17"><statement><p><ol marker="a.">
   <li><p>How many pounds does an 80-ounce box of laundry soap weigh?</p></li>
   <li><p>How many ounces does an 80-pound child weigh?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\dfrac{16}{t} = 80</m></p></li>
   <li><p><m>\dfrac{t}{16} = 80</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="18"><statement><p><ol marker="a">
+<exercise number="18"><statement><p><ol marker="a.">
   <li><p>If Sarmila works 16 hours a week, how many weeks will it take her to complete 80 hours ofcooperative education?</p></li>
   <li><p>Each member of the Friends of the Youth Symphony must raise $80 to keep the Symphony out of debt. If there are 16 members, how much money do they need?</p></li>
 </ol></p></statement></exercise>
@@ -406,20 +406,20 @@
   <assemblage><p><md><mrow>~~~~~n + 5 = 30~~~~~~~~n - 5 = 30</mrow>
                       <mrow>~~~~~5n = 30~~~~~~~~\dfrac{n}{5} = 30</mrow></md></p></assemblage></introduction>
 
-<exercise number="19"><statement><p><ol marker="a">
+<exercise number="19"><statement><p><ol marker="a.">
   <li><p>Five less than a number is 30.</p></li>
   <li><p>The quotient of a number and 5 is 30.</p></li>
   <li><p>The product of a number and 5 is 30.</p></li>
   <li><p>Five more than a number is 30.</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>n-5=30</m></p></li>
   <li><p><m>\dfrac{n}{5} = 30</m></p></li>
   <li><p><m></m>5n=30</p></li>
   <li><p><m>n+5=30</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="20"><statement><p><ol marker="a">
+<exercise number="20"><statement><p><ol marker="a.">
   <li><p>The price of a concert ticket increased $5 this year and is now $30. How much did a ticket cost last year?</p></li>
   <li><p>Amir spent 5 dollars and now has 30 dollars. How much did he have before he spent $5?</p></li>
   <li><p>Marty jogged the same course five days this week for a total of 30 miles. How far did he jog each day?</p></li>
@@ -445,7 +445,7 @@
 
 <exercisegroup><introduction><p>For Problems 27-28, which are equations? Explain why or why not.</p></introduction>
 
-<exercise number="27"><statement><p><ol marker="a" cols="2">
+<exercise number="27"><statement><p><ol marker="a." cols="2">
   <li><p><m>8 + 6 = 14</m></p></li>  
   <li><p><m>13 - 7 = 2</m></p></li>  
   <li><p><m>25 - 12 + 4</m></p></li>   
@@ -453,7 +453,7 @@
 </ol></p></statement>
 <answer><p>(a), (b), and (d) are equations</p></answer></exercise>
 
-<exercise number="28"><statement><p><ol marker="a" cols="2">
+<exercise number="28"><statement><p><ol marker="a." cols="2">
   <li><p><m>9 + 7 + 6</m></p></li>  
   <li><p><m>9 + 7 = 12 + 4</m></p></li>  
   <li><p><m>24 = 7x4</m></p></li>   
@@ -479,7 +479,7 @@
 <exercise number="34"><statement><p><m>5n = 28.2;~~~~~~n=23.2</m></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="35"><statement><p><ol marker="a">
+<exercise number="35"><statement><p><ol marker="a.">
   <li><p>Megan's cat Shadow lost 4.5 pounds. If Shadow used to weigh <m>w</m> pounds, write an expression for her new weight.</p></li>
   <li><p>Shadow weighs <m>n</m> pounds now. Write an equation for <m>n</m> in terms of <m>w</m>.</p></li>
   <li><p>Fill in the table.</p>
@@ -499,7 +499,7 @@
       <cell></cell></row>
     </tabular></p></li>
   </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>w-4.5</m></p></li>
   <li><p><m>n=w-4.5</m></p></li>
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
@@ -519,7 +519,7 @@
     </tabular></p></li>
   </ol></p></answer></exercise>
 
-<exercise number="36"><statement><p><ol marker="a">
+<exercise number="36"><statement><p><ol marker="a.">
   <li><p>Rocio has $20,000 for a down payment on a house. If the house costs <m>p</m> dollars, write an expression for the amount Rocio will need to borrow.</p></li>
   <li><p>Rocio borrowed <m>b</m> dollars to buy the house. Write an equation for <m>b</m> in terms of <m>p</m>.</p></li>
   <li><p>Fill in the table.</p>
@@ -540,7 +540,7 @@
     </tabular></p></li>
   </ol></p></statement></exercise>
 
-  <exercise number="37"><statement><p><ol marker="a">
+  <exercise number="37"><statement><p><ol marker="a.">
   <li><p>In 2023, one British pound was worth $1.20. Write an expression for the value in dollars of <m>p</m> British pounds.</p></li>
   <li><p>Marion received <m>d</m> American dollars in exchange for <m>p</m> British pounds. Write an equation for <m>d</m> in terms of <m>p</m>.</p></li>
   <li><p>Fill in the table.</p>
@@ -560,7 +560,7 @@
       <cell></cell></row>
     </tabular></p></li>
   </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>1.2p</m></p></li>
   <li><p><m>d=1.2p</m></p></li>
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
@@ -580,7 +580,7 @@
     </tabular></p></li>
   </ol></p></answer></exercise>
 
-  <exercise number="38"><statement><p><ol marker="a">
+  <exercise number="38"><statement><p><ol marker="a.">
   <li><p>The gas company charges $0.725 per therm, including taxes. Write an expression for the cost of <m>t</m> therms.</p></li>
   <li><p>Ryan's gas bill was <m>b</m> dollars last month. Write an equation for <m>b</m> in terms of <m>t</m>.</p></li>
   <li><p>Fill in the table.</p>

@@ -21,7 +21,7 @@
 
 But the significance of the difference between two quantities also depends on the size of the quantities themselves.</p>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p>Suppose Boris and Cyril are both world-class weight lifters. Cyril weighs 250 pounds and Boris weighs 270 pounds.  The 20-pound difference between their weights is not that significant.
         <image source="borisandcyril.png" width="90%"></image></p></li>
   <li><p>But what if Boris and Cyril are cats? Cyril weighs 10 pounds, and Boris weighs 30 pounds. So Boris weighs three times as much as Cyril, and is a very fat cat indeed.</p></li>
@@ -33,14 +33,14 @@ We use division to make a <term>multiplicative comparison</term>.  For the weigh
     <me>\blert{\dfrac{\text{Boris' weight}}{\text{Cyril's weight}} = \dfrac{270}{250} = 1.08}</me>
 Boris weighs <m>1.08</m> times as much as Cyril.  (We can also say that Boris weighs 8% more than Cyril.)</p>
 
-<exercise><statement><p>Use multiplicative comparison to compare prices. In which case is the $100 price difference more significant?<ol marker="a">
+<exercise><statement><p>Use multiplicative comparison to compare prices. In which case is the $100 price difference more significant?<ol marker="a.">
   <li>You are shopping for a new sweater and find one that you really like at Chic Boutique for $125. Luckily, you find the same sweater at Sweater Barn for $25.  
     <me>\blert{\dfrac{\text{Price at Chic Boutique}}{\text{Price at Sweater Barn}} =~~~~~~~~~~~~~~~~~}</me></li>                             
   <li>You are shopping for a new car. The model you want costs $25,000, but you can get it in red, your favorite color, for $25,100.                                           
       <me>\blert{\dfrac{\text{Price of new car in red}}{\text{Price of new car}} =~~~~~~~~~~~~~~~~~}</me></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>5</p></li>
   <li><p>1.004</p></li>
 </ol></p>
@@ -66,14 +66,14 @@ Boris weighs <m>1.08</m> times as much as Cyril.  (We can also say that Boris we
             <cell>135 lbs</cell>
             <cell>120 lbs</cell></row>       
         </tabular>
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p>Use additive comparison to compute each person's weight loss in pounds.</p></li>
       <li><p>Use multiplicative comparison to compute each person's weight loss as a percentage of their initial weight.</p></li>
       <li><p>Describe what each type of comparison tells you about Jared's and Carrie's weight loss.</p></li>
       <li><p>Which person do you think did better in the contest? Why?</p></li>
     </ol></p></li>
 <li><p>You are considering two different jobs, each of which will pay you $20,000 in your first year and $21,000 in your second year.</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>Use additive comparison to calculate the change in your salary after one year. If Job A calculates your new salary the same way each year, how much will you make in your third year? Your fourth year? Record your answers in the table below.</p>
         <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" header="yes">
@@ -136,12 +136,12 @@ We have found the following pairs with the ratio 4 to 3:
   <me>\text{8  and  6,} ~~~~    \text{12  and  9,} ~~~~   \text{16  and 12}</me>
 All these ratios are equivalent, but whenever possible we write ratios in simplest or reduced form.</p></assemblage>
 
-<exercise><statement><p>On a Saturday evening a restaurant found that 84 of its customers asked for seating inside, and 35 customers preferred to sit outside on the patio.<ol marker="a">  
+<exercise><statement><p>On a Saturday evening a restaurant found that 84 of its customers asked for seating inside, and 35 customers preferred to sit outside on the patio.<ol marker="a.">  
   <li><p>What was the ratio of inside diners to outside diners?</p></li>
   <li><p>Write the ratio in simplest form.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">  
+<answer><p><ol marker="a.">  
   <li><p>84 to 35, or <m>\dfrac{84}{35}</m></p></li>
   <li><p>12 to 5, or <m>\dfrac{12}{5}</m></p></li>
 </ol></p></answer></exercise>
@@ -167,7 +167,7 @@ we can say that the ratio of nonsmokers to smokers in the previous Exercise is  
 
 <p><ol>
   <li><p>In the 2015-2016 season, Kobe Bryant attempted 281 free throws and made 232 of them. What is the ratio of his successes to his attempts?</p>
-  <sidebyside widths="60% 30%"><p><ol marker="a">
+  <sidebyside widths="60% 30%"><p><ol marker="a.">
     <li><p>Write your answer in the form <m>a:b</m>.</p></li>
 
     <li><p>Write your answer in the form of a common fraction.</p></li>
@@ -210,22 +210,22 @@ we can say that the ratio of nonsmokers to smokers in the previous Exercise is  
 
 <note><p>Is a ratio a fraction?  Sometimes.  We think of fractions as comparing a part to the whole, <m>\dfrac{\text{part}}{\text{whole}}</m>,  but a ratio may also compare one part to another part.</p></note>
 
-<example><statement><p>25% of middle school teachers are male. <ol marker="a">
+<example><statement><p>25% of middle school teachers are male. <ol marker="a.">
   <li><p>What fraction of middle school teachers are male?</p></li>
   <li><p>What is the ratio of female middle school teachers to male middle school teachers?</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>As a fraction, 25% is 0.25, so <m>\dfrac{1}{4}</m> of middle school teachers are male.</p></li>
   <li><p>One out of four middle school teachers are male, so three out of four are female. The ratio of female teachers to male teachers is  3 to 1, or <m>\dfrac{3}{1}</m>.</p></li>
 </ol></p></solution></example>
 
-<exercise><statement><p>40% of high school teachers are male.<ol marker="a">
+<exercise><statement><p>40% of high school teachers are male.<ol marker="a.">
   <li><p>What fraction of high school teachers are male?</p></li>
   <li><p>What is the ratio of female high school teachers to male high school teachers?</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\dfrac{2}{5}</m></p></li>
   <li><p>3 to 2, or <m>\dfrac{3}{2}</m>.</p></li>
 </ol></p></answer></exercise>
@@ -263,12 +263,12 @@ and
 
 <p>You can think of "per" as meaning "for each" or "for every," so that "28 miles per gallon" means that you can travel 28 miles for every gallon of gas in the tank, and "55 cents per pound" means that each pound costs 55 cents.</p>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p>Kayla drove 130 miles in <m>2\frac{1}{2}</m> hours. Compute the ratio of the distance she traveled to the time it took.</p></li>
   <li><p>What is the every-day interpretation of the ratio in part (a)?</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>The ratio of distance to time is
       <me>\dfrac{\text{distance}}{\text{time}} = \dfrac{\text{130 miles}}{\text{2.5 hours}}</me>
     To simplify the ratio, we divide 130 by 2.5 to find
@@ -281,12 +281,12 @@ and
 
 <note><p>Here is one of those tricky places where an English word can mean more than one thing in mathematics. Although a rate describes a ratio of quantities with different units, such as miles/hours, the "unit" in <term>unit rate</term> means 1, so that the rate <m>\dfrac{\text{130 miles}}{\text{2.5 hours}}</m> is simplified to the unit rate <m>\dfrac{52}{\blert{1}} \dfrac{\text{miles}}{\blert{1~}\text{hour}}</m>.</p></note>
 
-<exercise><statement><p>Jamal worked for five hours on Tuesday and earned $132 (before taxes).<ol marker="a">
+<exercise><statement><p>Jamal worked for five hours on Tuesday and earned $132 (before taxes).<ol marker="a.">
   <li><p>What was his pay rate, in dollars per hour?</p></li>
   <li><p>How much did Jamal earn working 8 hours on Wednesday?</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>$26.40 per hour</p></li>
   <li><p>$211.20</p></li>
 </ol></p></answer></exercise>

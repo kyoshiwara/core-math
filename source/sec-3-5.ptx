@@ -37,26 +37,26 @@
 Covering about 300 square miles of land, New York is the most densely populated city in the United States, with just over 105.7 square yards of space for each person.</p></stack>
     <image source="NYCpop.png"></image></sidebyside>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p>In January 2023, the population of the United States was over 334,278,000. How do we read that number?</p></li>
   <li><p>The land area of the United States is 3,806,000 square miles. What is the population density of the United States, in people per square mile?</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>The population of the United States was about three hundred thirty-four million, two hundrd seventy-eight thousand people.</p></li>
   <li><p>We will divide the population by the land area of the United States.
     <me>\dfrac{334,278,000 \text{ people}}{3,806,000 \text{ square miles}} = 87.83  \text{ people per square mile}</me>
     The population density is about 88 people per square mile.</p></li>
 </ol></p></solution></example>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p>Look up the population and land area of your state.</p>
         <p>Population:</p>                                                                            
         <p>Land area:</p></li>
   <li><p>Calculate the population density of your state.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>In 2023, the population of California was 40,223,504. Its land area is 163,696 square miles.</p></li>
   <li><p>About 246 people per square mile.</p></li>
 </ol></p></answer></exercise>
@@ -66,21 +66,21 @@ Covering about 300 square miles of land, New York is the most densely populated 
 
 <p><ol>
   <li><p>Suppose you want to count to one billion, saying one number per second.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p>How many minutes will it take you to count to 1000?</p></li>   
       <li><p>How many minutes will it take you to count to one million? How long is that in days?</p></li>
       <li><p>How many days will it take you to count to one billion? How long is that in years?</p></li>
     </ol></p></li>
 
   <li><p>A stack of 100 one-dollar bills is 0.43 inches or 1.1 centimeters high.</p> 
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p>How high is a stack of 1000 one-dollar bills, in inches?</p></li>  
       <li><p>How high is a stack of one million one-dollar bills, in inches? How high is that in feet?</p></li>
       <li><p>How high is a stack of one billion one-dollar bills, in feet? How high is that in miles?</p></li>
     </ol></p></li>
 
   <li><p>The length of a one-dollar bill is 6.14 inches.</p> 
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p>How long is a string of 1000 one-dollar bills, laid end to end? How far is that in feet?</p></li> 
       <li><p>How long is a string of one million one-dollar bills, in feet?  How far is that in miles?</p></li>
       <li><p>How long is a string of one billion one-dollar bills, in miles?</p></li>  
@@ -154,12 +154,12 @@ Calculations with such large numbers can be difficult. Most calculators have onl
 <activity><title>Powers of Ten</title>
 <p>Compute each product.</p>
 <p><ol>
-  <li><p><ol marker="a" cols="2">
+  <li><p><ol marker="a." cols="2">
     <li><p><m>35 \times 10</m></p></li>
     <li><p><m>35 \times 100</m></p></li>
     <li><p><m>35 \times 1000</m></p></li>
     <li><p><m>35 \times 10,000</m></p></li></ol></p></li>
-  <li><p><ol marker="a" cols="2">
+  <li><p><ol marker="a." cols="2">
     <li><p><m>0.064 \times 100</m></p></li>
     <li><p><m>0.064 \times 10,000</m></p></li>
     <li><p><m>0.064 \times 1,000,000</m></p></li>
@@ -167,7 +167,7 @@ Calculations with such large numbers can be difficult. Most calculators have onl
   <li><p>What do you notice about the products above? Can you state a shortcut for multiplying a number by a power of 10?</p>
       <p>Short-Cut Rule:</p></li>
   <li><p>Try your shortcut on the following products, then check by multiplying.</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
     <li><p><m>275 \times 100</m></p></li>
     <li><p><m>0.08 \times 100,000</m></p></li>
     <li><p><m>13.7 \times 1000</m></p></li>
@@ -193,7 +193,7 @@ Calculations with such large numbers can be difficult. Most calculators have onl
 </ol></p></assemblage> 
 
 <example><statement><p>Compute each product.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Compute <m>~28 \times 10^8</m>.
     <image source="decpt2.png" width="90%"></image>
     The product is two billion, eight hundred million.</p></li>
@@ -205,12 +205,12 @@ Calculations with such large numbers can be difficult. Most calculators have onl
 <note><p>When you write your answer, don't forget to insert commas at the proper locations, before every third digit from the right-hand end. This partitions the number into thousands, millions, billions, and so on, and makes it easier to read.</p></note>
 
 <exercise><statement><p>Compute each product, then write your answer in words.</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p><m>1.23 \times 10^5</m></p></li>
   <li><p><m>1.23 \times 10^2</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>123,000 </m>; one hundred twenty-three thousand</p></li>
   <li><p><m>123 </m>; one hundred twenty-three</p></li>
 </ol></p></answer></exercise>
@@ -226,12 +226,12 @@ and
 We figure out what power of ten to use by counting backwards to the new location of the decimal.</p>
 
 <example><statement><p>Find the correct power of ten.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p><m>358,000 = 35.8 \times 10^{<fillin></fillin>}</m></p></li>
   <li><p><m>19,760,000 = 1.976 \times 10^{<fillin></fillin>}</m></p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>Counting backwards to the new location of the decimal, we see that we must move the decimal point 4 places.</p>
       <image source="decpt4.png" width="60%"></image>
       <p>Therefore, we need an exponent of <m>\alert{4}</m> for 10. Thus,
@@ -243,12 +243,12 @@ We figure out what power of ten to use by counting backwards to the new location
 </ol></p></solution></example>
 
 <exercise><statement><p>Find the correct power of 10.</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
   <li><p><m>1200 = 1.2 \times 10^{<fillin></fillin>}</m></p></li>
   <li><p><m>12,000,000 = 1.2 \times 10^{<fillin></fillin>}</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>3</m></p></li>
   <li><p><m>7</m></p></li>
 </ol></p></answer></exercise>
@@ -282,12 +282,12 @@ Now it is easy to see that the second number is larger.</p>
 <p>Regular numbers are said to be in <term>standard notation</term>.</p>
 
 <example><statement><p>Write in scientific notation.</p>
-  <p><ol marker="a" cols="2">
+  <p><ol marker="a." cols="2">
     <li><p>245.3</p></li>
     <li><p>38,200,000,000</p></li>
   </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The decimal goes after the 2.
       <me>245.3 = 2.453 \times 10^2 ~~~~~~~~ \blert{\text{Move the decimal 2 places.}}</me></p></li>         
   <li><p>The decimal goes after the 3.
@@ -295,12 +295,12 @@ Now it is easy to see that the second number is larger.</p>
 </ol></p></solution></example>
 
 <exercise><statement><p>Write in scientific notation.</p>
-  <p><ol marker="a" cols="2">
+  <p><ol marker="a." cols="2">
     <li><p>98,700,000,000</p></li>
     <li><p>98.7</p></li>
   </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><p><m>9.87 \times 10^{10}</m></p></li>
     <li><p><m>9.87 \times 10^1</m></p></li>
   </ol></p></answer></exercise>

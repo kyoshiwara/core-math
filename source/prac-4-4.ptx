@@ -84,14 +84,14 @@
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 27-30,</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Use the thermometers to find the new temperature.</p></li>
   <li><p>Express the change in temperature with a signed number.</p></li>
 </ol></p></introduction>
 
 <exercise number="27"><statement><p>The temperature was <m>-9 \degree</m> this morning and rose <m>12 \degree</m> by noon. What was the temperature at noon?</p>
     <image source="thermom.png" width="40%"></image></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><image source="ans-4-4-27.png" width="40%"></image></p></li>
   <li><p>3</p></li>
 </ol></p></answer></exercise>
@@ -101,7 +101,7 @@
 
 <exercise number="29"><statement><p>The temperature was <m>7 \degree</m> at noon and fell <m>15 \degree</m> in the next four  hours. What was the temperature at 4 pm?</p>
     <image source="thermom.png" width="40%"></image></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><image source="ans-4-4-29.png" width="40%"></image></p></li>
   <li><m>-8</m></li>
 </ol></p></answer></exercise>
@@ -112,12 +112,12 @@
 
 <exercise number="31"><statement><p>The bar graph below shows normal low temperatures each month in Milwaukee, Wisconsin.</p>
     <image source="milwaukee.png" width="70%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>What is normally the low temperature in March?</p></li>   
   <li><p>Which months have the coldest and warmest low temperatures, and what are those temperatures?</p></li>   
   <li><p>How much colder is the low temperature in February than it is in June?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><m>-3 \degree</m></li>   
   <li><p>January, <m>-11 \degree</m>; July, <m>17\degree</m></p></li>   
   <li><m>22 \degree</m>></li>
@@ -125,7 +125,7 @@
 
 <exercise number="32"><statement><p>The bar graph below shows the overnight low temperatures in four towns.</p>
     <image source="fourtowns.png" width="70%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>What was the overnight low in Derby?</p></li> 
   <li><p>Which town had the coldest temperature, and what was that temperature?</p></li>  
   <li><p>How much colder was it in Appleton than in Cottonwood?</p></li>
@@ -248,7 +248,7 @@
 
 <exercise number="55"><statement><p>The bar graph shows the number of miles of railroad in several countries in 1900 and in 2000.</p> 
     <image source="railroads.png" width="80%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Fill in the first two columns of the table for the number of miles of railroad. (Notice that the bar graph is given in thousands of miles.)</p></li>
   <li><p>Use signed numbers to show the change in miles of railroad for each country over the last century.</p>
 
@@ -290,7 +290,7 @@
 </ol></p>
             <image source="traintracks.png" width="65%"></image>
 </statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">                        
         <row header="yes">
             <cell>Country</cell>
@@ -329,7 +329,7 @@
 
 <exercise number="56"><statement><p>The bar graph shows the average airfare to various destinations from each city in 1998 and in 1999.</p>
     <image source="airfare.png" width="75%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Fill in the first two columns of the table.</p></li>
   <li><p>Use signed numbers to show the change in average airfare for each city from 1998 to 1999.</p>
 

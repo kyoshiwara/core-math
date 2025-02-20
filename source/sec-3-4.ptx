@@ -153,7 +153,7 @@ Use your calculator to find that  is approximately 150.15 yards. Because the rad
 <p><ol>
   <li><p>We can estimate the area of a circle by counting the number of squares that fit inside.</p>
     <image source="circlearea1.png"></image>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>On the circle on the left, put a dot in each square that is completely within the circle.  Count the number of squares with dots.</p> 
       <p>The area of the circle is larger than  <fillin></fillin> square units.</p></li>
     <li><p>The circle on the right is enclosed in a square. What is the area of that square?</p> 
@@ -162,7 +162,7 @@ Use your calculator to find that  is approximately 150.15 yards. Because the rad
   
   <li><p>If we make the squares smaller, we can get a better estimate for the area of the circle. Repeat parts (a) and (b) from Step 1.</p>
       <image source="circlearea2.png"></image>
-    <p><ol marker="a">
+    <p><ol marker="a.">
     <li><p>On the circle on the left, put a dot in each square that is completely within the circle.  Count the number of squares with dots.</p> 
       <p>The area of the circle is larger than  <fillin></fillin> square units.</p></li>
     <li><p>The circle on the right is enclosed in a square. What is the area of that square?</p> 
@@ -191,7 +191,7 @@ Use your calculator to find that  is approximately 150.15 yards. Because the rad
 <li><p>Here is a circle divided into 8 wedges. The radius of this circle is <m>R</m>.  Trace the circle onto a sheet of paper, then cut out all the wedges.</p>
      <image source="circlewedges.png" width="40%"></image></li>
 <li><p>
-  <ol marker="a">
+  <ol marker="a.">
     <li><p>Arrange the wedges as shown in the lefthand picture below. Does it look sort of like a rectangle? (Or maybe a parallelogram?)</p>
       <image source="wedges.png" width="80%"></image></li>
 
@@ -202,7 +202,7 @@ Use your calculator to find that  is approximately 150.15 yards. Because the rad
 <li><p>Does rearranging the pieces of the circle change its area?</p>
 
   <p>So if we can find the area of the almost-rectangle, it will also be the area of the circle. Your answers to (a) and (b) below will involve the radius of the circle.</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>What is the (vertical) width of the rectangle? Hint:  Where was that line segment in the circle?</p>    
         <p>Width = </p></li>                       
     <li><p>What is the (horizontal) length of the rectangle? Hint:  Look at the first picture in Step 3.</p>
@@ -306,7 +306,7 @@ The area of the skating rink is approximately 1963.50 square feet.</p></solution
   <li><p>Find the dimensions and area of each patch.</p></li>
 
   <li><p>Each patch includes a quarter of a circle, and the radius of that quarter-circle is four-fifths of the side of the patch.</p>  
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p>Find the radius and area of one quarter-circle.</p></li>
       <li><p>Find the area of one blue piece.</p></li>
     </ol></p></li>
@@ -332,7 +332,7 @@ The area of the skating rink is approximately 1963.50 square feet.</p></solution
 <assemblage><title>Challenge Problem</title>
 <sidebyside widths="50% 25%" valigns="middle middle"><p>The radius of the earth is approximately 3963 miles. Suppose you have a string stretched tight around the equator of the earth.</p>
     <image source="earth.png"></image></sidebyside>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>How long is the string?</p></li>
     <li><p>Now suppose you add 10 feet to the length of the string. How long is it now (in feet)?</p></li>
     <li><p>Stretch out your new string so that it forms a circle a little bit bigger than the equator. What is the radius of the new circle?</p></li>

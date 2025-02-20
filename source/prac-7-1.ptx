@@ -52,30 +52,30 @@
 <exercisegroup><introduction><p>For Problems 15-16, without calculating, say whether the sum will be positive or negative.
 </p></introduction>
 
-<exercise number="15"><statement><p><ol marker="a" cols="3">
+<exercise number="15"><statement><p><ol marker="a." cols="3">
   <li><m>(+8)+(-6)</m></li>
   <li><m>(-8)+(-6)</m></li>
   <li><m>(-8)+(+6)</m></li>
 </ol></p></statement>
-  <answer><p><ol marker="a" cols="3">
+  <answer><p><ol marker="a." cols="3">
   <li><p>positive</p></li>
   <li><p>negative</p></li>
   <li><p>negative</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="16"><statement><p><ol marker="a" cols="3">
+<exercise number="16"><statement><p><ol marker="a." cols="3">
   <li><m>(-20)+(+30)</m></li>
   <li><m>(-20)+(-30)</m></li>
   <li><m>(+20)+(-30)</m></li>
 </ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="17"><statement><p>For each sum in Problem 15, describe how you would illustrate the calculation with colored counters:<ol marker="a">
+<exercise number="17"><statement><p>For each sum in Problem 15, describe how you would illustrate the calculation with colored counters:<ol marker="a.">
   <li><p>How many counters of each color would you put on the table?</p></li>
   <li><p>How many counters of each color would you remove?</p></li>
   <li><p>How many counters of each color would be left?</p></li>
 </ol></p></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
   <li><p>8 yellow, 6 red; 6; 2 yellow</p></li>
   <li><p>8 red, 6 red; 0; 14 red</p></li>
   <li><p>8 red, 6 yellow; 6; 2 red</p></li>
@@ -83,7 +83,7 @@
 
 <exercise number="18"><statement><p>Repeat Problem 17 for the sums in Problem 16.</p></statement></exercise>
 
-<exercisegroup  cols="2"><introduction><p>For Problems 19-28,<ol marker="a" >
+<exercisegroup  cols="2"><introduction><p>For Problems 19-28,<ol marker="a." >
   <li><p>Rewrite each sum with as few parentheses as possible.</p></li>
   <li><p>Use the Rules for Addition to compute the sums.</p></li>
 </ol></p></introduction>
@@ -178,18 +178,18 @@
 <exercise number="51"><statement><p>Use an example about money to explain why the sum of two opposites is always zero.</p></statement>
 <answer><p>If your debts and assets are equal, your net worth is $0.</p></answer></exercise>
 
-<exercise number="52"><statement><p><ol marker="a">
+<exercise number="52"><statement><p><ol marker="a.">
   <li><p>What number can you add to <m>18</m> to produce a sum of 0?</p></li>
   <li><p>What number can you add to <m>-12</m> to produce a sum of 0?</p></li>
 </ol></p></statement></exercise>
 
-<exercisegroup><introduction><p>For Problems 53-58,<ol marker="a" >
+<exercisegroup><introduction><p>For Problems 53-58,<ol marker="a." >
   <li><p>Write a sum of signed numbers to describe the problem.</p></li>
   <li><p>Compute the sum and answer the question in the problem.</p></li>
 </ol></p></introduction>
 
 <exercise number="53"><statement><p>Yariv lost 27 pounds on his diet, but then gained back 6 pounds over the holidays.  What is the net change in Yariv's weight?</p></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
     <li><m>-27+6</m></li>
     <li><p>The net change is <m>-21</m> pounds.</p></li>
   </ol></p></answer></exercise>
@@ -197,7 +197,7 @@
 <exercise number="54"><statement><p>The Spartans gained 16 yards on their first down, but then lost 7 yards on their next play. What was their net change in position?</p></statement></exercise>
 
 <exercise number="55"><statement><p>The Mountaineering Club hiked up 1200 feet to the top of a ridge, and then descended into a valley 1400 feet below the summit of the ridge. What was their net change in elevation?</p></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
     <li><m>1200 + (-1400)</m></li>
     <li><p>The net change is <m>-200</m> feet.</p></li>
   </ol></p></answer></exercise>
@@ -205,7 +205,7 @@
 <exercise number="56"><statement><p>Bruno is trying to bake potatoes. He increased the oven's temperature by 125° when he grew impatient, but then decreased the temperature by 75° when the skins started to burn. What was the net change in the oven temperature?</p></statement></exercise>
 
 <exercise number="57"><statement><p>he captain of Flight 386 descended 5000 feet to avoid turbulence in the upper atmosphere, and then descended another 1800 feet on the approach to a small airport. What was the plane's net change in altitude?</p></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
     <li><m>-5000 + -1800</m></li>
     <li><p>The net change is <m>-6800</m> feet.</p></li>
   </ol></p></answer></exercise>
@@ -215,24 +215,24 @@
 
 <exercise number="59"><statement><p>The bar graph shows the quarterly profits earned by Orinoco.com in one year. (A negative "profit" is a loss.)</p>
   <image source="hp-7-1-59.png" width="70%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>What are the profits for the four quarters shown?</p></li>
     <li><p>What was Orinoco.com's total annual profit for that year?</p></li>
 </ol></p></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
     <li><p>$1.3 million, -$0.8 million, -$0.2 million, $2.1 million</p></li>
     <li><p>$2.4 million</p></li>
   </ol></p></answer></exercise>
 
 <exercise number="60"><statement><p>The bar graph shows how much Kayla won in each of the six games of poker she played.</p>  <image source="hp-7-1-60.png" width="70%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Write Kayla's poker record as a sum of signed numbers.</p></li>
     <li><p>What was the financial outcome of Kayla's poker session? </p></li>
 </ol></p></statement></exercise>
 
 <exercise number="61"><statement><p>The bar graph shows the water level in the reservoir, relative to its normal depth of 34 feet.  For example, in January, when the level was 3 feet above normal, the water depth was <m>34 + 3 = 37</m> feet.</p>
     <image source="hp-7-1-61a.png" width="70%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Using values from the bar graph, fill in the table.</p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >
@@ -281,7 +281,7 @@
     <li><p>Use the grid below to make a bar graph showing the actual depth of the water in the reservoir.</p>
         <image source="hp-7-1-61b.png" width="75%"></image></li>
 </ol></p></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
     <li><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >
             <cell><m>\hphantom{00}</m></cell>
@@ -330,7 +330,7 @@
   </ol></p></answer></exercise>
 
 <exercise number="62"><statement><p>The bar graph shows the annual rainfall in Los Angeles, relative to the average value of 15 inches over the previous century.  For example, in 1987 rainfall was 6 inches below normal, or <m>15-6=9</m> inches.</p> <image source="hp-7-1-62a.png" width="70%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>Using values from the bar graph, fill in the table.</p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >

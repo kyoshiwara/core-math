@@ -30,7 +30,7 @@ because we can multiply two numbers in either order and get the same answer.</p>
 <assemblage><title>Opposite Signs</title>
   <p>The product of two numbers with opposite signs is negative.</p></assemblage>
 
-<example><statement><p><ol marker="a" cols="2">
+<example><statement><p><ol marker="a." cols="2">
   <li><p><m>(-3)(6) = -18</m></p></li>
   <li><p><m>8(-4) = -32</m></p></li>
   <li><p><m>9(-0.3) = -2.7</m></p></li>
@@ -38,12 +38,12 @@ because we can multiply two numbers in either order and get the same answer.</p>
 </ol></p></statement></example>
 
 <exercise><statement><p>Multiply.</p>
-  <p><ol marker="a" cols="2">
+  <p><ol marker="a." cols="2">
   <li><p><m>5(-4)</m></p></li>
   <li><p><m>(-7)(2)</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>-20</m></p></li>
   <li><p><m>-14</m></p></li>
 </ol></p></answer></exercise>
@@ -59,18 +59,18 @@ because we can multiply two numbers in either order and get the same answer.</p>
 <p>Now imagine that three debts of $500 are erased from your balance sheet. This is equivalent to increasing your net worth by $1500. We express this mathematically as
     <me>-3(-500) = 1500</me></p></note>
 
-<example><statement><p><ol marker="a" cols="2">
+<example><statement><p><ol marker="a." cols="2">
   <li><p><m>(-4)(-5) = 20</m></p></li>
   <li><p><m>-1.5(-8) = 12</m></p></li>
 </ol></p></statement></example>
 
 <exercise><statement><p>Multiply.</p>
-  <p><ol marker="a" cols="2">
+  <p><ol marker="a." cols="2">
   <li><p><m>(-9)(-7)</m></p></li>
   <li><p><m>(-6)(-0.4)</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>63</m></p></li>
   <li><p><m>2.4</m></p></li>
 </ol></p></answer></exercise>
@@ -101,7 +101,7 @@ We'll use this idea to investigate division of signed numbers.</p>
 
 <activity><title>Quotients</title>
 
-<p>Each division problem below is rewritten as a multiplication problem.<ol marker="i">
+<p>Each division problem below is rewritten as a multiplication problem.<ol marker="i.">
     <li><p><m>\dfrac{-20}{5} = <fillin></fillin>~~</m> because  <m>~~5 \cdot <fillin></fillin> = -20</m></p></li>
     <li><p><m>\dfrac{-14}{-2} = <fillin></fillin>~~</m> because  <m>~~-2 \cdot <fillin></fillin> = -14</m></p></li>
 </ol></p>
@@ -127,7 +127,7 @@ We'll use this idea to investigate division of signed numbers.</p>
 
     <assemblage><p>The quotient of two negative numbers is  <fillin></fillin>.</p></assemblage></li>
 
-  <li><p>Compute the quotients. <ol marker="a" cols="2">
+  <li><p>Compute the quotients. <ol marker="a." cols="2">
       <li><p><m>\dfrac{27}{-3}</m></p></li>
       <li><p><m>\dfrac{-28}{-7}</m></p></li>
       <li><p><m>-56 \div (-7)</m></p></li>
@@ -165,7 +165,7 @@ We'll use this idea to investigate division of signed numbers.</p>
 
       <assemblage><p>The quotient of any number divided by zero is  <fillin></fillin> .</p></assemblage></li>
 
-    <li><p>Compute the quotients. <ol marker="a" cols="2">
+    <li><p>Compute the quotients. <ol marker="a." cols="2">
         <li><m>\dfrac{0}{-5}</m></li>
         <li><m>\dfrac{-18}{0}</m></li>
         <li><m>\dfrac{-83}{0}</m></li>
@@ -201,14 +201,14 @@ If the negative number is not enclosed in parentheses, then the exponent applies
 
 <p>Look carefully at how the placement of parentheses changes the meaning of the expressions in the next Example.</p> 
 
-<example><statement><p>Compute each power.<ol marker="a" cols="2">
+<example><statement><p>Compute each power.<ol marker="a." cols="2">
   <li><m>-4^2</m></li>
   <li><m>(-4)^2</m></li>
   <li><m>-(4)^2</m></li>
   <li><m>(-4^2)</m></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>Only 4 is squared:    
       <me>-4^2 = -4 \cdot 4 = -16</me></p></li>
   <li><p>The negative number is squared:    
@@ -220,13 +220,13 @@ If the negative number is not enclosed in parentheses, then the exponent applies
 </ol></p></solution></example>
 
 <exercise><statement><p>Write each power as a repeated product, then compute.</p>
-  <p><ol marker="a" cols="3">
+  <p><ol marker="a." cols="3">
     <li><m>(-2)^4</m></li>
     <li><m>-2^4</m></li>
     <li><m>(-2)^3</m></li>
   </ol></p></statement>
 
-<answer><p><ol marker="a" cols="3">
+<answer><p><ol marker="a." cols="3">
     <li><m>16</m></li>
     <li><m>-16</m></li>
     <li><m>-8</m></li>

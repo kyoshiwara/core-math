@@ -3,7 +3,7 @@
 <exercises xml:id="prac-1-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Practice 1.3</title>
 
-<exercisegroup cols="4"><introduction><p>For Problems 1-4, <ol marker="a">
+<exercisegroup cols="4"><introduction><p>For Problems 1-4, <ol marker="a.">
   <li><p>Find all factor pairs for the number given. Use a table like this one to record your results:</p>
 
     <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">                   
@@ -28,7 +28,7 @@
   <li><p>What was the largest "First number" you had to check to make sure you found all the factor pairs?</p></li></ol></p></introduction>
 
 <exercise number="1"><statement><p>36</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>1 and 36, 2 and 18, 3 and 12, 4 and 9, 6 and 6</p></li>
   <li><p>6</p></li>
 </ol></p></answer></exercise>
@@ -36,7 +36,7 @@
 <exercise number="2"><statement><p>45</p></statement></exercise>
 
 <exercise number="3"><statement><p>56</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>1 and 56, 2 and 28, 4 and 14, 7 and 8</p></li>
   <li><p>7</p></li>
 </ol></p></answer></exercise>
@@ -46,11 +46,11 @@
 
 <exercisegroup><introduction><p>For Problems 5 and 6, follow the instructions in <xref ref="activityrectangles"/>. Some of your rectangles may not fit on the grid.</p></introduction>
 
-<exercise number="5"><statement><p><ol marker="a">
+<exercise number="5"><statement><p><ol marker="a.">
   <li><p>Make a table showing the length and height of all rectangles you can make with 30 tiles.</p></li>
   <li><p>Sketch your rectangles on the grid below, starting each rectangle in the lower left corner.</p></li></ol></p>
       <p><image source="graphpaper.png" width="60%"></image></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">                        
         <row bottom="minor">
             <cell>1</cell>
@@ -66,7 +66,7 @@
 <li><p><image source="ans-1-3-5b.png" width="40%"></image></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="6"><statement><p><ol marker="a">
+<exercise number="6"><statement><p><ol marker="a.">
   <li><p>Make a table showing the length and height of all rectangles you can make with 30 tiles.</p></li>
   <li><p>Sketch your rectangles on the grid below, starting each rectangle in the lower left corner.</p></li></ol></p>
       <p><image source="graphpaper.png" width="60%"></image></p></statement></exercise>
@@ -142,7 +142,7 @@
 <exercise number="30"><statement><p>A number cannot be a prime if it ends in 5 or 0. Why is that?</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 31-38,<ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 31-38,<ol marker="a.">
   <li><p>Make a factor tree for the composite number.</p></li>
   <li><p>Write the prime factorization for the number.</p></li></ol></p></introduction>
 
@@ -200,12 +200,12 @@
 <exercise number="50"><statement><p>150, 400</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 51-54,<ol marker="a">
+<exercisegroup cols="2"><introduction><p>For Problems 51-54,<ol marker="a.">
   <li><p>List all factors of the first number.</p></li>
   <li><p>Find the greatest common factor.</p></li></ol></p></introduction>
 
 <exercise number="51"><statement><p>34,  765</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>1, 2, 17</p></li>
   <li><p>17</p></li>
 </ol></p></answer></exercise>
@@ -213,7 +213,7 @@
 <exercise number="52"><statement><p>29,  1392</p></statement></exercise>
 
 <exercise number="53"><statement><p>43,  173</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>1, 43</p></li>
   <li><p>1</p></li>
 </ol></p></answer></exercise>
@@ -244,29 +244,29 @@
 <exercise number="62"><statement><p>60,  72</p></statement></exercise>
 </exercisegroup>
 
-<exercise number="63"><statement><p><ol marker="a">
+<exercise number="63"><statement><p><ol marker="a.">
   <li><p>Give an example where the LCM of two numbers is their product.</p></li>
   <li><p>Give an example where the LCM of two numbers is not their product.</p></li>
   <li><p>Give an example where the LCM of two numbers is the larger of the numbers.</p></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>2, 3, 6</p></li>
   <li><p>4, 6, 12</p></li>
   <li><p>2, 4, 4</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="64"><statement><p><ol marker="a">
+<exercise number="64"><statement><p><ol marker="a.">
   <li><p>Write the prime factorization of 30.</p></li>
   <li><p>Write the prime factorization of 42.</p></li>
   <li><p>Find the GCF of 30 and 42. Circle the factors that you used from parts (a) and (b) to build the GCF.</p></li>
   <li><p>Find the LCM of 30 and 42. Circle the factors that you used from parts (a) and (b) to build the LCM.</p></li>
   <li><p>What do you notice about the factors you circled in parts (c) and (d)?</p></li></ol></p></statement></exercise>
 
-<exercisegroup><introduction><p>For Problems 65-70,<ol marker="a">
+<exercisegroup><introduction><p>For Problems 65-70,<ol marker="a.">
   <li><p>Answer the question in the problem.</p></li>
   <li><p>Did you need to find a GCF or an LCM?</p></li></ol></p></introduction>
 
 <exercise number="65"><statement><p>Marlene is ordering supplies for her art class. Each student should get the same set of materials.  She will need 138 sheets of construction paper and 115 crayons. How many students are in her class?</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>23</p></li>
   <li><p>GCF</p></li>
 </ol></p></answer></exercise>
@@ -274,7 +274,7 @@
 <exercise number="66"><statement><p>Avril is planning the meals for a conference. She will need 212 sandwiches and 318 cookies so that each guest gets the same amount of food. How many people will attend the conference?</p></statement></exercise>
 
 <exercise number="67"><statement><p>Saturn takes about 30 Earth years to make one revolution around the Sun, and Jupiter takes about 12 Earth years to make one revolution. If Earth, Jupiter, and Saturn are in a straight line right now, how long will it be before they are aligned again?</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>60</p></li>
   <li><p>LCM</p></li>
 </ol></p></answer></exercise>
@@ -282,7 +282,7 @@
 <exercise number="68"><statement><p>Yusuf runs one lap around the track in 72 seconds, and Kwan runs one lap in 64 seconds. If they start at the same time, how long will it be before they are at the starting line at the same time again? How many laps will each boy have run?</p></statement></exercise>
 
 <exercise number="69"><statement><p>Daffodil bulbs come in packages of 40, and tulip bulbs come in packages of 25. How many packages of each should you buy so that you will have the same number of tulips and daffodils?</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>5 of daffodils, 8 of tulips</p></li>
   <li><p>LCM</p></li>
 </ol></p></answer></exercise>

@@ -80,12 +80,12 @@
 <exercise number="28"><statement><p>The sum of your business expenses and 29% of your medical expenses</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 29-32,<ol marker="a">
+<exercisegroup><introduction><p>For Problems 29-32,<ol marker="a.">
   <li><p>Complete the table of values.</p></li>
   <li><p>Use the table to solve the equation.</p></li>
 </ol></p></introduction>
 
-<exercise number="29"><statement><p><ol marker = "a">
+<exercise number="29"><statement><p><ol marker = "a.">
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>x</m></cell>
@@ -107,7 +107,7 @@
   <li><m>3x-6 = 12</m></li>
 </ol></p></statement>
 
-<answer><p><ol marker = "a">
+<answer><p><ol marker = "a.">
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>x</m></cell>
@@ -129,7 +129,7 @@
   <li><p>6</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="30"><statement><p><ol marker = "a">
+<exercise number="30"><statement><p><ol marker = "a.">
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>x</m></cell>
@@ -151,7 +151,7 @@
   <li><m>3(x-6) = 12</m></li>
 </ol></p></statement></exercise>
 
-<exercise number="31"><statement><p><ol marker = "a">
+<exercise number="31"><statement><p><ol marker = "a.">
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>x</m></cell>
@@ -175,7 +175,7 @@
   <li><m>\dfrac{4+2x}{3} = 12</m></li>
 </ol></p></statement>
 
-<answer><p><ol marker = "a">
+<answer><p><ol marker = "a.">
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>x</m></cell>
@@ -199,7 +199,7 @@
   <li><p>16</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="32"><statement><p><ol marker = "a">
+<exercise number="32"><statement><p><ol marker = "a.">
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>x</m></cell>
@@ -286,77 +286,77 @@
       <image source="hp-5-4-48.png"></image></sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems 49-56,<ol marker="a">
+<exercisegroup><introduction><p>For Problems 49-56,<ol marker="a.">
   <li><p>Write an expression.</p></li>  
   <li><p>Solve an equation.</p></li>
 </ol></p></introduction>
 
-<exercise number="49"><statement><p><ol marker="a">
+<exercise number="49"><statement><p><ol marker="a.">
   <li><p>At 8 am the temperature was 72°, and it has been rising by 6° every hour.  At this rate, what will the temperature be after <m>h</m> hours?</p></li>
   <li><p>When was the temperature 96?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><m>72+6h</m></li>  
   <li><p>In 4 hours</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="50"><statement><p><ol marker="a">
+<exercise number="50"><statement><p><ol marker="a.">
   <li><p>Avram has typed 480 words of his term paper, and is still typing at a rate of 30 words per minute.  How many words will Avram have typed after <m>m</m> minutes?</p></li>
   <li><p>When will Avram have typed 1230 words?</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="51"><statement><p><ol marker="a">
+<exercise number="51"><statement><p><ol marker="a.">
   <li><p>For her mother's retirement party, Daniella spent $50 on a gift plus her share of the cost of the party. If the party costs <m>P</m> dollars and 12 people are contributing (including Daniella), how much did Daniella spend?</p></li>
   <li><p>If Daniella spent $68, how much did the party cost?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><m>50+\dfrac{P}{12}</m></li>  
   <li><p>$216</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="52"><statement><p><ol marker="a">
+<exercise number="52"><statement><p><ol marker="a.">
   <li><p>Delbert shares a house with four roommates. He pays $200 rent per month, plus an equal share of the utilities.  If the utilities cost <m>U</m>  dollars this month, how much does Delbert owe?</p></li>
   <li><p>Delbert paid $263 last month.  What was the utility bill for the house?</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="53"><statement><p><ol marker="a">
+<exercise number="53"><statement><p><ol marker="a.">
   <li><p>Brian reserved $60 from the office sunshine fund for a party, and used the rest to buy new desk sets for the 15 people in the office. If the sunshine fund originally had <m>S</m> dollars, how much can Brian spend on each desk set?</p></li>
   <li><p>If each desk set cost $23, how much was originally in the sunshine fund?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><m>\dfrac{S-60}{15}</m></li>  
   <li><p>$405</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="54"><statement><p><ol marker="a">
+<exercise number="54"><statement><p><ol marker="a.">
   <li><p>Vincent's school provided him with <m>C</m> colored pencils to distribute to the students in his class, and he bought 8 more pencils so that each student would get the same number. If there are 23 students in Vincent's class, how many pencils does each get?</p></li>
   <li><p>If each students got 4 colored pencils, how many pencils did the school provide?</p></li>
 </ol></p>
       <image source="hp-5-4-54.png" width="50%"></image></statement></exercise>  
 
-<exercise number="55"><statement><p><ol marker="a">
+<exercise number="55"><statement><p><ol marker="a.">
   <li><p>Raylyn's auto registration fee is $20 plus 2% of the value of her car. If Raylyn's car is worth <m>B</m> dollars, how much will her registration fee be?</p></li>
   <li><p>If Raylyn paid $340 for registration, how much is her car worth?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><m>20+0.02B</m></li>  
   <li><p>$16,000</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="56"><statement><p><ol marker="a">
+<exercise number="56"><statement><p><ol marker="a.">
   <li><p>Maryam has to carry a dummy weighing 50 pounds plus 60% of her own weight for 20 yards as part of the test to become a lifeguard. If Maryam weighs <m>W</m> pounds, how much must she carry?</p></li>
   <li><p>If Maryam must carry 134 pounds, how much does she weigh?</p></li>
 </ol></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>For Problems, 57-64,<ol marker="a">
+<exercisegroup><introduction><p>For Problems, 57-64,<ol marker="a.">
   <li><p>identify the unknown quantity and choose a variable to represent it,</p></li>
   <li><p>use the hint to help you write an equation,</p></li>
   <li><p>solve the equation, then write your answer in a sentence.</p></li>
 </ol></p></introduction>
 
 <exercise number="57"><statement><p>Irwin bought some DVDs through the mail at a cost of $7 each. He also paid $2 for shipping and handling. If the total cost of Irwin's order was  $30, how many DVDs did he buy? Hint:  Write an expression in terms of your variable for the total cost of Irwin's order.</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>number of DVD's: <m>n</m></p></li>
   <li><m>7n+2=30</m></li>
   <li><p>He bought 4 DVD's.</p></li>
@@ -366,7 +366,7 @@
 
 <exercise number="59"><statement><sidebyside widths = "50% 35%"><p>Fran wants to buy an $86 espresso maker. She already has $30. If she earns $8 per hour as a cashier, how many hours must she work to earn the money she needs?  Hint:  Write an expression in terms of your variable for the amount of money Fran has saved.</p>
     <image source="espresso.png"></image></sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>hours to work: <m>h</m></p></li>
   <li><m>30 + 8h = 86</m></li>
   <li><p>She must work for 7 hours.</p></li>
@@ -376,7 +376,7 @@
 
 <exercise number="61"><statement><sidebyside widths = "50% 35%"><p>A pair of birding binoculars costs $269. That is $9 more than 4 times the cost of a camera tripod. How much does the tripod cost?  Hint: Write an expression in terms of your variable for the cost of the binoculars.</p>
       <image source="binoculars.png"></image></sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>cost of tripod: <m>c</m></p></li>
   <li><m>4c+9 = 269</m></li>
   <li><p>The tripod costs $65.</p></li>
@@ -386,7 +386,7 @@
 
 <exercise number="63"><statement><p>This year Georgia paid $2840 in state taxes. That was $600 plus 7% of her adjusted income. What was Georgia's adjusted income this year?  Hint: Write an expression in terms of your variable for Georgia's taxes.</p>
         <image source="taxes.png" width = "40%"></image></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
   <li><p>adjusted income: <m>I</m></p></li>
   <li><m>600 + 0.07I = 2840</m></li>
   <li><p>Her adjusted income was $32,000.</p></li>

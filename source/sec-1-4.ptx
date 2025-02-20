@@ -89,12 +89,12 @@
 
   <exercise><statement><p>Acute, right, or obtuse? Choose the best answer for each angle in the photograph.
           <image source="ballet.png" width="45%"></image></p>
-      <p><ol marker="a">
+      <p><ol marker="a.">
           <li><p>The ballerina's arms form a(n) <fillin characters="10"/> angle.</p></li>
           <li><p>The ballerina's legs form a(n) <fillin characters="10"/> angle.</p></li>
           <li><p>The male dancer's legs form a(n)<fillin characters="10"/> angle.</p></li></ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
           <li><p>obtuse</p></li>
           <li><p>right</p></li>
           <li><p>acute</p></li>
@@ -249,7 +249,7 @@
       <me>\angle~B = 90\degree - \angle~A = 90\degree - 25\degree = 65\degree</me>
   The measure of <m>\angle~B</m> is 65<m>\degree</m>, or <m>\angle~B = 65\degree</m>.</p></solution></example>
 
-<exercise><statement><p>Find the measure of the unknown angle. Parts (a) and (b) show right angles.<ol marker="a" cols="2">
+<exercise><statement><p>Find the measure of the unknown angle. Parts (a) and (b) show right angles.<ol marker="a." cols="2">
   <li><!--<image source="findangle-a.png" width="60%"></image>-->
       <image xml:id="findangle-a" width="50%"><description>Complementary angles</description><latex-image>
       <![CDATA[
@@ -302,7 +302,7 @@
     </latex-image></image>
     <p><m>\angle~B = 27\degree, ~~ \angle~A =~?, ~~ \angle~C =~?</m></p></li></ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>52 \degree</m></p></li>
   <li><p><m>35 \degree</m></p></li>
   <li><p><m>95 \degree</m></p></li>
@@ -343,7 +343,7 @@
         \end{tikzpicture}]]>
     </latex-image></image>
 
-  <assemblage><title>Using a protractor to measure an angle</title><p><ol marker="1">
+  <assemblage><title>Using a protractor to measure an angle</title><p><ol marker="1.">
     <li><p>Place the center dot of the protractor at the vertex of the angle.</p></li>
     <li><p>Line up the bottom line of the protractor along one of the sides of the angle.</p></li>  
     <li><p>Read the number where the other side of the angle meets the scale on the circular edge of the protractor.</p></li>
@@ -444,7 +444,7 @@
 <answer><p><m>135 \degree</m></p></answer></exercise>
 
 <activity><title>Measuring Angles</title>
-  <p><ol marker="1">
+  <p><ol marker="1.">
 
   <li><p>Use your straightedge to draw an acute angle. Use your protractor to find the degree measure of your angle.</p></li>
 
@@ -475,7 +475,7 @@
       </latex-image></image>  
     </li>
 
-  <li><p><ol marker="a">    
+  <li><p><ol marker="a.">    
       <li><p>On another sheet of paper, use your straightedge to draw a triangle of any shape you like. Label the angles of your triangle A, B, and C.</p></li>  
       <li><p>Now cut or tear off the three angles and place the vertex of angle A on the dot below.</p></li>  
       <li><p>Next place the vertex of angle B at the dot so that one of its sides touches one of the sides of angle A. Repeat with angle C.
@@ -496,7 +496,7 @@
   <li><p>In an <term>acute triangle</term>, all three angles are acute.</p></li>
   <li><p>In an <term>obtuse triangle</term>, one of the angles is obtuse.</p></li></ul></p></assemblage>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p>Some right triangles </p>
     <!-- <image source="righttris.png" width="50%"></image>-->
     <image xml:id="righttris" width="75%"><description>Three right triangles</description><latex-image>
@@ -579,7 +579,7 @@
 </ol></p></statement></example>
 
 <exercise><statement><p> Identify each triangle as right, acute, or obtuse. The little square indicates that the angle is <m>90 \degree</m>.</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><!-- <image source="4atri.png" width="60%"></image>-->
     <image xml:id="Four-atri" width="60%"><description>30-60-90 triangle</description><latex-image>
       <![CDATA[
@@ -656,7 +656,7 @@
   </li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>right</p></li>
   <li><p>obtuse</p></li>
   <li><p>acute</p></li>
@@ -674,7 +674,7 @@
   <li><p>In a <term>scalene triangle</term>, all three sides have different lengths.</p></li>
 </ul></p></assemblage>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p> An equilateral triangle.</p> <!-- <image source="equitri.png" width="20%"></image>-->
     <image xml:id="equitri" width="20%"><description>Two acute triangles</description><latex-image>
       <![CDATA[
@@ -737,7 +737,7 @@
     </latex-image></image>  
   </li></ol></p></statement></example>
 
-<exercise><statement><p> Identify each triangle as equilateral, isosceles, or scalene. Sides that have the same number of little hatch marks are equal in length.</p><ol marker="a" cols="2">
+<exercise><statement><p> Identify each triangle as equilateral, isosceles, or scalene. Sides that have the same number of little hatch marks are equal in length.</p><ol marker="a." cols="2">
   <li><!-- <image source="atri.png" width="60%"></image>-->
     <image xml:id="atri" width="55%"><description>Triangle with two equal sides</description><latex-image>
       <![CDATA[
@@ -835,7 +835,7 @@
     </latex-image></image>  
   </li></ol></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>isosceles</p></li>
   <li><p>scalene</p></li>
   <li><p>scalene</p></li>
@@ -949,7 +949,7 @@
             <mrow>~~~~~~~~~~\amp =  180 \degree - 76 \degree = 104 \degree </mrow></md>
 </p></solution></example>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p>The vertex angle of the isosceles triangle below is 120<m>\degree</m>. What is the measure of each base angle?</p>
         <!-- <image source="tri120deg.png" width="40%"></image>-->
         <image xml:id="tri120deg" width="40%"><description>Triangle with two sides of length 12 and base angle 38 deg</description><latex-image>
@@ -971,7 +971,7 @@
     </li>
   <li><p>What is the measure of each angle of an equilateral triangle?</p></li></ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>30\degree</m></p></li>
   <li><p><m>60\degree</m></p></li>
 </ol></p></answer></exercise>

@@ -86,7 +86,7 @@
 <p><ol>
   <li><p>Which of these diagrams can be folded up into a cube?</p>  
       <p>If it makes a cube, label the squares with the faces of your cube: Front, Back, Top, Bottom, Left, Right.</p>
-      <p><ol marker="a" cols="2">
+      <p><ol marker="a." cols="2">
       <li><p><image source="act-3-1-2a.png" width="80%"></image></p></li> 
       <li><p><image source="act-3-1-2b.png" width="80%"></image></p></li>
       <li><p><image source="act-3-1-2c.png" width="80%"></image></p></li>
@@ -94,7 +94,7 @@
       <li><p><image source="act-3-1-2e.png" width="80%"></image></p></li>
       <li><p><image source="act-3-1-2f.png" width="80%"></image></p></li></ol></p></li>
   <li><p>Sketch the box that can be made from each diagram below, and label its dimensions. The grids represent inches.</p>
-      <p><ol marker="a">
+      <p><ol marker="a.">
       <li><p><image source="act-3-1-2boxa.png" width="80%"></image></p></li> 
       <li><p><image source="act-3-1-2boxb.png" width="80%"></image></p></li></ol></p></li>
   <li><p>Find the surface area of each of the boxes in Problem 2.</p></li>
@@ -131,14 +131,14 @@ There are 10 layers of 240 blocks, for a total of
     <me>10 \times 240 = 2400 \hphantom{0} \text{cubic inches}</me>
 The volume of the box is 2400 cubic inches.</p></note>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
     <li><p>Draw a box, and label it with these dimensions:</p>
         <p>length = 3 feet,  width = 5 feet,  height = 8 feet</p></li>
     <li><p>Find the volume of the box.</p></li>
     <li><p>Do you see an easy way to find the volume of a box when you know its dimensions? Describe your method.</p></li>
   </ol></p></statement>
   
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
     <li><image xml:id="box-3by5by8" width="22%" margins="0% 78%"><description>box 3 by 5 by 8</description><latex-image>
         <![CDATA[
         \begin{tikzpicture}[scale=.4]

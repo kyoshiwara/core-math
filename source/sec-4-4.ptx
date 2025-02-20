@@ -71,12 +71,12 @@
 <p> A <term>negative number</term> is a number less than zero. The symbol <m>\large -</m> in front of a number means negative or opposite of.</p></assemblage> 
 
 <example><statement><p>Sketch thermometers that show these temperatures.</p>
-  <p><ol marker="a" cols="2">
+  <p><ol marker="a." cols="2">
     <li><p><m>14 \degree</m></p></li>
     <li><p><m>-8  \degree</m></p></li>
   </ol></p></statement>
   
-  <solution><p><ol marker="a" cols="2">
+  <solution><p><ol marker="a." cols="2">
     <li>
     <!-- <p><image source="pos14deg.png" width="42%"></image></p> -->
     <image xml:id="Thermometerpos5" width="40%" margins="0% 60%"><description>Thermometer-5 deg</description><latex-image>
@@ -193,23 +193,23 @@ right to show a temperature of <m>-4  \degree</m>.</p>
 <note><p>When we work with signed numbers, we use the symbol <m>\large +</m> to indicate a positive number. For example, <m>+3</m> means positive 3. However, unless some special distinction is needed, we usually write positive 3 as just 3. </p></note>
 
 <example><statement><p>Use a signed number to describe each situation.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Death Valley is 273 feet below sea level.  What is its elevation?</p></li>
   <li><p>The Very Big Corporation ended 2015 with a deficit of 8 billion dollars.  What is its net worth?</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>The elevation of Death Valley is <m>-273</m> feet.</p></li>
   <li><p>The net worth of the Very Big Corporation is <m>-8</m> billion dollars.</p></li>
 </ol></p></solution></example>
 
 <exercise><statement><p>Write a sentence using a signed number to describe each situation.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>The water level in Pyramid Lake dropped 30 inches below normal.</p></li>
   <li><p>Callie's checking account is overdrawn by $50.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>The water level in Pyramid Lake is <m>-30</m> inches.</p></li>
   <li><p>The balance of Callie's checking account is <m>-50</m> dollars.</p></li>
 </ol></p></answer></exercise>
@@ -218,23 +218,23 @@ right to show a temperature of <m>-4  \degree</m>.</p>
 
 <example><statement><p>The bar graph below shows normal low temperatures, indegrees Celsius, for each month in Bismarck, North Dakota.</p>  
     <image source="bismarcktemp.png" width="75%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>What is normally the low temperature in December?</p></li>
   <li><p>Which month normally has the coldest temperature?  What is the coldest temperature?</p></li>
 </ol></p></statement>
 
 <solution>
-  <p><ol marker="a">
+  <p><ol marker="a.">
   <li><p> The bar for December extends down to <m>-16</m>, so the normal low for December is <m>-16 \degree</m> Celsius.</p></li>
   <li><p>January has the coldest temperature, <m>-19 \degree</m> Celsius.</p></li>
 </ol></p></solution></example>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p>Look at the bar graph in Example 4.4.6. What is the normal low temperature in Bismarck in February? Is it colder in Bismarck in February or in December?</p></li>
   <li><p>Which two months have the same negative normal low temperature?  What is that temperature?</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>-15 \degree</m> C, December</p></li>
   <li><p>March and November, <m>-8 \degree</m> C</p></li>
 </ol></p></answer></exercise>
@@ -297,12 +297,12 @@ right to show a temperature of <m>-4  \degree</m>.</p>
 <p>These two new symbols, <m>\lt</m> and <m>\gt</m>, are called inequality symbols, to distinguish them from the equality symbol, <m>=</m>.</p>
 
 <example><statement><p>Use inequality symbols to write the following phrases.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p><m>-9</m> is less than <m>4</m></p></li>
   <li><p><m>-1</m> is greater than <m>-12</m></p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p><m>-9 \lt 4</m></p></li>
   <li><p><m>-1 \gt -12</m></p></li>
 </ol></p></solution></example>
@@ -424,13 +424,13 @@ Can you use a number line to explain why this makes sense?</p></note>
 <p>Illustrate the change on the diagram or number line, then answer the question.</p>
 
 <p><ol>
-<li><p><ol marker="a" cols="2">
+<li><p><ol marker="a." cols="2">
   <li><p>The temperature was <m>-3\degree ~~</m> at 6 am and changed by <m>-10\degree ~~</m> over the next six hours. What was the temperature at noon?</p>
    <image source="Thermometer" width="48%"></image></li>
   <li><p>The temperature was <m>9\degree</m> yesterday afternoon and changed by <m>-9\degree</m> overnight. What was the temperature this morning?</p>
    <image source="Thermometer" width="48%"></image></li>
   </ol></p></li>
-<li><p><ol marker="a">
+<li><p><ol marker="a.">
   <li><p>On Wednesday Brendan's checking account balance was $250. On Thursday he wrote a check for $400. What was his new balance?</p></li>
   <li><p>On Friday Brendan deposited his paycheck of $600. What was his account balance then?</p>
     <!-- <image source="neg500to500.png" width="90%"></image> -->
@@ -445,7 +445,7 @@ Can you use a number line to explain why this makes sense?</p></note>
     </latex-image></image>
   </li>
 </ol></p></li>
-<li><p><ol marker="a">
+<li><p><ol marker="a.">
   <li><p>At noon the Yellow Submarine was cruising at <m>-80</m> feet (that's a depth of 80 feet below seal level.)  After lunch they dove another 60 feet deeper. What was their new elevation?</p></li>
   <li><p> Before dinner they rose 120 feet.  What was their elevation then?</p>
     <!-- <image source="neg160to0.png" width="80%"></image> -->

@@ -17,7 +17,7 @@
 
     <assemblage><title>Vocabulary</title>
       <p>factor<fillin characters="8"/>  product <fillin characters="8"/>  divisible<fillin characters="8"/>  whole number<fillin characters="8"/></p>
-      <p><ol marker="1">
+      <p><ol marker="1.">
         <li><p>The result of multiplying two or more numbers together.</p></li>
         <li><p>A counting number or zero.</p></li>
         <li><p>Can be divided evenly (with no remainder) by another number.</p></li>
@@ -25,10 +25,10 @@
 
   <activity xml:id="activityrectangles"><title>Rectangles</title>
     <p>For this Activity (and the Practice problems), you will need 40 small tiles.</p> 
-    <p><ol marker="1">
+    <p><ol marker="1.">
         <li><p>Select 12 tiles from your collection. Can you make a rectangle using all 12 tiles? One possibility is a rectangle with length 4 tiles and height 3 tiles. Or we could arrange the rectangle with length 3 tiles and height 4 tiles.</p>
           <image source="tiles.png" width="40%"></image> 
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><p>What other rectangles can you make?  Fill in the table below.</p>
                 <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <col halign="center"/>
@@ -134,7 +134,7 @@
 <p>Each of these pairs of numbers is called a <term>factor pair</term> for 12. (The order of the numbers in a factor pair doesn't matter.)</p>
 
 <activity><title>Factor Pairs</title>
-<p>Find all the factor pairs for each number.  List them in order.<ol marker="1">
+<p>Find all the factor pairs for each number.  List them in order.<ol marker="1.">
     <li><p><m>27</m></p></li>
     <li><p><m>26</m></p></li>
     <li><p><m>25</m></p></li>
@@ -161,7 +161,7 @@
 <p>In Activity 1.3.3 we'll find all the prime numbers between 1 and 100.</p>
 
 <activity xml:id="activitysieve"><title>The Sieve of Eratosthenes</title>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Circle the first prime number, 2. Cross out all multiples of 2.</p></li>
   <li><p>Circle the first number that is not crossed out. (It should be a prime 
     number.) Cross out all multiples of that number.</p></li>
@@ -177,22 +177,22 @@
 
 <p>The prime numbers are important because they are the building blocks for the whole numbers: every composite number is a product of primes.</p>
 
-<example><statement><p>Write each composite number as a product of primes.<ol cols="2" marker="a">
+<example><statement><p>Write each composite number as a product of primes.<ol cols="2" marker="a.">
   <li><p><m>35</m></p></li>
   <li><p><m>8</m></p></li>
 </ol></p></statement>
 
-<solution><p><ol cols="2" marker="a">
+<solution><p><ol cols="2" marker="a.">
   <li><p><m>35 = 5 \times 7</m></p></li>
   <li><p><m>8 = 2 \times 2 \times 2</m></p></li>
 </ol></p></solution></example>
 
-<exercise><statement><p>Write each composite number as a product of primes.<ol cols="2" marker="a">
+<exercise><statement><p>Write each composite number as a product of primes.<ol cols="2" marker="a.">
   <li><p><m>10</m></p></li>
   <li><p><m>18</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol cols="2" marker="a">
+<answer><p><ol cols="2" marker="a.">
   <li><p><m>10 = 2 \times 5</m></p></li>
   <li><p><m>18 = 2 \times 3 \times 3</m></p></li>
 </ol></p></answer></exercise>
@@ -238,12 +238,12 @@
       <image source="factors16and24.png" width="45%"></image>
 <p>The numbers 16 and 24 have several common factors (namely, 1, 2, and 4), but the largest common factor is 8. The GCF of 16 and 24 is 8.</p></solution></example>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p>List all the factors of 18 and 24.</p>
            <image source="factors18and24.png" width="60%"></image></li>
     <li><p>Find the GCF of 18 and 24.</p></li></ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>18:  2, 3, 6, 9</p>
       <p>24:  2, 3, 4, 6, 8, 12</p></li>
   <li><p>6</p></li>
@@ -294,12 +294,12 @@
 <p>We see that 60 is the smallest number that is a multiple of both 12 and 15. The LCM of 12 and 15 is 60.</p></solution>
 </example>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p>Juicee hot dogs come in packages of 10, and Juicee hot dog buns come in packages of 8. How many packages of each should you buy so that you won't have any hot dogs or buns left over?</p></li>
   <li><p>What is the LCM of 8 and 10?</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>4 packages of hot dogs and 5 packages of buns</p></li>
   <li><p>40</p></li>
 </ol></p></answer></exercise>
@@ -335,13 +335,13 @@
 </answer></exercise>
 
 <activity><title>Factor Trees</title>
-    <p><ol marker="1">
-  <li><p><ol marker="a">
+    <p><ol marker="1.">
+  <li><p><ol marker="a.">
     <li><p>Make a factor tree for 42.</p></li>
 
     <li><p>Write the prime factorization for 42.</p></li></ol></p></li>
 
-  <li><p><ol marker="a">
+  <li><p><ol marker="a.">
     <li><p>Make a factor tree for 60.</p></li>
 
     <li><p>Write the prime factorization for 60.</p></li></ol></p></li>
@@ -352,18 +352,18 @@
 
       <p>60 = </p></li>
 
-  <li><p><ol marker="a">
+  <li><p><ol marker="a.">
     <li><p>Find the GCF for 42 and 60.</p></li>
 
     <li><p>In Step 3, circle the factors you used to build the GCF.</p></li></ol></p></li>
 
-  <li><p><ol marker="a">
+  <li><p><ol marker="a.">
     <li><p>Find the LCM for 42 and 60.</p></li>
 
     <li><p>In Step 3, circle the factors you used to build the LCM. (Use a different 
     color than the circles in (4b), or use squares.</p></li></ol></p></li>
 
-  <li><p><ol marker="a">
+  <li><p><ol marker="a.">
     <li><p>Find the product of 42 and 60.</p></li>
 
     <li><p>Find the product of the GCF and the LCM for 42 and 60.</p></li>
@@ -372,7 +372,7 @@
 
     <li><p>Can you explain why that is true?</p></li></ol></p></li>
 
-<li><p><ol marker="a">
+<li><p><ol marker="a.">
     <li><p>If you have found the GCF for 42 and 60, what is an easy way to find their LCM?</p></li>
 
     <li><p>If you have found the LCM for 42 and 60, what is an easy way to find their GCF?</p></li></ol></p></li>

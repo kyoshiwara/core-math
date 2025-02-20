@@ -79,13 +79,13 @@
 <exercisegroup><introduction><p>For Problems 23-24, the angles between consecutive radii are equal. Give the measure of each angle.</p></introduction>
 
 <exercise number="23"><statement><p><image source="sixsectors.png" width="50%"></image></p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><m>\angle AOB =</m></li>
       <li><m>\angle AOC =</m></li>
       <li><m>\angle AOD =</m></li>
       <li><m>\angle AOE =</m></li>
       <li><m>\angle AOF =</m></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><m>30 \degree</m></li>
       <li><m>60 \degree</m></li>
       <li><m>90 \degree</m></li>
@@ -94,7 +94,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="24"><statement><p><image source="foursectors.png" width="40%"></image></p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><m>\angle AOB =</m></li>
       <li><m>\angle AOC =</m></li>
       <li><m>\angle AOD =</m></li></ol></p></statement></exercise>

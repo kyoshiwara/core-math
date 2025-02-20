@@ -4,14 +4,14 @@
 
 <exercise number="1"><statement><p>The graph shows monthly sales of rollerblading equipment at the Sports Exchange last year.</p>
   <image source="hp-5-5-1.png" width="65%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>How much rollerblading equipment was sold in April?</p></li>
   <li><p>In which month(s) did the Sports Exchange sell $900  worth of equipment?</p></li>
   <li><p>In which month were sales the highest, and what were the sales that month?</p></li>
   <li><p>Which month saw the greatest decrease in sales over the previous month?</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>$1000</p></li>
   <li><p>March, July, November</p></li>
   <li><p>June, $1500</p></li>
@@ -20,7 +20,7 @@
 
 <exercise number="2"><statement><p>The graph shows the number of patients admitted to Mercy Hospital with work-related injuries last year.</p>
     <image source="hp-5-5-2.png" width="55%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>How many patients suffered work-related injuries in March?</p></li>
   <li><p>In which month(s) were the fewest patients with work-related injuries admitted to the hospital?</p></li>
   <li><p>In which month were the most patients with work-related injuries admitted?</p></li>
@@ -28,7 +28,7 @@
 </ol></p></statement></exercise>
 
 <exercise number="3"><statement><p>The graph shows the number of students enrolled part-time or full-time at two-year colleges over a twenty-five year period.</p>
-<sidebyside widths="48% 50%"><p><ol marker="a">
+<sidebyside widths="48% 50%"><p><ol marker="a.">
   <li><p>How many students were enrolled part-time at two-year colleges in 1970?</p></li>
   <li><p>In what year were approximately 1,900,000  students enrolled full-time</p></li>
   <li><p>What was the total enrollment (part-time and full-time) in 1990?</p></li>
@@ -36,7 +36,7 @@
 </ol></p>
     <image source="hp-5-5-3.png"></image></sidebyside></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>1,200,000</p></li>
   <li><p>1973</p></li>
   <li><p>5,900,000</p></li>
@@ -45,7 +45,7 @@
 
 <exercise number="4"><statement><p>The graph shows the number of cases of AIDS diagnosed in women in Los Angeles County over several years.</p>
     <image source="hp-5-5-4.png" width="55%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>How many cases of AIDS were diagnosed among African-American women in 1986?</p></li>
   <li><p>How many cases were diagnosed among white women in 1991?</p></li>
   <li><p>What was the total number of cases per 100,000 diagnosed in 1989?</p></li>
@@ -54,19 +54,19 @@
 
 <exercise number="5"><statement><p>The bar graph below appeared in the Los Angeles Times on December 15, 2000.  It shows the projected increase in jobs in Southern California over the next 25 years.</p>
     <image source="hp-5-5-5.png" width="90%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p><image source="ans-5-5-6.png" width="40%"></image></p></li> 
   <li><p>The time intervals between bars are not equal.</p></li>
 </ol></p></statement> 
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p></p></li> 
   <li><p>What feature of the original bar graph could be considered misleading?</p></li>
 </ol></p></answer></exercise>
 
 <exercise number="6"><statement><p>The bar graph below appeared in the Los Angeles Times on December 15, 2000.  It shows the projected increase in the number of households in Southern California over the next 25 years.</p>
     <image source="hp-5-5-6.png" width="90%"></image>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Use the grid  to create a line graph for the same information.</p></li> 
   <li><p>What feature of the original bar graph could be considered misleading?</p></li>
 </ol></p></statement></exercise>
@@ -98,14 +98,14 @@
             <cell>66</cell>
             <cell>68.5</cell></row>
         </tabular>
-  <sidebyside widths="50% 50%" valigns="middle middle"><p><ol marker="a">
+  <sidebyside widths="50% 50%" valigns="middle middle"><p><ol marker="a.">
       <li><p>Use the data to create a line graph on the grid.</p></li>  
       <li><p>In which year(s) did women's earnings make the greatest gain?</p></li>
       <li><p>In which year(s) did women's earnings decline, relative to men's?</p></li>
       <li><p>What was the net gain in women's earnings (as a percentage of men's) over the decade of the 1980's?</p></li>
   </ol></p><image source="hp-5-5-7.png"></image></sidebyside></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
       <li><p><image source="ans-5-5-7.png"></image></p></li>  
       <li><p>1982, 1989</p></li>
       <li><p>1981, 1986</p></li>
@@ -139,7 +139,7 @@
             <cell>73</cell>
             <cell>73</cell></row>
         </tabular>
-  <sidebyside widths="50% 50%" valigns="middle middle"><p><ol marker="a">
+  <sidebyside widths="50% 50%" valigns="middle middle"><p><ol marker="a.">
       <li><p>Use the data to create a line graph on the grid.</p></li>  
       <li><p>In which year(s) did women's earnings make the greatest gain?</p></li>
       <li><p>In which year(s) did women's earnings decline, relative to men's?</p></li>
@@ -192,13 +192,13 @@
             <cell>25</cell>
             <cell>20</cell></row>
         </tabular>
-  <sidebyside widths="50% 50%" valigns="middle middle"><p><ol marker="a">
+  <sidebyside widths="50% 50%" valigns="middle middle"><p><ol marker="a.">
     <li><p>On the grid at right, make two line graphs illustrating the data.</p></li>
     <li><p>What trends in public opinion do you see in the graphs?</p></li>
     <li><p>Why don't the percent of people who agree and the percent who disagree in each year add up to 100%?</p></li>
   </ol></p><image source="hp-5-5-9.png"></image></sidebyside></statement>
 
- <answer><p><ol marker="a">
+ <answer><p><ol marker="a.">
     <li><p><image source="ans-5-5-9.png"></image></p></li>
     <li><p>The number of people who agree with the statement is decreasing.</p></li>
     <li><p>Some people are undecided.</p></li>
@@ -232,7 +232,7 @@
             <cell>1050</cell>
             <cell>1300</cell></row>
         </tabular>
-  <sidebyside widths="50% 50%" valigns="middle middle"><p><ol marker="a">
+  <sidebyside widths="50% 50%" valigns="middle middle"><p><ol marker="a.">
     <li><p>On the grid at right, make two line graphs illustrating the data.</p></li>
     <li><p>What trends do you see in fatalities among motorcycle drivers?</p></li>
     <li><p>During which year did the number of fatalities among older drivers first exceed the number of fatalities among younger drivers?</p></li>
@@ -266,7 +266,7 @@
 
 <exercise number="20"><statement><sidebyside widths="40% 40%" valigns="middle middle"><p>The graph at right gives the altitude, <m>a</m>, in meters, of a hot-air balloon at <m>t</m> minutes after takeoff. State the values of the variables at point <m>H</m>, and explain what they tell you.</p><image source="hp-5-5-20.png"></image></sidebyside></statement></exercise>
 
-<exercise number="21"><statement><sidebyside widths="50% 35%" valigns="middle middle"><p><ol marker="a">
+<exercise number="21"><statement><sidebyside widths="50% 35%" valigns="middle middle"><p><ol marker="a.">
   <li><p>Use the graph to complete the table of values.</p> 
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -284,7 +284,7 @@
         </tabular></li>
   <li><p>Write an equation for <m>y</m> in terms of <m>x</m>.</p></li>
 </ol></p><image source="hp-5-5-21.png"></image></sidebyside></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>x</m></cell>
@@ -302,7 +302,7 @@
   <li><p><m>y = 70 - x</m></p></li>
 </ol></p></answer></exercise>
 
-  <exercise number="22"><statement><sidebyside widths="50% 45%" valigns="middle middle"><p><ol marker="a">
+  <exercise number="22"><statement><sidebyside widths="50% 45%" valigns="middle middle"><p><ol marker="a.">
   <li><p>Use the graph to complete the table of values.</p> 
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -321,7 +321,7 @@
   <li><p>Write an equation for <m>y</m> in terms of <m>x</m>.</p></li>
 </ol></p><image source="hp-5-5-22.png"></image></sidebyside></statement></exercise>
 
-<exercise number="23"><statement><sidebyside widths="50% 45%" valigns="middle middle"><p><ol marker="a">
+<exercise number="23"><statement><sidebyside widths="50% 45%" valigns="middle middle"><p><ol marker="a.">
   <li><p>Use the graph to complete the table of values.</p> 
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -339,7 +339,7 @@
         </tabular></li>
   <li><p>Write an equation for <m>k</m> in terms of <m>p</m>.</p></li>
 </ol></p><image source="hp-5-5-23.png"></image></sidebyside></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>p</m></cell>
@@ -357,7 +357,7 @@
   <li><p><m>y = p - 20</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="24"><statement><sidebyside widths="50% 45%" valigns="middle middle"><p><ol marker="a">
+<exercise number="24"><statement><sidebyside widths="50% 45%" valigns="middle middle"><p><ol marker="a.">
   <li><p>Use the graph to complete the table of values.</p> 
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -378,7 +378,7 @@
   <answer></answer></exercise>
 
 <exercise number="25"><statement><p>Wrapping paper costs $1.50 per roll at an after-holiday sale.</p>
-  <sidebyside widths="50% 40%" valigns="top top"><p><ol marker="a">
+  <sidebyside widths="50% 40%" valigns="top top"><p><ol marker="a.">
   <li><p>Complete the table showing the price, <m>p</m>, (before tax) of <m>r</m> rolls of wrapping paper.</p> 
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -397,7 +397,7 @@
   <li><p>Write an equation for <m>p</m> in terms of <m>r</m>.</p></li>
   <li><p>Grah your equation on the grid.</p></li>
 </ol></p><image source="hp-5-5-25.png"></image></sidebyside></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>r</m></cell>
@@ -417,7 +417,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="26"><statement><p>Talia can burn 8 calories per minute while cycling.</p>
-  <sidebyside widths="45% 50%" valigns="top top"><p><ol marker="a">
+  <sidebyside widths="45% 50%" valigns="top top"><p><ol marker="a.">
   <li><p>Complete the table showing the number of calories, <m>C</m>, Talia burns during a cycling workout of length <m>t</m> minutes.</p> 
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -438,7 +438,7 @@
 </ol></p><image source="hp-5-5-26.png"></image></sidebyside></statement></exercise>
 
 <exercise number="27"><statement><p>When dining in a restaurant, it is customary to tip the waiter 15% of the bill.</p>
-  <sidebyside widths="50% 40%" valigns="top top"><p><ol marker="a">
+  <sidebyside widths="50% 40%" valigns="top top"><p><ol marker="a.">
   <li><p>Complete the table showing a tip, <m>t</m>, that is 15% of the bill, <m>b</m>.</p> 
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -457,7 +457,7 @@
   <li><p>Write an equation for <m>t</m> in terms of <m>b</m>.</p></li>
   <li><p>Grah your equation on the grid.</p></li>
 </ol></p><image source="hp-5-5-27.png"></image></sidebyside></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell><m>r</m></cell>
@@ -477,7 +477,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="28"><statement><p>Kayla's mortgage payment is $1000 per month. Part of each payment is applied to the principal, and the rest pays the interest due that month on the loan.</p>
-  <sidebyside widths="45% 50%" valigns="top top"><p><ol marker="a">
+  <sidebyside widths="45% 50%" valigns="top top"><p><ol marker="a.">
   <li><p>Complete the table showing the amount, <m>P</m>, that goes toward the principal and the interest, <m>I</m>, paid.</p> 
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -524,7 +524,7 @@
             <cell><m>\hphantom{000}</m></cell></row>
         </tabular></p>
   <image source="hp-5-5-29.png"></image></sidebyside>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>How long will it take Meryl to reach the resort if she averages 50 miles per hour? Locatthis point on your graph.</p></li>
     <li><p>How fast will Meryl have to travel if she wants to reach the resort in 3 hours? Locatthis point on your graph.</p></li>
   </ol></p></statement>
@@ -551,7 +551,7 @@
             <cell>2</cell></row>
         </tabular></p>
         <image source="ans-5-5-29.png"></image>
-    <p><ol marker="a">
+    <p><ol marker="a.">
     <li><p>12 hr</p></li>
     <li><p>200 mph</p></li>
   </ol></p></answer></exercise> 
@@ -579,7 +579,7 @@
             <cell><m>\hphantom{000}</m></cell></row>
         </tabular></p>
   <image source="hp-5-5-30.png"></image></sidebyside>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>If Aisha crochets 2 inches per day, how long will it take to finish the scarf? Locate this point on your graph.</p></li>
     <li><p>If Aisha wants to finish the scarf in five days, how much must she crochet each day? Locate this point on your graph.</p></li>
   </ol></p></statement></exercise>
@@ -605,7 +605,7 @@
             <cell><m>\hphantom{000}</m></cell></row>
         </tabular></p>
   <image source="hp-5-5-31.png"></image></sidebyside>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>How far can you see from an altitude of 10,000 feet? Locate this point on your graph.</p></li>
     <li><p>How high do you have to be to see 100 miles? Locate this point on your graph.</p></li>
   </ol></p></statement>
@@ -627,7 +627,7 @@
         <row><cell>30,000</cell>
             <cell>211.3</cell></row>
         </tabular></p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>122 mi</p></li>
     <li><p>6719 ft</p></li>
   </ol></p><image source="ans-5-5-31.png"></image>    
@@ -656,13 +656,13 @@
             <cell><m>\hphantom{000}</m></cell></row>
         </tabular></p>
   <image source="hp-5-5-32.png"></image></sidebyside>
-  <p><ol marker="a">
+  <p><ol marker="a.">
     <li><p>A penny falls off the Washington monument, 170 meters high. What is its velocity when it hits the ground?  Locate this point on your graph.</p></li>
     <li><p>A rock dropped from the Royal Gorge bridge in Colorado will hit the water below at a velocity of 80 meters per second. How high is the bridge? Locate this point on your graph.</p></li>
   </ol></p></statement></exercise>
 
 <exercise number="33"><statement><p>The demand for troll dolls peaked in April of last year, when Fantasy Toy Company sold 40,000 dolls in one month. Each month after that, sales declined to one-half of the previous month's sales.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Make a table showing the number of troll dolls sold each month, in thousands.</p>
   <sidebyside widths="30% 60%" valigns="middle middle" margins="0% 0%">
     <p><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
@@ -687,7 +687,7 @@
         <image source="hp-5-5-33.png"></image></sidebyside></li>
     <li><p>Graph the data in your table on the grid.</p></li>
   </ol></p></statement>
-    <answer><p><ol marker="a">
+    <answer><p><ol marker="a.">
   <li><p><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
             <cell>Month</cell>
@@ -711,7 +711,7 @@
   </ol></p></answer></exercise>
 
 <exercise number="34"><statement><p>A biology student is culturing a certain bacteria. She starts with 100 bacteria, and under optimum conditions the number of bacteria will double every day.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Make a table showing the number of bacteria in the culture every day for one week.</p>
   <sidebyside widths="30% 60%" valigns="middle middle" margins="0% 0%">
     <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">

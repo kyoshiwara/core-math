@@ -42,7 +42,7 @@
 
       <p>Perimeter in centimeters:</p></li>
 
-    <li><p>Label the length, in centimeters, of each side of the triangle. Then find its perimeter.<ol marker = "a">
+    <li><p>Label the length, in centimeters, of each side of the triangle. Then find its perimeter.<ol marker = "a.">
         <li><image source="perimtria.png" width="80%"></image>
 
           <p>Perimeter in centimeters:</p></li>
@@ -107,7 +107,7 @@
           <image source="sqinch.png"></image></sidebyside></note>
 
   <exercise><statement><p>Find the perimeter and area of each figure. Each square measures 1 centimeter on each side.</p>
-  <p><ol marker="a" cols="2">
+  <p><ol marker="a." cols="2">
     <li><image source="areaexer3a.png" width="42%"></image></li>
     <li><image source="areaexer3b.png" width="60%"></image></li>
     <li><image source="areaexer3c.png" width="70%"></image></li>
@@ -116,7 +116,7 @@
     <li><image source="areaexer3f.png" width="45%"></image></li>
   </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
     <li><p>perim = 6 cm, area = 2 sq cm</p></li>
     <li><p>perim = 8 cm, area = 3 sq cm</p></li>
     <li><p>perim = 10 cm, area = 4 sq cm</p></li>
@@ -173,15 +173,15 @@ Now we just need to subtract the areas of the four "corners" of the rectangle.</
 <p>In this Activity, all grids represent centimeters.</p>
 <p><ol>
 <li><p>Estimate the area of each region by piecing together squares as necessary.</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
       <li><image source="actarea1a.png" width="80%"></image></li>
       <li><image source="actarea1b.png" width="80%"></image></li></ol></p></li>
 <li><p>Use the fact that a triangle is half of a rectangle to find the area of each region. Hint:  It may help to draw in a useful <term>vertical line</term> (or two).</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
       <li><image source="actarea2a.png" width="60%"></image></li>
       <li><image source="actarea2b.png" width="80%"></image></li></ol></p></li>
 <li><p>Find the area of each region by enclosing it in a rectangle and subtracting the areas of the parts outside the region.  Show your method.</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
       <li><image source="actarea3a.png" width="60%"></image></li>
       <li><image source="actarea3b.png" width="60%"></image></li></ol></p></li>
   </ol></p></activity>

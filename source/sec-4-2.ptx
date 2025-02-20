@@ -43,13 +43,13 @@
 <p>Of course, the same idea works if we want to take <m>\dfrac{1}{4}</m> of something, or <m>\dfrac{1}{5}</m> of something, or <m>\cdots</m> .</p>
 
 <exercise><statement><p> Multiply fractions to answer the question.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>How many yards are there in <m>\dfrac{1}{4}</m> of a mile? (There are 1760 yards in 1 mile.)</p></li>
   <li><p>Josie has <m>2\dfrac{1}{4}</m> chocolate bars to share equally among 6 children. What fraction of a chocolate bar will each child get?</p>
     <p>Hint: Rewrite <m>2\dfrac{1}{4}</m> as an improper fraction.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>440</p></li>
   <li><p><m>\dfrac{3}{8}</m> </p></li>
 </ol></p></answer></exercise>
@@ -88,14 +88,14 @@
 <p>The pieces colored both pink and blue illustrate <m>\dfrac{2}{3}</m> of <m>\dfrac{3}{4}</m>.  Notice that they make up <m>\dfrac{6}{12}</m> or <m>\dfrac{1}{2}</m> of the entire rectangle.</p>
 
 <exercise><statement><p>Draw rectangles to illustrate the products.</p>
-  <p><ol marker="a" cols="2">
+  <p><ol marker="a." cols="2">
     <li><p><m>\dfrac{1}{2} \times \dfrac{3}{4}</m></p></li>
     <li><p><m>\dfrac{2}{3} \times \dfrac{2}{3}</m></p></li>
     <li><p><m>\dfrac{1}{4} \times \dfrac{2}{3}</m></p></li>
     <li><p><m>\dfrac{5}{8} \times \dfrac{3}{4}</m></p></li>
   </ol></p></statement>
   
-  <answer><p><ol marker="a" cols="2">
+  <answer><p><ol marker="a." cols="2">
     <li><image xml:id="grid2by4" width="40%" margins="0% 60%"><description>2x4 grid with 3 boxes shaded</description><latex-image>
     <![CDATA[
     \begin{tikzpicture} [scale=.8]
@@ -132,12 +132,12 @@
 
 <p>Here is another example using multiplication.</p>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p>Ronen has <m>1\dfrac{1}{2}</m> pounds of salmon to feed four people. How much salmon will be in each portion?</p></li>
   <li><p>A standard portion is 6 ounces. Will Ronen's salmon provide each person a standard portion?</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>First, let's write <m>1\dfrac{1}{2}</m> pounds as a fraction:
     <me>1\dfrac{1}{2} = \dfrac{2}{2} + \dfrac{1}{2} = \dfrac{3}{2}</me>
   Because we are dividing <m>\dfrac{3}{2}</m> pounds among 4 people, each person gets <m>\dfrac{1}{4}</m> of that amount. So we multiply <m>\dfrac{3}{2}</m> by <m>\dfrac{1}{4}</m>.
@@ -148,12 +148,12 @@
   Each person gets 6 ounces of salmon, which is a standard portion.</p></li>
 </ol></p></solution></example>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p>Miranda pays <m>\dfrac{2}{15}</m> of her income in taxes, and <m>\dfrac{5}{12}</m> of those taxes go to education. What fraction of Miranda's income goes to education?</p></li>  
   <li><p>Reduce your answer to part (a).</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p> <m>\dfrac{10}{180}</m> </p></li>  
   <li><p><m>\dfrac{1}{18}</m></p></li>
 </ol></p></answer></exercise>
@@ -168,7 +168,7 @@
   <li><p>The city council wants to clear <m>\dfrac{3}{4}</m> of an acre of weeds to make a community garden. If 6 people volunteer, how much ground must each person clear?</p></li>
 
   <li><p>You made a chocolate cake for the Math Club bake sale, but at the end of the day <m>\dfrac{3}{8}</m> of the cake is left in the pan. You decide to take <m>\dfrac{2}{3}</m> of the remaining cake home, and give the rest to your math teacher.</p>  
-    <p><ol marker="a">
+    <p><ol marker="a.">
       <li><p>How much of the original cake are you taking home?</p></li>  
       <li><p>Illustrate your work with a rectangle.</p></li>
      </ol></p></li> 
@@ -208,14 +208,14 @@
 <p>From the examples above, perhaps you see a method for dividing by a fraction. Try your method in the Checkpoint 4.2.11.</p>
 
 <exercise><statement><p>Compute the division, and draw a picture to illustrate. Then state in words what the division tells you.</p>
-  <p><ol marker="a" cols="2">
+  <p><ol marker="a." cols="2">
       <li><p><m>4 \div \dfrac{1}{3}</m></p></li>
       <li><p><m>\dfrac{3}{2} \div \dfrac{1}{4}</m></p></li>
       <li><p><m>1\dfrac{2}{3} \div \dfrac{1}{6}</m></p></li>
       <li><p><m>2\dfrac{1}{2} \div \dfrac{1}{8}</m></p></li>
   </ol></p></statement>
   
-  <answer><p><ol marker="a" cols="2">
+  <answer><p><ol marker="a." cols="2">
       <li><image xml:id="FourdivbyThird" width="80%" margins="0% 20%"><description>How many thirds in 4</description><latex-image>
       <![CDATA[
       \begin{tikzpicture} [scale=.6]
@@ -363,7 +363,7 @@
 <activity><title>Dividing Fractions</title>
 
 <p>For Problems 1-6,</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Divide fractions.</p></li>  
   <li><p>Explain what each division means, and illustrate with rectangles.</p></li>
 </ol></p>

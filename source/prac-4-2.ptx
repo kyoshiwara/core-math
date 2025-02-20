@@ -62,16 +62,16 @@ by 4.  Illustrate with a picture of <m>\dfrac{1}{4} \times 8</m>.</p></statement
     <image source="hp-4-2-18.png" width="50%"></image></statement></exercise>
 </exercisegroup>
 
-<exercise number="19"><statement><p><ol marker="a">
+<exercise number="19"><statement><p><ol marker="a.">
   <li><p>Is <m>\dfrac{7}{8} \times \dfrac{10}{9}</m> greater or less than <m>\dfrac{7}{8}</m> ? How do you know?</p></li>
   <li><p>Is <m>\dfrac{7}{8} \times \dfrac{10}{9}</m> greater or less than <m>\dfrac{10}{9}</m> ? How do you know?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>greater,  <m>\dfrac{10}{9} \gt 1</m></p></li>
   <li><p>less,  <m>\dfrac{7}{8} \lt 1</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="20"><statement><p><ol marker="a">
+<exercise number="20"><statement><p><ol marker="a.">
   <li><p>Is <m>\dfrac{77}{81} \times \dfrac{101}{98}</m> greater or less than <m>\dfrac{77}{81}</m> ? How do you know?</p></li>
   <li><p>Is <m>\dfrac{77}{81} \times \dfrac{101}{98}</m> greater or less than <m>\dfrac{101}{98}</m> ? How do you know?</p></li>
 </ol></p></statement></exercise>
@@ -193,7 +193,7 @@ by 4.  Illustrate with a picture of <m>\dfrac{1}{4} \times 8</m>.</p></statement
 <answer><p>More, <m>\dfrac{1}{8}</m></p></answer></exercise>
 
 <exercise number="46"><statement><p>Which of the following are the same as  <m>\dfrac{3}{4} \times \dfrac{1}{2}</m> ?</p>
-<p><ol marker="a" cols="4">
+<p><ol marker="a." cols="4">
   <li><p><m>0.75 )\overline{0.5}</m></p></li>
   <li><p><m>\dfrac{3}{4} \times 2</m></p></li>
   <li><p><m>\dfrac{3}{8}</m></p></li>
@@ -220,33 +220,33 @@ by 4.  Illustrate with a picture of <m>\dfrac{1}{4} \times 8</m>.</p></statement
 <exercisegroup><introduction><p>For Problems 51-54, fill in the box with the correct number.</p></introduction>
 
 <exercise number="51"><statement>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p><m>\dfrac{7}{8} \times \boxed{?} = 1</m></p></li>
   <li><p><m>\dfrac{7}{8} \times \boxed{?} = 2</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{8}{7}</m></p></li>
   <li><p><m>\dfrac{16}{7}</m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="52"><statement>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p><m>1 - \boxed{?} = \dfrac{4}{9}</m></p></li>
   <li><p><m>2 - \boxed{?} = \dfrac{4}{9}</m></p></li>
 </ol></p></statement></exercise>
 
 <exercise number="53"><statement>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p><m>\dfrac{11}{15} + \boxed{?} = 1</m></p></li>
   <li><p><m>\dfrac{11}{15} + \boxed{?} = 2</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{4}{15}</m></p></li>
   <li><p><m>\dfrac{19}{15}</m></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="54"><statement>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p><m>\dfrac{5}{6} \div \boxed{?} = 1</m></p></li>
   <li><p><m>\dfrac{5}{6} \div \boxed{?} = 2</m></p></li>
 </ol></p></statement></exercise>
@@ -270,18 +270,18 @@ by 4.  Illustrate with a picture of <m>\dfrac{1}{4} \times 8</m>.</p></statement
 
 <exercise number="60"><statement><p>Explain why <m>76.4 \div 0.1</m>  is the same as  <m>76.4 \times 10</m>.</p></statement></exercise>
 
-<exercise number="61"><statement><p><ol marker="a">
+<exercise number="61"><statement><p><ol marker="a.">
   <li><p>Compute <m>64 \times \dfrac{15}{16}</m></p></li>
   <li><p>Compute <m>64 - \left(\dfrac{1}{16} \times 64 \right)</m></p></li>
   <li><p>Explain why the answers to parts (a) and (b) are equal.</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>60</p></li>
   <li><p>60</p></li>
   <li><p><m>\dfrac{15}{16} = 1 - \dfrac{1}{16}</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="62"><statement><p><ol marker="a">
+<exercise number="62"><statement><p><ol marker="a.">
   <li><p>Compute <m>\dfrac{1}{2} \times $5.60</m></p></li>
   <li><p>Compute <m>\dfrac{1}{2} \times \left(\dfrac{1}{2} \times $5.60 \right)</m></p></li>
   <li><p>Use parts (a) and (b) to compute <m>\dfrac{3}{4} \times $5.60</m></p></li>

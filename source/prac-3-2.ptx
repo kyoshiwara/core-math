@@ -53,36 +53,36 @@
 <exercise number="16"><statement><p>450</p></statement></exercise>
 </exercisegroup>
 
-<exercise number="17"><statement><sidebyside widths="65% 25%"><p><ol marker="a">
+<exercise number="17"><statement><sidebyside widths="65% 25%"><p><ol marker="a.">
   <li><p>Find the area of a square that measures 8 inches on a side.</p></li>
   <li><p>Find the volume of a cube whose base is the square in part (a).</p></li>
 </ol></p>
   <image source="cube8in.png"></image></sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>64 sq in</p></li>
   <li><p>512 cu in</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="18"><statement><sidebyside widths="65% 25%"><p><ol marker="a">
+<exercise number="18"><statement><sidebyside widths="65% 25%"><p><ol marker="a.">
   <li><p>Find the area of a square that measures 0.1 meter on a side.</p></li>
   <li><p>Find the volume of a cube whose base is the square in part (a).</p></li>
 </ol></p>
   <image source="cubetenthm.png"></image></sidebyside></statement></exercise>
 
 <exercise number="19"><statement><sidebyside widths="65% 30%"><stack><p>The side of a cube is 20 centimeters long.</p>
-  <p><ol marker="a">
+  <p><ol marker="a.">
   <li><p>Find the area of one face of the cube.</p></li>
   <li><p>How many faces does the cube have? Find the total surface area (the sum of the areas of all the faces) of the cube.</p></li>
   <li><p>Find the volume of the cube.</p></li>
 </ol></p></stack>
   <image source="cube20cm.png"></image></sidebyside></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>4000 sq cm</p></li>
   <li><p>6 faces, 2400 sq cm</p></li>
   <li><p>8000 cu cm</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="20"><statement><p><ol marker="a">
+<exercise number="20"><statement><p><ol marker="a.">
   <li><p>How many square feet are in a square yard? (Hint:  Draw a picture.)</p></li>
   <li><p>How many square inches are in a square foot?</p></li>
   <li><p>How many cubic feet are in a cubic yard?</p></li>
@@ -91,60 +91,60 @@
 
 <exercisegroup><introduction><p>For Problems 21-26, write the power as a product, then compute.</p></introduction>
 
-<exercise number="21"><statement><p><ol marker="a" cols="4">
+<exercise number="21"><statement><p><ol marker="a." cols="4">
   <li><p><m>2^3</m></p></li>
   <li><p><m>5^2</m></p></li>
   <li><p><m>7^2</m></p></li>
   <li><p><m>6^1</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>2\times 2 \times 2 = 8</m></p></li>
   <li><p><m>5 \times 5 = 25</m></p></li>
   <li><p><m>7 \times 7 = 49</m></p></li>
   <li><p><m>6</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="22"><statement><p><ol marker="a" cols="4">
+<exercise number="22"><statement><p><ol marker="a." cols="4">
   <li><p><m>3^4</m></p></li>
   <li><p><m>3^3</m></p></li>
   <li><p><m>2^5</m></p></li>
   <li><p><m>5^3</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="23"><statement><p><ol marker="a" cols="4">
+<exercise number="23"><statement><p><ol marker="a." cols="4">
   <li><p><m>2^4</m></p></li>
   <li><p><m>2^1</m></p></li>
   <li><p><m>4^3</m></p></li>
   <li><p><m>1^3</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>2 \times 2 \times 2  \times 2 = 16</m></p></li>
   <li><p><m>2</m></p></li>
   <li><p><m>4 \times 4 \times 4 = 64</m></p></li>
   <li><p><m>1 \times 1 \times 1 = 1</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="24"><statement><p><ol marker="a" cols="4">
+<exercise number="24"><statement><p><ol marker="a." cols="4">
   <li><p><m>1^4</m></p></li>
   <li><p><m>6^2</m></p></li>
   <li><p><m>8^2</m></p></li>
   <li><p><m>4^4</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="25"><statement><p><ol marker="a" cols="4">
+<exercise number="25"><statement><p><ol marker="a." cols="4">
   <li><p><m>9^2</m></p></li>
   <li><p><m>6^3</m></p></li>
   <li><p><m>10^1</m></p></li>
   <li><p><m>12^2</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>9 \times 9 = 81</m></p></li>
   <li><p><m>6 \times 6 \times 6 = 216</m></p></li>
   <li><p><m>10</m></p></li>
   <li><p><m>12 \times 12 = 144</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="26"><statement><p><ol marker="a" cols="4">
+<exercise number="26"><statement><p><ol marker="a." cols="4">
   <li><p><m>10^2</m></p></li>
   <li><p><m>11^2</m></p></li>
   <li><p><m>13^1</m></p></li>
@@ -157,16 +157,16 @@
 
 <exercise number="28"><statement><p>What does an exponent tell us?</p></statement></exercise>
 
-<exercise number="29"><statement><p><ol marker="a">
+<exercise number="29"><statement><p><ol marker="a.">
   <li><p>Compute all the powers of 10 up to <m>10^5</m>.</p></li>
   <li><p>Describe how to write down the number <m>10^{24}</m>.</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>10; 100; 1000; 10,000; 100,000</p></li>
   <li><p>1 followed by 24 zeroes</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="30"><statement><p><ol marker="a">
+<exercise number="30"><statement><p><ol marker="a.">
   <li><p>Explain the difference between <m>4(3)</m> and <m>3^4</m>.</p></li>
   <li><p>Which of these is equal to <m>12^5~</m>?
     <me>12+12+12+12+12~~~~~\text{or}~~~~~ 12 \cdot 12 \cdot 12 \cdot 12 \cdot 12</me></p></li>
@@ -174,20 +174,20 @@
 
 <exercisegroup><introduction><p>For Problems 31-32, use your calculator to compute.</p></introduction>
 
-<exercise number="31"><statement><p><ol marker="a" cols="4">
+<exercise number="31"><statement><p><ol marker="a." cols="4">
   <li><p><m>2.6^2</m></p></li>
   <li><p><m>3.2^2</m></p></li>
   <li><p><m>4.9^3</m></p></li>
   <li><p><m>0.3^2</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>6.76</p></li>
   <li><p>10.24</p></li>
   <li><p>117.649</p></li>
   <li><p>0.02</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="32"><statement><p><ol marker="a" cols="4">
+<exercise number="32"><statement><p><ol marker="a." cols="4">
   <li><p><m>8.5^4</m></p></li>
   <li><p><m>7.3^3</m></p></li>
   <li><p><m>2.1^4</m></p></li>
@@ -197,60 +197,60 @@
 
 <exercisegroup><introduction><p>For Problems 33-38, raise each fraction to the power shown.</p></introduction>
 
-<exercise number="33"><statement><p><ol marker="a" cols="4">
+<exercise number="33"><statement><p><ol marker="a." cols="4">
   <li><p><m>\left(\dfrac{1}{2}\right)^2</m></p></li>
   <li><p><m>\left(\dfrac{1}{2}\right)^3</m></p></li>
   <li><p><m>\left(\dfrac{1}{2}\right)^4</m></p></li>
   <li><p><m>\left(\dfrac{1}{2}\right)^5</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\dfrac{1}{4}</m></p></li>
   <li><p><m>\dfrac{1}{8}</m></p></li>
   <li><p><m>\dfrac{1}{16}</m></p></li>
   <li><p><m>\dfrac{1}{32}</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="34"><statement><p><ol marker="a" cols="4">
+<exercise number="34"><statement><p><ol marker="a." cols="4">
   <li><p><m>\left(\dfrac{1}{10}\right)^2</m></p></li>
   <li><p><m>\left(\dfrac{1}{10}\right)^3</m></p></li>
   <li><p><m>\left(\dfrac{1}{10}\right)^4</m></p></li>
   <li><p><m>\left(\dfrac{1}{10}\right)^5</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="35"><statement><p><ol marker="a" cols="4">
+<exercise number="35"><statement><p><ol marker="a." cols="4">
   <li><p><m>0.1^2</m></p></li>
   <li><p><m>0.1^3</m></p></li>
   <li><p><m>0.1^4</m></p></li>
   <li><p><m>0.1^5</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>0.01</p></li>
   <li><p>0.001</p></li>
   <li><p>0.0001</p></li>
   <li><p>0.00001</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="36"><statement><p><ol marker="a" cols="4">
+<exercise number="36"><statement><p><ol marker="a." cols="4">
   <li><p><m>0.5^2</m></p></li>
   <li><p><m>0.5^3</m></p></li>
   <li><p><m>0.5^4</m></p></li>
   <li><p><m>0.5^5</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="37"><statement><p><ol marker="a" cols="4">
+<exercise number="37"><statement><p><ol marker="a." cols="4">
   <li><p><m>\left(\dfrac{2}{3}\right)^3</m></p></li>
   <li><p><m>\left(\dfrac{3}{2}\right)^3</m></p></li>
   <li><p><m>0.8^2</m></p></li>
   <li><p><m>1.2^2</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>\dfrac{8}{27}</m></p></li>
   <li><p><m>\dfrac{27}{8}</m></p></li>
   <li><p>0.64</p></li>
   <li><p>1.44</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="38"><statement><p><ol marker="a" cols="4">
+<exercise number="38"><statement><p><ol marker="a." cols="4">
   <li><p><m>\left(\dfrac{3}{4}\right)^2</m></p></li>
   <li><p><m>\left(\dfrac{4}{3}\right)^2</m></p></li>
   <li><p><m>0.2^3</m></p></li>
@@ -283,11 +283,11 @@
 
 <exercisegroup><introduction><p>For Problems 47-50, use centimeter grid paper.</p></introduction>
 
-<exercise number="47"><statement><p><ol marker="a">
+<exercise number="47"><statement><p><ol marker="a.">
     <li><p>Draw a right triangle with sides 3 cm, 4 cm, and 5 cm.</p></li>
     <li><p>Draw a square on each side of your triangle, and compute the area of each square.</p></li>
   </ol></p></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
     <li>
         <image xml:id="triangle-3-4-5" width="50%" margins="0% 50%"><description>3-4-5 triangle with square on each side</description><latex-image>
             <![CDATA[
@@ -306,16 +306,16 @@
     <li><p>9 sq cm, 16 sq cm, 25 sq cm</p></li>
   </ol></p></answer></exercise>
 
-<exercise number="48"><statement><p><ol marker="a">
+<exercise number="48"><statement><p><ol marker="a.">
   <li><p>Draw a right triangle with sides 4.5 cm, 6 cm, and 7.5 cm.</p></li>
   <li><p>Draw a square on each side of your triangle, and compute the area of each square.</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="49"><statement><p><ol marker="a">
+<exercise number="49"><statement><p><ol marker="a.">
     <li><p>Draw a right triangle with sides 8 cm, 15 cm, and 17 cm.</p></li>
     <li><p>Check that your triangle satisfies the Pythagorean theorem.</p></li>
   </ol></p></statement>
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
     <li>
         <image xml:id="triangle-8-15-17" width="60%" margins="0% 40%"><description>8-15-17 triangle with square on each side</description><latex-image>
             <![CDATA[
@@ -334,7 +334,7 @@
     <li><p><m>8^2 + 15^2 = 64 + 225 = 289 = 17^2</m></p></li>
   </ol></p></answer></exercise>
 
-<exercise number="50"><statement><p><ol marker="a">
+<exercise number="50"><statement><p><ol marker="a.">
   <li><p>Draw a right triangle with sides 12 cm, 16 cm, and 20 cm.</p></li>
   <li><p>Check that your triangle satisfies the Pythagorean theorem.</p></li>
 </ol></p></statement></exercise>
@@ -342,30 +342,30 @@
 
 <exercisegroup><introduction><p>For Problems 51-54, simplify by writing as a single power.</p></introduction>
 
-<exercise number="51"><statement><p><ol marker="a" cols="2">
+<exercise number="51"><statement><p><ol marker="a." cols="2">
   <li><p><m>12^3 \cdot 12^4</m></p></li>
   <li><p><m>19^2 \cdot 19^6</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>12^7</m></p></li>
   <li><p><m>19^8</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="52"><statement><p><ol marker="a" cols="2">
+<exercise number="52"><statement><p><ol marker="a." cols="2">
   <li><p><m>3^5 \cdot 3^5</m></p></li>
   <li><p><m>5^4 \cdot 5^8</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="53"><statement><p><ol marker="a" cols="2">
+<exercise number="53"><statement><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{7^8}{7^5}</m></p></li>
   <li><p><m>\dfrac{15^9}{15^3}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>7^3</m></p></li>
   <li><p><m>15^6</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="54"><statement><p><ol marker="a" cols="2">
+<exercise number="54"><statement><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{2^{10}}{2^6}</m></p></li>
   <li><p><m>\dfrac{24^8}{24^4}</m></p></li>
 </ol></p></statement></exercise>

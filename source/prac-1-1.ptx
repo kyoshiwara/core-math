@@ -3,47 +3,47 @@
 <exercises xml:id="prac-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Practice 1.1</title>
 
-<exercise number="1"><statement><p><ol marker="a">
+<exercise number="1"><statement><p><ol marker="a.">
   <li><p>What does the denominator of a fraction tell us?</p></li>
   <li><p>What does the numerator of a fraction tell us?</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>How many things are in the whole.</p></li>
   <li><p>How many things are in the part.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="2"><statement><p><ol marker="a">
+<exercise number="2"><statement><p><ol marker="a.">
   <li><p>How can you use your calculator to find <m>\dfrac{1}{2}</m> of any number?</p></li>
   <li><p>Multiplying a number by <m>\dfrac{1}{2}</m> is the same as dividing by <fillin characters="15" />.</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="3"><statement><p><ol marker="a">
+<exercise number="3"><statement><p><ol marker="a.">
   <li><p>Explain why 50 cents is half of one dollar.</p></li>
   <li><p>Explain why 0.5 is the same as <m>\dfrac{1}{2}</m>.</p></li>
   <li><p>Explain why 50% is the same as <m>\dfrac{1}{2}</m>.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>There are 100 cents in a dollar.</p></li>
   <li><p>0.5 means <m>\dfrac{5}{10}.</m></p></li>
   <li><p>50% is half of 100%.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><ol marker="a">
+<exercise number="4"><statement><p><ol marker="a.">
   <li><p>Explain why 25 cents is one-quarter of a dollar.</p></li>
   <li><p>Explain why 0.25 is the same as <m>\dfrac{1}{4}</m>.</p></li>
   <li><p>Explain why 25% is the same as <m>\dfrac{1}{4}</m>.</p></li>
 </ol></p></statement></exercise>
 
 <exercisegroup>
-    <introduction><p>For Problems 5-8, <ol marker="a">
+    <introduction><p>For Problems 5-8, <ol marker="a.">
   <li><p>Find one-half of the amount.</p></li>
   <li><p>Find one-fourth of the amount.</p></li>
   <li><p>Find three-fourths of the amount.</p></li></ol></p></introduction>
 
 <exercise number="5"><statement><p>A doorway is 88 inches tall.</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>44 inches</p></li>
   <li><p>22 inches</p></li>
   <li><p>66 inches</p></li>
@@ -52,7 +52,7 @@
 <exercise number="6"><statement><p>A fossil is 50,000 years old.</p></statement></exercise>
 
 <exercise number="7"><statement><p>A jug contains 64 fluid ounces of laundry detergent.</p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>32 fluid ounces</p></li>
   <li><p>16 fluid ounces</p></li>
   <li><p>48 fluid ounces</p></li>
@@ -106,30 +106,30 @@
 <exercisegroup>
     <introduction><p>For Problems 21-24, show how you found the answer.</p></introduction>
 
-<exercise number="21"><statement><p><ol marker="a">
+<exercise number="21"><statement><p><ol marker="a.">
   <li><p>What is <m>\dfrac{1}{4}</m> of 2 cups of flour?</p></li>
   <li><p>What is <m>\dfrac{3}{4}</m> of 2 cups of flour?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>0.5</m> cup</p></li>
   <li><p><m>1.5</m> cups</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="22"><statement><p><ol marker="a">
+<exercise number="22"><statement><p><ol marker="a.">
   <li><p>What is <m>\dfrac{1}{4}</m> of 6 gallons of water?</p></li>
   <li><p>What is <m>\dfrac{3}{4}</m> of 6 gallons of water?</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="23"><statement><p><ol marker="a">
+<exercise number="23"><statement><p><ol marker="a.">
   <li><p>How far is <m>\dfrac{1}{4}</m> of 90 miles?</p></li>
   <li><p>How far is <m>\dfrac{3}{4}</m> of 90 miles?</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>22.5</m> miles</p></li>
   <li><p><m>67.5</m> miles</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="24"><statement><p><ol marker="a">
+<exercise number="24"><statement><p><ol marker="a.">
   <li><p>How much is <m>\dfrac{1}{4}</m> of $247?</p></li>
   <li><p>How much is <m>\dfrac{3}{4}</m> of $247?</p></li>
 </ol></p></statement></exercise>
@@ -223,20 +223,20 @@
         <cell><m>64</m></cell></row>
     </tabular></p></statement></exercise>
 
-<exercise number="27"><statement><p><ol marker="a">
+<exercise number="27"><statement><p><ol marker="a.">
     <li><p>If you know one-half of a number and one-quarter of a number, how can you find three-quarters of the number?</p></li>
     <li><p>If you know one-half of a number, how can you find three-quarters of the number?</p></li></ol></p></statement>
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
     <li><p>Add them.</p></li>
     <li><p>Find one-half of one-half and add to one-half.</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="28"><statement><p><ol marker="a">
+<exercise number="28"><statement><p><ol marker="a.">
     <li><p>If you know three-quarters of a number, how can you find one-quarter of the number?</p></li>
     <li><p>If you know three-quarters of a number, how can you find one-half of the number?</p></li></ol></p></statement></exercise>
 
 <exercisegroup><introduction><p>For Problems 29-34, 
-<ol marker = "a">
+<ol marker = "a.">
     <li><p>Give the values of the whole quantity and the part described.</p></li>
     <li><p>Write the fraction described in the problem.</p></li>
     <li><p>Decide whether the fraction described is less than (<m>\lt</m>), equal to (<m>=</m>), or greater than (<m>\gt</m>) one-fourth. Explain how you made your decision.</p></li>
@@ -301,7 +301,7 @@
 </exercisegroup>
 
 <exercisegroup>
-    <introduction><p>For Problems 47-50, write fractions that are:<ol marker="a">
+    <introduction><p>For Problems 47-50, write fractions that are:<ol marker="a.">
   <li><p>Less than <m>\dfrac{1}{4}</m></p></li>
   <li><p>Between <m>\dfrac{1}{4}</m> and <m>\dfrac{1}{2}</m></p></li>
   <li><p>Between <m>\dfrac{1}{2}</m> and <m>\dfrac{3}{4}</m></p></li>

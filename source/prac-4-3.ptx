@@ -3,35 +3,35 @@
 
 <exercisegroup><introduction><p>For Problems 1-4, find the positive square root of each number.</p></introduction>
 
-<exercise number="1"><statement><p><ol marker="a" cols="3">
+<exercise number="1"><statement><p><ol marker="a." cols="3">
   <li><p>36</p></li>
   <li><p>49</p></li>
   <li><p>1</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="3">
+<answer><p><ol marker="a." cols="3">
   <li><p>6</p></li>
   <li><p>7</p></li>
   <li><p>1</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="2"><statement><p><ol marker="a" cols="3">
+<exercise number="2"><statement><p><ol marker="a." cols="3">
   <li><p>4</p></li>
   <li><p>25</p></li>
   <li><p>100</p></li>
 </ol></p></statement></exercise>
 
-<exercise number="3"><statement><p><ol marker="a" cols="3">
+<exercise number="3"><statement><p><ol marker="a." cols="3">
   <li><p>64</p></li>
   <li><p>81</p></li>
   <li><p>144</p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="3">
+<answer><p><ol marker="a." cols="3">
   <li><p>8</p></li>
   <li><p>9</p></li>
   <li><p>12</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="4"><statement><p><ol marker="a" cols="3">
+<exercise number="4"><statement><p><ol marker="a." cols="3">
   <li><p>121</p></li>
   <li><p>169</p></li>
   <li><p>225</p></li>
@@ -42,7 +42,7 @@
 <answer><p>To square q number, we multiply it by itself. The square root of a number is a number that, when squared, gives the original number. <m>9^2 = 81; \sqrt{9} = 3</m></p></answer></exercise>
 
 <exercise number="6"><statement><p>Which of the following are true?</p>
-  <p><ol marker="a" cols="4">
+  <p><ol marker="a." cols="4">
   <li><p><m>4^2 = 16</m></p></li>
   <li><p><m>16^2 = 4</m></p></li>
   <li><p><m>16 = \sqrt{4}</m></p></li>
@@ -56,58 +56,58 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 9-16, evaluate the radical. For Problems 13-16, recall that we multiply two fractions together by multiplying their numerators together and multiplying their denominators together.</p></introduction>
 
-<exercise number="9"><statement><p><ol marker="a" cols="2">
+<exercise number="9"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{49}</m></p></li>
   <li><p><m>\sqrt{169}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>7</p></li>
   <li><p>13</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="10"><statement><p><ol marker="a" cols="2">
+<exercise number="10"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{0}</m></p></li>
   <li><p><m>\sqrt{9}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="11"><statement><p><ol marker="a" cols="2">
+<exercise number="11"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{121}</m></p></li>
   <li><p><m>\sqrt{144}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>11</p></li>
   <li><p>12</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="12"><statement><p><ol marker="a" cols="2">
+<exercise number="12"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{400}</m></p></li>
   <li><p><m>\sqrt{900}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="13"><statement><p><ol marker="a" cols="2">
+<exercise number="13"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{\dfrac{1}{16}}</m></p></li>
   <li><p><m>\sqrt{\dfrac{1}{25}}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{1}{4}</m></p></li>
   <li><p><m>\dfrac{1}{5}</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="14"><statement><p><ol marker="a" cols="2">
+<exercise number="14"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{\dfrac{9}{49}}</m></p></li>
   <li><p><m>\sqrt{\dfrac{16}{81}}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="15"><statement><p><ol marker="a" cols="2">
+<exercise number="15"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{\dfrac{196}{25}}</m></p></li>
   <li><p><m>\sqrt{\dfrac{4}{289}}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{14}{5}</m></p></li>
   <li><p><m>\dfrac{2}{17}</m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="16"><statement><p><ol marker="a" cols="2">
+<exercise number="16"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{\dfrac{256}{121}}</m></p></li>
   <li><p><m>\sqrt{\dfrac{169}{324}}</m></p></li>
 </ol></p></statement></exercise>
@@ -198,44 +198,44 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 19-24, use your calculator to approximate the square roots. Round your answers to three decimal places.</p></introduction>
 
-<exercise number="19"><statement><p><ol marker="a" cols="2">
+<exercise number="19"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{48.6}</m></p></li>
   <li><p><m>\sqrt{29.3}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>6.971</p></li>
   <li><p>5.413</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="20"><statement><p><ol marker="a" cols="2">
+<exercise number="20"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{56.8}</m></p></li>
   <li><p><m>\sqrt{73.9}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="21"><statement><p><ol marker="a" cols="2">
+<exercise number="21"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{1.4}</m></p></li>
   <li><p><m>\sqrt{1.8}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>1.183</p></li>
   <li><p>1.342</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="22"><statement><p><ol marker="a" cols="2">
+<exercise number="22"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{0.6}</m></p></li>
   <li><p><m>\sqrt{0.3}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="23"><statement><p><ol marker="a" cols="2">
+<exercise number="23"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{419}</m></p></li>
   <li><p><m>\sqrt{836}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>20.479</p></li>
   <li><p>28.914</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="24"><statement><p><ol marker="a" cols="2">
+<exercise number="24"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{2498}</m></p></li>
   <li><p><m>\sqrt{5612}</m></p></li>
 </ol></p></statement></exercise>
@@ -302,58 +302,58 @@ How long would it take for a pebble to fall from the top of the Sears Tower in C
 
 <exercisegroup cols="2"><introduction><p>For Problems 41-48, simplify the expressions without using pencil, paper, or calculator!</p></introduction>
 
-<exercise number="41"><statement><p><ol marker="a" cols="2">
+<exercise number="41"><statement><p><ol marker="a." cols="2">
   <li><p><m>(\sqrt{144})^2</m></p></li>
   <li><p><m>\sqrt{9^2}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>144</p></li>
   <li><p>9</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="42"><statement><p><ol marker="a" cols="2">
+<exercise number="42"><statement><p><ol marker="a." cols="2">
   <li><p><m>(\sqrt{121})^2</m></p></li>
   <li><p><m>\sqrt{8^2}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="43"><statement><p><ol marker="a" cols="2">
+<exercise number="43"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{81^2}</m></p></li>
   <li><p><m>\sqrt{(16)(16)}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>81</p></li>
   <li><p>16</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="44"><statement><p><ol marker="a" cols="2">
+<exercise number="44"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{64^2}</m></p></li>
   <li><p><m>\sqrt{(49)(49)}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="45"><statement><p><ol marker="a" cols="2">
+<exercise number="45"><statement><p><ol marker="a." cols="2">
   <li><p><m>(\sqrt{17})^2</m></p></li>
   <li><p><m>\sqrt{39} \sqrt{39}</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>17</p></li>
   <li><p>39</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="46"><statement><p><ol marker="a" cols="2">
+<exercise number="46"><statement><p><ol marker="a." cols="2">
   <li><p><m>(\sqrt{23})^2</m></p></li>
   <li><p><m>\sqrt{2}\sqrt{2}</m></p></li>
 </ol></p></statement></exercise>
 
-<exercise number="47"><statement><p><ol marker="a" cols="2">
+<exercise number="47"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{453^2}</m></p></li>
   <li><p><m>(\sqrt{208})(\sqrt{208})</m></p></li>
 </ol></p></statement>
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>453</p></li>
   <li><p>208</p></li>
 </ol></p></answer></exercise>
 
-<exercise number="48"><statement><p><ol marker="a" cols="2">
+<exercise number="48"><statement><p><ol marker="a." cols="2">
   <li><p><m>\sqrt{872^2}</m></p></li>
   <li><p><m>(\sqrt{147})(\sqrt{147})</m></p></li>
 </ol></p></statement></exercise>

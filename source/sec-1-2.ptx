@@ -49,7 +49,7 @@
   Major Motors will hire 26 people.</p></solution></example>
 
   <activity><title>One-Tenth</title>
-  <p>Decide whether the fraction is more or less than one-tenth. Show how you decided.<ol marker="1">
+  <p>Decide whether the fraction is more or less than one-tenth. Show how you decided.<ol marker="1.">
 
   <li><p>The tax on a $68 purchase was $5.78. Is that more or less than one-tenth of the price?</p></li>
 
@@ -65,13 +65,13 @@
 
 <p>One-tenth is a relatively small fraction. How do tenths compare to the benchmark fractions <m>\dfrac{1}{2}~</m>, <m>\dfrac{1}{4}~</m>, and <m>\dfrac{3}{4}~</m>?</p>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p> On the figure below, draw lines at <m>\dfrac{1}{2}~</m>, <m>\dfrac{1}{4}~</m>, and <m>\dfrac{3}{4}~</m> and label them.</p>
       <image source="boxgridtenths.png" width="80%"></image></li>
   <li><p> Which is larger, <m>\dfrac{1}{4}~</m> or <m>\dfrac{3}{10}~</m>?</p></li>
   <li><p> Which is larger, <m>\dfrac{3}{4}~</m> or <m>\dfrac{6}{10}~</m>?</p></li></ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p></p></li>
   <li><p><m>\dfrac{3}{10}</m></p></li>
   <li><p><m>\dfrac{3}{4}</m></p></li>
@@ -90,11 +90,11 @@
   <note><p>In the Examples above, what do you notice about dividing a number by 10?</p></note>
 
   <activity><title>Tenths</title>
-    <p>Find the fraction. Show your work.<ol marker="1">
+    <p>Find the fraction. Show your work.<ol marker="1.">
 
     <li><p>A new section of county road will be 18 miles long. The road crew has completed 0.3 of the road. How long is the completed portion?</p></li>
     <li><p>The average annual rainfall in Salem County is 39 inches. This year only 0.8 of that amount of rain fell. How many inches of rain fell this year?</p></li>
-    <li><p>Caroline spends $2400 a month, or 0.6 of her income, on food and rent.<ol marker="a">
+    <li><p>Caroline spends $2400 a month, or 0.6 of her income, on food and rent.<ol marker="a.">
       <li><p>What is one-tenth of Caroline's monthly income?</p></li>
       <li><p>What is Caroline's monthly income?</p></li></ol></p></li>
     <li><p>Radio station KWHY collected $4760 in the first week of their 10-day pledge drive. If they maintain the same level of support, how much can they expect to make by the end of the pledge drive?</p></li></ol></p></activity>
@@ -104,7 +104,7 @@
 
 <p>Perhaps you have noticed that <m>\dfrac{2}{10}~</m>, <m>\dfrac{4}{10}~</m>, <m>\dfrac{6}{10}~</m>, and <m>\dfrac{8}{10}~</m> can all be written with denominator 5.</p>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p> On the figure below, draw lines at <m>\dfrac{1}{2}~</m>, <m>\dfrac{1}{4}~</m>, and <m>\dfrac{3}{4}~</m> and label them.</p>
     <!-- <image source="boxgridtenths.png" width="90%"></image> -->
     <image xml:id="numberlinetenths" width="70%" margins="0% 30%"><description>From 0 to 1 by tenths</description><latex-image>
@@ -120,7 +120,7 @@
   <li><p> Which is larger, <m>\dfrac{1}{4}~</m> or <m>\dfrac{3}{10}~</m>?</p></li>
   <li><p> Which is larger, <m>\dfrac{3}{4}~</m> or <m>\dfrac{6}{10}~</m>?</p></li></ol></p></statement>
       
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
     <li><image xml:id="numberlinetenths-with-fourths" width="70%" margins="0% 30%"><description>From 0 to 1 by tenths</description><latex-image>
       <![CDATA[
       \begin{tikzpicture} [scale=.75]
@@ -138,11 +138,11 @@
     <li><p><m>\dfrac{3}{4}</m></p></li>
     </ol></p></answer></exercise>
     
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p>On the figure below, draw lines at <m>\dfrac{1}{5}~</m>, <m>\dfrac{2}{5}~</m>, <m>\dfrac{3}{5}~</m> and <m>\dfrac{4}{5}~</m> and label them.</p>
     <image source="numberlinetenths" width="70%"></image></li>
   <li><p><m>\dfrac{2}{10}~=<fillin characters="3"/>, ~~\dfrac{4}{10}~=<fillin characters="3"/>, ~~\dfrac{6}{10}~=<fillin characters="3"/>, ~~\dfrac{8}{10}~=<fillin characters="3"/> ~~</m></p></li></ol></p></statement> 
-  <answer><p><ol marker="a">
+  <answer><p><ol marker="a.">
   <li><image xml:id="numberlinetenths-with-fifths" width="70%" margins="0% 30%"><description>From 0 to 1 by tenths</description><latex-image>
     <![CDATA[
     \begin{tikzpicture} [scale=.75]
@@ -183,7 +183,7 @@ Thus, <m>\dfrac{16}{20} = \dfrac{4}{5}</m>.</p></solution></example>
 
 <exercise><statement><p>Here is a picture of a spider on a circle. If we start at the top of the circle, at 0°, and travel once clockwise all the way around the circle, we turn through a rotation of 360°. Each of the spider's legs intersects the circle at a fraction of one complete rotation. Name the fraction at each leg, and reduce it if possible. 
     <image source="spider.png" width="40%"></image>
-<ol marker="a" cols="2">
+<ol marker="a." cols="2">
   <li><p>First leg:</p></li>
   <li><p>Second leg:</p></li>
   <li><p>Third leg:</p></li>
@@ -193,7 +193,7 @@ Thus, <m>\dfrac{16}{20} = \dfrac{4}{5}</m>.</p></solution></example>
   <li><p>Seventh leg:</p></li>
   <li><p>Eighth leg:</p></li></ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{36}{360} = \dfrac{1}{10}</m></p></li>
   <li><p><m>\dfrac{72}{360} = \dfrac{1}{5}</m></p></li>
   <li><p><m>\dfrac{108}{360} = \dfrac{3}{10}</m></p></li>
@@ -235,7 +235,7 @@ One-tenth of one-tenth is one-hundredth, or <m>\dfrac{1}{100}~</m>. In decimal f
 
 <p>All of the fractions we have studied so far can be written with denominator 100.</p>
 
-<exercise><statement><p>Write each decimal fraction as a common fraction, and reduce it if possible.<ol marker="a" cols="2">
+<exercise><statement><p>Write each decimal fraction as a common fraction, and reduce it if possible.<ol marker="a." cols="2">
   <li><p><m>0.20</m></p></li>
   <li><p><m>0.25</m></p></li>
   <li><p><m>0.30</m></p></li>
@@ -245,7 +245,7 @@ One-tenth of one-tenth is one-hundredth, or <m>\dfrac{1}{100}~</m>. In decimal f
   <li><p><m>0.75</m></p></li>
   <li><p><m>0.80</m></p></li></ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{1}{5}</m></p></li>
   <li><p><m>\dfrac{1}{4}</m></p></li>
   <li><p><m>\dfrac{3}{10}</m></p></li>
@@ -257,7 +257,7 @@ One-tenth of one-tenth is one-hundredth, or <m>\dfrac{1}{100}~</m>. In decimal f
 </ol></p></answer></exercise>
 
   <activity><title>Hundredths</title>
-    <p>Compare each decimal fraction to the closest familiar common fraction from the previous Exercise. Is it larger or smaller than the familiar fraction?<ol marker="1">
+    <p>Compare each decimal fraction to the closest familiar common fraction from the previous Exercise. Is it larger or smaller than the familiar fraction?<ol marker="1.">
     <li><p>Of all registered voters in the county, 0.63 turned out for the election.</p></li>
   <li><p>Megacorps finds that on any given day, 0.17 of their employees are absent.</p></li>
   <li><p>Among single-parent families, 0.27 live in poverty.</p></li>
@@ -279,13 +279,13 @@ One-tenth of one-tenth is one-hundredth, or <m>\dfrac{1}{100}~</m>. In decimal f
     <me>\dfrac{3}{20} = 3 \div 20 = 0.15</me>
   You can check that <m>0.15</m>, or <m>\dfrac{15}{100}</m>, reduces to <m>\dfrac{3}{20}</m>.</p></solution></example>
 
-<exercise><statement><p>Find the decimal form of each fraction.<ol marker="a" cols="2">
+<exercise><statement><p>Find the decimal form of each fraction.<ol marker="a." cols="2">
   <li><p><m>\dfrac{5}{8}</m></p></li>
   <li><p><m>\dfrac{1}{20}</m></p></li>
   <li><p><m>\dfrac{7}{25}</m></p></li>
   <li><p><m>\dfrac{3}{16}</m></p></li></ol></p></statement>
 
-<answer><p>Find the decimal form of each fraction.<ol marker="a"  cols="2">
+<answer><p>Find the decimal form of each fraction.<ol marker="a."  cols="2">
   <li><p><m>0.625</m></p></li>
   <li><p><m>0.05</m></p></li>
   <li><p><m>0.28</m></p></li>

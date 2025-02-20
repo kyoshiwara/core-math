@@ -269,13 +269,13 @@ because each reduces to <m>\dfrac{1}{2}</m>.</p>
 
 and so on. Each of these fractions reduces to <m>\dfrac{7}{10}</m>, or 0.7. Note that the denominator of each decimal fraction is given by the place value of the last digit after the decimal point.</p>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p>Write each decimal fraction as a common fraction.
       <me>~~~~0.30,~~~~~~0.03,~~~~~~0.030,~~~~~~0.300,~~~~~~0.003</me></p></li>
   <li><p>Which fractions are equal?</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>The denominator of each fraction is given by the place value of the last digit after the decimal point.
 
     <md><mrow>0.30 = \dfrac{30}{100}~~~~~~\amp \text{reduces to}~~\dfrac{3}{10}</mrow>
@@ -456,11 +456,11 @@ We denote these <term>repeating decimals</term> with a bar over the digits that 
 </activity>
 
 <example><statement><p>Find the decimal form of each fraction.  Round your answers to hundredths.</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p><m>\dfrac{3}{7}</m></p></li>
   <li><p><m>\dfrac{2}{7}</m></p></li></ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>We use a calculator to divide 3 by 7.
     <me>\dfrac{3}{7} = 3 \div 7 = 0.428571 ...~~~~~~~~~\blert{\text{2 is in the hundredths place.}}</me>
     To round to hundredths, we look at the digit after the hundredths place, which in this case is 8.  If that digit is 5 or more, we round up to the next hundredth, to get  0.43.  So, <m>\dfrac{3}{7}</m> is approximately 0.43.</p></li>
@@ -556,13 +556,13 @@ We denote these <term>repeating decimals</term> with a bar over the digits that 
 we can reduce <m>\dfrac{4}{10}</m> to <m>\dfrac{2}{5}</m>.) So one centimeter is a little smaller than <m>\dfrac{2}{5}</m> of an inch.</p>  
     <image source="cmtoinch.png" width="30%"></image></solution></example>
 
-<exercise><statement><p><ol marker="a">
+<exercise><statement><p><ol marker="a.">
   <li><p>One kilometer is 0.621371 of one mile. How many miles long is a 10K (10 kilometer) race?</p></li>
 
   <li><p>Round your answer to part (a) to tenths, and compare to the closest familiar common fraction.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>6.21371 miles</p></li>
   <li><p>Approximately 6.2 miles, or <m>6\dfrac{1}{5}</m> miles</p></li>
 </ol></p></answer></exercise>

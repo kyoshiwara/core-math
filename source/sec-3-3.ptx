@@ -23,12 +23,12 @@
         <mrow> \large\text{1 yard}~ \amp = \large\text{3 feet}</mrow>
         <mrow> \large\text{1 mile}~ \amp = \large\text{5280 feet}</mrow></md></p></assemblage>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p>The singer Rihanna is 5 feet 8 inches tall. Express Rihanna's height in inches.</p></li>
   <li><p>Express Rihanna's height in feet.</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>There are 12 inches in a foot, so 5 feet is equal to
       <me>5 \times 12 = 60~~\text{inches}</me>
   and 5 feet 8 inches is equal to
@@ -40,12 +40,12 @@
 </ol></p></solution></example>
 
 <exercise><statement><p>The actor Liam Neeson is 6 feet 6 inches tall.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Express his height in inches.</p></li>
   <li><p>Express his height in feet.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p>78 in</p></li>
   <li><p>6.5 ft</p></li>
 </ol></p></answer></exercise>
@@ -87,12 +87,12 @@ Yao Ming is 7.5 feet, or 7 feet 6 inches, tall.</p></solution></example>
   <assemblage><p><me>\large\text{1 meter} =  \large\text{1.0963 yards}</me></p></assemblage>
 
 <example><statement><p>Jamaica's Usain Bolt holds the world record in the 100-meter dash, with a time of 9.58 seconds.</p>
-<p><ol marker="a">  
+<p><ol marker="a.">  
   <li><p>How far is 100 meters in yards? In feet?</p></li>
   <li><p>What was Usain Bolt's speed, in feet per second?</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">  
+<solution><p><ol marker="a.">  
   <li><p>To convert 100 meters to yards, we multiply the length of 1 meter by 100.  
       <me>100 \text{ meters} = 100 \times 1.0963  \text{ yards} = 109.63 \text{ yards}</me>
 And because there are 3 feet in a yard,
@@ -110,12 +110,12 @@ And because there are 3 feet in a yard,
 <p>In the metric system, a meter serves the same purpose as a yard. For smaller lengths, we use <term>centimeters (cm)</term>.  There are one hundred centimeters in 1 meter. Here is a picture of a ruler marked in both centimeters and inches. Notice that each centimeter is divided into 10 smaller units called <term>millimeters (mm)</term>.</p>
   <image source ="cmruler.png" width="60%"></image>
 
-<example><statement><p><ol marker="a">  
+<example><statement><p><ol marker="a.">  
   <li><p>The label on a picture frame says it is 65 centimeters wide. How many meters is that?</p></li>
   <li><p>What is the approximate width of the picture frame in English units?</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">  
+<solution><p><ol marker="a.">  
   <li><p>To convert centimeters to meters, we can multiply 65 centimeters by a unit fraction.
       <me>65 \cancel{\text{ centimeter}} \times \dfrac{1 \text{ meter}}{100 \cancel{\text{ centimeter}}} = \dfrac{65}{100} \text{ meter}</me>
   The frame is 0.65 meter wide.</p></li>
@@ -253,12 +253,12 @@ Can you explain each of these conversions? Use unit fractions if you like, then 
 
   <image source ="milliliter.png" width="60%"></image>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
   <li><p>The directions on a bottle of cold medicine say to take 30 cc every 6 hours. How much is that in fluid ounces?</p></li>
   <li><p>How many tablespoons are in one dose of the cold medicine?</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>First we'll convert 30 cc, or 30 milliliters, to quarts.
         <me>\dfrac{30}{100} \cancel {\text{ liter}} \times \dfrac{1.06 \text { quarts}}{1 \cancel{\text{ liter}}} = \dfrac{30 \times 1.06}{1000} \text{ quarts} = 0.0318 \text{ quarts}</me>
     There are 32 fluid ounces in a quart, so

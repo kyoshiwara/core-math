@@ -20,7 +20,7 @@
 <activity><title>Equations with Two Operations</title>
 
 <p>Emma can order T-shirts from a catalog for $5 each. She pays a $4 handling fee on her order.</p>
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><p>Write an algebraic expression for the cost of ordering <m>n</m> T-shirts.</p></li>
   <li><p>Write an equation for the number of T-shirts Emma can order with $34.</p></li>
   <li><p>Describe in words how to find the number of T-shirts Emma can order with $34. Your method should have two steps.</p>
@@ -43,13 +43,13 @@
           <mrow> 30 + 4 \amp = 34 ~~~~\blert{\text{True}}</mrow></md>
   The solution checks.  Emma can order 6 T-shirts with $34.</p></solution></example>
 
-<exercise><statement><p>Phoebe is stacking books on top of a footstoolthat is 30 centimeters tall . Each book is 3 centimeters thick.<ol marker="a">
+<exercise><statement><p>Phoebe is stacking books on top of a footstoolthat is 30 centimeters tall . Each book is 3 centimeters thick.<ol marker="a.">
   <li><p>Write an algebraic expression for the height of the top of a stack of <m>n</m> books.</p></li>
   <li><p>Write an equation for the number of books Phoebe needs for the stack to be 54 centimeters high.</p></li>
   <li><p>Describe how to solve your equation from part (b) in two steps.</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><m>30 + 3n</m></li>
   <li><m>30 + 3n = 54</m></li>
   <li><p>Subtract 30 from both sides, then divide both sides by 3.</p></li>
@@ -69,7 +69,7 @@ To open the gift, your friend will first unwrap the large box, and then unwrap t
 
 <p><m>\blert{\text{Question:}}</m>  What operations have been performed on the variable, <m>x</m>?</p>
 <p><m>\blert{\text{Answer:}}</m>    Imagine that you want to evaluate the expression <m>2x-5</m>. Following the order of operations, you would:
-<ol marker="1"> 
+<ol marker="1."> 
   <li><p>First multiply <m>x</m> by 2,</p></li> 
   <li><p>then subtract 5 from the result.</p></li>
 </ol></p>
@@ -104,7 +104,7 @@ The solution checks.</p>
 <p>Here is a summary of our strategy for solving equations.</p>
 
 <assemblage><title>To solve an equation</title>
-<p><ol marker="1">
+<p><ol marker="1.">
   <li><p>List the operations performed on the variable in order.</p></li>
   <li><p>Undo those operations in reverse order.</p></li>
 </ol></p></assemblage>
@@ -313,7 +313,7 @@ Each monthly payment will be $ <fillin characters="4"/> .</p>
 <subsection><title>Using Algebra to Solve Problems</title>
 
 <assemblage><title>A Quick Refresher</title>  
-<p><m>\blert{\text{Steps for Modeling a Problem}}</m> <ol marker="1">
+<p><m>\blert{\text{Steps for Modeling a Problem}}</m> <ol marker="1.">
 <li><p> Identify the unknown quantity and choose a variable to represent it.</p></li>
 <li><p>   Find some quantity that can be expressed in two different ways, and write an equation.</p></li>
 <li><p>   Solve the equation, and answer the question in the problem.</p></li>
@@ -352,7 +352,7 @@ Each monthly payment will be $ <fillin characters="4"/> .</p>
 
 <activity><title>Problem Solving</title>
 
-<p>Here are two more problems to try. <ol marker="1">
+<p>Here are two more problems to try. <ol marker="1.">
 
 <li><p>On the same quiz as Lloyd in the last Exercise 5 Lucy scored 18 out of 20, which was 2 points higher than her average over the previous 6 quizzes. How many points had Lucy accumulated over the first 6 quizzes?</p></li>
 

@@ -74,14 +74,14 @@ We write the product of two variables, or a number and a variable, next to each 
   </activity>
 
 <example><statement><p>Write each phrase as an algebraic expression.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>The product of 0.05 and <m>w</m></p></li>  
   <li><p>The sum of <m>D</m> and <m>\dfrac{3}{4}</m></p></li>
   <li><p>The product of <m>P</m> and <m>r</m></p></li>  
   <li><p>The sum of <m>l</m> and <m>w</m></p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a" cols="2">
+<solution><p><ol marker="a." cols="2">
   <li><p><m>0.05w</m></p></li>  
   <li><p><m>D + \dfrac{3}{4}</m></p></li>
   <li><p><m>Pr</m></p></li>  
@@ -95,12 +95,12 @@ We write the product of two variables, or a number and a variable, next to each 
   </ul></p></note>
 
 <exercise><statement><p>Write each phrase as an algebraic expression.</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p>The sum of <m>Q</m> and 1.3</p></li>
   <li><p>The product of 1.07 and <m>P</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>Q + 1.3</m></p></li>
   <li><p><m>1.07 P</m></p></li>
 </ol></p></answer></exercise>
@@ -187,14 +187,14 @@ We write the product of two variables, or a number and a variable, next to each 
   </activity>
 
 <example><statement><p> Write each phrase as an algebraic expression.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>16 subtracted from <m>z</m></p></li> 
   <li><p><m>m</m> divided by 6</p></li>
   <li><p> The difference of <m>R</m> and <m>C</m></p></li> 
   <li><p>The quotient of <m>P</m> and <m>n</m></p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a" cols="2">
+<solution><p><ol marker="a." cols="2">
   <li><p><m>z - 16</m></p></li> 
   <li><p><m>m \div 6</m> or <m>\dfrac{m}{6}</m></p></li>
   <li><p><m>R - C</m></p></li> 
@@ -216,12 +216,12 @@ We write the product of two variables, or a number and a variable, next to each 
 <p>For example, the "ratio of <m>T</m> to 100" means the quotient <m>\dfrac{T}{100}</m>.</p>
 
 <exercise><statement><p>Write each phrase as an algebraic expression.</p>
-  <p><ol marker="a" cols="2">
+  <p><ol marker="a." cols="2">
   <li><p>The ratio of 100 to <m>p</m></p></li>  
   <li><p><m>d</m> subtracted from 19.95</p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{100}{p}</m></p></li>  
   <li><p><m>19.95 - d</m></p></li>
 </ol></p></answer></exercise>
@@ -350,12 +350,12 @@ We write the product of two variables, or a number and a variable, next to each 
 </ol></p></activity>
 
 <example><statement><p>Write algebraic expressions for each phrase.</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p>Five-eighths of <m>M</m></p></li> 
   <li><p>Four less than  <m>w</m></p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a" cols="2">
+<solution><p><ol marker="a." cols="2">
   <li><p><m>\dfrac{5}{8}M</m></p></li> 
   <li><p><m>w - 4</m></p></li>
 </ol></p></solution></example>
@@ -363,12 +363,12 @@ We write the product of two variables, or a number and a variable, next to each 
 <note><p>In part (a) of Example 2.4.9, notice that "of" means multiplication when used with fractions. The same is true for percents. For example, "35% of <m>P</m>"  is written as  <m>0.35 P</m></p></note>
 
 <exercise><statement><p>Write algebraic expressions for each phrase.</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
   <li><p>Six greater than <m>h</m></p></li> 
   <li><p>The product of 9 and <m>c</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a" cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>h + 6</m></p></li> 
   <li><p><m>9c</m></p></li>
 </ol></p></answer></exercise>
@@ -379,7 +379,7 @@ We write the product of two variables, or a number and a variable, next to each 
 <p>Now we are ready to use algebraic expressions to describe variable situations. If we know the value of the variable, we can substitute this value into the expression and simplify the result. This process is called <term>evaluating</term> the algebraic expression.</p>
 
 <example><statement><p>If  Martha puts <m>g</m> gallons of gas in her car, she can drive <m>22g</m> miles.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>How many miles can Martha drive if she buys 8 gallons of gas?</p></li>
   <li><p>Explain how to find the number of miles Martha can drive if she buys <m>g</m> gallons of gas.</p></li>
   <li><p>Evaluate the expression <m>22g</m> for the given values of <m>g</m>.</p>
@@ -406,7 +406,7 @@ We write the product of two variables, or a number and a variable, next to each 
     </tabular></p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>Martha can drive <m>22 \cdot 8</m>, or 176 miles.</p></li>
   <li><p>We multiply the number of gallons, <m>g</m>, by 22.</p></li>
   <li><p>We multiply each value of <m>g</m> by 22 and fill in the table.</p>
@@ -434,7 +434,7 @@ We write the product of two variables, or a number and a variable, next to each 
   </ol></p></solution></example>
 
 <exercise><statement><p>There is a room tax on all hotel bills. When the bill is <m>B</m> dollars, the tax is <m>0.08B</m>  dollars.</p>
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>How much is the tax on $100?</p></li>
   <li><p>Explain how to find the tax when the bill is <m>B</m> dollars.</p></li>
   <li><p>Evaluate the expression <m>0.08B</m> for the given values of <m>B</m>.</p>
@@ -457,7 +457,7 @@ We write the product of two variables, or a number and a variable, next to each 
     </tabular></p></li>
   </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p>$8</p></li>
   <li><p>Multiply <m>B</m> by 0.08.</p></li>
   <li>
@@ -480,12 +480,12 @@ We write the product of two variables, or a number and a variable, next to each 
     </tabular></p></li>
   </ol></p></answer></exercise>
 
-<example><statement><p><ol marker="a">
+<example><statement><p><ol marker="a.">
     <li><p>Evaluate <m>y + 14</m>  for <m>y = \alert{7}</m></p></li>
     <li><p>Evaluate <m>3xz</m> for <m>x = \alert{5}</m> and <m>z = \alert{4}</m>.</p></li>
   </ol></p></statement>
 
-  <solution><p><ol marker="a">
+  <solution><p><ol marker="a.">
     <li><p>We replace <m>y</m> by <m>\alert{7}</m> to get
       <me>y + 14 = \alert{7} + 14 = 21~~~~~~~~ \blert{\text{Add 14 to 7.}}</me></p></li>
     <li><p>We replace <m>x</m> by <m>\alert{5}</m> and <m>z</m> by <m>\alert{4}</m> to get
@@ -493,13 +493,13 @@ We write the product of two variables, or a number and a variable, next to each 
     </ol></p></solution></example>
 
 <exercise><statement><p>Evaluate each expression for <m>a = \alert{0.3},~b = \alert{1.2}</m>, and <m>c = \alert{6}</m>.</p>
-<p><ol marker="a" cols="3">
+<p><ol marker="a." cols="3">
     <li><p><m>8.4-b</m></p></li>
     <li><p><m>\dfrac{9}{a}</m></p></li>
     <li><p><m>5bc</m></p></li>
   </ol></p></statement>
 
-<answer><p><ol marker="a" cols="3">
+<answer><p><ol marker="a." cols="3">
     <li><p><m>7.2</m></p></li>
     <li><p><m>30</m></p></li>
     <li><p><m>36</m></p></li>
@@ -526,13 +526,13 @@ We write the product of two variables, or a number and a variable, next to each 
       <cell><m>\dfrac{6}{n}</m></cell></row>
     </tabular></p></assemblage>
 
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>Rashad is 6 years younger than Shelley. If Shelley is <m>n</m> years old, how old is Rashad?</p></li>
   <li><p>Each package of sodas contains 6 cans. If Antoine bought <m>n</m> packages of sodas, how many cans did he buy?</p></li>
   <li><p> Lizette and Patrick together own 6 cats. If Lizette owns <m>n</m> cats, how many cats does Patrick own?</p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
   <li><p>We subtract 6 from Shelley's age to get: <m>~~n-6</m></p></li>
   <li><p>We multiply the number of packages by 6 to get:  <m>~~6n</m></p></li>
   <li><p>We subtract the number of Lizette's cats from the total number of cats to get: <m>~~6-n</m></p></li> 
@@ -554,13 +554,13 @@ We write the product of two variables, or a number and a variable, next to each 
       <cell><m>\dfrac{5}{v}</m></cell></row>
     </tabular></p></assemblage>
 
-<p><ol marker="a">
+<p><ol marker="a.">
   <li><p>The volume of a standard vat is <m>v</m> liters. What is the total volume of 5 standard vats?</p></li>
   <li><p>The maximum velocity of a jet ski is <m>v</m> miles per hour. How fast can the jet ski travel against a current, if the speed of the current is 5 miles per hour?</p></li>
   <li><p>Each batch of cookies requires <m>v</m> teaspoons of vanilla. How many batches can be made with 5 teaspoons of vanilla?</p></li>
   </ol></p></statement>
 
-<answer><p><ol marker="a">
+<answer><p><ol marker="a.">
   <li><p><m>5v</m> liters</p></li>
   <li><p><m>v - 5</m> miles per hour</p></li>
   <li><p><m>\dfrac{5}{v}</m> batches</p></li>
