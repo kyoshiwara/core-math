@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US">
+<html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>More About Similarity</title>
@@ -14,68 +14,93 @@
 <meta property="og:type" content="book">
 <meta property="book:title" content="Core Mathematics">
 <meta property="book:author" content="Katherine Yoshiwara">
-<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
-  tex: {
-    inlineMath: [['\\(','\\)']],
-    tags: "none",
-    tagSide: "right",
-    tagIndent: ".8em",
-    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
   },
-  options: {
-    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
-    processHtmlClass: "process-math",
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
   },
-  chtml: {
-    scale: 0.98,
-    mtextInheritFont: true
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
   },
-  loader: {
-    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
-    paths: {pretext: "https://pretextbook.org/js/lib"},
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
   },
-  startup: {
+  "startup": {
     pageReady() {
       return MathJax.startup.defaultPageReady().then(function () {
       console.log("in ready function");
       rsMathReady();
       }
     )}
-  },
+  }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
-<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/style_oscarlevin.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
 </head>
 <body class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
-<a id="logo-link" href=""></a><div class="title-container">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
 <h1 class="heading"><a href="my-great-book.html"><span class="title">Core Mathematics</span></a></h1>
 <p class="byline">Katherine Yoshiwara</p>
 </div>
-<div id="searchresultsplaceholder" style="display: none">
-<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
 </h2>
-<div id="searchempty"><span>No results.</span></div>
-<ol id="searchresults"></ol>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
 </div>
-</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
 <li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
 <ol class="hidden avatar">
 <li data-val="You!" tabindex="-1">
@@ -178,7 +203,7 @@ window.MathJax = {
 </ol>
 </li>
 </ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec-6-4.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch6.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="ch7.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
-<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -198,13 +223,11 @@ window.MathJax = {
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar"><nav id="ptx-toc" class="depth2"><ul class="structural">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
 <li>
 <div class="toc-item"><a href="meta_frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural">
 <li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
-<li><div class="toc-item"><a href="dedication-1.html" class="internal"><span class="title">Dedication</span></a></div></li>
-<li><div class="toc-item"><a href="acknowledgement-1.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li><div class="toc-item"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
 </ul>
 </li>
@@ -229,7 +252,7 @@ window.MathJax = {
 <ul class="structural">
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-8" class="internal"><span class="codenumber">1.2.1</span> <span class="title">One-Tenth</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-9" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Fractions in Tenths</span></a></div></li>
-<li><div class="toc-item"><a href="sec-1-2.html#subsection-10" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Tenths and Fifths, Reducing Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#reducing" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Tenths and Fifths, Reducing Fractions</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-11" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Hundredths</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-12" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Decimal Form</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-13" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Vocabulary</span></a></div></li>
@@ -242,7 +265,7 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-14" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Factors</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-15" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Primes and Composites</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-16" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Greatest Common Factor</span></a></div></li>
-<li><div class="toc-item"><a href="sec-1-3.html#subsection-17" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Lowest Common Multiple</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#lcm" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Lowest Common Multiple</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-18" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#prac-1-3" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Practice 1.3</span></a></div></li>
 </ul>
@@ -253,7 +276,7 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-19" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Angles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-20" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Measuring Angles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-21" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Using a Protractor</span></a></div></li>
-<li><div class="toc-item"><a href="sec-1-4.html#subsection-22" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#triangles" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Triangles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-23" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Sides and Angles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-24" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#prac-1-4" class="internal"><span class="codenumber">1.4.7</span> <span class="title">Practice 1.4</span></a></div></li>
@@ -280,8 +303,8 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-29" class="internal"><span class="codenumber">2.1.1</span> <span class="title">The Metric System</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-30" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Place Value</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-31" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Comparing Decimal Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-1.html#subsection-32" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Fractions to Decimals</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-1.html#subsection-33" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Rounding and Estimating</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#fractodec" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Fractions to Decimals</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#rounding" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Rounding and Estimating</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-34" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#prac-2-1" class="internal"><span class="codenumber">2.1.7</span> <span class="title">Practice 2.1</span></a></div></li>
 </ul>
@@ -295,40 +318,41 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-2-2.html#subsection-38" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Eighths</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-2.html#subsection-39" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Thirds</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-2.html#subsection-40" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Decimal Form of One-Third</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-2.html#prac-2-2" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Practice 2.2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-41" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#prac-2-2" class="internal"><span class="codenumber">2.2.8</span> <span class="title">Practice 2.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-2-3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Variables</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-41" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What is a Variable?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-42" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Bar Graphs</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-43" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Using Letters for Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-44" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Vocabuary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-42" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What is a Variable?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#bargraph" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Bar Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-44" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Using Letters for Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-45" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Vocabuary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-3.html#prac-2-3" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Practice 2.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-2-4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Algebraic Expressions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-45" class="internal"><span class="codenumber">2.4.1</span> <span class="title">What is an Algebraic Expression?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-46" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Sums and Products</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-47" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Differences and Quotients</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-48" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Using Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-49" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-50" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-51" class="internal"><span class="codenumber">2.4.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-46" class="internal"><span class="codenumber">2.4.1</span> <span class="title">What is an Algebraic Expression?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-47" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Sums and Products</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-48" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Differences and Quotients</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-49" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Using Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-50" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-51" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-52" class="internal"><span class="codenumber">2.4.7</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-4.html#prac-2-4" class="internal"><span class="codenumber">2.4.8</span> <span class="title">Practice 2.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-2-5.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Equations</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-52" class="internal"><span class="codenumber">2.5.1</span> <span class="title">What Is an Equation?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-53" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Solution of an Equation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-54" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Finding Solutions: Opposite Operations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-55" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Isolating the Variable</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-56" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-53" class="internal"><span class="codenumber">2.5.1</span> <span class="title">What Is an Equation?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-54" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Solution of an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-55" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Finding Solutions: Opposite Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#solve1" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Isolating the Variable</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-57" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-5.html#prac-2-5" class="internal"><span class="codenumber">2.5.6</span> <span class="title">Practice 2.5</span></a></div></li>
 </ul>
 </li>
@@ -340,56 +364,56 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-3-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Volume and Surface Area</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-57" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Surface Area</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-58" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Boxes and Cubes</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-59" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Volume</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-60" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-58" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Surface Area</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-59" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Boxes and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-60" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-61" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-1.html#prac-3-1" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Practice 3.1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Exponents</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-61" class="internal"><span class="codenumber">3.2.1</span> <span class="title">A New Notation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-62" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Squares and Cubes</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-63" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Products and Powers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-64" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-65" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#exponents" class="internal"><span class="codenumber">3.2.1</span> <span class="title">A New Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-63" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Squares and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-64" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Products and Powers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#pythagoras" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-66" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-2.html#prac-3-2" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Practice 3.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Units of Measure</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-66" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Length</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-67" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Metric Units</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-68" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Area and Volume</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-69" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Liquid Measure</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-70" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-67" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Length</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-68" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Metric Units</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-69" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Area and Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-70" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Liquid Measure</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-71" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-3.html#prac-3-3" class="internal"><span class="codenumber">3.3.6</span> <span class="title">Practice 3.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-4.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Circles and Spheres</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-71" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Perimeter</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-72" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Circumference of a Circle</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-73" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Area of a Circle</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-74" class="internal"><span class="codenumber">3.4.4</span> <span class="title">A Formula for the Area of a Circle</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-75" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Volume of a Sphere</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-76" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-72" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Perimeter</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-73" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Circumference of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-74" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-75" class="internal"><span class="codenumber">3.4.4</span> <span class="title">A Formula for the Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-76" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Volume of a Sphere</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-77" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-4.html#prac-3-4" class="internal"><span class="codenumber">3.4.7</span> <span class="title">Practice 3.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-5.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Large Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-77" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Millions and Billions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-78" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Multiplying by Powers of Ten</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-79" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Using Powers of Ten</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-80" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Scientific Notation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-81" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-82" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-78" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Millions and Billions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-79" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Multiplying by Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-80" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Using Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-81" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Scientific Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-82" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-83" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-5.html#prac-3-5" class="internal"><span class="codenumber">3.5.7</span> <span class="title">Practice 3.5</span></a></div></li>
 </ul>
 </li>
@@ -401,59 +425,59 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-4-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Adding and Subtracting Fractions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-83" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Like Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-84" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Smaller Pieces</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-85" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Adding Unlike Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-86" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Lowest Common Denominator</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-87" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Three Steps for Adding Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-88" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-84" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Like Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-85" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Smaller Pieces</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-86" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Adding Unlike Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-87" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Lowest Common Denominator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-88" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Three Steps for Adding Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-89" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-1.html#prac-4-1" class="internal"><span class="codenumber">4.1.7</span> <span class="title">Practice 4.1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Multiplying and Dividing Fractions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-89" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Take Part</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-90" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Multiplying by a Fraction</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-91" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Dividing by a Fraction</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-92" class="internal"><span class="codenumber">4.2.4</span> <span class="title">More Dividing by Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-93" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-90" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Take Part</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-91" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Multiplying by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-92" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Dividing by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-93" class="internal"><span class="codenumber">4.2.4</span> <span class="title">More Dividing by Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-94" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-2.html#prac-4-2" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Practice 4.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Roots and Radicals</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-94" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What Is a Square Root?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-95" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Approximating Square Roots</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-96" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Squares and Square Roots</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-97" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-98" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-95" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What Is a Square Root?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-96" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Approximating Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-97" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Squares and Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-98" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-99" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-3.html#prac-4-3" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Practice 4.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Negative Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-99" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Opposites</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-100" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Signed Numbers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-101" class="internal"><span class="codenumber">4.4.3</span> <span class="title">The Integers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-102" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Graphing on a Number Line</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-103" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Indicating Change with Signed Numbers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-104" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#negnos" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Opposites</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-101" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#integers" class="internal"><span class="codenumber">4.4.3</span> <span class="title">The Integers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-103" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Graphing on a Number Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-104" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Indicating Change with Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-105" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-4.html#prac-4-4" class="internal"><span class="codenumber">4.4.7</span> <span class="title">Practice 4.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Order of Operations</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-105" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Which Operations Come First</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-106" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Combined Operations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-107" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Parentheses</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-108" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Fraction Bars</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-109" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-110" class="internal"><span class="codenumber">4.5.6</span> <span class="title">Exponents and Roots</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-111" class="internal"><span class="codenumber">4.5.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-106" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Which Operations Come First</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-107" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Combined Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-108" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Parentheses</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-109" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Fraction Bars</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-110" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-111" class="internal"><span class="codenumber">4.5.6</span> <span class="title">Exponents and Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-112" class="internal"><span class="codenumber">4.5.7</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-5.html#prac-4-5" class="internal"><span class="codenumber">4.5.8</span> <span class="title">Practice 4.5</span></a></div></li>
 </ul>
 </li>
@@ -465,53 +489,55 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-5-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Working with Variables</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-112" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Like Terms</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-113" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Equivalent Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-114" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Constant Multiples of Terms</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-115" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Terms with Exponents</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-116" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Multiplying Variable Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-117" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-118" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-113" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Like Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-114" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Equivalent Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-115" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Constant Multiples of Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-116" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Terms with Exponents</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-117" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Multiplying Variable Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-118" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-119" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-5-1.html#prac-5-1" class="internal"><span class="codenumber">5.1.8</span> <span class="title">Practice 5.1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">More Algebraic Expressions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-2.html#subsection-119" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-2.html#subsection-120" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-2.html#subsection-121" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Formulas</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-2.html#prac-5-2" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Practice 5.2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-120" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-121" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-122" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-123" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#prac-5-2" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Practice 5.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Problem Solving</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-3.html#subsection-122" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Using Formulas</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-3.html#subsection-123" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Writing an Equation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-3.html#subsection-124" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Modeling a Problem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-124" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Using Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-125" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Writing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-126" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Modeling a Problem</span></a></div></li>
 <li><div class="toc-item"><a href="sec-5-3.html#prac-5-3" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Practice 5.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">More Equations</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-125" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Equations with Two Operations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-126" class="internal"><span class="codenumber">5.4.2</span> <span class="title">A Strategy for Solving Equations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-127" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Formulas</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-128" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Problem Solving</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-129" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Using Algebra to Solve Problems</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#solve2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Equations with Two Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-128" class="internal"><span class="codenumber">5.4.2</span> <span class="title">A Strategy for Solving Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-129" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-130" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Problem Solving</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-131" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Using Algebra to Solve Problems</span></a></div></li>
 <li><div class="toc-item"><a href="sec-5-4.html#prac-5-4" class="internal"><span class="codenumber">5.4.6</span> <span class="title">Practice 5.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-5.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Graphs</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-130" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Line Graphs</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-131" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Plotting Points</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-132" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Graphing an Equation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-133" class="internal"><span class="codenumber">5.5.4</span> <span class="title">Reading a Graph</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#prac-5-5" class="internal"><span class="codenumber">5.5.5</span> <span class="title">Practice 5.5</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-132" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Line Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#plotpoints" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Plotting Points</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#grapheqn" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Graphing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-135" class="internal"><span class="codenumber">5.5.4</span> <span class="title">Reading a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-136" class="internal"><span class="codenumber">5.5.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#prac-5-5" class="internal"><span class="codenumber">5.5.6</span> <span class="title">Practice 5.5</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -522,53 +548,55 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-6-1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Ratios</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-134" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Quantities</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-135" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Ratios</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-136" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Decimal Form for Ratios</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-137" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Rates</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#prac-6-1" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Practice 6-1</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-137" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Quantities</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-138" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-139" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Decimal Form for Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-140" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Rates</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-141" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#prac-6-1" class="internal"><span class="codenumber">6.1.6</span> <span class="title">Practice 6-1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Proportion</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-138" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Proportional Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-139" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Proportional Reasoning</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-140" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Using Proportions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-141" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Graphing Proportional Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#prac-6-2" class="internal"><span class="codenumber">6.2.5</span> <span class="title">Practice 6-2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-142" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-143" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Proportional Reasoning</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-144" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Using Proportions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-145" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Graphing Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-146" class="internal"><span class="codenumber">6.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#prac-6-2" class="internal"><span class="codenumber">6.2.6</span> <span class="title">Practice 6-2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Slope</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-142" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Equations Relating Proportional Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-143" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Steepness of the Graph</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-144" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Rate of Increase</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-145" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Visulaizing Growth Rate on a Graph</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-146" class="internal"><span class="codenumber">6.3.5</span> <span class="title">Slope of a Line</span></a></div></li>
-<li>
-<div class="toc-item"><a href="sec-6-3.html#subsection-147" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Decreasing Graphs</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="sec-6-3.html#prac-6-3" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Practice 6-3</span></a></div></li></ul>
-</li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-147" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Equations Relating Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-148" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Steepness of the Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-149" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Rate of Increase</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-150" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Visualizing Growth Rate on a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-151" class="internal"><span class="codenumber">6.3.5</span> <span class="title">Slope of a Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-152" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Decreasing Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-153" class="internal"><span class="codenumber">6.3.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#prac-6-3" class="internal"><span class="codenumber">6.3.8</span> <span class="title">Practice 6-3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-4.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Similarity</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-148" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Similar Figures</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-149" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Scale Factors</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-150" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Ratio and Proportion</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-151" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Conditions for Similarity</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-152" class="internal"><span class="codenumber">6.4.5</span> <span class="title">Similar Triangles</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#prac-6-4" class="internal"><span class="codenumber">6.4.6</span> <span class="title">Practice 6-4</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-154" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-155" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Scale Factors</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-156" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Ratio and Proportion</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-157" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Conditions for Similarity</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-158" class="internal"><span class="codenumber">6.4.5</span> <span class="title">Similar Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-159" class="internal"><span class="codenumber">6.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#prac-6-4" class="internal"><span class="codenumber">6.4.7</span> <span class="title">Practice 6-4</span></a></div></li>
 </ul>
 </li>
 <li class="active">
 <div class="toc-item"><a href="sec-6-5.html" class="internal"><span class="codenumber">6.5</span> <span class="title">More About Similarity</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-5.html#subsection-153" class="internal"><span class="codenumber">6.5.1</span> <span class="title">Areas of Similar Figures</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-5.html#subsection-154" class="internal"><span class="codenumber">6.5.2</span> <span class="title">Volumes of Proportional Solids</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-160" class="internal"><span class="codenumber">6.5.1</span> <span class="title">Areas of Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-161" class="internal"><span class="codenumber">6.5.2</span> <span class="title">Volumes of Proportional Solids</span></a></div></li>
 <li><div class="toc-item"><a href="sec-6-5.html#prac-6-5" class="internal"><span class="codenumber">6.5.3</span> <span class="title">Practice 6-5</span></a></div></li>
 </ul>
 </li>
@@ -580,40 +608,44 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-7-1.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Adding Signed Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-155" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Adding Two Numbers with the Same Sign</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-156" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Adding Two Numbers with Opposite Signs</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-157" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Rules for Addition</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-158" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Net Change</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#prac-7-1" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Practice 7-1</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-162" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Adding Two Numbers with the Same Sign</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-163" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Adding Two Numbers with Opposite Signs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#addrules" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Rules for Addition</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-165" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Net Change</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-166" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#prac-7-1" class="internal"><span class="codenumber">7.1.6</span> <span class="title">Practice 7-1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-7-2.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Subtracting Signed Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-159" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Subtracting a Positive Number</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-160" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Subtracting a Negative Number</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-161" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Rule for Subtraction</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-162" class="internal"><span class="codenumber">7.2.4</span> <span class="title">Notation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#prac-7-2" class="internal"><span class="codenumber">7.2.5</span> <span class="title">Practice 7-2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-167" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Subtracting a Positive Number</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-168" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Subtracting a Negative Number</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-169" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Rule for Subtraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-170" class="internal"><span class="codenumber">7.2.4</span> <span class="title">Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-171" class="internal"><span class="codenumber">7.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#prac-7-2" class="internal"><span class="codenumber">7.2.6</span> <span class="title">Practice 7-2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-7-3.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Multiplying and Dividing Signed Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-3.html#subsection-163" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Multiplication</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-3.html#subsection-164" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Division</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-3.html#subsection-165" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Powers of Negative Numbers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-3.html#prac-7-3" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Practice 7-3</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-172" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Multiplication</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-173" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Division</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-174" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Powers of Negative Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-175" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#prac-7-3" class="internal"><span class="codenumber">7.3.5</span> <span class="title">Practice 7-3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-7-4.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Equations and Graphs</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-166" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Solving Equations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-167" class="internal"><span class="codenumber">7.4.2</span> <span class="title">The Cartesian Coordinate System</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-168" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Plotting Points</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-169" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Graphing Lines</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-170" class="internal"><span class="codenumber">7.4.5</span> <span class="title">Applications of Linear Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-176" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Solving Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-177" class="internal"><span class="codenumber">7.4.2</span> <span class="title">The Cartesian Coordinate System</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-178" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Plotting Points</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-179" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Graphing Lines</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-180" class="internal"><span class="codenumber">7.4.5</span> <span class="title">Applications of Linear Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-181" class="internal"><span class="codenumber">7.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -621,9 +653,8 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="solutions-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Selected Exercises and Homework Problems</span></a></div></li>
-<li><div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></div></li>
-<li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li><div class="toc-item"><a href="solutions-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Odd-Numbered Homework Problems</span></a></div></li>
+<li><div class="toc-item"><a href="glossary-1.html" class="internal"><span class="title">Glossary</span></a></div></li>
 <li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
 </ul>
 </li>
@@ -632,157 +663,157 @@ window.MathJax = {
 <span class="type">Section</span> <span class="codenumber">6.5</span> <span class="title">More About Similarity</span>
 </h2>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:10%;">
-<div class="sbspanel middle" style="width:58.8235294117647%;"><div class="para logical" id="p-8108"><ul class="disc">
-<li id="li-3517"><div class="para" id="p-8109">Areas of Similar Figures</div></li>
-<li id="li-3518"><div class="para" id="p-8110">Volumes of Proportional Solids</div></li>
+<div class="sbspanel middle" style="width:58.8235294117647%;"><div class="para logical" id="p-8171"><ul class="disc">
+<li id="li-3564"><div class="para" id="p-8172">Areas of Similar Figures</div></li>
+<li id="li-3565"><div class="para" id="p-8173">Volumes of Proportional Solids</div></li>
 </ul></div></div>
 <div class="sbspanel middle" style="width:35.2941176470588%;"><img src="external/cannisters.png" class="contained"></div>
 </div></div>
-<section class="introduction" id="introduction-246"><article class="assemblage assemblage-like" id="assemblage-178"><h3 class="heading"><span class="title">A Quick Refresher.</span></h3>
-<div class="para logical" id="p-8111">
+<section class="introduction" id="introduction-246"><article class="assemblage assemblage-like" id="assemblage-179"><h3 class="heading"><span class="title">A Quick Refresher.</span></h3>
+<div class="para logical" id="p-8174">
 <div class="para">Two figures are similar if, and only if</div>
 <ol class="decimal">
-<li id="li-3519"><div class="para" id="p-8112">Their corresponding angles are equal, and</div></li>
-<li id="li-3520"><div class="para" id="p-8113">Their corresponding sides are proportional.</div></li>
+<li id="li-3566"><div class="para" id="p-8175">Their corresponding angles are equal, and</div></li>
+<li id="li-3567"><div class="para" id="p-8176">Their corresponding sides are proportional.</div></li>
 </ol>
-</div></article> <div class="para" id="p-8114">The ratio of corresponding sides in similar figures is constant. But what about the ratio of the areas of the two figures?  Will the ratio of the areas be the same as the ratio of the sides?</div></section><section class="subsection" id="subsection-153"><h3 class="heading hide-type">
+</div></article> <div class="para" id="p-8177">The ratio of corresponding sides in similar figures is constant. But what about the ratio of the areas of the two figures?  Will the ratio of the areas be the same as the ratio of the sides?</div></section><section class="subsection" id="subsection-160"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">6.5.1</span> <span class="title">Areas of Similar Figures</span>
 </h3>
-<div class="para" id="p-8115">The Pizza Company sells its 8-inch cheese pizza for $5.00 and its 16-inch cheese pizza for $15.00. Which is the better deal:  three 8-inch pizzas for $15.00, or one 16-inch pizza for $15.00?</div>
+<div class="para" id="p-8178">The Pizza Company sells its 8-inch cheese pizza for $5.00 and its 16-inch cheese pizza for $15.00. Which is the better deal:  three 8-inch pizzas for $15.00, or one 16-inch pizza for $15.00?</div>
 <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/pizzas.png" class="contained"></div>
-<div class="para" id="p-8116">At first it might seem that the smaller pizzas are a better deal, since doubling the diameter of the pizza tripled its price. But with pizza, the better deal is the one that gives you the most pizza for your money, and because pizzas are flat, that means the most area.</div>
-<div class="para" id="p-8117">
+<div class="para" id="p-8179">At first it might seem that the smaller pizzas are a better deal, since doubling the diameter of the pizza tripled its price. But with pizza, the better deal is the one that gives you the most pizza for your money, and because pizzas are flat, that means the most area.</div>
+<div class="para" id="p-8180">
 <span class="process-math">\(\blert{\text{Question:}}\)</span> Does doubling the diameter of a pizza double its area?</div>
-<div class="para" id="p-8118">What about square pizzas? Does a 20-inch square pizza have twice the area of a 10-inch square pizza? In general, if we increase the dimensions of a figure by a particular scale factor, will its area also increase by the same factor?</div>
+<div class="para" id="p-8181">What about square pizzas? Does a 20-inch square pizza have twice the area of a 10-inch square pizza? In general, if we increase the dimensions of a figure by a particular scale factor, will its area also increase by the same factor?</div>
 <article class="activity project-like" id="activity-71"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.5.1</span><span class="period">.</span><span class="space"> </span><span class="title">Scaling Areas.</span>
-</h4> <div class="para" id="p-8119"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:15%;">
-<div class="sbspanel middle" style="width:82.3529411764706%;"><div class="para" id="p-8120">What happens to the area of a square when we scale up its dimensions? We'll start with a square that measures 3 inches on each side:</div></div>
+</h4> <div class="para" id="p-8182"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:15%;">
+<div class="sbspanel middle" style="width:82.3529411764706%;"><div class="para" id="p-8183">What happens to the area of a square when we scale up its dimensions? We’ll start with a square that measures 3 inches on each side:</div></div>
 <div class="sbspanel middle" style="width:11.7647058823529%;"><img src="external/three-in.png" class="contained"></div>
-</div></div></div> <div class="para logical" id="p-8121"><ol class="decimal">
-<li id="li-3521">
-<div class="para" id="p-8122">What is the area of the original square?</div>
-<div class="para" id="p-8123">Area = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+</div></div></div> <div class="para logical" id="p-8184"><ol class="decimal">
+<li id="li-3568">
+<div class="para" id="p-8185">What is the area of the original square?</div>
+<div class="para" id="p-8186">Area = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div>
 </li>
-<li id="li-3522">
-<div class="para" id="p-8124">Let's double the side of the square.  Compute the area of the new square.</div>
+<li id="li-3569">
+<div class="para" id="p-8187">Let’s double the side of the square.  Compute the area of the new square.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:5%;">
-<div class="sbspanel middle" style="width:31.5789473684211%;"><div class="para" id="p-8125">Area = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<div class="sbspanel middle" style="width:31.5789473684211%;"><div class="para" id="p-8188">Area = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></div>
 <div class="sbspanel middle" style="width:21.0526315789474%;"><img src="external/six-in.png" class="contained"></div>
-<div class="sbspanel middle" style="width:31.5789473684211%;"><div class="para" id="p-8126">side = 6 inches</div></div>
+<div class="sbspanel middle" style="width:31.5789473684211%;"><div class="para" id="p-8189">side = 6 inches</div></div>
 </div></div>
 </li>
-<li id="li-3523">
-<div class="para" id="p-8127">Now we'll compute some scale factors.</div>
-<div class="para logical" id="p-8128">
+<li id="li-3570">
+<div class="para" id="p-8190">Now we’ll compute some scale factors.</div>
+<div class="para logical" id="p-8191">
 <div class="para">Scale factor for dimensions:</div>
 <ul class="disc">
-<li id="li-3524"><div class="para" id="p-8129">Ratio of new side to original side: <span class="process-math">\(\dfrac{\text{new side}}{\text{original side}} = \fillinmath{XXX}\)</span>
+<li id="li-3571"><div class="para" id="p-8192">Ratio of new side to original side: <span class="process-math">\(\dfrac{\text{new side}}{\text{original side}} = \fillinmath{XXX}\)</span>
 </div></li>
-<li id="li-3525"><div class="para" id="p-8130">The original dimensions are scaled by a factor of <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<li id="li-3572"><div class="para" id="p-8193">The original dimensions are scaled by a factor of <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></li>
 </ul>
 </div>
-<div class="para logical" id="p-8131">
+<div class="para logical" id="p-8194">
 <div class="para">Scale factor for areas:</div>
 <ul class="disc">
-<li id="li-3526"><div class="para" id="p-8132">Ratio of new area to original area: <span class="process-math">\(\dfrac{\text{new area}}{\text{original area}} = \fillinmath{XXX}\)</span>
+<li id="li-3573"><div class="para" id="p-8195">Ratio of new area to original area: <span class="process-math">\(\dfrac{\text{new area}}{\text{original area}} = \fillinmath{XXX}\)</span>
 </div></li>
-<li id="li-3527"><div class="para" id="p-8133">The original area is scaled by a factor of <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<li id="li-3574"><div class="para" id="p-8196">The original area is scaled by a factor of <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></li>
 </ul>
 </div>
-<div class="para" id="p-8134"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:15%;">
-<div class="sbspanel middle" style="width:47.0588235294118%;"><div class="para" id="p-8135">How many of the original squares fit inside the new square?</div></div>
+<div class="para" id="p-8197"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:15%;">
+<div class="sbspanel middle" style="width:47.0588235294118%;"><div class="para" id="p-8198">How many of the original squares fit inside the new square?</div></div>
 <div class="sbspanel middle" style="width:11.7647058823529%;"><img src="external/three-in.png" class="contained"></div>
 <div class="sbspanel middle" style="width:23.5294117647059%;"><img src="external/six-in.png" class="contained"></div>
 </div></div></div>
 </li>
-<li id="li-3528">
-<div class="para" id="p-8136">What happens if we triple the original side? Compute the area of the new square.</div>
+<li id="li-3575">
+<div class="para" id="p-8199">What happens if we triple the original side? Compute the area of the new square.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:5%;">
-<div class="sbspanel middle" style="width:26.3157894736842%;"><div class="para" id="p-8137">Area = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<div class="sbspanel middle" style="width:26.3157894736842%;"><div class="para" id="p-8200">Area = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></div>
 <div class="sbspanel middle" style="width:31.5789473684211%;"><img src="external/nine-in.png" class="contained"></div>
-<div class="sbspanel middle" style="width:31.5789473684211%;"><div class="para" id="p-8138">side = 9 inches</div></div>
+<div class="sbspanel middle" style="width:31.5789473684211%;"><div class="para" id="p-8201">side = 9 inches</div></div>
 </div></div>
 </li>
-<li id="li-3529">
-<div class="para" id="p-8139">Compute scale factors again.</div>
-<div class="para logical" id="p-8140">
+<li id="li-3576">
+<div class="para" id="p-8202">Compute scale factors again.</div>
+<div class="para logical" id="p-8203">
 <div class="para">Scale factor for dimensions:</div>
 <ul class="disc">
-<li id="li-3530"><div class="para" id="p-8141">Ratio of new side to original side: <span class="process-math">\(\dfrac{\text{new side}}{\text{original side}} = \fillinmath{XXX}\)</span>
+<li id="li-3577"><div class="para" id="p-8204">Ratio of new side to original side: <span class="process-math">\(\dfrac{\text{new side}}{\text{original side}} = \fillinmath{XXX}\)</span>
 </div></li>
-<li id="li-3531"><div class="para" id="p-8142">The original dimensions are scaled by a factor of <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<li id="li-3578"><div class="para" id="p-8205">The original dimensions are scaled by a factor of <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></li>
 </ul>
 </div>
-<div class="para logical" id="p-8143">
+<div class="para logical" id="p-8206">
 <div class="para">Scale factor for areas:</div>
 <ul class="disc">
-<li id="li-3532"><div class="para" id="p-8144">Ratio of new area to original area: <span class="process-math">\(\dfrac{\text{new area}}{\text{original area}} = \fillinmath{XXX}\)</span>
+<li id="li-3579"><div class="para" id="p-8207">Ratio of new area to original area: <span class="process-math">\(\dfrac{\text{new area}}{\text{original area}} = \fillinmath{XXX}\)</span>
 </div></li>
-<li id="li-3533"><div class="para" id="p-8145">The original area is scaled by a factor of <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<li id="li-3580"><div class="para" id="p-8208">The original area is scaled by a factor of <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></li>
 </ul>
 </div>
-<div class="para" id="p-8146"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:15%;">
-<div class="sbspanel middle" style="width:35.2941176470588%;"><div class="para" id="p-8147">How many of the original squares fit inside the new square?</div></div>
+<div class="para" id="p-8209"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:15%;">
+<div class="sbspanel middle" style="width:35.2941176470588%;"><div class="para" id="p-8210">How many of the original squares fit inside the new square?</div></div>
 <div class="sbspanel middle" style="width:11.7647058823529%;"><img src="external/three-in.png" class="contained"></div>
 <div class="sbspanel middle" style="width:35.2941176470588%;"><img src="external/nine-in.png" class="contained"></div>
 </div></div></div>
 </li>
-<li id="li-3534">
-<div class="para" id="p-8148">Can you see a pattern in the results of your calculations?</div>
-<div class="para" id="p-8149">Suppose the side of the new square is <span class="process-math">\(\alert{5}\)</span> times the side of the original square.</div>
-<div class="para" id="p-8150">Then the area of the new square will be <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> times the area of the original square.</div>
-<div class="para logical" id="p-8151">
+<li id="li-3581">
+<div class="para" id="p-8211">Can you see a pattern in the results of your calculations?</div>
+<div class="para" id="p-8212">Suppose the side of the new square is <span class="process-math">\(\alert{5}\)</span> times the side of the original square.</div>
+<div class="para" id="p-8213">Then the area of the new square will be <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> times the area of the original square.</div>
+<div class="para logical" id="p-8214">
 <div class="para">
 <span class="process-math">\(\blert{\text{Check}} ~~\)</span> your answer by performing the calculations:</div>
 <ul class="disc">
-<li id="li-3535"><div class="para" id="p-8152">Side of new square: <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<li id="li-3582"><div class="para" id="p-8215">Side of new square: <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></li>
-<li id="li-3536"><div class="para" id="p-8153">Area of new square:  <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<li id="li-3583"><div class="para" id="p-8216">Area of new square:  <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></li>
-<li id="li-3537"><div class="para" id="p-8154">Ratio of new area to original area: <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<li id="li-3584"><div class="para" id="p-8217">Ratio of new area to original area: <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></li>
 </ul>
 </div>
 </li>
-<li id="li-3538">
-<div class="para" id="p-8155">You should now have a conjecture about the areas of squares. (A <dfn class="terminology">conjecture</dfn> is an educated guess.)  Fill in the blank below.</div>
-<div class="para" id="p-8156">If we scale (multiply) the sides of a square by a number <span class="process-math">\(k\text{,}\)</span> then the area of the new square is <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>  times the area of the original square.</div>
+<li id="li-3585">
+<div class="para" id="p-8218">You should now have a conjecture about the areas of squares. (A <dfn class="terminology">conjecture</dfn> is an educated guess.)  Fill in the blank below.</div>
+<div class="para" id="p-8219">If we scale (multiply) the sides of a square by a number <span class="process-math">\(k\text{,}\)</span> then the area of the new square is <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>  times the area of the original square.</div>
 </li>
-</ol></div></article><div class="para" id="p-8157">The discovery you made in the Activity about squares is true for any similar figures.</div>
-<article class="assemblage assemblage-like" id="assemblage-179"><h4 class="heading"><span class="title">Area Principle for Similar Figures.</span></h4>
-<div class="para logical" id="p-8158">
+</ol></div></article><div class="para" id="p-8220">The discovery you made in the Activity about squares is true for any similar figures.</div>
+<article class="assemblage assemblage-like" id="assemblage-180"><h4 class="heading"><span class="title">Area Principle for Similar Figures.</span></h4>
+<div class="para logical" id="p-8221">
 <div class="para">If we multiply each dimension of a figure by <span class="process-math">\(k\text{,}\)</span> then</div>
 <ol class="decimal">
-<li id="li-3539"><div class="para" id="p-8159">The new figure is similar to the original figure, and</div></li>
-<li id="li-3540"><div class="para" id="p-8160">The area of the new figure is <span class="process-math">\(k^2\)</span> times the area of the original figure.</div></li>
+<li id="li-3586"><div class="para" id="p-8222">The new figure is similar to the original figure, and</div></li>
+<li id="li-3587"><div class="para" id="p-8223">The area of the new figure is <span class="process-math">\(k^2\)</span> times the area of the original figure.</div></li>
 </ol>
-</div></article><article class="note remark-like" id="note-98"><h4 class="heading">
+</div></article><article class="note remark-like" id="note-100"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">6.5.1</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-8161">
+<div class="para logical" id="p-8224">
 <div class="para">Recall that the exponent 2 in <span class="process-math">\(k^2\)</span> tells us to multiply together 2 copies of <span class="process-math">\(k\text{,}\)</span> so  <span class="process-math">\(k^2 = k \times k\text{.}\)</span>  For example,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 5^2 = 5 \times 5 = 25 \hphantom{000000} \blert{\text{two factors of 5}}
 \end{equation*}
 </div>
-</div></article><div class="para" id="p-8162">We can use the area principle to solve problems about area.</div>
+</div></article><div class="para" id="p-8225">We can use the area principle to solve problems about area.</div>
 <article class="example example-like" id="example-169"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.5.2</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-8163">An architect is drawing up floor plans for a new housing development. The dining room in her plan has an area of only 120 square feet. If she can increase the dimensions of the room by a factor of 1.25, what will the new area be?</div>
+<div class="para" id="p-8226">An architect is drawing up floor plans for a new housing development. The dining room in her plan has an area of only 120 square feet. If she can increase the dimensions of the room by a factor of 1.25, what will the new area be?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-143" id="solution-143"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-143"><div class="solution solution-like"><div class="para logical" id="p-8164">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-143" id="solution-143"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-143"><div class="solution solution-like"><div class="para logical" id="p-8227">
 <div class="para">The architect would like to scale the dimensions of the dining room by <span class="process-math">\(k = 1.25\text{.}\)</span>  According to the Area Principle, the area of the new dining room will be <span class="process-math">\((1.25)^2\text{,}\)</span> or 1.5625, times the old area. The new area will then be</div>
-<div class="displaymath process-math" id="md-125">
+<div class="displaymath process-math" id="md-126">
 \begin{align*}
 1.5625 \times 120 \amp = 187.5~~ \text{square feet}\\
 \blert{k^2 \times \text{old area}} \amp = \blert{\text{new area}}
@@ -792,156 +823,156 @@ window.MathJax = {
 </div></article><article class="exercise exercise-like" id="exercise-1889"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.5.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-8165">Alys wants to replace her old hot tub with a new circular spa. If the radius of the new spa is twice the radius of the hot tub, how much greater will the area of the spa be?</div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hottub.png" class="contained"></div>
+<div class="para" id="p-8228">Alys wants to replace her old hot tub with a new circular spa. If the radius of the new spa is twice the radius of the hot tub, how much greater will the area of the spa be?</div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hottub.png" class="contained"></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1022" id="answer-1022"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1022"><div class="answer solution-like"><div class="para" id="p-8166">4 times greater</div></div></div>
-</div></article></section><section class="subsection" id="subsection-154"><h3 class="heading hide-type">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1022" id="answer-1022"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1022"><div class="answer solution-like"><div class="para" id="p-8229">4 times greater</div></div></div>
+</div></article></section><section class="subsection" id="subsection-161"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">6.5.2</span> <span class="title">Volumes of Proportional Solids</span>
 </h3>
-<div class="para" id="p-8167">Two three-dimensional objects are called <dfn class="terminology">proportional</dfn> or <dfn class="terminology">similar</dfn> if they have the same shape but different sizes. The properties of similar two-dimensional figures also hold for similar three-dimensional objects.</div>
-<article class="assemblage assemblage-like" id="assemblage-180"><h4 class="heading"><span class="title">Properties of Similar Solids.</span></h4>
-<div class="para logical" id="p-8168"><ul class="disc">
-<li id="li-3541"><div class="para" id="p-8169">The ratios of all corresponding dimensions in similar objects are equal.</div></li>
-<li id="li-3542"><div class="para" id="p-8170">The corresponding angles in similar objects are equal.</div></li>
-<li id="li-3543"><div class="para" id="p-8171">If we scale all the dimensions of a particular object by the same number, the new object will be similar to the old one.</div></li>
-</ul></div></article><div class="para" id="p-8172">
+<div class="para" id="p-8230">Two three-dimensional objects are called <dfn class="terminology">proportional</dfn> or <dfn class="terminology">similar</dfn> if they have the same shape but different sizes. The properties of similar two-dimensional figures also hold for similar three-dimensional objects.</div>
+<article class="assemblage assemblage-like" id="assemblage-181"><h4 class="heading"><span class="title">Properties of Similar Solids.</span></h4>
+<div class="para logical" id="p-8231"><ul class="disc">
+<li id="li-3588"><div class="para" id="p-8232">The ratios of all corresponding dimensions in similar objects are equal.</div></li>
+<li id="li-3589"><div class="para" id="p-8233">The corresponding angles in similar objects are equal.</div></li>
+<li id="li-3590"><div class="para" id="p-8234">If we scale all the dimensions of a particular object by the same number, the new object will be similar to the old one.</div></li>
+</ul></div></article><div class="para" id="p-8235">
 <span class="process-math">\(\blert{\text{Question:}}\)</span> How are the volumes of similar objects related?</div>
 <article class="activity project-like" id="activity-72"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.5.2</span><span class="period">.</span><span class="space"> </span><span class="title">Scaling Volumes.</span>
-</h4> <div class="para" id="p-8173">What happens to the volume of an object when we scale up its dimensions? We'll start with a box.</div> <div class="para logical" id="p-8174"><ol class="decimal">
-<li id="li-3544">
-<div class="para" id="p-8175">Compute the volume of the box with these dimensions.</div>
-<div class="para" id="p-8176"><div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:30%;">
+</h4> <div class="para" id="p-8236">What happens to the volume of an object when we scale up its dimensions? We’ll start with a box.</div> <div class="para logical" id="p-8237"><ol class="decimal">
+<li id="li-3591">
+<div class="para" id="p-8238">Compute the volume of the box with these dimensions.</div>
+<div class="para" id="p-8239"><div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:30%;">
 <div class="sbspanel middle" style="width:53.8461538461538%;">
-<div class="para" id="p-8177">length = 3 inches</div>
-<div class="para" id="p-8178">width = 2 inches</div>
-<div class="para" id="p-8179">height = 5 inches</div>
+<div class="para" id="p-8240">length = 3 inches</div>
+<div class="para" id="p-8241">width = 2 inches</div>
+<div class="para" id="p-8242">height = 5 inches</div>
 </div>
 <div class="sbspanel middle" style="width:24.6153846153846%;"><img src="external/box.png" class="contained"></div>
 </div></div></div>
-<div class="para" id="p-8180">Volume = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<div class="para" id="p-8243">Volume = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div>
 </li>
-<li id="li-3545">
+<li id="li-3592">
 <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:15%;">
 <div class="sbspanel middle" style="width:56.25%;">
-<div class="para" id="p-8181">Let's double each dimension of the box and compute the volume of the new box.</div>
-<div class="para" id="p-8182">length = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> inches</div>
-<div class="para" id="p-8183">width = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> inches</div>
-<div class="para" id="p-8184">height = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> inches</div>
+<div class="para" id="p-8244">Let’s double each dimension of the box and compute the volume of the new box.</div>
+<div class="para" id="p-8245">length = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> inches</div>
+<div class="para" id="p-8246">width = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> inches</div>
+<div class="para" id="p-8247">height = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> inches</div>
 </div>
 <div class="sbspanel middle" style="width:37.5%;"><img src="external/biggerbox.png" class="contained"></div>
 </div></div>
-<div class="para" id="p-8185">Volume = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<div class="para" id="p-8248">Volume = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div>
 </li>
-<li id="li-3546">
-<div class="para" id="p-8186">Now we'll compute some scale factors.</div>
-<div class="para logical" id="p-8187">
+<li id="li-3593">
+<div class="para" id="p-8249">Now we’ll compute some scale factors.</div>
+<div class="para logical" id="p-8250">
 <div class="para">Scale factor for dimensions:</div>
 <ul class="disc">
-<li id="li-3547"><div class="para" id="p-8188"><span class="process-math">\(\displaystyle \dfrac{\text{new length}}{\text{original length}} = \dfrac{\text{new width}}{\text{original width}} = \dfrac{\text{new height}}{\text{original height}} = \fillinmath{XXX}\)</span></div></li>
-<li id="li-3548"><div class="para" id="p-8189">The original dimensions are scaled by a factor of <span class="process-math">\(k = \)</span><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.</div></li>
+<li id="li-3594"><div class="para" id="p-8251"><span class="process-math">\(\displaystyle \dfrac{\text{new length}}{\text{original length}} = \dfrac{\text{new width}}{\text{original width}} = \dfrac{\text{new height}}{\text{original height}} = \fillinmath{XXX}\)</span></div></li>
+<li id="li-3595"><div class="para" id="p-8252">The original dimensions are scaled by a factor of <span class="process-math">\(k = \)</span><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.</div></li>
 </ul>
 </div>
-<div class="para logical" id="p-8190">
+<div class="para logical" id="p-8253">
 <div class="para">Scale factor for volume:</div>
 <ul class="disc">
-<li id="li-3549"><div class="para" id="p-8191"><span class="process-math">\(\displaystyle \dfrac{\text{new volume}}{\text{original volume}} = \fillinmath{XXX}\)</span></div></li>
-<li id="li-3550"><div class="para" id="p-8192">The original volume is scaled by a factor of <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.</div></li>
+<li id="li-3596"><div class="para" id="p-8254"><span class="process-math">\(\displaystyle \dfrac{\text{new volume}}{\text{original volume}} = \fillinmath{XXX}\)</span></div></li>
+<li id="li-3597"><div class="para" id="p-8255">The original volume is scaled by a factor of <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.</div></li>
 </ul>
 </div>
-<div class="para" id="p-8193"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:5%;">
-<div class="sbspanel middle" style="width:42.1052631578947%;"><div class="para" id="p-8194">How many of the original boxes fit inside the new box?</div></div>
+<div class="para" id="p-8256"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:5%;">
+<div class="sbspanel middle" style="width:42.1052631578947%;"><div class="para" id="p-8257">How many of the original boxes fit inside the new box?</div></div>
 <div class="sbspanel middle" style="width:15.7894736842105%;"><img src="external/box.png" class="contained"></div>
 <div class="sbspanel middle" style="width:31.5789473684211%;"><img src="external/biggerbox.png" class="contained"></div>
 </div></div></div>
 </li>
-<li id="li-3551"><div class="para" id="p-8195"><div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<li id="li-3598"><div class="para" id="p-8258"><div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
 <div class="sbspanel middle" style="width:44.4444444444444%;">
-<div class="para" id="p-8196">What happens if we triple the dimensions of the original box?</div>
-<div class="para" id="p-8197">Compute the volume of the new box.</div>
-<div class="para" id="p-8198">length = 3 inches</div>
-<div class="para" id="p-8199">width = 2 inches</div>
-<div class="para" id="p-8200">height = 5 inches</div>
-<div class="para" id="p-8201">Volume = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<div class="para" id="p-8259">What happens if we triple the dimensions of the original box?</div>
+<div class="para" id="p-8260">Compute the volume of the new box.</div>
+<div class="para" id="p-8261">length = 3 inches</div>
+<div class="para" id="p-8262">width = 2 inches</div>
+<div class="para" id="p-8263">height = 5 inches</div>
+<div class="para" id="p-8264">Volume = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div>
 </div>
 <div class="sbspanel middle" style="width:50%;"><img src="external/biggestbox.png" class="contained"></div>
 </div></div></div></li>
-<li id="li-3552">
-<div class="para" id="p-8202">Compute the scale factors again.</div>
-<div class="para logical" id="p-8203">
+<li id="li-3599">
+<div class="para" id="p-8265">Compute the scale factors again.</div>
+<div class="para logical" id="p-8266">
 <div class="para">Scale factor for dimensions:</div>
 <ul class="disc">
-<li id="li-3553"><div class="para" id="p-8204"><span class="process-math">\(\displaystyle \dfrac{\text{new length}}{\text{original length}} = \dfrac{\text{new width}}{\text{original width}} = \dfrac{\text{new height}}{\text{original height}} = \fillinmath{XXX}\)</span></div></li>
-<li id="li-3554"><div class="para" id="p-8205">The original dimensions are scaled by a factor of <span class="process-math">\(k = \)</span><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.</div></li>
+<li id="li-3600"><div class="para" id="p-8267"><span class="process-math">\(\displaystyle \dfrac{\text{new length}}{\text{original length}} = \dfrac{\text{new width}}{\text{original width}} = \dfrac{\text{new height}}{\text{original height}} = \fillinmath{XXX}\)</span></div></li>
+<li id="li-3601"><div class="para" id="p-8268">The original dimensions are scaled by a factor of <span class="process-math">\(k = \)</span><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.</div></li>
 </ul>
 </div>
-<div class="para logical" id="p-8206">
+<div class="para logical" id="p-8269">
 <div class="para">Scale factor for volume:</div>
 <ul class="disc">
-<li id="li-3555"><div class="para" id="p-8207"><span class="process-math">\(\displaystyle \dfrac{\text{new volume}}{\text{original volume}} = \fillinmath{XXX}\)</span></div></li>
-<li id="li-3556"><div class="para" id="p-8208">The original volume is scaled by a factor of <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.</div></li>
+<li id="li-3602"><div class="para" id="p-8270"><span class="process-math">\(\displaystyle \dfrac{\text{new volume}}{\text{original volume}} = \fillinmath{XXX}\)</span></div></li>
+<li id="li-3603"><div class="para" id="p-8271">The original volume is scaled by a factor of <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.</div></li>
 </ul>
 </div>
-<div class="para" id="p-8209"><div class="sidebyside"><div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;">
-<div class="sbspanel middle" style="width:31.0344827586207%;"><div class="para" id="p-8210">How many of the original boxes fit inside the new box?</div></div>
+<div class="para" id="p-8272"><div class="sidebyside"><div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;">
+<div class="sbspanel middle" style="width:31.0344827586207%;"><div class="para" id="p-8273">How many of the original boxes fit inside the new box?</div></div>
 <div class="sbspanel middle" style="width:15.5172413793103%;"><img src="external/box.png" class="contained"></div>
 <div class="sbspanel middle" style="width:46.551724137931%;"><img src="external/biggestbox.png" class="contained"></div>
 </div></div></div>
 </li>
-<li id="li-3557">
-<div class="para" id="p-8211">Can you see a pattern in the results of your calculations?</div>
-<div class="para" id="p-8212">Suppose the side of the new box are <span class="process-math">\(\alert{5}\)</span> times the dimensions of the original box.</div>
-<div class="para" id="p-8213">Then the volume of the new box will be <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> times the volume of the original box.</div>
-<div class="para logical" id="p-8214">
+<li id="li-3604">
+<div class="para" id="p-8274">Can you see a pattern in the results of your calculations?</div>
+<div class="para" id="p-8275">Suppose the side of the new box are <span class="process-math">\(\alert{5}\)</span> times the dimensions of the original box.</div>
+<div class="para" id="p-8276">Then the volume of the new box will be <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> times the volume of the original box.</div>
+<div class="para logical" id="p-8277">
 <div class="para">
 <span class="process-math">\(\blert{\text{Check}} ~~\)</span> your answer by performing the calculations:</div>
 <ul class="disc">
-<li id="li-3558"><div class="para" id="p-8215">Length of new box: <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<li id="li-3605"><div class="para" id="p-8278">Length of new box: <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></li>
-<li id="li-3559"><div class="para" id="p-8216">Width of new box: <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<li id="li-3606"><div class="para" id="p-8279">Width of new box: <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></li>
-<li id="li-3560"><div class="para" id="p-8217">Height of new box: <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<li id="li-3607"><div class="para" id="p-8280">Height of new box: <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></li>
-<li id="li-3561"><div class="para" id="p-8218">Volume of new box:  <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<li id="li-3608"><div class="para" id="p-8281">Volume of new box:  <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></li>
-<li id="li-3562"><div class="para" id="p-8219">Ratio of new volume to original volume: <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<li id="li-3609"><div class="para" id="p-8282">Ratio of new volume to original volume: <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div></li>
 </ul>
 </div>
 </li>
-<li id="li-3563">
-<div class="para" id="p-8220">You should now have a conjecture about the volumes of boxes. Fill in the blank below.</div>
-<div class="para" id="p-8221">If we scale (multiply) the dimensions of a box by a number <span class="process-math">\(k\text{,}\)</span> then the volume of the new box is <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>  times the volume of the original box.</div>
+<li id="li-3610">
+<div class="para" id="p-8283">You should now have a conjecture about the volumes of boxes. Fill in the blank below.</div>
+<div class="para" id="p-8284">If we scale (multiply) the dimensions of a box by a number <span class="process-math">\(k\text{,}\)</span> then the volume of the new box is <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>  times the volume of the original box.</div>
 </li>
-</ol></div></article><div class="para" id="p-8222">The discovery you made in this Activity about boxes is true for any similar objects.</div>
-<article class="assemblage assemblage-like" id="assemblage-181"><h4 class="heading"><span class="title">Volume Principle for Similar Objecgs.</span></h4>
-<div class="para logical" id="p-8223">
+</ol></div></article><div class="para" id="p-8285">The discovery you made in this Activity about boxes is true for any similar objects.</div>
+<article class="assemblage assemblage-like" id="assemblage-182"><h4 class="heading"><span class="title">Volume Principle for Similar Objects.</span></h4>
+<div class="para logical" id="p-8286">
 <div class="para">If we multiply each dimension of a three-dimensional object by <span class="process-math">\(k\text{,}\)</span> then</div>
 <ol class="decimal">
-<li id="li-3564"><div class="para" id="p-8224">The new object is similar to the original object, and</div></li>
-<li id="li-3565"><div class="para" id="p-8225">The volume of the new object is <span class="process-math">\(k^3\)</span> times the volume of the original object.</div></li>
+<li id="li-3611"><div class="para" id="p-8287">The new object is similar to the original object, and</div></li>
+<li id="li-3612"><div class="para" id="p-8288">The volume of the new object is <span class="process-math">\(k^3\)</span> times the volume of the original object.</div></li>
 </ol>
-</div></article><article class="note remark-like" id="note-99"><h4 class="heading">
+</div></article><article class="note remark-like" id="note-101"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">6.5.4</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-8226">
+<div class="para logical" id="p-8289">
 <div class="para">Recall that the exponent 3 in <span class="process-math">\(k^3\)</span> tells us to multiply together 3 copies of <span class="process-math">\(k\text{,}\)</span> so  <span class="process-math">\(k^3 = k \times k \times k\text{.}\)</span>  For example,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 5^3 = 5 \times 5 \times 5 = 125 \hphantom{000000} \blert{\text{three factors of 5}}
 \end{equation*}
 </div>
-</div></article><div class="para" id="p-8227">We can use the area principle to solve problems about area.</div>
+</div></article><div class="para" id="p-8290">We can use the area principle to solve problems about area.</div>
 <article class="example example-like" id="example-170"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">6.5.5</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-8228">In Gulliver's Travels, the Lilliputians are tiny people about six inches tall. How would the volume of a Lilliputian compare to the volume of a human who is six feet tall?</div>
+<div class="para" id="p-8291">In Gulliver’s Travels, the Lilliputians are tiny people about six inches tall. How would the volume of a Lilliputian compare to the volume of a human who is six feet tall?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-144" id="solution-144"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-144"><div class="solution solution-like"><div class="para logical" id="p-8229">
-<div class="para">The scale factor of the dimensions is the ratio of the Lilliputian's height to the human's height:</div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-144" id="solution-144"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-144"><div class="solution solution-like"><div class="para logical" id="p-8292">
+<div class="para">The scale factor of the dimensions is the ratio of the Lilliputian’s height to the human’s height:</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \dfrac{6~\text{inches}}{6~\text{feet}} = \dfrac{6~\text{inches}}{72~\text{inches}} = \dfrac{1}{12}
@@ -959,8 +990,8 @@ window.MathJax = {
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">6.5.6</span><span class="period">.</span>
 </h4>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
-<div class="sbspanel middle" style="width:57.8947368421053%;"><div class="para" id="p-8230">The radius of Jupiter is about 10.7 times the radius of the Earth. How does the volume of Jupiter compare to the volume of the Earth?</div></div>
-<div class="sbspanel middle" style="width:36.8421052631579%;"><img src="external/Jupiter.png" class="contained"></div>
+<div class="sbspanel middle" style="width:57.8947368421053%;"><div class="para" id="p-8293">The radius of Jupiter is about 10.7 times the radius of the Earth. How does the volume of Jupiter compare to the volume of the Earth?</div></div>
+<div class="sbspanel middle" style="width:36.8421052631579%;"><img src="external/jupiter.png" class="contained"></div>
 </div></div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1023" id="answer-1023"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1023"><div class="answer solution-like">About 1225 times the volume of the Earth.</div></div>
@@ -969,29 +1000,29 @@ window.MathJax = {
 </h3>
 <div class="exercisegroup" id="exercisegroup-241">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-247"><div class="para" id="p-8231">In Problems 1-4, the figures represent centimeter grids.</div></div>
+<div class="introduction" id="introduction-247"><div class="para" id="p-8294">In Problems 1-4, the figures represent centimeter grids.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-1891"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
-<div class="para logical" id="p-8232"><ol class="lower-alpha">
-<li id="li-3566"><div class="para" id="p-8233">On the grid below, enlarge the triangle by doubling the lengths of the horizontal and vertical sides. What is the scale factor?</div></li>
-<li id="li-3567"><div class="para" id="p-8234">How many triangles of the original size fit inside the enlarged triangle? Draw them in.</div></li>
-<li id="li-3568"><div class="para" id="p-8235">Now draw an even bigger triangle by tripling the lengths of the horizontal and vertical sides of the original triangle. What is the scale factor?</div></li>
-<li id="li-3569"><div class="para" id="p-8236">How many triangles of the original size fit inside this even bigger triangle? Draw them in.</div></li>
-<li id="li-3570"><div class="para" id="p-8237">What is the area of the original triangle? What is the area of the enlarged triangle you drew in part (a)?  What is the area of the even bigger triangle you drew in part (c)?</div></li>
+<div class="para logical" id="p-8295"><ol class="lower-alpha">
+<li id="li-3613"><div class="para" id="p-8296">On the grid below, enlarge the triangle by doubling the lengths of the horizontal and vertical sides. What is the scale factor?</div></li>
+<li id="li-3614"><div class="para" id="p-8297">How many triangles of the original size fit inside the enlarged triangle? Draw them in.</div></li>
+<li id="li-3615"><div class="para" id="p-8298">Now draw an even bigger triangle by tripling the lengths of the horizontal and vertical sides of the original triangle. What is the scale factor?</div></li>
+<li id="li-3616"><div class="para" id="p-8299">How many triangles of the original size fit inside this even bigger triangle? Draw them in.</div></li>
+<li id="li-3617"><div class="para" id="p-8300">What is the area of the original triangle? What is the area of the enlarged triangle you drew in part (a)?  What is the area of the even bigger triangle you drew in part (c)?</div></li>
 </ol></div> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/hp-6-5-1.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1892"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
-<div class="para logical" id="p-8244"><ol class="lower-alpha">
-<li id="li-3576"><div class="para" id="p-8245">On the grid below, enlarge the parallelogram by doubling the lengths of the horizontal and vertical sides. What is the scale factor?</div></li>
-<li id="li-3577"><div class="para" id="p-8246">How many parallelograms of the original size fit inside the enlarged parallelogram? Draw them in.</div></li>
-<li id="li-3578"><div class="para" id="p-8247">Now draw an even bigger parallelogram by tripling the lengths of the horizontal and vertical sides of the original parallelogram. What is the scale factor?</div></li>
-<li id="li-3579"><div class="para" id="p-8248">How many parallelograms of the original size fit inside this even bigger parallelogram? Draw them in.</div></li>
-<li id="li-3580"><div class="para" id="p-8249">What is the area of the original parallelogram? What is the area of the enlarged parallelogram you drew in part (a)?  What is the area of the even bigger parallelogram you drew in part (c)?</div></li>
+<div class="para logical" id="p-8307"><ol class="lower-alpha">
+<li id="li-3623"><div class="para" id="p-8308">On the grid below, enlarge the parallelogram by doubling the lengths of the horizontal and vertical sides. What is the scale factor?</div></li>
+<li id="li-3624"><div class="para" id="p-8309">How many parallelograms of the original size fit inside the enlarged parallelogram? Draw them in.</div></li>
+<li id="li-3625"><div class="para" id="p-8310">Now draw an even bigger parallelogram by tripling the lengths of the horizontal and vertical sides of the original parallelogram. What is the scale factor?</div></li>
+<li id="li-3626"><div class="para" id="p-8311">How many parallelograms of the original size fit inside this even bigger parallelogram? Draw them in.</div></li>
+<li id="li-3627"><div class="para" id="p-8312">What is the area of the original parallelogram? What is the area of the enlarged parallelogram you drew in part (a)?  What is the area of the even bigger parallelogram you drew in part (c)?</div></li>
 </ol></div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-6-5-2.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1893"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
-<div class="para logical" id="p-8250">
+<div class="para logical" id="p-8313">
 <div class="para">Record the dimensions of the rectangle, its perimeter and its area in the table below.  Complete the table for parts (a) through (c).</div>
 <ol class="lower-alpha">
-<li id="li-3581"><div class="para" id="p-8251">Enlarge the dimensions of the rectangle by 50%.</div></li>
-<li id="li-3582"><div class="para" id="p-8252">Enlarge the dimensions of the original rectangle by 100%.</div></li>
-<li id="li-3583"><div class="para" id="p-8253">Enlarge the dimensions of the original rectangle by 25%.</div></li>
+<li id="li-3628"><div class="para" id="p-8314">Enlarge the dimensions of the rectangle by 50%.</div></li>
+<li id="li-3629"><div class="para" id="p-8315">Enlarge the dimensions of the original rectangle by 100%.</div></li>
+<li id="li-3630"><div class="para" id="p-8316">Enlarge the dimensions of the original rectangle by 25%.</div></li>
 </ol>
 </div> <div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/hp-6-5-3.png" class="contained"></div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
@@ -1030,12 +1061,12 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
 </tr>
 </table></div></article><article class="exercise exercise-like" id="exercise-1894"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
-<div class="para logical" id="p-8255">
+<div class="para logical" id="p-8318">
 <div class="para">Record the dimensions of the rectangle, its perimeter and its area in the table below.  Complete the table for parts (a) through (c).</div>
 <ol class="lower-alpha">
-<li id="li-3584"><div class="para" id="p-8256">Reduce the dimensions of the rectangle by 50%.</div></li>
-<li id="li-3585"><div class="para" id="p-8257">Reduce the dimensions of the original rectangle by 100%. (Careful: the dimensions of the new rectangle will be 75% of their original size!)</div></li>
-<li id="li-3586"><div class="para" id="p-8258">Reduce the dimensions of the original rectangle by 25%.</div></li>
+<li id="li-3631"><div class="para" id="p-8319">Reduce the dimensions of the rectangle by 50%.</div></li>
+<li id="li-3632"><div class="para" id="p-8320">Reduce the dimensions of the original rectangle by 100%. (Careful: the dimensions of the new rectangle will be 75% of their original size!)</div></li>
+<li id="li-3633"><div class="para" id="p-8321">Reduce the dimensions of the original rectangle by 25%.</div></li>
 </ol>
 </div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-6-5-4.png" class="contained"></div> <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
@@ -1077,44 +1108,44 @@ window.MathJax = {
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-1895"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
-<div class="para logical" id="p-8259">
+<div class="para logical" id="p-8322">
 <div class="para">Elina has a 3-inch by 5-inch photograph of her cat, Sinbad. She wants to enlarge the photo by a factor of 1.5 in each dimension.</div>
 <ol class="lower-alpha">
-<li id="li-3587"><div class="para" id="p-8260">By what factor will the area of the photo increase?</div></li>
-<li id="li-3588"><div class="para" id="p-8261">What will be the area of the enlarged photograph?</div></li>
+<li id="li-3634"><div class="para" id="p-8323">By what factor will the area of the photo increase?</div></li>
+<li id="li-3635"><div class="para" id="p-8324">What will be the area of the enlarged photograph?</div></li>
 </ol>
 </div></article><article class="exercise exercise-like" id="exercise-1896"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
-<div class="para logical" id="p-8265">
+<div class="para logical" id="p-8328">
 <div class="para">For their publicity campaign, the Magazine Sweepstakes staff is making a poster-size version of a check for ten million dollars. A normal check is <span class="process-math">\(2\frac{1}{2}\)</span> inches wide by 6 inches long, and the poster size version will be 12 times as big in both dimensions.</div>
 <ol class="lower-alpha">
-<li id="li-3591"><div class="para" id="p-8266">By what factor will the area increase?</div></li>
-<li id="li-3592"><div class="para" id="p-8267">What will be the area of the poster-size check?</div></li>
+<li id="li-3638"><div class="para" id="p-8329">By what factor will the area increase?</div></li>
+<li id="li-3639"><div class="para" id="p-8330">What will be the area of the poster-size check?</div></li>
 </ol>
 </div></article><article class="exercise exercise-like" id="exercise-1897"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
-<div class="para" id="p-8268">Emily made a scale model of her sailboat. Each dimension of her model is one-tenth that of the real sailboat. If the real sail has an area of 75 square feet, what is the area of the model's sail?</div></article><article class="exercise exercise-like" id="exercise-1898"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
-<div class="para" id="p-8270">Nora wants to make a copy of a mural covering an area of 10 square meters. She doesn't have a wall large enough for a full-size copy, so her version will be only one half the size in each dimension. What will be the area of the copy?</div></article><div class="exercisegroup" id="exercisegroup-242">
+<div class="para" id="p-8331">Emily made a scale model of her sailboat. Each dimension of her model is one-tenth that of the real sailboat. If the real sail has an area of 75 square feet, what is the area of the model’s sail?</div></article><article class="exercise exercise-like" id="exercise-1898"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="para" id="p-8333">Nora wants to make a copy of a mural covering an area of 10 square meters. She doesn’t have a wall large enough for a full-size copy, so her version will be only one half the size in each dimension. What will be the area of the copy?</div></article><div class="exercisegroup" id="exercisegroup-242">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-248"><div class="para logical" id="p-8271">
+<div class="introduction" id="introduction-248"><div class="para logical" id="p-8334">
 <div class="para">For Problems 9-10,</div>
 <ol class="lower-alpha">
-<li id="li-3593"><div class="para" id="p-8272">Find the scale factor.</div></li>
-<li id="li-3594"><div class="para" id="p-8273">Use the scale factor to answer the question.</div></li>
+<li id="li-3640"><div class="para" id="p-8335">Find the scale factor.</div></li>
+<li id="li-3641"><div class="para" id="p-8336">Use the scale factor to answer the question.</div></li>
 </ol>
 </div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-1899"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
-<div class="para" id="p-8274">Here is a box.</div>
+<div class="para" id="p-8337">Here is a box.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
-<div class="sbspanel top" style="width:52.6315789473684%;"><div class="para logical" id="p-8275"><ol class="lower-alpha">
-<li id="li-3595"><div class="para" id="p-8276">If we double all the dimensions of the box, how will its surface area change?</div></li>
-<li id="li-3596"><div class="para" id="p-8277">How will its volume change?</div></li>
+<div class="sbspanel top" style="width:52.6315789473684%;"><div class="para logical" id="p-8338"><ol class="lower-alpha">
+<li id="li-3642"><div class="para" id="p-8339">If we double all the dimensions of the box, how will its surface area change?</div></li>
+<li id="li-3643"><div class="para" id="p-8340">How will its volume change?</div></li>
 </ol></div></div>
 <div class="sbspanel top" style="width:42.1052631578947%;"><img src="external/hp-6-5-9.png" class="contained"></div>
 </div></div></article><article class="exercise exercise-like" id="exercise-1900"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
-<div class="para" id="p-8281">Here is a cube.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
-<div class="sbspanel top" style="width:55.5555555555556%;"><div class="para logical" id="p-8282"><ol class="lower-alpha">
-<li id="li-3599"><div class="para" id="p-8283">If we cut all the dimensions of the cube in half, how will its surface area change?</div></li>
-<li id="li-3600"><div class="para" id="p-8284">How will its volume change?</div></li>
+<div class="para" id="p-8344">Here is a cube.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:55.5555555555556%;"><div class="para logical" id="p-8345"><ol class="lower-alpha">
+<li id="li-3646"><div class="para" id="p-8346">If we cut all the dimensions of the cube in half, how will its surface area change?</div></li>
+<li id="li-3647"><div class="para" id="p-8347">How will its volume change?</div></li>
 </ol></div></div>
 <div class="sbspanel top" style="width:33.3333333333333%;"><img src="external/hp-6-5-10.png" class="contained"></div>
 </div></div></article>
@@ -1122,7 +1153,7 @@ window.MathJax = {
 </div>
 <div class="exercisegroup" id="exercisegroup-243">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-249"><div class="para" id="p-8285">For Problems 11-12, find two objects that are similar.</div></div>
+<div class="introduction" id="introduction-249"><div class="para" id="p-8348">For Problems 11-12, find two objects that are similar.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-1901"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/hp-6-5-11.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1902"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
@@ -1130,35 +1161,35 @@ window.MathJax = {
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-1903"><h4 class="heading"><span class="codenumber">13<span class="period">.</span></span></h4>
-<div class="para" id="p-8287">A four-inch tall bottle holds 100 cubic centimeters of medicine.  How much medicine does a six-inch tall bottle with a similar shape hold?</div></article><article class="exercise exercise-like" id="exercise-1904"><h4 class="heading"><span class="codenumber">14<span class="period">.</span></span></h4>
-<div class="para" id="p-8289">Angel wants to guess the number of jelly beans in a jar that is 45 cm tall. He finds a jar of similar shape that is 15 cm tall and fills it with jelly beans. It holds 280 jelly beans. What should Angel guess for the number of jelly beams in the taller jar?</div></article><article class="exercise exercise-like" id="exercise-1905"><h4 class="heading"><span class="codenumber">15<span class="period">.</span></span></h4>
-<div class="para" id="p-8290">An orange of diameter 8 centimeters has a peel of about 200 square centimeters. How much peel would you expect an orange of diameter 10 centimeters to have?</div></article><article class="exercise exercise-like" id="exercise-1906"><h4 class="heading"><span class="codenumber">16<span class="period">.</span></span></h4>
+<div class="para" id="p-8350">A four-inch tall bottle holds 100 cubic centimeters of medicine.  How much medicine does a six-inch tall bottle with a similar shape hold?</div></article><article class="exercise exercise-like" id="exercise-1904"><h4 class="heading"><span class="codenumber">14<span class="period">.</span></span></h4>
+<div class="para" id="p-8352">Angel wants to guess the number of jelly beans in a jar that is 45 cm tall. He finds a jar of similar shape that is 15 cm tall and fills it with jelly beans. It holds 280 jelly beans. What should Angel guess for the number of jelly beams in the taller jar?</div></article><article class="exercise exercise-like" id="exercise-1905"><h4 class="heading"><span class="codenumber">15<span class="period">.</span></span></h4>
+<div class="para" id="p-8353">An orange of diameter 8 centimeters has a peel of about 200 square centimeters. How much peel would you expect an orange of diameter 10 centimeters to have?</div></article><article class="exercise exercise-like" id="exercise-1906"><h4 class="heading"><span class="codenumber">16<span class="period">.</span></span></h4>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
-<div class="sbspanel middle" style="width:56.4102564102564%;"><div class="para" id="p-8292">The Dome of the Rock is a shrine located in Jerusalem, and is the oldest surviving Islamic building. The dome itself has a diameter of about 20 meters, and is roofed with lead covered in gold. A model of the dome is 0.5 meters in diameter and required 15.7 square meters of gold leaf. How much gold leaf would be needed to cover the actual Dome?</div></div>
+<div class="sbspanel middle" style="width:56.4102564102564%;"><div class="para" id="p-8355">The Dome of the Rock is a shrine located in Jerusalem, and is the oldest surviving Islamic building. The dome itself has a diameter of about 20 meters, and is roofed with lead covered in gold. A model of the dome is 0.5 meters in diameter and required 15.7 square meters of gold leaf. How much gold leaf would be needed to cover the actual Dome?</div></div>
 <div class="sbspanel middle" style="width:41.025641025641%;"><img src="external/hp-6-5-16.png" class="contained"></div>
 </div></div></article><div class="exercisegroup" id="exercisegroup-244">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-250"><div class="para" id="p-8293">For Problems 17-20, use the following fact: When the dimensions of a solid object are all scaled up, its weight is scaled by the same factor as its volume.</div></div>
+<div class="introduction" id="introduction-250"><div class="para" id="p-8356">For Problems 17-20, use the following fact: When the dimensions of a solid object are all scaled up, its weight is scaled by the same factor as its volume.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-1907"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
-<div class="para" id="p-8294">If a 6-foot tall, 180-pound human being were scaled up to a height of 60 feet, what would the giant's weight be?</div></article><article class="exercise exercise-like" id="exercise-1908"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
-<div class="para" id="p-8296">A typical boll weevil is 1 centimeter long and weighs 0.0003 grams. If gamma rays produced a mutant boll weevil 5 meters long, how much would it weigh?</div></article><article class="exercise exercise-like" id="exercise-1909"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
+<div class="para" id="p-8357">If a 6-foot tall, 180-pound human being were scaled up to a height of 60 feet, what would the giant’s weight be?</div></article><article class="exercise exercise-like" id="exercise-1908"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
+<div class="para" id="p-8359">A typical boll weevil is 1 centimeter long and weighs 0.0003 grams. If gamma rays produced a mutant boll weevil 5 meters long, how much would it weigh?</div></article><article class="exercise exercise-like" id="exercise-1909"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
-<div class="sbspanel middle" style="width:56.4102564102564%;"><div class="para logical" id="p-8297">
+<div class="sbspanel middle" style="width:56.4102564102564%;"><div class="para logical" id="p-8360">
 <div class="para">The military museum wants to make a scale-model replica of the B2 Bomber. The scale is 1 to 50. The real B2 bomber has a wingspan of 172 feet and weighs 158,100 pounds.</div>
 <ol class="lower-alpha">
-<li id="li-3601"><div class="para" id="p-8298">What is the wing-span of the model?</div></li>
-<li id="li-3602"><div class="para" id="p-8299">How much will the model weigh?</div></li>
+<li id="li-3648"><div class="para" id="p-8361">What is the wing-span of the model?</div></li>
+<li id="li-3649"><div class="para" id="p-8362">How much will the model weigh?</div></li>
 </ol>
 </div></div>
 <div class="sbspanel middle" style="width:41.025641025641%;"><img src="external/hp-6-5-19.png" class="contained"></div>
 </div></div></article><article class="exercise exercise-like" id="exercise-1910"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
-<div class="sbspanel middle" style="width:66.6666666666667%;"><div class="para logical" id="p-8303">
+<div class="sbspanel middle" style="width:66.6666666666667%;"><div class="para logical" id="p-8366">
 <div class="para">Bistro Paris is making a four-foot tall model of the Eiffel Tower. The original Eiffel Tower is 984 feet tall and weighs 7300 tons.</div>
 <ol class="lower-alpha">
-<li id="li-3605"><div class="para" id="p-8304">What is the scale factor?</div></li>
-<li id="li-3606"><div class="para" id="p-8305">How much will the model weigh? (There are 2000 pounds in one ton.)</div></li>
+<li id="li-3652"><div class="para" id="p-8367">What is the scale factor?</div></li>
+<li id="li-3653"><div class="para" id="p-8368">How much will the model weigh? (There are 2000 pounds in one ton.)</div></li>
 </ol>
 </div></div>
 <div class="sbspanel middle" style="width:22.2222222222222%;"><img src="external/hp-6-5-20.png" class="contained"></div>
@@ -1166,13 +1197,13 @@ window.MathJax = {
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-1911"><h4 class="heading"><span class="codenumber">21<span class="period">.</span></span></h4>
-<div class="para" id="p-8306">Solve the problem about pizzas that opened this Lesson:  Which is the better deal: $15 for three 8-inch pizzas or $15 for one 16-inch pizza?</div></article><article class="exercise exercise-like" id="exercise-1912"><h4 class="heading"><span class="codenumber">22<span class="period">.</span></span></h4>
-<div class="para" id="p-8308">At the Chicken Coop, each dimension of the super-bucket of fried chicken is 1.5 times the corresponding dimension of the mini-bucket. Which is the better deal: $24 for three mini-buckets of fried chicken, or  $24 for one super-bucket?</div></article></section></section></div>
+<div class="para" id="p-8369">Solve the problem about pizzas that opened this Lesson:  Which is the better deal: $15 for three 8-inch pizzas or $15 for one 16-inch pizza?</div></article><article class="exercise exercise-like" id="exercise-1912"><h4 class="heading"><span class="codenumber">22<span class="period">.</span></span></h4>
+<div class="para" id="p-8371">At the Chicken Coop, each dimension of the super-bucket of fried chicken is 1.5 times the corresponding dimension of the mini-bucket. Which is the better deal: $24 for three mini-buckets of fried chicken, or  $24 for one super-bucket?</div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-6-4.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="ch7.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
-<div id="ptx-page-footer">
+<div id="ptx-page-footer" class="ptx-page-footer">
 <a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
 </div>
 </body>

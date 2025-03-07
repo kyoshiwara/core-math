@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US">
+<html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Negative Numbers</title>
@@ -14,68 +14,93 @@
 <meta property="og:type" content="book">
 <meta property="book:title" content="Core Mathematics">
 <meta property="book:author" content="Katherine Yoshiwara">
-<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
-  tex: {
-    inlineMath: [['\\(','\\)']],
-    tags: "none",
-    tagSide: "right",
-    tagIndent: ".8em",
-    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
   },
-  options: {
-    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
-    processHtmlClass: "process-math",
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
   },
-  chtml: {
-    scale: 0.98,
-    mtextInheritFont: true
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
   },
-  loader: {
-    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
-    paths: {pretext: "https://pretextbook.org/js/lib"},
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
   },
-  startup: {
+  "startup": {
     pageReady() {
       return MathJax.startup.defaultPageReady().then(function () {
       console.log("in ready function");
       rsMathReady();
       }
     )}
-  },
+  }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
-<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/style_oscarlevin.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
 </head>
 <body class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
-<a id="logo-link" href=""></a><div class="title-container">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
 <h1 class="heading"><a href="my-great-book.html"><span class="title">Core Mathematics</span></a></h1>
 <p class="byline">Katherine Yoshiwara</p>
 </div>
-<div id="searchresultsplaceholder" style="display: none">
-<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
 </h2>
-<div id="searchempty"><span>No results.</span></div>
-<ol id="searchresults"></ol>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
 </div>
-</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
 <li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
 <ol class="hidden avatar">
 <li data-val="You!" tabindex="-1">
@@ -178,7 +203,7 @@ window.MathJax = {
 </ol>
 </li>
 </ol></div></button><span class="treebuttons"><a class="previous-button button" href="sec-4-3.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch4.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec-4-5.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
-<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -198,13 +223,11 @@ window.MathJax = {
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar"><nav id="ptx-toc" class="depth2"><ul class="structural">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
 <li>
 <div class="toc-item"><a href="meta_frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural">
 <li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
-<li><div class="toc-item"><a href="dedication-1.html" class="internal"><span class="title">Dedication</span></a></div></li>
-<li><div class="toc-item"><a href="acknowledgement-1.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li><div class="toc-item"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
 </ul>
 </li>
@@ -229,7 +252,7 @@ window.MathJax = {
 <ul class="structural">
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-8" class="internal"><span class="codenumber">1.2.1</span> <span class="title">One-Tenth</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-9" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Fractions in Tenths</span></a></div></li>
-<li><div class="toc-item"><a href="sec-1-2.html#subsection-10" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Tenths and Fifths, Reducing Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#reducing" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Tenths and Fifths, Reducing Fractions</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-11" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Hundredths</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-12" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Decimal Form</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-13" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Vocabulary</span></a></div></li>
@@ -242,7 +265,7 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-14" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Factors</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-15" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Primes and Composites</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-16" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Greatest Common Factor</span></a></div></li>
-<li><div class="toc-item"><a href="sec-1-3.html#subsection-17" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Lowest Common Multiple</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#lcm" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Lowest Common Multiple</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-18" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#prac-1-3" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Practice 1.3</span></a></div></li>
 </ul>
@@ -253,7 +276,7 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-19" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Angles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-20" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Measuring Angles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-21" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Using a Protractor</span></a></div></li>
-<li><div class="toc-item"><a href="sec-1-4.html#subsection-22" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#triangles" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Triangles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-23" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Sides and Angles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-24" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#prac-1-4" class="internal"><span class="codenumber">1.4.7</span> <span class="title">Practice 1.4</span></a></div></li>
@@ -280,8 +303,8 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-29" class="internal"><span class="codenumber">2.1.1</span> <span class="title">The Metric System</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-30" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Place Value</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-31" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Comparing Decimal Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-1.html#subsection-32" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Fractions to Decimals</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-1.html#subsection-33" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Rounding and Estimating</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#fractodec" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Fractions to Decimals</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#rounding" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Rounding and Estimating</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-34" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#prac-2-1" class="internal"><span class="codenumber">2.1.7</span> <span class="title">Practice 2.1</span></a></div></li>
 </ul>
@@ -295,40 +318,41 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-2-2.html#subsection-38" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Eighths</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-2.html#subsection-39" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Thirds</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-2.html#subsection-40" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Decimal Form of One-Third</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-2.html#prac-2-2" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Practice 2.2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-41" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#prac-2-2" class="internal"><span class="codenumber">2.2.8</span> <span class="title">Practice 2.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-2-3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Variables</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-41" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What is a Variable?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-42" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Bar Graphs</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-43" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Using Letters for Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-44" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Vocabuary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-42" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What is a Variable?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#bargraph" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Bar Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-44" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Using Letters for Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-45" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Vocabuary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-3.html#prac-2-3" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Practice 2.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-2-4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Algebraic Expressions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-45" class="internal"><span class="codenumber">2.4.1</span> <span class="title">What is an Algebraic Expression?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-46" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Sums and Products</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-47" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Differences and Quotients</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-48" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Using Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-49" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-50" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-51" class="internal"><span class="codenumber">2.4.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-46" class="internal"><span class="codenumber">2.4.1</span> <span class="title">What is an Algebraic Expression?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-47" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Sums and Products</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-48" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Differences and Quotients</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-49" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Using Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-50" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-51" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-52" class="internal"><span class="codenumber">2.4.7</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-4.html#prac-2-4" class="internal"><span class="codenumber">2.4.8</span> <span class="title">Practice 2.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-2-5.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Equations</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-52" class="internal"><span class="codenumber">2.5.1</span> <span class="title">What Is an Equation?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-53" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Solution of an Equation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-54" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Finding Solutions: Opposite Operations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-55" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Isolating the Variable</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-56" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-53" class="internal"><span class="codenumber">2.5.1</span> <span class="title">What Is an Equation?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-54" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Solution of an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-55" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Finding Solutions: Opposite Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#solve1" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Isolating the Variable</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-57" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-5.html#prac-2-5" class="internal"><span class="codenumber">2.5.6</span> <span class="title">Practice 2.5</span></a></div></li>
 </ul>
 </li>
@@ -340,56 +364,56 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-3-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Volume and Surface Area</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-57" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Surface Area</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-58" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Boxes and Cubes</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-59" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Volume</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-60" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-58" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Surface Area</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-59" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Boxes and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-60" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-61" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-1.html#prac-3-1" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Practice 3.1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Exponents</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-61" class="internal"><span class="codenumber">3.2.1</span> <span class="title">A New Notation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-62" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Squares and Cubes</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-63" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Products and Powers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-64" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-65" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#exponents" class="internal"><span class="codenumber">3.2.1</span> <span class="title">A New Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-63" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Squares and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-64" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Products and Powers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#pythagoras" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-66" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-2.html#prac-3-2" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Practice 3.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Units of Measure</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-66" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Length</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-67" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Metric Units</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-68" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Area and Volume</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-69" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Liquid Measure</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-70" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-67" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Length</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-68" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Metric Units</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-69" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Area and Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-70" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Liquid Measure</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-71" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-3.html#prac-3-3" class="internal"><span class="codenumber">3.3.6</span> <span class="title">Practice 3.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-4.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Circles and Spheres</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-71" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Perimeter</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-72" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Circumference of a Circle</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-73" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Area of a Circle</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-74" class="internal"><span class="codenumber">3.4.4</span> <span class="title">A Formula for the Area of a Circle</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-75" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Volume of a Sphere</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-76" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-72" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Perimeter</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-73" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Circumference of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-74" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-75" class="internal"><span class="codenumber">3.4.4</span> <span class="title">A Formula for the Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-76" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Volume of a Sphere</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-77" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-4.html#prac-3-4" class="internal"><span class="codenumber">3.4.7</span> <span class="title">Practice 3.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-5.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Large Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-77" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Millions and Billions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-78" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Multiplying by Powers of Ten</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-79" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Using Powers of Ten</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-80" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Scientific Notation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-81" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-82" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-78" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Millions and Billions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-79" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Multiplying by Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-80" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Using Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-81" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Scientific Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-82" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-83" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-5.html#prac-3-5" class="internal"><span class="codenumber">3.5.7</span> <span class="title">Practice 3.5</span></a></div></li>
 </ul>
 </li>
@@ -401,59 +425,59 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-4-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Adding and Subtracting Fractions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-83" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Like Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-84" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Smaller Pieces</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-85" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Adding Unlike Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-86" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Lowest Common Denominator</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-87" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Three Steps for Adding Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-88" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-84" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Like Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-85" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Smaller Pieces</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-86" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Adding Unlike Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-87" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Lowest Common Denominator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-88" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Three Steps for Adding Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-89" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-1.html#prac-4-1" class="internal"><span class="codenumber">4.1.7</span> <span class="title">Practice 4.1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Multiplying and Dividing Fractions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-89" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Take Part</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-90" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Multiplying by a Fraction</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-91" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Dividing by a Fraction</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-92" class="internal"><span class="codenumber">4.2.4</span> <span class="title">More Dividing by Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-93" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-90" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Take Part</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-91" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Multiplying by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-92" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Dividing by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-93" class="internal"><span class="codenumber">4.2.4</span> <span class="title">More Dividing by Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-94" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-2.html#prac-4-2" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Practice 4.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Roots and Radicals</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-94" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What Is a Square Root?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-95" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Approximating Square Roots</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-96" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Squares and Square Roots</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-97" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-98" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-95" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What Is a Square Root?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-96" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Approximating Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-97" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Squares and Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-98" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-99" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-3.html#prac-4-3" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Practice 4.3</span></a></div></li>
 </ul>
 </li>
 <li class="active">
 <div class="toc-item"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Negative Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-99" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Opposites</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-100" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Signed Numbers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-101" class="internal"><span class="codenumber">4.4.3</span> <span class="title">The Integers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-102" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Graphing on a Number Line</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-103" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Indicating Change with Signed Numbers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-104" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#negnos" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Opposites</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-101" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#integers" class="internal"><span class="codenumber">4.4.3</span> <span class="title">The Integers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-103" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Graphing on a Number Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-104" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Indicating Change with Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-105" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-4.html#prac-4-4" class="internal"><span class="codenumber">4.4.7</span> <span class="title">Practice 4.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Order of Operations</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-105" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Which Operations Come First</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-106" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Combined Operations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-107" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Parentheses</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-108" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Fraction Bars</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-109" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-110" class="internal"><span class="codenumber">4.5.6</span> <span class="title">Exponents and Roots</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-111" class="internal"><span class="codenumber">4.5.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-106" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Which Operations Come First</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-107" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Combined Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-108" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Parentheses</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-109" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Fraction Bars</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-110" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-111" class="internal"><span class="codenumber">4.5.6</span> <span class="title">Exponents and Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-112" class="internal"><span class="codenumber">4.5.7</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-5.html#prac-4-5" class="internal"><span class="codenumber">4.5.8</span> <span class="title">Practice 4.5</span></a></div></li>
 </ul>
 </li>
@@ -465,53 +489,55 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-5-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Working with Variables</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-112" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Like Terms</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-113" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Equivalent Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-114" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Constant Multiples of Terms</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-115" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Terms with Exponents</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-116" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Multiplying Variable Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-117" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-118" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-113" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Like Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-114" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Equivalent Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-115" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Constant Multiples of Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-116" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Terms with Exponents</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-117" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Multiplying Variable Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-118" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-119" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-5-1.html#prac-5-1" class="internal"><span class="codenumber">5.1.8</span> <span class="title">Practice 5.1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">More Algebraic Expressions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-2.html#subsection-119" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-2.html#subsection-120" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-2.html#subsection-121" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Formulas</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-2.html#prac-5-2" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Practice 5.2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-120" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-121" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-122" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-123" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#prac-5-2" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Practice 5.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Problem Solving</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-3.html#subsection-122" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Using Formulas</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-3.html#subsection-123" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Writing an Equation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-3.html#subsection-124" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Modeling a Problem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-124" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Using Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-125" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Writing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-126" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Modeling a Problem</span></a></div></li>
 <li><div class="toc-item"><a href="sec-5-3.html#prac-5-3" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Practice 5.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">More Equations</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-125" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Equations with Two Operations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-126" class="internal"><span class="codenumber">5.4.2</span> <span class="title">A Strategy for Solving Equations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-127" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Formulas</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-128" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Problem Solving</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-129" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Using Algebra to Solve Problems</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#solve2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Equations with Two Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-128" class="internal"><span class="codenumber">5.4.2</span> <span class="title">A Strategy for Solving Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-129" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-130" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Problem Solving</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-131" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Using Algebra to Solve Problems</span></a></div></li>
 <li><div class="toc-item"><a href="sec-5-4.html#prac-5-4" class="internal"><span class="codenumber">5.4.6</span> <span class="title">Practice 5.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-5.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Graphs</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-130" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Line Graphs</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-131" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Plotting Points</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-132" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Graphing an Equation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-133" class="internal"><span class="codenumber">5.5.4</span> <span class="title">Reading a Graph</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#prac-5-5" class="internal"><span class="codenumber">5.5.5</span> <span class="title">Practice 5.5</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-132" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Line Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#plotpoints" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Plotting Points</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#grapheqn" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Graphing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-135" class="internal"><span class="codenumber">5.5.4</span> <span class="title">Reading a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-136" class="internal"><span class="codenumber">5.5.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#prac-5-5" class="internal"><span class="codenumber">5.5.6</span> <span class="title">Practice 5.5</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -522,53 +548,55 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-6-1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Ratios</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-134" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Quantities</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-135" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Ratios</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-136" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Decimal Form for Ratios</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-137" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Rates</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#prac-6-1" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Practice 6-1</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-137" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Quantities</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-138" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-139" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Decimal Form for Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-140" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Rates</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-141" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#prac-6-1" class="internal"><span class="codenumber">6.1.6</span> <span class="title">Practice 6-1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Proportion</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-138" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Proportional Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-139" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Proportional Reasoning</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-140" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Using Proportions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-141" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Graphing Proportional Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#prac-6-2" class="internal"><span class="codenumber">6.2.5</span> <span class="title">Practice 6-2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-142" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-143" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Proportional Reasoning</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-144" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Using Proportions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-145" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Graphing Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-146" class="internal"><span class="codenumber">6.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#prac-6-2" class="internal"><span class="codenumber">6.2.6</span> <span class="title">Practice 6-2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Slope</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-142" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Equations Relating Proportional Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-143" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Steepness of the Graph</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-144" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Rate of Increase</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-145" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Visulaizing Growth Rate on a Graph</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-146" class="internal"><span class="codenumber">6.3.5</span> <span class="title">Slope of a Line</span></a></div></li>
-<li>
-<div class="toc-item"><a href="sec-6-3.html#subsection-147" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Decreasing Graphs</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="sec-6-3.html#prac-6-3" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Practice 6-3</span></a></div></li></ul>
-</li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-147" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Equations Relating Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-148" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Steepness of the Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-149" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Rate of Increase</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-150" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Visualizing Growth Rate on a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-151" class="internal"><span class="codenumber">6.3.5</span> <span class="title">Slope of a Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-152" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Decreasing Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-153" class="internal"><span class="codenumber">6.3.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#prac-6-3" class="internal"><span class="codenumber">6.3.8</span> <span class="title">Practice 6-3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-4.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Similarity</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-148" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Similar Figures</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-149" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Scale Factors</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-150" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Ratio and Proportion</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-151" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Conditions for Similarity</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-152" class="internal"><span class="codenumber">6.4.5</span> <span class="title">Similar Triangles</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#prac-6-4" class="internal"><span class="codenumber">6.4.6</span> <span class="title">Practice 6-4</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-154" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-155" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Scale Factors</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-156" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Ratio and Proportion</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-157" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Conditions for Similarity</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-158" class="internal"><span class="codenumber">6.4.5</span> <span class="title">Similar Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-159" class="internal"><span class="codenumber">6.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#prac-6-4" class="internal"><span class="codenumber">6.4.7</span> <span class="title">Practice 6-4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-5.html" class="internal"><span class="codenumber">6.5</span> <span class="title">More About Similarity</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-5.html#subsection-153" class="internal"><span class="codenumber">6.5.1</span> <span class="title">Areas of Similar Figures</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-5.html#subsection-154" class="internal"><span class="codenumber">6.5.2</span> <span class="title">Volumes of Proportional Solids</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-160" class="internal"><span class="codenumber">6.5.1</span> <span class="title">Areas of Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-161" class="internal"><span class="codenumber">6.5.2</span> <span class="title">Volumes of Proportional Solids</span></a></div></li>
 <li><div class="toc-item"><a href="sec-6-5.html#prac-6-5" class="internal"><span class="codenumber">6.5.3</span> <span class="title">Practice 6-5</span></a></div></li>
 </ul>
 </li>
@@ -580,40 +608,44 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-7-1.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Adding Signed Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-155" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Adding Two Numbers with the Same Sign</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-156" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Adding Two Numbers with Opposite Signs</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-157" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Rules for Addition</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-158" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Net Change</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#prac-7-1" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Practice 7-1</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-162" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Adding Two Numbers with the Same Sign</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-163" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Adding Two Numbers with Opposite Signs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#addrules" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Rules for Addition</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-165" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Net Change</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-166" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#prac-7-1" class="internal"><span class="codenumber">7.1.6</span> <span class="title">Practice 7-1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-7-2.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Subtracting Signed Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-159" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Subtracting a Positive Number</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-160" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Subtracting a Negative Number</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-161" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Rule for Subtraction</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-162" class="internal"><span class="codenumber">7.2.4</span> <span class="title">Notation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#prac-7-2" class="internal"><span class="codenumber">7.2.5</span> <span class="title">Practice 7-2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-167" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Subtracting a Positive Number</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-168" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Subtracting a Negative Number</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-169" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Rule for Subtraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-170" class="internal"><span class="codenumber">7.2.4</span> <span class="title">Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-171" class="internal"><span class="codenumber">7.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#prac-7-2" class="internal"><span class="codenumber">7.2.6</span> <span class="title">Practice 7-2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-7-3.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Multiplying and Dividing Signed Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-3.html#subsection-163" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Multiplication</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-3.html#subsection-164" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Division</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-3.html#subsection-165" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Powers of Negative Numbers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-3.html#prac-7-3" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Practice 7-3</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-172" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Multiplication</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-173" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Division</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-174" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Powers of Negative Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-175" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#prac-7-3" class="internal"><span class="codenumber">7.3.5</span> <span class="title">Practice 7-3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-7-4.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Equations and Graphs</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-166" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Solving Equations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-167" class="internal"><span class="codenumber">7.4.2</span> <span class="title">The Cartesian Coordinate System</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-168" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Plotting Points</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-169" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Graphing Lines</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-170" class="internal"><span class="codenumber">7.4.5</span> <span class="title">Applications of Linear Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-176" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Solving Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-177" class="internal"><span class="codenumber">7.4.2</span> <span class="title">The Cartesian Coordinate System</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-178" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Plotting Points</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-179" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Graphing Lines</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-180" class="internal"><span class="codenumber">7.4.5</span> <span class="title">Applications of Linear Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-181" class="internal"><span class="codenumber">7.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -621,9 +653,8 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="solutions-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Selected Exercises and Homework Problems</span></a></div></li>
-<li><div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></div></li>
-<li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li><div class="toc-item"><a href="solutions-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Odd-Numbered Homework Problems</span></a></div></li>
+<li><div class="toc-item"><a href="glossary-1.html" class="internal"><span class="title">Glossary</span></a></div></li>
 <li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
 </ul>
 </li>
@@ -632,25 +663,25 @@ window.MathJax = {
 <span class="type">Section</span> <span class="codenumber">4.4</span> <span class="title">Negative Numbers</span>
 </h2>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
-<div class="sbspanel top" style="width:50%;"><div class="para logical" id="p-5542"><ul class="disc">
-<li id="li-2403"><div class="para" id="p-5543">Opposites</div></li>
-<li id="li-2404"><div class="para" id="p-5544">Signed Numbers</div></li>
-<li id="li-2405"><div class="para" id="p-5545">The Integers</div></li>
-<li id="li-2406"><div class="para" id="p-5546">Graphing on a Number Line</div></li>
-<li id="li-2407"><div class="para" id="p-5547">Indicating Change</div></li>
+<div class="sbspanel middle" style="width:50%;"><div class="para logical" id="p-5551"><ul class="disc">
+<li id="li-2409"><div class="para" id="p-5552">Opposites</div></li>
+<li id="li-2410"><div class="para" id="p-5553">Signed Numbers</div></li>
+<li id="li-2411"><div class="para" id="p-5554">The Integers</div></li>
+<li id="li-2412"><div class="para" id="p-5555">Graphing on a Number Line</div></li>
+<li id="li-2413"><div class="para" id="p-5556">Indicating Change</div></li>
 </ul></div></div>
-<div class="sbspanel top" style="width:50%;"><img src="external/stockmarket.png" class="contained"></div>
+<div class="sbspanel middle" style="width:50%;"><img src="external/stockmarket.png" class="contained"></div>
 </div></div>
-<section class="subsection" id="subsection-99"><h3 class="heading hide-type">
+<section class="subsection" id="negnos"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">4.4.1</span> <span class="title">Opposites</span>
 </h3>
-<div class="para" id="p-5548">The picture above shows part of the electronic display above a stock market trading floor. Notice the numbers in the column on the right.  Most of these are <dfn class="terminology">negative numbers</dfn>, which tell us that the stock has decreased in value. The world of finance is just one of the areas where negative numbers are useful.</div>
-<div class="para" id="p-5549">What are negative numbers?  In some situations, we can think of them as <dfn class="terminology">opposites</dfn>.</div>
+<div class="para" id="p-5557">The picture above shows part of the electronic display above a stock market trading floor. Notice the numbers in the column on the right.  Most of these are <dfn class="terminology">negative numbers</dfn>, which tell us that the stock has decreased in value. The world of finance is just one of the areas where negative numbers are useful.</div>
+<div class="para" id="p-5558">What are negative numbers?  In some situations, we can think of them as <dfn class="terminology">opposites</dfn>.</div>
 <article class="activity project-like" id="activity-52"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.4.1</span><span class="period">.</span><span class="space"> </span><span class="title">Opposites.</span>
-</h4> <div class="para logical" id="p-5550">
+</h4> <div class="para logical" id="p-5559">
 <div class="para">Fill in the list below with opposites. The first two are done for you.</div>
-<div class="displaymath process-math" id="md-52">
+<div class="displaymath process-math" id="md-53">
 \begin{align*}
 1. ~~ \amp \text{Five feet above ground} \hphantom{000000000} \amp \amp \blert{\text{Five feet below ground}}\\
 2. ~~ \amp \blert{\text{Earn }$20}  \hphantom{000000000}  \amp \amp \text{Spend }$20\\
@@ -664,38 +695,38 @@ window.MathJax = {
 10. ~~ \amp \fillinmath{XXXXXXXXXX}  \hphantom{000000000}  \amp \amp \text{Two years younger}
 \end{align*}
 </div>
-</div></article><div class="para" id="p-5551">We can use a thermometer to visualize opposites as temperatures.</div>
+</div></article><div class="para" id="p-5560">We can use a thermometer to visualize opposites as temperatures.</div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
-<div class="sbspanel top" style="width:66.6666666666667%;"><div class="para logical" id="p-5552"><ul class="disc">
-<li id="li-2408"><div class="para" id="p-5553">On the thermometer at right, the opposite of five degrees above zero is five degrees below zero.</div></li>
-<li id="li-2409"><div class="para" id="p-5554">Five degrees below zero is also called <dfn class="terminology">negative</dfn> five degrees, and is written 5°.</div></li>
-<li id="li-2410"><div class="para" id="p-5555">Temperatures below 0° are represented by <dfn class="terminology">negative</dfn> numbers. Temperatures above zero degrees are called <dfn class="terminology">positive</dfn>.</div></li>
+<div class="sbspanel top" style="width:66.6666666666667%;"><div class="para logical" id="p-5561"><ul class="disc">
+<li id="li-2414"><div class="para" id="p-5562">On the thermometer at right, the opposite of five degrees above zero is five degrees below zero.</div></li>
+<li id="li-2415"><div class="para" id="p-5563">Five degrees below zero is also called <dfn class="terminology">negative</dfn> five degrees, and is written 5°.</div></li>
+<li id="li-2416"><div class="para" id="p-5564">Temperatures below 0° are represented by <dfn class="terminology">negative</dfn> numbers. Temperatures above zero degrees are called <dfn class="terminology">positive</dfn>.</div></li>
 </ul></div></div>
 <div class="sbspanel top" style="width:22.2222222222222%;"><img src="generated/latex-image/ThermometerMinus5.svg" role="img" class="contained" alt="Thermometer -5 deg"></div>
 </div></div>
-<article class="assemblage assemblage-like" id="assemblage-112"><h4 class="heading"><span class="title">Definition.</span></h4>
-<div class="para" id="p-5556">A <dfn class="terminology">negative number</dfn> is a number less than zero. The symbol <span class="process-math">\(\large -\)</span> in front of a number means negative or opposite of.</div></article><article class="example example-like" id="example-100"><h4 class="heading">
+<article class="assemblage assemblage-like" id="assemblage-113"><h4 class="heading"><span class="title">Definition.</span></h4>
+<div class="para" id="p-5565">A <dfn class="terminology">negative number</dfn> is a number less than zero. The symbol <span class="process-math">\(\large -\)</span> in front of a number means negative or opposite of.</div></article><article class="example example-like" id="example-100"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.1</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5557">Sketch thermometers that show these temperatures.</div> <div class="para logical" id="p-5558"><ol class="lower-alpha cols2">
-<li id="li-2411"><div class="para" id="p-5559"><span class="process-math">\(\displaystyle 14 \degree\)</span></div></li>
-<li id="li-2412"><div class="para" id="p-5560"><span class="process-math">\(\displaystyle -8  \degree\)</span></div></li>
+<div class="para" id="p-5566">Sketch thermometers that show these temperatures.</div> <div class="para logical" id="p-5567"><ol class="lower-alpha cols2">
+<li id="li-2417"><div class="para" id="p-5568"><span class="process-math">\(\displaystyle 14 \degree\)</span></div></li>
+<li id="li-2418"><div class="para" id="p-5569"><span class="process-math">\(\displaystyle -8  \degree\)</span></div></li>
 </ol></div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-80" id="solution-80"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-80"><div class="solution solution-like">
-<div class="para logical" id="p-5561"><ol class="lower-alpha cols2">
-<li id="li-2413"> <div class="image-box" style="width: 30%; margin-left: 0%; margin-right: 70%;"><img src="generated/latex-image/Thermometerpos5.svg" role="img" class="contained" alt="Thermometer-5 deg"></div>
+<div class="para logical" id="p-5570"><ol class="lower-alpha cols2">
+<li id="li-2419"> <div class="image-box" style="width: 40%; margin-left: 0%; margin-right: 60%;"><img src="generated/latex-image/Thermometerpos5.svg" role="img" class="contained" alt="Thermometer-5 deg"></div>
 </li>
-<li id="li-2414"> <div class="image-box" style="width: 30%; margin-left: 0%; margin-right: 70%;"><img src="generated/latex-image/ThermometerNeg8.svg" role="img" class="contained" alt="Thermometer -8 deg"></div>
+<li id="li-2420"> <div class="image-box" style="width: 40%; margin-left: 0%; margin-right: 60%;"><img src="generated/latex-image/ThermometerNeg8.svg" role="img" class="contained" alt="Thermometer -8 deg"></div>
 </li>
-</ol></div> <div class="para" id="p-5562">In part (a), the red line stops at 14 degrees above zero. In part (b), the red line stops at 8 degrees below zero.</div>
+</ol></div> <div class="para" id="p-5571">In part (a), the red line stops at 14 degrees above zero. In part (b), the red line stops at 8 degrees below zero.</div>
 </div></div>
 </div></article><article class="exercise exercise-like" id="exercise-1203"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.2</span><span class="period">.</span>
 </h4>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:10%;margin-right:10%;">
 <div class="sbspanel top" style="width:50%;">
-<div class="para" id="p-5563">Fill in the thermometer at right to show a temperature of <span class="process-math">\(-4  \degree\text{.}\)</span>
+<div class="para" id="p-5572">Fill in the thermometer at right to show a temperature of <span class="process-math">\(-4  \degree\text{.}\)</span>
 </div>
 <img src="external/snowman.png" class="contained">
 </div>
@@ -703,97 +734,97 @@ window.MathJax = {
 </div></div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref answer-knowl original has-image" data-refid="hk-answer-650" id="answer-650"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-650"><div class="answer solution-like"><div class="image-box" style="width: 20%; margin-left: 0%; margin-right: 80%;"><img src="generated/latex-image/ThermometerMinus4.svg" role="img" class="contained" alt="Thermometer at -4"></div></div></div>
-</div></article><div class="para" id="p-5564">Here are some more examples of how negative numbers are used:</div>
-<div class="para logical" id="p-5565"><ul class="disc">
-<li id="li-2415"><div class="para" id="p-5566">Elevations above sea level are given by positive numbers, and elevations below sea level are given by negative numbers.</div></li>
-<li id="li-2416"><div class="para" id="p-5567">If your checking account is overdrawn it has a negative balance.</div></li>
-<li id="li-2417"><div class="para" id="p-5568">Gains and losses in football and other sports are recorded as positive and negative numbers.</div></li>
-<li id="li-2418"><div class="para" id="p-5569">In general, positive numbers denote gains, increases, profits, and the like, and negative numbers denote losses or decreases.</div></li>
-</ul></div></section><section class="subsection" id="subsection-100"><h3 class="heading hide-type">
+</div></article><div class="para" id="p-5573">Here are some more examples of how negative numbers are used:</div>
+<div class="para logical" id="p-5574"><ul class="disc">
+<li id="li-2421"><div class="para" id="p-5575">Elevations above sea level are given by positive numbers, and elevations below sea level are given by negative numbers.</div></li>
+<li id="li-2422"><div class="para" id="p-5576">If your checking account is overdrawn it has a negative balance.</div></li>
+<li id="li-2423"><div class="para" id="p-5577">Gains and losses in football and other sports are recorded as positive and negative numbers.</div></li>
+<li id="li-2424"><div class="para" id="p-5578">In general, positive numbers denote gains, increases, profits, and the like, and negative numbers denote losses or decreases.</div></li>
+</ul></div></section><section class="subsection" id="subsection-101"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">4.4.2</span> <span class="title">Signed Numbers</span>
 </h3>
-<div class="para" id="p-5570">When we deal with positive and negative numbers together, we call them <dfn class="terminology">signed numbers</dfn>.</div>
-<article class="note remark-like" id="note-72"><h4 class="heading">
+<div class="para" id="p-5579">When we deal with positive and negative numbers together, we call them <dfn class="terminology">signed numbers</dfn>.</div>
+<article class="note remark-like" id="note-73"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">4.4.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5571">When we work with signed numbers, we use the symbol <span class="process-math">\(\large +\)</span> to indicate a positive number. For example, <span class="process-math">\(+3\)</span> means positive 3. However, unless some special distinction is needed, we usually write positive 3 as just 3.</div></article><article class="example example-like" id="example-101"><h4 class="heading">
+<div class="para" id="p-5580">When we work with signed numbers, we use the symbol <span class="process-math">\(\large +\)</span> to indicate a positive number. For example, <span class="process-math">\(+3\)</span> means positive 3. However, unless some special distinction is needed, we usually write positive 3 as just 3.</div></article><article class="example example-like" id="example-101"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.4</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5572">Use a signed number to describe each situation.</div> <div class="para logical" id="p-5573"><ol class="lower-alpha">
-<li id="li-2419"><div class="para" id="p-5574">Death Valley is 273 feet below sea level.  What is its elevation?</div></li>
-<li id="li-2420"><div class="para" id="p-5575">The Very Big Corporation ended 2015 with a deficit of 8 billion dollars.  What is its net worth?</div></li>
+<div class="para" id="p-5581">Use a signed number to describe each situation.</div> <div class="para logical" id="p-5582"><ol class="lower-alpha">
+<li id="li-2425"><div class="para" id="p-5583">Death Valley is 273 feet below sea level.  What is its elevation?</div></li>
+<li id="li-2426"><div class="para" id="p-5584">The Very Big Corporation ended 2015 with a deficit of 8 billion dollars.  What is its net worth?</div></li>
 </ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-81" id="solution-81"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-81"><div class="solution solution-like"><div class="para logical" id="p-5576"><ol class="lower-alpha">
-<li id="li-2421"><div class="para" id="p-5577">The elevation of Death Valley is <span class="process-math">\(-273\)</span> feet.</div></li>
-<li id="li-2422"><div class="para" id="p-5578">The net worth of the Very Big Corporation is <span class="process-math">\(-8\)</span> billion dollars.</div></li>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-81" id="solution-81"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-81"><div class="solution solution-like"><div class="para logical" id="p-5585"><ol class="lower-alpha">
+<li id="li-2427"><div class="para" id="p-5586">The elevation of Death Valley is <span class="process-math">\(-273\)</span> feet.</div></li>
+<li id="li-2428"><div class="para" id="p-5587">The net worth of the Very Big Corporation is <span class="process-math">\(-8\)</span> billion dollars.</div></li>
 </ol></div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-1204"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.5</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5579">Write a sentence using a signed number to describe each situation.</div> <div class="para logical" id="p-5580"><ol class="lower-alpha">
-<li id="li-2423"><div class="para" id="p-5581">The water level in Pyramid Lake dropped 30 inches below normal.</div></li>
-<li id="li-2424"><div class="para" id="p-5582">Callie's checking account is overdrawn by $50.</div></li>
+<div class="para" id="p-5588">Write a sentence using a signed number to describe each situation.</div> <div class="para logical" id="p-5589"><ol class="lower-alpha">
+<li id="li-2429"><div class="para" id="p-5590">The water level in Pyramid Lake dropped 30 inches below normal.</div></li>
+<li id="li-2430"><div class="para" id="p-5591">Callie’s checking account is overdrawn by $50.</div></li>
 </ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-651" id="answer-651"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-651"><div class="answer solution-like"><div class="para logical" id="p-5583"><ol class="lower-alpha">
-<li id="li-2425"><div class="para" id="p-5584">The water level in Pyramid Lake is <span class="process-math">\(-30\)</span> inches.</div></li>
-<li id="li-2426"><div class="para" id="p-5585">The balance of Callie's checking account is <span class="process-math">\(-50\)</span> dollars.</div></li>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-651" id="answer-651"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-651"><div class="answer solution-like"><div class="para logical" id="p-5592"><ol class="lower-alpha">
+<li id="li-2431"><div class="para" id="p-5593">The water level in Pyramid Lake is <span class="process-math">\(-30\)</span> inches.</div></li>
+<li id="li-2432"><div class="para" id="p-5594">The balance of Callie’s checking account is <span class="process-math">\(-50\)</span> dollars.</div></li>
 </ol></div></div></div>
-</div></article><div class="para" id="p-5586">We can use a bar graph to display both positive and negative numbers. Bars that extend above the zero line indicate positive values, and bars that extend below the zero line indicate negative values. (See Section 2.3 if you would like to review bar graphs.)</div>
+</div></article><div class="para" id="p-5595">We can use a bar graph to display both positive and negative numbers. Bars that extend above the zero line indicate positive values, and bars that extend below the zero line indicate negative values. (See <a href="sec-2-3.html#bargraph" class="internal" title="Subsection 2.3.2: Bar Graphs">Section 2.3</a> if you would like to review bar graphs.)</div>
 <article class="example example-like" id="example-102"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5587">The bar graph below shows normal low temperatures, indegrees Celsius, for each month in Bismarck, North Dakota.</div> <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/bismarcktemp.png" class="contained"></div> <div class="para logical" id="p-5588"><ol class="lower-alpha">
-<li id="li-2427"><div class="para" id="p-5589">What is normally the low temperature in December?</div></li>
-<li id="li-2428"><div class="para" id="p-5590">Which month normally has the coldest temperature?  What is the coldest temperature?</div></li>
+<div class="para" id="p-5596">The bar graph below shows normal low temperatures, indegrees Celsius, for each month in Bismarck, North Dakota.</div> <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/bismarcktemp.png" class="contained"></div> <div class="para logical" id="p-5597"><ol class="lower-alpha">
+<li id="li-2433"><div class="para" id="p-5598">What is normally the low temperature in December?</div></li>
+<li id="li-2434"><div class="para" id="p-5599">Which month normally has the coldest temperature?  What is the coldest temperature?</div></li>
 </ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-82" id="solution-82"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-82"><div class="solution solution-like"><div class="para logical" id="p-5591"><ol class="lower-alpha">
-<li id="li-2429"><div class="para" id="p-5592">The bar for December extends down to <span class="process-math">\(-16\text{,}\)</span> so the normal low for December is <span class="process-math">\(-16 \degree\)</span> Celsius.</div></li>
-<li id="li-2430"><div class="para" id="p-5593">January has the coldest temperature, <span class="process-math">\(-19 \degree\)</span> Celsius.</div></li>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-82" id="solution-82"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-82"><div class="solution solution-like"><div class="para logical" id="p-5600"><ol class="lower-alpha">
+<li id="li-2435"><div class="para" id="p-5601">The bar for December extends down to <span class="process-math">\(-16\text{,}\)</span> so the normal low for December is <span class="process-math">\(-16 \degree\)</span> Celsius.</div></li>
+<li id="li-2436"><div class="para" id="p-5602">January has the coldest temperature, <span class="process-math">\(-19 \degree\)</span> Celsius.</div></li>
 </ol></div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-1205"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.7</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-5594"><ol class="lower-alpha">
-<li id="li-2431"><div class="para" id="p-5595">Look at the bar graph in Example 3. What is the normal low temperature in Bismarck in February? Is it colder in Bismarck in February or in December?</div></li>
-<li id="li-2432"><div class="para" id="p-5596">Which two months have the same negative normal low temperature?  What is that temperature?</div></li>
+<div class="para logical" id="p-5603"><ol class="lower-alpha">
+<li id="li-2437"><div class="para" id="p-5604">Look at the bar graph in Example 4.4.6. What is the normal low temperature in Bismarck in February? Is it colder in Bismarck in February or in December?</div></li>
+<li id="li-2438"><div class="para" id="p-5605">Which two months have the same negative normal low temperature?  What is that temperature?</div></li>
 </ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-652" id="answer-652"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-652"><div class="answer solution-like"><div class="para logical" id="p-5597"><ol class="lower-alpha">
-<li id="li-2433"><div class="para" id="p-5598">
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-652" id="answer-652"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-652"><div class="answer solution-like"><div class="para logical" id="p-5606"><ol class="lower-alpha">
+<li id="li-2439"><div class="para" id="p-5607">
 <span class="process-math">\(-15 \degree\)</span> C, December</div></li>
-<li id="li-2434"><div class="para" id="p-5599">March and November, <span class="process-math">\(-8 \degree\)</span> C</div></li>
+<li id="li-2440"><div class="para" id="p-5608">March and November, <span class="process-math">\(-8 \degree\)</span> C</div></li>
 </ol></div></div></div>
-</div></article></section><section class="subsection" id="subsection-101"><h3 class="heading hide-type">
+</div></article></section><section class="subsection" id="integers"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">4.4.3</span> <span class="title">The Integers</span>
 </h3>
-<div class="para" id="p-5600">In Section 2.1 we used <dfn class="terminology">number lines</dfn> to compare decimal numbers. Now we'll extend our number lines to include negative numbers. Here is an example.</div>
+<div class="para" id="p-5609">In Section 2.1 we used <dfn class="terminology">number lines</dfn> to compare decimal numbers. Now we’ll extend our number lines to include negative numbers. Here is an example.</div>
 <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/numberline.png" class="contained"></div>
-<article class="assemblage assemblage-like" id="assemblage-113"><h4 class="heading"><span class="title">How to draw a number line.</span></h4>
-<div class="para logical" id="p-5601"><ul class="disc">
-<li id="li-2435"><div class="para" id="p-5602">Begin by marking a position for zero in the middle of the line.</div></li>
-<li id="li-2436"><div class="para" id="p-5603">Choose a length to represent one unit, and mark off the counting numbers (1, 2, 3, etc.) at equal intervals to the right of zero. These marks represent positive numbers.</div></li>
-<li id="li-2437"><div class="para" id="p-5604">Each positive number has its opposite or negative to the left of zero. For example, if we mark off three units to the left of zero, we come to the opposite of 3, or <span class="process-math">\(-3\text{.}\)</span> The marks to the left of zero represent negative numbers.</div></li>
-<li id="li-2438"><div class="para" id="p-5605">The arrow at either end means that the number line continues forever.</div></li>
+<article class="assemblage assemblage-like" id="assemblage-114"><h4 class="heading"><span class="title">How to draw a number line.</span></h4>
+<div class="para logical" id="p-5610"><ul class="disc">
+<li id="li-2441"><div class="para" id="p-5611">Begin by marking a position for zero in the middle of the line.</div></li>
+<li id="li-2442"><div class="para" id="p-5612">Choose a length to represent one unit, and mark off the counting numbers (1, 2, 3, etc.) at equal intervals to the right of zero. These marks represent positive numbers.</div></li>
+<li id="li-2443"><div class="para" id="p-5613">Each positive number has its opposite or negative to the left of zero. For example, if we mark off three units to the left of zero, we come to the opposite of 3, or <span class="process-math">\(-3\text{.}\)</span> The marks to the left of zero represent negative numbers.</div></li>
+<li id="li-2444"><div class="para" id="p-5614">The arrow at either end means that the number line continues forever.</div></li>
 </ul></div>
-<div class="para logical" id="p-5606"><div class="displaymath process-math">
+<div class="para logical" id="p-5615"><div class="displaymath process-math">
 \begin{equation*}
 \hphantom{000000000000}
 \end{equation*}
 </div></div>
-<div class="para" id="p-5607">Draw your own number line here. Mark your line from <span class="process-math">\(-5\)</span> to 5. Try to make sure that your marks are equally spaced.</div>
-<div class="para logical" id="p-5608"><div class="displaymath process-math">
+<div class="para" id="p-5616">Draw your own number line here. Mark your line from <span class="process-math">\(-5\)</span> to 5. Try to make sure that your marks are equally spaced.</div>
+<div class="para logical" id="p-5617"><div class="displaymath process-math">
 \begin{equation*}
 \hphantom{000000000000}
 \end{equation*}
-</div></div></article><article class="assemblage assemblage-like" id="assemblage-114"><h4 class="heading"><span class="title">Definition.</span></h4>
-<div class="para" id="p-5609">The positive whole numbers, the negative whole numbers, and zero make up a set of numbers called the <dfn class="terminology">integers</dfn>.</div></article><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/integers.png" class="contained"></div>
+</div></div></article><article class="assemblage assemblage-like" id="assemblage-115"><h4 class="heading"><span class="title">Definition.</span></h4>
+<div class="para" id="p-5618">The positive whole numbers, the negative whole numbers, and zero make up a set of numbers called the <dfn class="terminology">integers</dfn>.</div></article><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/integers.png" class="contained"></div>
 <article class="example example-like" id="example-103"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.8</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-5610">
+<div class="para logical" id="p-5619">
 <div class="para">Which of the following numbers are integers?</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -802,59 +833,59 @@ window.MathJax = {
 </div>
 </div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-83" id="solution-83"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-83"><div class="solution solution-like"><div class="para" id="p-5611">The numbers <span class="process-math">\(-16, ~~ \dfrac{20}{4} \)</span> (which equals 5), and <span class="process-math">\(0\)</span> are integers.</div></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-83" id="solution-83"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-83"><div class="solution solution-like"><div class="para" id="p-5620">The numbers <span class="process-math">\(-16, ~~ \dfrac{20}{4} \)</span> (which equals 5), and <span class="process-math">\(0\)</span> are integers.</div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-1206"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.9</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5612">List all the integers between <span class="process-math">\(-5\)</span> and <span class="process-math">\(4\text{.}\)</span>
+<div class="para" id="p-5621">List all the integers between <span class="process-math">\(-5\)</span> and <span class="process-math">\(4\text{.}\)</span>
 </div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-653" id="answer-653"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-653"><div class="answer solution-like"><span class="process-math">\(-4,~-3,~-2,~-1,~0,~1,~2,~3\)</span></div></div>
-</div></article><div class="para" id="p-5613">Which is colder, a temperature of <span class="process-math">\(-5 \degree\)</span> or a temperature of <span class="process-math">\(-10 \degree\text{?}\)</span>
+</div></article><div class="para" id="p-5622">Which is colder, a temperature of <span class="process-math">\(-5 \degree\)</span> or a temperature of <span class="process-math">\(-10 \degree\text{?}\)</span>
 </div>
-<div class="para" id="p-5614">Because <span class="process-math">\(-10 \degree\)</span> is colder, it makes sense to say that <span class="process-math">\(-10\)</span>  is less than <span class="process-math">\(-5\text{.}\)</span>  On the number line, <span class="process-math">\(-10\)</span> lies to the left of<span class="process-math">\(-5,~\)</span> as shown below.</div>
+<div class="para" id="p-5623">Because <span class="process-math">\(-10 \degree\)</span> is colder, it makes sense to say that <span class="process-math">\(-10\)</span>  is less than <span class="process-math">\(-5\text{.}\)</span>  On the number line, <span class="process-math">\(-10\)</span> lies to the left of<span class="process-math">\(-5,~\)</span> as shown below.</div>
 <div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/lessthan.png" class="contained"></div>
-<article class="note remark-like" id="note-73"><h4 class="heading">
+<article class="note remark-like" id="note-74"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">4.4.10</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5615">Numbers increase as we move from left to right on the number line.  For example, <span class="process-math">\(-4\)</span>  is less than <span class="process-math">\(-3\text{,}\)</span> <span class="process-math">\(-2\)</span> is less than 0, and 3 is less than 6. In particular, every negative number is less than every positive number.</div></article><div class="para" id="p-5616">In Section 1.4 we encountered <dfn class="terminology">inequality symbols</dfn> to denote "less than" and "greater than".</div>
-<article class="assemblage assemblage-like" id="assemblage-115"><h4 class="heading"><span class="title">Inequality Symbols.</span></h4>
-<div class="para logical" id="p-5617"><div class="displaymath process-math" id="md-53">
+<div class="para" id="p-5624">Numbers increase as we move from left to right on the number line.  For example, <span class="process-math">\(-4\)</span>  is less than <span class="process-math">\(-3\text{,}\)</span> <span class="process-math">\(-2\)</span> is less than 0, and 3 is less than 6. In particular, every negative number is less than every positive number.</div></article><div class="para" id="p-5625">In Section 1.4 we encountered <dfn class="terminology">inequality symbols</dfn> to denote "less than" and "greater than".</div>
+<article class="assemblage assemblage-like" id="assemblage-116"><h4 class="heading"><span class="title">Inequality Symbols.</span></h4>
+<div class="para logical" id="p-5626"><div class="displaymath process-math" id="md-54">
 \begin{align*}
 \amp \blert{\large \lt} \hphantom{0000} \text{ means } \hphantom{0000} \blert{\text{is less than}}\\
 \amp \blert{\large \gt} \hphantom{0000}\text{ means } \hphantom{0000} \blert{\text{is greater than}}
 \end{align*}
-</div></div></article><div class="para logical" id="p-5618">
+</div></div></article><div class="para logical" id="p-5627">
 <div class="para">For example,</div>
-<div class="displaymath process-math" id="md-54">
+<div class="displaymath process-math" id="md-55">
 \begin{align*}
 -8 \lt -6 \hphantom{0000} \amp \text{ means } \hphantom{00} \amp \amp -8 ~~~~ \text{is less than} -6\\
 2 \gt -5 \hphantom{0000} \amp \text{ means } \hphantom{00} \amp \amp 2 ~~~~ \text{is greater than} -5
 \end{align*}
 </div>
 </div>
-<div class="para" id="p-5619">These two new symbols, <span class="process-math">\(\lt\)</span> and <span class="process-math">\(\gt\text{,}\)</span> are called inequality symbols, to distinguish them from the equality symbol, <span class="process-math">\(=\text{.}\)</span>
+<div class="para" id="p-5628">These two new symbols, <span class="process-math">\(\lt\)</span> and <span class="process-math">\(\gt\text{,}\)</span> are called inequality symbols, to distinguish them from the equality symbol, <span class="process-math">\(=\text{.}\)</span>
 </div>
 <article class="example example-like" id="example-104"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.11</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5620">Use inequality symbols to write the following phrases.</div> <div class="para logical" id="p-5621"><ol class="lower-alpha">
-<li id="li-2439"><div class="para" id="p-5622">
+<div class="para" id="p-5629">Use inequality symbols to write the following phrases.</div> <div class="para logical" id="p-5630"><ol class="lower-alpha">
+<li id="li-2445"><div class="para" id="p-5631">
 <span class="process-math">\(-9\)</span> is less than <span class="process-math">\(4\)</span>
 </div></li>
-<li id="li-2440"><div class="para" id="p-5623">
+<li id="li-2446"><div class="para" id="p-5632">
 <span class="process-math">\(-1\)</span> is greater than <span class="process-math">\(-12\)</span>
 </div></li>
 </ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-84" id="solution-84"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-84"><div class="solution solution-like"><div class="para logical" id="p-5624"><ol class="lower-alpha">
-<li id="li-2441"><div class="para" id="p-5625"><span class="process-math">\(\displaystyle -9 \lt 4\)</span></div></li>
-<li id="li-2442"><div class="para" id="p-5626"><span class="process-math">\(\displaystyle -1 \gt -12\)</span></div></li>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-84" id="solution-84"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-84"><div class="solution solution-like"><div class="para logical" id="p-5633"><ol class="lower-alpha">
+<li id="li-2447"><div class="para" id="p-5634"><span class="process-math">\(\displaystyle -9 \lt 4\)</span></div></li>
+<li id="li-2448"><div class="para" id="p-5635"><span class="process-math">\(\displaystyle -1 \gt -12\)</span></div></li>
 </ol></div></div></div>
-</div></article><article class="note remark-like" id="note-74"><h4 class="heading">
+</div></article><article class="note remark-like" id="note-75"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">4.4.12</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-5627">
+<div class="para logical" id="p-5636">
 <div class="para">We can show an inequality in two ways:</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -870,20 +901,20 @@ window.MathJax = {
 </div></article><article class="exercise exercise-like" id="exercise-1207"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.13</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5628">Use inequality symbols to write the phrase in two different ways: <span class="process-math">\(~~~-2\)</span> is greater than <span class="process-math">\(-10\text{.}\)</span>
+<div class="para" id="p-5637">Use inequality symbols to write the phrase in two different ways: <span class="process-math">\(~~~-2\)</span> is greater than <span class="process-math">\(-10\text{.}\)</span>
 </div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-654" id="answer-654"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-654"><div class="answer solution-like">
-<span class="process-math">\(-2 \gt -10\text{,}\)</span> or <span class="process-math">\(-10 \lt -2\)</span>
+<span class="process-math">\(-2 \gt -10~\text{,}\)</span> or <span class="process-math">\(~-10 \lt -2\)</span>
 </div></div>
-</div></article></section><section class="subsection" id="subsection-102"><h3 class="heading hide-type">
+</div></article></section><section class="subsection" id="subsection-103"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">4.4.4</span> <span class="title">Graphing on a Number Line</span>
 </h3>
-<div class="para" id="p-5629">To show a particular number on the number line, we place a dot at its position. This is called the <dfn class="terminology">graph</dfn> of the number.  Fractions, such as <span class="process-math">\(2\dfrac{3}{4}\)</span> or 4.8, are located between the integers on a number line.</div>
+<div class="para" id="p-5638">To show a particular number on the number line, we place a dot at its position. This is called the <dfn class="terminology">graph</dfn> of the number.  Fractions, such as <span class="process-math">\(2\dfrac{3}{4}\)</span> or 4.8, are located between the integers on a number line.</div>
 <article class="example example-like" id="example-105"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.14</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-5630">
+<div class="para logical" id="p-5639">
 <div class="para">Graph the following numbers on a number line.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -893,22 +924,22 @@ window.MathJax = {
 </div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-85" id="solution-85"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-85"><div class="solution solution-like">
-<div class="para" id="p-5631">We graph fractions by placing dots between the appropriate integers on the number line. For example, we graph  <span class="process-math">\(5 \dfrac{1}{4}\)</span>  between 5 and 6.  The completed graph is shown below.</div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/neg6to6.png" class="contained"></div>
+<div class="para" id="p-5640">We graph fractions by placing dots between the appropriate integers on the number line. For example, we graph  <span class="process-math">\(5 \dfrac{1}{4}\)</span>  between 5 and 6.  The completed graph is shown below.</div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/neg6to6.png" class="contained"></div>
 </div></div>
-</div></article><article class="note remark-like" id="note-75"><h4 class="heading">
+</div></article><article class="note remark-like" id="note-76"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">4.4.15</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5632">In Example 6, notice that <span class="process-math">\(-2.5\)</span> is less than <span class="process-math">\(-2\text{,}\)</span> so it is graphed to the left of <span class="process-math">\(-2\text{,}\)</span> between <span class="process-math">\(-2\)</span>  and <span class="process-math">\(-3\text{.}\)</span>
+<div class="para" id="p-5641">In Example 4.4.14, notice that <span class="process-math">\(-2.5\)</span> is less than <span class="process-math">\(-2\text{,}\)</span> so it is graphed to the left of <span class="process-math">\(-2\text{,}\)</span> between <span class="process-math">\(-2\)</span>  and <span class="process-math">\(-3\text{.}\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-1208"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.16</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5633">Graph the numbers <span class="process-math">\(-2\dfrac{3}{4}\text{,}\)</span>  0.2,  and  1.6 on the number line below.</div>  <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="generated/latex-image/numberlineNeg3to3.svg" role="img" class="contained" alt="Number line from -3 to 3"></div>
+<div class="para" id="p-5642">Graph the numbers <span class="process-math">\(-2\dfrac{3}{4}\text{,}\)</span>  0.2,  and  1.6 on the number line below.</div>  <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="generated/latex-image/numberlineNeg3to3.svg" role="img" class="contained" alt="Number line from -3 to 3"></div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref answer-knowl original has-image" data-refid="hk-answer-655" id="answer-655"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-655"><div class="answer solution-like"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="generated/latex-image/numberlineNeg3to3with3points.svg" role="img" class="contained" alt="Number line from -3 to 3 with -11/4, 0.2, and 1.6 plotted"></div></div></div>
-</div></article><article class="note remark-like" id="note-76"><h4 class="heading">
+</div></article><article class="note remark-like" id="note-77"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">4.4.17</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-5634">
+<div class="para logical" id="p-5643">
 <div class="para">The opposite of a negative number is a positive number. For example, the opposite of <span class="process-math">\(-6\)</span> is 6. We write the opposite of <span class="process-math">\(-6\)</span> as <span class="process-math">\(-(-6)\text{,}\)</span>  so</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -916,18 +947,18 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">Can you use a number line to explain why this makes sense?</div>
-</div></article></section><section class="subsection" id="subsection-103"><h3 class="heading hide-type">
+</div></article></section><section class="subsection" id="subsection-104"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">4.4.5</span> <span class="title">Indicating Change with Signed Numbers</span>
 </h3>
-<div class="para" id="p-5635">We can use negative numbers to indicate a decrease or a loss, and positive numbers to indicate an increase or a gain. For instance, if Simon lost $580 in a bad investment, we say that his financial worth changed by <span class="process-math">\(-$580\text{.}\)</span>
+<div class="para" id="p-5644">We can use negative numbers to indicate a decrease or a loss, and positive numbers to indicate an increase or a gain. For instance, if Simon lost $580 in a bad investment, we say that his financial worth changed by <span class="process-math">\(-$580\text{.}\)</span>
 </div>
 <article class="example example-like" id="example-106"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.18</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5636">The temperature was 6° yesterday evening and changed by <span class="process-math">\(-10 \degree\)</span> overnight. What was the temperature in the morning?</div>
+<div class="para" id="p-5645">The temperature was 6° yesterday evening and changed by <span class="process-math">\(-10 \degree\)</span> overnight. What was the temperature in the morning?</div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-86" id="solution-86"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-86"><div class="solution solution-like"><div class="sidebyside"><div class="sbsrow" style="margin-left:7.5%;margin-right:7.5%;">
-<div class="sbspanel top" style="width:58.8235294117647%;"><div class="para" id="p-5637">Start at 6° on the thermometer, as shown at right. Then count down 10° from there. This brings us to <span class="process-math">\(-4 \degree\text{.}\)</span> The temperature in the morning was <span class="process-math">\(-4 \degree\text{.}\)</span>
+<div class="sbspanel top" style="width:58.8235294117647%;"><div class="para" id="p-5646">Start at 6° on the thermometer, as shown at right. Then count down 10° from there. This brings us to <span class="process-math">\(-4 \degree\text{.}\)</span> The temperature in the morning was <span class="process-math">\(-4 \degree\text{.}\)</span>
 </div></div>
 <div class="sbspanel top" style="width:23.5294117647059%;"><img src="external/down10.png" class="contained"></div>
 </div></div></div></div>
@@ -935,163 +966,163 @@ window.MathJax = {
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.19</span><span class="period">.</span>
 </h4>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:10%;">
-<div class="sbspanel top" style="width:55.5555555555556%;"><div class="para" id="p-5638">The temperature was 5° in the evening yesterday and changed by <span class="process-math">\(-11\degree\)</span> overnight. What was the temperature this morning? Illustrate your calculation on the thermometer at right.</div></div>
+<div class="sbspanel top" style="width:55.5555555555556%;"><div class="para" id="p-5647">The temperature was 5° in the evening yesterday and changed by <span class="process-math">\(-11\degree\)</span> overnight. What was the temperature this morning? Illustrate your calculation on the thermometer at right.</div></div>
 <div class="sbspanel top" style="width:22.2222222222222%;"><img src="external/Thermometer.svg" role="img" class="contained"></div>
 </div></div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref answer-knowl original has-image" data-refid="hk-answer-656" id="answer-656"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-656"><div class="answer solution-like"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:55%;">
-<div class="sbspanel top" style="width:11.1111111111111%;"><div class="para" id="p-5639"><span class="process-math">\(-6 \degree\)</span></div></div>
+<div class="sbspanel top" style="width:11.1111111111111%;"><div class="para" id="p-5648"><span class="process-math">\(-6 \degree\)</span></div></div>
 <div class="sbspanel top" style="width:62.2222222222222%;"><img src="generated/latex-image/Thermometer5toMinus6.svg" role="img" class="contained" alt="Thermometer drops 11 deg from 5 deg"></div>
 </div></div></div></div>
-</div></article><div class="para" id="p-5640">An increase or decrease is called a <dfn class="terminology">net change</dfn>.</div>
+</div></article><div class="para" id="p-5649">An increase or decrease is called a <dfn class="terminology">net change</dfn>.</div>
 <article class="example example-like" id="example-107"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.4.20</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5641">Simon's Systech stock was worth $15 per share yesterday, but today its value is $9 per share.  What was the net change in the value of the stock?</div>
+<div class="para" id="p-5650">Simon’s Systech stock was worth $15 per share yesterday, but today its value is $9 per share.  What was the net change in the value of the stock?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-87" id="solution-87"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-87"><div class="solution solution-like"><div class="para" id="p-5642">The stock lost $6 per share in value, so the net change in its value was <span class="process-math">\(-$6\)</span> per share.</div></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-87" id="solution-87"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-87"><div class="solution solution-like"><div class="para" id="p-5651">The stock lost $6 per share in value, so the net change in its value was <span class="process-math">\(-$6\)</span> per share.</div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-1210"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.21</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-5643">Corinne's condo was worth $350,000 when she bought it, but she sold it for $335,000. What was the net change in its value?</div>
+<div class="para" id="p-5652">Corinne’s condo was worth $350,000 when she bought it, but she sold it for $335,000. What was the net change in its value?</div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-657" id="answer-657"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-657"><div class="answer solution-like"><span class="process-math">\(-$15,000\)</span></div></div>
 </div></article><article class="activity project-like" id="activity-53"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.4.2</span><span class="period">.</span><span class="space"> </span><span class="title">Net Change.</span>
-</h4> <div class="para" id="p-5644">Illustrate the change on the diagram or number line, then answer the question.</div> <div class="para logical" id="p-5645"><ol class="decimal">
-<li id="li-2443"><div class="para logical" id="p-5646"><ol class="lower-alpha cols2">
-<li id="li-2444">
-<div class="para" id="p-5647">The temperature was <span class="process-math">\(-3\degree ~~\)</span> at 6 am and changed by <span class="process-math">\(-10\degree ~~\)</span> over the next six hours. What was the temperature at noon?</div>
+</h4> <div class="para" id="p-5653">Illustrate the change on the diagram or number line, then answer the question.</div> <div class="para logical" id="p-5654"><ol class="decimal">
+<li id="li-2449"><div class="para logical" id="p-5655"><ol class="lower-alpha cols2">
+<li id="li-2450">
+<div class="para" id="p-5656">The temperature was <span class="process-math">\(-3\degree ~~\)</span> at 6 am and changed by <span class="process-math">\(-10\degree ~~\)</span> over the next six hours. What was the temperature at noon?</div>
 <div class="image-box" style="width: 48%; margin-left: 26%; margin-right: 26%;"><img src="external/Thermometer.svg" role="img" class="contained"></div>
 </li>
-<li id="li-2445">
-<div class="para" id="p-5648">The temperature was <span class="process-math">\(9\degree\)</span> yesterday afternoon and changed by <span class="process-math">\(-9\degree\)</span> overnight. What was the temperature this morning?</div>
+<li id="li-2451">
+<div class="para" id="p-5657">The temperature was <span class="process-math">\(9\degree\)</span> yesterday afternoon and changed by <span class="process-math">\(-9\degree\)</span> overnight. What was the temperature this morning?</div>
 <div class="image-box" style="width: 48%; margin-left: 26%; margin-right: 26%;"><img src="external/Thermometer.svg" role="img" class="contained"></div>
 </li>
 </ol></div></li>
-<li id="li-2446"><div class="para logical" id="p-5649"><ol class="lower-alpha">
-<li id="li-2447"><div class="para" id="p-5650">On Wednesday Brendan's checking account balance was $250. On Thursday he wrote a check for $400. What was his new balance?</div></li>
-<li id="li-2448">
-<div class="para" id="p-5651">On Friday Brendan deposited his paycheck of $600. What was his account balance then?</div>
+<li id="li-2452"><div class="para logical" id="p-5658"><ol class="lower-alpha">
+<li id="li-2453"><div class="para" id="p-5659">On Wednesday Brendan’s checking account balance was $250. On Thursday he wrote a check for $400. What was his new balance?</div></li>
+<li id="li-2454">
+<div class="para" id="p-5660">On Friday Brendan deposited his paycheck of $600. What was his account balance then?</div>
 <div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="generated/latex-image/neg500to500.svg" role="img" class="contained" alt="From -500 to 500"></div>
 </li>
 </ol></div></li>
-<li id="li-2449"><div class="para logical" id="p-5652"><ol class="lower-alpha">
-<li id="li-2450"><div class="para" id="p-5653">At noon the Yellow Submarine was cruising at <span class="process-math">\(-80\)</span> feet (that's a depth of 80 feet below seal level.)  After lunch they dove another 60 feet deeper. What was their new elevation?</div></li>
-<li id="li-2451">
-<div class="para" id="p-5654">Before dinner they rose 120 feet.  What was their elevation then?</div>
+<li id="li-2455"><div class="para logical" id="p-5661"><ol class="lower-alpha">
+<li id="li-2456"><div class="para" id="p-5662">At noon the Yellow Submarine was cruising at <span class="process-math">\(-80\)</span> feet (that’s a depth of 80 feet below seal level.)  After lunch they dove another 60 feet deeper. What was their new elevation?</div></li>
+<li id="li-2457">
+<div class="para" id="p-5663">Before dinner they rose 120 feet.  What was their elevation then?</div>
 <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="generated/latex-image/neg160to0.svg" role="img" class="contained" alt="From -190 to 0"></div>
 </li>
 </ol></div></li>
-</ol></div></article></section><section class="subsection" id="subsection-104"><h3 class="heading hide-type">
+</ol></div></article></section><section class="subsection" id="subsection-105"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">4.4.6</span> <span class="title">Vocabulary</span>
 </h3>
-<div class="para logical" id="p-5655"><ul class="disc cols2">
-<li id="li-2452"><div class="para" id="p-5656">negative number</div></li>
-<li id="li-2453"><div class="para" id="p-5657">positive number</div></li>
-<li id="li-2454"><div class="para" id="p-5658">signed numbers</div></li>
-<li id="li-2455"><div class="para" id="p-5659">integers</div></li>
-<li id="li-2456"><div class="para" id="p-5660">number line</div></li>
-<li id="li-2457"><div class="para" id="p-5661">inequality symbol</div></li>
-<li id="li-2458"><div class="para" id="p-5662">graph of a number</div></li>
-<li id="li-2459"><div class="para" id="p-5663">net change</div></li>
+<div class="para logical" id="p-5664"><ul class="disc cols2">
+<li id="li-2458"><div class="para" id="p-5665">negative number</div></li>
+<li id="li-2459"><div class="para" id="p-5666">positive number</div></li>
+<li id="li-2460"><div class="para" id="p-5667">signed numbers</div></li>
+<li id="li-2461"><div class="para" id="p-5668">integers</div></li>
+<li id="li-2462"><div class="para" id="p-5669">number line</div></li>
+<li id="li-2463"><div class="para" id="p-5670">inequality symbol</div></li>
+<li id="li-2464"><div class="para" id="p-5671">graph of a number</div></li>
+<li id="li-2465"><div class="para" id="p-5672">net change</div></li>
 </ul></div></section><section class="exercises" id="prac-4-4"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber">4.4.7</span> <span class="title">Practice 4.4</span>
 </h3>
 <div class="exercisegroup" id="exercisegroup-157">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-162"><div class="para" id="p-5664">For Problems 1-10, use a positive or negative number to describe each of the following situations with a sentence.</div></div>
+<div class="introduction" id="introduction-162"><div class="para" id="p-5673">For Problems 1-10, use a positive or negative number to describe each of the following situations with a sentence.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-1211"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
-<div class="para" id="p-5665">Your checking account is overdrawn by $100.</div></article><article class="exercise exercise-like" id="exercise-1212"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
-<div class="para" id="p-5666">The ski resort is 2000 feet above sea level.</div></article><article class="exercise exercise-like" id="exercise-1213"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
-<div class="para" id="p-5667">Marty grew two inches this year.</div></article><article class="exercise exercise-like" id="exercise-1214"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
-<div class="para" id="p-5668">The quarterback was sacked for a loss of 8 yards.</div></article><article class="exercise exercise-like" id="exercise-1215"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
-<div class="para" id="p-5669">The plane descended 450 feet.</div></article><article class="exercise exercise-like" id="exercise-1216"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
-<div class="para" id="p-5670">Hazel deposited $80 in her account.</div></article><article class="exercise exercise-like" id="exercise-1217"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
-<div class="para" id="p-5671">The Major Motors Company lost 3 million dollars.</div></article><article class="exercise exercise-like" id="exercise-1218"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
-<div class="para" id="p-5672">Test scores for eighth graders are up 23 points.</div></article><article class="exercise exercise-like" id="exercise-1219"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
-<div class="para" id="p-5673">Aristotle was born in 384 BCE.</div></article><article class="exercise exercise-like" id="exercise-1220"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
-<div class="para" id="p-5674">Barney lost 15 pounds.</div></article>
+<div class="para" id="p-5674">Your checking account is overdrawn by $100.</div></article><article class="exercise exercise-like" id="exercise-1212"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="p-5675">The ski resort is 2000 feet above sea level.</div></article><article class="exercise exercise-like" id="exercise-1213"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="p-5676">Marty grew two inches this year.</div></article><article class="exercise exercise-like" id="exercise-1214"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="p-5677">The quarterback was sacked for a loss of 8 yards.</div></article><article class="exercise exercise-like" id="exercise-1215"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
+<div class="para" id="p-5678">The plane descended 450 feet.</div></article><article class="exercise exercise-like" id="exercise-1216"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
+<div class="para" id="p-5679">Hazel deposited $80 in her account.</div></article><article class="exercise exercise-like" id="exercise-1217"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
+<div class="para" id="p-5680">The Major Motors Company lost 3 million dollars.</div></article><article class="exercise exercise-like" id="exercise-1218"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<div class="para" id="p-5681">Test scores for eighth graders are up 23 points.</div></article><article class="exercise exercise-like" id="exercise-1219"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
+<div class="para" id="p-5682">Aristotle was born in 384 BCE.</div></article><article class="exercise exercise-like" id="exercise-1220"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
+<div class="para" id="p-5683">Barney lost 15 pounds.</div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-158">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-163"><div class="para" id="p-5675">Fill in the thermometers in Problems 11-18 to show the temperature.</div></div>
+<div class="introduction" id="introduction-163"><div class="para" id="p-5684">Fill in the thermometers in Problems 11-18 to show the temperature.</div></div>
 <div class="exercisegroup-exercises cols4">
 <article class="exercise exercise-like" id="exercise-1221"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
-<div class="para" id="p-5676">
+<div class="para" id="p-5685">
 <span class="process-math">\(-3 \degree\)</span> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/thermom.png" class="contained"></div>
 </div></article><article class="exercise exercise-like" id="exercise-1222"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
-<div class="para" id="p-5677">
+<div class="para" id="p-5686">
 <span class="process-math">\(-7 \degree\)</span> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/thermom.png" class="contained"></div>
 </div></article><article class="exercise exercise-like" id="exercise-1223"><h5 class="heading"><span class="codenumber">13<span class="period">.</span></span></h5>
-<div class="para" id="p-5678">
+<div class="para" id="p-5687">
 <span class="process-math">\(0 \degree\)</span> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/thermom.png" class="contained"></div>
 </div></article><article class="exercise exercise-like" id="exercise-1224"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
-<div class="para" id="p-5679">
+<div class="para" id="p-5688">
 <span class="process-math">\(6 \degree\)</span> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/thermom.png" class="contained"></div>
 </div></article><article class="exercise exercise-like" id="exercise-1225"><h5 class="heading"><span class="codenumber">15<span class="period">.</span></span></h5>
-<div class="para" id="p-5680">
+<div class="para" id="p-5689">
 <span class="process-math">\(-15 \degree\)</span> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/thermom.png" class="contained"></div>
 </div></article><article class="exercise exercise-like" id="exercise-1226"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
-<div class="para" id="p-5681">
+<div class="para" id="p-5690">
 <span class="process-math">\(-13 \degree\)</span> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/thermom.png" class="contained"></div>
 </div></article><article class="exercise exercise-like" id="exercise-1227"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
-<div class="para" id="p-5682">
+<div class="para" id="p-5691">
 <span class="process-math">\(2 \degree\)</span> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/thermom.png" class="contained"></div>
 </div></article><article class="exercise exercise-like" id="exercise-1228"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
-<div class="para" id="p-5683">
+<div class="para" id="p-5692">
 <span class="process-math">\(10 \degree\)</span> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/thermom.png" class="contained"></div>
 </div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-159">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-164"><div class="para" id="p-5684">For Problems 19-26, simplify the expression by writing a signed number.</div></div>
+<div class="introduction" id="introduction-164"><div class="para" id="p-5693">For Problems 19-26, simplify the expression by writing a signed number.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-1229"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
-<div class="para" id="p-5685">the opposite of  4</div></article><article class="exercise exercise-like" id="exercise-1230"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
-<div class="para" id="p-5686">the opposite of <span class="process-math">\(3\dfrac{1}{2}\)</span>
+<div class="para" id="p-5694">the opposite of  4</div></article><article class="exercise exercise-like" id="exercise-1230"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
+<div class="para" id="p-5695">the opposite of <span class="process-math">\(3\dfrac{1}{2}\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-1231"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
-<div class="para" id="p-5687">the opposite of <span class="process-math">\(-15\)</span>
+<div class="para" id="p-5696">the opposite of <span class="process-math">\(-15\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-1232"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
-<div class="para" id="p-5688">the opposite of <span class="process-math">\(-6.4\)</span>
+<div class="para" id="p-5697">the opposite of <span class="process-math">\(-6.4\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-1233"><h5 class="heading"><span class="codenumber">23<span class="period">.</span></span></h5>
-<div class="para" id="p-5689"><span class="process-math">\(-(-2)\)</span></div></article><article class="exercise exercise-like" id="exercise-1234"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
-<div class="para" id="p-5690"><span class="process-math">\(-(-10)\)</span></div></article><article class="exercise exercise-like" id="exercise-1235"><h5 class="heading"><span class="codenumber">25<span class="period">.</span></span></h5>
-<div class="para" id="p-5691"><span class="process-math">\(-[-(-7)]\)</span></div></article><article class="exercise exercise-like" id="exercise-1236"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
-<div class="para" id="p-5692"><span class="process-math">\(-[-(-25)]\)</span></div></article>
+<div class="para" id="p-5698"><span class="process-math">\(-(-2)\)</span></div></article><article class="exercise exercise-like" id="exercise-1234"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
+<div class="para" id="p-5699"><span class="process-math">\(-(-10)\)</span></div></article><article class="exercise exercise-like" id="exercise-1235"><h5 class="heading"><span class="codenumber">25<span class="period">.</span></span></h5>
+<div class="para" id="p-5700"><span class="process-math">\(-[-(-7)]\)</span></div></article><article class="exercise exercise-like" id="exercise-1236"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
+<div class="para" id="p-5701"><span class="process-math">\(-[-(-25)]\)</span></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-160">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
 <div class="introduction" id="introduction-165">
-<div class="para" id="p-5693">For Problems 27-30,</div> <div class="para logical" id="p-5694"><ol class="lower-alpha">
-<li id="li-2460"><div class="para" id="p-5695">Use the thermometers to find the new temperature.</div></li>
-<li id="li-2461"><div class="para" id="p-5696">Express the change in temperature with a signed number.</div></li>
+<div class="para" id="p-5702">For Problems 27-30,</div> <div class="para logical" id="p-5703"><ol class="lower-alpha">
+<li id="li-2466"><div class="para" id="p-5704">Use the thermometers to find the new temperature.</div></li>
+<li id="li-2467"><div class="para" id="p-5705">Express the change in temperature with a signed number.</div></li>
 </ol></div>
 </div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-1237"><h5 class="heading"><span class="codenumber">27<span class="period">.</span></span></h5>
-<div class="para" id="p-5697">The temperature was <span class="process-math">\(-9 \degree\)</span> this morning and rose <span class="process-math">\(12 \degree\)</span> by noon. What was the temperature at noon?</div> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/thermom.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1238"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
-<div class="para" id="p-5701">The temperature was <span class="process-math">\(2 \degree\)</span> yesterday afternoon and fell <span class="process-math">\(6 \degree\)</span> by the evening. What was the temperature yesterday evening?</div> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/thermom.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1239"><h5 class="heading"><span class="codenumber">29<span class="period">.</span></span></h5>
-<div class="para" id="p-5702">The temperature was <span class="process-math">\(7 \degree\)</span> at noon and fell <span class="process-math">\(15 \degree\)</span> in the next four  hours. What was the temperature at 4 pm?</div> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/thermom.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1240"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
-<div class="para" id="p-5705">The temperature was <span class="process-math">\(-12 \degree\)</span> last night and rose <span class="process-math">\(8 \degree\)</span> overnight. What was the temperature this morning?</div> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/thermom.png" class="contained"></div></article>
+<div class="para" id="p-5706">The temperature was <span class="process-math">\(-9 \degree\)</span> this morning and rose <span class="process-math">\(12 \degree\)</span> by noon. What was the temperature at noon?</div> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/thermom.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1238"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
+<div class="para" id="p-5710">The temperature was <span class="process-math">\(2 \degree\)</span> yesterday afternoon and fell <span class="process-math">\(6 \degree\)</span> by the evening. What was the temperature yesterday evening?</div> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/thermom.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1239"><h5 class="heading"><span class="codenumber">29<span class="period">.</span></span></h5>
+<div class="para" id="p-5711">The temperature was <span class="process-math">\(7 \degree\)</span> at noon and fell <span class="process-math">\(15 \degree\)</span> in the next four  hours. What was the temperature at 4 pm?</div> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/thermom.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1240"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
+<div class="para" id="p-5714">The temperature was <span class="process-math">\(-12 \degree\)</span> last night and rose <span class="process-math">\(8 \degree\)</span> overnight. What was the temperature this morning?</div> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/thermom.png" class="contained"></div></article>
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-1241"><h4 class="heading"><span class="codenumber">31<span class="period">.</span></span></h4>
-<div class="para" id="p-5706">The bar graph below shows normal low temperatures each month in Milwaukee, Wisconsin.</div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/milwaukee.png" class="contained"></div> <div class="para logical" id="p-5707"><ol class="lower-alpha">
-<li id="li-2466"><div class="para" id="p-5708">What is normally the low temperature in March?</div></li>
-<li id="li-2467"><div class="para" id="p-5709">Which months have the coldest and warmest low temperatures, and what are those temperatures?</div></li>
-<li id="li-2468"><div class="para" id="p-5710">How much colder is the low temperature in February than it is in June?</div></li>
+<div class="para" id="p-5715">The bar graph below shows normal low temperatures each month in Milwaukee, Wisconsin.</div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/milwaukee.png" class="contained"></div> <div class="para logical" id="p-5716"><ol class="lower-alpha">
+<li id="li-2472"><div class="para" id="p-5717">What is normally the low temperature in March?</div></li>
+<li id="li-2473"><div class="para" id="p-5718">Which months have the coldest and warmest low temperatures, and what are those temperatures?</div></li>
+<li id="li-2474"><div class="para" id="p-5719">How much colder is the low temperature in February than it is in June?</div></li>
 </ol></div></article><article class="exercise exercise-like" id="exercise-1242"><h4 class="heading"><span class="codenumber">32<span class="period">.</span></span></h4>
-<div class="para" id="p-5713">The bar graph below shows the overnight low temperatures in four towns.</div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/fourtowns.png" class="contained"></div> <div class="para logical" id="p-5714"><ol class="lower-alpha">
-<li id="li-2472"><div class="para" id="p-5715">What was the overnight low in Derby?</div></li>
-<li id="li-2473"><div class="para" id="p-5716">Which town had the coldest temperature, and what was that temperature?</div></li>
-<li id="li-2474"><div class="para" id="p-5717">How much colder was it in Appleton than in Cottonwood?</div></li>
+<div class="para" id="p-5722">The bar graph below shows the overnight low temperatures in four towns.</div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/fourtowns.png" class="contained"></div> <div class="para logical" id="p-5723"><ol class="lower-alpha">
+<li id="li-2478"><div class="para" id="p-5724">What was the overnight low in Derby?</div></li>
+<li id="li-2479"><div class="para" id="p-5725">Which town had the coldest temperature, and what was that temperature?</div></li>
+<li id="li-2480"><div class="para" id="p-5726">How much colder was it in Appleton than in Cottonwood?</div></li>
 </ol></div></article><article class="exercise exercise-like" id="exercise-1243"><h4 class="heading"><span class="codenumber">33<span class="period">.</span></span></h4>
-<div class="para" id="p-5718">The table gives the overnight low temperatures in four cities.  Use the grid below to make a bar graph showing each town's overnight low temperature.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="p-5727">The table gives the overnight low temperatures in four cities.  Use the grid below to make a bar graph showing each town’s overnight low temperature.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t3 lines">City</td>
 <td class="c m b1 r1 l0 t3 lines">Mobile</td>
@@ -1107,7 +1138,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(-1\)</span></td>
 </tr>
 </table></div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/fourcities.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1244"><h4 class="heading"><span class="codenumber">34<span class="period">.</span></span></h4>
-<div class="para" id="p-5719">The table gives normal low temperatures for each month in Omaha, Nebraska. Use the grid below to make a bar graph showing each month's low temperature.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="p-5728">The table gives normal low temperatures for each month in Omaha, Nebraska. Use the grid below to make a bar graph showing each month’s low temperature.</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t3 lines">Month</td>
 <td class="c m b1 r1 l0 t3 lines">Jan</td>
@@ -1140,32 +1171,32 @@ window.MathJax = {
 </tr>
 </table></div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/omaha.png" class="contained"></div></article><div class="exercisegroup" id="exercisegroup-161">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-166"><div class="para" id="p-5720">For Problems 35-38, graph the numbers on the number line provided.</div></div>
+<div class="introduction" id="introduction-166"><div class="para" id="p-5729">For Problems 35-38, graph the numbers on the number line provided.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-1245"><h5 class="heading"><span class="codenumber">35<span class="period">.</span></span></h5>
-<div class="para" id="p-5721"><span class="process-math">\(-3, ~~~, 5, ~~~ 1\dfrac{1}{2}, ~~~ -2\dfrac{3}{4}, ~~~ 3.5\)</span></div> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/hp-4-4-35.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1246"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
-<div class="para" id="p-5722"><span class="process-math">\(2, ~~~, -4.3, ~~~ -6, ~~~ 2\dfrac{1}{3}, ~~~ -\dfrac{1}{2}\)</span></div> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/hp-4-4-36.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1247"><h5 class="heading"><span class="codenumber">37<span class="period">.</span></span></h5>
-<div class="para" id="p-5723"><span class="process-math">\(3.5, ~~~, -\dfrac{2}{3}, ~~~ -2, ~~~ 2, ~~~ -3\dfrac{1}{2}\)</span></div> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/hp-4-4-37.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1248"><h5 class="heading"><span class="codenumber">38<span class="period">.</span></span></h5>
-<div class="para" id="p-5724"><span class="process-math">\(-5, ~~~, \dfrac{3}{4}, ~~~ -1\dfrac{3}{4}, ~~~ 2.25, ~~~ -0.5\)</span></div> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/hp-4-4-38.png" class="contained"></div></article>
+<div class="para" id="p-5730"><span class="process-math">\(-3, ~~~, 5, ~~~ 1\dfrac{1}{2}, ~~~ -2\dfrac{3}{4}, ~~~ 3.5\)</span></div> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/hp-4-4-35.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1246"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
+<div class="para" id="p-5731"><span class="process-math">\(2, ~~~, -4.3, ~~~ -6, ~~~ 2\dfrac{1}{3}, ~~~ -\dfrac{1}{2}\)</span></div> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/hp-4-4-36.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1247"><h5 class="heading"><span class="codenumber">37<span class="period">.</span></span></h5>
+<div class="para" id="p-5732"><span class="process-math">\(3.5, ~~~, -\dfrac{2}{3}, ~~~ -2, ~~~ 2, ~~~ -3\dfrac{1}{2}\)</span></div> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/hp-4-4-37.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1248"><h5 class="heading"><span class="codenumber">38<span class="period">.</span></span></h5>
+<div class="para" id="p-5733"><span class="process-math">\(-5, ~~~, \dfrac{3}{4}, ~~~ -1\dfrac{3}{4}, ~~~ 2.25, ~~~ -0.5\)</span></div> <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/hp-4-4-38.png" class="contained"></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-162">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-167"><div class="para" id="p-5725">For Problems 39-44, use inequality symbols to write the phrase in two different ways.</div></div>
+<div class="introduction" id="introduction-167"><div class="para" id="p-5734">For Problems 39-44, use inequality symbols to write the phrase in two different ways.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-1249"><h5 class="heading"><span class="codenumber">39<span class="period">.</span></span></h5>
-<div class="para" id="p-5726">6.5  is greater than  6.07</div></article><article class="exercise exercise-like" id="exercise-1250"><h5 class="heading"><span class="codenumber">40<span class="period">.</span></span></h5>
-<div class="para" id="p-5727">2.23  is less than  2.3</div></article><article class="exercise exercise-like" id="exercise-1251"><h5 class="heading"><span class="codenumber">41<span class="period">.</span></span></h5>
-<div class="para" id="p-5728">
+<div class="para" id="p-5735">6.5  is greater than  6.07</div></article><article class="exercise exercise-like" id="exercise-1250"><h5 class="heading"><span class="codenumber">40<span class="period">.</span></span></h5>
+<div class="para" id="p-5736">2.23  is less than  2.3</div></article><article class="exercise exercise-like" id="exercise-1251"><h5 class="heading"><span class="codenumber">41<span class="period">.</span></span></h5>
+<div class="para" id="p-5737">
 <span class="process-math">\(-12\)</span>  is less than  <span class="process-math">\(-2\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-1252"><h5 class="heading"><span class="codenumber">42<span class="period">.</span></span></h5>
-<div class="para" id="p-5729">
+<div class="para" id="p-5738">
 <span class="process-math">\(-5\)</span>  is greater than  <span class="process-math">\(-9\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-1253"><h5 class="heading"><span class="codenumber">43<span class="period">.</span></span></h5>
-<div class="para" id="p-5730">
+<div class="para" id="p-5739">
 <span class="process-math">\(\dfrac{-3}{4}\)</span>  is less than  <span class="process-math">\(\dfrac{-1}{2}\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-1254"><h5 class="heading"><span class="codenumber">44<span class="period">.</span></span></h5>
-<div class="para" id="p-5731">
+<div class="para" id="p-5740">
 <span class="process-math">\(-2\dfrac{1}{3}\)</span>  is greater than  <span class="process-math">\(-2\dfrac{2}{3}\)</span>
 </div></article>
 </div>
@@ -1173,27 +1204,27 @@ window.MathJax = {
 <div class="exercisegroup" id="exercisegroup-163">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
 <div class="introduction" id="introduction-168">
-<div class="para" id="p-5732">For Problems 45-54, use a number line to help you decide whether the statement is true or false.</div> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/neg11to11.png" class="contained"></div>
+<div class="para" id="p-5741">For Problems 45-54, use a number line to help you decide whether the statement is true or false.</div> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/neg11to11.png" class="contained"></div>
 </div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-1255"><h5 class="heading"><span class="codenumber">45<span class="period">.</span></span></h5>
-<div class="para" id="p-5733"><span class="process-math">\(-3 \gt -5\)</span></div></article><article class="exercise exercise-like" id="exercise-1256"><h5 class="heading"><span class="codenumber">46<span class="period">.</span></span></h5>
-<div class="para" id="p-5735"><span class="process-math">\(-8 \lt 2\)</span></div></article><article class="exercise exercise-like" id="exercise-1257"><h5 class="heading"><span class="codenumber">47<span class="period">.</span></span></h5>
-<div class="para" id="p-5736"><span class="process-math">\(-7 \gt 6\)</span></div></article><article class="exercise exercise-like" id="exercise-1258"><h5 class="heading"><span class="codenumber">48<span class="period">.</span></span></h5>
-<div class="para" id="p-5738"><span class="process-math">\(-9 \lt -10\)</span></div></article><article class="exercise exercise-like" id="exercise-1259"><h5 class="heading"><span class="codenumber">49<span class="period">.</span></span></h5>
-<div class="para" id="p-5739"><span class="process-math">\(-1 \gt -8\)</span></div></article><article class="exercise exercise-like" id="exercise-1260"><h5 class="heading"><span class="codenumber">50<span class="period">.</span></span></h5>
-<div class="para" id="p-5741"><span class="process-math">\(-9 \lt -10\)</span></div></article><article class="exercise exercise-like" id="exercise-1261"><h5 class="heading"><span class="codenumber">51<span class="period">.</span></span></h5>
-<div class="para" id="p-5742"><span class="process-math">\(\dfrac{-1}{2} \lt -1\dfrac{1}{2}\)</span></div></article><article class="exercise exercise-like" id="exercise-1262"><h5 class="heading"><span class="codenumber">52<span class="period">.</span></span></h5>
-<div class="para" id="p-5744"><span class="process-math">\(\dfrac{-3}{4} \gt \dfrac{-1}{2}\)</span></div></article><article class="exercise exercise-like" id="exercise-1263"><h5 class="heading"><span class="codenumber">53<span class="period">.</span></span></h5>
-<div class="para" id="p-5745"><span class="process-math">\(-0.1 \lt 0.01\)</span></div></article><article class="exercise exercise-like" id="exercise-1264"><h5 class="heading"><span class="codenumber">54<span class="period">.</span></span></h5>
-<div class="para" id="p-5747"><span class="process-math">\(0.099 \gt -0.9\)</span></div></article>
+<div class="para" id="p-5742"><span class="process-math">\(-3 \gt -5\)</span></div></article><article class="exercise exercise-like" id="exercise-1256"><h5 class="heading"><span class="codenumber">46<span class="period">.</span></span></h5>
+<div class="para" id="p-5744"><span class="process-math">\(-8 \lt 2\)</span></div></article><article class="exercise exercise-like" id="exercise-1257"><h5 class="heading"><span class="codenumber">47<span class="period">.</span></span></h5>
+<div class="para" id="p-5745"><span class="process-math">\(-7 \gt 6\)</span></div></article><article class="exercise exercise-like" id="exercise-1258"><h5 class="heading"><span class="codenumber">48<span class="period">.</span></span></h5>
+<div class="para" id="p-5747"><span class="process-math">\(-9 \lt -10\)</span></div></article><article class="exercise exercise-like" id="exercise-1259"><h5 class="heading"><span class="codenumber">49<span class="period">.</span></span></h5>
+<div class="para" id="p-5748"><span class="process-math">\(-1 \gt -8\)</span></div></article><article class="exercise exercise-like" id="exercise-1260"><h5 class="heading"><span class="codenumber">50<span class="period">.</span></span></h5>
+<div class="para" id="p-5750"><span class="process-math">\(-9 \lt -10\)</span></div></article><article class="exercise exercise-like" id="exercise-1261"><h5 class="heading"><span class="codenumber">51<span class="period">.</span></span></h5>
+<div class="para" id="p-5751"><span class="process-math">\(\dfrac{-1}{2} \lt -1\dfrac{1}{2}\)</span></div></article><article class="exercise exercise-like" id="exercise-1262"><h5 class="heading"><span class="codenumber">52<span class="period">.</span></span></h5>
+<div class="para" id="p-5753"><span class="process-math">\(\dfrac{-3}{4} \gt \dfrac{-1}{2}\)</span></div></article><article class="exercise exercise-like" id="exercise-1263"><h5 class="heading"><span class="codenumber">53<span class="period">.</span></span></h5>
+<div class="para" id="p-5754"><span class="process-math">\(-0.1 \lt 0.01\)</span></div></article><article class="exercise exercise-like" id="exercise-1264"><h5 class="heading"><span class="codenumber">54<span class="period">.</span></span></h5>
+<div class="para" id="p-5756"><span class="process-math">\(0.099 \gt -0.9\)</span></div></article>
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-1265"><h4 class="heading"><span class="codenumber">55<span class="period">.</span></span></h4>
-<div class="para" id="p-5748">The bar graph shows the number of miles of railroad in several countries in 1900 and in 2000.</div> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/railroads.png" class="contained"></div> <div class="para logical" id="p-5749"><ol class="lower-alpha">
-<li id="li-2475"><div class="para" id="p-5750">Fill in the first two columns of the table for the number of miles of railroad. (Notice that the bar graph is given in thousands of miles.)</div></li>
-<li id="li-2476">
-<div class="para" id="p-5751">Use signed numbers to show the change in miles of railroad for each country over the last century.</div>
+<div class="para" id="p-5757">The bar graph shows the number of miles of railroad in several countries in 1900 and in 2000.</div> <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/railroads.png" class="contained"></div> <div class="para logical" id="p-5758"><ol class="lower-alpha">
+<li id="li-2481"><div class="para" id="p-5759">Fill in the first two columns of the table for the number of miles of railroad. (Notice that the bar graph is given in thousands of miles.)</div></li>
+<li id="li-2482">
+<div class="para" id="p-5760">Use signed numbers to show the change in miles of railroad for each country over the last century.</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t3 lines">Country</th>
@@ -1233,13 +1264,13 @@ window.MathJax = {
 </tr>
 </table></div>
 </li>
-<li id="li-2477"><div class="para" id="p-5752">What operation did you use to find the change in miles of railroad for each country?</div></li>
-<li id="li-2478"><div class="para" id="p-5753">How did you decide whether the change was positive or negative?</div></li>
+<li id="li-2483"><div class="para" id="p-5761">What operation did you use to find the change in miles of railroad for each country?</div></li>
+<li id="li-2484"><div class="para" id="p-5762">How did you decide whether the change was positive or negative?</div></li>
 </ol></div> <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/traintracks.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1266"><h4 class="heading"><span class="codenumber">56<span class="period">.</span></span></h4>
-<div class="para" id="p-5758">The bar graph shows the average airfare to various destinations from each city in 1998 and in 1999.</div> <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/airfare.png" class="contained"></div> <div class="para logical" id="p-5759"><ol class="lower-alpha">
-<li id="li-2482"><div class="para" id="p-5760">Fill in the first two columns of the table.</div></li>
-<li id="li-2483">
-<div class="para" id="p-5761">Use signed numbers to show the change in average airfare for each city from 1998 to 1999.</div>
+<div class="para" id="p-5767">The bar graph shows the average airfare to various destinations from each city in 1998 and in 1999.</div> <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/airfare.png" class="contained"></div> <div class="para logical" id="p-5768"><ol class="lower-alpha">
+<li id="li-2488"><div class="para" id="p-5769">Fill in the first two columns of the table.</div></li>
+<li id="li-2489">
+<div class="para" id="p-5770">Use signed numbers to show the change in average airfare for each city from 1998 to 1999.</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b1 r1 l1 t3 lines">City</th>
@@ -1279,14 +1310,14 @@ window.MathJax = {
 </tr>
 </table></div>
 </li>
-<li id="li-2484"><div class="para" id="p-5762">What operation did you use to find the change in airfare for each city?</div></li>
-<li id="li-2485"><div class="para" id="p-5763">How did you decide whether the change was positive or negative?</div></li>
+<li id="li-2490"><div class="para" id="p-5771">What operation did you use to find the change in airfare for each city?</div></li>
+<li id="li-2491"><div class="para" id="p-5772">How did you decide whether the change was positive or negative?</div></li>
 </ol></div> <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/airplane.png" class="contained"></div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-4-3.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec-4-5.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
-<div id="ptx-page-footer">
+<div id="ptx-page-footer" class="ptx-page-footer">
 <a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
 </div>
 </body>

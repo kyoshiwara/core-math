@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US">
+<html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Adding Signed Numbers</title>
@@ -14,68 +14,93 @@
 <meta property="og:type" content="book">
 <meta property="book:title" content="Core Mathematics">
 <meta property="book:author" content="Katherine Yoshiwara">
-<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
-  tex: {
-    inlineMath: [['\\(','\\)']],
-    tags: "none",
-    tagSide: "right",
-    tagIndent: ".8em",
-    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
   },
-  options: {
-    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
-    processHtmlClass: "process-math",
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
   },
-  chtml: {
-    scale: 0.98,
-    mtextInheritFont: true
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
   },
-  loader: {
-    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
-    paths: {pretext: "https://pretextbook.org/js/lib"},
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
   },
-  startup: {
+  "startup": {
     pageReady() {
       return MathJax.startup.defaultPageReady().then(function () {
       console.log("in ready function");
       rsMathReady();
       }
     )}
-  },
+  }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
-<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/style_oscarlevin.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
 </head>
 <body class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
-<a id="logo-link" href=""></a><div class="title-container">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
 <h1 class="heading"><a href="my-great-book.html"><span class="title">Core Mathematics</span></a></h1>
 <p class="byline">Katherine Yoshiwara</p>
 </div>
-<div id="searchresultsplaceholder" style="display: none">
-<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
 </h2>
-<div id="searchempty"><span>No results.</span></div>
-<ol id="searchresults"></ol>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
 </div>
-</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
 <li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
 <ol class="hidden avatar">
 <li data-val="You!" tabindex="-1">
@@ -178,7 +203,7 @@ window.MathJax = {
 </ol>
 </li>
 </ol></div></button><span class="treebuttons"><a class="previous-button button" href="ch7.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch7.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec-7-2.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
-<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -198,13 +223,11 @@ window.MathJax = {
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar"><nav id="ptx-toc" class="depth2"><ul class="structural">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
 <li>
 <div class="toc-item"><a href="meta_frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural">
 <li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
-<li><div class="toc-item"><a href="dedication-1.html" class="internal"><span class="title">Dedication</span></a></div></li>
-<li><div class="toc-item"><a href="acknowledgement-1.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li><div class="toc-item"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
 </ul>
 </li>
@@ -229,7 +252,7 @@ window.MathJax = {
 <ul class="structural">
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-8" class="internal"><span class="codenumber">1.2.1</span> <span class="title">One-Tenth</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-9" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Fractions in Tenths</span></a></div></li>
-<li><div class="toc-item"><a href="sec-1-2.html#subsection-10" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Tenths and Fifths, Reducing Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#reducing" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Tenths and Fifths, Reducing Fractions</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-11" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Hundredths</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-12" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Decimal Form</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-13" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Vocabulary</span></a></div></li>
@@ -242,7 +265,7 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-14" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Factors</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-15" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Primes and Composites</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-16" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Greatest Common Factor</span></a></div></li>
-<li><div class="toc-item"><a href="sec-1-3.html#subsection-17" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Lowest Common Multiple</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#lcm" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Lowest Common Multiple</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-18" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#prac-1-3" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Practice 1.3</span></a></div></li>
 </ul>
@@ -253,7 +276,7 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-19" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Angles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-20" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Measuring Angles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-21" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Using a Protractor</span></a></div></li>
-<li><div class="toc-item"><a href="sec-1-4.html#subsection-22" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#triangles" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Triangles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-23" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Sides and Angles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-24" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#prac-1-4" class="internal"><span class="codenumber">1.4.7</span> <span class="title">Practice 1.4</span></a></div></li>
@@ -280,8 +303,8 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-29" class="internal"><span class="codenumber">2.1.1</span> <span class="title">The Metric System</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-30" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Place Value</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-31" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Comparing Decimal Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-1.html#subsection-32" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Fractions to Decimals</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-1.html#subsection-33" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Rounding and Estimating</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#fractodec" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Fractions to Decimals</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#rounding" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Rounding and Estimating</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-34" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#prac-2-1" class="internal"><span class="codenumber">2.1.7</span> <span class="title">Practice 2.1</span></a></div></li>
 </ul>
@@ -295,40 +318,41 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-2-2.html#subsection-38" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Eighths</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-2.html#subsection-39" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Thirds</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-2.html#subsection-40" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Decimal Form of One-Third</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-2.html#prac-2-2" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Practice 2.2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-41" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#prac-2-2" class="internal"><span class="codenumber">2.2.8</span> <span class="title">Practice 2.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-2-3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Variables</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-41" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What is a Variable?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-42" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Bar Graphs</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-43" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Using Letters for Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-44" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Vocabuary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-42" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What is a Variable?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#bargraph" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Bar Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-44" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Using Letters for Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-45" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Vocabuary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-3.html#prac-2-3" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Practice 2.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-2-4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Algebraic Expressions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-45" class="internal"><span class="codenumber">2.4.1</span> <span class="title">What is an Algebraic Expression?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-46" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Sums and Products</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-47" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Differences and Quotients</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-48" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Using Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-49" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-50" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-51" class="internal"><span class="codenumber">2.4.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-46" class="internal"><span class="codenumber">2.4.1</span> <span class="title">What is an Algebraic Expression?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-47" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Sums and Products</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-48" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Differences and Quotients</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-49" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Using Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-50" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-51" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-52" class="internal"><span class="codenumber">2.4.7</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-4.html#prac-2-4" class="internal"><span class="codenumber">2.4.8</span> <span class="title">Practice 2.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-2-5.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Equations</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-52" class="internal"><span class="codenumber">2.5.1</span> <span class="title">What Is an Equation?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-53" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Solution of an Equation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-54" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Finding Solutions: Opposite Operations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-55" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Isolating the Variable</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-56" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-53" class="internal"><span class="codenumber">2.5.1</span> <span class="title">What Is an Equation?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-54" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Solution of an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-55" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Finding Solutions: Opposite Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#solve1" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Isolating the Variable</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-57" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-5.html#prac-2-5" class="internal"><span class="codenumber">2.5.6</span> <span class="title">Practice 2.5</span></a></div></li>
 </ul>
 </li>
@@ -340,56 +364,56 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-3-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Volume and Surface Area</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-57" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Surface Area</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-58" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Boxes and Cubes</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-59" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Volume</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-60" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-58" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Surface Area</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-59" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Boxes and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-60" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-61" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-1.html#prac-3-1" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Practice 3.1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Exponents</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-61" class="internal"><span class="codenumber">3.2.1</span> <span class="title">A New Notation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-62" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Squares and Cubes</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-63" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Products and Powers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-64" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-65" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#exponents" class="internal"><span class="codenumber">3.2.1</span> <span class="title">A New Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-63" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Squares and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-64" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Products and Powers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#pythagoras" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-66" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-2.html#prac-3-2" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Practice 3.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Units of Measure</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-66" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Length</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-67" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Metric Units</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-68" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Area and Volume</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-69" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Liquid Measure</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-70" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-67" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Length</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-68" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Metric Units</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-69" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Area and Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-70" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Liquid Measure</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-71" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-3.html#prac-3-3" class="internal"><span class="codenumber">3.3.6</span> <span class="title">Practice 3.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-4.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Circles and Spheres</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-71" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Perimeter</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-72" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Circumference of a Circle</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-73" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Area of a Circle</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-74" class="internal"><span class="codenumber">3.4.4</span> <span class="title">A Formula for the Area of a Circle</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-75" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Volume of a Sphere</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-76" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-72" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Perimeter</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-73" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Circumference of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-74" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-75" class="internal"><span class="codenumber">3.4.4</span> <span class="title">A Formula for the Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-76" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Volume of a Sphere</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-77" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-4.html#prac-3-4" class="internal"><span class="codenumber">3.4.7</span> <span class="title">Practice 3.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-5.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Large Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-77" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Millions and Billions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-78" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Multiplying by Powers of Ten</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-79" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Using Powers of Ten</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-80" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Scientific Notation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-81" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-82" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-78" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Millions and Billions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-79" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Multiplying by Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-80" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Using Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-81" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Scientific Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-82" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-83" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-5.html#prac-3-5" class="internal"><span class="codenumber">3.5.7</span> <span class="title">Practice 3.5</span></a></div></li>
 </ul>
 </li>
@@ -401,59 +425,59 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-4-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Adding and Subtracting Fractions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-83" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Like Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-84" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Smaller Pieces</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-85" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Adding Unlike Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-86" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Lowest Common Denominator</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-87" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Three Steps for Adding Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-88" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-84" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Like Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-85" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Smaller Pieces</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-86" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Adding Unlike Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-87" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Lowest Common Denominator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-88" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Three Steps for Adding Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-89" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-1.html#prac-4-1" class="internal"><span class="codenumber">4.1.7</span> <span class="title">Practice 4.1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Multiplying and Dividing Fractions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-89" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Take Part</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-90" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Multiplying by a Fraction</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-91" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Dividing by a Fraction</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-92" class="internal"><span class="codenumber">4.2.4</span> <span class="title">More Dividing by Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-93" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-90" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Take Part</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-91" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Multiplying by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-92" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Dividing by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-93" class="internal"><span class="codenumber">4.2.4</span> <span class="title">More Dividing by Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-94" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-2.html#prac-4-2" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Practice 4.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Roots and Radicals</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-94" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What Is a Square Root?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-95" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Approximating Square Roots</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-96" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Squares and Square Roots</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-97" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-98" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-95" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What Is a Square Root?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-96" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Approximating Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-97" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Squares and Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-98" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-99" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-3.html#prac-4-3" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Practice 4.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Negative Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-99" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Opposites</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-100" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Signed Numbers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-101" class="internal"><span class="codenumber">4.4.3</span> <span class="title">The Integers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-102" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Graphing on a Number Line</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-103" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Indicating Change with Signed Numbers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-104" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#negnos" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Opposites</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-101" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#integers" class="internal"><span class="codenumber">4.4.3</span> <span class="title">The Integers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-103" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Graphing on a Number Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-104" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Indicating Change with Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-105" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-4.html#prac-4-4" class="internal"><span class="codenumber">4.4.7</span> <span class="title">Practice 4.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Order of Operations</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-105" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Which Operations Come First</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-106" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Combined Operations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-107" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Parentheses</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-108" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Fraction Bars</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-109" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-110" class="internal"><span class="codenumber">4.5.6</span> <span class="title">Exponents and Roots</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-111" class="internal"><span class="codenumber">4.5.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-106" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Which Operations Come First</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-107" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Combined Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-108" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Parentheses</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-109" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Fraction Bars</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-110" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-111" class="internal"><span class="codenumber">4.5.6</span> <span class="title">Exponents and Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-112" class="internal"><span class="codenumber">4.5.7</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-5.html#prac-4-5" class="internal"><span class="codenumber">4.5.8</span> <span class="title">Practice 4.5</span></a></div></li>
 </ul>
 </li>
@@ -465,53 +489,55 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-5-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Working with Variables</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-112" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Like Terms</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-113" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Equivalent Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-114" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Constant Multiples of Terms</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-115" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Terms with Exponents</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-116" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Multiplying Variable Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-117" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-118" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-113" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Like Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-114" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Equivalent Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-115" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Constant Multiples of Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-116" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Terms with Exponents</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-117" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Multiplying Variable Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-118" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-119" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-5-1.html#prac-5-1" class="internal"><span class="codenumber">5.1.8</span> <span class="title">Practice 5.1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">More Algebraic Expressions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-2.html#subsection-119" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-2.html#subsection-120" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-2.html#subsection-121" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Formulas</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-2.html#prac-5-2" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Practice 5.2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-120" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-121" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-122" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-123" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#prac-5-2" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Practice 5.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Problem Solving</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-3.html#subsection-122" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Using Formulas</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-3.html#subsection-123" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Writing an Equation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-3.html#subsection-124" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Modeling a Problem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-124" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Using Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-125" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Writing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-126" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Modeling a Problem</span></a></div></li>
 <li><div class="toc-item"><a href="sec-5-3.html#prac-5-3" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Practice 5.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">More Equations</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-125" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Equations with Two Operations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-126" class="internal"><span class="codenumber">5.4.2</span> <span class="title">A Strategy for Solving Equations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-127" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Formulas</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-128" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Problem Solving</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-129" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Using Algebra to Solve Problems</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#solve2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Equations with Two Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-128" class="internal"><span class="codenumber">5.4.2</span> <span class="title">A Strategy for Solving Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-129" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-130" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Problem Solving</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-131" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Using Algebra to Solve Problems</span></a></div></li>
 <li><div class="toc-item"><a href="sec-5-4.html#prac-5-4" class="internal"><span class="codenumber">5.4.6</span> <span class="title">Practice 5.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-5.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Graphs</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-130" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Line Graphs</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-131" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Plotting Points</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-132" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Graphing an Equation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-133" class="internal"><span class="codenumber">5.5.4</span> <span class="title">Reading a Graph</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#prac-5-5" class="internal"><span class="codenumber">5.5.5</span> <span class="title">Practice 5.5</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-132" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Line Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#plotpoints" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Plotting Points</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#grapheqn" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Graphing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-135" class="internal"><span class="codenumber">5.5.4</span> <span class="title">Reading a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-136" class="internal"><span class="codenumber">5.5.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#prac-5-5" class="internal"><span class="codenumber">5.5.6</span> <span class="title">Practice 5.5</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -522,53 +548,55 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-6-1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Ratios</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-134" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Quantities</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-135" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Ratios</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-136" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Decimal Form for Ratios</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-137" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Rates</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#prac-6-1" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Practice 6-1</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-137" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Quantities</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-138" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-139" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Decimal Form for Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-140" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Rates</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-141" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#prac-6-1" class="internal"><span class="codenumber">6.1.6</span> <span class="title">Practice 6-1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Proportion</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-138" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Proportional Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-139" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Proportional Reasoning</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-140" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Using Proportions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-141" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Graphing Proportional Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#prac-6-2" class="internal"><span class="codenumber">6.2.5</span> <span class="title">Practice 6-2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-142" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-143" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Proportional Reasoning</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-144" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Using Proportions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-145" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Graphing Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-146" class="internal"><span class="codenumber">6.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#prac-6-2" class="internal"><span class="codenumber">6.2.6</span> <span class="title">Practice 6-2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Slope</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-142" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Equations Relating Proportional Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-143" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Steepness of the Graph</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-144" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Rate of Increase</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-145" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Visulaizing Growth Rate on a Graph</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-146" class="internal"><span class="codenumber">6.3.5</span> <span class="title">Slope of a Line</span></a></div></li>
-<li>
-<div class="toc-item"><a href="sec-6-3.html#subsection-147" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Decreasing Graphs</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="sec-6-3.html#prac-6-3" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Practice 6-3</span></a></div></li></ul>
-</li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-147" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Equations Relating Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-148" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Steepness of the Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-149" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Rate of Increase</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-150" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Visualizing Growth Rate on a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-151" class="internal"><span class="codenumber">6.3.5</span> <span class="title">Slope of a Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-152" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Decreasing Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-153" class="internal"><span class="codenumber">6.3.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#prac-6-3" class="internal"><span class="codenumber">6.3.8</span> <span class="title">Practice 6-3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-4.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Similarity</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-148" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Similar Figures</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-149" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Scale Factors</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-150" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Ratio and Proportion</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-151" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Conditions for Similarity</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-152" class="internal"><span class="codenumber">6.4.5</span> <span class="title">Similar Triangles</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#prac-6-4" class="internal"><span class="codenumber">6.4.6</span> <span class="title">Practice 6-4</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-154" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-155" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Scale Factors</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-156" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Ratio and Proportion</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-157" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Conditions for Similarity</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-158" class="internal"><span class="codenumber">6.4.5</span> <span class="title">Similar Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-159" class="internal"><span class="codenumber">6.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#prac-6-4" class="internal"><span class="codenumber">6.4.7</span> <span class="title">Practice 6-4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-5.html" class="internal"><span class="codenumber">6.5</span> <span class="title">More About Similarity</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-5.html#subsection-153" class="internal"><span class="codenumber">6.5.1</span> <span class="title">Areas of Similar Figures</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-5.html#subsection-154" class="internal"><span class="codenumber">6.5.2</span> <span class="title">Volumes of Proportional Solids</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-160" class="internal"><span class="codenumber">6.5.1</span> <span class="title">Areas of Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-161" class="internal"><span class="codenumber">6.5.2</span> <span class="title">Volumes of Proportional Solids</span></a></div></li>
 <li><div class="toc-item"><a href="sec-6-5.html#prac-6-5" class="internal"><span class="codenumber">6.5.3</span> <span class="title">Practice 6-5</span></a></div></li>
 </ul>
 </li>
@@ -580,40 +608,44 @@ window.MathJax = {
 <li class="active">
 <div class="toc-item"><a href="sec-7-1.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Adding Signed Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-155" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Adding Two Numbers with the Same Sign</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-156" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Adding Two Numbers with Opposite Signs</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-157" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Rules for Addition</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-158" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Net Change</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#prac-7-1" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Practice 7-1</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-162" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Adding Two Numbers with the Same Sign</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-163" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Adding Two Numbers with Opposite Signs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#addrules" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Rules for Addition</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-165" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Net Change</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-166" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#prac-7-1" class="internal"><span class="codenumber">7.1.6</span> <span class="title">Practice 7-1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-7-2.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Subtracting Signed Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-159" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Subtracting a Positive Number</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-160" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Subtracting a Negative Number</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-161" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Rule for Subtraction</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-162" class="internal"><span class="codenumber">7.2.4</span> <span class="title">Notation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#prac-7-2" class="internal"><span class="codenumber">7.2.5</span> <span class="title">Practice 7-2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-167" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Subtracting a Positive Number</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-168" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Subtracting a Negative Number</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-169" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Rule for Subtraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-170" class="internal"><span class="codenumber">7.2.4</span> <span class="title">Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-171" class="internal"><span class="codenumber">7.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#prac-7-2" class="internal"><span class="codenumber">7.2.6</span> <span class="title">Practice 7-2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-7-3.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Multiplying and Dividing Signed Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-3.html#subsection-163" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Multiplication</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-3.html#subsection-164" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Division</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-3.html#subsection-165" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Powers of Negative Numbers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-3.html#prac-7-3" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Practice 7-3</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-172" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Multiplication</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-173" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Division</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-174" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Powers of Negative Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-175" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#prac-7-3" class="internal"><span class="codenumber">7.3.5</span> <span class="title">Practice 7-3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-7-4.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Equations and Graphs</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-166" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Solving Equations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-167" class="internal"><span class="codenumber">7.4.2</span> <span class="title">The Cartesian Coordinate System</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-168" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Plotting Points</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-169" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Graphing Lines</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-170" class="internal"><span class="codenumber">7.4.5</span> <span class="title">Applications of Linear Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-176" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Solving Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-177" class="internal"><span class="codenumber">7.4.2</span> <span class="title">The Cartesian Coordinate System</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-178" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Plotting Points</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-179" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Graphing Lines</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-180" class="internal"><span class="codenumber">7.4.5</span> <span class="title">Applications of Linear Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-181" class="internal"><span class="codenumber">7.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -621,9 +653,8 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="solutions-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Selected Exercises and Homework Problems</span></a></div></li>
-<li><div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></div></li>
-<li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li><div class="toc-item"><a href="solutions-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Odd-Numbered Homework Problems</span></a></div></li>
+<li><div class="toc-item"><a href="glossary-1.html" class="internal"><span class="title">Glossary</span></a></div></li>
 <li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
 </ul>
 </li>
@@ -632,30 +663,30 @@ window.MathJax = {
 <span class="type">Section</span> <span class="codenumber">7.1</span> <span class="title">Adding Signed Numbers</span>
 </h2>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
-<div class="sbspanel middle" style="width:50%;"><div class="para logical" id="p-8309"><ul class="disc">
-<li id="li-3607"><div class="para" id="p-8310">Adding Two Numbers with the Same Sign</div></li>
-<li id="li-3608"><div class="para" id="p-8311">Adding Two Numbers with Opposite Signs</div></li>
-<li id="li-3609"><div class="para" id="p-8312">Rules for Addition</div></li>
-<li id="li-3610"><div class="para" id="p-8313">Net Change</div></li>
+<div class="sbspanel middle" style="width:50%;"><div class="para logical" id="p-8372"><ul class="disc">
+<li id="li-3654"><div class="para" id="p-8373">Adding Two Numbers with the Same Sign</div></li>
+<li id="li-3655"><div class="para" id="p-8374">Adding Two Numbers with Opposite Signs</div></li>
+<li id="li-3656"><div class="para" id="p-8375">Rules for Addition</div></li>
+<li id="li-3657"><div class="para" id="p-8376">Net Change</div></li>
 </ul></div></div>
 <div class="sbspanel middle" style="width:50%;"><img src="external/assets.png" class="contained"></div>
 </div></div>
-<section class="introduction" id="introduction-251"><div class="para" id="p-8314">In Section 4.3 we looked at some of the uses of negative numbers. Some easy examples are temperature and elevation. Negative numbers are used extensively in finance and the sciences, where it is important to perform calculations with both positive and negative numbers. If you like, you can review number lines and the definition of <dfn class="terminology">integers</dfn> in Section 4.3.</div></section><section class="subsection" id="subsection-155"><h3 class="heading hide-type">
+<section class="introduction" id="introduction-251"><div class="para" id="p-8377">In <a href="sec-4-4.html#negnos" class="internal" title="Subsection 4.4.1: Opposites">Section 4.4</a> we looked at some of the uses of negative numbers. Some easy examples are temperature and elevation. Negative numbers are used extensively in finance and the sciences, where it is important to perform calculations with both positive and negative numbers. If you like, you can review number lines and the definition of <dfn class="terminology">integers</dfn> in <a href="sec-4-4.html#integers" class="internal" title="Subsection 4.4.3: The Integers">Section 4.4</a>.</div></section><section class="subsection" id="subsection-162"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">7.1.1</span> <span class="title">Adding Two Numbers with the Same Sign</span>
 </h3>
-<div class="para" id="p-8315">We'll use number lines to help us add signed numbers. You already know how to add two positive numbers; let's see how that looks on a number line.</div>
+<div class="para" id="p-8378">We’ll use number lines to help us add signed numbers. You already know how to add two positive numbers; let’s see how that looks on a number line.</div>
 <article class="example example-like" id="example-171"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.1.1</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-8316">Use a number line to illustrate the sum <span class="process-math">\((+4) + (+3)\)</span>
+<div class="para" id="p-8379">Use a number line to illustrate the sum <span class="process-math">\((+4) + (+3)\)</span>
 </div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-145" id="solution-145"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-145"><div class="solution solution-like"><div class="para" id="p-8317">Plot the first number, <span class="process-math">\(+4\text{,}\)</span>  as shown on the number line below. <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/exm-7-1-1.png" class="contained"></div> From that point, move 3 units in the <dfn class="terminology">positive direction</dfn>, or to the right. This brings us to <span class="process-math">\(+7\text{,}\)</span> so <span class="process-math">\((+4) + (+3) = 7\text{.}\)</span>
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-145" id="solution-145"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-145"><div class="solution solution-like"><div class="para" id="p-8380">Plot the first number, <span class="process-math">\(+4\text{,}\)</span>  as shown on the number line below. <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/exm-7-1-1.png" class="contained"></div> From that point, move 3 units in the <dfn class="terminology">positive direction</dfn>, or to the right. This brings us to <span class="process-math">\(+7\text{,}\)</span> so <span class="process-math">\((+4) + (+3) = 7\text{.}\)</span>
 </div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-1913"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.1.2</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-8318">
+<div class="para logical" id="p-8381">
 <div class="para">Illustrate the sum <span class="process-math">\((+2) + (+5)\)</span> on the number line. <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div>
 </div>
 <div class="displaymath process-math">
@@ -666,31 +697,31 @@ window.MathJax = {
 </div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1035" id="answer-1035"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1035"><div class="answer solution-like"><span class="process-math">\(+7\)</span></div></div>
-</div></article><div class="para logical" id="p-8319">
+</div></article><div class="para logical" id="p-8382">
 <div class="para">What about the sum of two negative numbers?  For example, what is</div>
 <div class="displaymath process-math">
 \begin{equation*}
 (-5) + (-3)~  ? 
 \end{equation*}
 </div>
-<div class="para">We'll use ideas about money to illustrate negative numbers.</div>
+<div class="para">We’ll use ideas about money to illustrate negative numbers.</div>
 </div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
-<div class="sbspanel top" style="width:55.5555555555556%;"><div class="para" id="p-8320">Think of negative numbers as representing debts. It makes sense that the sum of two negative numbers is another negative number:  if you owe $5 to one person and $3 to another person, then you are $8 in debt.</div></div>
+<div class="sbspanel top" style="width:55.5555555555556%;"><div class="para" id="p-8383">Think of negative numbers as representing debts. It makes sense that the sum of two negative numbers is another negative number:  if you owe $5 to one person and $3 to another person, then you are $8 in debt.</div></div>
 <div class="sbspanel top" style="width:33.3333333333333%;"><img src="external/dollars.png" class="contained"></div>
 </div></div>
 <article class="example example-like" id="example-172"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.1.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-8321">Use a number line to illustrate the sum <span class="process-math">\((-5) + (-3)\)</span>
+<div class="para" id="p-8384">Use a number line to illustrate the sum <span class="process-math">\((-5) + (-3)\)</span>
 </div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-146" id="solution-146"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-146"><div class="solution solution-like"><div class="para" id="p-8322">Plot the first number, <span class="process-math">\(-5\text{,}\)</span>  as shown on the number line below. <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/exm-7-1-2.png" class="contained"></div> From that point, move 3 units in the <dfn class="terminology">negative direction</dfn>, or to the left. This brings us to <span class="process-math">\(-8\text{,}\)</span>  so  <span class="process-math">\((-5) + (-3) = -8\text{.}\)</span>
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-146" id="solution-146"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-146"><div class="solution solution-like"><div class="para" id="p-8385">Plot the first number, <span class="process-math">\(-5\text{,}\)</span>  as shown on the number line below. <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/exm-7-1-2.png" class="contained"></div> From that point, move 3 units in the <dfn class="terminology">negative direction</dfn>, or to the left. This brings us to <span class="process-math">\(-8\text{,}\)</span>  so  <span class="process-math">\((-5) + (-3) = -8\text{.}\)</span>
 </div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-1914"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.1.4</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-8323">
+<div class="para logical" id="p-8386">
 <div class="para">Illustrate the sum <span class="process-math">\((-1) + (-5)\)</span> on the number line. <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div>
 </div>
 <div class="displaymath process-math">
@@ -701,15 +732,15 @@ window.MathJax = {
 </div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1036" id="answer-1036"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1036"><div class="answer solution-like"><span class="process-math">\(-6\)</span></div></div>
-</div></article><div class="para" id="p-8324">From the examples above, we see that:</div>
-<article class="assemblage assemblage-like" id="assemblage-182"><h4 class="heading"><span class="title">Adding Two Numbers with the Same Sign.</span></h4>
-<div class="para logical" id="p-8325"><ol class="decimal">
-<li id="li-3611"><div class="para" id="p-8326">The sum of two positive numbers is positive.</div></li>
-<li id="li-3612"><div class="para" id="p-8327">The sum of two negative numbers is negative.</div></li>
-</ol></div></article></section><section class="subsection" id="subsection-156"><h3 class="heading hide-type">
+</div></article><div class="para" id="p-8387">From the examples above, we see that:</div>
+<article class="assemblage assemblage-like" id="assemblage-183"><h4 class="heading"><span class="title">Adding Two Numbers with the Same Sign.</span></h4>
+<div class="para logical" id="p-8388"><ol class="decimal">
+<li id="li-3658"><div class="para" id="p-8389">The sum of two positive numbers is positive.</div></li>
+<li id="li-3659"><div class="para" id="p-8390">The sum of two negative numbers is negative.</div></li>
+</ol></div></article></section><section class="subsection" id="subsection-163"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">7.1.2</span> <span class="title">Adding Two Numbers with Opposite Signs</span>
 </h3>
-<div class="para logical" id="p-8328">
+<div class="para logical" id="p-8391">
 <div class="para">Now suppose you have $6, but you owe someone $8. Your financial status is described by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -721,15 +752,15 @@ window.MathJax = {
 <article class="example example-like" id="example-173"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.1.5</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-8329">Use a number line to illustrate the sum <span class="process-math">\((+6) + (-8)\)</span>
+<div class="para" id="p-8392">Use a number line to illustrate the sum <span class="process-math">\((+6) + (-8)\)</span>
 </div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-147" id="solution-147"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-147"><div class="solution solution-like"><div class="para" id="p-8330">Plot the first number, <span class="process-math">\(+6\text{,}\)</span>  as shown on the number line below. <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/exm-7-1-3.png" class="contained"></div> From that point, move 8 units in the <dfn class="terminology">negative direction</dfn>, or to the left. This brings us to <span class="process-math">\(-2\text{,}\)</span>  so  <span class="process-math">\((+6) + (-8) = -2\text{.}\)</span>
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-147" id="solution-147"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-147"><div class="solution solution-like"><div class="para" id="p-8393">Plot the first number, <span class="process-math">\(+6\text{,}\)</span>  as shown on the number line below. <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/exm-7-1-3.png" class="contained"></div> From that point, move 8 units in the <dfn class="terminology">negative direction</dfn>, or to the left. This brings us to <span class="process-math">\(-2\text{,}\)</span>  so  <span class="process-math">\((+6) + (-8) = -2\text{.}\)</span>
 </div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-1915"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.1.6</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-8331">
+<div class="para logical" id="p-8394">
 <div class="para">Illustrate the sum <span class="process-math">\((-9) + (+2)\)</span> on the number line. <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div>
 </div>
 <div class="displaymath process-math">
@@ -740,7 +771,7 @@ window.MathJax = {
 </div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1037" id="answer-1037"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1037"><div class="answer solution-like"><span class="process-math">\(-7\)</span></div></div>
-</div></article><div class="para logical" id="p-8332">
+</div></article><div class="para logical" id="p-8395">
 <div class="para">So if your debts are greater than your assets, you end up in debt. What if your assets are greater than your debts? In that case, your net worth is positive. Suppose you have $10, but you owe someone $6. We can represent this situation by the sum</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -752,27 +783,27 @@ window.MathJax = {
 <article class="example example-like" id="example-174"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.1.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-8333">Use a number line to illustrate the sum <span class="process-math">\((+10) + (-6)\)</span>
+<div class="para" id="p-8396">Use a number line to illustrate the sum <span class="process-math">\((+10) + (-6)\)</span>
 </div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-148" id="solution-148"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-148"><div class="solution solution-like"><div class="para" id="p-8334">Plot the first number, <span class="process-math">\(+10\text{,}\)</span>  as shown on the number line below. <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/exm-7-1-4.png" class="contained"></div> From that point, move 6 units in the <dfn class="terminology">negative direction</dfn>, or to the left. This brings us to <span class="process-math">\(+4\text{,}\)</span> so <span class="process-math">\((+10) + (-6) = +4\text{.}\)</span>
+<a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-148" id="solution-148"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-148"><div class="solution solution-like"><div class="para" id="p-8397">Plot the first number, <span class="process-math">\(+10\text{,}\)</span>  as shown on the number line below. <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/exm-7-1-4.png" class="contained"></div> From that point, move 6 units in the <dfn class="terminology">negative direction</dfn>, or to the left. This brings us to <span class="process-math">\(+4\text{,}\)</span> so <span class="process-math">\((+10) + (-6) = +4\text{.}\)</span>
 </div></div></div>
-</div></article><article class="note remark-like" id="note-100"><h4 class="heading">
+</div></article><article class="note remark-like" id="note-102"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">7.1.8</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-8335">
+<div class="para logical" id="p-8398">
 <div class="para">Do you notice that adding a negative number has the same effect as subtracting a positive number?</div>
-<div class="displaymath process-math" id="md-126">
+<div class="displaymath process-math" id="md-127">
 \begin{gather*}
 (+10) + (-6) = +4\\
 (+10) - (+6) = +4
 \end{gather*}
 </div>
-<div class="para">Hold that thought; we'll see more about it shortly.</div>
+<div class="para">Hold that thought; we’ll see more about it shortly.</div>
 </div></article><article class="exercise exercise-like" id="exercise-1916"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.1.9</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-8336">
+<div class="para logical" id="p-8399">
 <div class="para">Illustrate the sum <span class="process-math">\((-4) + (+8)\)</span> on the number line. <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div>
 </div>
 <div class="displaymath process-math">
@@ -783,17 +814,17 @@ window.MathJax = {
 </div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1038" id="answer-1038"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1038"><div class="answer solution-like"><span class="process-math">\(+4\)</span></div></div>
-</div></article><div class="para" id="p-8337"><span class="process-math">\(\large{\blert{\text{Summary}}}\)</span></div>
-<div class="para logical" id="p-8338">
+</div></article><div class="para" id="p-8400"><span class="process-math">\(\large{\blert{\text{Summary}}}\)</span></div>
+<div class="para logical" id="p-8401">
 <div class="para">From the examples above, we see that the sum of a positive number and a negative number can be either positive or negative. It depends on which is "bigger," (farther from zero), the positive number or the negative number.</div>
 <ul class="disc">
-<li id="li-3613"><div class="para" id="p-8339">If the positive number is farther from zero, the sum will be positive.</div></li>
-<li id="li-3614"><div class="para" id="p-8340">If the negative number is farther from zero, the sum will be negative.</div></li>
+<li id="li-3660"><div class="para" id="p-8402">If the positive number is farther from zero, the sum will be positive.</div></li>
+<li id="li-3661"><div class="para" id="p-8403">If the negative number is farther from zero, the sum will be negative.</div></li>
 </ul>
 </div>
-<div class="para" id="p-8341">In other words, if your assets outweigh your debts, your net worth is positive. If your debts outweigh your assets, your net worth is negative.</div>
-<div class="para" id="p-8342">So now we know the sign of the answer when we add two numbers of opposite signs, but how do we find its actual value? Look again at the examples above. Forget about the signs for a moment. If we subtract the two numbers, we find out by how much the "bigger" number outweighs the smaller one. Then we use the appropriate sign, positive or negative, for the answer.</div>
-<div class="para logical" id="p-8343">
+<div class="para" id="p-8404">In other words, if your assets outweigh your debts, your net worth is positive. If your debts outweigh your assets, your net worth is negative.</div>
+<div class="para" id="p-8405">So now we know the sign of the answer when we add two numbers of opposite signs, but how do we find its actual value? Look again at the examples above. Forget about the signs for a moment. If we subtract the two numbers, we find out by how much the "bigger" number outweighs the smaller one. Then we use the appropriate sign, positive or negative, for the answer.</div>
+<div class="para logical" id="p-8406">
 <div class="para">This makes sense if we consider another example about money. Suppose you earn $20, but you have a debt of $15. Your financial status is given by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -803,31 +834,31 @@ window.MathJax = {
 <div class="para">You need $15 of your earnings to pay off the debt, so we subtract $15 from $20. The remainder, $5, is your net worth. <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/unnumexm-7-1.png" class="contained"></div>
 </div>
 </div>
-<div class="para" id="p-8344">Number lines give us a visual representation of signed numbers, but some people prefer a more concrete model. In the next Activity we offer a different way to think about adding signed numbers.</div>
+<div class="para" id="p-8407">Number lines give us a visual representation of signed numbers, but some people prefer a more concrete model. In Activity 7.1.1 we offer a different way to think about adding signed numbers.</div>
 <article class="activity project-like" id="activity-73"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Adding Two Numbers with Opposite Signs.</span>
-</h4> <div class="para" id="p-8345">For this Activity you will need some counters, such as chips or blocks, in two different colors. One color represents positive numbers, and the other color represents negative numbers. You can choose which is which.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
+</h4> <div class="para" id="p-8408">For this Activity you will need some counters, such as chips or blocks, in two different colors. One color represents positive numbers, and the other color represents negative numbers. You can choose which is which.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
 <div class="sbspanel top" style="width:63.1578947368421%;">
-<div class="para" id="p-8346">Positive numbers are <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<div class="para" id="p-8409">Positive numbers are <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div>
-<div class="para" id="p-8347">Negative numbers are <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+<div class="para" id="p-8410">Negative numbers are <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
 </div>
-<div class="para" id="p-8348">We'll place counters on the table to represent sums of signed numbers.</div>
+<div class="para" id="p-8411">We’ll place counters on the table to represent sums of signed numbers.</div>
 </div>
 <div class="sbspanel top" style="width:31.5789473684211%;"><img src="external/counters.png" class="contained"></div>
-</div></div> <div class="para logical" id="p-8349"><ol class="decimal">
-<li id="li-3615"><div class="para logical" id="p-8350">
-<div class="para">Let's start with <dfn class="terminology">zero sums</dfn>. Suppose you have $5 in your wallet, and you spend $5 on coffee and a cookie. What is your financial status now?</div>
+</div></div> <div class="para logical" id="p-8412"><ol class="decimal">
+<li id="li-3662"><div class="para logical" id="p-8413">
+<div class="para">Let’s start with <dfn class="terminology">zero sums</dfn>. Suppose you have $5 in your wallet, and you spend $5 on coffee and a cookie. What is your financial status now?</div>
 <div class="displaymath process-math">
 \begin{equation*}
 (+5)+(-5) = 0
 \end{equation*}
 </div>
-<div class="para">When we add two numbers that are opposites, we get zero. We represent the zero sum <span class="process-math">\((+5)+(-5)\)</span> with counters like this: <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/zerosum.png" class="contained"></div> Because the sum is zero, we can remove them from the table. An empty table represents the number 0.</div>
+<div class="para">When we add two numbers that are opposites, we get zero. We represent the zero sum <span class="process-math">\((+5)+(-5)\)</span> with counters like this: <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/zerosum.png" class="contained"></div> (In our examples, yellow counters are positive and red ones are negative.) Because the sum is zero, we can remove them from the table. An empty table represents the number 0.</div>
 </div></li>
-<li id="li-3616">
-<div class="para logical" id="p-8351">
-<div class="para">Now we'll consider a sum of two numbers with opposite signs. Represent</div>
+<li id="li-3663">
+<div class="para logical" id="p-8414">
+<div class="para">Now we’ll consider a sum of two numbers with opposite signs. Represent</div>
 <div class="displaymath process-math">
 \begin{equation*}
 (+7)+(-3)
@@ -835,95 +866,95 @@ window.MathJax = {
 </div>
 <div class="para">by placing 7 positive counters and 3 negative counters on the table. <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/possum.png" class="contained"></div> You can remove the zero sum <span class="process-math">\((+3)+(-3)\)</span> from the table. What do you have left?</div>
 </div>
-<div class="para" id="p-8352">You have just shown that <span class="process-math">\((+7)+(-3) = +4\text{.}\)</span>  But here's the important part:  You started with more positive counters than negative counters.  You took away or subtracted 3 of the 7 positive counters to make a zero sum, and you were left with 4 positive counters.</div>
+<div class="para" id="p-8415">You have just shown that <span class="process-math">\((+7)+(-3) = +4\text{.}\)</span>  But here’s the important part:  You started with more positive counters than negative counters.  You took away or subtracted 3 of the 7 positive counters to make a zero sum, and you were left with 4 positive counters.</div>
 </li>
-<li id="li-3617"><div class="para logical" id="p-8353">
+<li id="li-3664"><div class="para logical" id="p-8416">
 <div class="para">Use your counters to find the following sums of signed numbers.</div>
 <ol class="lower-alpha cols2">
-<li id="li-3618"><div class="para" id="p-8354"><span class="process-math">\(\displaystyle (+6)+(-3) = \fillinmath{XXX}\)</span></div></li>
-<li id="li-3619"><div class="para" id="p-8355"><span class="process-math">\(\displaystyle (+8)+(-6) = \fillinmath{XXX}\)</span></div></li>
-<li id="li-3620"><div class="para" id="p-8356"><span class="process-math">\(\displaystyle (-3)+(+5) = \fillinmath{XXX}\)</span></div></li>
-<li id="li-3621"><div class="para" id="p-8357"><span class="process-math">\(\displaystyle (-4)+(+9) = \fillinmath{XXX}\)</span></div></li>
+<li id="li-3665"><div class="para" id="p-8417"><span class="process-math">\(\displaystyle (+6)+(-3) = \fillinmath{XXX}\)</span></div></li>
+<li id="li-3666"><div class="para" id="p-8418"><span class="process-math">\(\displaystyle (+8)+(-6) = \fillinmath{XXX}\)</span></div></li>
+<li id="li-3667"><div class="para" id="p-8419"><span class="process-math">\(\displaystyle (-3)+(+5) = \fillinmath{XXX}\)</span></div></li>
+<li id="li-3668"><div class="para" id="p-8420"><span class="process-math">\(\displaystyle (-4)+(+9) = \fillinmath{XXX}\)</span></div></li>
 </ol>
 </div></li>
-<li id="li-3622"><div class="para logical" id="p-8358"><ol class="lower-alpha">
-<li id="li-3623"><div class="para" id="p-8359">For each sum in part 3, were there more positive blocks or more negative blocks?</div></li>
-<li id="li-3624"><div class="para" id="p-8360">For each sum in part 3, was the answer positive or negative?</div></li>
+<li id="li-3669"><div class="para logical" id="p-8421"><ol class="lower-alpha">
+<li id="li-3670"><div class="para" id="p-8422">For each sum in part 3, were there more positive blocks or more negative blocks?</div></li>
+<li id="li-3671"><div class="para" id="p-8423">For each sum in part 3, was the answer positive or negative?</div></li>
 </ol></div></li>
-<li id="li-3625"><div class="para logical" id="p-8361">
+<li id="li-3672"><div class="para logical" id="p-8424">
 <div class="para">For each sum in part 3, how many zero pairs did you remove?</div>
 <ol class="lower-alpha cols2">
-<li id="li-3626"><div class="para" id="p-8362"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
-<li id="li-3627"><div class="para" id="p-8363"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
-<li id="li-3628"><div class="para" id="p-8364"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
-<li id="li-3629"><div class="para" id="p-8365"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
+<li id="li-3673"><div class="para" id="p-8425"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
+<li id="li-3674"><div class="para" id="p-8426"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
+<li id="li-3675"><div class="para" id="p-8427"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
+<li id="li-3676"><div class="para" id="p-8428"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
 </ol>
 </div></li>
-<li id="li-3630"><div class="para logical" id="p-8366">
+<li id="li-3677"><div class="para logical" id="p-8429">
 <div class="para">Use your counters to find the following sums of signed numbers.</div>
 <ol class="lower-alpha cols2">
-<li id="li-3631"><div class="para" id="p-8367"><span class="process-math">\(\displaystyle (+2)+(-4) = \fillinmath{XXX}\)</span></div></li>
-<li id="li-3632"><div class="para" id="p-8368"><span class="process-math">\(\displaystyle (+6)+(-8) = \fillinmath{XXX}\)</span></div></li>
-<li id="li-3633"><div class="para" id="p-8369"><span class="process-math">\(\displaystyle (-6)+(+5) = \fillinmath{XXX}\)</span></div></li>
-<li id="li-3634"><div class="para" id="p-8370"><span class="process-math">\(\displaystyle (-5)+(+2) = \fillinmath{XXX}\)</span></div></li>
+<li id="li-3678"><div class="para" id="p-8430"><span class="process-math">\(\displaystyle (+2)+(-4) = \fillinmath{XXX}\)</span></div></li>
+<li id="li-3679"><div class="para" id="p-8431"><span class="process-math">\(\displaystyle (+6)+(-8) = \fillinmath{XXX}\)</span></div></li>
+<li id="li-3680"><div class="para" id="p-8432"><span class="process-math">\(\displaystyle (-6)+(+5) = \fillinmath{XXX}\)</span></div></li>
+<li id="li-3681"><div class="para" id="p-8433"><span class="process-math">\(\displaystyle (-5)+(+2) = \fillinmath{XXX}\)</span></div></li>
 </ol>
 </div></li>
-<li id="li-3635"><div class="para logical" id="p-8371"><ol class="lower-alpha">
-<li id="li-3636"><div class="para" id="p-8372">For each sum in part 6, were there more positive blocks or more negative blocks?</div></li>
-<li id="li-3637"><div class="para" id="p-8373">For each sum in part 6, was the answer positive or negative?</div></li>
+<li id="li-3682"><div class="para logical" id="p-8434"><ol class="lower-alpha">
+<li id="li-3683"><div class="para" id="p-8435">For each sum in part 6, were there more positive blocks or more negative blocks?</div></li>
+<li id="li-3684"><div class="para" id="p-8436">For each sum in part 6, was the answer positive or negative?</div></li>
 </ol></div></li>
-<li id="li-3638"><div class="para logical" id="p-8374">
+<li id="li-3685"><div class="para logical" id="p-8437">
 <div class="para">For each sum in part 6, how many zero pairs did you remove?</div>
 <ol class="lower-alpha cols2">
-<li id="li-3639"><div class="para" id="p-8375"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
-<li id="li-3640"><div class="para" id="p-8376"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
-<li id="li-3641"><div class="para" id="p-8377"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
-<li id="li-3642"><div class="para" id="p-8378"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
+<li id="li-3686"><div class="para" id="p-8438"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
+<li id="li-3687"><div class="para" id="p-8439"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
+<li id="li-3688"><div class="para" id="p-8440"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
+<li id="li-3689"><div class="para" id="p-8441"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></div></li>
 </ol>
 </div></li>
-<li id="li-3643"><div class="para logical" id="p-8379">
+<li id="li-3690"><div class="para logical" id="p-8442">
 <div class="para">Look back at your answers to Exercise 3 and Exercise 6. Do you see a way to find the sums without using counters?</div>
 <ol class="lower-alpha">
-<li id="li-3644"><div class="para" id="p-8380">How can you predict whether the sum will be positive or negative?</div></li>
-<li id="li-3645"><div class="para" id="p-8381">Now ignore the signs of the two numbers being added. To get the answers would you add those two numbers or subtract them?</div></li>
-<li id="li-3646"><div class="para" id="p-8382">Can you explain your answer to part (b) in terms of zero sums?</div></li>
+<li id="li-3691"><div class="para" id="p-8443">How can you predict whether the sum will be positive or negative?</div></li>
+<li id="li-3692"><div class="para" id="p-8444">Now ignore the signs of the two numbers being added. To get the answers would you add those two numbers or subtract them?</div></li>
+<li id="li-3693"><div class="para" id="p-8445">Can you explain your answer to part (b) in terms of zero sums?</div></li>
 </ol>
 </div></li>
-<li id="li-3647"><div class="para" id="p-8383">Explain to a classmate how to add two numbers with opposite signs.</div></li>
-</ol></div></article><div class="para" id="p-8384">Which model for adding signed numbers was more helpful for you, number lines or counters? Do you find that you can visualize addition without a physical model?</div></section><section class="subsection" id="subsection-157"><h3 class="heading hide-type">
+<li id="li-3694"><div class="para" id="p-8446">Explain to a classmate how to add two numbers with opposite signs.</div></li>
+</ol></div></article><div class="para" id="p-8447">Which model for adding signed numbers was more helpful for you, number lines or counters? Do you find that you can visualize addition without a physical model?</div></section><section class="subsection" id="addrules"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">7.1.3</span> <span class="title">Rules for Addition</span>
 </h3>
-<div class="para" id="p-8385">We summarize below what we have learned about addition.</div>
-<article class="assemblage assemblage-like" id="assemblage-183"><h4 class="heading"><span class="title">Rules for Addition of Signed Numbers.</span></h4>
-<div class="para logical" id="p-8386"><ol class="decimal">
-<li id="li-3648"><div class="para logical" id="p-8387">
+<div class="para" id="p-8448">We summarize below what we have learned about addition.</div>
+<article class="assemblage assemblage-like" id="assemblage-184"><h4 class="heading"><span class="title">Rules for Addition of Signed Numbers.</span></h4>
+<div class="para logical" id="p-8449"><ol class="decimal">
+<li id="li-3695"><div class="para logical" id="p-8450">
 <div class="para">To add two numbers with the same sign:</div>
 <ol class="lower-alpha">
-<li id="li-3649"><div class="para" id="p-8388">Add the unsigned parts of the numbers.</div></li>
-<li id="li-3650"><div class="para" id="p-8389">Use the same sign for the sum.</div></li>
+<li id="li-3696"><div class="para" id="p-8451">Add the unsigned parts of the numbers.</div></li>
+<li id="li-3697"><div class="para" id="p-8452">Use the same sign for the sum.</div></li>
 </ol>
 </div></li>
-<li id="li-3651"><div class="para logical" id="p-8390">
+<li id="li-3698"><div class="para logical" id="p-8453">
 <div class="para">To add two numbers with opposite signs:</div>
 <ol class="lower-alpha">
-<li id="li-3652"><div class="para" id="p-8391">Subtract the unsigned parts of the numbers.</div></li>
-<li id="li-3653"><div class="para" id="p-8392">If the positive number is farther from zero, the sum is positive. If the negative number is farther from zero, the sum is negative.</div></li>
+<li id="li-3699"><div class="para" id="p-8454">Subtract the unsigned parts of the numbers.</div></li>
+<li id="li-3700"><div class="para" id="p-8455">If the positive number is farther from zero, the sum is positive. If the negative number is farther from zero, the sum is negative.</div></li>
 </ol>
 </div></li>
 </ol></div></article><article class="example example-like" id="example-175"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.1.10</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-8393">
+<div class="para logical" id="p-8456">
 <div class="para">Use the Rules for Addition to find the following sums.</div>
 <ol class="lower-alpha cols3">
-<li id="li-3654"><div class="para" id="p-8394"><span class="process-math">\(\displaystyle (-4) + (-12)\)</span></div></li>
-<li id="li-3655"><div class="para" id="p-8395"><span class="process-math">\(\displaystyle (-8) + (+2)\)</span></div></li>
-<li id="li-3656"><div class="para" id="p-8396"><span class="process-math">\(\displaystyle (-7) + (+9)\)</span></div></li>
+<li id="li-3701"><div class="para" id="p-8457"><span class="process-math">\(\displaystyle (-4) + (-12)\)</span></div></li>
+<li id="li-3702"><div class="para" id="p-8458"><span class="process-math">\(\displaystyle (-8) + (+2)\)</span></div></li>
+<li id="li-3703"><div class="para" id="p-8459"><span class="process-math">\(\displaystyle (-7) + (+9)\)</span></div></li>
 </ol>
 </div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-149" id="solution-149"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-149"><div class="solution solution-like"><div class="para logical" id="p-8397"><ol class="lower-alpha">
-<li id="li-3657"><div class="para logical" id="p-8398">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-149" id="solution-149"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-149"><div class="solution solution-like"><div class="para logical" id="p-8460"><ol class="lower-alpha">
+<li id="li-3704"><div class="para logical" id="p-8461">
 <div class="para">Because <span class="process-math">\(-4\)</span> and <span class="process-math">\(-12\)</span> have the same sign, we add their unsigned parts to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -937,7 +968,7 @@ window.MathJax = {
 \end{equation*}
 </div>
 </div></li>
-<li id="li-3658"><div class="para logical" id="p-8399">
+<li id="li-3705"><div class="para logical" id="p-8462">
 <div class="para">Because <span class="process-math">\(-8\)</span> and <span class="process-math">\(+2\)</span> have opposite signs, we subtract their unsigned parts to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -951,7 +982,7 @@ window.MathJax = {
 \end{equation*}
 </div>
 </div></li>
-<li id="li-3659"><div class="para logical" id="p-8400">
+<li id="li-3706"><div class="para logical" id="p-8463">
 <div class="para">Because <span class="process-math">\(-7\)</span> and <span class="process-math">\(+9\)</span> have opposite signs, we subtract their unsigned parts to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -966,220 +997,226 @@ window.MathJax = {
 </div>
 </div></li>
 </ol></div></div></div>
-</div></article><article class="note remark-like" id="note-101"><h4 class="heading">
+</div></article><article class="note remark-like" id="note-103"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">7.1.11</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-8401">Here is an informal strategy for adding signed numbers:</div> <div class="para" id="p-8402">Step 1    Do the two numbers have the same sign or opposite signs?</div> <div class="para" id="p-8403">Step 2a   (Same sign)  Great:  add 'em up and keep the same sign.</div> <div class="para" id="p-8404">Step 2b  (Opposite signs)  Which number is "bigger" (farther from zero)? That number wins -- use the sign of that number. Subtract to see how much bigger.</div></article><article class="exercise exercise-like" id="exercise-1917"><h4 class="heading">
+<div class="para" id="p-8464">Here is an informal strategy for adding signed numbers:</div> <div class="para" id="p-8465">Step 1    Do the two numbers have the same sign or opposite signs?</div> <div class="para" id="p-8466">Step 2a   (Same sign)  Great:  add ’em up and keep the same sign.</div> <div class="para" id="p-8467">Step 2b  (Opposite signs)  Which number is "bigger" (farther from zero)? That number wins -- use the sign of that number. Subtract to see how much bigger.</div></article><article class="exercise exercise-like" id="exercise-1917"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.1.12</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-8405">
+<div class="para logical" id="p-8468">
 <div class="para">Use the Rules for Addition to find the following sums.</div>
 <ol class="lower-alpha cols3">
-<li id="li-3660"><div class="para" id="p-8406"><span class="process-math">\(\displaystyle (-2) + (-2)\)</span></div></li>
-<li id="li-3661"><div class="para" id="p-8407"><span class="process-math">\(\displaystyle (-4) + (+3)\)</span></div></li>
-<li id="li-3662"><div class="para" id="p-8408"><span class="process-math">\(\displaystyle (+6) + (-8)\)</span></div></li>
+<li id="li-3707"><div class="para" id="p-8469"><span class="process-math">\(\displaystyle (-2) + (-2)\)</span></div></li>
+<li id="li-3708"><div class="para" id="p-8470"><span class="process-math">\(\displaystyle (-4) + (+3)\)</span></div></li>
+<li id="li-3709"><div class="para" id="p-8471"><span class="process-math">\(\displaystyle (+6) + (-8)\)</span></div></li>
 </ol>
 </div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1039" id="answer-1039"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1039"><div class="answer solution-like"><div class="para logical" id="p-8409"><ol class="lower-alpha cols3">
-<li id="li-3663"><div class="para" id="p-8410"><span class="process-math">\(\displaystyle -4\)</span></div></li>
-<li id="li-3664"><div class="para" id="p-8411"><span class="process-math">\(\displaystyle -1\)</span></div></li>
-<li id="li-3665"><div class="para" id="p-8412"><span class="process-math">\(\displaystyle -2\)</span></div></li>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1039" id="answer-1039"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1039"><div class="answer solution-like"><div class="para logical" id="p-8472"><ol class="lower-alpha cols3">
+<li id="li-3710"><div class="para" id="p-8473"><span class="process-math">\(\displaystyle -4\)</span></div></li>
+<li id="li-3711"><div class="para" id="p-8474"><span class="process-math">\(\displaystyle -1\)</span></div></li>
+<li id="li-3712"><div class="para" id="p-8475"><span class="process-math">\(\displaystyle -2\)</span></div></li>
 </ol></div></div></div>
-</div></article><article class="note remark-like" id="note-102"><h4 class="heading">
+</div></article><article class="note remark-like" id="note-104"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">7.1.13</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-8413">
+<div class="para logical" id="p-8476">
 <div class="para">We have been using parentheses to enclose the signed numbers in a sum. The parentheses help us decide which way the symbols and  are used:</div>
 <ul class="disc">
-<li id="li-3666"><div class="para" id="p-8414">to indicate a positive or negative number, or</div></li>
-<li id="li-3667"><div class="para" id="p-8415">to show addition or subtraction.</div></li>
+<li id="li-3713"><div class="para" id="p-8477">to indicate a positive or negative number, or</div></li>
+<li id="li-3714"><div class="para" id="p-8478">to show addition or subtraction.</div></li>
 </ul>
-</div> <div class="para" id="p-8416">Also, it can be confusing to have two plus or minus symbols in a row.</div> <div class="para logical" id="p-8417">
-<div class="para">However, we can often leave out the parentheses if it is easy to interpret the expression.  For instance, the three sums in Exercise 6 can be written as follows.</div>
+</div> <div class="para" id="p-8479">Also, it can be confusing to have two plus or minus symbols in a row.</div> <div class="para logical" id="p-8480">
+<div class="para">However, we can often leave out the parentheses if it is easy to interpret the expression.  For instance, the three sums in Checkpoint 7.1.12 can be written as follows.</div>
 <ol class="lower-alpha">
-<li id="li-3668"><div class="para" id="p-8418"><span class="process-math">\(\displaystyle -2 + (-2)\)</span></div></li>
-<li id="li-3669"><div class="para" id="p-8419"><span class="process-math">\(\displaystyle -4 + 3\)</span></div></li>
-<li id="li-3670"><div class="para" id="p-8420"><span class="process-math">\(\displaystyle 6 + (-8)\)</span></div></li>
+<li id="li-3715"><div class="para" id="p-8481"><span class="process-math">\(\displaystyle -2 + (-2)\)</span></div></li>
+<li id="li-3716"><div class="para" id="p-8482"><span class="process-math">\(\displaystyle -4 + 3\)</span></div></li>
+<li id="li-3717"><div class="para" id="p-8483"><span class="process-math">\(\displaystyle 6 + (-8)\)</span></div></li>
 </ol>
-</div> <div class="para" id="p-8421">In the next lesson, we'll see how to simplify sums even further.</div></article></section><section class="subsection" id="subsection-158"><h3 class="heading hide-type">
+</div> <div class="para" id="p-8484">In the next Lesson, we’ll see how to simplify sums even further.</div></article></section><section class="subsection" id="subsection-165"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">7.1.4</span> <span class="title">Net Change</span>
 </h3>
-<div class="para" id="p-8422">Usually we denote gains by positive numbers and losses by negative numbers. We can find the <dfn class="terminology">net change</dfn> in a quantity by adding those gains and losses.</div>
+<div class="para" id="p-8485">Usually we denote gains by positive numbers and losses by negative numbers. We can find the <dfn class="terminology">net change</dfn> in a quantity by adding those gains and losses.</div>
 <article class="example example-like" id="example-176"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">7.1.14</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-8423">Seymour's stock gained 3 points on Tuesday, but lost 7 points on Wednesday. What was the net change in the stock since Tuesday?</div>
+<div class="para" id="p-8486">Seymour’s stock gained 3 points on Tuesday, but lost 7 points on Wednesday. What was the net change in the stock since Tuesday?</div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-150" id="solution-150"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-150"><div class="solution solution-like"><div class="para logical" id="p-8424">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-150" id="solution-150"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-150"><div class="solution solution-like"><div class="para logical" id="p-8487">
 <div class="para">We use <span class="process-math">\(+3\)</span> to denote a 3-point gain and <span class="process-math">\(-7\)</span> to denote a 7-point loss in the price of the stock.  Then</div>
 <div class="displaymath process-math">
 \begin{equation*}
 (+3) + (-7) = -4
 \end{equation*}
 </div>
-<div class="para">The net change in Seymour's stock was a 4-point loss.</div>
+<div class="para">The net change in Seymour’s stock was a 4-point loss.</div>
 </div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-1918"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">7.1.15</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-8425">
+<div class="para logical" id="p-8488">
 <div class="para">When the ballots in a disputed district were recounted, Senator Dubya lost 58 votes, but he gained 42 votes when the absentee ballots were tallied.</div>
 <ol class="lower-alpha">
-<li id="li-3671"><div class="para" id="p-8426">Write a sum of signed numbers to express the net change in the number of votes for Senator Dubya.</div></li>
-<li id="li-3672"><div class="para" id="p-8427">What was the net change in votes for Senator Dubya?</div></li>
+<li id="li-3718"><div class="para" id="p-8489">Write a sum of signed numbers to express the net change in the number of votes for Senator Dubya.</div></li>
+<li id="li-3719"><div class="para" id="p-8490">What was the net change in votes for Senator Dubya?</div></li>
 </ol>
 </div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1040" id="answer-1040"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1040"><div class="answer solution-like"><div class="para logical" id="p-8428"><ol class="lower-alpha">
-<li id="li-3673"><div class="para" id="p-8429"><span class="process-math">\(\displaystyle (-58)+(+42)\)</span></div></li>
-<li id="li-3674"><div class="para" id="p-8430">A loss of 16 votes</div></li>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1040" id="answer-1040"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1040"><div class="answer solution-like"><div class="para logical" id="p-8491"><ol class="lower-alpha">
+<li id="li-3720"><div class="para" id="p-8492"><span class="process-math">\(\displaystyle (-58)+(+42)\)</span></div></li>
+<li id="li-3721"><div class="para" id="p-8493">A loss of 16 votes</div></li>
 </ol></div></div></div>
-</div></article></section><section class="exercises" id="prac-7-1"><h3 class="heading hide-type">
-<span class="type">Exercises</span> <span class="codenumber">7.1.5</span> <span class="title">Practice 7-1</span>
+</div></article></section><section class="subsection" id="subsection-166"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">7.1.5</span> <span class="title">Vocabulary</span>
+</h3>
+<div class="para logical" id="p-8494"><ul class="disc cols2">
+<li id="li-3722"><div class="para" id="p-8495">integers</div></li>
+<li id="li-3723"><div class="para" id="p-8496">net change</div></li>
+</ul></div></section><section class="exercises" id="prac-7-1"><h3 class="heading hide-type">
+<span class="type">Exercises</span> <span class="codenumber">7.1.6</span> <span class="title">Practice 7-1</span>
 </h3>
 <div class="exercisegroup" id="exercisegroup-245">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-252"><div class="para" id="p-8431">For Problems 1-10, use number lines to illustrate the sums.</div></div>
+<div class="introduction" id="introduction-252"><div class="para" id="p-8497">For Problems 1-10, use number lines to illustrate the sums.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-1919"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
-<div class="para" id="p-8432"><span class="process-math">\((+4) + (+5)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1920"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
-<div class="para" id="p-8433"><span class="process-math">\((+3) + (+6)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1921"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
-<div class="para" id="p-8434"><span class="process-math">\((-2) + (-6)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1922"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
-<div class="para" id="p-8435"><span class="process-math">\((-7) + (-2)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1923"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
-<div class="para" id="p-8436"><span class="process-math">\((-3) + (+7)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1924"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
-<div class="para" id="p-8437"><span class="process-math">\((-9) + (+4)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1925"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
-<div class="para" id="p-8438"><span class="process-math">\((+10) + (-12)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1926"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
-<div class="para" id="p-8439"><span class="process-math">\((+8) + (-5)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1927"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
-<div class="para" id="p-8440"><span class="process-math">\((-8) + (+4)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1928"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
-<div class="para" id="p-8441"><span class="process-math">\((+1) + (-6)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article>
+<div class="para" id="p-8498"><span class="process-math">\((+4) + (+5)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1920"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="p-8499"><span class="process-math">\((+3) + (+6)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1921"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="p-8500"><span class="process-math">\((-2) + (-6)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1922"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="p-8501"><span class="process-math">\((-7) + (-2)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1923"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
+<div class="para" id="p-8502"><span class="process-math">\((-3) + (+7)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1924"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
+<div class="para" id="p-8503"><span class="process-math">\((-9) + (+4)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1925"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
+<div class="para" id="p-8504"><span class="process-math">\((+10) + (-12)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1926"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<div class="para" id="p-8505"><span class="process-math">\((+8) + (-5)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1927"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
+<div class="para" id="p-8506"><span class="process-math">\((-8) + (+4)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article><article class="exercise exercise-like" id="exercise-1928"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
+<div class="para" id="p-8507"><span class="process-math">\((+1) + (-6)\)</span></div> <div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/signednumberline.png" class="contained"></div></article>
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-1929"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
-<div class="para" id="p-8442">Is the sum of two negative numbers positive or negative?  When you are adding signed numbers, do "two negatives make a positive"?</div></article><article class="exercise exercise-like" id="exercise-1930"><h4 class="heading"><span class="codenumber">12<span class="period">.</span></span></h4>
-<div class="para" id="p-8444">How can you predict whether the sum of two signed numbers will be positive or negative?</div></article><article class="exercise exercise-like" id="exercise-1931"><h4 class="heading"><span class="codenumber">13<span class="period">.</span></span></h4>
-<div class="para" id="p-8445">Use assets and debts to explain why you should subtract the unsigned parts of the numbers when you add two numbers with opposite signs.</div></article><article class="exercise exercise-like" id="exercise-1932"><h4 class="heading"><span class="codenumber">14<span class="period">.</span></span></h4>
-<div class="para" id="p-8447">Make up an example about money that shows how to add two negative numbers.</div></article><div class="exercisegroup" id="exercisegroup-246">
+<div class="para" id="p-8508">Is the sum of two negative numbers positive or negative?  When you are adding signed numbers, do "two negatives make a positive"?</div></article><article class="exercise exercise-like" id="exercise-1930"><h4 class="heading"><span class="codenumber">12<span class="period">.</span></span></h4>
+<div class="para" id="p-8510">How can you predict whether the sum of two signed numbers will be positive or negative?</div></article><article class="exercise exercise-like" id="exercise-1931"><h4 class="heading"><span class="codenumber">13<span class="period">.</span></span></h4>
+<div class="para" id="p-8511">Use assets and debts to explain why you should subtract the unsigned parts of the numbers when you add two numbers with opposite signs.</div></article><article class="exercise exercise-like" id="exercise-1932"><h4 class="heading"><span class="codenumber">14<span class="period">.</span></span></h4>
+<div class="para" id="p-8513">Make up an example about money that shows how to add two negative numbers.</div></article><div class="exercisegroup" id="exercisegroup-246">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-253"><div class="para" id="p-8448">For Problems 15-16, without calculating, say whether the sum will be positive or negative.</div></div>
+<div class="introduction" id="introduction-253"><div class="para" id="p-8514">For Problems 15-16, without calculating, say whether the sum will be positive or negative.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-1933"><h5 class="heading"><span class="codenumber">15<span class="period">.</span></span></h5>
-<div class="para logical" id="p-8449"><ol class="lower-alpha cols3">
-<li id="li-3675"><div class="para" id="p-derived-li-3675"><span class="process-math">\(\displaystyle (+8)+(-6)\)</span></div></li>
-<li id="li-3676"><div class="para" id="p-derived-li-3676"><span class="process-math">\(\displaystyle (-8)+(-6)\)</span></div></li>
-<li id="li-3677"><div class="para" id="p-derived-li-3677"><span class="process-math">\(\displaystyle (-8)+(+6)\)</span></div></li>
+<div class="para logical" id="p-8515"><ol class="lower-alpha cols3">
+<li id="li-3724"><div class="para" id="p-derived-li-3724"><span class="process-math">\(\displaystyle (+8)+(-6)\)</span></div></li>
+<li id="li-3725"><div class="para" id="p-derived-li-3725"><span class="process-math">\(\displaystyle (-8)+(-6)\)</span></div></li>
+<li id="li-3726"><div class="para" id="p-derived-li-3726"><span class="process-math">\(\displaystyle (-8)+(+6)\)</span></div></li>
 </ol></div></article><article class="exercise exercise-like" id="exercise-1934"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
-<div class="para logical" id="p-8454"><ol class="lower-alpha cols3">
-<li id="li-3681"><div class="para" id="p-derived-li-3681"><span class="process-math">\(\displaystyle (-20)+(+30)\)</span></div></li>
-<li id="li-3682"><div class="para" id="p-derived-li-3682"><span class="process-math">\(\displaystyle (-20)+(-30)\)</span></div></li>
-<li id="li-3683"><div class="para" id="p-derived-li-3683"><span class="process-math">\(\displaystyle (+20)+(-30)\)</span></div></li>
+<div class="para logical" id="p-8520"><ol class="lower-alpha cols3">
+<li id="li-3730"><div class="para" id="p-derived-li-3730"><span class="process-math">\(\displaystyle (-20)+(+30)\)</span></div></li>
+<li id="li-3731"><div class="para" id="p-derived-li-3731"><span class="process-math">\(\displaystyle (-20)+(-30)\)</span></div></li>
+<li id="li-3732"><div class="para" id="p-derived-li-3732"><span class="process-math">\(\displaystyle (+20)+(-30)\)</span></div></li>
 </ol></div></article>
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-1935"><h4 class="heading"><span class="codenumber">17<span class="period">.</span></span></h4>
-<div class="para logical" id="p-8455">
+<div class="para logical" id="p-8521">
 <div class="para">For each sum in Problem 15, describe how you would illustrate the calculation with colored counters:</div>
 <ol class="lower-alpha">
-<li id="li-3684"><div class="para" id="p-8456">How many counters of each color would you put on the table?</div></li>
-<li id="li-3685"><div class="para" id="p-8457">How many counters of each color would you remove?</div></li>
-<li id="li-3686"><div class="para" id="p-8458">How many counters of each color would be left?</div></li>
+<li id="li-3733"><div class="para" id="p-8522">How many counters of each color would you put on the table?</div></li>
+<li id="li-3734"><div class="para" id="p-8523">How many counters of each color would you remove?</div></li>
+<li id="li-3735"><div class="para" id="p-8524">How many counters of each color would be left?</div></li>
 </ol>
 </div></article><article class="exercise exercise-like" id="exercise-1936"><h4 class="heading"><span class="codenumber">18<span class="period">.</span></span></h4>
-<div class="para" id="p-8463">Repeat Problem 17 for the sums in Problem 16.</div></article><div class="exercisegroup" id="exercisegroup-247">
+<div class="para" id="p-8529">Repeat Problem 17 for the sums in Problem 16.</div></article><div class="exercisegroup" id="exercisegroup-247">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-254"><div class="para logical" id="p-8464">
+<div class="introduction" id="introduction-254"><div class="para logical" id="p-8530">
 <div class="para">For Problems 19-28,</div>
 <ol class="lower-alpha">
-<li id="li-3690"><div class="para" id="p-8465">Rewrite each sum with as few parentheses as possible.</div></li>
-<li id="li-3691"><div class="para" id="p-8466">Use the Rules for Addition to compute the sums.</div></li>
+<li id="li-3739"><div class="para" id="p-8531">Rewrite each sum with as few parentheses as possible.</div></li>
+<li id="li-3740"><div class="para" id="p-8532">Use the Rules for Addition to compute the sums.</div></li>
 </ol>
 </div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-1937"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
-<div class="para" id="p-8467"><span class="process-math">\((-5) + (-6)\)</span></div></article><article class="exercise exercise-like" id="exercise-1938"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
-<div class="para" id="p-8468"><span class="process-math">\((-3) + (-9)\)</span></div></article><article class="exercise exercise-like" id="exercise-1939"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
-<div class="para" id="p-8469"><span class="process-math">\((-8) + (-8)\)</span></div></article><article class="exercise exercise-like" id="exercise-1940"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
-<div class="para" id="p-8470"><span class="process-math">\((-15) + (-15)\)</span></div></article><article class="exercise exercise-like" id="exercise-1941"><h5 class="heading"><span class="codenumber">23<span class="period">.</span></span></h5>
-<div class="para" id="p-8471"><span class="process-math">\((+12) + (-5)\)</span></div></article><article class="exercise exercise-like" id="exercise-1942"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
-<div class="para" id="p-8472"><span class="process-math">\((+14) + (-4)\)</span></div></article><article class="exercise exercise-like" id="exercise-1943"><h5 class="heading"><span class="codenumber">25<span class="period">.</span></span></h5>
-<div class="para" id="p-8473"><span class="process-math">\((-6) + (+13)\)</span></div></article><article class="exercise exercise-like" id="exercise-1944"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
-<div class="para" id="p-8474"><span class="process-math">\((-7) + (+19)\)</span></div></article><article class="exercise exercise-like" id="exercise-1945"><h5 class="heading"><span class="codenumber">27<span class="period">.</span></span></h5>
-<div class="para" id="p-8475"><span class="process-math">\((-5) + (+5)\)</span></div></article><article class="exercise exercise-like" id="exercise-1946"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
-<div class="para" id="p-8476"><span class="process-math">\((-2) + (+2)\)</span></div></article>
+<div class="para" id="p-8533"><span class="process-math">\((-5) + (-6)\)</span></div></article><article class="exercise exercise-like" id="exercise-1938"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
+<div class="para" id="p-8534"><span class="process-math">\((-3) + (-9)\)</span></div></article><article class="exercise exercise-like" id="exercise-1939"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
+<div class="para" id="p-8535"><span class="process-math">\((-8) + (-8)\)</span></div></article><article class="exercise exercise-like" id="exercise-1940"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
+<div class="para" id="p-8536"><span class="process-math">\((-15) + (-15)\)</span></div></article><article class="exercise exercise-like" id="exercise-1941"><h5 class="heading"><span class="codenumber">23<span class="period">.</span></span></h5>
+<div class="para" id="p-8537"><span class="process-math">\((+12) + (-5)\)</span></div></article><article class="exercise exercise-like" id="exercise-1942"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
+<div class="para" id="p-8538"><span class="process-math">\((+14) + (-4)\)</span></div></article><article class="exercise exercise-like" id="exercise-1943"><h5 class="heading"><span class="codenumber">25<span class="period">.</span></span></h5>
+<div class="para" id="p-8539"><span class="process-math">\((-6) + (+13)\)</span></div></article><article class="exercise exercise-like" id="exercise-1944"><h5 class="heading"><span class="codenumber">26<span class="period">.</span></span></h5>
+<div class="para" id="p-8540"><span class="process-math">\((-7) + (+19)\)</span></div></article><article class="exercise exercise-like" id="exercise-1945"><h5 class="heading"><span class="codenumber">27<span class="period">.</span></span></h5>
+<div class="para" id="p-8541"><span class="process-math">\((-5) + (+5)\)</span></div></article><article class="exercise exercise-like" id="exercise-1946"><h5 class="heading"><span class="codenumber">28<span class="period">.</span></span></h5>
+<div class="para" id="p-8542"><span class="process-math">\((-2) + (+2)\)</span></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-248">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-255"><div class="para" id="p-8477">Use the Rules for Addition to compute the sums in Problems 29-40.</div></div>
+<div class="introduction" id="introduction-255"><div class="para" id="p-8543">Use the Rules for Addition to compute the sums in Problems 29-40.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-1947"><h5 class="heading"><span class="codenumber">29<span class="period">.</span></span></h5>
-<div class="para" id="p-8478"><span class="process-math">\(-8+2\)</span></div></article><article class="exercise exercise-like" id="exercise-1948"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
-<div class="para" id="p-8479"><span class="process-math">\(-10 + (-3)\)</span></div></article><article class="exercise exercise-like" id="exercise-1949"><h5 class="heading"><span class="codenumber">31<span class="period">.</span></span></h5>
-<div class="para" id="p-8480"><span class="process-math">\(-17 + 4\)</span></div></article><article class="exercise exercise-like" id="exercise-1950"><h5 class="heading"><span class="codenumber">32<span class="period">.</span></span></h5>
-<div class="para" id="p-8481"><span class="process-math">\(-30 + 5\)</span></div></article><article class="exercise exercise-like" id="exercise-1951"><h5 class="heading"><span class="codenumber">33<span class="period">.</span></span></h5>
-<div class="para" id="p-8482"><span class="process-math">\(9 + (-18)\)</span></div></article><article class="exercise exercise-like" id="exercise-1952"><h5 class="heading"><span class="codenumber">34<span class="period">.</span></span></h5>
-<div class="para" id="p-8483"><span class="process-math">\(4 + (-15)\)</span></div></article><article class="exercise exercise-like" id="exercise-1953"><h5 class="heading"><span class="codenumber">35<span class="period">.</span></span></h5>
-<div class="para" id="p-8484"><span class="process-math">\(21 + (-15)\)</span></div></article><article class="exercise exercise-like" id="exercise-1954"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
-<div class="para" id="p-8485"><span class="process-math">\(17 + (-14)\)</span></div></article><article class="exercise exercise-like" id="exercise-1955"><h5 class="heading"><span class="codenumber">37<span class="period">.</span></span></h5>
-<div class="para" id="p-8486"><span class="process-math">\(-16 + (-18)\)</span></div></article><article class="exercise exercise-like" id="exercise-1956"><h5 class="heading"><span class="codenumber">38<span class="period">.</span></span></h5>
-<div class="para" id="p-8487"><span class="process-math">\(16 + (-18)\)</span></div></article><article class="exercise exercise-like" id="exercise-1957"><h5 class="heading"><span class="codenumber">39<span class="period">.</span></span></h5>
-<div class="para" id="p-8488"><span class="process-math">\(-29 + 7\)</span></div></article><article class="exercise exercise-like" id="exercise-1958"><h5 class="heading"><span class="codenumber">40<span class="period">.</span></span></h5>
-<div class="para" id="p-8489"><span class="process-math">\(-32 + (-4)\)</span></div></article>
+<div class="para" id="p-8544"><span class="process-math">\(-8+2\)</span></div></article><article class="exercise exercise-like" id="exercise-1948"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
+<div class="para" id="p-8545"><span class="process-math">\(-10 + (-3)\)</span></div></article><article class="exercise exercise-like" id="exercise-1949"><h5 class="heading"><span class="codenumber">31<span class="period">.</span></span></h5>
+<div class="para" id="p-8546"><span class="process-math">\(-17 + 4\)</span></div></article><article class="exercise exercise-like" id="exercise-1950"><h5 class="heading"><span class="codenumber">32<span class="period">.</span></span></h5>
+<div class="para" id="p-8547"><span class="process-math">\(-30 + 5\)</span></div></article><article class="exercise exercise-like" id="exercise-1951"><h5 class="heading"><span class="codenumber">33<span class="period">.</span></span></h5>
+<div class="para" id="p-8548"><span class="process-math">\(9 + (-18)\)</span></div></article><article class="exercise exercise-like" id="exercise-1952"><h5 class="heading"><span class="codenumber">34<span class="period">.</span></span></h5>
+<div class="para" id="p-8549"><span class="process-math">\(4 + (-15)\)</span></div></article><article class="exercise exercise-like" id="exercise-1953"><h5 class="heading"><span class="codenumber">35<span class="period">.</span></span></h5>
+<div class="para" id="p-8550"><span class="process-math">\(21 + (-15)\)</span></div></article><article class="exercise exercise-like" id="exercise-1954"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
+<div class="para" id="p-8551"><span class="process-math">\(17 + (-14)\)</span></div></article><article class="exercise exercise-like" id="exercise-1955"><h5 class="heading"><span class="codenumber">37<span class="period">.</span></span></h5>
+<div class="para" id="p-8552"><span class="process-math">\(-16 + (-18)\)</span></div></article><article class="exercise exercise-like" id="exercise-1956"><h5 class="heading"><span class="codenumber">38<span class="period">.</span></span></h5>
+<div class="para" id="p-8553"><span class="process-math">\(16 + (-18)\)</span></div></article><article class="exercise exercise-like" id="exercise-1957"><h5 class="heading"><span class="codenumber">39<span class="period">.</span></span></h5>
+<div class="para" id="p-8554"><span class="process-math">\(-29 + 7\)</span></div></article><article class="exercise exercise-like" id="exercise-1958"><h5 class="heading"><span class="codenumber">40<span class="period">.</span></span></h5>
+<div class="para" id="p-8555"><span class="process-math">\(-32 + (-4)\)</span></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-249">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-256"><div class="para" id="p-8490">Use a calculator to compute the sums in Problems 41-50.</div></div>
+<div class="introduction" id="introduction-256"><div class="para" id="p-8556">Use a calculator to compute the sums in Problems 41-50.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-1959"><h5 class="heading"><span class="codenumber">41<span class="period">.</span></span></h5>
-<div class="para" id="p-8491"><span class="process-math">\(-38 + (-76)\)</span></div></article><article class="exercise exercise-like" id="exercise-1960"><h5 class="heading"><span class="codenumber">42<span class="period">.</span></span></h5>
-<div class="para" id="p-8492"><span class="process-math">\(-39 + (-84)\)</span></div></article><article class="exercise exercise-like" id="exercise-1961"><h5 class="heading"><span class="codenumber">43<span class="period">.</span></span></h5>
-<div class="para" id="p-8493"><span class="process-math">\(-0.5 + (-0.3)\)</span></div></article><article class="exercise exercise-like" id="exercise-1962"><h5 class="heading"><span class="codenumber">44<span class="period">.</span></span></h5>
-<div class="para" id="p-8494"><span class="process-math">\(-2.5 + (-3.5)\)</span></div></article><article class="exercise exercise-like" id="exercise-1963"><h5 class="heading"><span class="codenumber">45<span class="period">.</span></span></h5>
-<div class="para" id="p-8495"><span class="process-math">\(-136 + (-245)\)</span></div></article><article class="exercise exercise-like" id="exercise-1964"><h5 class="heading"><span class="codenumber">46<span class="period">.</span></span></h5>
-<div class="para" id="p-8496"><span class="process-math">\(318 + (-205)\)</span></div></article><article class="exercise exercise-like" id="exercise-1965"><h5 class="heading"><span class="codenumber">47<span class="period">.</span></span></h5>
-<div class="para" id="p-8497"><span class="process-math">\(13.8 + (-18.3)\)</span></div></article><article class="exercise exercise-like" id="exercise-1966"><h5 class="heading"><span class="codenumber">48<span class="period">.</span></span></h5>
-<div class="para" id="p-8498"><span class="process-math">\(-6.9 + 15.7\)</span></div></article><article class="exercise exercise-like" id="exercise-1967"><h5 class="heading"><span class="codenumber">49<span class="period">.</span></span></h5>
-<div class="para" id="p-8499"><span class="process-math">\(-2.05 + 6.54\)</span></div></article><article class="exercise exercise-like" id="exercise-1968"><h5 class="heading"><span class="codenumber">50<span class="period">.</span></span></h5>
-<div class="para" id="p-8500"><span class="process-math">\(-0.15 + (-1.23)\)</span></div></article>
+<div class="para" id="p-8557"><span class="process-math">\(-38 + (-76)\)</span></div></article><article class="exercise exercise-like" id="exercise-1960"><h5 class="heading"><span class="codenumber">42<span class="period">.</span></span></h5>
+<div class="para" id="p-8558"><span class="process-math">\(-39 + (-84)\)</span></div></article><article class="exercise exercise-like" id="exercise-1961"><h5 class="heading"><span class="codenumber">43<span class="period">.</span></span></h5>
+<div class="para" id="p-8559"><span class="process-math">\(-0.5 + (-0.3)\)</span></div></article><article class="exercise exercise-like" id="exercise-1962"><h5 class="heading"><span class="codenumber">44<span class="period">.</span></span></h5>
+<div class="para" id="p-8560"><span class="process-math">\(-2.5 + (-3.5)\)</span></div></article><article class="exercise exercise-like" id="exercise-1963"><h5 class="heading"><span class="codenumber">45<span class="period">.</span></span></h5>
+<div class="para" id="p-8561"><span class="process-math">\(-136 + (-245)\)</span></div></article><article class="exercise exercise-like" id="exercise-1964"><h5 class="heading"><span class="codenumber">46<span class="period">.</span></span></h5>
+<div class="para" id="p-8562"><span class="process-math">\(318 + (-205)\)</span></div></article><article class="exercise exercise-like" id="exercise-1965"><h5 class="heading"><span class="codenumber">47<span class="period">.</span></span></h5>
+<div class="para" id="p-8563"><span class="process-math">\(13.8 + (-18.3)\)</span></div></article><article class="exercise exercise-like" id="exercise-1966"><h5 class="heading"><span class="codenumber">48<span class="period">.</span></span></h5>
+<div class="para" id="p-8564"><span class="process-math">\(-6.9 + 15.7\)</span></div></article><article class="exercise exercise-like" id="exercise-1967"><h5 class="heading"><span class="codenumber">49<span class="period">.</span></span></h5>
+<div class="para" id="p-8565"><span class="process-math">\(-2.05 + 6.54\)</span></div></article><article class="exercise exercise-like" id="exercise-1968"><h5 class="heading"><span class="codenumber">50<span class="period">.</span></span></h5>
+<div class="para" id="p-8566"><span class="process-math">\(-0.15 + (-1.23)\)</span></div></article>
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-1969"><h4 class="heading"><span class="codenumber">51<span class="period">.</span></span></h4>
-<div class="para" id="p-8501">Use an example about money to explain why the sum of two opposites is always zero.</div></article><article class="exercise exercise-like" id="exercise-1970"><h4 class="heading"><span class="codenumber">52<span class="period">.</span></span></h4>
-<div class="para logical" id="p-8503"><ol class="lower-alpha">
-<li id="li-3692"><div class="para" id="p-8504">What number can you add to <span class="process-math">\(18\)</span> to produce a sum of 0?</div></li>
-<li id="li-3693"><div class="para" id="p-8505">What number can you add to <span class="process-math">\(-12\)</span> to produce a sum of 0?</div></li>
+<div class="para" id="p-8567">Use an example about money to explain why the sum of two opposites is always zero.</div></article><article class="exercise exercise-like" id="exercise-1970"><h4 class="heading"><span class="codenumber">52<span class="period">.</span></span></h4>
+<div class="para logical" id="p-8569"><ol class="lower-alpha">
+<li id="li-3741"><div class="para" id="p-8570">What number can you add to <span class="process-math">\(18\)</span> to produce a sum of 0?</div></li>
+<li id="li-3742"><div class="para" id="p-8571">What number can you add to <span class="process-math">\(-12\)</span> to produce a sum of 0?</div></li>
 </ol></div></article><div class="exercisegroup" id="exercisegroup-250">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-257"><div class="para logical" id="p-8506">
+<div class="introduction" id="introduction-257"><div class="para logical" id="p-8572">
 <div class="para">For Problems 53-58,</div>
 <ol class="lower-alpha">
-<li id="li-3694"><div class="para" id="p-8507">Write a sum of signed numbers to describe the problem.</div></li>
-<li id="li-3695"><div class="para" id="p-8508">Compute the sum and answer the question in the problem.</div></li>
+<li id="li-3743"><div class="para" id="p-8573">Write a sum of signed numbers to describe the problem.</div></li>
+<li id="li-3744"><div class="para" id="p-8574">Compute the sum and answer the question in the problem.</div></li>
 </ol>
 </div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-1971"><h5 class="heading"><span class="codenumber">53<span class="period">.</span></span></h5>
-<div class="para" id="p-8509">Yariv lost 27 pounds on his diet, but then gained back 6 pounds over the holidays.  What is the net change in Yariv's weight?</div></article><article class="exercise exercise-like" id="exercise-1972"><h5 class="heading"><span class="codenumber">54<span class="period">.</span></span></h5>
-<div class="para" id="p-8512">The Spartans gained 16 yards on their first down, but then lost 7 yards on their next play. What was their net change in position?</div></article><article class="exercise exercise-like" id="exercise-1973"><h5 class="heading"><span class="codenumber">55<span class="period">.</span></span></h5>
-<div class="para" id="p-8513">The Mountaineering Club hiked up 1200 feet to the top of a ridge, and then descended into a valley 1400 feet below the summit of the ridge. What was their net change in elevation?</div></article><article class="exercise exercise-like" id="exercise-1974"><h5 class="heading"><span class="codenumber">56<span class="period">.</span></span></h5>
-<div class="para" id="p-8516">Bruno is trying to bake potatoes. He increased the oven's temperature by 125° when he grew impatient, but then decreased the temperature by 75° when the skins started to burn. What was the net change in the oven temperature?</div></article><article class="exercise exercise-like" id="exercise-1975"><h5 class="heading"><span class="codenumber">57<span class="period">.</span></span></h5>
-<div class="para" id="p-8517">he captain of Flight 386 descended 5000 feet to avoid turbulence in the upper atmosphere, and then descended another 1800 feet on the approach to a small airport. What was the plane's net change in altitude?</div></article><article class="exercise exercise-like" id="exercise-1976"><h5 class="heading"><span class="codenumber">58<span class="period">.</span></span></h5>
-<div class="para" id="p-8520">The temperature is expected to drop 15° by this afternoon, and then drop another 18° overnight. What will be the net temperature change by tomorrow morning?</div></article>
+<div class="para" id="p-8575">Yariv lost 27 pounds on his diet, but then gained back 6 pounds over the holidays.  What is the net change in Yariv’s weight?</div></article><article class="exercise exercise-like" id="exercise-1972"><h5 class="heading"><span class="codenumber">54<span class="period">.</span></span></h5>
+<div class="para" id="p-8578">The Spartans gained 16 yards on their first down, but then lost 7 yards on their next play. What was their net change in position?</div></article><article class="exercise exercise-like" id="exercise-1973"><h5 class="heading"><span class="codenumber">55<span class="period">.</span></span></h5>
+<div class="para" id="p-8579">The Mountaineering Club hiked up 1200 feet to the top of a ridge, and then descended into a valley 1400 feet below the summit of the ridge. What was their net change in elevation?</div></article><article class="exercise exercise-like" id="exercise-1974"><h5 class="heading"><span class="codenumber">56<span class="period">.</span></span></h5>
+<div class="para" id="p-8582">Bruno is trying to bake potatoes. He increased the oven’s temperature by 125° when he grew impatient, but then decreased the temperature by 75° when the skins started to burn. What was the net change in the oven temperature?</div></article><article class="exercise exercise-like" id="exercise-1975"><h5 class="heading"><span class="codenumber">57<span class="period">.</span></span></h5>
+<div class="para" id="p-8583">he captain of Flight 386 descended 5000 feet to avoid turbulence in the upper atmosphere, and then descended another 1800 feet on the approach to a small airport. What was the plane’s net change in altitude?</div></article><article class="exercise exercise-like" id="exercise-1976"><h5 class="heading"><span class="codenumber">58<span class="period">.</span></span></h5>
+<div class="para" id="p-8586">The temperature is expected to drop 15° by this afternoon, and then drop another 18° overnight. What will be the net temperature change by tomorrow morning?</div></article>
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-1977"><h4 class="heading"><span class="codenumber">59<span class="period">.</span></span></h4>
-<div class="para" id="p-8521">The bar graph shows the quarterly profits earned by Orinoco.com in one year. (A negative "profit" is a loss.)</div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-7-1-59.png" class="contained"></div> <div class="para logical" id="p-8522"><ol class="lower-alpha">
-<li id="li-3702"><div class="para" id="p-8523">What are the profits for the four quarters shown?</div></li>
-<li id="li-3703"><div class="para" id="p-8524">What was Orinoco.com's total annual profit for that year?</div></li>
+<div class="para" id="p-8587">The bar graph shows the quarterly profits earned by Orinoco.com in one year. (A negative "profit" is a loss.)</div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-7-1-59.png" class="contained"></div> <div class="para logical" id="p-8588"><ol class="lower-alpha">
+<li id="li-3751"><div class="para" id="p-8589">What are the profits for the four quarters shown?</div></li>
+<li id="li-3752"><div class="para" id="p-8590">What was Orinoco.com’s total annual profit for that year?</div></li>
 </ol></div></article><article class="exercise exercise-like" id="exercise-1978"><h4 class="heading"><span class="codenumber">60<span class="period">.</span></span></h4>
-<div class="para" id="p-8528">The bar graph shows how much Kayla won in each of the six games of poker she played.</div>  <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-7-1-60.png" class="contained"></div> <div class="para logical" id="p-8529"><ol class="lower-alpha">
-<li id="li-3706"><div class="para" id="p-8530">Write Kayla's poker record as a sum of signed numbers.</div></li>
-<li id="li-3707"><div class="para" id="p-8531">What was the financial outcome of Kayla's poker session?</div></li>
+<div class="para" id="p-8594">The bar graph shows how much Kayla won in each of the six games of poker she played.</div>  <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-7-1-60.png" class="contained"></div> <div class="para logical" id="p-8595"><ol class="lower-alpha">
+<li id="li-3755"><div class="para" id="p-8596">Write Kayla’s poker record as a sum of signed numbers.</div></li>
+<li id="li-3756"><div class="para" id="p-8597">What was the financial outcome of Kayla’s poker session?</div></li>
 </ol></div></article><article class="exercise exercise-like" id="exercise-1979"><h4 class="heading"><span class="codenumber">61<span class="period">.</span></span></h4>
-<div class="para" id="p-8532">The bar graph shows the water level in the reservoir, relative to its normal depth of 34 feet.  For example, in January, when the level was 3 feet above normal, the water depth was <span class="process-math">\(34 + 3 = 37\)</span> feet.</div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-7-1-61a.png" class="contained"></div> <div class="para logical" id="p-8533"><ol class="lower-alpha">
-<li id="li-3708">
-<div class="para" id="p-8534">Using values from the bar graph, fill in the table.</div>
+<div class="para" id="p-8598">The bar graph shows the water level in the reservoir, relative to its normal depth of 34 feet.  For example, in January, when the level was 3 feet above normal, the water depth was <span class="process-math">\(34 + 3 = 37\)</span> feet.</div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-7-1-61a.png" class="contained"></div> <div class="para logical" id="p-8599"><ol class="lower-alpha">
+<li id="li-3757">
+<div class="para" id="p-8600">Using values from the bar graph, fill in the table.</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(\hphantom{00}\)</span></td>
@@ -1228,27 +1265,27 @@ window.MathJax = {
 </tr>
 </table></div>
 </li>
-<li id="li-3709">
-<div class="para" id="p-8535">Use the grid below to make a bar graph showing the actual depth of the water in the reservoir.</div>
+<li id="li-3758">
+<div class="para" id="p-8601">Use the grid below to make a bar graph showing the actual depth of the water in the reservoir.</div>
 <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/hp-7-1-61b.png" class="contained"></div>
 </li>
 </ol></div></article><article class="exercise exercise-like" id="exercise-1980"><h4 class="heading"><span class="codenumber">62<span class="period">.</span></span></h4>
-<div class="para" id="p-8537">The bar graph shows the annual rainfall in Los Angeles, relative to the average value of 15 inches over the previous century.  For example, in 1987 rainfall was 6 inches below normal, or <span class="process-math">\(15-6=9\)</span> inches.</div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-7-1-62a.png" class="contained"></div> <div class="para logical" id="p-8538"><ol class="lower-alpha">
-<li id="li-3712">
-<div class="para" id="p-8539">Using values from the bar graph, fill in the table.</div>
+<div class="para" id="p-8603">The bar graph shows the annual rainfall in Los Angeles, relative to the average value of 15 inches over the previous century.  For example, in 1987 rainfall was 6 inches below normal, or <span class="process-math">\(15-6=9\)</span> inches.</div> <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/hp-7-1-62a.png" class="contained"></div> <div class="para logical" id="p-8604"><ol class="lower-alpha">
+<li id="li-3761">
+<div class="para" id="p-8605">Using values from the bar graph, fill in the table.</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(\hphantom{00}\)</span></td>
-<td class="c m b1 r1 l0 t1 lines">'87</td>
-<td class="c m b1 r1 l0 t1 lines">'88</td>
-<td class="c m b1 r1 l0 t1 lines">'89</td>
-<td class="c m b1 r1 l0 t1 lines">'90</td>
-<td class="c m b1 r1 l0 t1 lines">'91</td>
-<td class="c m b1 r1 l0 t1 lines">'92</td>
-<td class="c m b1 r1 l0 t1 lines">'93</td>
-<td class="c m b1 r1 l0 t1 lines">'94</td>
-<td class="c m b1 r1 l0 t1 lines">'95</td>
-<td class="c m b1 r1 l0 t1 lines">'96</td>
+<td class="c m b1 r1 l0 t1 lines">’87</td>
+<td class="c m b1 r1 l0 t1 lines">’88</td>
+<td class="c m b1 r1 l0 t1 lines">’89</td>
+<td class="c m b1 r1 l0 t1 lines">’90</td>
+<td class="c m b1 r1 l0 t1 lines">’91</td>
+<td class="c m b1 r1 l0 t1 lines">’92</td>
+<td class="c m b1 r1 l0 t1 lines">’93</td>
+<td class="c m b1 r1 l0 t1 lines">’94</td>
+<td class="c m b1 r1 l0 t1 lines">’95</td>
+<td class="c m b1 r1 l0 t1 lines">’96</td>
 </tr>
 <tr>
 <td class="c m b1 r1 l1 t0 lines">Deviation from average</td>
@@ -1278,8 +1315,8 @@ window.MathJax = {
 </tr>
 </table></div>
 </li>
-<li id="li-3713">
-<div class="para" id="p-8540">Use the grid below to make a bar graph showing the annual rainfall in Los Angeles over the decade from 1987 to 1996.</div>
+<li id="li-3762">
+<div class="para" id="p-8606">Use the grid below to make a bar graph showing the annual rainfall in Los Angeles over the decade from 1987 to 1996.</div>
 <div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/hp-7-1-62b.png" class="contained"></div>
 </li>
 </ol></div></article></section></section></div>
@@ -1287,7 +1324,7 @@ window.MathJax = {
 <a class="previous-button button" href="ch7.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec-7-2.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
-<div id="ptx-page-footer">
+<div id="ptx-page-footer" class="ptx-page-footer">
 <a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
 </div>
 </body>

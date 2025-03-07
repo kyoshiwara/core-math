@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US">
+<html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Halves and Quarters</title>
@@ -14,68 +14,93 @@
 <meta property="og:type" content="book">
 <meta property="book:title" content="Core Mathematics">
 <meta property="book:author" content="Katherine Yoshiwara">
-<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
-  tex: {
-    inlineMath: [['\\(','\\)']],
-    tags: "none",
-    tagSide: "right",
-    tagIndent: ".8em",
-    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
   },
-  options: {
-    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
-    processHtmlClass: "process-math",
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
   },
-  chtml: {
-    scale: 0.98,
-    mtextInheritFont: true
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
   },
-  loader: {
-    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
-    paths: {pretext: "https://pretextbook.org/js/lib"},
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
   },
-  startup: {
+  "startup": {
     pageReady() {
       return MathJax.startup.defaultPageReady().then(function () {
       console.log("in ready function");
       rsMathReady();
       }
     )}
-  },
+  }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
-<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/style_oscarlevin.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
 </head>
 <body class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
-<a id="logo-link" href=""></a><div class="title-container">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
 <h1 class="heading"><a href="my-great-book.html"><span class="title">Core Mathematics</span></a></h1>
 <p class="byline">Katherine Yoshiwara</p>
 </div>
-<div id="searchresultsplaceholder" style="display: none">
-<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
 </h2>
-<div id="searchempty"><span>No results.</span></div>
-<ol id="searchresults"></ol>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
 </div>
-</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="name">Index</span></a><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
 <li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
 <ol class="hidden avatar">
 <li data-val="You!" tabindex="-1">
@@ -178,7 +203,7 @@ window.MathJax = {
 </ol>
 </li>
 </ol></div></button><span class="treebuttons"><a class="previous-button button" href="ch1.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch1.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="sec-1-2.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
-<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\require{cancel}\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -198,13 +223,11 @@ window.MathJax = {
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar"><nav id="ptx-toc" class="depth2"><ul class="structural">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
 <li>
 <div class="toc-item"><a href="meta_frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural">
 <li><div class="toc-item"><a href="colophon-1.html" class="internal"><span class="title">Colophon</span></a></div></li>
-<li><div class="toc-item"><a href="dedication-1.html" class="internal"><span class="title">Dedication</span></a></div></li>
-<li><div class="toc-item"><a href="acknowledgement-1.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li><div class="toc-item"><a href="meta_frontmatter-preface.html" class="internal"><span class="title">Preface</span></a></div></li>
 </ul>
 </li>
@@ -229,7 +252,7 @@ window.MathJax = {
 <ul class="structural">
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-8" class="internal"><span class="codenumber">1.2.1</span> <span class="title">One-Tenth</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-9" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Fractions in Tenths</span></a></div></li>
-<li><div class="toc-item"><a href="sec-1-2.html#subsection-10" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Tenths and Fifths, Reducing Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-2.html#reducing" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Tenths and Fifths, Reducing Fractions</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-11" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Hundredths</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-12" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Decimal Form</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-2.html#subsection-13" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Vocabulary</span></a></div></li>
@@ -242,7 +265,7 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-14" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Factors</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-15" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Primes and Composites</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-16" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Greatest Common Factor</span></a></div></li>
-<li><div class="toc-item"><a href="sec-1-3.html#subsection-17" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Lowest Common Multiple</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-3.html#lcm" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Lowest Common Multiple</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#subsection-18" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-3.html#prac-1-3" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Practice 1.3</span></a></div></li>
 </ul>
@@ -253,7 +276,7 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-19" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Angles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-20" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Measuring Angles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-21" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Using a Protractor</span></a></div></li>
-<li><div class="toc-item"><a href="sec-1-4.html#subsection-22" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-1-4.html#triangles" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Triangles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-23" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Sides and Angles</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#subsection-24" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-1-4.html#prac-1-4" class="internal"><span class="codenumber">1.4.7</span> <span class="title">Practice 1.4</span></a></div></li>
@@ -280,8 +303,8 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-29" class="internal"><span class="codenumber">2.1.1</span> <span class="title">The Metric System</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-30" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Place Value</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-31" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Comparing Decimal Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-1.html#subsection-32" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Fractions to Decimals</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-1.html#subsection-33" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Rounding and Estimating</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#fractodec" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Fractions to Decimals</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-1.html#rounding" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Rounding and Estimating</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#subsection-34" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-1.html#prac-2-1" class="internal"><span class="codenumber">2.1.7</span> <span class="title">Practice 2.1</span></a></div></li>
 </ul>
@@ -295,40 +318,41 @@ window.MathJax = {
 <li><div class="toc-item"><a href="sec-2-2.html#subsection-38" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Eighths</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-2.html#subsection-39" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Thirds</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-2.html#subsection-40" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Decimal Form of One-Third</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-2.html#prac-2-2" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Practice 2.2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#subsection-41" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-2.html#prac-2-2" class="internal"><span class="codenumber">2.2.8</span> <span class="title">Practice 2.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-2-3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Variables</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-41" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What is a Variable?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-42" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Bar Graphs</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-43" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Using Letters for Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-3.html#subsection-44" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Vocabuary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-42" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What is a Variable?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#bargraph" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Bar Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-44" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Using Letters for Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-3.html#subsection-45" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Vocabuary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-3.html#prac-2-3" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Practice 2.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-2-4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Algebraic Expressions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-45" class="internal"><span class="codenumber">2.4.1</span> <span class="title">What is an Algebraic Expression?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-46" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Sums and Products</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-47" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Differences and Quotients</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-48" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Using Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-49" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-50" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-4.html#subsection-51" class="internal"><span class="codenumber">2.4.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-46" class="internal"><span class="codenumber">2.4.1</span> <span class="title">What is an Algebraic Expression?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-47" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Sums and Products</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-48" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Differences and Quotients</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-49" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Using Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-50" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-51" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-4.html#subsection-52" class="internal"><span class="codenumber">2.4.7</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-4.html#prac-2-4" class="internal"><span class="codenumber">2.4.8</span> <span class="title">Practice 2.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-2-5.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Equations</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-52" class="internal"><span class="codenumber">2.5.1</span> <span class="title">What Is an Equation?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-53" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Solution of an Equation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-54" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Finding Solutions: Opposite Operations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-55" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Isolating the Variable</span></a></div></li>
-<li><div class="toc-item"><a href="sec-2-5.html#subsection-56" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-53" class="internal"><span class="codenumber">2.5.1</span> <span class="title">What Is an Equation?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-54" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Solution of an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-55" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Finding Solutions: Opposite Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#solve1" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Isolating the Variable</span></a></div></li>
+<li><div class="toc-item"><a href="sec-2-5.html#subsection-57" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-2-5.html#prac-2-5" class="internal"><span class="codenumber">2.5.6</span> <span class="title">Practice 2.5</span></a></div></li>
 </ul>
 </li>
@@ -340,56 +364,56 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-3-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Volume and Surface Area</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-57" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Surface Area</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-58" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Boxes and Cubes</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-59" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Volume</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-1.html#subsection-60" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-58" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Surface Area</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-59" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Boxes and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-60" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-1.html#subsection-61" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-1.html#prac-3-1" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Practice 3.1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Exponents</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-61" class="internal"><span class="codenumber">3.2.1</span> <span class="title">A New Notation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-62" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Squares and Cubes</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-63" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Products and Powers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-64" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-2.html#subsection-65" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#exponents" class="internal"><span class="codenumber">3.2.1</span> <span class="title">A New Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-63" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Squares and Cubes</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-64" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Products and Powers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#pythagoras" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-2.html#subsection-66" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-2.html#prac-3-2" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Practice 3.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Units of Measure</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-66" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Length</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-67" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Metric Units</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-68" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Area and Volume</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-69" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Liquid Measure</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-3.html#subsection-70" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-67" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Length</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-68" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Metric Units</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-69" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Area and Volume</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-70" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Liquid Measure</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-3.html#subsection-71" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-3.html#prac-3-3" class="internal"><span class="codenumber">3.3.6</span> <span class="title">Practice 3.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-4.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Circles and Spheres</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-71" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Perimeter</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-72" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Circumference of a Circle</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-73" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Area of a Circle</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-74" class="internal"><span class="codenumber">3.4.4</span> <span class="title">A Formula for the Area of a Circle</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-75" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Volume of a Sphere</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-4.html#subsection-76" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-72" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Perimeter</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-73" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Circumference of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-74" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-75" class="internal"><span class="codenumber">3.4.4</span> <span class="title">A Formula for the Area of a Circle</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-76" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Volume of a Sphere</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-4.html#subsection-77" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-4.html#prac-3-4" class="internal"><span class="codenumber">3.4.7</span> <span class="title">Practice 3.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-3-5.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Large Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-77" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Millions and Billions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-78" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Multiplying by Powers of Ten</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-79" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Using Powers of Ten</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-80" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Scientific Notation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-81" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
-<li><div class="toc-item"><a href="sec-3-5.html#subsection-82" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-78" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Millions and Billions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-79" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Multiplying by Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-80" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Using Powers of Ten</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-81" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Scientific Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-82" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-3-5.html#subsection-83" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-3-5.html#prac-3-5" class="internal"><span class="codenumber">3.5.7</span> <span class="title">Practice 3.5</span></a></div></li>
 </ul>
 </li>
@@ -401,59 +425,59 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-4-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Adding and Subtracting Fractions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-83" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Like Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-84" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Smaller Pieces</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-85" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Adding Unlike Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-86" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Lowest Common Denominator</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-87" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Three Steps for Adding Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-1.html#subsection-88" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-84" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Like Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-85" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Smaller Pieces</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-86" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Adding Unlike Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-87" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Lowest Common Denominator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-88" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Three Steps for Adding Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-1.html#subsection-89" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-1.html#prac-4-1" class="internal"><span class="codenumber">4.1.7</span> <span class="title">Practice 4.1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Multiplying and Dividing Fractions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-89" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Take Part</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-90" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Multiplying by a Fraction</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-91" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Dividing by a Fraction</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-92" class="internal"><span class="codenumber">4.2.4</span> <span class="title">More Dividing by Fractions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-2.html#subsection-93" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-90" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Take Part</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-91" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Multiplying by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-92" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Dividing by a Fraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-93" class="internal"><span class="codenumber">4.2.4</span> <span class="title">More Dividing by Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-2.html#subsection-94" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-2.html#prac-4-2" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Practice 4.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Roots and Radicals</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-94" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What Is a Square Root?</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-95" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Approximating Square Roots</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-96" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Squares and Square Roots</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-97" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-3.html#subsection-98" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-95" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What Is a Square Root?</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-96" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Approximating Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-97" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Squares and Square Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-98" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-3.html#subsection-99" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-3.html#prac-4-3" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Practice 4.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Negative Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-99" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Opposites</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-100" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Signed Numbers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-101" class="internal"><span class="codenumber">4.4.3</span> <span class="title">The Integers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-102" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Graphing on a Number Line</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-103" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Indicating Change with Signed Numbers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-4.html#subsection-104" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#negnos" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Opposites</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-101" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#integers" class="internal"><span class="codenumber">4.4.3</span> <span class="title">The Integers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-103" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Graphing on a Number Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-104" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Indicating Change with Signed Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-4.html#subsection-105" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-4.html#prac-4-4" class="internal"><span class="codenumber">4.4.7</span> <span class="title">Practice 4.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-4-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Order of Operations</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-105" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Which Operations Come First</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-106" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Combined Operations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-107" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Parentheses</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-108" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Fraction Bars</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-109" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-110" class="internal"><span class="codenumber">4.5.6</span> <span class="title">Exponents and Roots</span></a></div></li>
-<li><div class="toc-item"><a href="sec-4-5.html#subsection-111" class="internal"><span class="codenumber">4.5.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-106" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Which Operations Come First</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-107" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Combined Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-108" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Parentheses</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-109" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Fraction Bars</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-110" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Using a Calculator</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-111" class="internal"><span class="codenumber">4.5.6</span> <span class="title">Exponents and Roots</span></a></div></li>
+<li><div class="toc-item"><a href="sec-4-5.html#subsection-112" class="internal"><span class="codenumber">4.5.7</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-4-5.html#prac-4-5" class="internal"><span class="codenumber">4.5.8</span> <span class="title">Practice 4.5</span></a></div></li>
 </ul>
 </li>
@@ -465,53 +489,55 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-5-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Working with Variables</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-112" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Like Terms</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-113" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Equivalent Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-114" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Constant Multiples of Terms</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-115" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Terms with Exponents</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-116" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Multiplying Variable Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-117" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-1.html#subsection-118" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-113" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Like Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-114" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Equivalent Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-115" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Constant Multiples of Terms</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-116" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Terms with Exponents</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-117" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Multiplying Variable Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-118" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-1.html#subsection-119" class="internal"><span class="codenumber">5.1.7</span> <span class="title">Vocabulary</span></a></div></li>
 <li><div class="toc-item"><a href="sec-5-1.html#prac-5-1" class="internal"><span class="codenumber">5.1.8</span> <span class="title">Practice 5.1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">More Algebraic Expressions</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-2.html#subsection-119" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-2.html#subsection-120" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-2.html#subsection-121" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Formulas</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-2.html#prac-5-2" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Practice 5.2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-120" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Writing Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-121" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Evaluating Algebraic Expressions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-122" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#subsection-123" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-2.html#prac-5-2" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Practice 5.2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Problem Solving</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-3.html#subsection-122" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Using Formulas</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-3.html#subsection-123" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Writing an Equation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-3.html#subsection-124" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Modeling a Problem</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-124" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Using Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-125" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Writing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-3.html#subsection-126" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Modeling a Problem</span></a></div></li>
 <li><div class="toc-item"><a href="sec-5-3.html#prac-5-3" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Practice 5.3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">More Equations</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-125" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Equations with Two Operations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-126" class="internal"><span class="codenumber">5.4.2</span> <span class="title">A Strategy for Solving Equations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-127" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Formulas</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-128" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Problem Solving</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-4.html#subsection-129" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Using Algebra to Solve Problems</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#solve2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Equations with Two Operations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-128" class="internal"><span class="codenumber">5.4.2</span> <span class="title">A Strategy for Solving Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-129" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Formulas</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-130" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Problem Solving</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-4.html#subsection-131" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Using Algebra to Solve Problems</span></a></div></li>
 <li><div class="toc-item"><a href="sec-5-4.html#prac-5-4" class="internal"><span class="codenumber">5.4.6</span> <span class="title">Practice 5.4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-5-5.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Graphs</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-130" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Line Graphs</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-131" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Plotting Points</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-132" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Graphing an Equation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#subsection-133" class="internal"><span class="codenumber">5.5.4</span> <span class="title">Reading a Graph</span></a></div></li>
-<li><div class="toc-item"><a href="sec-5-5.html#prac-5-5" class="internal"><span class="codenumber">5.5.5</span> <span class="title">Practice 5.5</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-132" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Line Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#plotpoints" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Plotting Points</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#grapheqn" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Graphing an Equation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-135" class="internal"><span class="codenumber">5.5.4</span> <span class="title">Reading a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#subsection-136" class="internal"><span class="codenumber">5.5.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-5-5.html#prac-5-5" class="internal"><span class="codenumber">5.5.6</span> <span class="title">Practice 5.5</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -522,53 +548,55 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-6-1.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Ratios</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-134" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Quantities</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-135" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Ratios</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-136" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Decimal Form for Ratios</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#subsection-137" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Rates</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-1.html#prac-6-1" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Practice 6-1</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-137" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Comparing Quantities</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-138" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-139" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Decimal Form for Ratios</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-140" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Rates</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#subsection-141" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-1.html#prac-6-1" class="internal"><span class="codenumber">6.1.6</span> <span class="title">Practice 6-1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-2.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Proportion</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-138" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Proportional Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-139" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Proportional Reasoning</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-140" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Using Proportions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#subsection-141" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Graphing Proportional Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-2.html#prac-6-2" class="internal"><span class="codenumber">6.2.5</span> <span class="title">Practice 6-2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-142" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-143" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Proportional Reasoning</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-144" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Using Proportions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-145" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Graphing Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#subsection-146" class="internal"><span class="codenumber">6.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-2.html#prac-6-2" class="internal"><span class="codenumber">6.2.6</span> <span class="title">Practice 6-2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-3.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Slope</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-142" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Equations Relating Proportional Variables</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-143" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Steepness of the Graph</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-144" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Rate of Increase</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-145" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Visulaizing Growth Rate on a Graph</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-3.html#subsection-146" class="internal"><span class="codenumber">6.3.5</span> <span class="title">Slope of a Line</span></a></div></li>
-<li>
-<div class="toc-item"><a href="sec-6-3.html#subsection-147" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Decreasing Graphs</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="sec-6-3.html#prac-6-3" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Practice 6-3</span></a></div></li></ul>
-</li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-147" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Equations Relating Proportional Variables</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-148" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Steepness of the Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-149" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Rate of Increase</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-150" class="internal"><span class="codenumber">6.3.4</span> <span class="title">Visualizing Growth Rate on a Graph</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-151" class="internal"><span class="codenumber">6.3.5</span> <span class="title">Slope of a Line</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-152" class="internal"><span class="codenumber">6.3.6</span> <span class="title">Decreasing Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#subsection-153" class="internal"><span class="codenumber">6.3.7</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-3.html#prac-6-3" class="internal"><span class="codenumber">6.3.8</span> <span class="title">Practice 6-3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-4.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Similarity</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-148" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Similar Figures</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-149" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Scale Factors</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-150" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Ratio and Proportion</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-151" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Conditions for Similarity</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#subsection-152" class="internal"><span class="codenumber">6.4.5</span> <span class="title">Similar Triangles</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-4.html#prac-6-4" class="internal"><span class="codenumber">6.4.6</span> <span class="title">Practice 6-4</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-154" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-155" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Scale Factors</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-156" class="internal"><span class="codenumber">6.4.3</span> <span class="title">Ratio and Proportion</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-157" class="internal"><span class="codenumber">6.4.4</span> <span class="title">Conditions for Similarity</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-158" class="internal"><span class="codenumber">6.4.5</span> <span class="title">Similar Triangles</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#subsection-159" class="internal"><span class="codenumber">6.4.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-4.html#prac-6-4" class="internal"><span class="codenumber">6.4.7</span> <span class="title">Practice 6-4</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-6-5.html" class="internal"><span class="codenumber">6.5</span> <span class="title">More About Similarity</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-6-5.html#subsection-153" class="internal"><span class="codenumber">6.5.1</span> <span class="title">Areas of Similar Figures</span></a></div></li>
-<li><div class="toc-item"><a href="sec-6-5.html#subsection-154" class="internal"><span class="codenumber">6.5.2</span> <span class="title">Volumes of Proportional Solids</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-160" class="internal"><span class="codenumber">6.5.1</span> <span class="title">Areas of Similar Figures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-6-5.html#subsection-161" class="internal"><span class="codenumber">6.5.2</span> <span class="title">Volumes of Proportional Solids</span></a></div></li>
 <li><div class="toc-item"><a href="sec-6-5.html#prac-6-5" class="internal"><span class="codenumber">6.5.3</span> <span class="title">Practice 6-5</span></a></div></li>
 </ul>
 </li>
@@ -580,40 +608,44 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="sec-7-1.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Adding Signed Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-155" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Adding Two Numbers with the Same Sign</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-156" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Adding Two Numbers with Opposite Signs</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-157" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Rules for Addition</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#subsection-158" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Net Change</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-1.html#prac-7-1" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Practice 7-1</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-162" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Adding Two Numbers with the Same Sign</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-163" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Adding Two Numbers with Opposite Signs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#addrules" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Rules for Addition</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-165" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Net Change</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#subsection-166" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-1.html#prac-7-1" class="internal"><span class="codenumber">7.1.6</span> <span class="title">Practice 7-1</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-7-2.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Subtracting Signed Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-159" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Subtracting a Positive Number</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-160" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Subtracting a Negative Number</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-161" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Rule for Subtraction</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#subsection-162" class="internal"><span class="codenumber">7.2.4</span> <span class="title">Notation</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-2.html#prac-7-2" class="internal"><span class="codenumber">7.2.5</span> <span class="title">Practice 7-2</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-167" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Subtracting a Positive Number</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-168" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Subtracting a Negative Number</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-169" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Rule for Subtraction</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-170" class="internal"><span class="codenumber">7.2.4</span> <span class="title">Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#subsection-171" class="internal"><span class="codenumber">7.2.5</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-2.html#prac-7-2" class="internal"><span class="codenumber">7.2.6</span> <span class="title">Practice 7-2</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-7-3.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Multiplying and Dividing Signed Numbers</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-3.html#subsection-163" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Multiplication</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-3.html#subsection-164" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Division</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-3.html#subsection-165" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Powers of Negative Numbers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-3.html#prac-7-3" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Practice 7-3</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-172" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Multiplication</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-173" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Division</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-174" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Powers of Negative Numbers</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#subsection-175" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Vocabulary</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-3.html#prac-7-3" class="internal"><span class="codenumber">7.3.5</span> <span class="title">Practice 7-3</span></a></div></li>
 </ul>
 </li>
 <li>
 <div class="toc-item"><a href="sec-7-4.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Equations and Graphs</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-166" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Solving Equations</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-167" class="internal"><span class="codenumber">7.4.2</span> <span class="title">The Cartesian Coordinate System</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-168" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Plotting Points</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-169" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Graphing Lines</span></a></div></li>
-<li><div class="toc-item"><a href="sec-7-4.html#subsection-170" class="internal"><span class="codenumber">7.4.5</span> <span class="title">Applications of Linear Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-176" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Solving Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-177" class="internal"><span class="codenumber">7.4.2</span> <span class="title">The Cartesian Coordinate System</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-178" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Plotting Points</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-179" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Graphing Lines</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-180" class="internal"><span class="codenumber">7.4.5</span> <span class="title">Applications of Linear Equations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-7-4.html#subsection-181" class="internal"><span class="codenumber">7.4.6</span> <span class="title">Vocabulary</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -621,9 +653,8 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="solutions-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Selected Exercises and Homework Problems</span></a></div></li>
-<li><div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Symbols</span></a></div></li>
-<li><div class="toc-item"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li><div class="toc-item"><a href="solutions-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Answers to Odd-Numbered Homework Problems</span></a></div></li>
+<li><div class="toc-item"><a href="glossary-1.html" class="internal"><span class="title">Glossary</span></a></div></li>
 <li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
 </ul>
 </li>
@@ -632,23 +663,23 @@ window.MathJax = {
 <span class="type">Section</span> <span class="codenumber">1.1</span> <span class="title">Halves and Quarters</span>
 </h2>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
-<div class="sbspanel top" style="width:52.6315789473684%;"><div class="para logical" id="p-7"><ul class="disc">
-<li id="li-1"><div class="para" id="p-8">One-Half</div></li>
-<li id="li-2"><div class="para" id="p-9">Other Ways to Write One-Half</div></li>
-<li id="li-3"><div class="para" id="p-10">Fourths</div></li>
-<li id="li-4"><div class="para" id="p-11">Other Ways to Write Fourths</div></li>
-<li id="li-5"><div class="para" id="p-12">Fractions on a Number Line</div></li>
-<li id="li-6"><div class="para" id="p-13">Benchmark Fractions</div></li>
+<div class="sbspanel top" style="width:52.6315789473684%;"><div class="para logical" id="p-5"><ul class="disc">
+<li id="li-1"><div class="para" id="p-6">One-Half</div></li>
+<li id="li-2"><div class="para" id="p-7">Other Ways to Write One-Half</div></li>
+<li id="li-3"><div class="para" id="p-8">Fourths</div></li>
+<li id="li-4"><div class="para" id="p-9">Other Ways to Write Fourths</div></li>
+<li id="li-5"><div class="para" id="p-10">Fractions on a Number Line</div></li>
+<li id="li-6"><div class="para" id="p-11">Benchmark Fractions</div></li>
 </ul></div></div>
 <div class="sbspanel top" style="width:42.1052631578947%;"><img src="external/halfandquarterapple.png" class="contained"></div>
 </div></div>
 <section class="subsection" id="subsection-1"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.1.1</span> <span class="title">One-Half</span>
 </h3>
-<div class="para" id="p-14">The most familiar fraction is <span class="process-math">\(\large{\blert{\text{one-half}}}~~~\text{,}\)</span> or <span class="process-math">\(\large{\blert{\dfrac{1}{2}}}.\)</span>
+<div class="para" id="p-12">The most familiar fraction is <span class="process-math">\(\large{\blert{\text{one-half}}}~~~\text{,}\)</span> or <span class="process-math">\(\large{\blert{\dfrac{1}{2}}}.\)</span>
 </div>
 <div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/half.png" class="contained"></div>
-<div class="para logical" id="p-15">
+<div class="para logical" id="p-13">
 <div class="para">To find one-half of something, we divide it into <span class="process-math">\(\large{\blert{2}}~\blert{\text{equal}}~~\)</span> pieces and take <span class="process-math">\(\large{\blert{1}}\)</span> of them.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -656,7 +687,7 @@ window.MathJax = {
 \end{equation*}
 </div>
 </div>
-<div class="para logical" id="p-16">
+<div class="para logical" id="p-14">
 <div class="para">If we have a group of objects, we separate them into <span class="process-math">\(\large{\blert{2}}~~\blert{\text{equal}}~~\)</span> groups and take <span class="process-math">\(\large{\blert{1}}\)</span> group.  Each group is a part of the whole.  We write this as a fraction like this:</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -667,9 +698,9 @@ window.MathJax = {
 <article class="example example-like" id="example-1"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-17"><ol class="lower-alpha">
+<div class="para logical" id="p-15"><ol class="lower-alpha">
 <li id="li-7">
-<div class="para" id="p-18">
+<div class="para" id="p-16">
 <span class="process-math">\({\dfrac{1}{2}}\)</span> of a dozen eggs (12 eggs) <span class="process-math">\(=\)</span> 6 eggs</div>
 <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/eggs.png" class="contained" alt="eggs"></div>
 <span class="process-math">\(~~~~~~~~~~~~~~~~~~\blert{\text{A whole dozen is 12 eggs.}~~~~~~~~~~~~\text{Our part is 6 eggs:} ~~\dfrac{6}{12}}\)</span><div class="displaymath process-math">
@@ -679,7 +710,7 @@ window.MathJax = {
 </div>
 </li>
 <li id="li-8">
-<div class="para" id="p-19">
+<div class="para" id="p-17">
 <span class="process-math">\({\dfrac{1}{2}}\)</span> of an hour (60 minutes) <span class="process-math">\(=\)</span> 30 minutes</div>
 <div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/clocks.png" class="contained" alt="clocks"></div>
 <span class="process-math">\(~~~~~~~~~~~~~~~~~~\blert{\text{A whole hour is 60 minutes.}~~~~~~~~~~\text{Our part is 30 minutes:} ~~\dfrac{30}{60}}\)</span><div class="displaymath process-math">
@@ -691,13 +722,13 @@ window.MathJax = {
 </ol></div></article></section><section class="subsection" id="subsection-2"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.1.2</span> <span class="title">Other Ways to Write One-Half</span>
 </h3>
-<div class="para" id="p-20">From the Example above, we see that <span class="process-math">\({\dfrac{6}{12}}\)</span> and <span class="process-math">\({\dfrac{30}{60}}\)</span> are different ways to write <span class="process-math">\({\dfrac{1}{2}}\text{.}\)</span>  Here are some more ways: <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/halves.png" class="contained" alt="eggs"></div>
+<div class="para" id="p-18">From the Example above, we see that <span class="process-math">\({\dfrac{6}{12}}\)</span> and <span class="process-math">\({\dfrac{30}{60}}\)</span> are different ways to write <span class="process-math">\({\dfrac{1}{2}}\text{.}\)</span>  Here are some more ways: <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/halves.png" class="contained" alt="eggs"></div>
 </div>
 <span class="process-math">\(~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\blert{\dfrac{2}{4}~~~~~~~~~~~~~~~~~~~~~~~~~~~~\dfrac{3}{6}~~~~~~~~~~~~~~~~~~~~~~~~~~~~\dfrac{4}{8}}\)</span><article class="exercise exercise-like" id="exercise-1"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-21"><ol class="lower-alpha">
-<li id="li-9"><div class="para logical" id="p-22">
+<div class="para logical" id="p-19"><ol class="lower-alpha">
+<li id="li-9"><div class="para logical" id="p-20">
 <div class="para">Write fractions that are equal to <span class="process-math">\({\dfrac{1}{2}}\text{.}\)</span>
 </div>
 <div class="displaymath process-math">
@@ -706,24 +737,25 @@ window.MathJax = {
 \end{equation*}
 </div>
 </div></li>
-<li id="li-10"><div class="para" id="p-23">Did you notice: To find the "part" of each fraction, we <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> the "whole" by <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>.</div></li>
+<li id="li-10"><div class="para" id="p-21">Did you notice: To find the "part" of each fraction, we <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> the "whole" by <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>.</div></li>
 </ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1" id="answer-1"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1"><div class="answer solution-like"><div class="para" id="p-24">8, 12, 18, 50, 36, 100, divide, 2</div></div></div>
-</div></article><div class="para" id="p-25">Now that you know some different ways to represent <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> we can compare other fractions to <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1" id="answer-1"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1"><div class="answer solution-like"><div class="para" id="p-22">8, 12, 18, 50, 36, 100, divide, 2</div></div></div>
+</div></article><div class="para" id="p-23">Now that you know some different ways to represent <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> we can compare other fractions to <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span>
 </div>
 <article class="activity project-like" id="activity-1"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">One-Half.</span>
-</h4> <div class="para logical" id="p-26">
+</h4> <div class="para logical" id="p-24">
 <div class="para">Write a fraction for each story, then decide whether the fraction is:</div>
 <ol class="lower-alpha">
 <li id="li-11"><div class="para" id="p-derived-li-11">equal to one-half,</div></li>
 <li id="li-12"><div class="para" id="p-derived-li-12">less than one-half, or</div></li>
 <li id="li-13"><div class="para" id="p-derived-li-13">more than one-half.</div></li>
 </ol>
-</div> <div class="para logical" id="p-27"><ol class="decimal">
+</div> <div class="para logical" id="p-25"><ol class="decimal">
 <li id="li-14">
-<div class="para" id="p-28">Greta used a yardstick to measure a picture frame that is 20 inches wide. What fraction of a yard is that? (A yard is 36 inches.) <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="p-26">Greta used a yardstick to measure a picture frame that is 20 inches wide. What fraction of a yard is that? (A yard is 36 inches.)</div>
+<div class="para" id="p-27"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">Whole</td>
 <td class="c m b1 r1 l0 t1 lines">Part</td>
@@ -736,12 +768,12 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"> </td>
 <td class="c m b1 r1 l0 t0 lines"> </td>
 </tr>
-</table></div></div></div>
-</div>
-<div class="para" id="p-29">The fraction described in the story is <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> one-half.</div>
+</table></div></div></div></div>
+<div class="para" id="p-28">The fraction described in the story is <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> one-half.</div>
 </li>
 <li id="li-15">
-<div class="para" id="p-30">Josh is taking an 18-day course of antibiotics.  What fraction of a month (30 days) is that? <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="p-29">Josh is taking an 18-day course of antibiotics.  What fraction of a month (30 days) is that?</div>
+<div class="para" id="p-30"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">Whole</td>
 <td class="c m b1 r1 l0 t1 lines">Part</td>
@@ -754,12 +786,12 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"> </td>
 <td class="c m b1 r1 l0 t0 lines"> </td>
 </tr>
-</table></div></div></div>
-</div>
+</table></div></div></div></div>
 <div class="para" id="p-31">The fraction described in the story is <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> one-half.</div>
 </li>
 <li id="li-16">
-<div class="para" id="p-32">Carol swam 660 yards today. What fraction of a mile is that? (A mile is 1760 yards.) <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="p-32">Carol swam 660 yards today. What fraction of a mile is that? (A mile is 1760 yards.)</div>
+<div class="para" id="p-33"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">Whole</td>
 <td class="c m b1 r1 l0 t1 lines">Part</td>
@@ -772,12 +804,12 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"> </td>
 <td class="c m b1 r1 l0 t0 lines"> </td>
 </tr>
-</table></div></div></div>
-</div>
-<div class="para" id="p-33">The fraction described in the story is <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> one-half.</div>
+</table></div></div></div></div>
+<div class="para" id="p-34">The fraction described in the story is <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> one-half.</div>
 </li>
 <li id="li-17">
-<div class="para" id="p-34">Noah's paycheck was $256. He deposited $128 in his savings account. What fraction of his paycheck was that? <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
+<div class="para" id="p-35">Noah’s paycheck was $256. He deposited $128 in his savings account. What fraction of his paycheck was that?</div>
+<div class="para" id="p-36"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;"><div class="sbspanel fixed-width top" style="width:100%;"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">Whole</td>
 <td class="c m b1 r1 l0 t1 lines">Part</td>
@@ -790,88 +822,87 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"> </td>
 <td class="c m b1 r1 l0 t0 lines"> </td>
 </tr>
-</table></div></div></div>
-</div>
-<div class="para" id="p-35">The fraction described in the story is <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> one-half.</div>
+</table></div></div></div></div>
+<div class="para" id="p-37">The fraction described in the story is <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> one-half.</div>
 </li>
 </ol></div></article></section><section class="subsection" id="subsection-3"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.1.3</span> <span class="title">Fourths</span>
 </h3>
-<div class="para" id="p-36">If we divide one whole into four parts, each part is <span class="process-math">\(\large{\blert{\text{one-fourth}}}~~~\)</span> of the whole.</div>
+<div class="para" id="p-38">If we divide one whole into four parts, each part is <span class="process-math">\(\large{\blert{\text{one-fourth}}}~\)</span> of the whole.</div>
 <article class="example example-like" id="example-2"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-37">If you take one-half of half a pizza, what fraction of the pizza do you have? <div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/fourth.png" class="contained"></div>
+<div class="para" id="p-39">If you take one-half of half a pizza, what fraction of the pizza do you have? <div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/fourth.png" class="contained"></div>
 </div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-1" id="solution-1"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-1"><div class="solution solution-like"><div class="para" id="p-38">You have one-fourth of the pizza, or <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> because your piece is <span class="process-math">\(1\)</span> of <span class="process-math">\(4\)</span> equal pieces that make up the whole pizza.  Because there are <span class="process-math">\(4\)</span> fourths in a whole pizza, after you take your piece, there are <span class="process-math">\(3\)</span> fourths, or <span class="process-math">\(\dfrac{3}{4}\)</span> of a pizza left.</div></div></div>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-1" id="solution-1"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-1"><div class="solution solution-like"><div class="para" id="p-40">You have one-fourth of the pizza, or <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> because your piece is <span class="process-math">\(1\)</span> of <span class="process-math">\(4\)</span> equal pieces that make up the whole pizza.  Because there are <span class="process-math">\(4\)</span> fourths in a whole pizza, after you take your piece, there are <span class="process-math">\(3\)</span> fourths, or <span class="process-math">\(\dfrac{3}{4}\)</span> of a pizza left.</div></div></div>
 </div></article><article class="exercise exercise-like" id="exercise-2"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-39"><ol class="lower-alpha">
-<li id="li-18"><div class="para" id="p-40">Explain how you know that one-fourth of the grid is shaded. <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/gridfourth.png" class="contained"></div>
+<div class="para logical" id="p-41"><ol class="lower-alpha">
+<li id="li-18"><div class="para" id="p-42">Explain how you know that one-fourth of the grid is shaded. <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/gridfourth.png" class="contained"></div>
 </div></li>
 <li id="li-19">
-<div class="para" id="p-41">How many squares are in the whole grid?</div>
-<div class="para" id="p-42">How many squares are in one-fourth of the grid?</div>
-<div class="para" id="p-43">How many squares are in three-fourths of the grid?</div>
+<div class="para" id="p-43">How many squares are in the whole grid?</div>
+<div class="para" id="p-44">How many squares are in one-fourth of the grid?</div>
+<div class="para" id="p-45">How many squares are in three-fourths of the grid?</div>
 </li>
 </ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-2" id="answer-2"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-2"><div class="answer solution-like"><div class="para logical" id="p-44"><ol class="lower-alpha">
-<li id="li-20"><div class="para" id="p-45">Half of half is shaded.</div></li>
-<li id="li-21"><div class="para" id="p-46">64, 16, 48</div></li>
+<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-2" id="answer-2"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-2"><div class="answer solution-like"><div class="para logical" id="p-46"><ol class="lower-alpha">
+<li id="li-20"><div class="para" id="p-47">Half of half is shaded.</div></li>
+<li id="li-21"><div class="para" id="p-48">64, 16, 48</div></li>
 </ol></div></div></div>
 </div></article><article class="note remark-like" id="note-1"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-47">One-fourth is also called <span class="process-math">\(\large{\blert{\text{one quarter}}}~~~~\text{.}\)</span>  (How many quarters are there in one dollar?) <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/dollar.png" class="contained"></div>
+<div class="para" id="p-49">One-fourth is also called <span class="process-math">\(\large{\blert{\text{one quarter}}}~~\text{.}\)</span>  (How many quarters are there in one dollar?) <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/dollar.png" class="contained"></div>
 </div></article><article class="activity project-like" id="activity-2"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">Fourths.</span>
-</h4> <div class="para logical" id="p-48">
+</h4> <div class="para logical" id="p-50">
 <div class="para">Show your work for each calculation.</div>
 <ol class="lower-alpha">
 <li id="li-22"><div class="para" id="p-derived-li-22">Find one-fourth of the amount by taking one-half of one-half.</div></li>
 <li id="li-23"><div class="para" id="p-derived-li-23">Find three-fourths of the amount by subtracting one-fourth from the whole.</div></li>
 <li id="li-24"><div class="para" id="p-derived-li-24">Find three-fourths of the amount by multiplying one-fourth by three. Are your answers to parts (b) and (c) the same?</div></li>
 </ol>
-</div> <div class="para logical" id="p-49"><ol class="decimal">
+</div> <div class="para logical" id="p-51"><ol class="decimal">
 <li id="li-25">
-<div class="para" id="p-50">Norman's monthly salary is $3600. He deposits one-fourth of his salary in his savings account, and the rest in his checking account.</div>
-<div class="para logical" id="p-51"><ol class="lower-alpha">
-<li id="li-26"><div class="para" id="p-52"></div></li>
-<li id="li-27"><div class="para" id="p-53"></div></li>
-<li id="li-28"><div class="para" id="p-54"></div></li>
+<div class="para" id="p-52">Norman’s monthly salary is $3600. He deposits one-fourth of his salary in his savings account, and the rest in his checking account.</div>
+<div class="para logical" id="p-53"><ol class="lower-alpha">
+<li id="li-26"><div class="para" id="p-54"></div></li>
+<li id="li-27"><div class="para" id="p-55"></div></li>
+<li id="li-28"><div class="para" id="p-56"></div></li>
 </ol></div>
 </li>
 <li id="li-29">
-<div class="para" id="p-55">Jaycee owns a ranch of 3000 acres.  She plans to grow corn on one-fourth of her land and raise cattle on the rest.</div>
-<div class="para logical" id="p-56"><ol class="lower-alpha">
-<li id="li-30"><div class="para" id="p-57"></div></li>
-<li id="li-31"><div class="para" id="p-58"></div></li>
-<li id="li-32"><div class="para" id="p-59"></div></li>
+<div class="para" id="p-57">Jaycee owns a ranch of 3000 acres.  She plans to grow corn on one-fourth of her land and raise cattle on the rest.</div>
+<div class="para logical" id="p-58"><ol class="lower-alpha">
+<li id="li-30"><div class="para" id="p-59"></div></li>
+<li id="li-31"><div class="para" id="p-60"></div></li>
+<li id="li-32"><div class="para" id="p-61"></div></li>
 </ol></div>
 </li>
 <li id="li-33">
-<div class="para" id="p-60">Rich is on a diet that allows 2100 calories per day. He consumes one-quarter of his calories at breakfast, and the rest throughout the day.</div>
-<div class="para logical" id="p-61"><ol class="lower-alpha">
-<li id="li-34"><div class="para" id="p-62"></div></li>
-<li id="li-35"><div class="para" id="p-63"></div></li>
-<li id="li-36"><div class="para" id="p-64"></div></li>
+<div class="para" id="p-62">Rich is on a diet that allows 2100 calories per day. He consumes one-quarter of his calories at breakfast, and the rest throughout the day.</div>
+<div class="para logical" id="p-63"><ol class="lower-alpha">
+<li id="li-34"><div class="para" id="p-64"></div></li>
+<li id="li-35"><div class="para" id="p-65"></div></li>
+<li id="li-36"><div class="para" id="p-66"></div></li>
 </ol></div>
 </li>
 <li id="li-37">
-<div class="para" id="p-65">Caroline drove one-quarter of a 900-mile trip today. How far did she drive, and how far does she have left to go?</div>
-<div class="para logical" id="p-66"><ol class="lower-alpha">
-<li id="li-38"><div class="para" id="p-67"></div></li>
-<li id="li-39"><div class="para" id="p-68"></div></li>
-<li id="li-40"><div class="para" id="p-69"></div></li>
+<div class="para" id="p-67">Caroline drove one-quarter of a 900-mile trip today. How far did she drive, and how far does she have left to go?</div>
+<div class="para logical" id="p-68"><ol class="lower-alpha">
+<li id="li-38"><div class="para" id="p-69"></div></li>
+<li id="li-39"><div class="para" id="p-70"></div></li>
+<li id="li-40"><div class="para" id="p-71"></div></li>
 </ol></div>
 </li>
 </ol></div></article></section><section class="subsection" id="subsection-4"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.1.4</span> <span class="title">Other Ways to Write Fourths</span>
 </h3>
-<div class="para logical" id="p-70">
+<div class="para logical" id="p-72">
 <div class="para">Earlier we saw that we can write one-half in many different ways. For example,</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -883,9 +914,9 @@ window.MathJax = {
 <article class="example example-like" id="example-3"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-71"><ol class="lower-alpha">
+<div class="para logical" id="p-73"><ol class="lower-alpha">
 <li id="li-41">
-<div class="para" id="p-72">
+<div class="para" id="p-74">
 <span class="process-math">\(\dfrac{1}{2}\)</span> of a dozen eggs (12 eggs) <span class="process-math">\(=\)</span> 3 eggs</div>
 <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/three-eggs.png" class="contained" alt="clocks"></div>
 <span class="process-math">\(~~~~~~~~~~~~~~~~~~~~\blert{\text{A whole dozen is 12 eggs.}~~~~~~~~\text{Our part is 3 eggs:} ~~\dfrac{3}{12}}\)</span><div class="displaymath process-math">
@@ -895,7 +926,7 @@ window.MathJax = {
 </div>
 </li>
 <li id="li-42">
-<div class="para" id="p-73">
+<div class="para" id="p-75">
 <span class="process-math">\({\dfrac{3}{4}}\)</span> of an hour (60 minutes) <span class="process-math">\(=\)</span> 45 minutes</div>
 <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/clocks2.png" class="contained" alt="clocks"></div>
 <span class="process-math">\(~~~~~~~~~~~~~~~~~~~~\blert{\text{A whole hour is 60 minutes.}~~~~~~~~\text{Our part is 45 minutes:} ~~\dfrac{45}{60}}\)</span><div class="displaymath process-math">
@@ -904,7 +935,7 @@ window.MathJax = {
 \end{equation*}
 </div>
 </li>
-</ol></div></article><div class="para logical" id="p-74">
+</ol></div></article><div class="para logical" id="p-76">
 <div class="para">When we write a fraction, the number that gives the "part" (the top) is called the <dfn class="terminology">numerator</dfn>, and the number that gives the "whole" (the bottom) is called the <dfn class="terminology">denominator</dfn>. For example, in the fraction <span class="process-math">\(\dfrac{15}{60}\text{,}\)</span> the numerator is 15 and the denominator is 60.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -913,88 +944,88 @@ window.MathJax = {
 </div>
 </div>
 <article class="assemblage assemblage-like" id="assemblage-1"><h4 class="heading"><span class="title">Definition.</span></h4>
-<div class="para" id="p-75">The <dfn class="terminology">denominator</dfn> of a fraction (the bottom) tells us how many pieces are in one whole. The <dfn class="terminology">numerator</dfn> (the top) tells us how many pieces are in the part.</div></article><article class="note remark-like" id="note-2"><h4 class="heading">
+<div class="para" id="p-77">The <dfn class="terminology">denominator</dfn> of a fraction (the bottom) tells us how many pieces are in one whole. The <dfn class="terminology">numerator</dfn> (the top) tells us how many pieces are in the part.</div></article><article class="note remark-like" id="note-2"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">1.1.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-76">Although it has a different numerator and denominator, the fraction <span class="process-math">\(\dfrac{15}{60}\)</span> is the same as <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span>  because 15 pieces are one-fourth of 60 pieces. Both fractions give the same portion of one whole. <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/gridsixty.png" class="contained" alt="grid-fourth"></div>
+<div class="para" id="p-78">Although it has a different numerator and denominator, the fraction <span class="process-math">\(\dfrac{15}{60}\)</span> is the same as <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span>  because 15 pieces are one-fourth of 60 pieces. Both fractions give the same portion of one whole. <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/gridsixty.png" class="contained" alt="grid-fourth"></div>
 </div></article><article class="exercise exercise-like" id="exercise-3"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-77">Shade one-fourth of the grid. Then write <span class="process-math">\(\dfrac{1}{4}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> with the denominator for the whole grid.</div>
-<div class="para logical" id="p-78"><ol class="lower-alpha cols2">
-<li id="li-43"><div class="para" id="p-79">
+<div class="para" id="p-79">Shade one-fourth of the grid. Then write <span class="process-math">\(\dfrac{1}{4}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> with the denominator for the whole grid.</div>
+<div class="para logical" id="p-80"><ol class="lower-alpha cols2">
+<li id="li-43"><div class="para" id="p-81">
 <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/grid4by6.png" class="contained" alt="4by6 grid"></div>
 <span class="process-math">\(~~~~~~\dfrac{1}{4}=~~~~~~\)</span> and <span class="process-math">\(~~~~~~\dfrac{3}{4}=\)</span>
 </div></li>
-<li id="li-44"><div class="para" id="p-80">
+<li id="li-44"><div class="para" id="p-82">
 <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/grid8by2.png" class="contained" alt="8by2 grid"></div>
 <span class="process-math">\(~~~~~~\dfrac{1}{4}=~~~~~~\)</span> and <span class="process-math">\(~~~~~~\dfrac{3}{4}=\)</span>
 </div></li>
-<li id="li-45"><div class="para" id="p-81">
+<li id="li-45"><div class="para" id="p-83">
 <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/grid5by4.png" class="contained" alt="5by4 grid"></div>
 <span class="process-math">\(~~~~~~\dfrac{1}{4}=~~~~~~\)</span> and <span class="process-math">\(~~~~~~\dfrac{3}{4}=\)</span>
 </div></li>
-<li id="li-46"><div class="para" id="p-82">
+<li id="li-46"><div class="para" id="p-84">
 <div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/grid8by6.png" class="contained" alt="8by6 grid"></div>
 <span class="process-math">\(~~~~~~\dfrac{1}{4}=~~~~~~\)</span> and <span class="process-math">\(~~~~~~\dfrac{3}{4}=\)</span>
 </div></li>
 </ol></div>
-<a href="" data-knowl="" class="id-ref answer-knowl original has-image" data-refid="hk-answer-3" id="answer-3"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-3"><div class="answer solution-like"><div class="para logical" id="p-83"><ol class="lower-alpha cols2">
+<a href="" data-knowl="" class="id-ref answer-knowl original has-image" data-refid="hk-answer-3" id="answer-3"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-3"><div class="answer solution-like"><div class="para logical" id="p-85"><ol class="lower-alpha cols2">
 <li id="li-47">
 <div class="image-box" style="width: 25%; margin-left: 0%; margin-right: 75%;"><img src="generated/latex-image/grid-6-24ths.svg" role="img" class="contained" alt="6 by 4 grid with 6 shaded boxes"></div>
-<div class="para" id="p-84"><span class="process-math">\(\displaystyle \dfrac{1}{4}=\dfrac{6}{24},~\dfrac{3}{4}=\dfrac{18}{24}\)</span></div>
+<div class="para" id="p-86"><span class="process-math">\(\displaystyle \dfrac{1}{4}=\dfrac{6}{24},~\dfrac{3}{4}=\dfrac{18}{24}\)</span></div>
 </li>
 <li id="li-48">
 <div class="image-box" style="width: 50%; margin-left: 0%; margin-right: 50%;"><img src="generated/latex-image/grid-4-16ths.svg" role="img" class="contained" alt="2 by 8 grid with 4 shaded boxes"></div>
-<div class="para" id="p-85"><span class="process-math">\(\displaystyle \dfrac{1}{4}=\dfrac{4}{16},~\dfrac{3}{4}=\dfrac{12}{16}\)</span></div>
+<div class="para" id="p-87"><span class="process-math">\(\displaystyle \dfrac{1}{4}=\dfrac{4}{16},~\dfrac{3}{4}=\dfrac{12}{16}\)</span></div>
 </li>
 <li id="li-49">
 <div class="image-box" style="width: 30%; margin-left: 0%; margin-right: 70%;"><img src="generated/latex-image/grid-5-20ths.svg" role="img" class="contained" alt="4 by 5 grid with 5 shaded boxes"></div>
-<div class="para" id="p-86"><span class="process-math">\(\displaystyle \dfrac{1}{4}=\dfrac{5}{20},~\dfrac{3}{4}=\dfrac{15}{20}\)</span></div>
+<div class="para" id="p-88"><span class="process-math">\(\displaystyle \dfrac{1}{4}=\dfrac{5}{20},~\dfrac{3}{4}=\dfrac{15}{20}\)</span></div>
 </li>
 <li id="li-50">
 <div class="image-box" style="width: 40%; margin-left: 0%; margin-right: 60%;"><img src="generated/latex-image/grid-12-48ths.svg" role="img" class="contained" alt="6 by 8 grid with 12 shaded boxes"></div>
-<div class="para" id="p-87"><span class="process-math">\(\displaystyle \dfrac{1}{4}=\dfrac{12}{48},~\dfrac{3}{4}=\dfrac{36}{48}\)</span></div>
+<div class="para" id="p-89"><span class="process-math">\(\displaystyle \dfrac{1}{4}=\dfrac{12}{48},~\dfrac{3}{4}=\dfrac{36}{48}\)</span></div>
 </li>
 </ol></div></div></div></article></section><section class="subsection" id="subsection-5"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.1.5</span> <span class="title">Fractions on a Number Line</span>
 </h3>
-<div class="para" id="p-88">In the previous exercise we used grids to illustrate fractions. We can also show fractions of a distance on a <dfn class="terminology">number line</dfn>.</div>
+<div class="para" id="p-90">In the previous exercise we used grids to illustrate fractions. We can also show fractions of a distance on a <dfn class="terminology">number line</dfn>.</div>
 <article class="example example-like" id="example-4"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.9</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-89">Mark the fractions <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of 12 on the number line below. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/numberline12.png" class="contained" alt="number line"></div>
+<div class="para" id="p-91">Mark the fractions <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of 12 on the number line below. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/numberline12.png" class="contained" alt="number line"></div>
 </div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original has-image" data-refid="hk-solution-2" id="solution-2"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-2"><div class="solution solution-like">
-<div class="para logical" id="p-90">
+<div class="para logical" id="p-92">
 <div class="para">To find <span class="process-math">\(\dfrac{1}{2}\)</span> of 12, we divide by 2:</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \dfrac{1}{2}~ \text{of}~ 12 = 12 \div 2 = \alert{6}
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-91">
+</div> <div class="para logical" id="p-93">
 <div class="para">To find <span class="process-math">\(\dfrac{1}{4}\)</span> of 12, we divide by 4:</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \dfrac{1}{4}~ \text{of}~ 12 = 12 \div 4 = \alert{3}
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-92">
+</div> <div class="para logical" id="p-94">
 <div class="para">To find <span class="process-math">\(\dfrac{3}{4}\)</span> of 12, we multiply <span class="process-math">\(\dfrac{1}{4}\)</span> of 12 by 3:</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \dfrac{3}{4}~ \text{of}~ 12 = 3 \times 3 = \alert{9}
 \end{equation*}
 </div>
-</div> <div class="para" id="p-93">Here is a number line showing the results: <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/fourthsnumberline.png" class="contained" alt="number line"></div>
+</div> <div class="para" id="p-95">Here is a number line showing the results: <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/fourthsnumberline.png" class="contained" alt="number line"></div>
 </div>
 </div></div>
 </div></article><article class="note remark-like" id="note-3"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">1.1.10</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-94">
+<div class="para logical" id="p-96">
 <div class="para">From the previous Example, we see that</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -1006,7 +1037,7 @@ window.MathJax = {
 </div></article><article class="exercise exercise-like" id="exercise-4"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-95">
+<div class="para logical" id="p-97">
 <div class="para">Mark the fractions <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of the distance on each number line, and write the fractions with the new denominator.</div>
 <ol class="lower-alpha">
 <li id="li-51"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/numberline8.png" class="contained" alt="number line"></div></li>
@@ -1015,56 +1046,56 @@ window.MathJax = {
 <li id="li-54"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/numberline24.png" class="contained" alt="number line"></div></li>
 </ol>
 </div>
-<a href="" data-knowl="" class="id-ref answer-knowl original has-image" data-refid="hk-answer-4" id="answer-4"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-4"><div class="answer solution-like"><div class="para logical" id="p-96"><ol class="lower-alpha">
+<a href="" data-knowl="" class="id-ref answer-knowl original has-image" data-refid="hk-answer-4" id="answer-4"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-4"><div class="answer solution-like"><div class="para logical" id="p-98"><ol class="lower-alpha">
 <li id="li-55">
 <div class="image-box" style="width: 60%; margin-left: 0%; margin-right: 40%;"><img src="generated/latex-image/numberline8-frac.svg" role="img" class="contained" alt="fractions of 8"></div>
-<div class="para" id="p-97">
+<div class="para" id="p-99">
 <span class="process-math">\(\dfrac{1}{2}=\dfrac{4}{8}\text{,}\)</span> <span class="process-math">\(~ \dfrac{1}{4}=\dfrac{2}{8}\text{,}\)</span> <span class="process-math">\(~ \dfrac{3}{4}=\dfrac{6}{8}\)</span>
 </div>
 </li>
 <li id="li-56">
 <div class="image-box" style="width: 80%; margin-left: 0%; margin-right: 20%;"><img src="generated/latex-image/numberline16-frac.svg" role="img" class="contained" alt="fractions of 16"></div>
-<div class="para" id="p-98">
+<div class="para" id="p-100">
 <span class="process-math">\(\dfrac{1}{2}=\dfrac{8}{16}\text{,}\)</span> <span class="process-math">\(~ \dfrac{1}{4}=\dfrac{4}{16}\text{,}\)</span> <span class="process-math">\(~ \dfrac{3}{4}=\dfrac{12}{16}\)</span>
 </div>
 </li>
 <li id="li-57">
 <div class="image-box" style="width: 90%; margin-left: 0%; margin-right: 10%;"><img src="generated/latex-image/numberline20-frac.svg" role="img" class="contained" alt="fractions of 20"></div>
-<div class="para" id="p-99">
+<div class="para" id="p-101">
 <span class="process-math">\(\dfrac{1}{2}=\dfrac{10}{20}\text{,}\)</span> <span class="process-math">\(~ \dfrac{1}{4}=\dfrac{5}{20}\text{,}\)</span> <span class="process-math">\(~ \dfrac{3}{4}=\dfrac{15}{20}\)</span>
 </div>
 </li>
 <li id="li-58">
 <div class="image-box" style="width: 90%; margin-left: 0%; margin-right: 10%;"><img src="generated/latex-image/numberline24-frac.svg" role="img" class="contained" alt="fractions of 24"></div>
-<div class="para" id="p-100">
+<div class="para" id="p-102">
 <span class="process-math">\(\dfrac{1}{2}=\dfrac{12}{24}\text{,}\)</span> <span class="process-math">\(~ \dfrac{1}{4}=\dfrac{6}{24}\text{,}\)</span> <span class="process-math">\(~ \dfrac{3}{4}=\dfrac{18}{24}\)</span>
 </div>
 </li>
 </ol></div></div></div></article></section><section class="subsection" id="subsection-6"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.1.6</span> <span class="title">Benchmark Fractions</span>
 </h3>
-<div class="para" id="p-101">The fractions <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> are called <dfn class="terminology">benchmark fractions</dfn> because we have a good intuitive feel for their size. We can estimate other fractions by comparing them to the benchmarks.</div>
+<div class="para" id="p-103">The fractions <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> are called <dfn class="terminology">benchmark fractions</dfn> because we have a good intuitive feel for their size. We can estimate other fractions by comparing them to the benchmarks.</div>
 <article class="example example-like" id="example-5"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.12</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-102">Of the 32 students in Ethan's math class, 9 are from out-of-state.</div>  <ol class="lower-alpha">
-<li id="li-59"><div class="para" id="p-103">What fraction of Ethan's class is from out-of-state?</div></li>
-<li id="li-60"><div class="para" id="p-104">Is that fraction closer to <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> or to <span class="process-math">\(\dfrac{3}{4}\)</span> of the class?</div></li>
+<div class="para" id="p-104">Of the 32 students in Ethan’s math class, 9 are from out-of-state.</div>  <ol class="lower-alpha">
+<li id="li-59"><div class="para" id="p-105">What fraction of Ethan’s class is from out-of-state?</div></li>
+<li id="li-60"><div class="para" id="p-106">Is that fraction closer to <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> or to <span class="process-math">\(\dfrac{3}{4}\)</span> of the class?</div></li>
 </ol>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-3" id="solution-3"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-3"><div class="solution solution-like"><ol class="lower-alpha">
-<li id="li-61"><div class="para logical" id="p-105">
+<li id="li-61"><div class="para logical" id="p-107">
 <div class="para">We write the fraction as</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \dfrac{\text{part}}{\text{whole}} = \dfrac{9~~ \text{out-of-state students}}{32~~ \text{total students}}
 \end{equation*}
 </div>
-<div class="para">Out-of-state students make up <span class="process-math">\(\dfrac{9}{32}\)</span> of Ethan's class.</div>
+<div class="para">Out-of-state students make up <span class="process-math">\(\dfrac{9}{32}\)</span> of Ethan’s class.</div>
 </div></li>
 <li id="li-62">
-<div class="para logical" id="p-106">
-<div class="para">Let's compute the benchmark fractions with denominator 32.</div>
+<div class="para logical" id="p-108">
+<div class="para">Let’s compute the benchmark fractions with denominator 32.</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \dfrac{1}{4}~~\text{of}~~32 = 8,~~~~~~~~~~\text{so}~~\dfrac{1}{4}=\dfrac{8}{32}
@@ -1081,28 +1112,28 @@ window.MathJax = {
 \end{equation*}
 </div>
 </div>
-<div class="para" id="p-107">Now that we have written the benchmark fractions with the appropriate denominator, we can compare our fraction from part (a). We see that the fraction <span class="process-math">\(\dfrac{9}{32}\)</span> is slightly more than <span class="process-math">\(\dfrac{1}{4}\)</span> of the class.</div>
+<div class="para" id="p-109">Now that we have written the benchmark fractions with the appropriate denominator, we can compare our fraction from part (a). We see that the fraction <span class="process-math">\(\dfrac{9}{32}\)</span> is slightly more than <span class="process-math">\(\dfrac{1}{4}\)</span> of the class.</div>
 </li>
 </ol></div></div>
 </div></article><article class="note remark-like" id="note-4"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">1.1.13</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-108">
+<div class="para logical" id="p-110">
 <div class="para">In part (b) of the previous Example, do you see why</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \dfrac{3}{4}~~\text{of}~~~~~32 = 3 \times 8 ?
 \end{equation*}
 </div>
-</div></article><div class="para" id="p-109">We can use a number line to compare fractions. Here are the fractions from the previous Example shown on a number line. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/comparenumberline.png" class="contained" alt="number line"></div>
+</div></article><div class="para" id="p-111">We can use a number line to compare fractions. Here are the fractions from the previous Example shown on a number line. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/comparenumberline.png" class="contained" alt="number line"></div>
 </div>
 <article class="exercise exercise-like" id="exercise-5"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.14</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-110">
+<div class="para logical" id="p-112">
 <div class="para">One yard is equal to 36 inches.</div>
 <ol class="lower-alpha">
-<li id="li-63"><div class="para logical" id="p-111">
+<li id="li-63"><div class="para logical" id="p-113">
 <div class="para">Compute the benchmark fractions with denominator 36.</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -1110,157 +1141,157 @@ window.MathJax = {
 \end{equation*}
 </div>
 </div></li>
-<li id="li-64"><div class="para" id="p-112">Draw a number line showing the benchmark fractions from part (a). <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
+<li id="li-64"><div class="para" id="p-114">Draw a number line showing the benchmark fractions from part (a). <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
 </div></li>
-<li id="li-65"><div class="para" id="p-113">Connie needs ribbons of length 10 inches and 25 inches. What fractions of a yard are those lengths? Plot the fractions on your number line.</div></li>
+<li id="li-65"><div class="para" id="p-115">Connie needs ribbons of length 10 inches and 25 inches. What fractions of a yard are those lengths? Plot the fractions on your number line.</div></li>
 </ol>
 </div>
-<a href="" data-knowl="" class="id-ref answer-knowl original has-image" data-refid="hk-answer-5" id="answer-5"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-5"><div class="answer solution-like"><div class="para logical" id="p-114"><ol class="lower-alpha">
-<li id="li-66"><div class="para" id="p-115"><span class="process-math">\(\displaystyle \dfrac{9}{36},~ \dfrac{18}{36},~ \dfrac{27}{36}\)</span></div></li>
+<a href="" data-knowl="" class="id-ref answer-knowl original has-image" data-refid="hk-answer-5" id="answer-5"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-5"><div class="answer solution-like"><div class="para logical" id="p-116"><ol class="lower-alpha">
+<li id="li-66"><div class="para" id="p-117"><span class="process-math">\(\displaystyle \dfrac{9}{36},~ \dfrac{18}{36},~ \dfrac{27}{36}\)</span></div></li>
 <li id="li-67"><div class="image-box" style="width: 70%; margin-left: 0%; margin-right: 30%;"><img src="generated/latex-image/numberline36-frac.svg" role="img" class="contained" alt="fractions of 36"></div></li>
 <li id="li-68">
-<div class="para" id="p-116"><span class="process-math">\(\displaystyle \dfrac{10}{36},~ \dfrac{25}{36}\)</span></div>
+<div class="para" id="p-118"><span class="process-math">\(\displaystyle \dfrac{10}{36},~ \dfrac{25}{36}\)</span></div>
 <div class="image-box" style="width: 70%; margin-left: 0%; margin-right: 30%;"><img src="generated/latex-image/numberline36-in.svg" role="img" class="contained" alt="fractions of 36"></div>
 </li>
 </ol></div></div></div></article><article class="activity project-like" id="activity-3"><h4 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Number Lines.</span>
-</h4> <div class="para logical" id="p-117"><ol class="decimal">
-<li id="li-69"><div class="para" id="p-118">This number line is 6 units long. Label the number of units at <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of its length. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
+</h4> <div class="para logical" id="p-119"><ol class="decimal">
+<li id="li-69"><div class="para" id="p-120">This number line is 6 units long. Label the number of units at <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of its length. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
 </div></li>
-<li id="li-70"><div class="para" id="p-119">This number line is 10 units long. Label the number of units at <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of its length. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
+<li id="li-70"><div class="para" id="p-121">This number line is 10 units long. Label the number of units at <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of its length. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
 </div></li>
 <li id="li-71">
-<div class="para" id="p-120">This number line is 100 units long. Label the number of units at <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of its length. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
+<div class="para" id="p-122">This number line is 100 units long. Label the number of units at <span class="process-math">\(\dfrac{1}{4}\text{,}\)</span> <span class="process-math">\(\dfrac{1}{2}\text{,}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span> of its length. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
 </div>
-<div class="para" id="p-121">For Problems 4-6, label the number line with the benchmark fractions, then mark the location of the fraction described.</div>
+<div class="para" id="p-123">For Problems 4-6, label the number line with the benchmark fractions, then mark the location of the fraction described.</div>
 </li>
-<li id="li-72"><div class="para" id="p-122">One complete revolution consists of 360°. A volume knob is labeled from 1 to 10, and the volume is set at 4. What fraction of  the loudest volume is that? <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
+<li id="li-72"><div class="para" id="p-124">One complete revolution consists of 360°. A volume knob is labeled from 1 to 10, and the volume is set at 4. What fraction of  the loudest volume is that? <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
 </div></li>
-<li id="li-73"><div class="para" id="p-123">Heidi's high school needs $50,000 for new band instruments.  They have raised $35,000.  What fraction of their goal is that? <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
+<li id="li-73"><div class="para" id="p-125">Heidi’s high school needs $50,000 for new band instruments.  They have raised $35,000.  What fraction of their goal is that? <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
 </div></li>
-<li id="li-74"><div class="para" id="p-124">One mile is 1760 yards.  The longest ocean pier in California is the Santa Cruz Municipal Wharf, at 905 yards.  What fraction of a mile is that? <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
+<li id="li-74"><div class="para" id="p-126">One mile is 1760 yards.  The longest ocean pier in California is the Santa Cruz Municipal Wharf, at 905 yards.  What fraction of a mile is that? <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
 </div></li>
-<li id="li-75"><div class="para logical" id="p-125"><ol class="lower-alpha">
-<li id="li-76"><div class="para" id="p-126">When it is eight o'clock in the evening, what fraction of the distance around the clock has the hour hand traveled since noon? <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/eightoclock.png" class="contained" alt="clock"></div>
+<li id="li-75"><div class="para logical" id="p-127"><ol class="lower-alpha">
+<li id="li-76"><div class="para" id="p-128">When it is eight o’clock in the evening, what fraction of the distance around the clock has the hour hand traveled since noon? <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/eightoclock.png" class="contained" alt="clock"></div>
 </div></li>
-<li id="li-77"><div class="para" id="p-127">Locate that fraction on the number line below. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
+<li id="li-77"><div class="para" id="p-129">Locate that fraction on the number line below. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
 </div></li>
 </ol></div></li>
-<li id="li-78"><div class="para logical" id="p-128"><ol class="lower-alpha">
-<li id="li-79"><div class="para" id="p-129">When it is 10 minutes before one o'clock in the afternoon, what fraction of the distance around the clock has the hour hand traveled since noon? <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/ten-before-one.png" class="contained" alt="clock"></div>
+<li id="li-78"><div class="para logical" id="p-130"><ol class="lower-alpha">
+<li id="li-79"><div class="para" id="p-131">When it is 10 minutes before one o’clock in the afternoon, what fraction of the distance around the clock has the hour hand traveled since noon? <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/ten-before-one.png" class="contained" alt="clock"></div>
 </div></li>
-<li id="li-80"><div class="para" id="p-130">Locate that fraction on the number line below. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
+<li id="li-80"><div class="para" id="p-132">Locate that fraction on the number line below. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
 </div></li>
 </ol></div></li>
 </ol></div></article></section><section class="subsection" id="subsection-7"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.1.7</span> <span class="title">Vocabulary</span>
 </h3>
-<div class="para logical" id="p-131"><ul class="disc cols2">
-<li id="li-81"><div class="para" id="p-132">numerator</div></li>
-<li id="li-82"><div class="para" id="p-133">denominator</div></li>
-<li id="li-83"><div class="para" id="p-134">number line</div></li>
-<li id="li-84"><div class="para" id="p-135">benchmark fractions</div></li>
+<div class="para logical" id="p-133"><ul class="disc cols2">
+<li id="li-81"><div class="para" id="p-134">numerator</div></li>
+<li id="li-82"><div class="para" id="p-135">denominator</div></li>
+<li id="li-83"><div class="para" id="p-136">number line</div></li>
+<li id="li-84"><div class="para" id="p-137">benchmark fractions</div></li>
 </ul></div></section><section class="exercises" id="prac-1-1"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber">1.1.8</span> <span class="title">Practice 1.1</span>
 </h3>
 <article class="exercise exercise-like" id="exercise-6"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="para logical" id="p-136"><ol class="lower-alpha">
-<li id="li-85"><div class="para" id="p-137">What does the denominator of a fraction tell us?</div></li>
-<li id="li-86"><div class="para" id="p-138">What does the numerator of a fraction tell us?</div></li>
+<div class="para logical" id="p-138"><ol class="lower-alpha">
+<li id="li-85"><div class="para" id="p-139">What does the denominator of a fraction tell us?</div></li>
+<li id="li-86"><div class="para" id="p-140">What does the numerator of a fraction tell us?</div></li>
 </ol></div></article><article class="exercise exercise-like" id="exercise-7"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="para logical" id="p-142"><ol class="lower-alpha">
-<li id="li-89"><div class="para" id="p-143">How can you use your calculator to find <span class="process-math">\(\dfrac{1}{2}\)</span> of any number?</div></li>
-<li id="li-90"><div class="para" id="p-144">Multiplying a number by <span class="process-math">\(\dfrac{1}{2}\)</span> is the same as dividing by <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>.</div></li>
+<div class="para logical" id="p-144"><ol class="lower-alpha">
+<li id="li-89"><div class="para" id="p-145">How can you use your calculator to find <span class="process-math">\(\dfrac{1}{2}\)</span> of any number?</div></li>
+<li id="li-90"><div class="para" id="p-146">Multiplying a number by <span class="process-math">\(\dfrac{1}{2}\)</span> is the same as dividing by <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>.</div></li>
 </ol></div></article><article class="exercise exercise-like" id="exercise-8"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<div class="para logical" id="p-145"><ol class="lower-alpha">
-<li id="li-91"><div class="para" id="p-146">Explain why 50 cents is half of one dollar.</div></li>
-<li id="li-92"><div class="para" id="p-147">Explain why 0.5 is the same as <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span>
+<div class="para logical" id="p-147"><ol class="lower-alpha">
+<li id="li-91"><div class="para" id="p-148">Explain why 50 cents is half of one dollar.</div></li>
+<li id="li-92"><div class="para" id="p-149">Explain why 0.5 is the same as <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span>
 </div></li>
-<li id="li-93"><div class="para" id="p-148">Explain why 50% is the same as <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span>
+<li id="li-93"><div class="para" id="p-150">Explain why 50% is the same as <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span>
 </div></li>
 </ol></div></article><article class="exercise exercise-like" id="exercise-9"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<div class="para logical" id="p-153"><ol class="lower-alpha">
-<li id="li-97"><div class="para" id="p-154">Explain why 25 cents is one-quarter of a dollar.</div></li>
-<li id="li-98"><div class="para" id="p-155">Explain why 0.25 is the same as <span class="process-math">\(\dfrac{1}{4}\text{.}\)</span>
+<div class="para logical" id="p-155"><ol class="lower-alpha">
+<li id="li-97"><div class="para" id="p-156">Explain why 25 cents is one-quarter of a dollar.</div></li>
+<li id="li-98"><div class="para" id="p-157">Explain why 0.25 is the same as <span class="process-math">\(\dfrac{1}{4}\text{.}\)</span>
 </div></li>
-<li id="li-99"><div class="para" id="p-156">Explain why 25% is the same as <span class="process-math">\(\dfrac{1}{4}\text{.}\)</span>
+<li id="li-99"><div class="para" id="p-158">Explain why 25% is the same as <span class="process-math">\(\dfrac{1}{4}\text{.}\)</span>
 </div></li>
 </ol></div></article><div class="exercisegroup" id="exercisegroup-1">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-1"><div class="para logical" id="p-157">
+<div class="introduction" id="introduction-1"><div class="para logical" id="p-159">
 <div class="para">For Problems 5-8,</div>
 <ol class="lower-alpha">
-<li id="li-100"><div class="para" id="p-158">Find one-half of the amount.</div></li>
-<li id="li-101"><div class="para" id="p-159">Find one-fourth of the amount.</div></li>
-<li id="li-102"><div class="para" id="p-160">Find three-fourths of the amount.</div></li>
+<li id="li-100"><div class="para" id="p-160">Find one-half of the amount.</div></li>
+<li id="li-101"><div class="para" id="p-161">Find one-fourth of the amount.</div></li>
+<li id="li-102"><div class="para" id="p-162">Find three-fourths of the amount.</div></li>
 </ol>
 </div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-10"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
-<div class="para" id="p-161">A doorway is 88 inches tall.</div></article><article class="exercise exercise-like" id="exercise-11"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
-<div class="para" id="p-166">A fossil is 50,000 years old.</div></article><article class="exercise exercise-like" id="exercise-12"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
-<div class="para" id="p-167">A jug contains 64 fluid ounces of laundry detergent.</div></article><article class="exercise exercise-like" id="exercise-13"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
-<div class="para" id="p-172">A 20 million dollar budget was approved by the city council.</div></article>
+<div class="para" id="p-163">A doorway is 88 inches tall.</div></article><article class="exercise exercise-like" id="exercise-11"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
+<div class="para" id="p-168">A fossil is 50,000 years old.</div></article><article class="exercise exercise-like" id="exercise-12"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
+<div class="para" id="p-169">A jug contains 64 fluid ounces of laundry detergent.</div></article><article class="exercise exercise-like" id="exercise-13"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<div class="para" id="p-174">A 20 million dollar budget was approved by the city council.</div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-2">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-2"><div class="para" id="p-173">For Problems 9-12, draw a line to show one-half of the figure.</div></div>
+<div class="introduction" id="introduction-2"><div class="para" id="p-175">For Problems 9-12, draw a line to show one-half of the figure.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-14"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
-<div class="para" id="p-174"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-1-9.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-15"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
-<div class="para" id="p-175"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-1-10.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-16"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
-<div class="para" id="p-176"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-1-11.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-17"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
-<div class="para" id="p-177"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/hp-1-1-12.png" class="contained"></div></div></article>
+<div class="para" id="p-176"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-1-9.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-15"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
+<div class="para" id="p-177"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-1-10.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-16"><h5 class="heading"><span class="codenumber">11<span class="period">.</span></span></h5>
+<div class="para" id="p-178"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-1-11.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-17"><h5 class="heading"><span class="codenumber">12<span class="period">.</span></span></h5>
+<div class="para" id="p-179"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/hp-1-1-12.png" class="contained"></div></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-3">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-3"><div class="para" id="p-178">For Problems 13-16, draw two lines to show one-fourth of the figure.</div></div>
+<div class="introduction" id="introduction-3"><div class="para" id="p-180">For Problems 13-16, draw two lines to show one-fourth of the figure.</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-18"><h5 class="heading"><span class="codenumber">13<span class="period">.</span></span></h5>
-<div class="para" id="p-179"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-1-13.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-19"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
-<div class="para" id="p-180"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-1-14.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-20"><h5 class="heading"><span class="codenumber">15<span class="period">.</span></span></h5>
-<div class="para" id="p-181"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-1-15.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-21"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
-<div class="para" id="p-182"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/hp-1-1-16.png" class="contained"></div></div></article>
+<div class="para" id="p-181"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-1-13.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-19"><h5 class="heading"><span class="codenumber">14<span class="period">.</span></span></h5>
+<div class="para" id="p-182"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/hp-1-1-14.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-20"><h5 class="heading"><span class="codenumber">15<span class="period">.</span></span></h5>
+<div class="para" id="p-183"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/hp-1-1-15.png" class="contained"></div></div></article><article class="exercise exercise-like" id="exercise-21"><h5 class="heading"><span class="codenumber">16<span class="period">.</span></span></h5>
+<div class="para" id="p-184"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/hp-1-1-16.png" class="contained"></div></div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-4">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-4"><div class="para" id="p-183">For Problems 17-20, show the calculation you used to find the answer.</div></div>
+<div class="introduction" id="introduction-4"><div class="para" id="p-185">For Problems 17-20, show the calculation you used to find the answer.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-22"><h5 class="heading"><span class="codenumber">17<span class="period">.</span></span></h5>
-<div class="para" id="p-184">Sharelle gave her daughter 225 milliliters of cough medicine, which is half the adult dosage. What is the adult dosage?</div></article><article class="exercise exercise-like" id="exercise-23"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
-<div class="para" id="p-186">Claudia's alpaca weighs 76 kilograms, which is about half the weight of an adult llama. How much does a llama weigh?</div></article><article class="exercise exercise-like" id="exercise-24"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
-<div class="para" id="p-187">Elsie read 48 pages of a novel this afternoon, which was one-fourth of her assignment. How many pages was she assigned to read?</div></article><article class="exercise exercise-like" id="exercise-25"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
-<div class="para" id="p-189">Mike spent a quarter of his paycheck on a new phone that cost $194.50. How much was his paycheck?</div></article>
+<div class="para" id="p-186">Sharelle gave her daughter 225 milliliters of cough medicine, which is half the adult dosage. What is the adult dosage?</div></article><article class="exercise exercise-like" id="exercise-23"><h5 class="heading"><span class="codenumber">18<span class="period">.</span></span></h5>
+<div class="para" id="p-188">Claudia’s alpaca weighs 76 kilograms, which is about half the weight of an adult llama. How much does a llama weigh?</div></article><article class="exercise exercise-like" id="exercise-24"><h5 class="heading"><span class="codenumber">19<span class="period">.</span></span></h5>
+<div class="para" id="p-189">Elsie read 48 pages of a novel this afternoon, which was one-fourth of her assignment. How many pages was she assigned to read?</div></article><article class="exercise exercise-like" id="exercise-25"><h5 class="heading"><span class="codenumber">20<span class="period">.</span></span></h5>
+<div class="para" id="p-191">Mike spent a quarter of his paycheck on a new phone that cost $194.50. How much was his paycheck?</div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-5">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-5"><div class="para" id="p-190">For Problems 21-24, show how you found the answer.</div></div>
+<div class="introduction" id="introduction-5"><div class="para" id="p-192">For Problems 21-24, show how you found the answer.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-26"><h5 class="heading"><span class="codenumber">21<span class="period">.</span></span></h5>
-<div class="para logical" id="p-191"><ol class="lower-alpha">
-<li id="li-109"><div class="para" id="p-192">What is <span class="process-math">\(\dfrac{1}{4}\)</span> of 2 cups of flour?</div></li>
-<li id="li-110"><div class="para" id="p-193">What is <span class="process-math">\(\dfrac{3}{4}\)</span> of 2 cups of flour?</div></li>
+<div class="para logical" id="p-193"><ol class="lower-alpha">
+<li id="li-109"><div class="para" id="p-194">What is <span class="process-math">\(\dfrac{1}{4}\)</span> of 2 cups of flour?</div></li>
+<li id="li-110"><div class="para" id="p-195">What is <span class="process-math">\(\dfrac{3}{4}\)</span> of 2 cups of flour?</div></li>
 </ol></div></article><article class="exercise exercise-like" id="exercise-27"><h5 class="heading"><span class="codenumber">22<span class="period">.</span></span></h5>
-<div class="para logical" id="p-197"><ol class="lower-alpha">
-<li id="li-113"><div class="para" id="p-198">What is <span class="process-math">\(\dfrac{1}{4}\)</span> of 6 gallons of water?</div></li>
-<li id="li-114"><div class="para" id="p-199">What is <span class="process-math">\(\dfrac{3}{4}\)</span> of 6 gallons of water?</div></li>
+<div class="para logical" id="p-199"><ol class="lower-alpha">
+<li id="li-113"><div class="para" id="p-200">What is <span class="process-math">\(\dfrac{1}{4}\)</span> of 6 gallons of water?</div></li>
+<li id="li-114"><div class="para" id="p-201">What is <span class="process-math">\(\dfrac{3}{4}\)</span> of 6 gallons of water?</div></li>
 </ol></div></article><article class="exercise exercise-like" id="exercise-28"><h5 class="heading"><span class="codenumber">23<span class="period">.</span></span></h5>
-<div class="para logical" id="p-200"><ol class="lower-alpha">
-<li id="li-115"><div class="para" id="p-201">How far is <span class="process-math">\(\dfrac{1}{4}\)</span> of 90 miles?</div></li>
-<li id="li-116"><div class="para" id="p-202">How far is <span class="process-math">\(\dfrac{3}{4}\)</span> of 90 miles?</div></li>
+<div class="para logical" id="p-202"><ol class="lower-alpha">
+<li id="li-115"><div class="para" id="p-203">How far is <span class="process-math">\(\dfrac{1}{4}\)</span> of 90 miles?</div></li>
+<li id="li-116"><div class="para" id="p-204">How far is <span class="process-math">\(\dfrac{3}{4}\)</span> of 90 miles?</div></li>
 </ol></div></article><article class="exercise exercise-like" id="exercise-29"><h5 class="heading"><span class="codenumber">24<span class="period">.</span></span></h5>
-<div class="para logical" id="p-206"><ol class="lower-alpha">
-<li id="li-119"><div class="para" id="p-207">How much is <span class="process-math">\(\dfrac{1}{4}\)</span> of $247?</div></li>
-<li id="li-120"><div class="para" id="p-208">How much is <span class="process-math">\(\dfrac{3}{4}\)</span> of $247?</div></li>
+<div class="para logical" id="p-208"><ol class="lower-alpha">
+<li id="li-119"><div class="para" id="p-209">How much is <span class="process-math">\(\dfrac{1}{4}\)</span> of $247?</div></li>
+<li id="li-120"><div class="para" id="p-210">How much is <span class="process-math">\(\dfrac{3}{4}\)</span> of $247?</div></li>
 </ol></div></article>
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-30"><h4 class="heading"><span class="codenumber">25<span class="period">.</span></span></h4>
-<div class="para" id="p-209">Complete the table with the missing quantites. (Hint: If you know <span class="process-math">\(\dfrac{1}{4}\)</span> of a number, how can you find <span class="process-math">\(\dfrac{3}{4}\)</span> of the number?</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="p-211">Complete the table with the missing quantites. (Hint: If you know <span class="process-math">\(\dfrac{1}{4}\)</span> of a number, how can you find <span class="process-math">\(\dfrac{3}{4}\)</span> of the number?</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"></td>
 <td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\dfrac{1}{4}\)</span></td>
@@ -1304,7 +1335,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(36\)</span></td>
 </tr>
 </table></div></article><article class="exercise exercise-like" id="exercise-31"><h4 class="heading"><span class="codenumber">26<span class="period">.</span></span></h4>
-<div class="para" id="p-210">Complete the table with the missing quantites. (Hint: If you know <span class="process-math">\(\dfrac{1}{2}\)</span> of a number, how can you find <span class="process-math">\(\dfrac{1}{4}\)</span> of the number?</div> <div class="para" id="p-211"><div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="p-212">Complete the table with the missing quantites. (Hint: If you know <span class="process-math">\(\dfrac{1}{2}\)</span> of a number, how can you find <span class="process-math">\(\dfrac{1}{4}\)</span> of the number?</div> <div class="para" id="p-213"><div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines"></td>
 <td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\dfrac{1}{4}\)</span></td>
@@ -1348,120 +1379,120 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(64\)</span></td>
 </tr>
 </table></div></div></article><article class="exercise exercise-like" id="exercise-32"><h4 class="heading"><span class="codenumber">27<span class="period">.</span></span></h4>
-<div class="para logical" id="p-212"><ol class="lower-alpha">
-<li id="li-121"><div class="para" id="p-213">If you know one-half of a number and one-quarter of a number, how can you find three-quarters of the number?</div></li>
-<li id="li-122"><div class="para" id="p-214">If you know one-half of a number, how can you find three-quarters of the number?</div></li>
+<div class="para logical" id="p-214"><ol class="lower-alpha">
+<li id="li-121"><div class="para" id="p-215">If you know one-half of a number and one-quarter of a number, how can you find three-quarters of the number?</div></li>
+<li id="li-122"><div class="para" id="p-216">If you know one-half of a number, how can you find three-quarters of the number?</div></li>
 </ol></div></article><article class="exercise exercise-like" id="exercise-33"><h4 class="heading"><span class="codenumber">28<span class="period">.</span></span></h4>
-<div class="para logical" id="p-218"><ol class="lower-alpha">
-<li id="li-125"><div class="para" id="p-219">If you know three-quarters of a number, how can you find one-quarter of the number?</div></li>
-<li id="li-126"><div class="para" id="p-220">If you know three-quarters of a number, how can you find one-half of the number?</div></li>
+<div class="para logical" id="p-220"><ol class="lower-alpha">
+<li id="li-125"><div class="para" id="p-221">If you know three-quarters of a number, how can you find one-quarter of the number?</div></li>
+<li id="li-126"><div class="para" id="p-222">If you know three-quarters of a number, how can you find one-half of the number?</div></li>
 </ol></div></article><div class="exercisegroup" id="exercisegroup-6">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-6"><div class="para logical" id="p-221">
+<div class="introduction" id="introduction-6"><div class="para logical" id="p-223">
 <div class="para">For Problems 29-34,</div>
 <ol class="lower-alpha">
-<li id="li-127"><div class="para" id="p-222">Give the values of the whole quantity and the part described.</div></li>
-<li id="li-128"><div class="para" id="p-223">Write the fraction described in the problem.</div></li>
-<li id="li-129"><div class="para" id="p-224">Decide whether the fraction described is less than (<span class="process-math">\(\lt\)</span>), equal to (<span class="process-math">\(=\)</span>), or greater than (<span class="process-math">\(\gt\)</span>) one-fourth. Explain how you made your decision.</div></li>
+<li id="li-127"><div class="para" id="p-224">Give the values of the whole quantity and the part described.</div></li>
+<li id="li-128"><div class="para" id="p-225">Write the fraction described in the problem.</div></li>
+<li id="li-129"><div class="para" id="p-226">Decide whether the fraction described is less than (<span class="process-math">\(\lt\)</span>), equal to (<span class="process-math">\(=\)</span>), or greater than (<span class="process-math">\(\gt\)</span>) one-fourth. Explain how you made your decision.</div></li>
 </ol>
 </div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-34"><h5 class="heading"><span class="codenumber">29<span class="period">.</span></span></h5>
-<div class="para" id="p-225">Cyrus cut 10 inches from a yard of wire. (Hint: How many inches are in a yard?)</div></article><article class="exercise exercise-like" id="exercise-35"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
-<div class="para" id="p-226">Paula poured an 8-oz glass from a quart bottle. (Hint: How many ounces are in a quart?)</div></article><article class="exercise exercise-like" id="exercise-36"><h5 class="heading"><span class="codenumber">31<span class="period">.</span></span></h5>
-<div class="para" id="p-227">There were 8 snow days in November. (Hint: How many days are there in November?)</div></article><article class="exercise exercise-like" id="exercise-37"><h5 class="heading"><span class="codenumber">32<span class="period">.</span></span></h5>
-<div class="para" id="p-228">Jason is 40 minutes into a 2-hour test. (Hint: How many minutes are there in 2 hours?)</div></article><article class="exercise exercise-like" id="exercise-38"><h5 class="heading"><span class="codenumber">33<span class="period">.</span></span></h5>
-<div class="para" id="p-229">3 out of 10 voters favor the proposal.</div></article><article class="exercise exercise-like" id="exercise-39"><h5 class="heading"><span class="codenumber">34<span class="period">.</span></span></h5>
-<div class="para" id="p-230">Danny swims 2 days a week. (Hint: How many days are there in a week?)</div></article>
+<div class="para" id="p-227">Cyrus cut 10 inches from a yard of wire. (Hint: How many inches are in a yard?)</div></article><article class="exercise exercise-like" id="exercise-35"><h5 class="heading"><span class="codenumber">30<span class="period">.</span></span></h5>
+<div class="para" id="p-228">Paula poured an 8-oz glass from a quart bottle. (Hint: How many ounces are in a quart?)</div></article><article class="exercise exercise-like" id="exercise-36"><h5 class="heading"><span class="codenumber">31<span class="period">.</span></span></h5>
+<div class="para" id="p-229">There were 8 snow days in November. (Hint: How many days are there in November?)</div></article><article class="exercise exercise-like" id="exercise-37"><h5 class="heading"><span class="codenumber">32<span class="period">.</span></span></h5>
+<div class="para" id="p-230">Jason is 40 minutes into a 2-hour test. (Hint: How many minutes are there in 2 hours?)</div></article><article class="exercise exercise-like" id="exercise-38"><h5 class="heading"><span class="codenumber">33<span class="period">.</span></span></h5>
+<div class="para" id="p-231">3 out of 10 voters favor the proposal.</div></article><article class="exercise exercise-like" id="exercise-39"><h5 class="heading"><span class="codenumber">34<span class="period">.</span></span></h5>
+<div class="para" id="p-232">Danny swims 2 days a week. (Hint: How many days are there in a week?)</div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-7">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-7"><div class="para" id="p-231">For Problems 35-38, show the calculation you used to find the answer.</div></div>
+<div class="introduction" id="introduction-7"><div class="para" id="p-233">For Problems 35-38, show the calculation you used to find the answer.</div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-40"><h5 class="heading"><span class="codenumber">35<span class="period">.</span></span></h5>
-<div class="para" id="p-232">Pedro's dog weighs 31 pounds and his cat weighs 14 pounds. Does his cat weigh more or less than half his dog's weight?</div></article><article class="exercise exercise-like" id="exercise-41"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
-<div class="para" id="p-234">Alicia's parents live 328 miles away. She has driven 170 miles. Is that more or less than half the distance?</div></article><article class="exercise exercise-like" id="exercise-42"><h5 class="heading"><span class="codenumber">37<span class="period">.</span></span></h5>
-<div class="para" id="p-235">A deck of playing cards has 52 cards divided evenly into 4 suits. Each suit has 3 face cards. Are the face cards more or less than one-fourth of the deck?</div></article><article class="exercise exercise-like" id="exercise-43"><h5 class="heading"><span class="codenumber">38<span class="period">.</span></span></h5>
-<div class="para" id="p-237">A right angle is 90°. Is 60° more or less than three-quarters of a right angle?</div></article>
+<div class="para" id="p-234">Pedro’s dog weighs 31 pounds and his cat weighs 14 pounds. Does his cat weigh more or less than half his dog’s weight?</div></article><article class="exercise exercise-like" id="exercise-41"><h5 class="heading"><span class="codenumber">36<span class="period">.</span></span></h5>
+<div class="para" id="p-236">Alicia’s parents live 328 miles away. She has driven 170 miles. Is that more or less than half the distance?</div></article><article class="exercise exercise-like" id="exercise-42"><h5 class="heading"><span class="codenumber">37<span class="period">.</span></span></h5>
+<div class="para" id="p-237">A deck of playing cards has 52 cards divided evenly into 4 suits. Each suit has 3 face cards. Are the face cards more or less than one-fourth of the deck?</div></article><article class="exercise exercise-like" id="exercise-43"><h5 class="heading"><span class="codenumber">38<span class="period">.</span></span></h5>
+<div class="para" id="p-239">A right angle is 90°. Is 60° more or less than three-quarters of a right angle?</div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-8">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-8"><div class="para" id="p-238">For Problems 39-42, decide which fraction of one whole is larger. Explain how you know your answer is correct. (Hint:  Compare each fraction to <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span>)</div></div>
+<div class="introduction" id="introduction-8"><div class="para" id="p-240">For Problems 39-42, decide which fraction of one whole is larger. Explain how you know your answer is correct. (Hint:  Compare each fraction to <span class="process-math">\(\dfrac{1}{2}\text{.}\)</span>)</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-44"><h5 class="heading"><span class="codenumber">39<span class="period">.</span></span></h5>
-<div class="para" id="p-239">
+<div class="para" id="p-241">
 <span class="process-math">\(\dfrac{5}{8}\)</span> or <span class="process-math">\(\dfrac{7}{16}\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-45"><h5 class="heading"><span class="codenumber">40<span class="period">.</span></span></h5>
-<div class="para" id="p-240">
+<div class="para" id="p-242">
 <span class="process-math">\(\dfrac{5}{9}\)</span> or <span class="process-math">\(\dfrac{5}{11}\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-46"><h5 class="heading"><span class="codenumber">41<span class="period">.</span></span></h5>
-<div class="para" id="p-241">
+<div class="para" id="p-243">
 <span class="process-math">\(\dfrac{3}{7}\)</span> or <span class="process-math">\(\dfrac{5}{9}\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-47"><h5 class="heading"><span class="codenumber">42<span class="period">.</span></span></h5>
-<div class="para" id="p-242">
+<div class="para" id="p-244">
 <span class="process-math">\(\dfrac{3}{4}\)</span> or <span class="process-math">\(\dfrac{4}{9}\)</span>
 </div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-9">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-9"><div class="para" id="p-243">For Problems 43-46, decide which fraction of one whole is larger. Explain how you know your answer is correct. (Hint:  Compare each fraction to <span class="process-math">\(\dfrac{1}{4}\text{.}\)</span>)</div></div>
+<div class="introduction" id="introduction-9"><div class="para" id="p-245">For Problems 43-46, decide which fraction of one whole is larger. Explain how you know your answer is correct. (Hint:  Compare each fraction to <span class="process-math">\(\dfrac{1}{4}\text{.}\)</span>)</div></div>
 <div class="exercisegroup-exercises cols2">
 <article class="exercise exercise-like" id="exercise-48"><h5 class="heading"><span class="codenumber">43<span class="period">.</span></span></h5>
-<div class="para" id="p-244">
+<div class="para" id="p-246">
 <span class="process-math">\(\dfrac{3}{8}\)</span> or <span class="process-math">\(\dfrac{3}{16}\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-49"><h5 class="heading"><span class="codenumber">44<span class="period">.</span></span></h5>
-<div class="para" id="p-245">
+<div class="para" id="p-247">
 <span class="process-math">\(\dfrac{2}{7}\)</span> or <span class="process-math">\(\dfrac{3}{16}\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-50"><h5 class="heading"><span class="codenumber">45<span class="period">.</span></span></h5>
-<div class="para" id="p-246">
+<div class="para" id="p-248">
 <span class="process-math">\(\dfrac{2}{9}\)</span> or <span class="process-math">\(\dfrac{3}{8}\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-51"><h5 class="heading"><span class="codenumber">46<span class="period">.</span></span></h5>
-<div class="para" id="p-247">
+<div class="para" id="p-249">
 <span class="process-math">\(\dfrac{5}{18}\)</span> or <span class="process-math">\(\dfrac{6}{25}\)</span>
 </div></article>
 </div>
 </div>
 <div class="exercisegroup" id="exercisegroup-10">
 <h4 class="heading"><span class="title">Exercise Group.</span></h4>
-<div class="introduction" id="introduction-10"><div class="para logical" id="p-248">
+<div class="introduction" id="introduction-10"><div class="para logical" id="p-250">
 <div class="para">For Problems 47-50, write fractions that are:</div>
 <ol class="lower-alpha">
-<li id="li-130"><div class="para" id="p-249">Less than <span class="process-math">\(\dfrac{1}{4}\)</span>
+<li id="li-130"><div class="para" id="p-251">Less than <span class="process-math">\(\dfrac{1}{4}\)</span>
 </div></li>
-<li id="li-131"><div class="para" id="p-250">Between <span class="process-math">\(\dfrac{1}{4}\)</span> and <span class="process-math">\(\dfrac{1}{2}\)</span>
+<li id="li-131"><div class="para" id="p-252">Between <span class="process-math">\(\dfrac{1}{4}\)</span> and <span class="process-math">\(\dfrac{1}{2}\)</span>
 </div></li>
-<li id="li-132"><div class="para" id="p-251">Between <span class="process-math">\(\dfrac{1}{2}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span>
+<li id="li-132"><div class="para" id="p-253">Between <span class="process-math">\(\dfrac{1}{2}\)</span> and <span class="process-math">\(\dfrac{3}{4}\)</span>
 </div></li>
-<li id="li-133"><div class="para" id="p-252">Greater than <span class="process-math">\(\dfrac{3}{4}\)</span>
+<li id="li-133"><div class="para" id="p-254">Greater than <span class="process-math">\(\dfrac{3}{4}\)</span>
 </div></li>
 </ol>
 <div class="para">Label the number line with the benchmark fractions, and locate your fractions on the line.</div>
 </div></div>
 <div class="exercisegroup-exercises">
 <article class="exercise exercise-like" id="exercise-52"><h5 class="heading"><span class="codenumber">47<span class="period">.</span></span></h5>
-<div class="para" id="p-253">There are 32 fluid ounces in a quart. Choose fractions with denominator 32. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
+<div class="para" id="p-255">There are 32 fluid ounces in a quart. Choose fractions with denominator 32. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
 </div></article><article class="exercise exercise-like" id="exercise-53"><h5 class="heading"><span class="codenumber">48<span class="period">.</span></span></h5>
-<div class="para" id="p-255">One mile of swimming is 72 laps. Choose fractions with denominator 72. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
+<div class="para" id="p-257">One mile of swimming is 72 laps. Choose fractions with denominator 72. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
 </div></article><article class="exercise exercise-like" id="exercise-54"><h5 class="heading"><span class="codenumber">49<span class="period">.</span></span></h5>
-<div class="para" id="p-256">There are 360° in one complete revolution. Choose fractions with denominator 360. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
+<div class="para" id="p-258">There are 360° in one complete revolution. Choose fractions with denominator 360. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
 </div></article><article class="exercise exercise-like" id="exercise-55"><h5 class="heading"><span class="codenumber">50<span class="period">.</span></span></h5>
-<div class="para" id="p-258">One day is 1440 minutes. Choose fractions with denominator 1440. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
+<div class="para" id="p-260">One day is 1440 minutes. Choose fractions with denominator 1440. <div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/emptyfourths.png" class="contained" alt="number line"></div>
 </div></article>
 </div>
 </div>
 <article class="exercise exercise-like" id="exercise-56"><h4 class="heading"><span class="codenumber">51<span class="period">.</span></span></h4>
-<div class="para" id="p-259">If you increase the numerator of a fraction, is the new fraction a larger or smaller part than the original?</div></article><article class="exercise exercise-like" id="exercise-57"><h4 class="heading"><span class="codenumber">52<span class="period">.</span></span></h4>
-<div class="para" id="p-261">If you increase the denominator of a fraction, is the new fraction a larger or smaller part than the original?</div></article><article class="exercise exercise-like" id="exercise-58"><h4 class="heading"><span class="codenumber">53<span class="period">.</span></span></h4>
-<div class="para" id="p-262">Shari pays exactly one quarter of her monthly salary in rent. If she gets a raise but her rent stays the same, will she be paying more or less than a quarter of her salary for rent?</div></article><article class="exercise exercise-like" id="exercise-59"><h4 class="heading"><span class="codenumber">54<span class="period">.</span></span></h4>
-<div class="para" id="p-264">Jarel scored 45 points on his essay. He thought the essay was worth 60 points, but it was actually worth 50 points. Is his grade higher or lower than he originally thought?</div></article></section></section></div>
+<div class="para" id="p-261">If you increase the numerator of a fraction, is the new fraction a larger or smaller part than the original?</div></article><article class="exercise exercise-like" id="exercise-57"><h4 class="heading"><span class="codenumber">52<span class="period">.</span></span></h4>
+<div class="para" id="p-263">If you increase the denominator of a fraction, is the new fraction a larger or smaller part than the original?</div></article><article class="exercise exercise-like" id="exercise-58"><h4 class="heading"><span class="codenumber">53<span class="period">.</span></span></h4>
+<div class="para" id="p-264">Shari pays exactly one quarter of her monthly salary in rent. If she gets a raise but her rent stays the same, will she be paying more or less than a quarter of her salary for rent?</div></article><article class="exercise exercise-like" id="exercise-59"><h4 class="heading"><span class="codenumber">54<span class="period">.</span></span></h4>
+<div class="para" id="p-266">Jarel scored 45 points on his essay. He thought the essay was worth 60 points, but it was actually worth 50 points. Is his grade higher or lower than he originally thought?</div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="ch1.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec-1-2.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
-<div id="ptx-page-footer">
+<div id="ptx-page-footer" class="ptx-page-footer">
 <a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
 </div>
 </body>
