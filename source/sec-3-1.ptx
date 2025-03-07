@@ -40,13 +40,14 @@
 <example><statement><p>Find the surface area of the box shown above. The dimensions are given in meters.</p></statement>
 
 <solution><p>The box has six faces: front and back, top and bottom, left and right. Here are the areas of the six faces.</p>
-
-  <p>Front:  <m>6 \times 3 = 18</m>  square meters</p>
-  <p>Back: same as the front</p>
-  <p>Top:  <m>6 \times 4 = 24</m>  square meters</p>
-  <p>Bottom: same as the top</p>
-  <p>Right:  <m>4 \times 3 = 12</m>  square meters</p>
-  <p>Left: same as the right</p>
+<p><ul>
+  <li><p>Front:  <m>6 \times 3 = 18</m>  square meters</p></li>
+  <li><p>Back: same as the front</p></li>
+  <li><p>Top:  <m>6 \times 4 = 24</m>  square meters</p></li>
+  <li><p>Bottom: same as the top</p></li>
+  <li><p>Right:  <m>4 \times 3 = 12</m>  square meters</p></li>
+  <li><p>Left: same as the right</p></li>
+</ul></p>
 
   <p>Finally, we add the areas of the six faces.
       <me>18 + 18 + 24 + 24 + 12 + 12 = 108~~ \text{square meters}</me></p></solution></example>

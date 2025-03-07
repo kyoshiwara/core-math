@@ -64,7 +64,7 @@ But be careful:  you can delete subtraction symbols, but don't delete any negati
 
 <answer><m>-18</m></answer></exercise>
 
-<p>The location of parentheses in an expression is very important. Compare the expressions in Example 7.5.5.  Note carefully how the parentheses and minus signs change the meaning of the expression.</p>
+<p>The location of parentheses in an expression is very important. Compare the expressions in Example 7.5.6.  Note carefully how the parentheses and minus signs change the meaning of the expression.</p>
 
 <example><statement><p>Simplify each expression.</p>
   <p><ol marker="a." cols="2">
@@ -91,10 +91,10 @@ But be careful:  you can delete subtraction symbols, but don't delete any negati
   <li><p><m>-2-(-7)</m></p></li>
 </ol></p></statement>
 
-<answer><p><ol marker="a." cols="3">
-  <li><p><m>-9</m></p></li>
-  <li><p><m>14</m></p></li>
-  <li><p><m>5</m></p></li>
+<answer><p><ol marker="a.">
+  <li><p>addition, <m>~-9</m></p></li>
+  <li><p>multiplication, <m>~14</m></p></li>
+  <li><p>subtraction, <m>~5</m></p></li>
 </ol></p></answer></exercise>
 
 </subsection>
@@ -190,7 +190,7 @@ Note that we enclosed <m>-20</m> in parentheses because it follows a subtraction
 
 <example><statement><p>Simplify  <m>~\dfrac{4-40}{4+8}</m></p></statement>
 
-<solution><p>Do not be tempted to divide or "cancel" <m>4</m> <m>by 4</m>, or <m>-40</m> by <m>8</m>! We must first simplify the expressions above and below the fraction bar before we divide.
+<solution><p>Do not be tempted to divide or "cancel" <m>4</m> by  <m>4</m>, or <m>-40</m> by <m>8</m>! We must first simplify the expressions above and below the fraction bar before we divide.
   <me>\dfrac{4-40}{4+8} = \dfrac{-36}{12} = -3</me></p></solution></example>
 
 <exercise><statement><p> Simplify <m>~\dfrac{6-14}{3-7}</m></p></statement>
@@ -275,7 +275,7 @@ The two expressions are not equivalent, as you can see by evaluating each:
       <mrow>  \amp = -2\blert{(-4)^2} \amp \amp \blert{\text{Compute the power, then multiply.}}</mrow>
       <mrow>   \amp = -2(16) = -32</mrow></md></p></solution></example>
 
-<exercise><statement><p>Simplify each expression.<ol marker="a.">
+<exercise><statement><p>Simplify each expression.<ol marker="a." cols="3">
   <li><m>-4-2^3</m></li>
   <li><m>-4(-2)^3</m></li>
   <li><m>(-4-2)^3</m></li>

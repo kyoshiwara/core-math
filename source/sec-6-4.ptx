@@ -80,7 +80,7 @@
 
       <image source="simquest.png" width="60%"></image></statement>
 
-<answer><p>They could be similar because <m>\angle C = 50\degree</m> and <m>\angle F = 70 \degree</m>, so the corresponding angles are equal.</p></answer></exercise>
+<answer><p>They could be similar. Because the sum of the angles in a triangle is <m>180\degree</m>, we see that <m>\angle C = 50\degree</m> and <m>\angle F = 70 \degree</m>, so the corresponding angles are equal.</p></answer></exercise>
 </subsection>
 
 <subsection><title>Scale Factors</title>
@@ -154,12 +154,12 @@
   <li><p>Here are the ratios of the sides of the larger triangle to the corresponding sides of the smaller triangle:
         <md><mrow>\text{Longest sides} \hphantom{0000} \dfrac{15}{10}</mrow>
             <mrow>\text{Middle sides} \hphantom{0000} \dfrac{12}{8}</mrow>
-            <mrow>\text{Shortext sides} \hphantom{0000} \dfrac{9}{6}</mrow></md>
+            <mrow>\text{Shortest sides} \hphantom{0000} \dfrac{9}{6}</mrow></md>
       These ratios are equal (they all reduce to <m>\frac{3}{2}</m>), so the triangles are proportional.</p></li>
   <li><p>Here are the ratios of the sides of the larger triangle to the corresponding sides of the smaller triangle:
         <md><mrow>\text{Longest sides} \hphantom{0000} \dfrac{6}{5}</mrow>
             <mrow>\text{Middle sides} \hphantom{0000} \dfrac{5}{4}</mrow>
-            <mrow>\text{Shortext sides} \hphantom{0000} \dfrac{4}{3}</mrow></md>
+            <mrow>\text{Shortest sides} \hphantom{0000} \dfrac{4}{3}</mrow></md>
         These ratios are not equal, so the triangles are not proportional.</p></li>
 </ol></p></solution></example>
 
@@ -183,7 +183,7 @@ We cannot add or subtract the same number to get an equivalent fraction.  For ex
   </ol></p></statement>
 
 <answer><p><ol>
-  <li><p>(b) and (c)</p></li>
+  <li><p>The ratios in (b) and (c) are equivalent.</p></li>
   <li><p><ol marker="a." cols = "2">
         <li><p><m>\dfrac{4}{6}, ~ \dfrac{6}{9}, ~ \dfrac{8}{12}</m></p></li>
         <li><p><m>\dfrac{18}{16}, ~ \dfrac{27}{24}, ~ \dfrac{36}{32}</m></p></li>
@@ -226,7 +226,7 @@ You can verify that both of these ratios reduce to <m>\dfrac{4}{3}</m>, the scal
 </ol></p></statement>
 
 <answer><p><ol marker="a."> 
-  <li><p><m>\dfrac{7}{3}</m></p></li>
+  <li><p>The scale factor is <m>\dfrac{7}{3}.</m></p></li>
   <li><p><m>a = 28,~ h = 35</m></p></li>
   <li><p><m>\dfrac{7}{3} \times 12 = 28; ~ \dfrac{7}{3} \times 15 = 35</m></p></li>
 </ol></p></answer></exercise>
@@ -248,7 +248,7 @@ You can verify that both of these ratios reduce to <m>\dfrac{4}{3}</m>, the scal
     <image source="parallelograms.png" width="90%"></image></statement></example>
 
 <exercise><statement><p>These two figures are similar.  Find the missing measurements.</p>
-    <image source="findmissing.png" width="70%"></image></statement>
+    <image source="findmissing.png" width="80%"></image></statement>
 
 <answer><m>a = 120 \degree, ~ b = 60 \degree, ~ c = 9</m></answer></exercise>
 
@@ -319,7 +319,7 @@ and the missing angle in the second triangle must be 42°. Thus, the two triangl
   <li><image source="whichsimd.png" width="100%"></image></li>
 </ol></statement>
 
-<answer><p>(c) and (d)</p></answer></exercise>
+<answer><p>The triangles in (c) and (d) are similar.</p></answer></exercise>
  
 </subsection>
 

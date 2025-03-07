@@ -103,7 +103,7 @@
   <li><p>For example, <m>3</m> and <m>3</m></p></li>
   <li><p>For example, <m>3</m> and <m>0</m></p></li>
   <li><p>For example, <m>0</m> and <m>-3</m></p></li>
-</ol></p></exercise>
+</ol></p></answer></exercise>
 
 <exercise number="10"><statement><p><ol marker="a.">
   <li><p>Find two numbers whose product is 1.</p></li>
@@ -120,12 +120,12 @@
 <exercise number="12"><statement><m>-9+4-3+2</m></statement></exercise>
 
 <exercise number="13"><statement><m>2+5-8-1</m></statement>
-<answer><m>-2</m></answer></exercise></exercise>
+<answer><m>-2</m></answer></exercise>
 
 <exercise number="14"><statement><m>13-6-12+17</m></statement></exercise>
 
 <exercise number="15"><statement><m>-7-8+16-4</m></statement>
-<answer><m>-3</m></answer></exercise></exercise>
+<answer><m>-3</m></answer></exercise>
 
 <exercise number="16"><statement><m>20-10-10-8</m></statement></exercise>
 </exercisegroup>
@@ -133,27 +133,27 @@
 <exercisegroup cols="2"><introduction><p>For Problems 17-26, simplify by following the rules for addition and subtraction.</p></introduction>
 
 <exercise number="17"><statement><m>-3-4-(-2)</m></statement>
-<answer><m>-5</m></answer></exercise></exercise>
+<answer><m>-5</m></answer></exercise>
 
 <exercise number="18"><statement><m>7-10-(-5)</m></statement></exercise>
 
 <exercise number="19"><statement><m>6-8-(-9)-1</m></statement>
-<answer><m>6</m></answer></exercise></exercise>
+<answer><m>6</m></answer></exercise>
 
 <exercise number="20"><statement><m>-7-2-3-(-8)</m></statement></exercise>
 
 <exercise number="21"><statement><m>3+2-(-4)+(-7)</m></statement>
-<answer><m>2</m></answer></exercise></exercise>
+<answer><m>2</m></answer></exercise>
 
 <exercise number="22"><statement><m>-6+5+(-2)-(-8)</m></statement></exercise>
 
 <exercise number="23"><statement><m>12-(-7)-(-2)-4</m></statement>
-<answer><m>17</m></answer></exercise></exercise>
+<answer><m>17</m></answer></exercise>
 
 <exercise number="24"><statement><m>-11-2-(-4)-(-3)</m></statement></exercise>
 
 <exercise number="25"><statement><m>21+(-15)-(-2)-7</m></statement>
-<answer><m>1</m></answer></exercise></exercise>
+<answer><m>1</m></answer></exercise>
 
 <exercise number="26"><statement><m>-14-(-16)-4+(-7)</m></statement></exercise>
 </exercisegroup>
@@ -166,12 +166,13 @@
   <li><m>4-(-7)</m></li>
   <li><m>-(4-7)</m></li>
 </ol></p></statement>
+
 <answer><p><ol marker="a." cols="4">
   <li><m>-3</m></li>
   <li><m>-28</m></li>
   <li><m>11</m></li>
   <li><m>3</m></li>
-</ol></p></exercise>
+</ol></p></answer></exercise>
 
 <exercise number="28"><statement><p><ol marker="a." cols="4">
   <li><m>-4-7</m></li>
@@ -186,12 +187,13 @@
   <li><m>12-(-20)</m></li>
   <li><m>-(-12-20)</m></li>
 </ol></p></statement>
+
 <answer><p><ol marker="a." cols="4">
   <li><m>-8</m></li>
   <li><m>-240</m></li>
   <li><m>32</m></li>
   <li><m>32</m></li>
-</ol></p></exercise>
+</ol></p></answer></exercise>
 
 <exercise number="30"><statement><p><ol marker="a." cols="4">
   <li><m>-12-20</m></li>

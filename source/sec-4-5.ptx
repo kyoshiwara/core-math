@@ -226,7 +226,7 @@ we compute the sum  <m>16+14</m> and the difference <m>8-2</m>  before dividing:
 
 <p>We can combine all the rules in this section into a set of guidelines for simplifying expressions. These guidelines are called the <term>order of operations</term>.</p>
 
-<assemblage><title>Order of Operations</title>
+<assemblage xml:id="Order-of-Operations"><title>Order of Operations</title>
 <p><ol>
   <li><p>First, perform all operations inside parentheses, or above or below a fraction bar.</p></li>
   <li><p>Next, perform all multiplications and divisions in order from left to right.</p></li>

@@ -94,7 +94,7 @@
           <li><p>The ballerina's legs form a(n) <fillin characters="10"/> angle.</p></li>
           <li><p>The male dancer's legs form a(n)<fillin characters="10"/> angle.</p></li></ol></p></statement>
 
-<answer><p><ol marker="a.">
+<answer><p><ol marker="a." cols="3">
           <li><p>obtuse</p></li>
           <li><p>right</p></li>
           <li><p>acute</p></li>
@@ -349,8 +349,6 @@
     <li><p>Read the number where the other side of the angle meets the scale on the circular edge of the protractor.</p></li>
   </ol></p></assemblage>
 
-  <note><p>Notice that the protractor has one scale that starts at the right edge and increases in the counterclockwise direction, and a second scale that starts on the left edge. That's so you can line up the first side of the angle in either direction from the center.</p></note>
-
 <example><statement><p>Use a protractor to measure this angle:</p>
     <!-- <image source="protractorangle.png" width="25%"></image>-->
     <image xml:id="Angle40-deg" width="40%"><description>Acute angle</description><latex-image>
@@ -402,7 +400,10 @@
           \end{tikzpicture}]]>
   </latex-image></image>
   
-<p>Now follow the scale that increases from side OB up to side OA. In this case it is the inner scale. We see that side OA meets the inner scale at 40<m>\degree</m>. The measure of <m>\angle~AOB</m> is 40<m>\degree</m>.</p></solution></example>
+<p>Now follow the scale that increases from side OB up to side OA. In this case it is the inner scale. We see that side OA meets the inner scale at 40<m>\degree</m>. The measure of <m>\angle~AOB</m> is 40<m>\degree</m>.</p>
+</solution></example>
+
+<note><p>Notice that the protractor has one scale that starts at the right edge and increases in the counterclockwise direction, and a second scale that starts on the left edge. That's so you can line up the first side of the angle in either direction from the center.</p></note>
 
 <exercise><statement><p>What is the measure of the obtuse angle shown below?</p>
     <!-- <image source="protractor135.png" width="70%"></image>-->
@@ -972,8 +973,8 @@
   <li><p>What is the measure of each angle of an equilateral triangle?</p></li></ol></p></statement>
 
 <answer><p><ol marker="a.">
-  <li><p><m>30\degree</m></p></li>
-  <li><p><m>60\degree</m></p></li>
+  <li><p>Each base angle is <m>~30\degree</m>.</p></li>
+  <li><p>Each angle in an equilateral triangle is <m>~60\degree</m>.</p></li>
 </ol></p></answer></exercise>
 
 Here are the facts we have discovered about angles in triangles.

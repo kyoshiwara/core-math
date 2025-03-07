@@ -125,7 +125,9 @@ You need $15 of your earnings to pay off the debt, so we subtract $15 from $20. 
     <me>(+5)+(-5) = 0</me>
   When we add two numbers that are opposites, we get zero. We represent the zero sum <m>(+5)+(-5)</m> with counters like this:
         <image source="zerosum.png" width="60%"></image>
-  (In our examples, yellow counters are positive and red ones are negative.) Because the sum is zero, we can remove them from the table. An empty table represents the number 0.</p></li>
+  Because the sum is zero, we can remove them from the table. An empty table represents the number 0.</p>
+
+  <p>Note: In our examples below, yellow counters are positive and red ones are negative.</p> </li>
 
   <li><p>Now we'll consider a sum of two numbers with opposite signs. Represent
         <me>(+7)+(-3)</me>
@@ -224,10 +226,12 @@ You need $15 of your earnings to pay off the debt, so we subtract $15 from $20. 
 </ol></p></solution></example>
 
 <note><p>Here is an informal strategy for adding signed numbers:</p>
-  <p>Step 1    Do the two numbers have the same sign or opposite signs?</p>
-  <p>Step 2a   (Same sign)  Great:  add 'em up and keep the same sign.</p>
-   <p>Step 2b  (Opposite signs)  Which number is "bigger" (farther from zero)?  
-      That number wins -- use the sign of that number. Subtract to see how much bigger.</p></note>  
+<p><ul>
+  <li><p>Step 1    Do the two numbers have the same sign or opposite signs?</p></li>
+  <li><p>Step 2a   (Same sign)  Great:  add 'em up and keep the same sign.</p></li>
+  <li><p>Step 2b   (Opposite signs)  Which number is "bigger" (farther from zero)?  
+      That number wins -- use the sign of that number. Subtract to see how much bigger.</p></li>
+  </ul></p></note>  
 
 <exercise><statement><p>Use the Rules for Addition to find the following sums.<ol marker="a." cols="3">
   <li><p><m>(-2) + (-2)</m></p></li>
@@ -269,7 +273,7 @@ The net change in Seymour's stock was a 4-point loss.</p></solution></example>
 </ol></p></statement>
 <answer><p><ol marker="a.">  
   <li><p><m>(-58)+(+42)</m></p></li> 
-  <li><p>A loss of 16 votes</p></li>
+  <li><p>The net change was a loss of 16 votes.</p></li>
 </ol></p></answer></exercise>
 
 </subsection>

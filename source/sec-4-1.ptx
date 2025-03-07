@@ -104,7 +104,8 @@
 <exercise><statement><sidebyside widths="60% 18%"><p>You have <m>\dfrac{2}{3}</m> of a chocolate cake, left over from a birthday party. One serving is <m>\dfrac{1}{12}</m> of a cake. How many servings do you have left?</p>
     <image source="twelfths.png"></image></sidebyside></statement>
 
-<answer><m>8</m></answer></exercise>
+<answer><p>How many twelfths are there in two-thirds?</p>
+  <p><me>\dfrac{2}{3} \times \dfrac{4}{4} = \dfrac{8}{12}~~</me> There are 8 servings left.</p></answer></exercise>
 
 <p>Let's practice breaking a fraction into smaller pieces. Remember that the denominator tells us how many pieces are in a whole.</p>
 
@@ -149,7 +150,7 @@
 <assemblage><title>Definition</title>
 <p>Fractions that have different denominators are called <term>unlike fractions</term>.</p></assemblage>
 
-<example><statement><p>  Subtract:  <m>\dfrac{3}{4} - \dfrac{5}{8}</m></p></statement>
+<example><statement><p>  Subtract:  <m>~~\dfrac{3}{4} - \dfrac{5}{8}</m></p></statement>
 
 <solution><p>First, we must arrange that both fractions have the same denominator. We do this by breaking one (or both) of the fractions into smaller pieces. Eighths are smaller pieces than fourths, so we will rewrite <m>\dfrac{3}{4}</m> as an equivalent fraction with denominator 8.
 <me>\dfrac{3}{4} - \dfrac{\boxed{?}}{8}</me></p>
@@ -158,13 +159,13 @@
   <me>\dfrac{3}{4} \times \dfrac{\alert{2}}{\alert{2}} = \dfrac{6}{8}</me></p>
 
 <p>So <m>\dfrac{3}{4} = \dfrac{6}{8}</m>.  We replace <m>\dfrac{3}{4}</m> by <m>\dfrac{6}{8}</m> in the original problem.
-  <me>\dfrac{3}{4} - \dfrac{5}{8} = \dfrac{6}{8} - \dfrac{5}{8}</me></p>
+  <me>\blert{\dfrac{3}{4}} - \dfrac{5}{8} = \blert{\dfrac{6}{8}} - \dfrac{5}{8}</me></p>
 
 <p>Now we have like fractions, and we can finish the subtraction.
   <me>\dfrac{6}{8} - \dfrac{5}{8} = \dfrac{6 - 5}{8} = \dfrac{1}{8} ~~~~ \blert{\dfrac{\text{Combine the numerators.}}{\text{Keep the denominator.}}}</me></p>
 </solution></example>
 
-<note xml:id="building-fractions"><p>In Example 4.1.2, we multiplied the numerator and denominator of <m>\dfrac{3}{4}</m> by <m>\alert{2}</m> to write the fraction with the denominator we needed, namely 8.  When we rewrite a fraction, the number we multiply by is often called the <term>building factor</term>.
+<note xml:id="building-fractions"><p>In Example 4.1.7, we multiplied the numerator and denominator of <m>\dfrac{3}{4}</m> by <m>\alert{2}</m> to write the fraction with the denominator we needed, namely 8.  When we rewrite a fraction, the number we multiply by is often called the <term>building factor</term>.
   <md><mrow>\dfrac{\text{old numerator}}{\text{old denominator}} \amp \times \dfrac{\text{building factor}}{\text{building factor}} \amp\amp =  \dfrac{\text{new numerator}}{\text{new denominator}}</mrow>
       <mrow>\dfrac{3}{4} ~~~~~~ \amp \times ~~~~~~ \dfrac{\alert{2}}{\alert{2}} \amp \amp = ~~~~~~ \dfrac{6}{8}</mrow></md>
 </p></note>
@@ -390,7 +391,7 @@ We usually write <m>1 + \dfrac{1}{12}</m> as a <term>mixed number</term>, <m>1 \
 
 <exercise><statement><p>Write <m>\dfrac{8}{3}</m> as a mixed number. (Hint: How many thirds are in one whole?)</p></statement>
 
-<answer><m>2\dfrac{2}{3}</m></answer></exercise>
+<answer><m>\dfrac{8}{3} = \dfrac{6}{3} + \dfrac{2}{3} = 2 + \dfrac{2}{3} = 2\dfrac{2}{3}</m></answer></exercise>
 
 <p>We can also write a mixed number as an improper fraction by adding the fraction part to the whole number.</p>
 

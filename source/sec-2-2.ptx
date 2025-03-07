@@ -703,7 +703,7 @@ We get the same answer, and we can do the calculations mentally!</p></solution><
 <p>Many fields have a "one-third" rule as a guideline.</p>
 
 <example><statement><p>In photography, the one-third rule suggests that an image should be divided into thirds, both horizontally and vertically, and important elements of the picture, including the horizon, should be placed on the division lines or their intersections.</p>
-<p>Zack plans to enlarge the farming scene below into a 24-inch by 15-inch photograph. If he crops the photo according to the one-third rule, how far will the base of the tree be from the right-side edge of the picture?</p>
+<p>Zack plans to enlarge the farming scene below into a 24-inch by 15-inch photograph. According to the one-third rule, how far will the base of the tree be from the right-side edge of the picture?</p>
   <image source="photo.png" width = "60%"></image></statement>
 
 <solution><p>One-third of 24 is 8, so the base of the tree should be 8 inches from the edge of the picture.</p></solution></example>

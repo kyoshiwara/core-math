@@ -44,9 +44,23 @@
 <exercise number="9"><statement><p>Describe a way to find 0.625 of $6400 without using a calculator.</p></statement>
 <answer><p>Divide by 10, then muliply by 5</p></answer></exercise>
 
-<exercise number="10"><statement><p>One of the numbers below is not equal to any of the others. Which is it? Sort the rest of the numbers into three groups of equal numbers.
-  <me>0.3 \hphantom{00} 3\% \hphantom{00} 3.0 \hphantom{00} \dfrac{3}{100} \hphantom{00} 0.03 \hphantom{00} \dfrac{30}{100} \hphantom{00} 30\% \hphantom{00} \dfrac{1}{3} \hphantom{00} 0.30 \hphantom{00} \dfrac{30}{10} \hphantom{00} 300\% \hphantom{00} \dfrac{3}{10} \hphantom{00} 3.00</me>
-</p></statement></exercise>
+<exercise number="10"><statement><p>One of the numbers below is not equal to any of the others. Which is it? Sort the rest of the numbers into three groups of equal numbers.</p>
+<tabular>
+  <row>
+    <cell><m>\hphantom{00} 0.3 \hphantom{00}</m></cell>
+    <cell><m>\hphantom{00} 3.0 \hphantom{00}</m></cell>
+    <cell><m>\hphantom{00} \dfrac{3}{100} \hphantom{00}</m></cell>
+    <cell><m>\hphantom{00} 0.03 \hphantom{00}</m></cell>
+    <cell><m>\hphantom{00} \dfrac{30}{100} \hphantom{00}</m></cell>
+    <cell><m>\hphantom{00} 30\% \hphantom{00}</m></cell></row>
+  <row><cell><m>\hphantom{00} \dfrac{1}{3} \hphantom{00}</m></cell>
+    <cell><m>\hphantom{00} 0.30 \hphantom{00}</m></cell>
+    <cell><m>\hphantom{00} \dfrac{300}{100} \hphantom{00}</m></cell>
+    <cell><m>\hphantom{00} 300\% \hphantom{00}</m></cell>
+    <cell><m>\hphantom{00} 3\% \hphantom{00}</m></cell>
+    <cell><m>\hphantom{00} 3.00 \hphantom{00}</m></cell></row>
+  </tabular>
+</statement></exercise>
 
 <exercise number="11"><statement><p><ol marker="a.">
   <li><p>Which is a larger fraction, <m>\dfrac{3}{8}</m> or <m>\dfrac{1}{3}</m>?</p></li>

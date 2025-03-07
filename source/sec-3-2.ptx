@@ -272,7 +272,7 @@ Should we multiply 3 times 5 and then square the result, or should we square 5 f
 </subsection>
 
 <subsection xml:id="pythagoras"><title>Pythagorean Theorem</title>
-<p><sidebyside widths="50% 40%"><p>Delbert is taking a week-long tour on his trail bike. He is traveling across open country in the West, using a guide book that describes his route and suggests places to camp each night. This morning he read the following instructions in the guide book:</p>
+<p><sidebyside widths="50% 40%" valigns="middle middle"><p>Delbert is taking a week-long tour on his trail bike. He is traveling across open country in the West, using a guide book that describes his route and suggests places to camp each night. This morning he read the following instructions in the guide book:</p>
  <image source="biketrip.png"></image></sidebyside></p> 
 
  <assemblage><p>"After breaking camp, ride directly west for 20 miles. You will come to a deep, narrow canyon running north and south.  However, there is a dirt road that runs along the east side of the canyon, and precisely where you meet the road there is a bridge over the canyon. Cross the bridge and continue for two more miles to a county park, which is your first rest stop for the day."</p></assemblage>
@@ -418,12 +418,12 @@ Should we multiply 3 times 5 and then square the result, or should we square 5 f
 
 <p>In words, the Pythagorean theorem says:</p>
 
-<assemblage><p>
-  <me>\blert{\large\text{In a right triangle,}}</me>
-    <me>\substack{\hphantom{000}\blert{\LARGE\text{the square of}}\\ \blert{\LARGE\text{the hypotenuse}}}
+<assemblage>
+  <p><me>\blert{\large\text{In a right triangle,}}</me></p>
+  <p><me>\substack{\hphantom{000}\blert{\LARGE\text{the square of}}\\ \blert{\LARGE\text{the hypotenuse}}}
       \hphantom{00000} \blert{\large\text{is equal to}}\hphantom{0000}
-      \substack{\blert{\LARGE\text{the sum of the squares}} \\ \blert{\LARGE\text{of the two legs}}}</me>
-</p></assemblage>
+      \substack{\blert{\LARGE\text{the sum of the squares}} \\ \blert{\LARGE\text{of the two legs}}}</me></p>
+</assemblage>
 
 <p>Because the square of its side length gives the area of a square, we can visualize the Pythagorean theorem with areas of squares, like this:</p>
 
@@ -448,62 +448,62 @@ Should we multiply 3 times 5 and then square the result, or should we square 5 f
       <cell><m>P^2-Q^2</m></cell>
       <cell><m>P^2+Q^2</m></cell></row>
     <row>
-      <cell>2</cell>
-      <cell>1</cell>
-      <cell><m>2 \ dot 2 \cdot 1 = \blert{4}</m></cell>
+      <cell><m>2</m></cell>
+      <cell><m>1</m></cell>
+      <cell><m>2 \cdot 2 \cdot 1 = \blert{4}</m></cell>
       <cell><m>2^2-1^2 = \blert{3}</m></cell>
       <cell><m>2^2+1^2= \blert{5}</m></cell></row>
     <row>
-      <cell>3</cell>
-      <cell>1</cell>
+      <cell><m>3</m></cell>
+      <cell><m>1</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell></row>
     <row>
-      <cell>3</cell>
-      <cell>2</cell>
+      <cell><m>3</m></cell>
+      <cell><m>2</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell></row>
     <row>
-      <cell>4</cell>
-      <cell>1</cell>
+      <cell><m>4</m></cell>
+      <cell><m>1</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell></row>
     <row>
-      <cell>4</cell>
-      <cell>2</cell>
+      <cell><m>4</m></cell>
+      <cell><m>2</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell></row>
     <row>
-      <cell>4</cell>
-      <cell>3</cell>
+      <cell><m>4</m></cell>
+      <cell><m>3</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell></row>
     <row>
-      <cell>5</cell>
-      <cell>1</cell>
+      <cell><m>5</m></cell>
+      <cell><m>1</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell></row>
     <row>
-      <cell>5</cell>
-      <cell>2</cell>
+      <cell><m>5</m></cell>
+      <cell><m>2</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell></row>
     <row>
-      <cell>5</cell>
-      <cell>3</cell>
+      <cell><m>5</m></cell>
+      <cell><m>3</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell></row>
     <row>
-      <cell>5</cell>
-      <cell>4</cell>
+      <cell><m>5</m></cell>
+      <cell><m>4</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell>
       <cell><m>\hphantom{00000}</m></cell></row>

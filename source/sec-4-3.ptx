@@ -24,7 +24,7 @@ You can review exponents in <xref ref="exponents" text="custom">Section 3.2</xre
     <me>7^2 = 7 \times 7 = 49</me>
 If you know the square of a number, can you find the original number?</p>
 
-<sidebyside widths="70% 25%"><stack><p>The area of the square shown at right is 25 square inches. What is the length of each side of the square? Because the area of a square is found by squaring the length of a side, we are looking for a number whose square is 25.</p>
+<sidebyside widths="70% 25%" margins="0% 5%"><stack><p>The area of the square shown at right is 25 square inches. What is the length of each side of the square? Because the area of a square is found by squaring the length of a side, we are looking for a number whose square is 25.</p>
 <p>You can probably see that the number we need is 5, because <m>5^2 = 25</m>. The number 5 is called a <term>square root</term> of 25.</p></stack>  
   <image source="fivesquared.png"></image></sidebyside>
 
@@ -39,7 +39,7 @@ If you know the square of a number, can you find the original number?</p>
 
 <exercise><statement><p>What number is a square root of 16 ?</p></statement>
 
-<answer><p>4</p></answer></exercise>
+<answer><p>4 is a square root of 16.</p></answer></exercise>
 
 <note><p> If you know about negative numbers, you will have noticed that 5 is not the only square root of 25.  We can see that <m>-5</m>  is another square root of  25, because 
     <me>(-5)^2 = (-5) \cdot (-5) = 25</me>
@@ -58,7 +58,7 @@ so <m>\sqrt{16} = 4.</m></p></assemblage>
 
 <exercise><statement><p>Evaluate  <m>\sqrt{4}</m></p></statement>
 
-<answer><p>2</p></answer></exercise>
+<answer><p><m>\sqrt{4} = 2</m></p></answer></exercise>
 
 <p>Numbers such as 16 and 25 are called <term>perfect squares</term> because they are the squares of whole numbers: 
     <me>16 = 4^2 ~~~~~~ \text{and} ~~~~~~ 25 = 5^2 </me> 
@@ -218,7 +218,7 @@ We met perfect squares in our work with exponents. So you already know the squar
 
 <p>Perhaps you think that  2.236  is close enough, and you don't want to fill in any more tables.  But maybe you are curious to know how far we have to go to find the exact decimal value of <m>\sqrt{5}</m>.</p>
 
-<p>It turns out that no matter how many decimal places we find, we will never obtain an exact decimal form for <m>\sqrt{5}</m>.  For this reason, <m>\sqrt{5}</m> is called an <term>irrational number</term>, because it cannot be expressed as a decimal fraction.</p>
+<p>It turns out that no matter how many decimal places we find, we will never obtain an exact decimal form for <m>\sqrt{5}</m>.  For this reason, <m>\sqrt{5}</m> is called an <term>irrational number</term>, because it cannot be expressed as a decimal fraction. (The term "irrational" comes from "ratio," another word for fraction.)</p>
 
 <assemblage><title>Definition</title>
 <p>An <term>irrational number</term> is one that cannot be written as a fraction.</p></assemblage>
@@ -271,11 +271,11 @@ This is because squaring and taking square roots are <term>opposite operations</
 We can check our result by squaring.
     <me>B^2 = 28^2 = 784</me></p></solution></example>
 
-<note><p>In Example 4.3.9, we can also say that we solved the equation <m>B^2 = 784</m>. Earlier we learned that we solve equations by applying opposite operations, and the same is true here:  to solve an equation where the variable is squared, we take the square root.</p></note>
+<note><p>In Example 4.3.10, we can also say that we solved the equation <m>B^2 = 784</m>. Earlier we learned that we solve equations by applying opposite operations, and the same is true here:  to solve an equation where the variable is squared, we take the square root.</p></note>
 
 <exercise><statement><p>If <m>p</m> is a positive number, solve the equation  <m>p^2 = 0.0225</m>.</p></statement>
 
-<answer><m>p = 0.15</m></answer></exercise>
+<answer><m>p = \sqrt{0.0225} = 0.15</m></answer></exercise>
 </subsection>
 
 <subsection><title>Pythagorean Theorem</title>
@@ -289,7 +289,7 @@ We can check our result by squaring.
  
 <p>We first studied the Pythagorean Theorem in <xref ref="pythagoras" text="custom">Section 3.2</xref>. And now that we can take square roots, we can use the theorem to solve problems.</p>
 
-<example><statement><sidebyside widths="70% 25%"><p>The two legs of a right triangle are 6 inches and 8 inches long. How long is the hypotenuse?</p>
+<example><statement><sidebyside widths="60% 30%" valigns="middle middle"><p>The two legs of a right triangle are 6 inches and 8 inches long. How long is the hypotenuse?</p>
     <image source="six8rttri.png"></image></sidebyside></statement>
 
 <solution><p>We substitute the lengths of the two legs into the Pythagorean theorem for <m>a</m> and <m>b</m>.
@@ -304,7 +304,7 @@ The hypotenuse is 10 inches long.</p></solution></example>
 
 <answer><p>41 meters</p></answer></exercise>
 
-<example><statement><sidebyside widths="70% 25%"><p>A triathlete wants to know the distance across a small lake, from point <m>A</m> to point <m>B</m>.  She locates point <m>C</m> on one side of the lake to make a right triangle as shown. The distance from <m>A</m> to <m>C</m> is 3 miles, and the distance from <m>B</m> to <m>C</m> is 4 miles.  How far is it from <m>A</m> to <m>B</m> across the lake?</p>
+<example><statement><sidebyside widths="70% 30%"><p>A triathlete wants to know the distance across a small lake, from point <m>A</m> to point <m>B</m>.  She locates point <m>C</m> on one side of the lake to make a right triangle as shown. The distance from <m>A</m> to <m>C</m> is 3 miles, and the distance from <m>B</m> to <m>C</m> is 4 miles.  How far is it from <m>A</m> to <m>B</m> across the lake?</p>
     <image source="laketri.png"></image></sidebyside></statement>
 
 <solution><p>We can apply the Pythagorean theorem. Let's let <m>d</m> represent the distance across the lake, from <m>A</m> to <m>B</m>.  Then

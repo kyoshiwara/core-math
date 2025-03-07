@@ -98,8 +98,8 @@ The second number line illustrates the subtraction problem
 </ol></p></statement>
 
 <answer><p><ol marker="a." cols="2">
-  <li><p><m>-4</m></p></li>
-  <li><p><m>-8</m></p></li>
+  <li><p><m>5-(+9) = 5+(-9) = -4</m></p></li>
+  <li><p><m>-3-(+5) = -3 + (-5) = -8</m></p></li>
 </ol></p></answer></exercise>
 </subsection>
 
@@ -193,8 +193,8 @@ debt of $500 has the same effect as adding $500 to your account!</p></note>
 </ol></p></statement>
 
 <answer><p><ol marker="a." cols="2">
-  <li><p><m>+5</m></p></li>
-  <li><p><m>-7</m></p></li>
+  <li><p><m>3 - (-2) = 3+(+2) = +5</m></p></li>
+  <li><p><m>-19 - (-12) = -19 + (+12) = -7</m></p></li>
 </ol></p></answer></exercise>
 
 <activity><title>Net Change</title>
@@ -268,11 +268,19 @@ Notice that if the final value is smaller than the initial value, the net change
 
 <p>You can check that both these expressions yield the same result, <m>-21</m>. After all, we perform subtraction by changing to an equivalent addition problem. So why not interpret <m>~-8 - 13~</m> as a sum in the first place?</p>
 
-<p>That is what we'll do. When we see a string of numbers separated by plus or minus signs, we'll treat it as a sum of signed numbers.  For example, the expression
+<p>That is what we'll do.</p>
+
+ <assemblage xml:id = "sum-of-signednos"><title>Interpreting Notation</title>
+  <p>When we see a string of numbers separated by plus or minus signs, we'll treat it as a sum of signed numbers.</p>
+</assemblage>
+
+<p>For example, the expression
       <me> 4 - 9 + 6 - 2</me>
 means "add <m>4</m> and <m>-9</m> and <m>6</m> and <m>-2</m>," to get <m>-1</m>.</p>
 
-<example><statement><p>Simplify the sum of signed numbers  <m>-3 - 6 + 4</m></p></statement>
+<note><p>Interpreting such expressions as a sum of signed numbers will be important when we get to solving equations with signed numbers.</p></note>
+
+<example><statement><p>Simplify the sum of signed numbers  <m>~-3 - 6 + 4.</m></p></statement>
 
 <solution><p>Working from left to right, first we add <m>-3</m> and <m>-6</m> to get <m>-9</m>, then we add <m>+4</m> to the <m>-9</m>, to get <m>-5</m>.</p></solution></example>
 

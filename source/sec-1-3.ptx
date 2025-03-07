@@ -156,7 +156,7 @@
 
 <exercise><statement><p>Which of the following numbers are prime numbers?
         <me>4 \hphantom{0000}  5 \hphantom{0000} 8 \hphantom{0000} 9</me></p></statement>
-<answer><p>5</p></answer></exercise>
+<answer><p>Only 5 is prime.</p></answer></exercise>
 
 <p>In Activity 1.3.3 we'll find all the prime numbers between 1 and 100.</p>
 
@@ -318,6 +318,8 @@
       <image source="factorLCM.png" width="25%"></image>
 <p>Finally, we multiply together all the factors that appear in either number.
       <me>\large{\text{LCM} = 2 \times 2 \times 3 \times 5 = 60}</me></p></solution></example>
+
+<p>In the previous Example, we used 2 factors of <m>2</m> for the LCM because there are 2 factors of <m>2</m> in 12. We used only one factor of <m>3</m> because there is only one factor of <m>3</m> in either 12 or 15. In general, we can say that for the LCM we use each factor the most times it appears in either one of the two given numbers.</p>
 
 <note><p> Look carefully at the difference between using prime factorization to find the GCF and to find the LCM.</p>
 <p><ul>  

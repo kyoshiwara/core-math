@@ -104,7 +104,7 @@ we perform the multiplication first.
 <p>Complete the table to help you decide whether the two expressions are equivalent.</p>
 <p><ol marker="1.">
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">                   
-        <row header="yes">
+        <row >
             <cell><m>x</m></cell>
             <cell>2</cell>
             <cell>5</cell>
@@ -126,7 +126,7 @@ we perform the multiplication first.
     <p>Is <m>4x + 3x</m> equivalent to <m>7x</m>?</p></li>
 
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">                        
-        <row header="yes">
+        <row >
             <cell><m>x</m></cell>
             <cell>2</cell>
             <cell>5</cell>
@@ -148,7 +148,7 @@ we perform the multiplication first.
     <p>Is <m>4 + 3x</m> equivalent to <m>7x</m>?</p></li>
 
     <li><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">                        
-        <row header="yes">
+        <row >
             <cell><m>x</m></cell>
             <cell>2</cell>
             <cell>5</cell>
@@ -221,11 +221,16 @@ but
 <p>This is because <m>x</m> and <m>x^2</m> are usually not the same number (unless <m>x</m> happens to be 0 or 1), so we cannot combine them into one group (like cats and canaries).</p>
 
 <example><statement><p>Combine like terms.
-<ol marker="a.">
+<ol marker="a." cols="2">
+    <li><m>4x^2 + 3x^2</m></li>
+    <li><m>7a^2 + 5a</m></li>
+</ol></p></statement>
+
+<solution><p><ol marker="a.">
     <li><p>We add the coefficients, <m>4 + 3</m>,  and leave the variable part, <m>x</m>, unchanged.
         <me>4x^2 + 3x^2 = (4 + 3) x^2 = 7x^2</me></p></li>
     <li><p><m>7a^2</m> and <m>5a</m> are not like terms, because the variable, <m>a</m>, does not have the same exponent.  So we cannot combine the terms; this expression cannot be simplified.</p></li>
-</ol></p></statement></example>
+</ol></p></solution></example>
 
 <note><p>When combining like terms, we <em>do not add the exponents</em>.  For example,
       <me>4x^2 + 3x^2 = 7x^4 ~~~~ \alert{\text{is  incorrect!}}</me>
@@ -283,7 +288,7 @@ For example, if  <m>x=5</m>,
   <li><p>Perform additions and subtractions in order from left to right.</p></li>
 </ol></p></assemblage>
 
-<p>(You can review the order of operations in Section 4.5.)</p>
+<p>(You can review the order of operations in <xref ref="Order-of-Operations" text="custom"> Section 4.5 </xref>.)</p>
 
 <example><statement><p>Evaluate the expression <m>~20-2x^2~</m>  for <m>x=3</m>.</p></statement>
 

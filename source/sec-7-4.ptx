@@ -36,7 +36,8 @@ The solution is <m>x = 9</m>. If you like, you can review solving equations in <
 
 <p>Consider the expression  
       <me>8 - 2x</me>  
-We might naturally read this expression as "8 subtract <m>2x</m>," but we can also thnk of it as the sum of 8 and <m>-2x</m>.</p>  
+We might naturally read this expression as "8 subtract <m>2x</m>," but we can also think of it as the sum of 8 and <m>-2x</m>.</p> 
+<p>To review this notion, see <xref ref="sum-of-signednos" text="custom"> Section 7.2 </xref>.</p>
 <p>In fact, we can think of any string of terms as a sum, where the <m>~+~</m> and <m>~-~</m> symbols tell us the sign of the term that follows.  For example,
       <md><mrow>-5 - 4 ~~~~~~  \amp \text{is the sum of} ~~ -5 ~~ \text{and} ~~ -4</mrow>
           <mrow>3a - 9 ~~~~~~  \amp \text{is the sum of} ~~~~~ 3a ~~ \text{and} ~~ -9</mrow>
@@ -96,7 +97,18 @@ The solution checks.</p></solution></example>
 <p>Check:</p>
 </statement>
 
-<answer><p>2</p></answer></exercise>
+<answer><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
+        <row bottom="minor" header="yes">
+            <cell>Operations performed on <m>x</m></cell>
+            <cell>Steps for Solution</cell></row>
+        <row bottom="minor">
+            <cell>1. Multiplied by <m>-4</m></cell>
+            <cell>1.Subtract 10</cell></row>
+        <row bottom="minor">
+            <cell>2. Added 10</cell>
+            <cell>2. Divide by <m>-4</m></cell></row>
+    </tabular>
+    <p><m>x=2</m></p></answer></exercise>
 
 <activity><title>Solving Equations</title>
 
@@ -193,13 +205,25 @@ The solution checks.</p></solution></example>
             <cell>3. </cell>
             <cell>3. </cell></row>
         </tabular>
-
 <p>Step 1:</p>
-
 <p>Step 2:</p>
-
 <p>Check:</p></statement>
-<answer><m>11.5</m></answer></exercise>
+
+<answer><tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">
+        <row bottom="minor" header="yes">
+            <cell>Operations performed on <m>x</m></cell>
+            <cell>Steps for Solution</cell></row>
+        <row bottom="minor">
+            <cell>1. Multiplied by <m>-2</m></cell>
+            <cell>1. Multiply by 6</cell></row>
+        <row bottom="minor">
+            <cell>2. Added 5</cell>
+            <cell>2. Subtract 5</cell></row>
+        <row bottom="minor">
+            <cell>3. Divided by 6</cell>
+            <cell>3. Divide by <m>-2</m></cell></row>
+        </tabular>
+    <p><m>x=11.5</m></p></answer></exercise>
 </subsection>
 
 <subsection><title>The Cartesian Coordinate System</title>
@@ -267,7 +291,7 @@ The solution checks.</p></solution></example>
 <exercise><statement><sidebyside widths="40% 35%" valigns="middle middle" margins="15% 10%"><p>Plot the point <m>(4,-3).</m></p>
     <image source="coords3.png" ></image></sidebyside></statement>
 
-<answer><image source="exer-7-4-3.png" width="30%"></image></answer></exercise>
+<answer><image source="exer-7-4-3.png" width="40%"></image></answer></exercise>
 
 <note><p>The signs of the coordinates determine in which of the four quadrants the point will appear.  If one (or both) of its coordinates is zero, the point lies on one of the two axes.</p></note> 
 
@@ -286,7 +310,7 @@ The solution checks.</p></solution></example>
 </ol></p>
     <image source="grid10by10.png"></image></sidebyside></statement>
 
-  <answer><image source="exer-7-4-4.png" width="40%"></image></answer></exercise>
+<answer><image source="exer-7-4-4.png" width="60%"></image></answer></exercise>
 </subsection>
 
 <subsection><title>Graphing Lines</title>
@@ -553,7 +577,7 @@ where <m>a</m> and <m>b</m> are constants, is a <term>linear equation</term>. It
 
 <answer><ol marker="a.">
   <li><p><m>C = 50 - 2d</m></p></li>
-  <li><p><image source="Chloeans.png" width="100%"></image></p></li>
+  <li><p><image source="Chloeans.png" width="50%"></image></p></li>
   <li><p>21 days</p></li>
   <li><p><m>8 = 50 - 2d</m></p></li>
 </ol></answer></exercise>

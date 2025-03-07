@@ -22,7 +22,7 @@
 
 <p>In an earlier lesson, we learned to find the perimeter of a straight-sided figure by adding the lengths of its sides.</p>
 
-<sidebyside widths="60% 30%"><p>For example, perhaps you know a formula for the perimeter of a rectangle. Because the opposite sides of the rectangle are equal in length, we can calculate its perimeter by</p>
+<sidebyside widths="60% 30%" margins="0% 10%"><p>For example, perhaps you know a formula for the perimeter of a rectangle. Because the opposite sides of the rectangle are equal in length, we can calculate its perimeter by</p>
   <image source="hp-1-5-29c.png"></image></sidebyside>
 
 <p><me> \blert{\text{Perimeter} = (2 \times \text{ width}) + (2 \times \text{ length})}</me></p>
@@ -118,7 +118,7 @@ The Greek letter <m>\blert{\pi}</m> (<term>pi</term>, read "pie") stands for an 
   <me>C = \pi \times d = \pi \times 50</me>
 Using a calculator, we find that <m>C = 157.07963</m>  feet, or approximately 157 feet.</p></solution></example>  
 
-<exercise><statement><p><sidebyside widths="50% 20%"><p>Find the distance around the edge of a 10 peso coin with diameter 28 millimeters.</p>
+<exercise><statement><p><sidebyside widths="50% 20%" valigns="middle middle"><p>Find the distance around the edge of a 10 peso coin with diameter 28 millimeters.</p>
     <image source="peso.png"></image></sidebyside></p></statement>
 
 <answer><p>87.96 mm</p></answer></exercise>
@@ -133,7 +133,7 @@ Using a calculator, we find that <m>C = 157.07963</m>  feet, or approximately 15
         <mrow>d \amp = \dfrac{500}{\pi}</mrow></md>
 Use your calculator to find that  is approximately 150.15 yards. Because the radius of a circle is half its diameter, we divide 150.15 by 2 to find that the radius is 79.58 yards. The distance to the gazebo from the edge of the pond is about 79.6 yards.</p></solution></example>
 
-<exercise xml:id="treetrunk"><statement><p><sidebyside widths="50% 20%"><p>A tree trunk has a circumference of 2 meters. What is the radius of the trunk?</p>
+<exercise xml:id="treetrunk"><statement><p><sidebyside widths="50% 20%" valigns="middle middle"><p>A tree trunk has a circumference of 2 meters. What is the radius of the trunk?</p>
     <image source="treetrunk.png"></image></sidebyside></p></statement>
 
 <answer><p> About 0.32 m</p></answer></exercise>
@@ -236,7 +236,7 @@ The product is called a <term>power</term> of the base. We compute powers before
 
 <solution><p>The diameter of the skating rink was 50 feet, so its radius is half that, or 25 feet. We substitute <m>\alert{25}</m> for <m>r</m> in the formula for area.
     <md><mrow>\text{Area } \amp = \pi \times (\alert{25})^2  \hphantom{000000} \blert{\text{Compute the power first.}}</mrow>
-        <mrow>  \amp = \pi \times 625 \hphantom{000000} \blert{\text{Multiply.}}</mrow>
+        <mrow>  \amp = \pi \times 625 \hphantom{000000000} \blert{\text{Multiply.}}</mrow>
         <mrow>  \amp \approx 1963.50</mrow></md>
 The area of the skating rink is approximately 1963.50 square feet.</p></solution></example>
 
@@ -248,7 +248,7 @@ The area of the skating rink is approximately 1963.50 square feet.</p></solution
 
 <subsection><title>Volume of a Sphere</title>
 
-<sidebyside widths="60% 25%"><p>How much does the Earth weigh? That depends on two things: the density of the materials that make up Earth, and the volume of the planet.  The <term>volume</term> of a three-dimensional figure measures how much space is inside the figure, and is given in <term>cubic units</term>.</p>
+<sidebyside widths="60% 25%" margins="0% 5%"><p>How much does the Earth weigh? That depends on two things: the density of the materials that make up Earth, and the volume of the planet.  The <term>volume</term> of a three-dimensional figure measures how much space is inside the figure, and is given in <term>cubic units</term>.</p>
     <image source="earth.png"></image></sidebyside>
 
 <p>As with the area of a circle, it may seem strange to measure the inside of a round object like a sphere in cubic units.  Imagine filling the sphere with liquid, and then pouring the liquid into a rectangular box to measure its volume.</p>
@@ -258,7 +258,7 @@ The area of the skating rink is approximately 1963.50 square feet.</p></solution
 <p>(By the way, the Earth weighs <m>1.317 \times 10^{25}</m> pounds.)</p> 
 
 <assemblage><title>Volume of a Sphere</title>
-<sidebyside widths="60% 20%" valigns="middle middle"><p>The volume of a sphere is given by 
+<sidebyside widths="60% 20%" valigns="middle middle" margins="0% 10%"><p>The volume of a sphere is given by 
   <me>\blert{\text{Volume } = \dfrac{4}{3} \times \pi r^3}</me>     
   where <m>r</m> is the radius of the sphere.</p>  
       <image source="volsphere.png"></image></sidebyside>
@@ -276,10 +276,10 @@ The area of the skating rink is approximately 1963.50 square feet.</p></solution
       <mrow> \amp \approx 33,510.322</mrow></md>
   The volume of the tank is approximately 33,510.32 cubic yards.</p></solution></example>
 
-<exercise><statement><sidebyside widths="50% 20%"><p>Find the volume of a basketball with a radius of 4.75 inches.</p>
+<exercise><statement><sidebyside widths="50% 20%" valigns="middle middle" margins="10% 10%"><p>Find the volume of a basketball with a radius of 4.75 inches.</p>
      <image source="basketball.png"></image></sidebyside></statement>
 
-<answer><p>448.92 cu in</p></answer></exercise>
+<answer><p>The volume is approximately 448.92 cu in.</p></answer></exercise>
 
 <p>Here is a summary of the formulas we studied in this lesson.</p>
 

@@ -175,7 +175,7 @@ We make a table showing several pairs of variables and compute their ratios.</p>
 <exercise><statement><p>Is the perimeter of a square proportional to the length of a side?</p>
 <p>Hint: Make a table of values, or recall the formula for the perimeter of a square.</p></statement>
 
-<solution><p>Yes</p></solution></exercise>
+<solution><p>The perimeter of a square is given by <m>~P=4L,~</m> where <m>L</m> is the length of a side. Because <m>P</m> is a constant multiple of <m>L</m>, the perimeter is proportional to the length of a side.</p></solution></exercise>
 
 </subsection>
 
@@ -208,13 +208,13 @@ We make a table showing several pairs of variables and compute their ratios.</p>
         </tabular></sidebyside></statement>
   <answer><p>880</p></answer></exercise>
 
-<note><p>Did you notice that we can use multiplication instead of addition to solve the problems above? (After all, multiplication by a whole number is really just repeated addition.)</p>
+<note><p>Did you notice that we can use multiplication instead of addition to solve the two problems above? (After all, multiplication by a whole number is really just repeated addition.)</p>
 
 <p>In the Example we can multiply 5 boxes of crayons by <m>\alert{5}</m> to get 25 boxes of crayons, so we can multiply  $4.25 by <m>\alert{5}</m> to find the cost.
     <me>\dfrac{\text{Boxes}}{\text{Cost}}: \hphantom{0000}  \dfrac{5}{4.25} \times \dfrac{\alert{5}}{\alert{5}} = \dfrac{25}{21.25}</me>
 The ratio of Boxes to Cost is not changed if we multiply both Boxes and Cost by the same number. This is the same principle that allows us to build a fraction, so we call this the <term>build-up</term> strategy for solving a problem about proportional variables, and we call <m>\alert{5}</m> the <term>scale factor</term>.</p>
 
-<p>Try the build-up strategy on Exercise 6.2.6.
+<p>Try the build-up strategy on Checkpoint 6.2.6.
     <me>\dfrac{\text{Acres}}{\text{Trees}}: \hphantom{0000}  \dfrac{3}{220} \times   \hphantom{0000000}</me></p></note>                 
 <example><statement><p>Walking on a treadmill at 3 miles per hour for one hour burns 219 calories. How many calories will Shayla burn if she walks for 20 minutes?</p></statement>
 
@@ -297,7 +297,9 @@ or $17.50.</p></solution></example>
 
 <exercise><statement><p>Jayden drove 132 miles on 5 gallons of gas. How far can he drive on a full tank of 18 gallons?  Use the unit rate strategy to find the answer. Start with a ratio.
     <me>\dfrac{\text{Miles}}{\text{Gallons}}: \hphantom{0000000000000000000}</me></p></statement>
-<answer><p>475.2 miles</p></answer></exercise>
+<answer><p><me>\dfrac{\text{Miles}}{\text{Gallons}}= \dfrac{132~ \text{miles}}{5~ \text{gallons}} = 26.4~ \text{miles per gallon}</me>
+So on 18 galllons of gas Jayden can drive
+    <me>18 \times 26.4 = 475.2~ \text{miles}</me></p></answer></exercise>
 
 <activity><title>Using Proportions</title>
 
@@ -379,8 +381,9 @@ In particular, to answer the question in the problem,
 We have used the unit rate strategy to see that there are 48 grams of sugar in a 16-ounce serving of cola.</p></solution>
 </example>
 
-<exercise><statement><sidebyside widths="55% 30%" valigns="middle middle"><p>Five teaspoons of sugar is equivalent to 21 grams of sugar. How many teaspoons of sugar are there in a 12-ounce can of cola?</p>
-  <image source="sugar.png"></image></sidebyside></statement>
+<exercise><statement><sidebyside widths="60% 30%" valigns="middle middle"><p>In Example 6.2.12 we saw that there are 3 grams of sugar in each ounce of cola. Five teaspoons of sugar is equivalent to 21 grams of sugar. How many teaspoons of sugar are there in a 12-ounce can of cola?</p>
+  <image source="sugar.png"></image></sidebyside>
+<p>Hint: First compute the unit rate <m>~\dfrac{\text{teaspoons of sugar}}{\text{grams of sugar}}.</m></p></statement>
 <answer><p>8.57 teaspoons</p></answer></exercise>
 
 </subsection>
@@ -604,7 +607,7 @@ We have used the unit rate strategy to see that there are 48 grams of sugar in a
 </ol></p></statement>
 
 <answer><p><ol marker="a.">
-  <li><p>Esme. Her graph is steeper.</p></li>
+  <li><p>Esme earns more per hour. Her graph is steeper.</p></li>
   <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor" >
             <cell><m>\vphantom{\dfrac{1}{2}}</m>Hours</cell>
@@ -622,7 +625,7 @@ We have used the unit rate strategy to see that there are 48 grams of sugar in a
             <cell>120</cell>
             <cell>150</cell></row>
       </tabular></p></li>
-    <li><p>Esme: $25 per hr; Marya: $15 per hr</p></li>
+    <li><p>Esme earns $25 per hour; Marya earns $15 per hour.</p></li>
   </ol></p></answer></exercise>
 
 </subsection>

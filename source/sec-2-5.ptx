@@ -202,7 +202,7 @@ The statement is false, so 28 is not a solution of the equation <m>6z=178</m>.</
 
 <subsection><title>Finding Solutions: Opposite Operations</title>
 
-<sidebyside widths="68% 20%"><stack><p>To <term>solve</term> an equation means to find its solution (or solutions).</p>
+<sidebyside widths="68% 20%" margins="0% 12%"><stack><p>To <term>solve</term> an equation means to find its solution (or solutions).</p>
 <p> Some equations are easy to solve; you can see the solution just by thinking about it. For example, the equation <m>x=5</m> is very easy to solve; its solution is 5.</p></stack><image source="spyglass.png"></image></sidebyside>  
 
 <p>We can solve more complicated equations by transforming them into simple ones. Of course, we must do this in a way that the new equation has the same solution as the original equation.</p>
@@ -279,7 +279,7 @@ The statement is false, so 28 is not a solution of the equation <m>6z=178</m>.</
 
 <subsection xml:id="solve1"><title>Isolating the Variable</title>
 
-<sidebyside widths="70% 25%"><stack><p>Consider the equation
+<sidebyside widths="70% 25%" valigns="middle middle"><stack><p>Consider the equation
     <me>x - 6 = 4</me>
 You can check that the solution to this easy equation is 10. Even though you can solve the equation in your head, we'll use it as an example to demonstrate techniques for solving more complicated equations.</p></stack><image source="keepcalm.png"></image></sidebyside>
 
@@ -315,7 +315,7 @@ It is a good idea to perform the check as part of the solution process.</p>
 
 <exercise><statement><p>Use an opposite operation to solve <m>~a - 3.2 = 7.2</m></p></statement>
 
-<answer><p><m>a = 10.4</m></p></answer></exercise>
+<answer><p>We add 3.2 to both sides of the equation to find <m>~a = 10.4</m>.</p></answer></exercise>
 
 <p>In Example 2.5.9, we solved an equation by "undoing" a subtraction. In Activity 2.5.3, note carefully how we write down the solution step in the Examples for the other three operations. </p>
 

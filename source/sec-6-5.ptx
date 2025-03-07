@@ -105,7 +105,9 @@
 <note><p>Recall that the exponent 2 in <m>k^2</m> tells us to multiply together 2 copies of <m>k</m>, so  <m>k^2 = k \times k</m>.  For example,
     <me>5^2 = 5 \times 5 = 25 \hphantom{000000} \blert{\text{two factors of 5}}</me></p></note>
 
-<p>We can use the area principle to solve problems about area.</p>
+<p>Now back to the pizza question: A 16-inch pizza has 4 times the area of an 8-inch pizza, so $15 for a 16-inch pizza is a better deal than $15 for three 8-inch pizzas.</p>
+
+<p>We can use the area principle to solve other problems about area.</p>
 
 <example><statement><p> An architect is drawing up floor plans for a new housing development. The dining room in her plan has an area of only 120 square feet. If she can increase the dimensions of the room by a factor of 1.25, what will the new area be?</p></statement>
 
@@ -116,7 +118,7 @@
 <exercise><statement><p>Alys wants to replace her old hot tub with a new circular spa. If the radius of the new spa is twice the radius of the hot tub, how much greater will the area of the spa be?</p>
       <image source="hottub.png" width = "70%"></image></statement>
 
-<answer><p>4 times greater</p></answer></exercise>
+<answer><p>The area of the spa will be 4 times greater than the area of the hot tub.</p></answer></exercise>
 
 </subsection>
 
@@ -222,7 +224,7 @@
 <note><p>Recall that the exponent 3 in <m>k^3</m> tells us to multiply together 3 copies of <m>k</m>, so  <m>k^3 = k \times k \times k</m>.  For example,
     <me>5^3 = 5 \times 5 \times 5 = 125 \hphantom{000000} \blert{\text{three factors of 5}}</me></p></note>
 
-<p>We can use the area principle to solve problems about area.</p>
+<p>We can use the volume principle to solve problems about volume.</p>
 
 <example><statement><p>In Gulliver's Travels, the Lilliputians are tiny people about six inches tall. How would the volume of a Lilliputian compare to the volume of a human who is six feet tall?</p></statement>
 
@@ -232,11 +234,12 @@
 Thus, the volume is scaled by  
     <me>\left(\dfrac{1}{12}\right)^3 = \dfrac{1}{12} \times \dfrac{1}{12} \times \dfrac{1}{12} = \dfrac{1}{1728}</me>
 
-The volume of a Lilliputian would be <m>\frac{1}{1728}</m> of the volume of a 6-foot tall human. (The weight of a Lilliputian would also be <m>\frac{1}{1728}</m> of the weight of a human. A 6-foot tall man weighs about 180 pounds, so a Lilliputian would weigh <m>\frac{180}{1728}</m> pounds, or <m>1\frac{2}{3}</m> ounces.)</p></solution></example>
+The volume of a Lilliputian would be <m>\frac{1}{1728}</m> of the volume of a 6-foot tall human.</p>
+<p>(The weight of a Lilliputian would also be <m>\frac{1}{1728}</m> of the weight of a human. A 6-foot tall man weighs about 180 pounds, so a Lilliputian would weigh <m>\frac{180}{1728}</m> pounds, or <m>1\frac{2}{3}</m> ounces.)</p></solution></example>
 
 <exercise><statement><sidebyside widths="55% 35%" valigns="middle middle"><p>The radius of Jupiter is about 10.7 times the radius of the Earth. How does the volume of Jupiter compare to the volume of the Earth?</p><image source="jupiter.png"></image></sidebyside></statement>
 
-<answer>About 1225 times the volume of the Earth.</answer></exercise>
+<answer><p>The volume of Jupiter is about 1225 times the volume of the Earth.</p></answer></exercise>
 
 </subsection>
 

@@ -45,7 +45,11 @@ It takes Rudi 35.2 minutes to swim one mile.  (How long is 0.2 minutes in second
 <p><m>\blert{\text{Solve an equation.}}</m></p>
 
 <p><m>\blert{\text{Write a sentence to answer the question.}}</m></p>
-</statement></exercise>
+</statement>
+
+<answer><p><m>P=R-C</m></p>
+<p><m>1100 = R - 9100</m></p>
+<p>They will need a revenue of $10,200.</p></answer></exercise>
 </subsection>
 
 <subsection><title>Writing an Equation</title>
@@ -68,7 +72,12 @@ The number is 28.</p></solution></example>
   <li><p>Write an equation that describes this problem.</p></li>
 
   <li><p>Solve your equation.  What is the number?</p></li>
-</ol></p></statement></exercise>
+</ol></p></statement>
+
+<answer><p><ol marker="a.">   
+  <li><m>13n = 598</m></li>
+  <li><p>The number is 46.</p></li>
+</ol></p></answer></exercise>
 
 <assemblage><title><m>\blert{\large{\text{PATIENCE!}}}</m></title>
 <sidebyside widths="20% 70%" valigns="middle middle"><image source="annoyed.png"></image>
@@ -122,9 +131,12 @@ The number is 28.</p></solution></example>
 
 <exercise><statement><p>Claudia and her alpaca Lima together weigh 173 pounds. Claudia alone weighs 94 pounds. How much does Lima weigh?</p>
 
-<p>Step 1:  Let  stand for Lima's weight in pounds.</p>  
+<p>Step 1:  Let <m>w</m> stand for Lima's weight in pounds.</p>  
 <p>Step 2:  Find two different expressions for the sum of Claudia's and Lima's weights, and write an equation.</p>
-<p>Step 3:  Solve your equation and answer the question.</p></statement></exercise>
+<p>Step 3:  Solve your equation and answer the question.</p></statement>
+
+<answer><p><m>94 + w = 173</m></p>
+<p>Lima weighs 79 pounds.</p></answer></exercise>
 
 <p>You can probably find Lima's weight using arithmetic alone, but can you write an equation for the problem?!</p>
 

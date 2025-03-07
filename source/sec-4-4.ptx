@@ -235,7 +235,7 @@ right to show a temperature of <m>-4  \degree</m>.</p>
 </ol></p></statement>
 
 <answer><p><ol marker="a.">
-  <li><p><m>-15 \degree</m> C, December</p></li>
+  <li><p><m>-15 \degree</m> C; it is colder in December.</p></li>
   <li><p>March and November, <m>-8 \degree</m> C</p></li>
 </ol></p></answer></exercise>
 </subsection>
@@ -264,7 +264,7 @@ right to show a temperature of <m>-4  \degree</m>.</p>
 <p>The positive whole numbers, the negative whole numbers, and zero make up a set of numbers called the <term>integers</term>.</p>
 </assemblage>
 
-    <image source="integers.png" width="75%"></image>
+    <image source="integers.png" width="85%"></image>
 
 <example><statement><p>Which of the following numbers are integers?
   <me> -16,~~~~ 3.5, ~~~~ \dfrac{20}{4}, ~~~~ -2 \dfrac{1}{4}, ~~~~ 0</me>
@@ -302,7 +302,7 @@ right to show a temperature of <m>-4  \degree</m>.</p>
   <li><p><m>-1</m> is greater than <m>-12</m></p></li>
 </ol></p></statement>
 
-<solution><p><ol marker="a.">
+<solution><p><ol marker="a." cols="2">
   <li><p><m>-9 \lt 4</m></p></li>
   <li><p><m>-1 \gt -12</m></p></li>
 </ol></p></solution></example>
@@ -314,13 +314,13 @@ means the same as
 
 <exercise><statement><p>Use inequality symbols to write the phrase in two different ways: <m>~~~-2</m> is greater than <m>-10</m>.</p></statement>
 
-<answer><m>-2 \gt -10~</m>, or <m>~-10 \lt -2</m></answer></exercise>
+<answer><p><m>-2 \gt -10~</m>, or <m>~-10 \lt -2</m></p></answer></exercise>
 
 </subsection>
 
 <subsection><title>Graphing on a Number Line</title>
 
-<p>To show a particular number on the number line, we place a dot at its position. This is called the <term>graph</term> of the number.  Fractions, such as <m>2\dfrac{3}{4}</m> or 4.8, are located between the integers on a number line.</p>
+<p>To show a particular number on the number line, we place a dot at its position. This is called the <term>graph</term> of the number.  Fractions, such as <m>2\dfrac{3}{4}</m> or <m>4.8</m>, are located between the integers on a number line.</p>
 
 <example><statement><p>Graph the following numbers on a number line.
   <me>-6,~~~~ -2.5, ~~~~ 0, ~~~~ 4, ~~~~ \text{and} ~~~~ 5 \dfrac{1}{4} </me></p></statement>
@@ -377,10 +377,10 @@ Can you use a number line to explain why this makes sense?</p></note>
 
 <example><statement><p>The temperature was 6° yesterday evening and changed by <m>-10 \degree</m> overnight. What was the temperature in the morning?</p></statement>
 
-<solution><sidebyside widths="50% 20%"><p>Start at 6° on the thermometer, as shown at right. Then count down 10° from there. This brings us to <m>-4 \degree</m>. The temperature in the morning was <m>-4 \degree</m>.</p>
+<solution><sidebyside widths="50% 20%" valigns="middle middle"><p>Start at 6° on the thermometer, as shown at right. Then count down 10° from there. This brings us to <m>-4 \degree</m>. The temperature in the morning was <m>-4 \degree</m>.</p>
       <image source="down10.png"></image></sidebyside></solution></example>
 
-<exercise><statement><sidebyside widths="50% 20%" margins="0% 10%"><p>The temperature was 5° in the evening yesterday and changed by <m>-11\degree</m> overnight. What was the temperature this morning? Illustrate your calculation on the thermometer at right.</p>  
+<exercise><statement><sidebyside widths="50% 20%" valigns="middle middle" margins="0% 10%"><p>The temperature was 5° in the evening yesterday and changed by <m>-11\degree</m> overnight. What was the temperature this morning? Illustrate your calculation on the thermometer at right.</p>  
   <!-- <image source="thermom.png"></image> -->
   <image source="Thermometer"></image>
 </sidebyside></statement>

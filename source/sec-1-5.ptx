@@ -14,7 +14,7 @@
   <p>When we speak of the perimeter of a region, we usually mean the outer edge or boundary of the region. In mathematics, the <term>perimeter</term> means the length of that boundary. </p> 
 
   <example><statement>
-    <sidebyside widths="50% 28%" margins="0% 15%" valigns="middle middle"><p>To find the perimeter of the region at right we add up the lengths of its sides:
+    <sidebyside widths="60% 30%" margins="0% 10%" valigns="middle middle"><p>To find the perimeter of the region at right we add up the lengths of its sides:
       <me>5+3+5+4+3=20</me>
     The perimeter of the region is 20 inches.</p>
       <image source="perim1.png"></image></sidebyside></statement></example>
@@ -23,9 +23,9 @@
         <image source="ants.png"></image></sidebyside></note>
 
   <exercise><statement><p>One reason you might want to find a perimeter is to calculate the amount of fence you need to surround a region.  Find the perimeter of the community garden shown below.
-      <image source="perim2.png" width="50%"></image></p></statement>
+      <image source="perim2.png" width="60%"></image></p></statement>
 
-  <answer><p>267 ft</p></answer></exercise>
+  <answer><p>The perimeter is 267 feet.</p></answer></exercise>
 
  <assemblage><title>Perimeter</title>
   <p> To find the perimeter of a straight-sided figure:<ol>
@@ -60,6 +60,7 @@
     </subsection>
 
     <subsection><title>Area</title>
+
     <p>Here are two rectangles with the same perimeter. They represent garden plots for blueberry bushes, and the lines in the grids represent measurements in yards. You can check that both rectangles have a perimeter of 24 yards, so both garden plots require the same amount of fence to keep out the deer.</p>
           <image source="deerarea.png" width="90%"></image>
     <p>Which garden plot has the most room for blueberry bushes inside, Garden A or Garden B? Suppose that each blueberry bush fills one square on the grid. Which rectangle encloses the most squares?
@@ -116,12 +117,12 @@
     <li><image source="areaexer3f.png" width="45%"></image></li>
   </ol></p></statement>
 
-<answer><p><ol marker="a." cols="2">
-    <li><p>perim = 6 cm, area = 2 sq cm</p></li>
-    <li><p>perim = 8 cm, area = 3 sq cm</p></li>
-    <li><p>perim = 10 cm, area = 4 sq cm</p></li>
-    <li><p>perim = 10 cm, area = 4 sq cm</p></li>
-    <li><p>perim = 7 cm, area = 3 sq cm</p></li>
+<answer><p><ol marker="a.">
+    <li><p>perimeter = 6 cm, area = 2 sq cm</p></li>
+    <li><p>perimeter = 8 cm, area = 3 sq cm</p></li>
+    <li><p>perimeter = 10 cm, area = 4 sq cm</p></li>
+    <li><p>perimeter = 10 cm, area = 4 sq cm</p></li>
+    <li><p>perimeter = 7 cm, area = 3 sq cm</p></li>
   </ol></p></answer></exercise>
 </subsection>
 

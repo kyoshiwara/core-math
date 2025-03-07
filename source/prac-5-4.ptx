@@ -86,7 +86,7 @@
 </ol></p></introduction>
 
 <exercise number="29"><statement><p><ol marker = "a.">
-  <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+  <li><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor" margins="0% 25%">
         <row bottom="minor">
             <cell><m>x</m></cell>
             <cell>2</cell>
@@ -103,12 +103,12 @@
             <cell><m>\hphantom{000}</m></cell>
             <cell><m>\hphantom{000}</m></cell>
             <cell><m>\hphantom{000}</m></cell></row>
-        </tabular></p></li>
+        </tabular></li>
   <li><m>3x-6 = 12</m></li>
 </ol></p></statement>
 
 <answer><p><ol marker = "a.">
-  <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+  <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor" margins="0% 25%">
         <row bottom="minor">
             <cell><m>x</m></cell>
             <cell>2</cell>
@@ -130,7 +130,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="30"><statement><p><ol marker = "a.">
-  <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+  <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor" margins="0% 25%">
         <row bottom="minor">
             <cell><m>x</m></cell>
             <cell>6</cell>
@@ -152,7 +152,7 @@
 </ol></p></statement></exercise>
 
 <exercise number="31"><statement><p><ol marker = "a.">
-  <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+  <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor" margins="0% 25%">
         <row bottom="minor">
             <cell><m>x</m></cell>
             <cell>4</cell>
@@ -176,7 +176,7 @@
 </ol></p></statement>
 
 <answer><p><ol marker = "a.">
-  <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+  <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor" margins="0% 25%">
         <row bottom="minor">
             <cell><m>x</m></cell>
             <cell>4</cell>
@@ -200,7 +200,7 @@
 </ol></p></answer></exercise>
 
 <exercise number="32"><statement><p><ol marker = "a.">
-  <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+  <li><p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor" margins="0% 25%">
         <row bottom="minor">
             <cell><m>x</m></cell>
             <cell>4</cell>

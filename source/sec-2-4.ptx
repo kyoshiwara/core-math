@@ -110,7 +110,7 @@ We write the product of two variables, or a number and a variable, next to each 
 <p>When we subtract one number or variable from another, the result is called the <term>difference</term>. Here are two common ways to describe subtraction.</p>
 
 <assemblage><title>Differences</title>
-  <p><md><mrow>\alert{b}~~\text{subtracted from}~~\alert{12}~~~~~~\amp \text{means}~~~~~~\alert{12-p}</mrow>
+  <p><md><mrow>\alert{b}~~\text{subtracted from}~~\alert{12}~~~~~~\amp \text{means}~~~~~~\alert{12-b}</mrow>
       <mrow>\text{the difference of}~~\alert{12}~~\text{and}~~\alert{p} ~~~~~~\amp \text{means}~~~~~~\alert{12-p}</mrow></md></p>
 </assemblage>
 
@@ -196,9 +196,9 @@ We write the product of two variables, or a number and a variable, next to each 
 
 <solution><p><ol marker="a." cols="2">
   <li><p><m>z - 16</m></p></li> 
-  <li><p><m>m \div 6</m> or <m>\dfrac{m}{6}</m></p></li>
+  <li><p><m>m \div 6~</m> or <m>~\dfrac{m}{6}</m></p></li>
   <li><p><m>R - C</m></p></li> 
-  <li><p><m>\dfrac{P}{n}</m> or <m>P \div n</m></p></li>
+  <li><p><m>\dfrac{P}{n}~</m> or <m>~P \div n</m></p></li>
 </ol></p></solution></example>
 
 <note><p>Sometimes English phrases can be tricky. We must be especially careful with subtraction and division.</p>
@@ -458,7 +458,7 @@ We write the product of two variables, or a number and a variable, next to each 
   </ol></p></statement>
 
 <answer><p><ol marker="a.">
-  <li><p>$8</p></li>
+  <li><p>The tax on $100 is $8.</p></li>
   <li><p>Multiply <m>B</m> by 0.08.</p></li>
   <li>
     <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">

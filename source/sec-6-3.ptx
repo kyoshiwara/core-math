@@ -88,7 +88,7 @@
             <cell><m>\hphantom{0000}</m></cell></row>
         </tabular></statement>
 
-    <answer><p>No</p></answer></exercise>
+    <answer><p>No, the ratio of <m>z</m> to <m>w</m> is not constant.</p></answer></exercise>
 
 <p>In Example 6.3.1 above, we found that the value of <m>k</m> was 0.25. This number is called the <term>constant of proportionality</term>. You can check that for each value of <m>p</m>,  we have  
       <me>q = 0.25 \times p</me>
@@ -205,7 +205,7 @@ so <m>k = 6</m>, for her equation:
 
 <p>In the copying fee example, we interpreted the constant of proportionality or unit rate as a <term>rate of increase</term>. It tells us how quickly the output variable increases with respect to the input variable, and hence how steeply the graph of the equation rises.</p>
 
-<p>The notion of rate of increase can be applied to other equations besides proportions. Recall that the graph of a proportion is a straight line that passes through the point <m>(0,0)</m>. But as long as the graph is a straight line, we can still talk about its rate of increase, even if it does not pass through the point <m>(0,0)</m>. In Example 6.3.6 we'll compare the rate of growth of two strains of tomato plants.</p> 
+<p>The notion of rate of increase can be applied to other equations besides proportions. Recall that the graph of a proportion is a straight line that passes through the point <m>(0,0)</m>. But as long as the graph is a straight line, we can still talk about its rate of increase, even if it does not pass through the point <m>(0,0)</m>. In Example 6.3.7 we'll compare the rate of growth of two strains of tomato plants.</p> 
 
 <example><statement><p>Sara bought two kinds of tomato plants at the nursery. The Spring Giant seedlings were 2 inches tall, and the Jubilee seedlings were 16 inches tall. Sara recorded the height, <m>h</m>, of the vines every two weeks, as shown in the tables below. Then she plotted their heights on a graph. Which variety grew more quickly?</p>
 
@@ -266,7 +266,7 @@ so <m>k = 6</m>, for her equation:
         <me>\dfrac{\text{5 inches}}{\text{2 weeks}}  = \text{2.5 inches/week}</me>
 So the Spring Giant vines grew faster than the Jubilee vines, as we saw from the graph.</p></solution></example>
 
-<p>In Checkpoint 6.3.7, we'll compute some more growth rates. Use the tables in Example 6.3.6  about the Spring Giant and Jubilee tomato vines.</p>
+<p>In Checkpoint 6.3.8, we'll compute some more growth rates. Use the tables in Example 6.3.7  about the Spring Giant and Jubilee tomato vines.</p>
 
 <exercise><statement><p><sidebyside widths= "50% 40%" margins="5% 5%"><p>Compute the ratio  
     <me>\blert{\dfrac{\text{increase in height}}{\text{time interval}}}</me>
@@ -308,7 +308,8 @@ to find each growth rate.</p>
 <p><sidebyside widths="45% 38%"><p>From week 2 to week 6, the vine grew at a rate of
     <md><mrow>\dfrac{\Delta h}{\Delta t} \amp = \dfrac{\text{increase in height}}{\text{time interval}}</mrow>
         <mrow> \amp = \dfrac{(26-10)~\text{inches}}{(6-2)~\text{weeks}}</mrow>
-        <mrow> \amp = \dfrac{\text{16 inches}}{\text{4 weeks}} = \text{4 inches/week}</mrow></md></p>
+        <mrow> \amp = \dfrac{\text{16 inches}}{\text{4 weeks}}</mrow> 
+        <mrow> \amp = \text{4 inches/week}</mrow></md></p>
     <image source="tomatoslope.png"></image></sidebyside></p>
 </statement></example>
 
@@ -318,19 +319,20 @@ to find each growth rate.</p>
 <sidebyside widths="55% 40%" valigns="middle middle"><p><ol marker="a.">
     <li><p>Start at any point on the graph. If you move four units horizontally, how many units does the graph climb vertically? If you move one unit horizontally, how many units does the graph climb vertically?</p></li>
     <li><p>On the graph, draw and label line segments to illustrate the growth rate of the Jubilee tomato vines from the fourth week to the eighth week. Then calculate the growth rate.
-        <me>\dfrac{\Delta h}{\Delta t} = </me></p></li>
+        <me>\dfrac{\Delta h}{\Delta t} = \hphantom{0000000000}</me></p></li>
 </ol></p><image source="jubileeslope.png"></image></sidebyside></statement>
 
 <answer><p><ol marker="a.">
-<li><p>10, 2.5</p></li>
-<li><p><image source="ansjubilee.png" width="80%"></image></p><p>2.5 inches/week</p></li>
+<li><p>10 units, 2.5 units</p></li>
+<li><p><image source="ansjubilee.png" width="55%"></image></p>
+<p><m>\dfrac{\Delta h}{\Delta t} = 2.5~</m> inches/week</p></li>
 </ol></p></answer></exercise>
 
 </subsection>
 
 <subsection><title>Slope of a Line</title>
 
-<p>The ratio <m>\dfrac{\Delta h}{\Delta t}</m> in the Example above is called the <term>slope</term> of the line. The slope measures how steeply the line increases (or decreases) as we move from left to right across the graph. In general, we define the slope for any line as follows.</p>
+<p>The ratio <m>\dfrac{\Delta h}{\Delta t}</m> in the Examples above is called the <term>slope</term> of the line. The slope measures how steeply the line increases (or decreases) as we move from left to right across the graph. In general, we define the slope for any line as follows.</p>
 
 <assemblage><title>Slope</title>
 <p>The <term>slope</term>, <m>m</m>, of a line is the ratio

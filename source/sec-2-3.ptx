@@ -3,7 +3,7 @@
 <section xml:id="sec-2-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Variables</title>
 
-<sidebyside widths="50% 35%"><p><ul>
+<sidebyside widths="50% 35%" valigns="middle middle"><p><ul>
     <li><p>What is a Variable?</p></li>
     <li><p>Bar Graphs</p></li>
     <li><p>Using Letters for Variables</p></li>
@@ -310,12 +310,10 @@
   </ol></p></statement>
 
 <answer><p><ol marker="a.">
-  <li><p>15</p></li>
-  <li><p>March, April, and September</p></li>
-  <li><p>December, 5</p></li>
-  <li><p>Fill in the table showing the number of new homes sold each month.</p>
-
-    <p><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
+  <li><p>15 houses were sold in February.</p></li>
+  <li><p>20 houses were sold in March, April, and September.</p></li>
+  <li><p>5 houses were sold in December.</p></li>
+  <li><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
                 <col halign="center"/>
                 <col halign="center"/>
                 <col halign="center"/>
@@ -354,7 +352,7 @@
       <cell>40</cell>
       <cell>December</cell>
       <cell>5</cell></row>
-    </tabular></p></li>
+    </tabular></li>
   </ol></p></answer></exercise>
 
   <p>Here is a bar graph that shows the values of two variables.</p>
@@ -601,7 +599,7 @@
 
 <activity><title>Using Letters for Variables</title>
 <p><ol>
-  <li><sidebyside widths="50% 30%" valigns="middle middle"><p>Uncle Herb is on a diet. He can have 1200 calories per day.</p><image source="salad.png"></image></sidebyside>  
+  <li><sidebyside widths="60% 30%" valigns="middle middle" margins="0% 10%"><p>Uncle Herb is on a diet. He can have 1200 calories per day.</p><image source="salad.png"></image></sidebyside>  
     <p><ol marker="a.">
       <li><p>If Uncle Herb has 700 calories for lunch, how many calories can he have for dinner?</p></li>
       <li><p>Explain how to find the number of calories Uncle Herb can have for dinner if he consumes <m>c</m> calories for lunch.</p></li>

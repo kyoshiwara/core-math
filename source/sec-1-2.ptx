@@ -73,8 +73,8 @@
 
 <answer><p><ol marker="a.">
   <li><p></p></li>
-  <li><p><m>\dfrac{3}{10}</m></p></li>
-  <li><p><m>\dfrac{3}{4}</m></p></li>
+  <li><p><m>\dfrac{3}{10}~</m> is larger than <m>~\dfrac{1}{4}</m>.</p></li>
+  <li><p><m>\dfrac{3}{4}~</m> is larger than <m>~\dfrac{6}{10}</m>.</p></li>
 </ol></p></answer></exercise>
 
   <p>If you can find one-tenth of an amount, you can find two-tenths, or three-tenths, and so on. Remember that <m>\dfrac{2}{10}~</m> can also be written as 0.2, <m>\dfrac{3}{10}~</m> can also be written as 0.3, and so on.</p>
@@ -134,8 +134,8 @@
       \draw[blue, thick] (7.5,-0.1) --++(0,.6)node[above] {$\dfrac{3}{4}$};
       \end{tikzpicture}]]>
       </latex-image></image></li>
-    <li><p><m>\dfrac{3}{10}</m></p></li>
-    <li><p><m>\dfrac{3}{4}</m></p></li>
+    <li><p><m>\dfrac{3}{10}~</m> is larger than <m>~\dfrac{1}{4}</m>.</p></li>
+    <li><p><m>\dfrac{3}{4}~</m> is larger than <m>~\dfrac{6}{10}</m>.</p></li>
     </ol></p></answer></exercise>
     
 <exercise><statement><p><ol marker="a.">
@@ -285,7 +285,7 @@ One-tenth of one-tenth is one-hundredth, or <m>\dfrac{1}{100}~</m>. In decimal f
   <li><p><m>\dfrac{7}{25}</m></p></li>
   <li><p><m>\dfrac{3}{16}</m></p></li></ol></p></statement>
 
-<answer><p>Find the decimal form of each fraction.<ol marker="a."  cols="2">
+<answer><p><ol marker="a." cols="2">
   <li><p><m>0.625</m></p></li>
   <li><p><m>0.05</m></p></li>
   <li><p><m>0.28</m></p></li>

@@ -19,7 +19,7 @@
 
 <p>Large numbers that are much smaller than one googol can still be hard to visualize. For example:</p> 
 
-<sidebyside widths="55% 40%"><stack><p>How much is one million, or 1,000,000 ?</p>  
+<sidebyside widths="55% 40%" margins="0% 5%"><stack><p>How much is one million, or 1,000,000 ?</p>  
 <p>In the figure below there are 1000 blue dots, arranged in 10 blocks of 100 dots each. Now imagine a book with 1000 pages (such as War and Peace, by Leo Tolstoy), and each page contains 1000 blue dots. That book contains one million blue dots.</p></stack>
     <image source="warandpeace.png"></image></sidebyside>
 
@@ -58,7 +58,7 @@ Covering about 300 square miles of land, New York is the most densely populated 
 
 <answer><p><ol marker="a.">
   <li><p>In 2023, the population of California was 40,223,504. Its land area is 163,696 square miles.</p></li>
-  <li><p>About 246 people per square mile.</p></li>
+  <li><p>The population density of California is about 246 people per square mile.</p></li>
 </ol></p></answer></exercise>
 
 <activity><title>How Big Is a Billion?</title>
@@ -141,7 +141,7 @@ Covering about 300 square miles of land, New York is the most densely populated 
 
 <subsection><title>Multiplying by Powers of Ten</title>
 
-<sidebyside widths="50% 40%" valigns="middle middle"><p>People who deal with information often encounter very large numbers in their work. For instance, the nearest star to our solar system is Proxima Centauri, a faint, reddish star at a distance of approximately
+<sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%"><p>People who deal with information often encounter very large numbers in their work. For instance, the nearest star to our solar system is Proxima Centauri, a faint, reddish star at a distance of approximately
   <me>24,800,000,000,000 \text{ miles}</me></p>
    <image source="proxcent.png"></image></sidebyside>
 
@@ -197,7 +197,7 @@ Calculations with such large numbers can be difficult. Most calculators have onl
   <li><p>Compute <m>~28 \times 10^8</m>.
     <image source="decpt2.png" width="90%"></image>
     The product is two billion, eight hundred million.</p></li>
-  <li><p>Compute <m>~0.17 \times 10^4</m>.
+  <li><p>Compute <m>~0.017 \times 10^4</m>.
     <image source="decpt3.png" width="90%"></image>
     The product is one hundred seventy.</p></li>
 </ol></p></statement></example>
@@ -215,7 +215,7 @@ Calculations with such large numbers can be difficult. Most calculators have onl
   <li><p><m>123 </m>; one hundred twenty-three</p></li>
 </ol></p></answer></exercise>
 
-<note><p>The rule for multiplying by a power of ten is not <m>\alert{\large{\text{MAGIC}}}~~~</m>. It follows from the fact that our number system is based on powers of ten: each place value is 10 times the place to its right.</p></note>
+<note><p>The rule for multiplying by a power of ten is not <m>\alert{\large{\text{MAGIC}}}~</m>. It follows from the fact that our number system is based on powers of ten: each place value is 10 times the place to its right.</p></note>
 </subsection>
 
 <subsection><title>Using Powers of Ten</title>
@@ -283,8 +283,8 @@ Now it is easy to see that the second number is larger.</p>
 
 <example><statement><p>Write in scientific notation.</p>
   <p><ol marker="a." cols="2">
-    <li><p>245.3</p></li>
-    <li><p>38,200,000,000</p></li>
+    <li><p><m>245.3</m></p></li>
+    <li><p><m>38,200,000,000</m></p></li>
   </ol></p></statement>
 
 <solution><p><ol marker="a.">
@@ -296,8 +296,8 @@ Now it is easy to see that the second number is larger.</p>
 
 <exercise><statement><p>Write in scientific notation.</p>
   <p><ol marker="a." cols="2">
-    <li><p>98,700,000,000</p></li>
-    <li><p>98.7</p></li>
+    <li><p><m>98,700,000,000</m></p></li>
+    <li><p><m>98.7</m></p></li>
   </ol></p></statement>
 
 <answer><p><ol marker="a." cols="2">
@@ -308,7 +308,7 @@ Now it is easy to see that the second number is larger.</p>
 
 <subsection><title>Using a Calculator</title>
 
-<p>You can use scientific notation to enter very large numbers in your calculator. First, look for a key labeled <m>\boxed{\text{EE}}</m> or <m>\boxed{\text{EXP}}</m>.  To enter the number <m>2.61 \times 10^8</m>, for example, enter 2.61 as usual. Then press the <m>\boxed{\text{EXP}}</m> key and  enter just the exponent on the power of 10; for our example, we enter 8. The calculator should then display
+<p>You can use scientific notation to enter very large numbers in your calculator. First, look for a key labeled <m>\boxed{\text{EE}}</m> or <m>\boxed{\text{EXP}}</m>.  To enter the number <m>2.61 \times 10^8</m>, for example, enter <m>2.61</m> as usual. Then press the <m>\boxed{\text{EXP}}</m> key and  enter just the exponent on the power of 10; for our example, we enter 8. The calculator should then display
   <me> \boxed{~~~~~~2.61~~~08} ~~~~~~ \text{or} ~~~~~~ \boxed{~~~~~~2.61~~~\text{E}8}</me>
 This is the way most calculators display a number in scientific notation.</p>
 
@@ -328,7 +328,7 @@ This is the way most calculators display a number in scientific notation.</p>
 
 <exercise><statement><p>Astronomers estimate that there are 200 billion stars in the Milky Way Galaxy and 150 billion galaxies in the universe. If each galaxy contains a similar number of stars, how many stars are there in the universe?</p></statement>
 
-<answer><m>3 \times 10^{22}</m></answer></exercise>
+<answer><m>3 \times 10^{22}</m> stars in the universe</answer></exercise>
 
   <image source="galaxies.png" width="80%"></image>
 

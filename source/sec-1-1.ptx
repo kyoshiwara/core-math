@@ -56,7 +56,8 @@
 
     <li><p>Did you notice: To find the "part" of each fraction, we <fillin characters="15" /> the "whole" by <fillin characters="15" />.</p></li>
   </ol></p></statement>
-  <answer><p>8, 12, 18, 50, 36, 100, divide, 2</p></answer></exercise>
+  <answer><p><m>\dfrac{8}{16}, ~\dfrac{12}{24}, ~\dfrac{9}{18}, ~\dfrac{25}{50}, ~\dfrac{36}{72}, ~\dfrac{50}{100}</m></p>
+    <p>We divide the whole by 2.</p></answer></exercise>
 
     <p>Now that you know some different ways to represent <m>\dfrac{1}{2}</m>, we can compare other fractions to <m>\dfrac{1}{2}</m>.</p>
 
@@ -270,9 +271,9 @@
 </subsection>
 
 <subsection><title>Fractions on a Number Line</title>
-<p>In the previous exercise we used grids to illustrate fractions. We can also show fractions of a distance on a <term>number line</term>.</p>
+<p>In the previous Checkpoint we used grids to illustrate fractions. We can also show fractions of a distance on a <term>number line</term>.</p>
 
-<example><statement><p>Mark the fractions <m>\dfrac{1}{2}</m>, <m>\dfrac{1}{4}</m>, and <m>\dfrac{3}{4}</m> of 12 on the number line below.
+<example><statement><p>Mark the fractions <m>\dfrac{1}{2}</m>, <m>\dfrac{1}{4}</m>, and <m>\dfrac{3}{4}</m> of <m>\blert{12}</m> on the number line below.
 
   <image source="numberline12.png" width="70%"><description>number line</description></image></p></statement>
 
@@ -304,7 +305,7 @@ A number line can help us visualize familiar fractions written with different de
   <li><image source="numberline24.png" width="70%"><description>number line</description></image></li>
 </ol></p>
 <answer><p><ol marker="a." cols="1">
-  <li><image xml:id="numberline8-frac" width="60%" margins="0% 40%"><description>fractions of 8</description><latex-image>
+  <li><image xml:id="numberline8-frac" width="70%" margins="0% 30%"><description>fractions of 8</description><latex-image>
   <![CDATA[
   \begin{tikzpicture} [scale=1]
   \draw[black,thick] (0,0)--(8,0);

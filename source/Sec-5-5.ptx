@@ -38,7 +38,7 @@
 </statement>
 
 <answer><p><ol marker = "a.">
-  <li><p><image source="exer-5-5-1.png"></image></p></li>
+  <li><p><image width="45%" source="exer-5-5-1.png"></image></p></li>
   <li><p>1997</p></li></ol></p></answer></exercise>
 
 <p>We often use line graphs to illustrate trends in data over time.</p>
@@ -69,7 +69,7 @@
 </ol></p></statement>
 
 <answer><p><ol marker="a.">
-  <li><p><image source="exer-5-5-2.png" width="80%"></image></p></li> 
+  <li><p><image source="exer-5-5-2.png" width="55%"></image></p></li> 
   <li><p>About 14.5 billion dollars</p></li>
   <li><p>1992, 1998, and 1999</p></li>
   <li><p>1995</p></li>
@@ -107,12 +107,12 @@
       <me>P = K + 4</me>
   We start with a value of <m>K</m>, and then we add 4 to find the value of <m>P</m>. 
       <me>\blert{\text{Value of}~K \rightarrow~ \text{add 4} \rightarrow~ \text{Value of}~P}</me></p></li>
-  <li><sidebyside widths="45% 50%" valigns="middle middle"><stack><p>On the grid, we label the horizontal direction with values of the input variable, and we label the vertical direction with values of the output variable.</p>
+  <li><sidebyside widths="45% 55%" valigns="middle middle"><stack><p>On the grid, we label the horizontal direction with values of the input variable, and we label the vertical direction with values of the output variable.</p>
       <p>For each pair of input/output values, we place a dot, or point, on the grid. For example, the point for <m>K=9,~ 9=13</m>  is labeled on the grid below left.</p></stack>
       <image source="exm5-5-3a.png"></image></sidebyside>
   <p>For each pair of input/output values, we place a dot, or point, on the grid. For example, the point for <m>K=9,~ 9=13</m>  is labeled on the grid below left.</p>   
   <p>Finally, we connect the points with a smooth curve, as shown below right.  In this case, the curve is actually a straight line.</p> 
-    <sidebyside widths="45% 45%"><image source="exm5-5-3b.png"></image><image source="exm5-5-3c.png"></image></sidebyside></li>
+    <sidebyside widths="48% 48%"><image source="exm5-5-3b.png"></image><image source="exm5-5-3c.png"></image></sidebyside></li>
   </ol></p></solution></example>
 
   <assemblage><title>How to Plot Points</title>
@@ -138,11 +138,11 @@
             <cell>300</cell></row>
         </tabular></li>
   <li><p>Connect the points with a straight line. Extend your line to the edges of the grid.</p>
-        <image source="exer5-5-3.png" width="50%"></image></li>
+        <image source="exer5-5-3.png" width="60%"></image></li>
 </ol></p></statement>
 
 <answer>
-  <image xml:id="exer5-5-3ans" width="40%">
+  <image xml:id="exer5-5-3ans" width="50%">
     <description>Line through plotted points</description>
     <latex-image>
     <![CDATA[
@@ -195,7 +195,7 @@
             <cell></cell></row>
         </tabular></li>
     <li><p>Plot the points from the table, and connect them with a straight line. Extend your line to the edges of the grid.</p></li></ol></p>
-          <image source="act5-5-1-1.png" width="60%"></image></li>
+          <image source="act5-5-1-1.png" width="70%"></image></li>
 
   <li><p>The cost of a pane of glass depends upon its area. The area of a square pane of glass is given by <m>A = s^2</m>,  where <m>s</m> is the length of one side of the square, in feet, and <m>A</m> is the area of the square, in square feet. <ol marker="a.">
       <li><p>Fill in the table for the given values of <m>s</m>.</p>
@@ -218,7 +218,7 @@
             <cell><m>\hphantom{000}</m></cell></row>
         </tabular></li>
     <li><p>Plot the points from the table, and connect them with a smooth curve. Extend your curve to the edges of the grid.</p></li></ol></p>
-        <image source="act5-5-1-1.png" width="60%"></image></li></ol></p>
+        <image source="act5-5-1-1.png" width="70%"></image></li></ol></p>
 </activity>
 
 <note><p>Look back at the graphs in Activity 5.5.1, and notice the scales on the axes. We should choose scales to fit the values of the variables.<ul>
@@ -239,7 +239,7 @@
 
 <p>Each point on the graph of an equation represents a pair of values for the variables that makes the equation true.</p>
 
-<example><statement><sidebyside widths="55% 40%" valigns="middle middle"><p>The graph shows possible values for the length <m>l</m> and width <m>w</m> of a rectangle with a given area.<ol marker="a.">
+<example><statement><sidebyside widths="55% 43%" valigns="middle middle"><p>The graph shows possible values for the length <m>l</m> and width <m>w</m> of a rectangle with a given area.<ol marker="a.">
   <li><p>What is the length of the rectangle if its width is 12 inches?</p></li>
   <li><p>Complete the table.</p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
@@ -265,7 +265,7 @@
 
 <solution><p> <ol marker="a.">
     <li><p>We find the point on the graph whose <m>w</m>-value is 12. The <m>l</m>-value of that point is 2, so the length of the rectangle is 2 inches.</p>
-          <image source="exm5-5-4-2.png" width="45%"></image></li>  
+          <image source="exm5-5-4-2.png" width="55%"></image></li>  
     <li><p>Just as we did in part (a), we find points on the graph with the given <m>w</m>-values, then read the <m>l</m>-value of each point on the vertical scale. Here is the completed table.</p>
         <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">
         <row bottom="minor">
@@ -326,7 +326,7 @@ where <m>d</m> is the length of the skid marks, in feet.</p>
             <cell><m>\hphantom{000}</m></cell></row>
         </tabular></li>
 <li><p>Plot the points from your table, and connect them with a smooth curve.</p>
-      <image source="act5-5-2.png" width="55%"></image></li>
+      <image source="act5-5-2.png" width="65%"></image></li>
 
 <li><p>If a car leaves skid marks 800 feet long, how fast was it going when it braked?</p>  
 
