@@ -318,7 +318,36 @@
 
 <p>We now know what it means to divide a number by <m>\dfrac{1}{3}</m>,  and it turns out that dividing by <m>\dfrac{1}{3}</m> is the same as multiplying by 3. What does it mean to divide a number by <m>\dfrac{2}{3}</m>?  Let's consider <m>4 \div \dfrac{2}{3}</m>. This division asks us how many groups of <m>\dfrac{2}{3}</m> can be made out of 4 wholes.</p>
 
-    <image source="divtwothirds.png" width="80%"></image>
+<!--   <image source="divtwothirds.png" width="80%"></image>--> 
+<image xml:id="divtwothirds" width="80%"><description>Four blocks each divided into 3 </description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [scale=.6]
+    \draw[black,thick, fill=cyan!25] (0,0)--++(1,0)--++(0,1.4)--++(-1,0)--cycle;
+    \draw[black,thick, fill=cyan!25] (1,0)--++(1,0)--++(0,1.4)--++(-1,0)--cycle;
+    \draw[black,thick, fill={rgb,1:red,1;green,0;blue,1}] (2,0)--++(1,0)--++(0,1.4)--++(-1,0)--cycle;
+
+    \draw[black,thick, fill={rgb,1:red,1;green,0;blue,1}] (3.2,0)--++(1,0)--++(0,1.4)--++(-1,0)--cycle;
+    \draw[black,thick, fill=cyan!25] (4.2,0)--++(1,0)--++(0,1.4)--++(-1,0)--cycle;
+    \draw[black,thick, fill=cyan!25] (5.2,0)--++(1,0)--++(0,1.4)--++(-1,0)--cycle;
+
+    \draw[black,thick, fill={rgb,1:red,1;green,0;blue,1}] (6.4,0)--++(1,0)--++(0,1.4)--++(-1,0)--cycle;
+    \draw[black,thick, fill={rgb,1:red,1;green,0;blue,1}] (7.4,0)--++(1,0)--++(0,1.4)--++(-1,0)--cycle;
+    \draw[black,thick, fill=cyan!25] (8.4,0)--++(1,0)--++(0,1.4)--++(-1,0)--cycle;
+
+    \draw[black,thick, fill=cyan!25] (9.6,0)--++(1,0)--++(0,1.4)--++(-1,0)--cycle;
+    \draw[black,thick, fill={rgb,1:red,1;green,0;blue,1}] (10.6,0)--++(1,0)--++(0,1.4)--++(-1,0)--cycle;
+    \draw[black,thick, fill={rgb,1:red,1;green,0;blue,1}] (11.6,0)--++(1,0)--++(0,1.4)--++(-1,0)--cycle;
+
+    \draw [cyan,decorate,decoration={brace,amplitude=5pt}] (2,-.3) -- ++(-2,0) node [blue,below,midway,yshift=-4pt] {${\frac{2}{3}} $};
+    \draw [magenta,decorate,decoration={brace,amplitude=5pt}] (4.2,-.3) -- ++(-2.2,0) node [text={rgb,1:red,.7;green,0;blue,.7},below,midway,yshift=-4pt] {${\frac{2}{3}}$};
+    \draw [cyan,decorate,decoration={brace,amplitude=5pt}] (6.2,-.3) -- ++(-2.,0) node [blue,below,midway,yshift=-4pt] {${\frac{2}{3}}$};
+
+    \draw [magenta,decorate,decoration={brace,amplitude=5pt}] (8.4,-.3) -- ++(-2.,0) node [text={rgb,1:red,.7;green,0;blue,.7},below,midway,yshift=-4pt] {${\frac{2}{3}}$};
+    \draw [cyan,decorate,decoration={brace,amplitude=5pt}] (10.6,-.3) -- ++(-2.2,0) node [blue,below,midway,yshift=-4pt] {${\frac{2}{3}}$};
+    \draw [magenta,decorate,decoration={brace,amplitude=5pt}] (12.6,-.3) -- ++(-2.,0) node [text={rgb,1:red,.7;green,0;blue,.7},below,midway,yshift=-4pt] {${\frac{2}{3}}$};
+
+    \end{tikzpicture}]]>
+    </latex-image></image>
 
 <p>In the picture, we see that there are 6 groups of <m>\dfrac{2}{3}</m> in 4 wholes. This tells us that
     <me>4 \div \dfrac{2}{3} = 6</me></p>
